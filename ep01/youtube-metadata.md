@@ -55,7 +55,8 @@ rainbow, why is a rainbow curved, rainbow explained, rainbow angle 42 degrees, h
 
 ## State on YouTube (2026-10-03)
 
-- URL: https://youtu.be/CywvAndxdSk, visibility Unlisted
+- URL: https://youtu.be/CywvAndxdSk, visibility Public (switched by Trường on 2026-10-03)
 - Paid promotion: No. Altered or synthetic content question: No (animation, nothing realistic)
 - End screen: template "1 video, 1 subscribe" over the last 20 seconds
 - English subtitles uploaded from `subtitles.srt`
+- Music added in the YouTube Studio editor: "Secret Conversations" (The 126ers, YouTube Audio Library, no attribution required), four segments arranged by Trường, mix level 15
