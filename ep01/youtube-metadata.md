@@ -35,8 +35,9 @@ What you'll see
 How this video was made
 Script, narration and animation were produced with AI tools. The narration uses a synthetic voice. The animations are computer simulations of light refracting and reflecting in a spherical water drop (refractive index 1.330 for red to 1.343 for violet).
 
-Reference
+References
 Wikipedia, "Rainbow": https://en.wikipedia.org/wiki/Rainbow
+HyperPhysics (Georgia State University), "Rainbows": http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/rbowpri.html
 
 #rainbow #physics #science
 
@@ -51,3 +52,10 @@ rainbow, why is a rainbow curved, rainbow explained, rainbow angle 42 degrees, h
 - Altered or synthetic content: No (animated, clearly not realistic footage); AI use is stated in the description
 - Language: English; upload `subtitles.srt` as English captions
 - Thumbnail: `thumbnail.png` (1280×720)
+
+## State on YouTube (2026-10-03)
+
+- URL: https://youtu.be/CywvAndxdSk, visibility Unlisted
+- Paid promotion: No. Altered or synthetic content question: No (animation, nothing realistic)
+- End screen: template "1 video, 1 subscribe" over the last 20 seconds
+- English subtitles uploaded from `subtitles.srt`
