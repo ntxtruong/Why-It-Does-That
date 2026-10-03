@@ -8,7 +8,7 @@ YouTube channel of animated explainers about everyday phenomena, owned by Trư�
 
 ## Decisions already made
 
-- Goal for this stage (Trường, 2026-10-03): build the channel and learn how this kind of content is made. Monetisation is not a goal for now; do not pick topics for search volume or watch hours, and do not bring up monetisation thresholds unless he asks.
+- Goal for this stage (Trường, 2026-10-03): build the channel and learn how this kind of content is made. Monetisation is not a goal for now; do not pick topics for search volume or watch hours, and do not bring up monetisation thresholds unless he asks. He works in IT and wants AI used as far as it will go at every step. Where a step still needs him (hearing audio, signing in, the final check), say so plainly and note whether it could be automated later.
 - One theme, two formats: long videos (5–8 min, one "why" question, one mechanism) and Shorts ("one surprising fact" plus a 30–45 s simulation). No listicles, no life-story content on this channel.
 - Visuals are code-drawn simulations of the real physics (HTML canvas), dark navy style, with the chibi mascot (`brand/brandkit.js`) in scenes, banner and thumbnails.
 - Voice: Kokoro (`kokoro-onnx`, Apache 2.0), voice `am_michael`, speed 0.9. Trường approved this voice and pace on episode 1.
@@ -27,7 +27,7 @@ A scheduled task opens a new session on Wednesday and Saturday morning (Vietnam 
    - Push the episode folder and `media/` files to this repo.
    - Upload to YouTube as Unlisted and fill in title, description with chapters, tags, thumbnail, subtitles, end screen (see "Uploading to YouTube"). This needs Trường's computer on, with the Claude desktop app open and its built-in browser signed in to YouTube; if it is not reachable, say so and wait.
    - Music (gate): ask Trường to listen in the Studio editor and heart the tracks he wants (they then appear under "Thư viện của bạn"), and to say which track goes where. Place them, set mix level 15, let him listen. Saving in the editor cannot be undone: he presses "Lưu", or says to save.
-   - Final report (gate): the link, what was set, anything he should look at, and two or three lines on what was new this time (a production technique, how YouTube behaved, something the numbers showed), because he wants to learn the craft. He checks and switches to Public.
+   - Final report (gate): the link, what was set, anything he should look at, and two or three lines on what was new this time (how the AI pipeline handled a step, what got automated or could not be, how YouTube behaved, something the numbers showed), because he wants to learn from building the channel. He checks and switches to Public.
    - Update the Episodes table here and push.
 
 ## Setting up a fresh session
