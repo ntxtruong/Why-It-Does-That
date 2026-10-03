@@ -1,0 +1,344 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0a1020}canvas{display:block}</style>
+<script src="timeline.js"></script></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script>
+const cv=document.getElementById('c'),g=cv.getContext('2d');
+const W=1920,H=1080,RAD=Math.PI/180;
+const BG='#0a1020',INK='#eef2f8',QUIET='#8a97ad',SUN='#f6f1e3',ACC='#ffd166',DROP='#7fb4ff';
+const SPEC=['#ff4b4b','#ff9340','#ffe04a','#58e07a','#45a8ff','#6470ff','#a56bff'];
+const NS=SPEC.map((_,i)=>1.330+0.013*i/6), NW=1.333;
+// ---------- maths ----------
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const seg=(t,a,b)=>ease((t-a)/(b-a));
+const lerp=(a,b,k)=>a+(b-a)*k;
+const sub=(a,b)=>({x:a.x-b.x,y:a.y-b.y}),add=(a,b)=>({x:a.x+b.x,y:a.y+b.y}),mul=(a,k)=>({x:a.x*k,y:a.y*k}),dot=(a,b)=>a.x*b.x+a.y*b.y;
+const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y),lerpP=(a,b,k)=>({x:lerp(a.x,b.x,k),y:lerp(a.y,b.y,k)});
+function pw(t,ks){if(t<=ks[0][0])return ks[0][1];for(let i=0;i<ks.length-1;i++){if(t<=ks[i+1][0])return lerp(ks[i][1],ks[i+1][1],ease((t-ks[i][0])/(ks[i+1][0]-ks[i][0])))}return ks[ks.length-1][1]}
+function rng(seed){let a=seed>>>0;return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function refract(d,n,eta){const ci=-dot(d,n),k=1-eta*eta*(1-ci*ci);return add(mul(d,eta),mul(n,eta*ci-Math.sqrt(Math.max(0,k))))}
+// rainbow angle (degrees from the antisolar point) for refractive index n and k internal reflections
+function bowAngle(n,k=1){const i=Math.acos(Math.sqrt((n*n-1)/(k*(k+2)))),r=Math.asin(Math.sin(i)/n);return k===1?(4*r-2*i)/RAD:(2*i-6*r)/RAD+180}
+// trace a ray entering at impact parameter b (-1..1, positive = upper half) through a spherical drop
+function trace(b,n,C,R,k=1,x0=-40){
+  const P1={x:C.x-R*Math.sqrt(1-b*b),y:C.y-b*R},pts=[{x:x0,y:P1.y},P1];
+  let d=refract({x:1,y:0},mul(sub(P1,C),1/R),1/n),P=P1;const dIn=d;
+  for(let j=0;j<k;j++){P=add(P,mul(d,-2*dot(sub(P,C),d)));pts.push(P);const nn=mul(sub(C,P),1/R);d=sub(d,mul(nn,2*dot(d,nn)))}
+  P=add(P,mul(d,-2*dot(sub(P,C),d)));pts.push(P);
+  const dout=refract(d,mul(sub(C,P),1/R),n);pts.push(add(P,mul(dout,2400)));
+  return {pts,dout,dIn,ang:Math.atan2(dout.y,-dout.x)/RAD,E:P};
+}
+function progs(p,pts){const n=pts.length-1,w=[];for(let i=0;i<n;i++)w.push(i===0?520:i===n-1?700:dist(pts[i],pts[i+1])*2.2);const tot=w.reduce((a,b)=>a+b,0);let acc=0;return w.map(x=>{const f0=acc/tot;acc+=x;return clamp((p-f0)/(x/tot))})}
+// ---------- drawing ----------
+function drawRay(pts,pr,c0,c1,a,lw){if(a<=0)return;g.globalAlpha=a;g.lineWidth=lw;g.lineCap='round';g.lineJoin='round';
+  for(const [from,to,col] of [[0,1,c0],[1,pts.length-1,c1]]){g.strokeStyle=col;g.beginPath();let st=false;
+    for(let i=from;i<to;i++){const k=clamp(pr[i]);if(k<=0)break;const A=pts[i],B=lerpP(A,pts[i+1],k);if(!st){g.moveTo(A.x,A.y);st=true}g.lineTo(B.x,B.y);if(k<1)break}
+    if(st)g.stroke()}
+  g.globalAlpha=1}
+function text(s,x,y,size,color,alpha=1,weight=500,align='left'){if(alpha<=0)return;g.globalAlpha=clamp(alpha);g.fillStyle=color;g.font=`${weight} ${size}px Inter`;g.textAlign=align;g.textBaseline='alphabetic';g.fillText(s,x,y);g.globalAlpha=1}
+function line(x1,y1,x2,y2,col,a=1,lw=2,dash=null){if(a<=0)return;g.globalAlpha=clamp(a);g.strokeStyle=col;g.lineWidth=lw;g.lineCap='round';if(dash)g.setLineDash(dash);g.beginPath();g.moveTo(x1,y1);g.lineTo(x2,y2);g.stroke();g.setLineDash([]);g.globalAlpha=1}
+function drawDrop(C,R,a=1,s=1){if(a<=0)return;g.beginPath();g.arc(C.x,C.y,R*s,0,7);g.globalAlpha=a;g.fillStyle='rgba(127,180,255,0.09)';g.fill();g.lineWidth=Math.max(1.5,R/80);g.strokeStyle=DROP;g.globalAlpha=.9*a;g.stroke();g.globalAlpha=1}
+function fadeMask(a){if(a<=0)return;g.globalAlpha=clamp(a);g.fillStyle=BG;g.fillRect(0,0,W,H);g.globalAlpha=1}
+function person(x,y,s,col,a=1){if(a<=0)return;g.globalAlpha=a;g.strokeStyle=col;g.fillStyle=col;g.lineWidth=6*s;g.lineCap='round';
+  g.beginPath();g.arc(x,y-78*s,11*s,0,7);g.fill();
+  g.beginPath();g.moveTo(x,y-64*s);g.lineTo(x,y-30*s);g.moveTo(x,y-30*s);g.lineTo(x-10*s,y);g.moveTo(x,y-30*s);g.lineTo(x+10*s,y);g.moveTo(x-13*s,y-44*s);g.lineTo(x,y-58*s);g.lineTo(x+13*s,y-44*s);g.stroke();g.globalAlpha=1}
+function angleMark(E,a,rad,col,alpha,label,lsize=44){ // angle between "straight back toward the sun" and a ray leaving down-left at a degrees
+  if(alpha<=0)return;line(E.x,E.y,E.x-rad-150,E.y,QUIET,alpha,2,[10,10]);
+  g.globalAlpha=clamp(alpha);g.strokeStyle=col;g.lineWidth=4;g.beginPath();g.arc(E.x,E.y,rad,Math.PI-a*RAD,Math.PI);g.stroke();g.globalAlpha=1;
+  if(label){const m=Math.PI-(a+15)*RAD;text(label,E.x+Math.cos(m)*(rad+40),E.y+Math.sin(m)*(rad+40)+lsize*0.35,lsize,col,alpha,700,'center')}}
+function bow(cx,cy,ppd,a,k=1,only=null){if(a<=0)return;g.save();g.globalCompositeOperation='lighter';
+  NS.forEach((n,i)=>{if(only!==null&&i!==only)return;const r=bowAngle(n,k)*ppd;g.strokeStyle=SPEC[i];g.globalAlpha=clamp(a);g.lineWidth=(k===1?0.36:0.62)*ppd;g.shadowColor=SPEC[i];g.shadowBlur=16;g.beginPath();g.arc(cx,cy,r,0,2*Math.PI);g.stroke()});g.restore()}
+function qmark(cx,cy,s,rot){g.save();g.translate(cx,cy);g.rotate(rot*RAD);const c=g.createConicGradient(170*RAD,0,0);[0,.105,.21,.32,.43,.535,.64].forEach((p,i)=>c.addColorStop(p,SPEC[i]));c.addColorStop(.9,SPEC[6]);c.addColorStop(.97,SPEC[0]);c.addColorStop(1,SPEC[0]);
+  const path=()=>{const r=135*s,ex=r*Math.cos(40*RAD),ey=r*Math.sin(40*RAD);g.beginPath();g.arc(0,0,r,170*RAD,400*RAD);g.bezierCurveTo(ex-0.64*78*s,ey+0.77*78*s,0,150*s,0,238*s)};
+  g.lineCap='round';g.lineJoin='round';g.strokeStyle='#ffffff';g.lineWidth=84*s+16;path();g.stroke();g.fillStyle='#ffffff';g.beginPath();g.arc(0,368*s,50*s+8,0,7);g.fill();
+  g.strokeStyle=c;g.lineWidth=84*s;path();g.stroke();g.fillStyle=SPEC[6];g.beginPath();g.arc(0,368*s,50*s,0,7);g.fill();g.restore()}
+function star(x,y,r,col){g.fillStyle=col;g.beginPath();for(let i=0;i<8;i++){const a=i*Math.PI/4,rr=i%2?r*0.32:r;g.lineTo(x+Math.cos(a-Math.PI/2)*rr,y+Math.sin(a-Math.PI/2)*rr)}g.closePath();g.fill()}
+// the channel mascot: x = centre, yFeet = bottom of the shoes, s = scale (1 = 714 px tall)
+function chibi(x,yFeet,s,o={}){const a=o.a??1;if(a<=0)return;g.save();g.globalAlpha=a;g.globalCompositeOperation='source-over';g.translate(x,yFeet-890*s);g.scale(s,s);const SKIN='#f6e3d3',HAIR='#15161d',CLOTH='#1b1d27',shapes=[],S=(b,f)=>shapes.push({b,f});
+  S(()=>{g.beginPath();g.roundRect(-70,740,58,124,22)},'#2a2f40');S(()=>{g.beginPath();g.roundRect(12,740,58,124,22)},'#2a2f40');
+  S(()=>{g.beginPath();g.ellipse(-46,866,46,24,0,0,7)},'#eef2f8');S(()=>{g.beginPath();g.ellipse(46,866,46,24,0,0,7)},'#eef2f8');
+  S(()=>{g.beginPath();g.moveTo(-122,772);g.quadraticCurveTo(-156,604,-74,566);g.lineTo(74,566);g.quadraticCurveTo(156,604,122,772);g.quadraticCurveTo(0,800,-122,772);g.closePath()},CLOTH);
+  S(()=>{g.beginPath();g.ellipse(0,400,200,182,0,0,7)},HAIR);S(()=>{g.beginPath();g.ellipse(0,424,172,156,0,0,7)},SKIN);
+  S(()=>{g.beginPath();g.ellipse(0,400,200,182,0,Math.PI,2*Math.PI);g.lineTo(176,430);g.quadraticCurveTo(120,338,92,398);g.quadraticCurveTo(44,338,4,394);g.quadraticCurveTo(-40,338,-88,398);g.quadraticCurveTo(-124,338,-176,430);g.closePath()},HAIR);
+  S(()=>{g.beginPath();g.ellipse(0,372,204,196,0,Math.PI,2*Math.PI);g.closePath()},o.hat||'#22252f');S(()=>{g.beginPath();g.roundRect(-212,326,424,62,28)},o.cuff||'#3a4056');
+  g.lineJoin='round';g.strokeStyle='#ffffff';g.lineWidth=22;shapes.forEach(q=>{q.b();g.stroke()});shapes.forEach(q=>{q.b();g.fillStyle=q.f;g.fill()});
+  [-68,68].forEach(ex=>{g.fillStyle='#1b1e2c';g.beginPath();g.ellipse(ex,452,27,35,0,0,7);g.fill();g.fillStyle='#fff';g.beginPath();g.arc(ex-9,438,10,0,7);g.fill();g.beginPath();g.arc(ex+10,464,5,0,7);g.fill()});
+  g.fillStyle='rgba(255,120,130,0.45)';g.beginPath();g.ellipse(-112,494,30,17,0,0,7);g.fill();g.beginPath();g.ellipse(112,494,30,17,0,0,7);g.fill();
+  g.strokeStyle='#7a4a45';g.lineWidth=7;g.lineCap='round';g.beginPath();g.arc(0,496,17,0.15*Math.PI,0.85*Math.PI);g.stroke();
+  g.strokeStyle='#30364a';g.lineWidth=9;g.beginPath();g.moveTo(-70,580);g.quadraticCurveTo(0,650,70,580);g.stroke();
+  g.fillStyle=SKIN;g.strokeStyle=CLOTH;g.lineWidth=5;[-21,21].forEach(hx=>{g.beginPath();g.arc(hx,712,24,0,7);g.fill();g.stroke()});
+  if(o.q){qmark(255,212,0.31,12);star(177,150,22,ACC);star(307,372,15,ACC)}g.restore()}
+// ---------- shared: front view (what the observer sees) ----------
+const A1=NS.map(n=>bowAngle(n,1)),A2=NS.map(n=>bowAngle(n,2));
+const DOTS=(()=>{const r=rng(7);return Array.from({length:3200},()=>({x:r()*W,y:r()*H,v:40+r()*50}))})();
+function frontView(o){ // o:{t,cx,cy,hz,ppd,mode:'none'|'red'|'all',bowA,secA,groundA,guideA,glowIn,band,dotsA}
+  const {t,cx,cy,hz,ppd}=o,groundA=o.groundA??1,dotsA=o.dotsA??1;
+  const gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,'#0a1020');gr.addColorStop(1,'#1a2947');g.fillStyle=gr;g.fillRect(0,0,W,H);
+  g.save();g.beginPath();g.rect(0,0,W,groundA>=1?hz:H);g.clip();
+  if(o.glowIn>0){const rr=A1[6]*ppd,gg=g.createRadialGradient(cx,cy,rr*0.2,cx,cy,rr);gg.addColorStop(0,'rgba(200,220,255,0.02)');gg.addColorStop(1,'rgba(200,220,255,0.16)');g.globalAlpha=o.glowIn;g.fillStyle=gg;g.beginPath();g.arc(cx,cy,rr,0,7);g.fill();g.globalAlpha=1}
+  if(o.band>0){g.globalAlpha=o.band*0.5;g.fillStyle='#050912';g.beginPath();g.arc(cx,cy,A2[0]*ppd-4,0,7);g.arc(cx,cy,A1[0]*ppd+4,0,7,true);g.fill('evenodd');g.globalAlpha=1}
+  // drops
+  g.globalCompositeOperation='lighter';
+  for(const d of DOTS){const y=(d.y+d.v*t)%H,th=Math.hypot(d.x-cx,y-cy)/ppd;let col=null;
+    if(o.mode==='red'){if(Math.abs(th-A1[0])<0.32)col=SPEC[0]}
+    else if(o.mode==='all'){if(th>A1[6]-0.16&&th<A1[0]+0.16)col=SPEC[clamp(Math.round((A1[0]-th)/(A1[0]-A1[6])*6),0,6)];
+      else if(o.secA>0&&th>A2[0]-0.28&&th<A2[6]+0.28)col=SPEC[clamp(Math.round((th-A2[0])/(A2[6]-A2[0])*6),0,6)]}
+    const sec=col&&th>46;
+    if(col){g.globalAlpha=(sec?0.34*o.secA:0.95*(o.bowA??1))*dotsA;g.fillStyle=col;g.beginPath();g.arc(d.x,y,sec?3:4.2,0,7);g.fill()}
+    else{g.globalAlpha=0.22*dotsA;g.fillStyle=DROP;g.beginPath();g.arc(d.x,y,1.7,0,7);g.fill()}}
+  g.globalCompositeOperation='source-over';g.globalAlpha=1;
+  if(o.mode==='red')bow(cx,cy,ppd,0.42*(o.bowA??1),1,0);
+  if(o.mode==='all'){bow(cx,cy,ppd,0.5*(o.bowA??1),1);if(o.secA>0)bow(cx,cy,ppd,0.11*o.secA,2)}
+  g.restore();
+  if(groundA>0){g.globalAlpha=groundA;g.fillStyle='#070c18';g.fillRect(0,hz,W,H-hz);g.globalAlpha=1;line(0,hz,W,hz,'#2a3a5c',groundA,2)}
+  if(o.guideA>0){g.save();g.beginPath();g.rect(0,hz,W,H-hz);g.clip();g.globalAlpha=o.guideA*0.5;g.strokeStyle=QUIET;g.lineWidth=2;g.setLineDash([8,12]);g.beginPath();g.arc(cx,cy,A1[0]*ppd,0,7);g.stroke();g.setLineDash([]);g.restore();g.globalAlpha=1}
+}
+function headShadow(cx,cy,a,label='shadow of your head',below=true){a*=clamp((H-14-cy)/30);if(a<=0)return;g.globalAlpha=a*0.9;g.fillStyle='#02040a';g.beginPath();g.moveTo(cx-90,H+10);g.lineTo(cx-16,cy+10);g.arc(cx,cy,17,Math.PI,0);g.lineTo(cx+90,H+10);g.closePath();g.fill();g.globalAlpha=1;
+  g.globalAlpha=a;g.strokeStyle=ACC;g.lineWidth=3;g.beginPath();g.arc(cx,cy,7,0,7);g.stroke();g.globalAlpha=1;text(label,cx+34,cy+(below?10:10),30,ACC,a,600)}
+// ---------- scenes ----------
+const SC={};
+// 1. hook
+SC.hook=(t,B,E,dur)=>{const hz=800,ppd=12,e=18;
+  const ox=pw(t,[[B(2),960],[E(2)+0.3,1270]]),cy=hz+e*ppd;
+  const solid=1-seg(t,B(3)+0.4,B(3)+1.6);
+  frontView({t,cx:ox,cy,hz,ppd,mode:'all',bowA:seg(t,0.2,1.6)*(0.25+0.75*solid),dotsA:0.5});
+  // landmarks on the horizon stay put
+  const r=rng(3);for(let i=0;i<9;i++){const x=120+i*215+r()*60,h=34+r()*46;g.fillStyle='#070c18';g.beginPath();g.moveTo(x-18,hz+1);g.lineTo(x,hz-h);g.lineTo(x+18,hz+1);g.fill()}
+  // ground lines sliding toward the viewer while walking forward
+  const walk=seg(t,B(1),B(1)+0.6)*(1-seg(t,E(1),E(1)+0.5)),ph=(t*0.35)%1;
+  for(let k=0;k<7;k++){const u=((k+(walk>0?ph:0.4))%7)/7,y=hz+(H-hz)*u*u;line(0,y,W,y,'#1b2a4a',0.9*(0.3+0.7*u),2)}
+  const bob=walk*Math.sin(t*9)*5+seg(t,B(2),B(2)+0.3)*(1-seg(t,E(2),E(2)+0.3))*Math.sin(t*9)*5;
+  chibi(ox,1056+bob,0.30,{a:seg(t,0.3,1.2),q:true});
+  if(solid<1){g.save();g.beginPath();g.rect(0,0,W,hz);g.clip();g.globalAlpha=(1-solid)*0.8;g.strokeStyle=INK;g.lineWidth=2.5;g.setLineDash([14,12]);g.beginPath();g.arc(ox,cy,41.6*ppd,0,7);g.stroke();g.setLineDash([]);g.restore();g.globalAlpha=1}
+  text('It never gets closer.',110,170,46,INK,seg(t,B(1)+1.2,B(1)+1.8)*(1-seg(t,B(2)-0.3,B(2))),500);
+  text('It follows you.',110,170,46,INK,seg(t,B(2)+0.8,B(2)+1.4)*(1-seg(t,B(3)-0.3,B(3))),500);
+  text('Not a thing in the sky.',110,150,50,INK,seg(t,B(3)+0.6,B(3)+1.2)*(1-seg(t,B(4)+2.3,B(4)+2.8)),500);
+  text('An angle.',110,220,50,ACC,seg(t,B(3)+2.8,B(3)+3.3)*(1-seg(t,B(4)+2.3,B(4)+2.8)),700);
+  const ta=seg(t,B(4)+2.8,B(4)+3.5);
+  if(ta>0){fadeMask(ta*0.72);text('42°',960,470,300,ACC,ta,800,'center');text('Why is a rainbow always at the same angle?',960,610,56,INK,ta,600,'center')}
+};
+// 2. one drop, one ray
+SC.oneray=(t,B,E,dur)=>{const C={x:1180,y:520},R=270,q=trace(0.80,NW,C,R,1),P=q.pts;
+  drawDrop(C,R,1,seg(t,0.2,1.1));text('one raindrop',C.x,C.y-R-30,30,QUIET,seg(t,0.9,1.6),500,'center');
+  // teardrop vs sphere
+  const ia=seg(t,B(1)+0.3,B(1)+0.9)*(1-seg(t,E(1)-0.2,E(1)+0.3));
+  if(ia>0){const x=250,y=790;g.globalAlpha=ia;g.strokeStyle=QUIET;g.lineWidth=3;g.beginPath();g.moveTo(x,y-78);g.bezierCurveTo(x+62,y+6,x+50,y+56,x,y+56);g.bezierCurveTo(x-50,y+56,x-62,y+6,x,y-78);g.stroke();
+    g.strokeStyle='#ff5d52';g.lineWidth=6;g.beginPath();g.moveTo(x-58,y-58);g.lineTo(x+58,y+58);g.moveTo(x+58,y-58);g.lineTo(x-58,y+58);g.stroke();
+    g.strokeStyle=DROP;g.lineWidth=3;g.beginPath();g.arc(x+250,y,56,0,7);g.stroke();g.globalAlpha=1;
+    text('not this',x,y+118,30,QUIET,ia,500,'center');text('this',x+250,y+118,30,INK,ia,600,'center')}
+  const p0=clamp((t-(B(0)+1.4))/((B(2)+0.9)-(B(0)+1.4))),p1=seg(t,B(2)+0.9,B(3)+1.0),p2=seg(t,B(4)+0.1,B(4)+1.9),p3=seg(t,B(4)+2.1,B(4)+4.2);
+  // where the ray would have gone without bending
+  line(P[1].x,P[1].y,P[1].x+230,P[1].y,QUIET,seg(t,B(2)+1.6,B(2)+2.2)*0.8,2,[8,10]);
+  // the part that escapes through the back
+  const back=refract(q.dIn,mul(sub(C,P[2]),1/R),NW),ba=seg(t,B(3)+1.2,B(3)+2.4);
+  if(ba>0)line(P[2].x,P[2].y,P[2].x+back.x*900*ba,P[2].y+back.y*900*ba,SUN,0.28,3);
+  g.globalCompositeOperation='lighter';drawRay(P,[p0,p1,p2,p3],SUN,SUN,0.95,4.5);g.globalCompositeOperation='source-over';
+  const boost=seg(t,B(5),B(5)+0.6);if(boost>0)drawRay([P[3],P[4]],[1],ACC,ACC,boost*0.9,6);
+  text('sunlight',110,P[0].y-24,30,QUIET,seg(t,B(0)+1.6,B(0)+2.2),500);
+  const lab=(s,x,y,a,al='left',c=INK)=>text(s,x,y,34,c,a,600,al);
+  lab('1  bends going in',P[1].x-40,P[1].y-34,seg(t,B(2)+1.4,B(2)+2.0),'right');
+  lab('2  part reflects',P[2].x+36,P[2].y+62,seg(t,B(3)+1.4,B(3)+2.0));
+  text('(the rest escapes)',P[2].x+36,P[2].y+104,28,QUIET,seg(t,B(3)+2.0,B(3)+2.6),500);
+  lab('3  bends again going out',P[3].x+44,P[3].y+72,seg(t,B(4)+2.6,B(4)+3.2));
+  text('back toward the sun’s side',110,960,44,ACC,seg(t,B(5)+0.5,B(5)+1.1),600);
+};
+// shared layout for sweep + pile-up
+const C3={x:620,y:400},R3=240,GX=1160,GY=820,GW=620,GH=500,YMAX=50;
+const gx=b=>GX+b*GW,gy=a=>GY-a/YMAX*GH;
+const BMAX=Math.sqrt(1-(NW*NW-1)/3),AMAX=bowAngle(NW,1);
+function graph(a,bTo,opt={}){if(a<=0)return;
+  for(const v of [10,20,30,40])line(GX,gy(v),GX+GW,gy(v),'#1e2b47',a,1.5);
+  line(GX,GY,GX+GW,GY,QUIET,a,2);line(GX,GY,GX,GY-GH,QUIET,a,2);
+  for(const v of [0,10,20,30,40])text(v+'°',GX-16,gy(v)+10,26,QUIET,a,500,'right');
+  text('angle it comes back at',GX,GY-GH-24,28,QUIET,a,500);
+  text('where the ray enters the drop',GX+GW/2,GY+86,28,QUIET,a,500,'center');text('centre',GX,GY+42,26,QUIET,a,500);text('edge',GX+GW,GY+42,26,QUIET,a,500,'right');
+  g.globalAlpha=a;g.strokeStyle=INK;g.lineWidth=4;g.lineJoin='round';g.beginPath();
+  for(let i=0;i<=300;i++){const b=bTo*i/300,an=trace(Math.min(b,0.9995),NW,C3,R3).ang;i?g.lineTo(gx(b),gy(an)):g.moveTo(gx(b),gy(an))}g.stroke();g.globalAlpha=1;
+  if(opt.flat>0){g.globalAlpha=a*opt.flat;g.strokeStyle=ACC;g.lineWidth=7;g.beginPath();let st=false;for(let i=0;i<=300;i++){const b=i/300*0.9995,an=trace(b,NW,C3,R3).ang;if(AMAX-an<1){st?g.lineTo(gx(b),gy(an)):g.moveTo(gx(b),gy(an));st=true}}g.stroke();g.globalAlpha=1}
+  if(opt.max>0){line(GX,gy(AMAX),GX+GW,gy(AMAX),ACC,a*opt.max,2,[10,10]);text('42°',GX+GW+16,gy(AMAX)+12,36,ACC,a*opt.max,700)}
+}
+// 3. sweep one ray from centre to edge
+SC.sweep=(t,B,E,dur)=>{
+  const b=pw(t,[[B(2),0.0005],[E(2),0.30],[B(3),0.30],[E(3),0.70],[B(4),0.70],[E(4),0.80],[B(5),0.80],[B(5)+2.4,BMAX],[B(5)+5.6,BMAX],[E(5)+0.5,0.985]]);
+  const q=trace(b,NW,C3,R3),p=clamp((t-0.6)/2.6);
+  drawDrop(C3,R3,seg(t,0,0.6));
+  g.globalCompositeOperation='lighter';drawRay(q.pts,progs(p,q.pts),SUN,SUN,0.95,4.5);g.globalCompositeOperation='source-over';
+  const atMax=seg(t,B(5)+2.0,B(5)+2.6)*(1-seg(t,B(5)+5.6,B(5)+6.2)),ma=seg(t,B(1)+0.4,B(1)+1.0);
+  const col=atMax>0.5?ACC:INK;
+  angleMark(q.E,Math.max(q.ang,0.01),150,col,ma,Math.round(q.ang)+'°',46);
+  // entry point marker
+  g.globalAlpha=ma;g.fillStyle=ACC;g.beginPath();g.arc(q.pts[1].x,q.pts[1].y,8,0,7);g.fill();g.globalAlpha=1;
+  const ga=seg(t,B(1)+0.2,B(1)+1.0);graph(ga,b,{max:seg(t,B(5)+2.0,B(5)+2.8)});
+  g.globalAlpha=ga;g.fillStyle=ACC;g.beginPath();g.arc(gx(b),gy(q.ang),9,0,7);g.fill();g.globalAlpha=1;
+  text('dead centre: straight back',110,100,42,INK,seg(t,B(1)+0.5,B(1)+1.0)*(1-seg(t,B(2)-0.2,B(2)+0.2)),500);
+  text('maximum: about 42°',110,100,42,ACC,atMax,600);
+  text('…and then it shrinks again',110,100,42,INK,seg(t,B(5)+6.2,B(5)+6.8),500);
+};
+// 4. the pile-up
+const HIST=(()=>{const h=new Array(46).fill(0);for(let i=0;i<40000;i++){const b=(i+0.5)/40000,a=trace(b,NW,C3,R3).ang;h[clamp(Math.floor(a),0,45)]+=b}const m=Math.max(...h);return h.map(v=>v/m)})();
+SC.pileup=(t,B,E,dur)=>{
+  const many=seg(t,B(5)-0.2,B(5)+0.6);
+  const ga=1-seg(t,B(4)+0.2,B(4)+1.0);
+  if(many<1){
+    drawDrop(C3,R3,1);
+    const h0=1-seg(t,B(1)+0.6,B(1)+1.4);if(h0>0){const q=trace(BMAX,NW,C3,R3);g.globalCompositeOperation='lighter';drawRay(q.pts,[1,1,1,1],SUN,ACC,0.9*h0,4.5);g.globalCompositeOperation='source-over';angleMark(q.E,AMAX,150,ACC,h0,'42°',46)}
+    graph(ga,0.9995,{flat:seg(t,B(0)+0.4,B(0)+1.4),max:1});
+    // two equal steps: steep part vs flat top
+    const demo=(b0,b1,a,col,lab,ly)=>{if(a<=0)return;g.globalCompositeOperation='lighter';for(let i=0;i<6;i++){const q=trace(lerp(b0,b1,i/5),NW,C3,R3);drawRay(q.pts,[1,1,1,1],SUN,col,0.55*a,3)}g.globalCompositeOperation='source-over';
+      const a0=trace(b0,NW,C3,R3).ang,a1=trace(b1,NW,C3,R3).ang;g.globalAlpha=a*0.22*ga;g.fillStyle=col;g.fillRect(gx(b0),gy(Math.max(a0,a1)),gx(b1)-gx(b0),GY-gy(Math.max(a0,a1)));g.fillRect(GX,gy(Math.max(a0,a1)),gx(b0)-GX,Math.max(4,Math.abs(gy(a0)-gy(a1))));g.globalAlpha=1;
+      text(lab,110,ly,42,col,a,600)};
+    demo(0.28,0.36,seg(t,B(1)+1.2,B(1)+2.0)*(1-seg(t,B(2)-0.3,B(2)+0.2)),'#7fd0ff','small step in → wide spread out',100);
+    demo(BMAX-0.04,BMAX+0.04,seg(t,B(2)+0.6,B(2)+1.4)*(1-seg(t,B(3)-0.3,B(3)+0.2)),ACC,'same step in → almost no spread',100);
+    // every ray at once
+    const N=64,focus=seg(t,B(4)+0.2,B(4)+1.4);g.globalCompositeOperation='lighter';
+    for(let k=0;k<N;k++){const b=0.02+0.97*k/(N-1),s=B(3)+3.2+k*((E(3)-B(3)-4.4)/N),p=clamp((t-s)/1.6);if(p<=0)continue;const q=trace(b,NW,C3,R3),near=AMAX-q.ang<1.6;
+      drawRay(q.pts,progs(p,q.pts),SUN,near?ACC:SUN,near?0.5:0.26*(1-0.8*focus),2.2)}
+    g.globalCompositeOperation='source-over';
+    // histogram of returned light
+    const ha=seg(t,B(4)+0.6,B(4)+1.4);
+    if(ha>0){line(GX,GY,GX+GW,GY,QUIET,ha,2);text('how much light comes back at each angle',GX,GY-GH-24,28,QUIET,ha,500);
+      for(const v of [0,10,20,30,40])text(v+'°',GX+v/45*GW,GY+42,26,QUIET,ha,500,'center');
+      const gr=seg(t,B(4)+1.2,B(4)+3.2);HIST.forEach((v,i)=>{if(i>44)return;const x=GX+i/45*GW,h=v*GH*0.92*gr;g.globalAlpha=ha;g.fillStyle=i>=41?ACC:'#4a5f8c';g.fillRect(x+1,GY-h,GW/45-2,h)});g.globalAlpha=1;
+      text('42°',GX+41.9/45*GW,GY-GH*0.92-18,40,ACC,ha*seg(t,B(4)+3.0,B(4)+3.6),700,'center')}
+    const E0=trace(BMAX,NW,C3,R3).E;angleMark(E0,AMAX,170,ACC,seg(t,B(4)+2.4,B(4)+3.2),'42°',50);
+  }
+  if(many>0){fadeMask(many);const r=rng(11);
+    for(let j=0;j<3;j++)for(let i=0;i<5;i++){const C={x:330+i*340+(j%2)*120+r()*40,y:120+j*285+r()*30},R=44,k=j*5+i,a=many*seg(t,B(5)+0.3+k*0.12,B(5)+0.9+k*0.12);if(a<=0)continue;
+      drawDrop(C,R,a);g.globalCompositeOperation='lighter';
+      for(let m=0;m<7;m++){const q=trace(BMAX-0.06+m*0.02,NW,C,R,1,C.x-230);const pr=[1,1,1,clamp(230/2400)];drawRay(q.pts,pr,SUN,ACC,0.34*a,2)}
+      g.globalCompositeOperation='source-over'}
+    text('every drop: a cone of light at 42°',960,1010,44,ACC,seg(t,B(5)+1.6,B(5)+2.3),600,'center')}
+};
+// 5. colours
+SC.colours=(t,B,E,dur)=>{const C={x:1390,y:340},R=250,b=0.859;
+  drawDrop(C,R,1,seg(t,0,0.7));
+  const qs=NS.map(n=>trace(b,n,C,R));
+  const p0=seg(t,B(0)+0.6,B(1)+0.6),p1=seg(t,B(1)+0.8,B(1)+3.2),p2=seg(t,B(1)+3.2,B(2)+0.4),p3=seg(t,B(2)+0.4,B(2)+2.6);
+  g.globalCompositeOperation='lighter';
+  qs.forEach((q,i)=>drawRay(q.pts,[p0,p1,p2,p3],SUN,SPEC[i],0.9,i===0?4:3.2));
+  g.globalCompositeOperation='source-over';
+  text('white sunlight',110,qs[0].pts[0].y-24,30,QUIET,seg(t,B(0)+0.8,B(0)+1.4),500);
+  // magnifier on the outgoing beams
+  const mid=qs[3],M=add(mid.E,mul(mid.dout,600)),ma=seg(t,B(2)+2.4,B(2)+3.2),D={x:470,y:640},RR=190,Z=7;
+  if(ma>0){const sw=2*RR/Z;g.save();g.globalAlpha=ma;g.beginPath();g.arc(D.x,D.y,RR,0,7);g.clip();g.fillStyle=BG;g.fillRect(D.x-RR,D.y-RR,2*RR,2*RR);g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';g.drawImage(cv,M.x-sw/2,M.y-sw/2,sw,sw,D.x-RR,D.y-RR,2*RR,2*RR);g.restore();
+    g.globalAlpha=ma;g.strokeStyle=INK;g.lineWidth=3;g.beginPath();g.arc(D.x,D.y,RR,0,7);g.stroke();g.beginPath();g.arc(M.x,M.y,sw/2+3,0,7);g.stroke();g.globalAlpha=1;
+    const u={x:(M.x-D.x)/dist(M,D),y:(M.y-D.y)/dist(M,D)};line(D.x+u.x*RR,D.y+u.y*RR,M.x-u.x*(sw/2+3),M.y-u.y*(sw/2+3),INK,ma*0.7,2);
+    text('7× closer',D.x,D.y+RR+44,28,QUIET,ma,500,'center')}
+  text('red  '+A1[0].toFixed(1)+'°',110,330,54,SPEC[0],seg(t,B(2)+3.0,B(2)+3.6),700);
+  text('violet  '+A1[6].toFixed(1)+'°',110,405,54,SPEC[6],seg(t,B(2)+5.6,B(2)+6.2),700);
+  SPEC.forEach((c,i)=>{const a=seg(t,B(3)+0.2+i*0.18,B(3)+0.7+i*0.18);if(a<=0)return;g.globalAlpha=a;g.fillStyle=c;g.fillRect(110+i*62,150,54,54);g.globalAlpha=1});
+  text('each colour, its own angle',110,250,36,INK,seg(t,B(3)+1.2,B(3)+1.8),500);
+};
+// shared: side view (sun behind you, rain in front)
+const RAIN=(()=>{const r=rng(21);return Array.from({length:800},()=>({x:700+r()*1260,y:r()*860,v:46+r()*30}))})();
+function sideView(o){ // o:{t,obs:[{x,a,lines,col}],e,mode:'none'|'red'|'all',sunA}
+  const GYD=900,e=o.e,s={x:Math.cos(e*RAD),y:Math.sin(e*RAD)},t=o.t;
+  const sg=g.createRadialGradient(-80,60,10,-80,60,900);sg.addColorStop(0,'rgba(255,225,150,0.30)');sg.addColorStop(1,'rgba(255,225,150,0)');g.fillStyle=sg;g.fillRect(0,0,W,H);
+  for(let k=0;k<9;k++){const y0=-560+k*150;line(-20,y0,-20+s.x*2300,y0+s.y*2300,SUN,0.10*(o.sunA??1),2)}
+  g.fillStyle='#070c18';g.fillRect(0,GYD,W,H-GYD);line(0,GYD,W,GYD,'#2a3a5c',1,2);
+  const eyes=o.obs.filter(p=>p.a>0).map(p=>({...p,E:{x:p.x+14,y:GYD-112}}));
+  g.globalCompositeOperation='lighter';
+  for(const d of RAIN){const y=(d.y+d.v*t)%860+30;let lit=null,who=null;
+    if(o.mode!=='none')for(const p of eyes){const v={x:d.x-p.E.x,y:y-p.E.y},L=Math.hypot(v.x,v.y),th=Math.acos(clamp((v.x*s.x+v.y*s.y)/L,-1,1))/RAD;
+      if(v.x*s.y-v.y*s.x<0)continue; // only the side above the antisolar line
+      if(o.mode==='red'){if(Math.abs(th-A1[0])<0.55){lit=SPEC[0];who=p}}
+      else if(th>A1[6]-0.35&&th<A1[0]+0.35){lit=SPEC[clamp(Math.round((A1[0]-th)/(A1[0]-A1[6])*6),0,6)];who=p}
+      if(lit)break}
+    if(lit){const a=who.a*(o.litA??1);g.globalAlpha=(o.mode==='red'?0.26:0.10)*a;g.strokeStyle=lit;g.lineWidth=2;g.beginPath();g.moveTo(d.x,y);g.lineTo(who.E.x,who.E.y);g.stroke();
+      g.globalAlpha=0.5*a;g.strokeStyle=SUN;g.beginPath();g.moveTo(d.x-s.x*70,y-s.y*70);g.lineTo(d.x,y);g.stroke();
+      g.globalAlpha=a;g.fillStyle=lit;g.beginPath();g.arc(d.x,y,6,0,7);g.fill()}
+    else{g.globalAlpha=0.30;g.fillStyle=DROP;g.beginPath();g.arc(d.x,y,2.4,0,7);g.fill()}}
+  g.globalCompositeOperation='source-over';g.globalAlpha=1;
+  for(const p of eyes){chibi(p.x,GYD+6,0.27,{a:p.a,hat:p.hat,cuff:p.cuff});
+    const la=p.a*(p.lines??0);if(la<=0)continue;const L=(GYD-p.E.y)/s.y,S={x:p.E.x+s.x*L,y:GYD};
+    line(p.x,GYD+3,S.x,GYD+3,'#000',la*0.8,7);line(p.E.x,p.E.y,S.x,S.y,QUIET,la,2,[10,10]);
+    const u={x:Math.cos((e-A1[0])*RAD),y:Math.sin((e-A1[0])*RAD)};line(p.E.x,p.E.y,p.E.x+u.x*1700,p.E.y+u.y*1700,p.lc||ACC,la*0.55,2,[4,10]);
+    g.globalAlpha=la;g.strokeStyle=p.lc||ACC;g.lineWidth=4;g.beginPath();g.arc(p.E.x,p.E.y,230,(e-A1[0])*RAD,e*RAD);g.stroke();g.globalAlpha=1;
+    if(p.label){const m=(e-A1[0]/2)*RAD;text('42°',p.E.x+Math.cos(m)*300,p.E.y+Math.sin(m)*300+16,48,ACC,la,700,'center');
+      g.globalAlpha=la;g.strokeStyle=ACC;g.lineWidth=3;g.beginPath();g.arc(S.x,S.y,7,0,7);g.stroke();g.globalAlpha=1;text('shadow of your head',S.x+20,GYD+56,30,ACC,la,600,'center')}}
+}
+// 6. why it is an arc
+SC.arc=(t,B,E,dur)=>{const sw=seg(t,B(4)-0.5,B(4)-0.05),fin=seg(t,B(4)-0.05,B(4)+0.5);
+  if(fin<=0){sideView({t,e:20,obs:[{x:420,a:seg(t,0.2,1.0),lines:seg(t,B(2)+0.4,B(2)+1.4),label:true}],mode:t>B(2)+1.6?'red':'none',litA:seg(t,B(2)+1.6,B(2)+2.6)});
+    text('sunlight, from behind you',110,150,36,QUIET,seg(t,0.8,1.4)*(1-seg(t,B(2),B(2)+0.5)),500);
+    text('rain, in front of you',1500,150,36,QUIET,seg(t,B(0)+3.0,B(0)+3.6)*(1-seg(t,B(2),B(2)+0.5)),500,'center');
+    text('side view',110,90,28,QUIET,seg(t,0.4,1.0),500);
+    text('new drops, same place in the sky',110,150,40,INK,seg(t,B(3)+2.0,B(3)+2.6),500);
+    fadeMask(sw)}
+  else{const hz=780,ppd=13,cy=hz+20*ppd;
+    frontView({t,cx:960,cy,hz,ppd,mode:t<B(5)+0.6?'red':'all',guideA:seg(t,B(4)+2.0,B(4)+3.0)});
+    headShadow(960,cy,seg(t,B(4)+0.8,B(4)+1.6));
+    const ra=seg(t,B(4)+2.2,B(4)+3.0),m=-128*RAD,r=A1[0]*ppd;line(960,cy,960+Math.cos(m)*r,cy+Math.sin(m)*r,ACC,ra*0.8,2,[6,10]);text('42°',960+Math.cos(m)*r*0.55-70,cy+Math.sin(m)*r*0.55,44,ACC,ra,700,'center');
+    text('what you see',110,90,28,QUIET,fin,500);
+    text('all the drops at 42° make a circle',110,150,40,INK,seg(t,B(4)+3.0,B(4)+3.6)*(1-seg(t,B(5)+0.2,B(5)+0.7)),500);
+    text('violet just inside, the rest in between',110,150,40,INK,seg(t,B(5)+1.0,B(5)+1.6),500);
+    fadeMask(1-fin)}
+};
+// 7. it moves with you; sun height; full circle
+SC.moves=(t,B,E,dur)=>{const sw=seg(t,B(3)-0.5,B(3)-0.05),fin=seg(t,B(3)-0.05,B(3)+0.5);
+  if(fin<=0){const x=pw(t,[[B(1)+0.3,520],[E(1)-0.6,900]]),bob=(t>B(1)+0.3&&t<E(1)-0.6)?1:0;
+    sideView({t,e:20,obs:[{x,a:1,lines:1,label:true},{x:250,a:seg(t,B(2)+0.2,B(2)+1.0),lines:1,lc:'#7fd0ff',hat:'#2d5fb0',cuff:'#4f86dd'}],mode:'all'});
+    text('side view',110,90,28,QUIET,1,500);
+    text('step forward: different drops light up',110,150,40,INK,seg(t,B(1)+2.2,B(1)+2.8)*(1-seg(t,B(2)-0.2,B(2)+0.3)),500);
+    text('two people, two different rainbows',110,150,40,INK,seg(t,B(2)+1.2,B(2)+1.8),500);
+    fadeMask(sw)}
+  else{const e=pw(t,[[B(3)+3.6,20],[E(3),31],[B(4),31],[E(4)-1.4,46],[B(5),46],[B(5)+2.2,30]]);
+    const air=seg(t,B(5)+0.2,B(5)+2.4),ppd=lerp(13,11.5,air),hz=lerp(780,1250,air),cy=lerp(780+e*ppd,560,air);
+    frontView({t,cx:960,cy,hz,ppd,mode:'all',groundA:1,guideA:1-air});
+    headShadow(960,cy,1-air);
+    if(air>0){g.globalAlpha=air;g.strokeStyle=ACC;g.lineWidth=3;g.beginPath();g.arc(960,cy,7,0,7);g.stroke();g.globalAlpha=1;text('shadow of the plane',994,cy+10,30,ACC,air,600)}
+    text('what you see',110,90,28,QUIET,fin*(1-air),500);
+    text('sun’s height above the horizon:  '+Math.round(e)+'°',110,150,40,INK,seg(t,B(3)+2.6,B(3)+3.2)*(1-air),500);
+    text('no rainbow',960,560,64,QUIET,seg(t,E(4)-1.3,E(4)-0.7)*(1-seg(t,B(5),B(5)+0.5)),600,'center');
+    text('from the air: the full circle',110,150,40,INK,seg(t,B(5)+2.2,B(5)+2.8),500);
+    fadeMask(1-fin)}
+};
+// 8. the second bow
+SC.second=(t,B,E,dur)=>{const hz=780,ppd=13,cy=hz+20*ppd;
+  frontView({t,cx:960,cy,hz,ppd,mode:'all',secA:seg(t,B(0)+0.6,B(0)+2.2),band:seg(t,B(3)+0.3,B(3)+1.5),glowIn:seg(t,B(4)+0.3,B(4)+1.5)});
+  text('what you see',110,H-60,28,QUIET,0.9,500);
+  // inset: two bounces inside the drop
+  const ia=seg(t,B(1)-0.2,B(1)+0.5)*(1-seg(t,B(3)-0.3,B(3)+0.3));
+  if(ia>0){const C={x:330,y:215},R=140,b2=-Math.sqrt(1-(NW*NW-1)/8),q=trace(b2,NW,C,R,2,60);
+    g.save();g.beginPath();g.rect(40,30,640,360);g.clip();g.globalAlpha=ia*0.9;g.fillStyle=BG;g.fillRect(40,30,640,360);g.globalAlpha=1;drawDrop(C,R,ia);
+    const p=clamp((t-(B(1)+0.3))/3.2),w=progs(p,q.pts);g.globalCompositeOperation='lighter';drawRay(q.pts,w,SUN,SUN,0.95*ia,3.5);g.globalCompositeOperation='source-over';g.restore();
+    g.globalAlpha=ia;g.strokeStyle='#2a3a5c';g.lineWidth=2;g.strokeRect(40,30,640,360);g.globalAlpha=1;
+    text('two bounces',510,90,32,INK,ia,600)}
+  // colour order strips
+  const sa=seg(t,B(2)+2.6,B(2)+3.4);
+  if(sa>0){const x0=1380,strip=(y,cols,lab)=>{cols.forEach((c,i)=>{g.globalAlpha=sa;g.fillStyle=c;g.fillRect(x0+i*40,y,36,36)});g.globalAlpha=1;text(lab,x0,y-16,32,INK,sa,600)};
+    strip(120,[...SPEC],'second bow: red on the inside');strip(250,[...SPEC].reverse(),'main bow: red on the outside');
+    text('inside',x0,336,30,QUIET,sa,500);text('outside',x0+276,336,30,QUIET,sa,500,'right');text('→',x0+138,336,30,QUIET,sa,500,'center')}
+  text('Alexander’s band',960,cy-A1[0]*ppd-36,30,INK,seg(t,B(3)+3.2,B(3)+3.9)*(1-seg(t,B(4),B(4)+0.5)),600,'center');
+  text('brighter inside',960,640,36,INK,seg(t,B(4)+1.2,B(4)+1.9),600,'center');
+};
+// 9. outro
+SC.outro=(t,B,E,dur)=>{const hz=780,ppd=13,cy=hz+20*ppd;
+  frontView({t,cx:960,cy,hz,ppd,mode:'all',secA:0.8,glowIn:1});
+  headShadow(960,cy,seg(t,B(2)+3.6,B(2)+4.4)*(1-seg(t,B(3)-0.3,B(3)+0.3)));
+  text('not an object',110,150,44,INK,seg(t,B(0)+0.3,B(0)+0.9)*(1-seg(t,B(1)-0.2,B(1)+0.3)),500);
+  text('millions of drops, one angle',110,150,44,INK,seg(t,B(1)+1.2,B(1)+1.8)*(1-seg(t,B(2)-0.2,B(2)+0.3)),500);
+  text('sun directly behind you',110,150,44,INK,seg(t,B(2)+1.6,B(2)+2.2)*(1-seg(t,B(3)-0.3,B(3)+0.3)),500);
+  text('centre of the bow: the shadow of your head',110,212,44,ACC,seg(t,B(2)+4.4,B(2)+5.0)*(1-seg(t,B(3)-0.3,B(3)+0.3)),600);
+  const ea=seg(t,B(3)-0.2,B(3)+0.7);
+  if(ea>0){fadeMask(ea*0.82);text('Why It Does That',960,520,120,INK,ea,800,'center');text('the rainbow: 42°',960,610,44,ACC,ea,600,'center')}
+  fadeMask(seg(t,dur-1.0,dur-0.1));
+};
+// ---------- dispatcher ----------
+window.renderFrame=function(T){const S=TL.scenes;let s=S[S.length-1];for(const c of S){if(T<c.start+c.dur){s=c;break}}
+  const t=T-s.start,B=i=>s.beats[i].start,E=i=>s.beats[i].end;
+  g.globalCompositeOperation='source-over';g.globalAlpha=1;g.setLineDash([]);g.fillStyle=BG;g.fillRect(0,0,W,H);
+  SC[s.id](t,B,E,s.dur);
+  const last=s===S[S.length-1];fadeMask(Math.max(1-seg(t,0,0.4),last?0:seg(t,s.dur-0.35,s.dur)));
+};
+window.renderThumb=function(){g.globalCompositeOperation='source-over';g.fillStyle=BG;g.fillRect(0,0,W,H);
+  const C={x:1400,y:420},R=340;drawDrop(C,R,1);g.globalCompositeOperation='lighter';
+  for(let k=0;k<60;k++){const b=0.02+0.97*k/59;const q0=trace(b,NW,C,R);drawRay(q0.pts,[1,0,0,0],SUN,SUN,0.10,2.4);
+    [0,3,6].forEach(i=>{const q=trace(b,NS[i],C,R),near=bowAngle(NS[i])-q.ang<1.6;drawRay(q.pts.slice(1),[1,1,1],SPEC[i],SPEC[i],near?0.6:0.08,near?4:2.4)})}
+  g.globalCompositeOperation='source-over';
+  const gr=g.createLinearGradient(0,0,1050,0);gr.addColorStop(0,'rgba(10,16,32,0.92)');gr.addColorStop(0.7,'rgba(10,16,32,0.75)');gr.addColorStop(1,'rgba(10,16,32,0)');g.fillStyle=gr;g.fillRect(0,0,1050,H);
+  text('ALWAYS',90,330,150,INK,1,800);text('42°',80,700,400,ACC,1,800);text('why?',90,890,130,INK,1,700);
+};
+document.fonts.load('600 40px Inter');
+</script></body></html>

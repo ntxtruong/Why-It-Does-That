@@ -1,0 +1,23 @@
+(()=>{const SPEC=['#ff4b4b','#ff9340','#ffe04a','#58e07a','#45a8ff','#6470ff','#a56bff'];const RAD=Math.PI/180;
+function base(){const cv=document.createElement('canvas');cv.width=cv.height=800;const g=cv.getContext('2d');const bg=g.createRadialGradient(400,360,40,400,400,560);bg.addColorStop(0,'#1b2c58');bg.addColorStop(0.55,'#0f1a36');bg.addColorStop(1,'#080d1c');g.fillStyle=bg;g.fillRect(0,0,800,800);return [cv,g]}
+function qPath(g,cx,cy,s){const r=135*s,a0=170*RAD,a1=400*RAD,ex=cx+r*Math.cos(40*RAD),ey=cy+r*Math.sin(40*RAD);g.beginPath();g.arc(cx,cy,r,a0,a1);g.bezierCurveTo(ex-0.64*78*s,ey+0.77*78*s,cx,cy+150*s,cx,cy+238*s)}
+function spectrum(g,cx,cy){const c=g.createConicGradient(170*RAD,cx,cy);[0,.105,.21,.32,.43,.535,.64].forEach((p,i)=>c.addColorStop(p,SPEC[i]));c.addColorStop(.9,SPEC[6]);c.addColorStop(.97,SPEC[0]);c.addColorStop(1,SPEC[0]);return c}
+function q(g,cx,cy,s,stroke,dot,glow){g.save();g.lineCap='round';g.lineJoin='round';g.lineWidth=84*s;g.strokeStyle=stroke;if(glow){g.shadowColor=glow;g.shadowBlur=46*s}qPath(g,cx,cy,s);g.stroke();g.restore();
+  g.save();if(glow){g.shadowColor=glow;g.shadowBlur=40*s}g.fillStyle=dot;g.beginPath();g.arc(cx,cy+368*s,50*s,0,7);g.fill();g.restore()}
+const A={};
+// 1: spectrum question mark
+A.a=()=>{const [cv,g]=base();q(g,400,292,1,spectrum(g,400,292),'#f4f7fc','rgba(120,150,255,0.45)');return cv};
+// 2: white question mark inside a full spectrum ring
+A.b=()=>{const [cv,g]=base();const c=g.createConicGradient(-90*RAD,400,400);SPEC.forEach((col,i)=>c.addColorStop(i/7,col));c.addColorStop(1,SPEC[0]);g.save();g.shadowColor='rgba(120,150,255,0.5)';g.shadowBlur=40;g.strokeStyle=c;g.lineWidth=34;g.beginPath();g.arc(400,400,292,0,7);g.stroke();g.restore();q(g,400,318,0.74,'#f4f7fc','#ffd166',null);return cv};
+// 3: gold question mark rising out of a rainbow bow
+A.c=()=>{const [cv,g]=base();g.save();g.globalCompositeOperation='lighter';SPEC.forEach((col,i)=>{g.strokeStyle=col;g.globalAlpha=0.95;g.lineWidth=27;g.beginPath();g.arc(400,860,560-i*26,0,7);g.stroke()});g.restore();
+  const sh=g.createLinearGradient(0,380,0,800);sh.addColorStop(0,'rgba(8,13,28,0)');sh.addColorStop(1,'rgba(8,13,28,0.55)');g.fillStyle=sh;g.fillRect(0,0,800,800);q(g,400,222,0.82,'#ffffff','#ffffff','rgba(8,13,28,0.9)');return cv};
+// 4: bold drop with one ray in, colours out
+A.d=()=>{const [cv,g]=base();const C={x:455,y:360},R=215;const dg=g.createRadialGradient(C.x-70,C.y-80,20,C.x,C.y,R);dg.addColorStop(0,'#5b8fe0');dg.addColorStop(1,'#1d3a78');g.save();g.shadowColor='rgba(110,160,255,0.55)';g.shadowBlur=50;g.fillStyle=dg;g.beginPath();g.arc(C.x,C.y,R,0,7);g.fill();g.restore();
+  const b=0.62,n=1.333,P1={x:C.x-R*Math.sqrt(1-b*b),y:C.y-b*R};const sub=(a,b)=>({x:a.x-b.x,y:a.y-b.y}),add=(a,b)=>({x:a.x+b.x,y:a.y+b.y}),mul=(a,k)=>({x:a.x*k,y:a.y*k}),dot=(a,b)=>a.x*b.x+a.y*b.y;
+  const refr=(d,nn,eta)=>{const ci=-dot(d,nn),k=1-eta*eta*(1-ci*ci);return add(mul(d,eta),mul(nn,eta*ci-Math.sqrt(Math.max(0,k))))};
+  let d=refr({x:1,y:0},mul(sub(P1,C),1/R),1/n);const P2=add(P1,mul(d,-2*dot(sub(P1,C),d)));const n2=mul(sub(C,P2),1/R);d=sub(d,mul(n2,2*dot(d,n2)));const P3=add(P2,mul(d,-2*dot(sub(P2,C),d)));const o=refr(d,mul(sub(C,P3),1/R),n);
+  g.lineCap='round';g.lineJoin='round';const ang=Math.atan2(o.y,o.x);
+  [0,2,3,4,6].forEach((ci,k)=>{const a=ang+(k-2)*0.105;g.strokeStyle=SPEC[ci];g.lineWidth=30;g.beginPath();g.moveTo(P3.x,P3.y);g.lineTo(P3.x+Math.cos(a)*520,P3.y+Math.sin(a)*520);g.stroke()});
+  g.strokeStyle='#ffffff';g.lineWidth=30;g.beginPath();g.moveTo(-40,P1.y);g.lineTo(P1.x,P1.y);g.lineTo(P2.x,P2.y);g.lineTo(P3.x,P3.y);g.stroke();return cv};
+window.__av=A;})();

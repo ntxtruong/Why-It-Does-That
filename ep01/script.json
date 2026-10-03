@@ -1,0 +1,60 @@
+{"title":"Why Is a Rainbow Always at the Same Angle?","voice":"am_michael","scenes":[
+{"id":"hook","beats":[
+"A rainbow looks like it's painted on the sky.",
+"But try walking toward one, and it backs away.",
+"Move to the side, and it moves with you.",
+"That's because a rainbow isn't a thing in the sky. It's an angle.",
+"And that angle is always the same: forty-two degrees. Here's why."]},
+{"id":"oneray","beats":[
+"Start with a single raindrop, and a single ray of sunlight.",
+"A small raindrop is not shaped like a teardrop. It's very nearly a perfect sphere, and that matters, because a sphere treats every ray by the same rule.",
+"When the ray hits the surface, it goes in, and it bends, because light travels more slowly in water than in air.",
+"It crosses the drop, and at the back surface, part of it reflects.",
+"Then it crosses the drop again and leaves through the front, bending a second time.",
+"So the drop sends that light back toward the side the sun is on."]},
+{"id":"sweep","beats":[
+"How far the light gets turned depends on where it hits the drop.",
+"A ray through the dead centre bounces straight back.",
+"Move the ray up a little, and it comes back at a small angle.",
+"Move it higher, and the angle grows.",
+"But watch what happens near the top.",
+"The angle stops growing. It reaches a maximum of about forty-two degrees, and then it starts to shrink again."]},
+{"id":"pileup","beats":[
+"That turning point is the whole secret.",
+"Look at the curve. On the steep part, a small change in where the ray enters makes a big change in where it leaves, so that light gets smeared across many angles.",
+"But at the top, the curve is flat. There, a whole band of rays shares almost the same direction.",
+"Sunlight doesn't hit a drop in one place. It covers the whole face of it. So send in all the rays at once.",
+"Everywhere else, the light is spread thin. But near forty-two degrees, the rays pile up into a bright beam.",
+"Every raindrop in the sky is doing this, sending out a cone of concentrated light at forty-two degrees."]},
+{"id":"colours","beats":[
+"So where do the colours come from?",
+"White sunlight is a mix of every colour, and water bends blue light slightly more than red.",
+"That shifts the turning point. Red piles up at about forty-two and a half degrees. Violet, at about forty and a half.",
+"Every colour in between gets its own angle.",
+"So one drop doesn't send you a rainbow. It sends each colour off in a slightly different direction."]},
+{"id":"arc","beats":[
+"Now put yourself in the picture. The sun is behind you, and rain is falling in front of you.",
+"Which drops send their red light into your eye?",
+"Only the ones sitting forty-two degrees away from the point directly opposite the sun. That's the spot where the shadow of your head falls.",
+"The drops keep falling, but there is always one in the right place, so the colour stays put.",
+"Seen from where you stand, all the drops at that angle form a circle around that point. That circle is the red band.",
+"Slightly inside it, a different set of drops sends you violet, and the other colours fall in between."]},
+{"id":"moves","beats":[
+"This is why you can never reach the end of a rainbow. It isn't located anywhere.",
+"Take a step, and a different set of drops is now at forty-two degrees from you. The bow moves with you.",
+"The person standing next to you sees a different rainbow, made by different drops.",
+"It's also why rainbows show up in the morning and the late afternoon. As the sun climbs, the centre of the circle sinks further below the horizon.",
+"Once the sun is higher than forty-two degrees, the whole bow is below the horizon, and there is nothing to see.",
+"And from an aeroplane, with no ground in the way, you can see the full circle."]},
+{"id":"second","beats":[
+"Sometimes there's a second, fainter bow outside the first.",
+"That's light that bounced twice inside the drop before leaving.",
+"Two bounces give a different turning point, about ten degrees further out, and they flip the order of the colours.",
+"Between the two bows, the sky looks darker. No drop sends light back at those angles. It's called Alexander's band.",
+"And inside the main bow, the sky is brighter, lit by all the light that came back at smaller angles."]},
+{"id":"outro","beats":[
+"So a rainbow is not an object.",
+"It's what you get when millions of tiny spheres each fold sunlight back at the same angle, and you happen to be standing in the right place to catch it.",
+"Next time you see one, check. The sun will be directly behind you, and the centre of the bow will be at the shadow of your own head.",
+"That's why it does that."]}
+]}

@@ -1,0 +1,415 @@
+1
+00:00:00,800 --> 00:00:03,645
+A rainbow looks like it's painted on the sky.
+
+2
+00:00:04,095 --> 00:00:07,105
+But try walking toward one, and it backs away.
+
+3
+00:00:07,555 --> 00:00:10,007
+Move to the side, and it moves with you.
+
+4
+00:00:10,457 --> 00:00:13,720
+That's because a rainbow isn't a thing in the sky.
+
+5
+00:00:13,720 --> 00:00:14,633
+It's an angle.
+
+6
+00:00:15,083 --> 00:00:19,015
+And that angle is always the same: 42°.
+
+7
+00:00:19,015 --> 00:00:19,831
+Here's why.
+
+8
+00:00:21,631 --> 00:00:23,596
+Start with a single raindrop,
+
+9
+00:00:23,596 --> 00:00:25,561
+and a single ray of sunlight.
+
+10
+00:00:26,011 --> 00:00:29,391
+A small raindrop is not shaped like a teardrop.
+
+11
+00:00:29,391 --> 00:00:33,130
+It's very nearly a perfect sphere, and that matters,
+
+12
+00:00:33,130 --> 00:00:36,797
+because a sphere treats every ray by the same rule.
+
+13
+00:00:37,247 --> 00:00:40,281
+When the ray hits the surface, it goes in,
+
+14
+00:00:40,281 --> 00:00:41,220
+and it bends,
+
+15
+00:00:41,220 --> 00:00:45,192
+because light travels more slowly in water than in air.
+
+16
+00:00:45,642 --> 00:00:48,523
+It crosses the drop, and at the back surface,
+
+17
+00:00:48,523 --> 00:00:49,804
+part of it reflects.
+
+18
+00:00:50,254 --> 00:00:53,874
+Then it crosses the drop again and leaves through the front,
+
+19
+00:00:53,874 --> 00:00:55,202
+bending a second time.
+
+20
+00:00:55,652 --> 00:00:58,867
+So the drop sends that light back toward the side
+
+21
+00:00:58,867 --> 00:00:59,785
+the sun is on.
+
+22
+00:01:01,585 --> 00:01:05,481
+How far the light gets turned depends on where it hits the drop.
+
+23
+00:01:05,931 --> 00:01:08,981
+A ray through the dead centre bounces straight back.
+
+24
+00:01:09,431 --> 00:01:11,012
+Move the ray up a little,
+
+25
+00:01:11,012 --> 00:01:13,226
+and it comes back at a small angle.
+
+26
+00:01:13,676 --> 00:01:16,117
+Move it higher, and the angle grows.
+
+27
+00:01:16,567 --> 00:01:18,636
+But watch what happens near the top.
+
+28
+00:01:19,086 --> 00:01:20,801
+The angle stops growing.
+
+29
+00:01:20,801 --> 00:01:24,232
+It reaches a maximum of about 42°,
+
+30
+00:01:24,232 --> 00:01:26,734
+and then it starts to shrink again.
+
+31
+00:01:28,534 --> 00:01:30,911
+That turning point is the whole secret.
+
+32
+00:01:31,361 --> 00:01:33,979
+Look at the curve. On the steep part,
+
+33
+00:01:33,979 --> 00:01:37,234
+a small change in where the ray enters makes a
+
+34
+00:01:37,234 --> 00:01:39,357
+big change in where it leaves,
+
+35
+00:01:39,357 --> 00:01:42,612
+so that light gets smeared across many angles.
+
+36
+00:01:43,062 --> 00:01:45,851
+But at the top, the curve is flat. There,
+
+37
+00:01:45,851 --> 00:01:49,525
+a whole band of rays shares almost the same direction.
+
+38
+00:01:49,975 --> 00:01:52,948
+Sunlight doesn't hit a drop in one place.
+
+39
+00:01:52,948 --> 00:01:55,196
+It covers the whole face of it.
+
+40
+00:01:55,196 --> 00:01:57,516
+So send in all the rays at once.
+
+41
+00:01:57,966 --> 00:02:00,874
+Everywhere else, the light is spread thin.
+
+42
+00:02:00,874 --> 00:02:02,743
+But near 42°,
+
+43
+00:02:02,743 --> 00:02:05,236
+the rays pile up into a bright beam.
+
+44
+00:02:05,686 --> 00:02:08,627
+Every raindrop in the sky is doing this,
+
+45
+00:02:08,627 --> 00:02:13,186
+sending out a cone of concentrated light at 42°.
+
+46
+00:02:14,986 --> 00:02:16,752
+So where do the colours come from?
+
+47
+00:02:17,202 --> 00:02:19,790
+White sunlight is a mix of every colour,
+
+48
+00:02:19,790 --> 00:02:23,024
+and water bends blue light slightly more than red.
+
+49
+00:02:23,474 --> 00:02:25,643
+That shifts the turning point.
+
+50
+00:02:25,643 --> 00:02:29,331
+Red piles up at about 42.5°.
+
+51
+00:02:29,331 --> 00:02:31,789
+Violet, at about 40.5°.
+
+52
+00:02:32,239 --> 00:02:35,195
+Every colour in between gets its own angle.
+
+53
+00:02:35,645 --> 00:02:38,127
+So one drop doesn't send you a rainbow.
+
+54
+00:02:38,127 --> 00:02:41,883
+It sends each colour off in a slightly different direction.
+
+55
+00:02:43,683 --> 00:02:45,733
+Now put yourself in the picture.
+
+56
+00:02:45,733 --> 00:02:47,142
+The sun is behind you,
+
+57
+00:02:47,142 --> 00:02:49,448
+and rain is falling in front of you.
+
+58
+00:02:49,898 --> 00:02:52,436
+Which drops send their red light into your eye?
+
+59
+00:02:52,886 --> 00:02:56,786
+Only the ones sitting 42° away from the point
+
+60
+00:02:56,786 --> 00:02:58,504
+directly opposite the sun.
+
+61
+00:02:58,504 --> 00:03:01,941
+That's the spot where the shadow of your head falls.
+
+62
+00:03:02,391 --> 00:03:03,822
+The drops keep falling,
+
+63
+00:03:03,822 --> 00:03:06,496
+but there is always one in the right place,
+
+64
+00:03:06,496 --> 00:03:07,989
+so the colour stays put.
+
+65
+00:03:08,439 --> 00:03:10,339
+Seen from where you stand,
+
+66
+00:03:10,339 --> 00:03:14,724
+all the drops at that angle form a circle around that point.
+
+67
+00:03:14,724 --> 00:03:16,770
+That circle is the red band.
+
+68
+00:03:17,220 --> 00:03:18,564
+Slightly inside it,
+
+69
+00:03:18,564 --> 00:03:21,535
+a different set of drops sends you violet,
+
+70
+00:03:21,535 --> 00:03:24,223
+and the other colours fall in between.
+
+71
+00:03:26,023 --> 00:03:29,610
+This is why you can never reach the end of a rainbow.
+
+72
+00:03:29,610 --> 00:03:31,369
+It isn't located anywhere.
+
+73
+00:03:31,818 --> 00:03:32,632
+Take a step,
+
+74
+00:03:32,632 --> 00:03:37,108
+and a different set of drops is now at 42° from you.
+
+75
+00:03:37,108 --> 00:03:38,668
+The bow moves with you.
+
+76
+00:03:39,118 --> 00:03:42,727
+The person standing next to you sees a different rainbow,
+
+77
+00:03:42,727 --> 00:03:44,247
+made by different drops.
+
+78
+00:03:44,697 --> 00:03:49,656
+It's also why rainbows show up in the morning and the late afternoon.
+
+79
+00:03:49,656 --> 00:03:50,950
+As the sun climbs,
+
+80
+00:03:50,950 --> 00:03:55,047
+the centre of the circle sinks further below the horizon.
+
+81
+00:03:55,497 --> 00:03:58,750
+Once the sun is higher than 42°,
+
+82
+00:03:58,750 --> 00:04:01,226
+the whole bow is below the horizon,
+
+83
+00:04:01,226 --> 00:04:03,206
+and there is nothing to see.
+
+84
+00:04:03,656 --> 00:04:06,829
+And from an aeroplane, with no ground in the way,
+
+85
+00:04:06,829 --> 00:04:08,642
+you can see the full circle.
+
+86
+00:04:10,443 --> 00:04:14,254
+Sometimes there's a second, fainter bow outside the first.
+
+87
+00:04:14,704 --> 00:04:18,311
+That's light that bounced twice inside the drop before leaving.
+
+88
+00:04:18,761 --> 00:04:21,574
+Two bounces give a different turning point,
+
+89
+00:04:21,574 --> 00:04:23,536
+about ten degrees further out,
+
+90
+00:04:23,536 --> 00:04:26,087
+and they flip the order of the colours.
+
+91
+00:04:26,537 --> 00:04:29,690
+Between the two bows, the sky looks darker.
+
+92
+00:04:29,690 --> 00:04:32,696
+No drop sends light back at those angles.
+
+93
+00:04:32,696 --> 00:04:34,822
+It's called Alexander's band.
+
+94
+00:04:35,272 --> 00:04:38,582
+And inside the main bow, the sky is brighter,
+
+95
+00:04:38,582 --> 00:04:42,553
+lit by all the light that came back at smaller angles.
+
+96
+00:04:44,352 --> 00:04:46,566
+So a rainbow is not an object.
+
+97
+00:04:47,016 --> 00:04:50,271
+It's what you get when millions of tiny spheres each
+
+98
+00:04:50,271 --> 00:04:52,586
+fold sunlight back at the same angle,
+
+99
+00:04:52,586 --> 00:04:56,404
+and you happen to be standing in the right place to catch it.
+
+100
+00:04:56,854 --> 00:04:58,764
+Next time you see one, check.
+
+101
+00:04:58,764 --> 00:05:01,135
+The sun will be directly behind you,
+
+102
+00:05:01,135 --> 00:05:03,770
+and the centre of the bow will be at the
+
+103
+00:05:03,770 --> 00:05:05,351
+shadow of your own head.
+
+104
+00:05:05,801 --> 00:05:07,242
+That's why it does that.
