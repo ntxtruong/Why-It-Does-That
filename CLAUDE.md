@@ -8,6 +8,7 @@ YouTube channel of animated explainers about everyday phenomena, owned by Trư�
 
 ## Decisions already made
 
+- Goal for this stage (Trường, 2026-10-03): build the channel and learn how this kind of content is made. Monetisation is not a goal for now; do not pick topics for search volume or watch hours, and do not bring up monetisation thresholds unless he asks.
 - One theme, two formats: long videos (5–8 min, one "why" question, one mechanism) and Shorts ("one surprising fact" plus a 30–45 s simulation). No listicles, no life-story content on this channel.
 - Visuals are code-drawn simulations of the real physics (HTML canvas), dark navy style, with the chibi mascot (`brand/brandkit.js`) in scenes, banner and thumbnails.
 - Voice: Kokoro (`kokoro-onnx`, Apache 2.0), voice `am_michael`, speed 0.9. Trường approved this voice and pace on episode 1.
@@ -19,14 +20,14 @@ YouTube channel of animated explainers about everyday phenomena, owned by Trư�
 
 A scheduled task opens a new session on Wednesday and Saturday morning (Vietnam time). Each session takes one video from idea to "ready for Trường's final check" in four stages. A stage marked **gate** ends with a question to Trường; wait for his answer before going on.
 
-1. **Ideas (gate).** Open by saying it is idea day and offer 1–3 ideas: working title, format (long or Short), the mechanism in one line, why people would click. Take them from the plan doc's backlog or propose new ones; never repeat the Episodes table below. He picks one, asks for others, or skips the day.
+1. **Ideas (gate).** Open by saying it is idea day and offer 1–3 ideas: working title, format (long or Short), the mechanism in one line, why people would click. Choose for how interesting the phenomenon is and how clearly a simulation can show it. Take them from the plan doc's backlog or propose new ones; never repeat the Episodes table below. He picks one, asks for others, or skips the day.
 2. **Script (gate).** Check the mechanism and every number against published sources. Write `epNN/script.json`. Send him the full English narration, a two or three line Vietnamese summary, the planned scenes and the sources. He approves or asks for changes.
 3. **Production.** Voice, timeline, scenes, render, frame check, thumbnail, `youtube-metadata.md` (see "Producing an episode"). No gate; tell him if something forces a change to the approved script.
 4. **Publish prep (gates inside).**
    - Push the episode folder and `media/` files to this repo.
    - Upload to YouTube as Unlisted and fill in title, description with chapters, tags, thumbnail, subtitles, end screen (see "Uploading to YouTube"). This needs Trường's computer on, with the Claude desktop app open and its built-in browser signed in to YouTube; if it is not reachable, say so and wait.
    - Music (gate): ask Trường to listen in the Studio editor and heart the tracks he wants (they then appear under "Thư viện của bạn"), and to say which track goes where. Place them, set mix level 15, let him listen. Saving in the editor cannot be undone: he presses "Lưu", or says to save.
-   - Final report (gate): the link, what was set, anything he should look at. He checks and switches to Public.
+   - Final report (gate): the link, what was set, anything he should look at, and two or three lines on what was new this time (a production technique, how YouTube behaved, something the numbers showed), because he wants to learn the craft. He checks and switches to Public.
    - Update the Episodes table here and push.
 
 ## Setting up a fresh session
