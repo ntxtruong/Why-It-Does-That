@@ -1,0 +1,9 @@
+0:35.3  white: script 'nanometres' / heard 'nanometers'
+0:41.2  white: script 'and' / heard ''
+2:07.8  law: script 'eighteen' / heard 'one thousand eight hundred'
+2:38.6  sky: script 'toward' / heard 'towards'
+3:00.2  sky: script 'comes' / heard 'come'
+6:04.3  outro: script 'blue' / heard 'blew'
+
+6 beat(s) to listen to; 9 of 913 words differ (1.0%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

@@ -10,3 +10,5 @@ ep*/renders/
 templates/hyperframes/gsap.min.js
 templates/hyperframes/renders/
 templates/hyperframes/snapshots/
+ep*/tts.log
+ep*/shots/
