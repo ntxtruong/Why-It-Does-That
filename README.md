@@ -8,6 +8,8 @@ Repo lưu trữ cho kênh Youtube Why It Does That
 | `ep01/` | Tập 1 (cầu vồng): kịch bản `script.json`, tạo giọng đọc `tts.py`, cảnh hoạt hình `video.html`, dựng khung hình `render.js`, phụ đề, tiêu đề và mô tả YouTube |
 | `brand/` | Nhân vật chibi, ảnh bìa, ảnh đại diện (`brandkit.js` vẽ lại được mọi thứ), nội dung thiết lập kênh |
 | `media/` | File video 1080p và thumbnail của từng tập |
+| `tools/` | Cài đặt phiên làm việc (`setup.sh`), kiểm tra lời đọc bằng nhận dạng giọng nói (`asr_check.py`), kiểm tra hình đứng yên (`qc_video.py`) |
+| `templates/hyperframes/` | Khung dựng mẫu cho Hyperframes: mô phỏng canvas, chữ động, lời đọc |
 
 ## Quy trình mỗi video (sáng thứ Tư và thứ Bảy)
 

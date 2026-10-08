@@ -1,5 +1,12 @@
 tts/
+asr/
 node_modules/
 *.wav
 ep*/part*.mp4
 ep*/shots*/
+ep*/gsap.min.js
+ep*/snapshots/
+ep*/renders/
+templates/hyperframes/gsap.min.js
+templates/hyperframes/renders/
+templates/hyperframes/snapshots/

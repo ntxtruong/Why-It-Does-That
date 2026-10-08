@@ -1,0 +1,58 @@
+<!doctype html>
+<!--
+  Starter composition for an episode rendered with Hyperframes.
+  Copy this folder's files into epNN/, then:  cp node_modules/gsap/dist/gsap.min.js epNN/
+  Pattern: the physics is still drawn on a canvas by a pure function of time, renderFrame(t);
+  titles, labels and captions are HTML animated with GSAP; narration is an <audio> clip.
+  Narration: add an audio element with id, class "clip", src "./narration.wav", data-start, data-duration,
+  data-volume="1" inside #root once the file exists (the linter fails on a missing file).
+  Everything must depend only on the timeline time: no Date, no timers, no unseeded random.
+  Check:   (cd epNN && npx hyperframes check)
+  Frames:  (cd epNN && npx hyperframes snapshot --at 1,5,12)
+  Render:  (cd epNN && npx hyperframes render -o ../media/epNN-topic-1080p.mp4)
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="./gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0b1020; }
+      #root { position: relative; width: 1920px; height: 1080px; font-family: Inter, sans-serif; color: #f4f6ff; }
+      canvas { position: absolute; inset: 0; }
+      /* Text rules from the episode 1 review: nothing under 40 px, nothing in the bottom 15% (captions). */
+      .question { position: absolute; left: 120px; top: 110px; font-size: 96px; font-weight: 800; letter-spacing: -0.02em; }
+      .question span { display: inline-block; }
+      .label { position: absolute; left: 124px; top: 250px; font-size: 48px; font-weight: 600; color: #ffcf5c; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1920" data-height="1080">
+      <canvas id="sim" width="1920" height="1080" class="clip" data-start="0" data-duration="6" data-track-index="0" data-layout-allow-overflow></canvas>
+      <h1 id="question" class="question clip" data-start="0" data-duration="6" data-track-index="1"><span>Why</span> <span>does</span> <span>it</span> <span>do</span> <span>that?</span></h1>
+      <div id="label" class="label clip" data-start="0" data-duration="6" data-track-index="2">one mechanism, shown running</div>
+    </div>
+    <script>
+      const g = document.getElementById("sim").getContext("2d");
+      function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+      const R = rng(7);
+      const dots = Array.from({ length: 2500 }, () => ({ x: R() * 1920, y: 380 + R() * 520, v: 80 + R() * 260, ph: R() * 6.28 }));
+      // The whole picture for time t (seconds). Replace with the episode's simulation.
+      function renderFrame(t) {
+        g.fillStyle = "#0b1020"; g.fillRect(0, 0, 1920, 1080);
+        g.fillStyle = "#6fb1ff"; g.globalAlpha = 0.8;
+        for (const p of dots) g.fillRect((p.x + p.v * t) % 1920, p.y + Math.sin(t * 3 + p.ph) * 40, 4, 4);
+        g.globalAlpha = 1;
+      }
+      const clock = { t: 0 };
+      const tl = gsap.timeline({ paused: true });
+      tl.to(clock, { t: 6, duration: 6, ease: "none", onUpdate: () => renderFrame(clock.t) }, 0);
+      tl.from(".question span", { opacity: 0, y: 40, duration: 0.5, stagger: 0.12, ease: "power3.out" }, 0.2);
+      tl.from(".label", { opacity: 0, x: -30, duration: 0.6, ease: "power2.out" }, 1.4);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      renderFrame(0); tl.seek(0);
+    </script>
+  </body>
+</html>
