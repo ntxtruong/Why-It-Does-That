@@ -61,6 +61,15 @@ why is the sky blue, why are sunsets red, rayleigh scattering, blue sky explaine
 - End screen: template "1 video, 1 subscribe" over the last 9 seconds (the end card holds from 6:23)
 - Visibility: Unlisted. Trường switches to Public.
 
+## State on YouTube (2026-10-08)
+
+- URL: https://youtu.be/H_61WImrwoQ, visibility Unlisted (uploaded through the built-in browser)
+- Title option 1, description and tags as above; category Education, language English, not made for kids
+- Altered or synthetic content question: No (animation, nothing realistic)
+- Thumbnail `media/ep02-thumbnail.png` set; English subtitles uploaded from `subtitles.srt` (100 lines)
+- End screen: "1 video, 1 subscribe" from 6:24 to 6:35; the video element moved right so it does not cover the mascot
+- Music: not added yet; Trường chooses
+
 ## Narration check (speech recognition, `asr_check.txt`)
 
 9 of 913 words differ; none is a clear misreading. Places for Trường to listen to:
