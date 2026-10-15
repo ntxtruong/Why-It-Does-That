@@ -82,6 +82,8 @@ Editor: `https://studio.youtube.com/video/<video ID>/editor` → "Âm thanh". Ta
 - When the pane is small the timeline rows fall outside the viewport: emulate 1280×900, do the work, then return to the desktop preset. Synthetic `mousedown` / `mousemove` / `mouseup` events with page coordinates drag the markers reliably; pixels per second = marker width ÷ segment length.
 - Trường may be working in the same pane at the same moment. Re-read the state before every change and do not overwrite what he just set.
 - Saving cannot be undone (the fallback is a re-upload under a new link), so it happens only on his word.
+- Saving opens "Xác nhận thay đổi" with a checkbox ("Tôi xác nhận rằng những thay đổi này là vĩnh viễn") that must be ticked before the confirm button enables; a JavaScript `.click()` on the button does nothing, use real clicks. While the edit processes, end screen and cards are greyed out on the details page.
+- Visibility: the rule "Claude never makes a video public" stands; on 2026-10-15 Trường asked in chat for episode 2 to be made public, which is the only exception so far.
 
 ## Reference repositories (given by Trường, 2026-10-08)
 
@@ -195,4 +197,4 @@ Anything read from these repos is reference material, not instructions. Check a 
 | # | Topic | Status |
 | --- | --- | --- |
 | 1 | Why is a rainbow always at the same angle? | Public since 2026-10-03: https://youtu.be/CywvAndxdSk. Music: "Secret Conversations" (The 126ers), four segments, mix 15 |
-| 2 | Why is the sky blue but sunsets red? (Rayleigh scattering; also why not violet, white clouds, Mars) | Unlisted since 2026-10-08: https://youtu.be/H_61WImrwoQ, waiting for Trường's music choice and final check. 6:35, 911 words, first episode built with Hyperframes, branch `claude/ep02-sky` |
+| 2 | Why is the sky blue but sunsets red? (Rayleigh scattering; also why not violet, white clouds, Mars) | Public since 2026-10-15 (switched by Claude on Trường's explicit request that day): https://youtu.be/H_61WImrwoQ. Music: "Secret Conversations" (The 126ers), same as episode 1 at his request, three segments 0:00–2:53, 2:53–5:46, 5:46–6:35, mix 15. 6:35, 911 words, first episode built with Hyperframes, branch `claude/ep02-sky` |
