@@ -1,0 +1,140 @@
+{
+ "title": "Why Do Wheels Spin Backwards on Camera?",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "pause_note": "'long' lists beat indices followed by a 1.5 s pause",
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [
+    1,
+    4
+   ],
+   "beats": [
+    "Why do wheels spin backwards on camera?",
+    "A car speeds up on screen. Its wheels turn faster, then slow down, then stop, then start turning the wrong way, while the car keeps racing forward.",
+    "Helicopter blades can hang frozen in mid-air while the helicopter flies.",
+    "Nothing is wrong with the wheel, or with the camera. The trick is in what happens between the pictures.",
+    "And by the end, you will see why your own eyes, in the right light, can be fooled the same way."
+   ]
+  },
+  {
+   "id": "frames",
+   "long": [
+    2,
+    6
+   ],
+   "beats": [
+    "Start with what a camera actually records.",
+    "It does not record motion. It records still pictures, one after another.",
+    "Cinema film shows twenty-four of them every second. Most video records twenty-five, thirty, or sixty.",
+    "Between two pictures, the camera sees little or nothing. Whatever happens in that gap, it simply misses.",
+    "Your brain fills the gap. It joins each picture to the next by guessing the shortest, simplest movement between them.",
+    "Psychologists call this apparent motion. It is the reason a flip book, or a film, looks alive at all.",
+    "Usually that guess is right. With a wheel, it can go badly wrong."
+   ]
+  },
+  {
+   "id": "spokes",
+   "long": [
+    2,
+    5,
+    7
+   ],
+   "beats": [
+    "Here is a wagon wheel with twelve spokes. Every spoke looks exactly like every other.",
+    "Mark one of them in gold, just for us. The camera, and your brain, cannot see the mark.",
+    "Spin the wheel slowly. Between two frames it turns only a few degrees. Each spoke moves a little, and your brain matches each one with itself. Forward. Correct.",
+    "Now spin it faster. Between frames, each spoke now travels almost to where the next spoke was.",
+    "Your brain does not know which spoke is which. It sees a spoke just behind where one used to be, and picks the shortest move: a small step backwards.",
+    "The gold spoke went forward. The wheel you see went back.",
+    "Spin it a little faster still, so each spoke lands exactly where its neighbour was.",
+    "Every frame now looks identical to the one before. The wheel, turning at full speed, appears to stand perfectly still."
+   ]
+  },
+  {
+   "id": "rule",
+   "long": [
+    2,
+    4,
+    7
+   ],
+   "beats": [
+    "So the rule is simple. What matters is not how fast the wheel turns, but how far it turns between two frames, compared with the gap between two spokes.",
+    "Ignore whole gaps; only the leftover counts. Less than half a gap left over, and the wheel looks like it goes forward.",
+    "More than half a gap left over, and the nearest match is behind, so it looks like it runs backwards.",
+    "Exactly one whole gap, and it freezes.",
+    "For our twelve-spoke wheel at twenty-four frames a second, the gap between spokes is thirty degrees. Turn it two full times every second, and it freezes.",
+    "Engineers call this aliasing. A fast pattern, sampled too slowly, pretends to be a slower one.",
+    "To capture a repeating motion honestly, you need more than two samples per repeat. Fewer than that, and the samples lie."
+   ]
+  },
+  {
+   "id": "car",
+   "long": [
+    2,
+    4
+   ],
+   "beats": [
+    "Let's try a real car. Take a wheel with five spokes and a tyre about sixty-five centimetres tall, filmed at twenty-four frames a second.",
+    "That wheel looks frozen when each spoke moves exactly one gap per frame. Work it out, and that happens at about thirty-five kilometres an hour.",
+    "A little slower, and the wheel seems to crawl forward. A little faster, and it creeps backwards.",
+    "Speed up more, and the whole cycle repeats: forward, frozen, backwards, again and again as the car accelerates.",
+    "And the speed you see on screen has almost nothing to do with the real speed. A car at highway speed can show wheels creeping slowly backwards.",
+    "The same thing freezes helicopter rotors when their blades line up with the frames."
+   ]
+  },
+  {
+   "id": "shutter",
+   "long": [
+    2,
+    4
+   ],
+   "beats": [
+    "There is one more piece. Each frame is not an instant. The shutter stays open for a short time, and anything moving during that time smears.",
+    "A slow shutter blurs the spokes into a soft disc, and the illusion fades.",
+    "A fast shutter freezes each spoke crisply, and the illusion gets stronger.",
+    "So footage shot with very short exposures, like many phone clips in bright sun, shows it most clearly."
+   ]
+  },
+  {
+   "id": "angle",
+   "long": [
+    1
+   ],
+   "beats": [
+    "Next time you film a fan, a bike, or a car with your phone, watch the wheels.",
+    "Change the frame rate in your camera settings, and you can watch the wheel change direction."
+   ]
+  },
+  {
+   "id": "eyes",
+   "long": [
+    2,
+    5,
+    7
+   ],
+   "beats": [
+    "But here is the strange part. People have seen wheels reverse with their own eyes, with no camera at all.",
+    "Some lights do the camera's job for it. Older fluorescent tubes and some cheap LED lamps flicker a hundred or a hundred and twenty times a second, too fast to notice.",
+    "Under them, a spinning wheel or a machine part is lit in flashes, just like frames. It can look slow, frozen, or reversed.",
+    "In factories this is a real danger. A lathe that looks stopped may be spinning at full speed.",
+    "Old record turntables used this on purpose. A ring of dots on the platter looks still under mains lighting when the speed is exactly right.",
+    "And stranger still, a few experiments report brief reversals even under steady, continuous light.",
+    "Some researchers think this means our vision takes snapshots of its own. Others think it is a contest between motion detectors in the brain. That question is still open."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [
+    2
+   ],
+   "beats": [
+    "So, why do wheels spin backwards on camera?",
+    "Because a camera sees in frames, and when the leftover step of each spoke between frames is more than halfway to the next one, your brain matches it to the wrong spoke.",
+    "The wheel goes forward. The pictures go backwards.",
+    "Have you ever caught a wheel or a fan doing this? Tell me where in the comments."
+   ]
+  }
+ ]
+}
