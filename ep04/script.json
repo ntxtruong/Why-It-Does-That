@@ -1,0 +1,142 @@
+{
+ "title": "Why Do Traffic Jams Appear Out of Nowhere?",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "pause_note": "'long' lists beat indices followed by a 1.5 s pause",
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [
+    1,
+    4,
+    6
+   ],
+   "beats": [
+    "Why do traffic jams appear out of nowhere?",
+    "You crawl for ten minutes, bumper to bumper.",
+    "Then the road opens up, and there is nothing there. No crash. No roadworks. No lane closed.",
+    "So what stopped you?",
+    "Most of us blame something up ahead. A slow driver. Someone merging. A crash on the other side.",
+    "Sometimes that is true. Real bottlenecks do cause jams. But not always.",
+    "In 2008, a team of Japanese physicists built a road with no possible cause at all, just to find out.",
+    "And the jam showed up anyway."
+   ]
+  },
+  {
+   "id": "ring",
+   "long": [
+    2,
+    5
+   ],
+   "beats": [
+    "Here is their road. A circle, two hundred and thirty metres around, marked out on a flat, empty track.",
+    "Twenty-two cars, spaced evenly, all asked to do the same thing: drive steadily at about thirty kilometres an hour.",
+    "No traffic lights. No junctions. No slow lorry. Every driver can see the car in front, and nothing else matters.",
+    "If any road should flow forever, it is this one.",
+    "For a little while, it does.",
+    "Then, within a few minutes, a knot appears.",
+    "A cluster of cars slows, stops, and waits, while the rest of the ring keeps moving."
+   ]
+  },
+  {
+   "id": "wave",
+   "long": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "beats": [
+    "Watch the knot, not the cars.",
+    "The cars keep going forward. They drive into the jam at the back, crawl through it, and leave from the front.",
+    "But the jam itself drifts the other way, backwards, against the traffic.",
+    "Why backwards? Look at the front. A car can only leave once the car ahead has pulled away, and that takes a moment.",
+    "Meanwhile, new cars keep arriving at the back. So the front is eaten away, the back keeps growing, and the whole knot slides backwards.",
+    "In the experiment it moved backwards at roughly twenty kilometres an hour.",
+    "That is close to the speed measured for stop-and-go waves on real motorways.",
+    "So a jam is not a thing. It is a wave, passing through the cars, the way a ripple passes through water.",
+    "And a wave needs something to start it."
+   ]
+  },
+  {
+   "id": "chain",
+   "long": [
+    2,
+    5,
+    8
+   ],
+   "beats": [
+    "Zoom in on one driver.",
+    "Nobody drives perfectly. The gap ahead grows a little, shrinks a little. Your foot eases off for a moment.",
+    "The driver behind you notices late. Human reactions take around a second, and when a surprise comes, often longer.",
+    "By the time they react, the gap has already closed more than they expected.",
+    "So they brake a little harder than you did, just to be safe.",
+    "Then the next driver brakes harder still.",
+    "Each car passes the slowdown back, and each one makes it slightly bigger.",
+    "Traffic engineers have a name for this. A queue where each follower amplifies the one ahead is called string unstable.",
+    "Far enough back, a gentle touch of the brakes can become a full stop."
+   ]
+  },
+  {
+   "id": "angle",
+   "long": [
+    1
+   ],
+   "beats": [
+    "If you have sat in traffic in a big city, you have been one of the links in that chain.",
+    "Nobody in it did anything wrong. Every driver made a reasonable choice. The jam came from all of those choices together."
+   ]
+  },
+  {
+   "id": "density",
+   "long": [
+    2,
+    4,
+    7
+   ],
+   "beats": [
+    "But wait. If small wobbles always grow, why does traffic ever flow at all?",
+    "Because they only grow when the cars are close together.",
+    "With long gaps, a driver has room to absorb a slowdown. They ease off gently, and the wobble fades before it reaches the next car.",
+    "With short gaps, there is no room. Every wobble has to be passed on, and passed on stronger.",
+    "Physicists call this an instability. Below a certain density, smooth flow is stable. Above it, smooth flow cannot last.",
+    "Motorway data in their paper put that threshold at around twenty-five cars per kilometre in a lane.",
+    "That is about one car every forty metres in each lane, a spacing busy roads squeeze below all the time.",
+    "Past that point, traffic does not need an accident to jam. It only needs time."
+   ]
+  },
+  {
+   "id": "fix",
+   "long": [
+    2,
+    5,
+    8
+   ],
+   "beats": [
+    "So if the jam comes from how we drive, can different driving make it go away?",
+    "In a later experiment in Arizona, engineers repeated the ring with about twenty cars, and the waves came back, just as before.",
+    "Then they handed one car to a computer.",
+    "Its rule was simple. Don't chase the car in front. Hold a steady speed close to the average, and let the gap ahead grow and shrink.",
+    "That one car soaked up each wave like a sponge.",
+    "In their best run, the swings in speed around the ring dropped by about eighty per cent, and fuel use fell by about forty.",
+    "Even the number of cars getting round the ring went up, by as much as fourteen per cent.",
+    "One calm car out of twenty changed the whole ring.",
+    "You can do a small version of this yourself. Leave a longer gap. Ease off early instead of braking late. Keep your speed steady instead of closing every gap. On a busy road others may cut in, so the effect is smaller, but it still helps.",
+    "You will not get home sooner. But the drivers behind you might."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [
+    3
+   ],
+   "beats": [
+    "So, why do traffic jams appear out of nowhere?",
+    "Because they are not things in a place. They are waves, made by many drivers reacting a little late and a little too hard.",
+    "Once the road is crowded enough, any small wobble can grow into a full stop, travelling backwards through the traffic.",
+    "And when you finally reach the front and the road opens up, the jam is still there. It has just moved on to the drivers behind you.",
+    "Have you ever been stuck in a jam with no cause? Tell me where in the comments."
+   ]
+  }
+ ]
+}
