@@ -1,0 +1,10 @@
+0:00.4  hook: script 'wheels' / heard 'we'll'
+2:13.8  spokes: script 'neighbour' / heard 'neighbor'
+3:30.6  car: script 'tyre' / heard 'tire'; script 'centimetres' / heard 'centimeters'
+3:41.8  car: script 'kilometers an hour' / heard 'km h'
+5:18.8  eyes: script 'a' / heard 'one'; script 'a' / heard 'one'; script 'and' / heard ''
+6:21.4  end: script 'wheels' / heard 'we'll'
+6:24.6  end: script 'leftover' / heard 'left over'
+
+7 beat(s) to listen to; 13 of 934 words differ (1.4%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

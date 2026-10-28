@@ -1,0 +1,12 @@
+{"ep": "Episode 3",
+ "title": "Why Do Wheels Spin Backwards on Camera?",
+ "intro": ["The car races forward but its wheels turn the wrong way, or freeze. Nothing is wrong with the wheel or the camera: the trick happens between the frames.", "Here is the simple rule behind it, the speed at which a car wheel freezes on film, and why your own eyes can be fooled too."],
+ "chapters": [["hook", "Wheels that turn the wrong way"], ["frames", "What a camera records"], ["spokes", "The spoke that went backwards"], ["rule", "The rule: aliasing"], ["car", "A real car at 35 km/h"], ["shutter", "Shutter speed"], ["eyes", "Your own eyes"], ["end", "The answer"]],
+ "sources": ["Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)", "Kline, Holcombe & Eagleman (2004), Illusory motion reversal is caused by rivalry, not by perceptual snapshots of the visual field, Vision Research 44", "Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41", "Schouten (1967), Subjective stroboscopy and a model of visual movement detectors", "Wikipedia: Wagon-wheel effect; Stroboscopic effect"],
+ "closing": "Have you ever caught a wheel or a fan doing this? Tell me where in the comments.",
+ "tags": ["wagon wheel effect", "why wheels spin backwards", "wheels spinning backwards on camera", "stroboscopic effect", "aliasing", "frame rate", "helicopter blades frozen", "optical illusion", "physics explained", "Why It Does That"],
+ "playlist": "Light & Sound",
+ "pinned": "Have you ever caught a wheel or a fan doing this? Tell me where in the comments.",
+ "cards": "none",
+ "endscreen": "best-retention episode + subscribe (template \"1 video, 1 subscribe\"), elements start at the end card",
+ "promise": "the rule (leftover step past half a gap → looks backwards) is on screen in 'The rule: aliasing' and restated at the end"}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.5);
+  roadDashes(900, 0);
+  carSide(1150, 780, 1.6, 0.25, 1);
+  wheel(1150 - 296, 812, 115, 0.3, 5, {});
+  spinArrow(1150 - 296, 812, 190, -1, CORALc, 1);
+  arrow(1450, 420, 1830, 420, BLUE, 1, 16, 50);
+  const W1 = { 1: ["WRONG", "WAY?"], 2: ["BACK-", "WARDS?"], 3: ["CAMERA", "TRICK"] }[v];
+  word(W1[0], 450, 230, 190, "#F2F5FB"); word(W1[1], 450, 440, 190, "#FF8A7A");
+  chibi(250, 1050, 0.3, { look: [0.8, -0.3], mouth: "o" }); clapper(250, 1050, 0.3);
+};
+</script></body></html>

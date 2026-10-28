@@ -1,0 +1,444 @@
+1
+00:00:00,600 --> 00:00:03,019
+Tại sao bánh xe quay ngược khi quay phim?
+
+2
+00:00:03,519 --> 00:00:05,462
+Một chiếc xe tăng tốc trên màn hình.
+
+3
+00:00:05,462 --> 00:00:09,200
+Bánh xe quay nhanh dần, rồi
+chậm lại, rồi dừng hẳn.
+
+4
+00:00:09,200 --> 00:00:14,059
+Rồi chúng quay ngược chiều, trong
+khi xe vẫn lao về phía trước.
+
+5
+00:00:15,559 --> 00:00:20,591
+Cánh quạt trực thăng có thể đứng yên giữa
+không trung khi trực thăng đang bay.
+
+6
+00:00:21,091 --> 00:00:24,424
+Bánh xe không có lỗi gì,
+máy quay cũng không.
+
+7
+00:00:24,424 --> 00:00:27,629
+Mánh khóe nằm ở những gì
+xảy ra giữa các bức hình.
+
+8
+00:00:28,129 --> 00:00:34,309
+Và đến cuối video, bạn sẽ thấy vì sao chính mắt bạn, dưới ánh
+sáng thích hợp, cũng có thể bị đánh lừa theo cách tương tự.
+
+9
+00:00:36,409 --> 00:00:38,940
+Hãy bắt đầu từ những gì
+máy quay thực sự ghi lại.
+
+10
+00:00:39,440 --> 00:00:41,322
+Nó không ghi lại chuyển động.
+
+11
+00:00:41,322 --> 00:00:44,579
+Nó ghi lại các bức ảnh tĩnh,
+hết bức này đến bức khác.
+
+12
+00:00:45,079 --> 00:00:48,948
+Phim điện ảnh chiếu 24 bức mỗi giây.
+
+13
+00:00:48,948 --> 00:00:52,665
+Hầu hết video ghi 25, 30 hoặc 60.
+
+14
+00:00:54,165 --> 00:00:57,995
+Giữa hai bức hình, máy quay
+thấy rất ít hoặc không thấy gì.
+
+15
+00:00:57,995 --> 00:01:01,209
+Bất cứ điều gì xảy ra trong khoảng
+trống đó, nó đơn giản là bỏ lỡ.
+
+16
+00:01:01,709 --> 00:01:03,377
+Não bạn lấp đầy khoảng trống ấy.
+
+17
+00:01:03,377 --> 00:01:09,447
+Nó nối mỗi bức hình với bức tiếp theo bằng cách đoán
+chuyển động ngắn nhất, đơn giản nhất giữa chúng.
+
+18
+00:01:09,947 --> 00:01:12,983
+Các nhà tâm lý học gọi đây
+là chuyển động biểu kiến.
+
+19
+00:01:12,983 --> 00:01:17,538
+Nhờ nó mà một quyển sách lật hình,
+hay một bộ phim, trông như đang sống.
+
+20
+00:01:18,038 --> 00:01:19,905
+Thường thì phỏng đoán đó đúng.
+
+21
+00:01:19,905 --> 00:01:22,304
+Với một chiếc bánh xe, nó
+có thể sai nghiêm trọng.
+
+22
+00:01:24,404 --> 00:01:27,220
+Đây là một bánh xe ngựa có 12 nan hoa.
+
+23
+00:01:27,220 --> 00:01:30,174
+Nan nào trông cũng giống hệt nan nào.
+
+24
+00:01:30,674 --> 00:01:33,221
+Hãy đánh dấu một nan bằng màu
+vàng, chỉ để chúng ta biết.
+
+25
+00:01:33,221 --> 00:01:36,439
+Máy quay, và cả não bạn,
+không nhìn thấy dấu đó.
+
+26
+00:01:36,939 --> 00:01:38,619
+Quay bánh xe thật chậm.
+
+27
+00:01:38,619 --> 00:01:42,207
+Giữa hai khung hình, nó
+chỉ quay được vài độ.
+
+28
+00:01:42,207 --> 00:01:47,628
+Mỗi nan hoa nhích một chút, và não
+bạn ghép mỗi nan với chính nó.
+
+29
+00:01:47,628 --> 00:01:48,239
+Tiến về phía trước.
+
+30
+00:01:48,239 --> 00:01:48,850
+Đúng.
+
+31
+00:01:50,350 --> 00:01:51,716
+Giờ hãy quay nhanh hơn.
+
+32
+00:01:51,716 --> 00:01:57,040
+Giữa các khung hình, mỗi nan hoa giờ
+đi gần tới vị trí của nan kế tiếp.
+
+33
+00:01:57,540 --> 00:02:00,868
+Não bạn không biết nan nào là nan nào.
+
+34
+00:02:00,868 --> 00:02:04,414
+Nó thấy một nan nằm ngay
+sau chỗ mà một nan từng ở.
+
+35
+00:02:04,414 --> 00:02:08,321
+Nên nó chọn bước dịch ngắn
+nhất: một bước nhỏ lùi lại.
+
+36
+00:02:08,821 --> 00:02:10,634
+Nan vàng đã đi tới.
+
+37
+00:02:10,634 --> 00:02:12,448
+Còn bánh xe bạn thấy thì lùi lại.
+
+38
+00:02:13,948 --> 00:02:19,349
+Quay nhanh thêm chút nữa, để mỗi nan
+rơi đúng vào chỗ của nan bên cạnh.
+
+39
+00:02:19,849 --> 00:02:23,598
+Giờ mọi khung hình đều
+giống hệt khung hình trước.
+
+40
+00:02:23,598 --> 00:02:28,620
+Bánh xe, dù đang quay hết tốc
+lực, trông như đứng im hoàn toàn.
+
+41
+00:02:30,720 --> 00:02:32,296
+Vậy quy tắc rất đơn giản.
+
+42
+00:02:32,296 --> 00:02:36,522
+Điều quan trọng là bánh xe quay
+được bao xa giữa hai khung hình.
+
+43
+00:02:36,522 --> 00:02:39,745
+Hãy so sánh với khoảng
+cách giữa hai nan hoa.
+
+44
+00:02:40,244 --> 00:02:43,408
+Bỏ qua các khoảng nguyên;
+chỉ phần dư mới có ý nghĩa.
+
+45
+00:02:43,408 --> 00:02:48,655
+Phần dư nhỏ hơn nửa khoảng,
+bánh xe trông như quay tới.
+
+46
+00:02:49,155 --> 00:02:56,147
+Phần dư lớn hơn nửa khoảng, thì nan gần nhất
+nằm phía sau, nên bánh xe trông như quay ngược.
+
+47
+00:02:57,647 --> 00:03:00,450
+Đúng một khoảng nguyên, nó đứng yên.
+
+48
+00:03:00,950 --> 00:03:07,966
+Với bánh xe 12 nan ở 24 khung hình mỗi
+giây, khoảng cách giữa các nan là 30 độ.
+
+49
+00:03:07,966 --> 00:03:11,614
+Quay đúng hai vòng mỗi
+giây, nó sẽ đứng yên.
+
+50
+00:03:13,114 --> 00:03:15,335
+Các kỹ sư gọi đây là hiện
+tượng chồng phổ (aliasing).
+
+51
+00:03:15,335 --> 00:03:20,236
+Một dạng nhanh, bị lấy mẫu quá
+chậm, sẽ giả làm một dạng chậm hơn.
+
+52
+00:03:20,736 --> 00:03:26,429
+Để ghi trung thực một chuyển động lặp
+lại, bạn cần hơn hai mẫu cho mỗi chu kỳ.
+
+53
+00:03:26,429 --> 00:03:28,998
+Ít hơn thế, các mẫu sẽ nói dối.
+
+54
+00:03:30,798 --> 00:03:32,449
+Thử với một chiếc xe thật nhé.
+
+55
+00:03:32,449 --> 00:03:38,345
+Lấy một bánh xe 5 nan hoa và
+lốp cao khoảng 65 centimet.
+
+56
+00:03:38,345 --> 00:03:41,411
+Quay ở 24 khung hình mỗi giây.
+
+57
+00:03:41,911 --> 00:03:47,173
+Bánh xe trông đứng yên khi mỗi nan hoa
+dịch đúng một khoảng mỗi khung hình.
+
+58
+00:03:47,173 --> 00:03:52,288
+Tính ra, điều đó xảy ra ở khoảng 35 km/h.
+
+59
+00:03:52,788 --> 00:03:56,346
+Chậm hơn một chút, bánh xe có vẻ bò lùi.
+
+60
+00:03:56,346 --> 00:03:58,823
+Nhanh hơn một chút, nó bò tới.
+
+61
+00:04:00,323 --> 00:04:03,506
+Tăng tốc nhiều hơn, cả chu kỳ lặp lại.
+
+62
+00:04:03,506 --> 00:04:06,763
+Tiến, đứng yên, lùi, rồi lại tiếp tục.
+
+63
+00:04:07,263 --> 00:04:12,722
+Và tốc độ bạn thấy trên màn hình hầu
+như không liên quan đến tốc độ thực.
+
+64
+00:04:12,722 --> 00:04:17,330
+Một chiếc xe chạy tốc độ đường cao tốc
+có thể có bánh xe bò chậm về phía sau.
+
+65
+00:04:18,830 --> 00:04:24,337
+Hiện tượng tương tự làm cánh quạt trực thăng đứng
+yên khi các cánh thẳng hàng với các khung hình.
+
+66
+00:04:26,137 --> 00:04:27,876
+Còn một mảnh ghép nữa.
+
+67
+00:04:27,876 --> 00:04:29,976
+Mỗi khung hình không phải là
+một khoảnh khắc tức thời.
+
+68
+00:04:29,976 --> 00:04:36,134
+Màn trập mở trong một thời gian ngắn, và bất cứ
+thứ gì chuyển động trong thời gian đó đều bị nhòe.
+
+69
+00:04:36,634 --> 00:04:41,864
+Tốc độ màn trập chậm làm các nan hoa
+nhòe thành một đĩa mờ, và ảo giác mờ đi.
+
+70
+00:04:42,364 --> 00:04:47,216
+Tốc độ màn trập nhanh đóng băng từng
+nan hoa sắc nét, và ảo giác mạnh hơn.
+
+71
+00:04:48,716 --> 00:04:52,837
+Vì vậy cảnh quay có thời gian phơi
+sáng rất ngắn cho thấy rõ nhất.
+
+72
+00:04:52,837 --> 00:04:55,980
+Nhiều clip điện thoại quay
+dưới nắng gắt là như vậy.
+
+73
+00:04:57,780 --> 00:05:02,848
+Lần tới khi quay quạt, xe đạp hay ô
+tô bằng điện thoại, hãy để ý bánh xe.
+
+74
+00:05:03,348 --> 00:05:08,948
+Đổi tốc độ khung hình trong cài đặt máy
+quay, và bạn sẽ thấy bánh xe đổi chiều.
+
+75
+00:05:11,048 --> 00:05:13,119
+Nhưng đây mới là phần lạ.
+
+76
+00:05:13,119 --> 00:05:18,475
+Người ta từng thấy bánh xe đảo chiều
+bằng chính mắt mình, không cần máy quay.
+
+77
+00:05:18,975 --> 00:05:21,789
+Một số loại đèn làm
+thay việc của máy quay.
+
+78
+00:05:21,789 --> 00:05:29,436
+Đèn huỳnh quang cũ và một số đèn LED rẻ
+tiền nhấp nháy 100 hoặc 120 lần mỗi giây.
+
+79
+00:05:29,436 --> 00:05:31,384
+Nhanh đến mức không nhận ra.
+
+80
+00:05:31,884 --> 00:05:38,092
+Dưới những đèn đó, bánh xe đang quay hay một chi tiết máy
+được chiếu sáng theo từng chớp, giống như các khung hình.
+
+81
+00:05:38,092 --> 00:05:40,934
+Nó có thể trông chậm,
+đứng yên hoặc đảo chiều.
+
+82
+00:05:42,434 --> 00:05:44,899
+Trong nhà máy, đây là mối nguy thật sự.
+
+83
+00:05:44,899 --> 00:05:48,913
+Một chiếc máy tiện trông như đã
+dừng có thể đang quay hết tốc lực.
+
+84
+00:05:49,413 --> 00:05:52,314
+Máy quay đĩa than ngày xưa đã
+dùng điều này một cách có chủ ý.
+
+85
+00:05:52,314 --> 00:05:58,723
+Một vòng chấm trên mâm quay trông đứng yên
+dưới đèn điện lưới khi tốc độ chính xác.
+
+86
+00:05:59,223 --> 00:06:06,239
+Và lạ hơn nữa, một vài thí nghiệm báo cáo những lần
+đảo chiều ngắn ngay cả dưới ánh sáng đều, liên tục.
+
+87
+00:06:07,739 --> 00:06:12,907
+Một số nhà nghiên cứu cho rằng điều này
+nghĩa là thị giác của ta tự chụp ảnh nhanh.
+
+88
+00:06:12,907 --> 00:06:17,716
+Số khác cho rằng đó là cuộc tranh giành giữa
+các bộ phát hiện chuyển động trong não.
+
+89
+00:06:17,716 --> 00:06:19,726
+Câu hỏi đó vẫn còn bỏ ngỏ.
+
+90
+00:06:21,526 --> 00:06:24,223
+Vậy, tại sao bánh xe quay
+ngược khi quay phim?
+
+91
+00:06:24,723 --> 00:06:26,928
+Bởi vì máy quay nhìn theo từng khung hình.
+
+92
+00:06:26,928 --> 00:06:34,576
+Khi bước dư của mỗi nan hoa vượt quá nửa đường
+tới nan kế tiếp, não bạn ghép nó với nan sai.
+
+93
+00:06:35,076 --> 00:06:36,701
+Bánh xe đi tới.
+
+94
+00:06:36,701 --> 00:06:38,539
+Những bức hình lùi lại.
+
+95
+00:06:40,039 --> 00:06:43,078
+Bạn đã bao giờ bắt gặp một bánh xe
+hay một chiếc quạt như vậy chưa?
+
+96
+00:06:43,078 --> 00:06:44,938
+Hãy kể cho mình nghe ở phần bình luận.
