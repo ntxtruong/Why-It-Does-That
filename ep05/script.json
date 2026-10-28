@@ -13,11 +13,11 @@
    ],
    "beats": [
     "How can a pair of headphones make the world quieter by adding more noise?",
-    "Put on noise-cancelling headphones on a plane, press one button, and the low roar of the cabin drops sharply.",
+    "Put on noise-cancelling headphones on a plane and press one button. The low roar of the cabin drops sharply.",
     "But pressing the button blocked nothing new. The headphones did not get thicker. They started making sound.",
     "Most people think noise cancelling works like a wall, keeping sound out.",
     "It doesn't. It fights sound with sound.",
-    "And by the end of this video you will know why it can tame the low drone of a plane, but can barely touch the voice of the person next to you."
+    "By the end of this video, you will know why it tames the low drone of a plane. And why it barely touches the voice of the person next to you."
    ]
   },
   {
@@ -44,7 +44,7 @@
    ],
    "beats": [
     "Now here is the trick.",
-    "What if, at the exact moment the noise squeezes the air at your ear, a tiny speaker stretches it by the same amount?",
+    "Imagine the noise squeezes the air at your ear. At that exact moment, a tiny speaker stretches it by the same amount.",
     "The squeeze and the stretch meet, and they add up to nothing. The air at your eardrum barely moves.",
     "Two waves, each loud on its own, together make silence.",
     "Physicists call this destructive interference. The second wave is a mirror image of the first: every peak where the noise has a trough.",
@@ -66,7 +66,7 @@
     "And the speaker that plays your music also plays that mirror image, mixed in.",
     "Many headphones add a second microphone inside the ear cup. It hears what actually reached your ear, and corrects whatever the first one missed.",
     "This idea is surprisingly old. A German inventor, Paul Lueg, patented it in the 1930s.",
-    "But it took decades of faster electronics before it fit on your head. Bose sold noise-cancelling headsets to pilots in the late 1980s, long before they reached ordinary travellers.",
+    "But it took decades of faster electronics before it fit on your head. Bose sold noise-cancelling headsets to pilots in the late 1980s. Ordinary travellers got them much later.",
     "So why did it take so long? Because the mirror has to be almost perfect."
    ]
   },
@@ -81,9 +81,9 @@
     "Imagine the anti-noise arrives a little late.",
     "Now its stretch no longer lines up with the noise's squeeze. Part of the noise leaks through.",
     "Arrive half a cycle late, and the two waves line up peak with peak. Instead of silence, you have made the wave twice as tall: louder, not quieter.",
-    "To cut the sound's energy by ninety-nine per cent, the timing has to be right to within about a sixtieth of a cycle.",
-    "For a hundred-hertz engine hum, a cycle lasts ten milliseconds. A sixtieth of that is about a sixth of a millisecond, which leaves plenty of room for small errors.",
-    "For a sound at two thousand hertz, a cycle lasts half a millisecond. Now the whole system, sound paths and fit included, must be accurate to about eight millionths of a second.",
+    "To cut the sound's energy by ninety-nine per cent, the timing must be right to about a sixtieth of a cycle.",
+    "For a hundred-hertz engine hum, a cycle lasts ten milliseconds. A sixtieth of that is about a sixth of a millisecond. That leaves room for small errors.",
+    "For a sound at two thousand hertz, a cycle lasts half a millisecond. Now the whole system, fit included, must be accurate to about eight millionths of a second.",
     "So the higher the pitch, the harder the mirror is to get right."
    ]
   },
@@ -101,7 +101,7 @@
     "A hundred-hertz hum has a wavelength of about three and a half metres. A tenth of that is thirty-four centimetres, wider than your whole head.",
     "Easy. The bubble swallows your ear.",
     "But a sound at three thousand hertz has a wavelength of about eleven centimetres. Its quiet bubble is about one centimetre wide.",
-    "The inner microphone sits a few centimetres from your eardrum, beyond the ear canal, and at that pitch, that is already outside the bubble.",
+    "The inner microphone sits a few centimetres from your eardrum. At that pitch, that is already outside the bubble.",
     "So the quiet zone shrinks as the pitch rises."
    ]
   },
@@ -115,7 +115,7 @@
     "Put the two problems together, and you get the answer to our puzzle.",
     "Engine roar, air conditioning, train rumble: low, steady, predictable. The headphones cancel them beautifully.",
     "Voices are higher, and they change every fraction of a second. The mirror can never quite keep up.",
-    "So for high sounds, headphones fall back on the oldest trick of all: thick, soft padding that simply blocks them.",
+    "So for high sounds, headphones fall back on the oldest trick of all. Thick, soft padding simply blocks them.",
     "Active cancelling handles the low end. Padding handles the high end. Together they make the quiet you hear."
    ]
   },
@@ -136,7 +136,7 @@
    ],
    "beats": [
     "So, how can headphones cancel noise with more noise?",
-    "They listen to the world, build its mirror image, and play it into your ear at exactly the right moment, so the squeeze and the stretch meet and add up to almost nothing.",
+    "They listen to the world and build its mirror image. They play it into your ear at exactly the right moment. The squeeze and the stretch meet, and add up to almost nothing.",
     "The lower and steadier the sound, the better the mirror works. That is why the jet engine fades, and the voice beside you fades much less.",
     "Here, quiet is not the absence of sound waves. It is two waves perfectly out of step, right at your ear.",
     "What noise would you most like to cancel? Tell me in the comments."

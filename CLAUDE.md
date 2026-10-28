@@ -36,7 +36,7 @@ A scheduled task opens a new session on Wednesday and Saturday morning (Vietnam 
 
 - Attach this repo to the session first with the `mcp__claude-code-remote__add_repo` tool (owner `ntxtruong`, repo `Why-It-Does-That`, access `push`), then clone it as the tool result says. The scheduled task has no repository setting and the routines page cannot be configured, so attaching from inside the session is the only route to push. `git push` then works through the session's git proxy even when the `gh` CLI has no valid token. Ignore the `push_check` field in the tool's result: it said "refused" on 2026-10-28 and the push still worked.
 - `bash tools/setup.sh` installs everything in about two minutes: `kokoro-onnx`, `soundfile`, `sherpa-onnx`; the Kokoro model in `tts/` and the speech-recognition model in `asr/` (both git-ignored, downloaded from GitHub release assets); the Node tools in `package.json` (Hyperframes, Remotion, GSAP). It also checks the Inter font, ffmpeg and the browser.
-- `. tools/env.sh` in every shell that renders. It turns telemetry off and points Hyperframes and Remotion at Playwright's Chromium headless shell, because neither can download its own browser here (`hyperframes browser ensure` hangs).
+- `. tools/env.sh` in every shell that renders (fixed 2026-10-28: Playwright's headless shell now sits under `chrome-headless-shell-linux64/`, and the old glob found nothing). It turns telemetry off and points Hyperframes and Remotion at Playwright's Chromium headless shell, because neither can download its own browser here (`hyperframes browser ensure` hangs).
 - Blocked from the cloud workspace: `cdn.jsdelivr.net` (so GSAP is copied from `node_modules/gsap/dist/gsap.min.js` into the episode folder, git-ignored), Hugging Face, and the source of any GitHub repo not attached to the session. That also stops `hyperframes skills`, `hyperframes add` and `hyperframes catalog`; use `npx hyperframes docs <topic>` instead.
 - Episode 1 was built with `ep01/tts.py`, `render.js`, `thumb.js` and `ep01/video.html` (canvas only, Playwright screenshots). They still work and are the fallback; `tts.py` and `thumb.js` carry over unchanged.
 
@@ -212,7 +212,7 @@ Change only with Trường's approval. The kit fixes identity, not content: each
 - Logo sting ≤ 2 s, thumbnail layout, subtitle style and end-screen layout: keep the episode 2 versions until a v2 variant is approved (end card: mascot left, right two thirds free for YouTube elements).
 - Music: chosen by Trường; Mix level 15 in the YouTube Studio editor.
 - Localization languages: Vietnamese (vi), Thai (th), Japanese (ja), Korean (ko), Chinese Traditional (zh-Hant). Added on every upload, no gate.
-- Note: `brand/brandkit.js` still holds the v1 colours; switch it to v2 at the start of the next production.
+- `brand/brandkit.js` switched to the v2 colours on 2026-10-28 (episodes 3–5 were built on v2).
 
 ## Glossary
 
@@ -234,15 +234,33 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | wagon-wheel effect | hiệu ứng bánh xe ngựa | ปรากฏการณ์ล้อเกวียน | ワゴンホイール効果 | 마차 바퀴 효과 | 馬車輪效應 |
 | shutter speed | tốc độ màn trập | ความเร็วชัตเตอร์ | シャッタースピード | 셔터 속도 | 快門速度 |
 | stroboscopic effect | hiệu ứng hoạt nghiệm | ปรากฏการณ์สโตรโบสโคปิก | ストロボ効果 | 스트로보 효과 | 頻閃效應 |
+| traffic jam | tắc đường | รถติด | 渋滞 | 교통 체증 | 塞車 |
+| stop-and-go wave | sóng "dừng rồi đi" (stop-and-go) | คลื่นหยุด-วิ่ง | ストップ・アンド・ゴー波 | 스톱 앤 고 파동 | 走走停停波 |
+| bottleneck | điểm nghẽn | คอขวด | ボトルネック | 병목 | 瓶頸 |
+| string instability | mất ổn định theo chuỗi | ความไม่เสถียรแบบสายโซ่ | ストリング不安定 | 스트링 불안정 | 車隊不穩定 |
+| traffic density | mật độ xe | ความหนาแน่นของรถ | 交通密度 | 교통 밀도 | 車流密度 |
+| reaction time | thời gian phản ứng | เวลาตอบสนอง | 反応時間 | 반응 시간 | 反應時間 |
+| destructive interference | giao thoa triệt tiêu | การแทรกสอดแบบหักล้าง | 弱め合う干渉 | 상쇄 간섭 | 破壞性干涉 |
+| active noise cancellation | chống ồn chủ động | การตัดเสียงรบกวนแบบแอ็กทีฟ | アクティブノイズキャンセリング | 능동 소음 제거 | 主動降噪 |
+| anti-noise (inverted sound) | âm ngược pha | เสียงกลับเฟส | 逆位相の音 | 역위상 소리 | 反相噪音 |
+| pitch | cao độ | ระดับเสียง | 音の高さ | 음높이 | 音高 |
+| eardrum | màng nhĩ | แก้วหู | 鼓膜 | 고막 | 耳膜 |
+| quiet zone | vùng yên tĩnh | โซนเงียบ | 静かな範囲 | 조용한 영역 | 安靜區 |
+| apparent motion | chuyển động biểu kiến | การเคลื่อนไหวปรากฏ | 仮現運動 | 가현 운동 | 似動現象 |
+| spoke | nan hoa | ซี่ล้อ | スポーク | 바퀴살 | 輪輻 |
+| exposure time | thời gian phơi sáng | เวลาเปิดรับแสง | 露光時間 | 노출 시간 | 曝光時間 |
+| flicker | nhấp nháy | การกะพริบ | ちらつき | 깜박임 | 閃爍 |
 
-## Open items (2026-10-28)
+## Open items (2026-10-28, evening)
 
-- Episode 3 "Why Do Wheels Spin Backwards on Camera?" (7:12, Long) was rendered on 2026-10-15 but not pushed or uploaded; waiting for Trường to say whether he uploaded it himself or to re-attach the files.
-- Channel page showed "Why It Does That??" on 2026-10-15; waiting for Trường to confirm whether that name is intended.
-- Push from the scheduled task: settled 2026-10-28. The routines page cannot be configured, so the task prompt (v9.4) now has each run attach the repo itself with `add_repo` (access `push`) before cloning. Tested the same day from a chat session with no repo attached: commit 5eda6df pushed to `claude/ep02-sky`. The first scheduled run on the new prompt is the real test; if it still gets 403, it falls back to sending files and a patch through the chat.
-- A throwaway branch `claude-push-test` was left on the remote by that test because the git proxy blocks branch deletion; Trường may delete it on GitHub.
-- Episode 4 ideas offered on 2026-10-28, waiting for his pick: (1) Why Do Traffic Jams Appear Out of Nowhere? (Long, phantom jams, Sugiyama 2008 ring-road experiment); (2) How Do Headphones Cancel Noise With More Noise? (Long, destructive interference, good at low-frequency hum, weak on voices); (3) Why Do Water Drops Dance on a Hot Pan? (Short, Leidenfrost effect).
+- Episodes 3, 4 and 5 are rendered and pushed (branches `claude/ep03-wheels`, `claude/ep04-traffic`, `claude/ep05-anc`) but not uploaded: the run had no linked computer. Upload all three as Unlisted in the next run that has the built-in browser (Stage 4), then the music gate.
+- Episode 3 was rebuilt from scratch on 2026-10-28 (the 2026-10-15 files were never pushed and Trường did not have them in the repo).
+- Channel page showed "Why It Does That??" on 2026-10-15; still waiting for Trường to confirm whether that name is intended.
+- Push from the scheduled task works: on 2026-10-28 the repo was already cloned with push access; `git push` to `claude/*` succeeded without `add_repo` (the tool was not offered in that session).
+- A throwaway branch `claude-push-test` was left on the remote by an earlier test because the git proxy blocks branch deletion; Trường may delete it on GitHub.
 - The hyperframes fork (`ntxtruong/hyperframes`) HEAD differed from `heygen-com/hyperframes` on 2026-10-28; Trường may press "Sync fork".
+- Glossary: the terms added on 2026-10-28 for episodes 3–5 are machine-drafted; Trường or a native speaker should confirm (least certain: vi "sóng dừng rồi đi" for stop-and-go wave, and every language's "string unstable").
+- Music moods proposed at script approval (Trường did not object): ep3 curious/light, ep4 steady urban pulse, ep5 calm ambient.
 
 ## Lessons from the 2026-10-28 run
 
@@ -252,9 +270,23 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 - A shallow clone tracks only `main`: fetch other branches with an explicit refspec (`+refs/heads/claude/<name>:refs/remotes/origin/claude/<name>`) and add it to `remote.origin.fetch` before `git branch -u`.
 - When push is refused, still write CLAUDE.md updates on a local `claude/*` branch and send the file and a `git format-patch` through the chat, so nothing is lost.
 
+
+## Lessons from the 2026-10-28 production run (episodes 3–5 in one session)
+
+- This machine had 2 CPU cores: Kokoro takes about 7 minutes per 900-word script, a 6:45 Hyperframes render about 16 minutes (~12 fps alone, ~6 fps with another job running), and the slow x264 encode cannot finish in a 10-minute foreground call when a render is running. Run TTS, renders and encodes detached and one at a time.
+- A `while pgrep -f "python3 tts.py"` waiter matches its own command line and never ends; chain jobs with `;` in one detached shell instead.
+- Split every subtitle sentence that runs over ~7 s before the voice is generated; check with the subtitle durations, not the beat durations (beats hold several sentences).
+- Frame check caught a script error the skeptic missed: in ep3 "a little slower crawls forward / a little faster creeps backwards" was reversed (just below the freeze speed the leftover step is almost a whole gap, so it looks backwards). Draw the physics first, then read the script against the drawing.
+- Captions kept to the opening question and the end card; numbers and labels drawn on the canvas next to what they describe. Layout check stays clean this way and the frame is less cluttered than episode 2.
+- Shared files for a new episode: `core.js` (v2 colours, primitives, mascot, `spring()`), a generic `build.js` that reads `captions.js`, `tts.py` with subtitle numerals in `nums.json`, `encode.sh` that brings the narration to −14 LUFS and measures the final file, and `thumb.js` that writes three thumbnail variants.
+- Translations: one Sonnet subagent per episode translates title, description and subtitles into the five languages from `tr_input.json`; `compose_tr` puts the English timings back. About 4 minutes per episode.
+
 ## Episodes
 
 | # | Topic | Status |
 | --- | --- | --- |
 | 1 | Why is a rainbow always at the same angle? | Public since 2026-10-03: https://youtu.be/CywvAndxdSk. Music: "Secret Conversations" (The 126ers), four segments, mix 15 |
 | 2 | Why is the sky blue but sunsets red? (Rayleigh scattering; also why not violet, white clouds, Mars) | Public since 2026-10-15 (switched by Claude on Trường's explicit request that day): https://youtu.be/H_61WImrwoQ. Music: "Secret Conversations" (The 126ers), same as episode 1 at his request, three segments 0:00–2:53, 2:53–5:46, 5:46–6:35, mix 15. 6:35, 911 words, first episode built with Hyperframes, branch `claude/ep02-sky` |
+| 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Rebuilt and rendered 2026-10-28, branch `claude/ep03-wheels`; not uploaded yet (no linked computer) |
+| 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Rendered 2026-10-28, branch `claude/ep04-traffic`; not uploaded yet |
+| 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Rendered 2026-10-28, branch `claude/ep05-anc`; not uploaded yet |

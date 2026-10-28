@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.5);
+  head(1420, 560, 1.1, 1, 1);
+  // noise in, mirror out, flat at the ear
+  trace(80, 1150, 640, 120, x => Math.sin(x / 60), CORALc, 1, 16);
+  trace(80, 1150, 640, 120, x => -Math.sin(x / 60), BLUEc, 0.9, 16);
+  line(1150, 640, 1340, 640, GOLD, 1, 18);
+  const W1 = { 1: ["NOISE +", "NOISE = 0"], 2: ["MORE NOISE", "= QUIET?"], 3: ["SILENCE", "FROM SOUND"] }[v];
+  word(W1[0], 600, 190, 150, "#F2F5FB"); word(W1[1], 600, 360, 150, v === 2 ? "#FFD45E" : "#8CC6FF");
+  chibi(1780, 1060, 0.3, { look: [-0.8, -0.3], mouth: "grin" }); masPhones(1780, 1060, 0.3, 1);
+};
+</script></body></html>

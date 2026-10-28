@@ -1,5 +1,5 @@
 window.__kit=(()=>{const RAD=Math.PI/180,SPEC=['#ff4b4b','#ff9340','#ffe04a','#58e07a','#45a8ff','#6470ff','#a56bff'],NS=SPEC.map((_,i)=>1.330+0.013*i/6),NW=1.333;
-const BG='#0a1020',INK='#eef2f8',QUIET='#8a97ad',SUN='#f6f1e3',ACC='#ffd166',DROP='#7fb4ff';let g;
+const BG='#18264F',INK='#F2F5FB',QUIET='#AAB7D1',SUN='#f6f1e3',ACC='#FFD45E',DROP='#8CC6FF';let g;
 const sub=(a,b)=>({x:a.x-b.x,y:a.y-b.y}),add=(a,b)=>({x:a.x+b.x,y:a.y+b.y}),mul=(a,k)=>({x:a.x*k,y:a.y*k}),dot=(a,b)=>a.x*b.x+a.y*b.y;
 function refract(d,n,eta){const ci=-dot(d,n),k=1-eta*eta*(1-ci*ci);return add(mul(d,eta),mul(n,eta*ci-Math.sqrt(Math.max(0,k))))}
 function bowAngle(n){const i=Math.acos(Math.sqrt((n*n-1)/3)),r=Math.asin(Math.sin(i)/n);return (4*r-2*i)/RAD}

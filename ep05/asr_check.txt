@@ -1,0 +1,18 @@
+1:14.5  wave: script 'a' / heard 'one'
+1:33.6  cancel: script 'and' / heard 'in'
+2:03.2  cancel: script 'cancelling' / heard 'canceling'
+2:40.0  inside: script 'lueg' / heard 'leug'
+2:49.8  inside: script 'bose' / heard 'both'; script 'cancelling' / heard 'canceling'; script 'eightys' / heard 'eighty'; script 'travellers' / heard 'travelers'
+3:14.7  timing: script 'its stretch' / heard 'it's stretched'; script 'noise's' / heard 'noises'
+3:33.1  timing: script 'sound's' / heard 'sounds'; script 'per cent' / heard 'percent'; script 'sixtieth' / heard 'sixtyth'
+3:41.0  timing: script 'a' / heard 'one'; script 'hertz' / heard 'hz'; script 'sixtieth' / heard 'sixtyth'
+3:53.5  timing: script 'hertz' / heard 'hz'
+4:22.8  zone: script 'ten fold' / heard 'tenfold'
+4:36.7  zone: script 'a' / heard 'one'; script 'hertz' / heard 'hz'; script 'and a half meters' / heard 'point five m'; script 'centimetres' / heard 'cm'
+4:49.6  zone: script 'hertz' / heard 'hz'; script 'centimetres' / heard 'cm'; script 'centimetre' / heard 'cm'
+5:00.9  zone: script 'centimetres' / heard 'centimeters'
+5:43.1  voices: script 'cancelling' / heard 'canceling'
+6:05.2  end: script 'noise' / heard 'nyes'; script 'noise' / heard 'nyes'
+
+15 beat(s) to listen to; 35 of 946 words differ (3.7%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
