@@ -1,0 +1,411 @@
+1
+00:00:00,600 --> 00:00:03,096
+Why do traffic jams appear out of nowhere?
+
+2
+00:00:03,596 --> 00:00:06,337
+You crawl for ten minutes, bumper to bumper.
+
+3
+00:00:07,837 --> 00:00:11,622
+Then the road opens up, and there is nothing there.
+
+4
+00:00:11,622 --> 00:00:12,290
+No crash.
+
+5
+00:00:12,290 --> 00:00:13,255
+No roadworks.
+
+6
+00:00:13,255 --> 00:00:14,369
+No lane closed.
+
+7
+00:00:14,869 --> 00:00:16,131
+So what stopped you?
+
+8
+00:00:16,631 --> 00:00:19,333
+Most of us blame something up ahead.
+
+9
+00:00:19,333 --> 00:00:20,383
+A slow driver.
+
+10
+00:00:20,383 --> 00:00:21,584
+Someone merging.
+
+11
+00:00:21,584 --> 00:00:23,535
+A crash on the other side.
+
+12
+00:00:25,035 --> 00:00:26,939
+Sometimes that is true.
+
+13
+00:00:26,939 --> 00:00:29,504
+Real bottlenecks do cause jams.
+
+14
+00:00:29,504 --> 00:00:30,745
+But not always.
+
+15
+00:00:31,245 --> 00:00:36,140
+In 2008, a team of Japanese physicists set out to find out.
+
+16
+00:00:36,140 --> 00:00:40,122
+They built a road with no possible cause at all.
+
+17
+00:00:41,622 --> 00:00:43,555
+And the jam showed up anyway.
+
+18
+00:00:45,355 --> 00:00:46,727
+Here is their road.
+
+19
+00:00:46,727 --> 00:00:52,648
+A circle, 230 metres around, marked out on a flat, empty track.
+
+20
+00:00:53,148 --> 00:00:55,517
+22 cars, spaced evenly.
+
+21
+00:00:55,517 --> 00:01:02,775
+Every driver was asked to do the same thing: drive steadily at about 30 km/h.
+
+22
+00:01:03,276 --> 00:01:04,679
+No traffic lights.
+
+23
+00:01:04,679 --> 00:01:05,693
+No junctions.
+
+24
+00:01:05,693 --> 00:01:06,784
+No slow lorry.
+
+25
+00:01:06,784 --> 00:01:11,774
+Every driver can see the car in front, and nothing else matters.
+
+26
+00:01:13,274 --> 00:01:16,459
+If any road should flow forever, it is this one.
+
+27
+00:01:16,959 --> 00:01:18,596
+For a little while, it does.
+
+28
+00:01:19,096 --> 00:01:21,725
+Then, within a few minutes, a knot appears.
+
+29
+00:01:23,225 --> 00:01:28,847
+A cluster of cars slows, stops, and waits, while the rest of the ring keeps moving.
+
+30
+00:01:30,647 --> 00:01:32,613
+Watch the knot, not the cars.
+
+31
+00:01:33,113 --> 00:01:34,960
+The cars keep going forward.
+
+32
+00:01:34,960 --> 00:01:40,239
+They drive into the jam at the back, crawl through it, and leave from the front.
+
+33
+00:01:41,739 --> 00:01:46,473
+But the jam itself drifts the other way, backwards, against the traffic.
+
+34
+00:01:46,973 --> 00:01:47,983
+Why backwards?
+
+35
+00:01:47,983 --> 00:01:49,282
+Look at the front.
+
+36
+00:01:49,282 --> 00:01:55,129
+A car can only leave once the car ahead has pulled away, and that takes a moment.
+
+37
+00:01:56,629 --> 00:01:59,743
+Meanwhile, new cars keep arriving at the back.
+
+38
+00:01:59,743 --> 00:02:05,700
+So the front is eaten away, the back keeps growing, and the whole knot slides backwards.
+
+39
+00:02:06,200 --> 00:02:10,999
+In the experiment it moved backwards at roughly 20 km/h.
+
+40
+00:02:12,499 --> 00:02:17,633
+That is close to the speed measured for stop-and-go waves on real motorways.
+
+41
+00:02:18,133 --> 00:02:19,775
+So a jam is not a thing.
+
+42
+00:02:19,775 --> 00:02:25,109
+It is a wave, passing through the cars, the way a ripple passes through water.
+
+43
+00:02:26,609 --> 00:02:28,955
+And a wave needs something to start it.
+
+44
+00:02:30,755 --> 00:02:32,549
+Zoom in on one driver.
+
+45
+00:02:33,049 --> 00:02:34,755
+Nobody drives perfectly.
+
+46
+00:02:34,755 --> 00:02:38,094
+The gap ahead grows a little, shrinks a little.
+
+47
+00:02:38,094 --> 00:02:40,438
+Your foot eases off for a moment.
+
+48
+00:02:40,938 --> 00:02:43,491
+The driver behind you notices late.
+
+49
+00:02:43,491 --> 00:02:49,180
+Human reactions take around a second, and when a surprise comes, often longer.
+
+50
+00:02:50,680 --> 00:02:55,539
+By the time they react, the gap has already closed more than they expected.
+
+51
+00:02:56,039 --> 00:02:59,808
+So they brake a little harder than you did, just to be safe.
+
+52
+00:03:00,308 --> 00:03:02,614
+Then the next driver brakes harder still.
+
+53
+00:03:04,114 --> 00:03:09,049
+Each car passes the slowdown back, and each one makes it slightly bigger.
+
+54
+00:03:09,549 --> 00:03:12,336
+Traffic engineers have a name for this.
+
+55
+00:03:12,336 --> 00:03:17,909
+A queue where each follower amplifies the one ahead is called string unstable.
+
+56
+00:03:18,409 --> 00:03:22,949
+Far enough back, a gentle touch of the brakes can become a full stop.
+
+57
+00:03:25,049 --> 00:03:30,060
+If you have sat in traffic in a big city, you have been one of the links in that chain.
+
+58
+00:03:30,560 --> 00:03:32,985
+Nobody in it did anything wrong.
+
+59
+00:03:32,985 --> 00:03:35,865
+Every driver made a reasonable choice.
+
+60
+00:03:35,865 --> 00:03:39,503
+The jam came from all of those choices together.
+
+61
+00:03:41,603 --> 00:03:42,281
+But wait.
+
+62
+00:03:42,281 --> 00:03:47,104
+If small wobbles always grow, why does traffic ever flow at all?
+
+63
+00:03:47,604 --> 00:03:50,882
+Because they only grow when the cars are close together.
+
+64
+00:03:51,382 --> 00:03:55,586
+With long gaps, a driver has room to absorb a slowdown.
+
+65
+00:03:55,586 --> 00:04:01,241
+They ease off gently, and the wobble fades before it reaches the next car.
+
+66
+00:04:02,741 --> 00:04:05,042
+With short gaps, there is no room.
+
+67
+00:04:05,042 --> 00:04:08,901
+Every wobble has to be passed on, and passed on stronger.
+
+68
+00:04:09,401 --> 00:04:12,121
+Physicists call this an instability.
+
+69
+00:04:12,121 --> 00:04:15,671
+Below a certain density, smooth flow is stable.
+
+70
+00:04:15,671 --> 00:04:18,240
+Above it, smooth flow cannot last.
+
+71
+00:04:19,740 --> 00:04:26,902
+Motorway data in their paper put that threshold at around 25 cars per kilometre, in each lane.
+
+72
+00:04:27,402 --> 00:04:30,425
+That is about one car every 40 metres.
+
+73
+00:04:30,425 --> 00:04:33,594
+Busy roads squeeze below that all the time.
+
+74
+00:04:34,094 --> 00:04:38,270
+Past that point, traffic does not need an accident to jam.
+
+75
+00:04:38,270 --> 00:04:39,638
+It only needs time.
+
+76
+00:04:41,738 --> 00:04:47,108
+So if the jam comes from how we drive, can different driving make it go away?
+
+77
+00:04:47,608 --> 00:04:52,783
+Later, engineers in Arizona repeated the ring with about 20 cars.
+
+78
+00:04:52,783 --> 00:04:55,484
+The waves came back, just as before.
+
+79
+00:04:55,984 --> 00:04:58,457
+Then they handed one car to a computer.
+
+80
+00:04:59,957 --> 00:05:01,403
+Its rule was simple.
+
+81
+00:05:01,403 --> 00:05:03,500
+Don't chase the car in front.
+
+82
+00:05:03,500 --> 00:05:09,285
+Hold a steady speed close to the average, and let the gap ahead grow and shrink.
+
+83
+00:05:09,785 --> 00:05:12,958
+That one car soaked up each wave like a sponge.
+
+84
+00:05:13,458 --> 00:05:18,806
+In their best run, the swings in speed dropped by about 80%.
+
+85
+00:05:18,806 --> 00:05:20,960
+Fuel use fell by about 40%.
+
+86
+00:05:22,460 --> 00:05:27,995
+Even the number of cars getting round the ring went up, by as much as 14%.
+
+87
+00:05:28,495 --> 00:05:32,089
+One calm car out of 20 changed the whole ring.
+
+88
+00:05:32,589 --> 00:05:35,822
+You can do a small version of this yourself.
+
+89
+00:05:35,822 --> 00:05:37,219
+Leave a longer gap.
+
+90
+00:05:37,219 --> 00:05:40,084
+Ease off early instead of braking late.
+
+91
+00:05:40,084 --> 00:05:43,905
+Keep your speed steady instead of closing every gap.
+
+92
+00:05:43,905 --> 00:05:49,710
+On a busy road others may cut in, so the effect is smaller, but it still helps.
+
+93
+00:05:51,210 --> 00:05:53,114
+You will not get home sooner.
+
+94
+00:05:53,114 --> 00:05:55,281
+But the drivers behind you might.
+
+95
+00:05:57,081 --> 00:06:00,019
+So, why do traffic jams appear out of nowhere?
+
+96
+00:06:00,519 --> 00:06:03,142
+Because they are not things in a place.
+
+97
+00:06:03,142 --> 00:06:08,659
+They are waves, made by many drivers reacting a little late and a little too hard.
+
+98
+00:06:09,159 --> 00:06:14,501
+Once the road is crowded enough, any small wobble can grow into a full stop.
+
+99
+00:06:14,501 --> 00:06:18,156
+And that stop travels backwards through the traffic.
+
+100
+00:06:18,656 --> 00:06:24,315
+And when you finally reach the front and the road opens up, the jam is still there.
+
+101
+00:06:24,315 --> 00:06:27,519
+It has just moved on to the drivers behind you.
+
+102
+00:06:29,019 --> 00:06:32,010
+Have you ever been stuck in a jam with no cause?
+
+103
+00:06:32,010 --> 00:06:33,880
+Tell me where in the comments.

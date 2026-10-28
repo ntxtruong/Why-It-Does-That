@@ -1,0 +1,17 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.5);
+  const s = 230, cx = 1420, cy = 560, r = 400;
+  drawRing(RING, s, cx, cy, r, { laneW: 110, cs: 1.6 });
+  const j = jamCentre(RING, s); if (j) { const p = ringXY(cx, cy, r, j.x, RING.L); g.save(); g.strokeStyle = css(CORALc); g.lineWidth = 14; g.beginPath(); g.arc(p.x, p.y, 200, 0, TAU2); g.stroke(); g.restore(); }
+  const W1 = { 1: ["NO", "CAUSE?"], 2: ["WHO", "STOPPED?"], 3: ["PHANTOM", "JAM"] }[v];
+  word(W1[0], 480, 330, v === 3 ? 150 : 180, "#F2F5FB"); word(W1[1], 480, 560, v === 2 ? 140 : 180, v === 3 ? "#FFD45E" : "#FF8A7A");
+  chibi(430, 1040, 0.36, { look: [0.8, -0.3], mouth: "o" });
+};
+</script></body></html>

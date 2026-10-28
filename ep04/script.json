@@ -18,7 +18,7 @@
     "So what stopped you?",
     "Most of us blame something up ahead. A slow driver. Someone merging. A crash on the other side.",
     "Sometimes that is true. Real bottlenecks do cause jams. But not always.",
-    "In 2008, a team of Japanese physicists built a road with no possible cause at all, just to find out.",
+    "In 2008, a team of Japanese physicists set out to find out. They built a road with no possible cause at all.",
     "And the jam showed up anyway."
    ]
   },
@@ -30,7 +30,7 @@
    ],
    "beats": [
     "Here is their road. A circle, two hundred and thirty metres around, marked out on a flat, empty track.",
-    "Twenty-two cars, spaced evenly, all asked to do the same thing: drive steadily at about thirty kilometres an hour.",
+    "Twenty-two cars, spaced evenly. Every driver was asked to do the same thing: drive steadily at about thirty kilometres an hour.",
     "No traffic lights. No junctions. No slow lorry. Every driver can see the car in front, and nothing else matters.",
     "If any road should flow forever, it is this one.",
     "For a little while, it does.",
@@ -100,8 +100,8 @@
     "With long gaps, a driver has room to absorb a slowdown. They ease off gently, and the wobble fades before it reaches the next car.",
     "With short gaps, there is no room. Every wobble has to be passed on, and passed on stronger.",
     "Physicists call this an instability. Below a certain density, smooth flow is stable. Above it, smooth flow cannot last.",
-    "Motorway data in their paper put that threshold at around twenty-five cars per kilometre in a lane.",
-    "That is about one car every forty metres in each lane, a spacing busy roads squeeze below all the time.",
+    "Motorway data in their paper put that threshold at around twenty-five cars per kilometre, in each lane.",
+    "That is about one car every forty metres. Busy roads squeeze below that all the time.",
     "Past that point, traffic does not need an accident to jam. It only needs time."
    ]
   },
@@ -114,11 +114,11 @@
    ],
    "beats": [
     "So if the jam comes from how we drive, can different driving make it go away?",
-    "In a later experiment in Arizona, engineers repeated the ring with about twenty cars, and the waves came back, just as before.",
+    "Later, engineers in Arizona repeated the ring with about twenty cars. The waves came back, just as before.",
     "Then they handed one car to a computer.",
     "Its rule was simple. Don't chase the car in front. Hold a steady speed close to the average, and let the gap ahead grow and shrink.",
     "That one car soaked up each wave like a sponge.",
-    "In their best run, the swings in speed around the ring dropped by about eighty per cent, and fuel use fell by about forty.",
+    "In their best run, the swings in speed dropped by about eighty per cent. Fuel use fell by about forty.",
     "Even the number of cars getting round the ring went up, by as much as fourteen per cent.",
     "One calm car out of twenty changed the whole ring.",
     "You can do a small version of this yourself. Leave a longer gap. Ease off early instead of braking late. Keep your speed steady instead of closing every gap. On a busy road others may cut in, so the effect is smaller, but it still helps.",
@@ -133,7 +133,7 @@
    "beats": [
     "So, why do traffic jams appear out of nowhere?",
     "Because they are not things in a place. They are waves, made by many drivers reacting a little late and a little too hard.",
-    "Once the road is crowded enough, any small wobble can grow into a full stop, travelling backwards through the traffic.",
+    "Once the road is crowded enough, any small wobble can grow into a full stop. And that stop travels backwards through the traffic.",
     "And when you finally reach the front and the road opens up, the jam is still there. It has just moved on to the drivers behind you.",
     "Have you ever been stuck in a jam with no cause? Tell me where in the comments."
    ]

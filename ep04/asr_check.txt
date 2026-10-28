@@ -1,0 +1,13 @@
+0:45.2  ring: script 'and' / heard ''
+0:53.0  ring: script 'kilometers an hour' / heard 'km h'
+1:18.9  ring: script 'knot' / heard 'nod'
+1:30.5  wave: script 'knot' / heard 'not'
+2:06.0  wave: script 'kilometers an hour' / heard 'km h'
+2:55.9  chain: script 'brake' / heard 'break'
+3:00.2  chain: script 'brakes' / heard 'breaks'
+5:13.3  fix: script 'per cent' / heard 'percent'
+5:22.3  fix: script 'per cent' / heard 'percent'
+5:32.4  fix: script 'braking' / heard 'breaking'
+
+10 beat(s) to listen to; 16 of 925 words differ (1.7%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

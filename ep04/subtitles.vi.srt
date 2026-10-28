@@ -1,0 +1,470 @@
+1
+00:00:00,600 --> 00:00:03,096
+Vì sao tắc đường xuất hiện từ hư không?
+
+2
+00:00:03,596 --> 00:00:06,337
+Bạn nhích từng chút suốt
+mười phút, xe nối xe.
+
+3
+00:00:07,837 --> 00:00:11,622
+Rồi đường bỗng thông thoáng,
+và chẳng có gì ở đó cả.
+
+4
+00:00:11,622 --> 00:00:12,290
+Không tai nạn.
+
+5
+00:00:12,290 --> 00:00:13,255
+Không thi công.
+
+6
+00:00:13,255 --> 00:00:14,369
+Không đóng làn.
+
+7
+00:00:14,869 --> 00:00:16,131
+Vậy điều gì đã chặn bạn lại?
+
+8
+00:00:16,631 --> 00:00:19,333
+Phần lớn chúng ta đổ lỗi
+cho thứ gì đó phía trước.
+
+9
+00:00:19,333 --> 00:00:20,383
+Một tài xế chạy chậm.
+
+10
+00:00:20,383 --> 00:00:21,584
+Một xe nhập làn.
+
+11
+00:00:21,584 --> 00:00:23,535
+Một vụ va chạm ở chiều đường bên kia.
+
+12
+00:00:25,035 --> 00:00:26,939
+Đôi khi đúng là vậy.
+
+13
+00:00:26,939 --> 00:00:29,504
+Điểm nghẽn thật sự có gây ra tắc đường.
+
+14
+00:00:29,504 --> 00:00:30,745
+Nhưng không phải lúc nào cũng thế.
+
+15
+00:00:31,245 --> 00:00:36,140
+Năm 2008, một nhóm nhà vật lý
+Nhật Bản đã bắt tay vào tìm hiểu.
+
+16
+00:00:36,140 --> 00:00:40,122
+Họ dựng một con đường hoàn toàn
+không thể có nguyên nhân nào.
+
+17
+00:00:41,622 --> 00:00:43,555
+Vậy mà tắc đường vẫn xuất hiện.
+
+18
+00:00:45,355 --> 00:00:46,727
+Đây là con đường của họ.
+
+19
+00:00:46,727 --> 00:00:52,648
+Một vòng tròn chu vi 230 m, vạch
+sẵn trên đường thử phẳng và trống.
+
+20
+00:00:53,148 --> 00:00:55,517
+22 chiếc xe, cách đều nhau.
+
+21
+00:00:55,517 --> 00:01:02,775
+Mọi tài xế được yêu cầu làm cùng một
+việc: chạy đều ở khoảng 30 km/h.
+
+22
+00:01:03,276 --> 00:01:04,679
+Không đèn giao thông.
+
+23
+00:01:04,679 --> 00:01:05,693
+Không ngã tư.
+
+24
+00:01:05,693 --> 00:01:06,784
+Không xe tải chạy chậm.
+
+25
+00:01:06,784 --> 00:01:11,774
+Ai cũng nhìn thấy xe phía trước,
+và không có gì khác quan trọng.
+
+26
+00:01:13,274 --> 00:01:16,459
+Nếu có con đường nào đáng lẽ chạy mãi
+không tắc, thì chính là đường này.
+
+27
+00:01:16,959 --> 00:01:18,596
+Và trong một lúc, đúng là như vậy.
+
+28
+00:01:19,096 --> 00:01:21,725
+Rồi chỉ vài phút sau,
+một nút thắt xuất hiện.
+
+29
+00:01:23,225 --> 00:01:28,847
+Một cụm xe chậm lại, dừng hẳn và chờ,
+trong khi phần còn lại của vòng vẫn chạy.
+
+30
+00:01:30,647 --> 00:01:32,613
+Hãy nhìn nút thắt, đừng
+nhìn từng chiếc xe.
+
+31
+00:01:33,113 --> 00:01:34,960
+Các xe vẫn tiến về phía trước.
+
+32
+00:01:34,960 --> 00:01:40,239
+Chúng lao vào đoạn tắc ở phía sau, bò
+qua nó, rồi thoát ra ở phía trước.
+
+33
+00:01:41,739 --> 00:01:46,473
+Nhưng bản thân đoạn tắc lại trôi theo hướng
+ngược lại, về phía sau, ngược với dòng xe.
+
+34
+00:01:46,973 --> 00:01:47,983
+Vì sao lại ngược?
+
+35
+00:01:47,983 --> 00:01:49,282
+Hãy nhìn phần đầu.
+
+36
+00:01:49,282 --> 00:01:55,129
+Một xe chỉ rời đi được khi xe phía trước đã
+chạy đi, và việc đó cần một khoảnh khắc.
+
+37
+00:01:56,629 --> 00:01:59,743
+Trong lúc đó, xe mới vẫn
+liên tục đến ở phía sau.
+
+38
+00:01:59,743 --> 00:02:05,700
+Thế là phần đầu bị bào mòn, phần đuôi
+cứ dài ra, và cả cụm trượt lùi về sau.
+
+39
+00:02:06,200 --> 00:02:10,999
+Trong thí nghiệm, nó lùi
+với tốc độ khoảng 20 km/h.
+
+40
+00:02:12,499 --> 00:02:17,633
+Con số này gần với tốc độ đo được của sóng "dừng rồi
+đi" (stop-and-go) trên các đường cao tốc thực tế.
+
+41
+00:02:18,133 --> 00:02:19,775
+Vậy nên tắc đường không phải là một vật.
+
+42
+00:02:19,775 --> 00:02:25,109
+Nó là một con sóng truyền qua các
+xe, như gợn sóng lan trên mặt nước.
+
+43
+00:02:26,609 --> 00:02:28,955
+Và sóng thì cần một thứ gì đó khởi phát.
+
+44
+00:02:30,755 --> 00:02:32,549
+Hãy phóng to vào một tài xế.
+
+45
+00:02:33,049 --> 00:02:34,755
+Không ai lái xe hoàn hảo cả.
+
+46
+00:02:34,755 --> 00:02:38,094
+Khoảng cách phía trước lúc dãn ra
+một chút, lúc co lại một chút.
+
+47
+00:02:38,094 --> 00:02:40,438
+Chân bạn nhả ga trong chốc lát.
+
+48
+00:02:40,938 --> 00:02:43,491
+Tài xế phía sau nhận ra muộn.
+
+49
+00:02:43,491 --> 00:02:49,180
+Phản ứng của con người mất khoảng một giây,
+và khi có bất ngờ thì thường lâu hơn.
+
+50
+00:02:50,680 --> 00:02:55,539
+Đến lúc họ phản ứng, khoảng cách
+đã thu hẹp nhiều hơn họ tưởng.
+
+51
+00:02:56,039 --> 00:02:59,808
+Nên họ phanh mạnh hơn
+bạn một chút cho chắc.
+
+52
+00:03:00,308 --> 00:03:02,614
+Rồi tài xế tiếp theo
+lại phanh mạnh hơn nữa.
+
+53
+00:03:04,114 --> 00:03:09,049
+Mỗi xe truyền đợt chậm lại về phía sau,
+và mỗi xe làm nó lớn hơn một chút.
+
+54
+00:03:09,549 --> 00:03:12,336
+Các kỹ sư giao thông có tên
+gọi cho hiện tượng này.
+
+55
+00:03:12,336 --> 00:03:17,909
+Hàng xe mà mỗi xe sau khuếch đại xe trước
+gọi là mất ổn định chuỗi (string unstable).
+
+56
+00:03:18,409 --> 00:03:22,949
+Đủ xa về phía sau, một cú chạm phanh
+nhẹ có thể biến thành dừng hẳn.
+
+57
+00:03:25,049 --> 00:03:30,060
+Nếu bạn từng kẹt xe ở thành phố lớn,
+bạn đã là một mắt xích trong chuỗi đó.
+
+58
+00:03:30,560 --> 00:03:32,985
+Không ai trong chuỗi làm gì sai.
+
+59
+00:03:32,985 --> 00:03:35,865
+Mỗi tài xế đều có lựa chọn hợp lý.
+
+60
+00:03:35,865 --> 00:03:39,503
+Tắc đường đến từ tất cả
+những lựa chọn đó cộng lại.
+
+61
+00:03:41,603 --> 00:03:42,281
+Nhưng khoan đã.
+
+62
+00:03:42,281 --> 00:03:47,104
+Nếu những dao động nhỏ luôn lớn dần,
+sao xe cộ vẫn có lúc chạy trơn tru?
+
+63
+00:03:47,604 --> 00:03:50,882
+Vì chúng chỉ lớn dần
+khi các xe ở sát nhau.
+
+64
+00:03:51,382 --> 00:03:55,586
+Khi khoảng cách dài, tài xế còn
+chỗ để hấp thụ đợt chậm lại.
+
+65
+00:03:55,586 --> 00:04:01,241
+Họ nhả ga nhẹ nhàng, và dao động
+tắt dần trước khi tới xe kế tiếp.
+
+66
+00:04:02,741 --> 00:04:05,042
+Khi khoảng cách ngắn, không còn chỗ nữa.
+
+67
+00:04:05,042 --> 00:04:08,901
+Mỗi dao động đều phải truyền
+đi, và truyền đi mạnh hơn.
+
+68
+00:04:09,401 --> 00:04:12,121
+Các nhà vật lý gọi đó là sự mất ổn định.
+
+69
+00:04:12,121 --> 00:04:15,671
+Dưới một mật độ nhất định,
+dòng xe trơn tru là ổn định.
+
+70
+00:04:15,671 --> 00:04:18,240
+Trên mức đó, dòng xe trơn
+tru không thể duy trì.
+
+71
+00:04:19,740 --> 00:04:26,902
+Dữ liệu đường cao tốc trong bài báo của họ cho
+ngưỡng này vào khoảng 25 xe/km trên mỗi làn.
+
+72
+00:04:27,402 --> 00:04:30,425
+Tức là khoảng một xe cứ mỗi 40 m.
+
+73
+00:04:30,425 --> 00:04:33,594
+Những con đường đông xe vẫn thường
+xuyên bị ép xuống dưới mức đó.
+
+74
+00:04:34,094 --> 00:04:38,270
+Qua ngưỡng này, giao thông
+không cần tai nạn cũng tắc.
+
+75
+00:04:38,270 --> 00:04:39,638
+Nó chỉ cần thời gian.
+
+76
+00:04:41,738 --> 00:04:47,108
+Vậy nếu tắc đường đến từ cách ta lái xe,
+liệu lái khác đi có làm nó biến mất không?
+
+77
+00:04:47,608 --> 00:04:52,783
+Sau đó, các kỹ sư ở Arizona lặp lại
+thí nghiệm vòng tròn với khoảng 20 xe.
+
+78
+00:04:52,783 --> 00:04:55,484
+Các con sóng quay lại, y như trước.
+
+79
+00:04:55,984 --> 00:04:58,457
+Rồi họ giao một chiếc xe cho máy tính.
+
+80
+00:04:59,957 --> 00:05:01,403
+Quy tắc của nó rất đơn giản.
+
+81
+00:05:01,403 --> 00:05:03,500
+Đừng đuổi theo xe phía trước.
+
+82
+00:05:03,500 --> 00:05:09,285
+Giữ tốc độ đều, gần với mức trung bình, và
+để khoảng cách phía trước dãn ra co lại.
+
+83
+00:05:09,785 --> 00:05:12,958
+Chiếc xe đó hút từng con
+sóng như một miếng bọt biển.
+
+84
+00:05:13,458 --> 00:05:18,806
+Trong lần chạy tốt nhất, biên độ
+dao động tốc độ giảm khoảng 80%.
+
+85
+00:05:18,806 --> 00:05:20,960
+Mức tiêu thụ nhiên liệu giảm khoảng 40%.
+
+86
+00:05:22,460 --> 00:05:27,995
+Thậm chí số xe đi hết
+vòng còn tăng, tới 14%.
+
+87
+00:05:28,495 --> 00:05:32,089
+Một chiếc xe bình tĩnh trong 20
+xe đã thay đổi cả vòng đường.
+
+88
+00:05:32,589 --> 00:05:35,822
+Bạn cũng có thể tự làm một
+phiên bản nhỏ của việc này.
+
+89
+00:05:35,822 --> 00:05:37,219
+Chừa khoảng cách dài hơn.
+
+90
+00:05:37,219 --> 00:05:40,084
+Nhả ga sớm thay vì phanh muộn.
+
+91
+00:05:40,084 --> 00:05:43,905
+Giữ tốc độ đều thay vì lao
+lên lấp mọi khoảng trống.
+
+92
+00:05:43,905 --> 00:05:49,710
+Trên đường đông, xe khác có thể chen vào
+nên hiệu quả nhỏ hơn, nhưng vẫn có ích.
+
+93
+00:05:51,210 --> 00:05:53,114
+Bạn sẽ không về nhà sớm hơn.
+
+94
+00:05:53,114 --> 00:05:55,281
+Nhưng những tài xế phía
+sau bạn thì có thể.
+
+95
+00:05:57,081 --> 00:06:00,019
+Vậy, vì sao tắc đường
+xuất hiện từ hư không?
+
+96
+00:06:00,519 --> 00:06:03,142
+Vì chúng không phải là vật nằm ở một chỗ.
+
+97
+00:06:03,142 --> 00:06:08,659
+Chúng là những con sóng, do nhiều tài
+xế phản ứng hơi muộn và hơi quá tay.
+
+98
+00:06:09,159 --> 00:06:14,501
+Khi đường đủ đông, bất kỳ dao động nhỏ nào
+cũng có thể lớn thành một cú dừng hẳn.
+
+99
+00:06:14,501 --> 00:06:18,156
+Và cú dừng đó truyền ngược
+về phía sau qua dòng xe.
+
+100
+00:06:18,656 --> 00:06:24,315
+Và khi cuối cùng bạn tới được phía đầu và
+đường thông thoáng, tắc đường vẫn còn đó.
+
+101
+00:06:24,315 --> 00:06:27,519
+Nó chỉ chuyển sang những
+tài xế phía sau bạn.
+
+102
+00:06:29,019 --> 00:06:32,010
+Bạn đã bao giờ kẹt xe
+mà không có lý do chưa?
+
+103
+00:06:32,010 --> 00:06:33,880
+Hãy kể cho mình nghe ở phần bình luận nhé.

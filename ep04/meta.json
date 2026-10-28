@@ -1,0 +1,12 @@
+{"ep": "Episode 4",
+ "title": "Why Do Traffic Jams Appear Out of Nowhere?",
+ "intro": ["No crash, no roadworks, no lane closed, and still you stop. Physicists rebuilt the mystery on a 230 m ring road with 22 cars and the jam appeared anyway.", "Here is the wave that causes it, why it runs backwards, and how one calm car can dissolve it."],
+ "chapters": [["hook", "A jam with no cause"], ["ring", "The ring-road experiment"], ["wave", "A jam is a wave"], ["chain", "The chain of late reactions"], ["density", "Why only when it's crowded"], ["fix", "One calm car"], ["end", "The answer"]],
+ "sources": ["Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001", "Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89 — https://arxiv.org/abs/1705.01693", "Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035", "Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)", "Helbing (2001), Traffic and related self-driven many-particle systems, Reviews of Modern Physics 73"],
+ "closing": "Have you ever been stuck in a jam with no cause? Tell me where in the comments.",
+ "tags": ["phantom traffic jam", "traffic jam physics", "stop and go waves", "why traffic jams happen", "Sugiyama experiment", "traffic waves", "shockwave traffic", "autonomous vehicles traffic", "physics explained", "Why It Does That"],
+ "playlist": "Everyday Physics",
+ "pinned": "Have you ever been stuck in a jam with no cause? Tell me where — city, road, time of day.",
+ "cards": "none (no earlier episode on this topic)",
+ "endscreen": "best-retention episode + subscribe (template \"1 video, 1 subscribe\"), elements start at the end card",
+ "promise": "the answer (a jam is a backward-moving wave of late, slightly-too-hard reactions) is on screen at 2:04–2:20 (space-time picture) and restated at the end"}
