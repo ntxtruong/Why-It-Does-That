@@ -251,9 +251,11 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | exposure time | thời gian phơi sáng | เวลาเปิดรับแสง | 露光時間 | 노출 시간 | 曝光時間 |
 | flicker | nhấp nháy | การกะพริบ | ちらつき | 깜박임 | 閃爍 |
 
-## Open items (2026-10-28, evening)
+## Open items (2026-10-29)
 
-- Episodes 3, 4 and 5 are rendered and pushed (branches `claude/ep03-wheels`, `claude/ep04-traffic`, `claude/ep05-anc`) but not uploaded: the run had no linked computer. Upload all three as Unlisted in the next run that has the built-in browser (Stage 4), then the music gate.
+- Episodes 3, 4 and 5 uploaded Unlisted on 2026-10-29 with everything except music and playlist (see the Episodes table). Next: the music gate for all three, then Trường's final check.
+- Playlists: the channel has none yet, so "Light & Sound" (ep 3, 5) and "Everyday Physics" (ep 4) from the metadata were not assigned. Asked Trường whether to create them; no answer yet.
+- Thumbnail A/B tests (three variants each) are set on episodes 3–5 but show "Không đủ điều kiện" until the video is Public; they start then.
 - Episode 3 was rebuilt from scratch on 2026-10-28 (the 2026-10-15 files were never pushed and Trường did not have them in the repo).
 - Channel page showed "Why It Does That??" on 2026-10-15; still waiting for Trường to confirm whether that name is intended.
 - Push from the scheduled task works: on 2026-10-28 the repo was already cloned with push access; `git push` to `claude/*` succeeded without `add_repo` (the tool was not offered in that session).
@@ -281,12 +283,22 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 - Shared files for a new episode: `core.js` (v2 colours, primitives, mascot, `spring()`), a generic `build.js` that reads `captions.js`, `tts.py` with subtitle numerals in `nums.json`, `encode.sh` that brings the narration to −14 LUFS and measures the final file, and `thumb.js` that writes three thumbnail variants.
 - Translations: one Sonnet subagent per episode translates title, description and subtitles into the five languages from `tr_input.json`; `compose_tr` puts the English timings back. About 4 minutes per episode.
 
+## Lessons from the 2026-10-29 upload run (episodes 3–5)
+
+- Keep the Claude desktop window visible during uploads. When it is minimised or covered, `document.visibilityState` is `hidden`, timers are throttled, scripts with `setTimeout` waits time out after 45 s and dialog steps get lost. Check `visibilityState` before a long sequence.
+- Start the video fetch-and-inject as a fire-and-forget async job (progress on `window.__up`) and poll in separate short calls. One long script that awaited the whole fetch timed out, and a retry created a duplicate upload; navigating away mid-upload leaves "Quá trình tải lên bị gián đoạn" stubs that only Trường can delete.
+- Thumbnail A/B: in the upload dialog, the "Thử nghiệm A/B" button under Hình thu nhỏ → chip "Chỉ hình thu nhỏ" → three file inputs (`image/jpeg,image/png`) → "Thiết lập thử nghiệm". Upload all three `epNN-thumb-*.png` variants there.
+- Subtitle file pickers: override `HTMLInputElement.prototype.click` to capture the file input instead of opening the native picker, then set `files` and dispatch `change`.
+- If the English subtitle step is skipped, YouTube's auto captions appear as the English track; replace them via "Chỉnh sửa phụ đề" → "⋮" → "Tải tệp lên" → with timing, then "Xuất bản".
+- Translations go in `/video/<id>/translations` → "Thêm ngôn ngữ" → pick the language (zh-Hant is "Tiếng Trung (Phồn thể)"; the dialog title capitalises it "Phồn Thể", so match case-insensitively). One dialog holds title and description; pressing "Thêm" under "Phụ đề thủ công" asks "Lưu và tiếp tục?" ("Lưu nội dung thay đổi" saves title/description), then the usual subtitle upload and "Xuất bản". All of this works from JavaScript; titles and descriptions come straight from `epNN/tr_output.json`.
+- End screen time fields: the first edit after the template is applied often does not stick. Select the element row in the timeline, type into the start field, Enter, Tab, and confirm by moving the playhead past the new start time (the bars redraw only then). Screenshots of the emulated 1280×900 pane can be stale; trust `find`/DOM values.
+
 ## Episodes
 
 | # | Topic | Status |
 | --- | --- | --- |
 | 1 | Why is a rainbow always at the same angle? | Public since 2026-10-03: https://youtu.be/CywvAndxdSk. Music: "Secret Conversations" (The 126ers), four segments, mix 15 |
 | 2 | Why is the sky blue but sunsets red? (Rayleigh scattering; also why not violet, white clouds, Mars) | Public since 2026-10-15 (switched by Claude on Trường's explicit request that day): https://youtu.be/H_61WImrwoQ. Music: "Secret Conversations" (The 126ers), same as episode 1 at his request, three segments 0:00–2:53, 2:53–5:46, 5:46–6:35, mix 15. 6:35, 911 words, first episode built with Hyperframes, branch `claude/ep02-sky` |
-| 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Rebuilt and rendered 2026-10-28, branch `claude/ep03-wheels`; not uploaded yet (no linked computer) |
-| 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Rendered 2026-10-28, branch `claude/ep04-traffic`; not uploaded yet |
-| 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Rendered 2026-10-28, branch `claude/ep05-anc`; not uploaded yet |
+| 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Unlisted since 2026-10-29: https://youtu.be/SxjS9sdc_Ek. 6:55, branch `claude/ep03-wheels`. Title, description, tags, A/B thumbnails, EN + 5 translated subtitles/titles/descriptions, end screen from 6:45. Music pending |
+| 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Unlisted since 2026-10-29: https://youtu.be/Rwx3Y7Pw9rk. 6:44, branch `claude/ep04-traffic`. Same set as ep 3, end screen from 6:34. Music pending |
+| 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Unlisted since 2026-10-29: https://youtu.be/rOxQ3PFvewk. 6:54, branch `claude/ep05-anc`. Same set as ep 3, end screen from 6:45. Music pending |
