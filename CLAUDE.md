@@ -83,7 +83,7 @@ Editor: `https://studio.youtube.com/video/<video ID>/editor` → "Âm thanh". Ta
 - Trường may be working in the same pane at the same moment. Re-read the state before every change and do not overwrite what he just set.
 - Saving cannot be undone (the fallback is a re-upload under a new link), so it happens only on his word.
 - Saving opens "Xác nhận thay đổi" with a checkbox ("Tôi xác nhận rằng những thay đổi này là vĩnh viễn") that must be ticked before the confirm button enables; a JavaScript `.click()` on the button does nothing, use real clicks. While the edit processes, end screen and cards are greyed out on the details page.
-- Visibility: the rule "Claude never makes a video public" stands; on 2026-10-15 Trường asked in chat for episode 2 to be made public, which is the only exception so far.
+- Visibility: the rule "Claude never makes a video public" stands unless Trường asks in chat; he did for episode 2 (2026-10-15) and episodes 3–5 (2026-10-29).
 
 ## Reference repositories (given by Trường, 2026-10-08)
 
@@ -253,10 +253,10 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 
 ## Open items (2026-10-29)
 
-- Episodes 3, 4 and 5 uploaded Unlisted on 2026-10-29 with everything except playlists, music included (see the Episodes table). Next: Trường's final check and the switch to Public.
+- Episodes 3, 4 and 5 are Public since 2026-10-29 (switched by Claude on Trường's explicit request that day, "set công khai 3 video").
 - Music for episodes 3–5 was chosen by Claude on 2026-10-29 at Trường's explicit request ("e chọn luôn nhạc nhé, anh ok"), picked by mood filter, length and licence (all "Không cần ghi công") without listening. He may ask for a different track after hearing them.
-- Playlists: the channel has none yet, so "Light & Sound" (ep 3, 5) and "Everyday Physics" (ep 4) from the metadata were not assigned. Asked Trường whether to create them; no answer yet.
-- Thumbnail A/B tests (three variants each) are set on episodes 3–5 but show "Không đủ điều kiện" until the video is Public; they start then.
+- Playlists (created 2026-10-29 at Trường's request, both Public, default order newest first): "Light & Sound" holds episodes 1, 2, 3, 5; "Everyday Physics" holds episode 4. Add each new episode to the matching one at upload (the upload dialog's playlist dropdown).
+- Thumbnail A/B tests (three variants each) on episodes 3–5 show "Thử nghiệm A/B đang chạy" since they went Public; check the winners in a later run.
 - Episode 3 was rebuilt from scratch on 2026-10-28 (the 2026-10-15 files were never pushed and Trường did not have them in the repo).
 - Channel page showed "Why It Does That??" on 2026-10-15; still waiting for Trường to confirm whether that name is intended.
 - Push from the scheduled task works: on 2026-10-28 the repo was already cloned with push access; `git push` to `claude/*` succeeded without `add_repo` (the tool was not offered in that session).
@@ -302,6 +302,6 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | --- | --- | --- |
 | 1 | Why is a rainbow always at the same angle? | Public since 2026-10-03: https://youtu.be/CywvAndxdSk. Music: "Secret Conversations" (The 126ers), four segments, mix 15 |
 | 2 | Why is the sky blue but sunsets red? (Rayleigh scattering; also why not violet, white clouds, Mars) | Public since 2026-10-15 (switched by Claude on Trường's explicit request that day): https://youtu.be/H_61WImrwoQ. Music: "Secret Conversations" (The 126ers), same as episode 1 at his request, three segments 0:00–2:53, 2:53–5:46, 5:46–6:35, mix 15. 6:35, 911 words, first episode built with Hyperframes, branch `claude/ep02-sky` |
-| 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Unlisted since 2026-10-29: https://youtu.be/SxjS9sdc_Ek. 6:55, branch `claude/ep03-wheels`. Title, description, tags, A/B thumbnails, EN + 5 translated subtitles/titles/descriptions, end screen from 6:45. Music: "Golden" (mood Tươi sáng, 4:06), two segments 0:00–2:49 and 2:49–6:55, mix 15 |
-| 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Unlisted since 2026-10-29: https://youtu.be/Rwx3Y7Pw9rk. 6:44, branch `claude/ep04-traffic`. Same set as ep 3, end screen from 6:34. Music: "Limo Ride" (TrackTribe, mood Khích lệ tinh thần, 4:15), two segments 0:00–2:29 and 2:29–6:44, mix 15 |
-| 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Unlisted since 2026-10-29: https://youtu.be/rOxQ3PFvewk. 6:54, branch `claude/ep05-anc`. Same set as ep 3, end screen from 6:45. Music: "Stellar Wind" (mood Thư thái, 7:08), one segment 0:00–6:54, mix 15 |
+| 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/SxjS9sdc_Ek. 6:55, branch `claude/ep03-wheels`. Title, description, tags, A/B thumbnails, EN + 5 translated subtitles/titles/descriptions, end screen from 6:45. Music: "Golden" (mood Tươi sáng, 4:06), two segments 0:00–2:49 and 2:49–6:55, mix 15 |
+| 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/Rwx3Y7Pw9rk. 6:44, branch `claude/ep04-traffic`. Same set as ep 3, end screen from 6:34. Music: "Limo Ride" (TrackTribe, mood Khích lệ tinh thần, 4:15), two segments 0:00–2:29 and 2:29–6:44, mix 15 |
+| 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/rOxQ3PFvewk. 6:54, branch `claude/ep05-anc`. Same set as ep 3, end screen from 6:45. Music: "Stellar Wind" (mood Thư thái, 7:08), one segment 0:00–6:54, mix 15 |
