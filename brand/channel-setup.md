@@ -8,7 +8,7 @@ Everything below goes into YouTube Studio. Text is ready to paste. Replaces the 
 
 **Handle** (try in this order, keep the first one that is free): @WhyItDoesThat → @WhyItDoesThatScience → @WhyItDoesThat.Explained. Current: @WhyItDoesThat-hell (old links redirect for 14 days after a change).
 
-**Picture:** `channel-avatar.png` (800×800, v2 colours; reads at 98 px in a circle)
+**Picture:** `channel-avatar.png` (800×800): the chibi drawn after Trường, three-quarter view, hand at the chin, in front of St Joseph's Cathedral (Hanoi) at night in real-stone colours; chosen 2026-10-30, no question mark
 
 **Banner:** `channel-banner.png` (2560×1440; name, tagline and the five topic icons sit inside the 1546×423 area visible on every device)
 

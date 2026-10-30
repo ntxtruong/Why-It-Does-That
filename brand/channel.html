@@ -125,9 +125,9 @@ function chibi3(x, yFeet, s, o = {}) {
 // St Joseph's Cathedral, Hanoi, at night: flat stylised facade in brand colours (two square bell towers with lit
 // pointed-arch louvres, a central gable with the clock and the rose window, three pointed doors, steps).
 // Origin at the bottom centre; the facade is 920 units wide and about 1060 tall at s = 1.
-function cathedral(cx, by, s, a = 1) {
+function cathedral(cx, by, s, a = 1, P = {}) {
   g.save(); g.globalAlpha = a; g.translate(cx, by); g.scale(s, s);
-  const STONE = "#3a4468", STONE2 = "#4c5780", EDGE = "#6a76a0", LIT = "#E9C46A", LIT2 = "#B98E3C", DARK = "#20263c";
+  const STONE = P.stone || "#3a4468", STONE2 = P.stone2 || "#4c5780", EDGE = P.edge || "#6a76a0", LIT = P.lit || "#E9C46A", LIT2 = P.lit2 || "#B98E3C", DARK = P.dark || "#20263c";
   const arch = (x, y, w, h) => { g.beginPath(); g.moveTo(x - w / 2, y); g.lineTo(x - w / 2, y - h + w * 0.55); g.quadraticCurveTo(x - w / 2, y - h, x, y - h - w * 0.15); g.quadraticCurveTo(x + w / 2, y - h, x + w / 2, y - h + w * 0.55); g.lineTo(x + w / 2, y); g.closePath(); };
   const litWin = (x, y, w, h) => { const gr = g.createLinearGradient(0, y - h, 0, y); gr.addColorStop(0, LIT); gr.addColorStop(1, LIT2); g.fillStyle = gr; arch(x, y, w, h); g.fill(); g.strokeStyle = "rgba(32,38,60,0.55)"; g.lineWidth = 3; for (let yy = y - h * 0.62; yy < y - 6; yy += 12) { g.beginPath(); g.moveTo(x - w * 0.34, yy); g.lineTo(x + w * 0.34, yy); g.stroke(); } g.strokeStyle = EDGE; g.lineWidth = 5; arch(x, y, w + 12, h + 10); g.stroke(); };
   // towers and centre block
@@ -161,6 +161,23 @@ window.renderAvatarChibi = () => {
   const fade = g.createRadialGradient(520, 620, 60, 520, 620, 400); fade.addColorStop(0, "rgba(24,38,79,0.55)"); fade.addColorStop(1, "rgba(24,38,79,0)"); g.fillStyle = fade; g.fillRect(0, 0, 800, 800);
   chibi3(530, 940, 0.86); bigQ(690, 190, 0.6);
 };
+
+// background palettes to choose from (2026-10-30)
+const PAL = {
+  dusk:   { sky: [[0, "#1d2353"], [0.55, "#5a3f78"], [0.85, "#e07f6e"], [1, "#f4b183"]], stone: "#3b3556", stone2: "#4d4670", edge: "#7a6f9e", lit: "#FFD27A", lit2: "#E09A4A", dark: "#241f3a", stars: 0.5, fade: "rgba(29,35,83,0.0)" },
+  stone:  { sky: [[0, "#0f2238"], [1, "#1f3d5c"]], stone: "#8c8476", stone2: "#a39a8a", edge: "#c8bda6", lit: "#FFD98A", lit2: "#E3A24F", dark: "#3a332b", stars: 0.7, fade: "rgba(15,34,56,0.0)" },
+  teal:   { sky: [[0, "#0b2e3c"], [1, "#145467"]], stone: "#2f5f6e", stone2: "#3e7584", edge: "#7fb0bb", lit: "#FFD45E", lit2: "#F2A93B", dark: "#123440", stars: 0.8, moon: true, fade: "rgba(11,46,60,0.0)" },
+  day:    { sky: [[0, "#7ec4f2"], [1, "#d8eefc"]], stone: "#c9c1b3", stone2: "#dcd5c8", edge: "#f2ede4", lit: "#a9d2f0", lit2: "#7fb2d8", dark: "#6b6153", stars: 0, sun: true, fade: "rgba(126,196,242,0.0)" }
+};
+function skyBg(P) { const gr = g.createLinearGradient(0, 0, 0, 800); P.sky.forEach(([o, c]) => gr.addColorStop(o, c)); g.fillStyle = gr; g.fillRect(0, 0, 800, 800);
+  if (P.stars) for (let i = 0; i < 70; i++) dot(hash(i, 1) * 800, hash(i, 2) * 420, 1.2 + hash(i, 3) * 2, "#F2F5FB", P.stars * (0.3 + 0.7 * hash(i, 4)));
+  if (P.moon) { dot(690, 120, 46, "#f4ecd2", 1); dot(712, 108, 42, P.sky[0][1], 1); }
+  if (P.sun) { const sg = g.createRadialGradient(700, 110, 10, 700, 110, 160); sg.addColorStop(0, "rgba(255,244,200,0.95)"); sg.addColorStop(1, "rgba(255,244,200,0)"); g.fillStyle = sg; g.fillRect(500, 0, 300, 300); } }
+window.renderAvatarVariant = (k) => {
+  cv.width = 800; cv.height = 800; const P = PAL[k]; skyBg(P);
+  cathedral(300, 770, 0.6, 1, P);
+  chibi3(530, 940, 0.86); if (P.q) bigQ(690, 190, 0.6);
+};
 window.renderBanner = () => {
   cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
   // safe area (all devices): x 507–2053, y 508–931
@@ -170,13 +187,5 @@ window.renderBanner = () => {
   topics.forEach(([k, lab], i) => { const x = 660 + i * 150, y = 870; disc(x, y, 52); ICON[k](x, y, 0.62); });
   chibi(1900, 1000, 0.55, { look: [-0.5, -0.2], mouth: "smile" }); bigQ(2040, 560, 0.7);
 };
-window.renderAvatar = () => {
-  cv.width = 800; cv.height = 800; bg(800, 800);
-  // ring of the five topic colours, then the mascot filling the circle
-  g.save(); g.beginPath(); g.arc(400, 400, 400, 0, TAU2); g.clip();
-  waves(800, 800, 0.12);
-  chibi(390, 930, 1.0, { look: [0, -0.15], mouth: "smile" });
-  bigQ(640, 190, 0.8);
-  g.restore();
-};
+window.renderAvatar = () => renderAvatarVariant("stone");   // chosen by Trường 2026-10-30: real-stone cathedral at night, no question mark
 </script></body></html>
