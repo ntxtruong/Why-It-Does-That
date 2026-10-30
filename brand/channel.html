@@ -63,13 +63,13 @@ window.renderAvatarPhoto = (img) => {
 // After Trường's photo: brown tousled hair swept forward, black rectangular glasses, white earbud, black blazer over a light-blue shirt.
 function chibi3(x, yFeet, s, o = {}) {
   g.save(); g.translate(x, yFeet - 890 * s); g.scale(s, s);
-  const SKIN = "#f6e3d3", SKIN2 = "#ecd2bf", HAIR = "#6e4426", HAIR2 = "#a06a3c", BLAZER = "#1b1d27", SHIRT = "#bcd6f2", OUT = "#F2F5FB";
+  const SKIN = "#f6e3d3", SKIN2 = "#ecd2bf", HAIR = "#6e4426", HAIR2 = "#a06a3c", BLAZER = "#22273a", LAPEL = "#2c3247", SEAM = "#454d68", SHIRT = "#bcd6f2", OUT = "#F2F5FB";
   const shapes = [], S = (b, f) => shapes.push({ b, f });
   // legs and shoes, a small step to the left
   S(() => { g.beginPath(); g.roundRect(-84, 740, 56, 120, 22); }, "#2a2f40"); S(() => { g.beginPath(); g.roundRect(4, 744, 56, 118, 22); }, "#2a2f40");
   S(() => { g.beginPath(); g.ellipse(-70, 864, 50, 23, 0, 0, 7); }, "#e6eaf2"); S(() => { g.beginPath(); g.ellipse(24, 866, 46, 22, 0, 0, 7); }, "#e6eaf2");
-  // blazer body, turned: front edge on the left
-  S(() => { g.beginPath(); g.moveTo(-140, 776); g.quadraticCurveTo(-170, 610, -90, 566); g.lineTo(70, 560); g.quadraticCurveTo(150, 600, 122, 778); g.quadraticCurveTo(-10, 808, -140, 776); g.closePath(); }, BLAZER);
+  // blazer body, turned: broad shoulders, the front edge on the left
+  S(() => { g.beginPath(); g.moveTo(-150, 784); g.quadraticCurveTo(-186, 640, -120, 596); g.quadraticCurveTo(-40, 572, 60, 578); g.quadraticCurveTo(146, 590, 150, 660); g.lineTo(132, 786); g.quadraticCurveTo(-10, 812, -150, 784); g.closePath(); }, BLAZER);
   // back of the head (hair), then the face shifted left
   S(() => { g.beginPath(); g.ellipse(14, 410, 192, 178, 0, 0, 7); }, HAIR);
   S(() => { g.beginPath(); g.ellipse(-26, 446, 166, 150, 0, 0, 7); }, SKIN);
@@ -90,9 +90,14 @@ function chibi3(x, yFeet, s, o = {}) {
   // hair texture: strands sweeping forward
   g.strokeStyle = HAIR2; g.lineWidth = 9; g.lineCap = "round";
   [[150, 300, 40, 250, -60, 262], [120, 360, 30, 300, -110, 300], [170, 400, 120, 330, 40, 316], [-20, 230, -100, 236, -170, 290]].forEach(([a, b, c, d, e, f]) => { g.beginPath(); g.moveTo(a, b); g.quadraticCurveTo(c, d, e, f); g.stroke(); });
-  // shirt collar, lapel and a hint of the turned shoulder
-  g.fillStyle = SHIRT; g.beginPath(); g.moveTo(-84, 570); g.lineTo(-30, 640); g.lineTo(20, 566); g.closePath(); g.fill();
-  g.strokeStyle = "#30364a"; g.lineWidth = 8; g.beginPath(); g.moveTo(-84, 570); g.lineTo(-58, 720); g.moveTo(20, 566); g.lineTo(-20, 700); g.stroke();
+  // shirt V, collar points, notched lapels, button and breast pocket
+  g.fillStyle = SHIRT; g.beginPath(); g.moveTo(-74, 592); g.lineTo(-22, 700); g.lineTo(34, 590); g.closePath(); g.fill();
+  g.fillStyle = "#d6e6f8"; g.beginPath(); g.moveTo(-74, 592); g.lineTo(-40, 600); g.lineTo(-52, 636); g.closePath(); g.fill(); g.beginPath(); g.moveTo(34, 590); g.lineTo(4, 598); g.lineTo(18, 632); g.closePath(); g.fill();
+  const lap = (pts) => { g.fillStyle = LAPEL; g.strokeStyle = SEAM; g.lineWidth = 5; g.beginPath(); pts.forEach(([a, b], i) => i ? g.lineTo(a, b) : g.moveTo(a, b)); g.closePath(); g.fill(); g.stroke(); };
+  lap([[-80, 594], [-122, 646], [-104, 656], [-120, 676], [-36, 748], [-24, 704]]);
+  lap([[38, 592], [80, 636], [62, 646], [76, 664], [-8, 748], [-20, 704]]);
+  g.fillStyle = SEAM; g.beginPath(); g.arc(-22, 770, 8, 0, 7); g.fill();
+  g.strokeStyle = SEAM; g.lineWidth = 5; g.beginPath(); g.moveTo(58, 700); g.lineTo(104, 694); g.stroke();
   // eyes looking up and to the left, behind the glasses (far lens narrower: foreshortened)
   const [lx, ly] = o.look || [-0.8, -0.6];
   [[-132, 0.72], [-8, 1]].forEach(([ex, k]) => { const cx = ex + lx * 15, cy = 462 + ly * 13; g.fillStyle = "#1b1e2c"; g.beginPath(); g.ellipse(cx, cy, 22 * k, 30, 0, 0, 7); g.fill(); g.fillStyle = OUT; g.beginPath(); g.arc(cx - 7 * k, cy - 12, 8, 0, 7); g.fill(); g.beginPath(); g.arc(cx + 8 * k, cy + 10, 4, 0, 7); g.fill(); });
@@ -105,14 +110,56 @@ function chibi3(x, yFeet, s, o = {}) {
   g.strokeStyle = "#d9b49c"; g.lineWidth = 6; g.beginPath(); g.moveTo(-96, 498); g.quadraticCurveTo(-106, 512, -92, 516); g.stroke();
   g.fillStyle = "rgba(255,120,130,0.4)"; g.beginPath(); g.ellipse(-150, 524, 22, 13, 0, 0, 7); g.fill(); g.beginPath(); g.ellipse(36, 526, 30, 15, 0, 0, 7); g.fill();
   g.fillStyle = "#7a4a45"; g.beginPath(); g.ellipse(-70, 548, 11, 13, 0, 0, 7); g.fill();
-  // hand raised to the chin, the other at the side
-  g.strokeStyle = BLAZER; g.lineWidth = 34; g.lineCap = "round"; g.beginPath(); g.moveTo(-40, 650); g.quadraticCurveTo(-110, 640, -112, 600); g.stroke();
-  g.fillStyle = SKIN; g.strokeStyle = OUT; g.lineWidth = 6; g.beginPath(); g.arc(-112, 588, 26, 0, 7); g.fill(); g.stroke();
+  // arm raised to the chin: sleeve (upper arm down to the elbow, forearm back up), shirt cuff, hand
+  const arm = () => { g.beginPath(); g.moveTo(-146, 640); g.quadraticCurveTo(-168, 720, -130, 742); g.quadraticCurveTo(-96, 740, -104, 632); };
+  g.lineCap = "round"; g.lineJoin = "round";
+  g.strokeStyle = OUT; g.lineWidth = 64; arm(); g.stroke();
+  g.strokeStyle = BLAZER; g.lineWidth = 46; arm(); g.stroke();
+  g.strokeStyle = SEAM; g.lineWidth = 4; g.beginPath(); g.moveTo(-128, 700); g.quadraticCurveTo(-118, 680, -118, 650); g.stroke();
+  g.fillStyle = SHIRT; g.beginPath(); g.roundRect(-128, 610, 46, 22, 8); g.fill();
+  g.fillStyle = SKIN; g.strokeStyle = OUT; g.lineWidth = 6; g.beginPath(); g.ellipse(-106, 588, 28, 26, 0, 0, 7); g.fill(); g.stroke();
+  g.restore();
+}
+
+
+// St Joseph's Cathedral, Hanoi, at night: flat stylised facade in brand colours (two square bell towers with lit
+// pointed-arch louvres, a central gable with the clock and the rose window, three pointed doors, steps).
+// Origin at the bottom centre; the facade is 920 units wide and about 1060 tall at s = 1.
+function cathedral(cx, by, s, a = 1) {
+  g.save(); g.globalAlpha = a; g.translate(cx, by); g.scale(s, s);
+  const STONE = "#3a4468", STONE2 = "#4c5780", EDGE = "#6a76a0", LIT = "#E9C46A", LIT2 = "#B98E3C", DARK = "#20263c";
+  const arch = (x, y, w, h) => { g.beginPath(); g.moveTo(x - w / 2, y); g.lineTo(x - w / 2, y - h + w * 0.55); g.quadraticCurveTo(x - w / 2, y - h, x, y - h - w * 0.15); g.quadraticCurveTo(x + w / 2, y - h, x + w / 2, y - h + w * 0.55); g.lineTo(x + w / 2, y); g.closePath(); };
+  const litWin = (x, y, w, h) => { const gr = g.createLinearGradient(0, y - h, 0, y); gr.addColorStop(0, LIT); gr.addColorStop(1, LIT2); g.fillStyle = gr; arch(x, y, w, h); g.fill(); g.strokeStyle = "rgba(32,38,60,0.55)"; g.lineWidth = 3; for (let yy = y - h * 0.62; yy < y - 6; yy += 12) { g.beginPath(); g.moveTo(x - w * 0.34, yy); g.lineTo(x + w * 0.34, yy); g.stroke(); } g.strokeStyle = EDGE; g.lineWidth = 5; arch(x, y, w + 12, h + 10); g.stroke(); };
+  // towers and centre block
+  [[-460, -160], [160, 460]].forEach(([x0, x1]) => { g.fillStyle = STONE; g.fillRect(x0, -1000, x1 - x0, 1000); g.fillStyle = STONE2; g.fillRect(x0, -1000, 18, 1000); g.fillRect(x1 - 18, -1000, 18, 1000);
+    g.fillStyle = STONE2; g.fillRect(x0 - 8, -1012, x1 - x0 + 16, 22); [x0 + 10, (x0 + x1) / 2, x1 - 10].forEach(px => { g.beginPath(); g.moveTo(px - 14, -1012); g.lineTo(px, -1070); g.lineTo(px + 14, -1012); g.closePath(); g.fill(); });
+    [-760, -500].forEach(yy => { g.fillStyle = STONE2; g.fillRect(x0, yy, x1 - x0, 12); }); });
+  g.fillStyle = STONE; g.fillRect(-160, -620, 320, 620);
+  g.beginPath(); g.moveTo(-170, -610); g.lineTo(0, -790); g.lineTo(170, -610); g.closePath(); g.fill(); g.strokeStyle = STONE2; g.lineWidth = 10; g.stroke();
+  g.fillStyle = EDGE; g.fillRect(-5, -880, 10, 92); g.fillRect(-30, -856, 60, 10);   // cross
+  // clock and rose window
+  g.fillStyle = "#f1e6c8"; g.beginPath(); g.arc(0, -665, 40, 0, TAU2); g.fill(); g.strokeStyle = DARK; g.lineWidth = 5; g.stroke();
+  g.beginPath(); g.moveTo(0, -665); g.lineTo(0, -692); g.moveTo(0, -665); g.lineTo(18, -660); g.stroke();
+  g.fillStyle = "#8fb3d9"; g.beginPath(); g.arc(0, -470, 72, 0, TAU2); g.fill(); g.strokeStyle = DARK; g.lineWidth = 6; g.stroke();
+  for (let k = 0; k < 12; k++) { const an = k / 12 * TAU2; g.beginPath(); g.moveTo(0, -470); g.lineTo(72 * Math.cos(an), -470 + 72 * Math.sin(an)); g.stroke(); }
+  g.beginPath(); g.arc(0, -470, 24, 0, TAU2); g.stroke(); g.strokeStyle = EDGE; g.lineWidth = 8; g.beginPath(); g.arc(0, -470, 84, 0, TAU2); g.stroke();
+  // lit louvres on the towers, small windows on the centre block
+  [-900, -650, -380].forEach(yy => [-380, -240, 240, 380].forEach(xx => litWin(xx, yy, 72, yy === -900 ? 150 : 190)));
+  [-110, 110].forEach(xx => litWin(xx, -330, 48, 130)); [-55, 0, 55].forEach(xx => litWin(xx, -560, 34, 80));
+  // doors: big centre arch and two side arches, with gold-lit tympanums
+  const door = (x, w, h) => { g.strokeStyle = EDGE; g.lineWidth = 10; arch(x, 0, w + 26, h + 18); g.stroke(); g.fillStyle = DARK; arch(x, 0, w, h); g.fill(); g.fillStyle = LIT2; g.save(); arch(x, 0, w, h); g.clip(); g.fillRect(x - w / 2, -h - w, w, w * 0.62 + 4); g.restore(); };
+  door(0, 170, 330); door(-310, 110, 250); door(310, 110, 250);
+  // steps
+  for (let k = 0; k < 4; k++) { g.fillStyle = k % 2 ? "#3f4a70" : "#47527a"; g.fillRect(-500 - k * 20, k * 22, 1000 + k * 40, 22); }
   g.restore();
 }
 window.renderAvatarChibi = () => {
-  cv.width = 800; cv.height = 800; bg(800, 800); waves(800, 800, 0.12);
-  chibi3(430, 910, 1.0); bigQ(165, 190, 0.8);
+  cv.width = 800; cv.height = 800; bg(800, 800);
+  // night sky, the cathedral behind, a soft fade so the character stays the subject
+  const sky = g.createLinearGradient(0, 0, 0, 800); sky.addColorStop(0, "#121d40"); sky.addColorStop(1, "#18264F"); g.fillStyle = sky; g.fillRect(0, 0, 800, 800);
+  cathedral(300, 770, 0.6, 0.92);
+  const fade = g.createRadialGradient(520, 620, 60, 520, 620, 400); fade.addColorStop(0, "rgba(24,38,79,0.55)"); fade.addColorStop(1, "rgba(24,38,79,0)"); g.fillStyle = fade; g.fillRect(0, 0, 800, 800);
+  chibi3(530, 940, 0.86); bigQ(690, 190, 0.6);
 };
 window.renderBanner = () => {
   cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
