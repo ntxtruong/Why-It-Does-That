@@ -51,15 +51,68 @@ function chibi2(x, yFeet, s, o = {}) {
   g.fillStyle = SKIN; g.strokeStyle = BLAZER; g.lineWidth = 5; [[-21, 712], [21, 712]].forEach(([hx, hy]) => { g.beginPath(); g.arc(hx, hy, 24, 0, 7); g.fill(); g.stroke(); });
   g.restore();
 }
-window.renderAvatarChibi = () => {
-  cv.width = 800; cv.height = 800; bg(800, 800); waves(800, 800, 0.12);
-  chibi2(390, 930, 1.0, { look: [0, -0.1] }); bigQ(645, 185, 0.8);
-};
+
 window.renderAvatarPhoto = (img) => {
   cv.width = 800; cv.height = 800; g.drawImage(img, 0, 0, 800, 800);
   // brand ring just inside the circle YouTube shows, and the gold question mark badge
   g.strokeStyle = GOLD; g.lineWidth = 14; g.beginPath(); g.arc(400, 400, 385, 0, TAU2); g.stroke();
   g.fillStyle = BG; g.beginPath(); g.arc(640, 650, 92, 0, TAU2); g.fill(); g.strokeStyle = GOLD; g.lineWidth = 8; g.stroke(); bigQ(640, 656, 0.62);
+};
+
+// chibi v3 (2026-10-30): three-quarter view turned to the left, looking up and away, hand at the chin.
+// After Trường's photo: brown tousled hair swept forward, black rectangular glasses, white earbud, black blazer over a light-blue shirt.
+function chibi3(x, yFeet, s, o = {}) {
+  g.save(); g.translate(x, yFeet - 890 * s); g.scale(s, s);
+  const SKIN = "#f6e3d3", SKIN2 = "#ecd2bf", HAIR = "#6e4426", HAIR2 = "#a06a3c", BLAZER = "#1b1d27", SHIRT = "#bcd6f2", OUT = "#F2F5FB";
+  const shapes = [], S = (b, f) => shapes.push({ b, f });
+  // legs and shoes, a small step to the left
+  S(() => { g.beginPath(); g.roundRect(-84, 740, 56, 120, 22); }, "#2a2f40"); S(() => { g.beginPath(); g.roundRect(4, 744, 56, 118, 22); }, "#2a2f40");
+  S(() => { g.beginPath(); g.ellipse(-70, 864, 50, 23, 0, 0, 7); }, "#e6eaf2"); S(() => { g.beginPath(); g.ellipse(24, 866, 46, 22, 0, 0, 7); }, "#e6eaf2");
+  // blazer body, turned: front edge on the left
+  S(() => { g.beginPath(); g.moveTo(-140, 776); g.quadraticCurveTo(-170, 610, -90, 566); g.lineTo(70, 560); g.quadraticCurveTo(150, 600, 122, 778); g.quadraticCurveTo(-10, 808, -140, 776); g.closePath(); }, BLAZER);
+  // back of the head (hair), then the face shifted left
+  S(() => { g.beginPath(); g.ellipse(14, 410, 192, 178, 0, 0, 7); }, HAIR);
+  S(() => { g.beginPath(); g.ellipse(-26, 446, 166, 150, 0, 0, 7); }, SKIN);
+  // ear on the right with the earbud
+  S(() => { g.beginPath(); g.ellipse(132, 462, 30, 40, 0.15, 0, 7); }, SKIN);
+  // tousled crown, swept forward to the left, short at the side
+  S(() => { g.beginPath();
+    g.moveTo(178, 470); g.quadraticCurveTo(214, 300, 120, 236);
+    g.quadraticCurveTo(60, 186, -40, 204); g.quadraticCurveTo(-150, 214, -196, 300);
+    g.lineTo(-236, 336); g.lineTo(-176, 344); g.lineTo(-198, 404); g.lineTo(-132, 366);
+    g.lineTo(-120, 414); g.lineTo(-80, 364); g.lineTo(-46, 410); g.lineTo(-26, 360);
+    g.lineTo(18, 398); g.lineTo(30, 352); g.lineTo(78, 384); g.lineTo(84, 350);
+    g.quadraticCurveTo(110, 400, 118, 440); g.quadraticCurveTo(150, 420, 178, 470); g.closePath(); }, HAIR);
+  g.lineJoin = "round"; g.strokeStyle = OUT; g.lineWidth = 22; shapes.forEach(q => { q.b(); g.stroke(); }); shapes.forEach(q => { q.b(); g.fillStyle = q.f; g.fill(); });
+  // inner ear and the earbud
+  g.fillStyle = SKIN2; g.beginPath(); g.ellipse(134, 462, 14, 22, 0.15, 0, 7); g.fill();
+  g.fillStyle = OUT; g.beginPath(); g.ellipse(128, 458, 17, 20, 0.2, 0, 7); g.fill(); g.beginPath(); g.roundRect(122, 470, 14, 44, 7); g.fill();
+  // hair texture: strands sweeping forward
+  g.strokeStyle = HAIR2; g.lineWidth = 9; g.lineCap = "round";
+  [[150, 300, 40, 250, -60, 262], [120, 360, 30, 300, -110, 300], [170, 400, 120, 330, 40, 316], [-20, 230, -100, 236, -170, 290]].forEach(([a, b, c, d, e, f]) => { g.beginPath(); g.moveTo(a, b); g.quadraticCurveTo(c, d, e, f); g.stroke(); });
+  // shirt collar, lapel and a hint of the turned shoulder
+  g.fillStyle = SHIRT; g.beginPath(); g.moveTo(-84, 570); g.lineTo(-30, 640); g.lineTo(20, 566); g.closePath(); g.fill();
+  g.strokeStyle = "#30364a"; g.lineWidth = 8; g.beginPath(); g.moveTo(-84, 570); g.lineTo(-58, 720); g.moveTo(20, 566); g.lineTo(-20, 700); g.stroke();
+  // eyes looking up and to the left, behind the glasses (far lens narrower: foreshortened)
+  const [lx, ly] = o.look || [-0.8, -0.6];
+  [[-132, 0.72], [-8, 1]].forEach(([ex, k]) => { const cx = ex + lx * 15, cy = 462 + ly * 13; g.fillStyle = "#1b1e2c"; g.beginPath(); g.ellipse(cx, cy, 22 * k, 30, 0, 0, 7); g.fill(); g.fillStyle = OUT; g.beginPath(); g.arc(cx - 7 * k, cy - 12, 8, 0, 7); g.fill(); g.beginPath(); g.arc(cx + 8 * k, cy + 10, 4, 0, 7); g.fill(); });
+  g.strokeStyle = "#111421"; g.lineWidth = 11; g.lineJoin = "round";
+  g.beginPath(); g.roundRect(-58, 424, 104, 76, 18); g.stroke();                 // near lens
+  g.beginPath(); g.roundRect(-172, 428, 78, 72, 16); g.stroke();                 // far lens
+  g.beginPath(); g.moveTo(-94, 452); g.lineTo(-58, 452); g.stroke();             // bridge
+  g.beginPath(); g.moveTo(46, 446); g.lineTo(118, 436); g.stroke();              // temple arm to the ear
+  // nose, blush, a small curious "o" mouth
+  g.strokeStyle = "#d9b49c"; g.lineWidth = 6; g.beginPath(); g.moveTo(-96, 498); g.quadraticCurveTo(-106, 512, -92, 516); g.stroke();
+  g.fillStyle = "rgba(255,120,130,0.4)"; g.beginPath(); g.ellipse(-150, 524, 22, 13, 0, 0, 7); g.fill(); g.beginPath(); g.ellipse(36, 526, 30, 15, 0, 0, 7); g.fill();
+  g.fillStyle = "#7a4a45"; g.beginPath(); g.ellipse(-70, 548, 11, 13, 0, 0, 7); g.fill();
+  // hand raised to the chin, the other at the side
+  g.strokeStyle = BLAZER; g.lineWidth = 34; g.lineCap = "round"; g.beginPath(); g.moveTo(-40, 650); g.quadraticCurveTo(-110, 640, -112, 600); g.stroke();
+  g.fillStyle = SKIN; g.strokeStyle = OUT; g.lineWidth = 6; g.beginPath(); g.arc(-112, 588, 26, 0, 7); g.fill(); g.stroke();
+  g.restore();
+}
+window.renderAvatarChibi = () => {
+  cv.width = 800; cv.height = 800; bg(800, 800); waves(800, 800, 0.12);
+  chibi3(430, 910, 1.0); bigQ(165, 190, 0.8);
 };
 window.renderBanner = () => {
   cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
