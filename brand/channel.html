@@ -20,6 +20,47 @@ const ICON = {
 };
 function bigQ(x, y, s) { g.save(); g.font = `800 ${220 * s}px ${FONT}`; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = BG; g.lineWidth = 26 * s; g.strokeText("?", x, y); g.fillStyle = GOLD; g.fillText("?", x, y); g.restore(); }
 
+
+// chibi v2, drawn after Trường's photo (2026-10-30): brown swept hair, black glasses, white earbud, black blazer over a light-blue shirt
+function chibi2(x, yFeet, s, o = {}) {
+  g.save(); g.translate(x, yFeet - 890 * s); g.scale(s, s);
+  const SKIN = "#f6e3d3", HAIR = "#7a4a2a", HAIR2 = "#9c6438", BLAZER = "#1b1d27", SHIRT = "#bcd6f2", OUT = "#F2F5FB";
+  const shapes = [], S = (b, f) => shapes.push({ b, f });
+  S(() => { g.beginPath(); g.roundRect(-70, 740, 58, 124, 22); }, "#2a2f40"); S(() => { g.beginPath(); g.roundRect(12, 740, 58, 124, 22); }, "#2a2f40");
+  S(() => { g.beginPath(); g.ellipse(-46, 866, 46, 24, 0, 0, 7); }, "#e6eaf2"); S(() => { g.beginPath(); g.ellipse(46, 866, 46, 24, 0, 0, 7); }, "#e6eaf2");
+  S(() => { g.beginPath(); g.moveTo(-130, 776); g.quadraticCurveTo(-160, 600, -76, 562); g.lineTo(76, 562); g.quadraticCurveTo(160, 600, 130, 776); g.quadraticCurveTo(0, 806, -130, 776); g.closePath(); }, BLAZER);
+  S(() => { g.beginPath(); g.ellipse(0, 400, 196, 176, 0, 0, 7); }, HAIR);
+  S(() => { g.beginPath(); g.ellipse(0, 430, 170, 152, 0, 0, 7); }, SKIN);
+  // swept fringe: a crown of hair falling to the right, leaving the forehead partly open
+  S(() => { g.beginPath(); g.moveTo(-190, 420); g.quadraticCurveTo(-200, 230, -20, 214); g.quadraticCurveTo(170, 205, 196, 400); g.quadraticCurveTo(150, 330, 110, 352); g.quadraticCurveTo(70, 300, 20, 340); g.quadraticCurveTo(-30, 296, -80, 344); g.quadraticCurveTo(-130, 320, -190, 420); g.closePath(); }, HAIR);
+  g.lineJoin = "round"; g.strokeStyle = OUT; g.lineWidth = 22; shapes.forEach(q => { q.b(); g.stroke(); }); shapes.forEach(q => { q.b(); g.fillStyle = q.f; g.fill(); });
+  // hair highlights
+  g.strokeStyle = HAIR2; g.lineWidth = 9; g.lineCap = "round"; [[-120, 300, -40, 250], [0, 250, 90, 270], [60, 236, 140, 300]].forEach(([a, b, c, d]) => { g.beginPath(); g.moveTo(a, b); g.quadraticCurveTo((a + c) / 2, b - 25, c, d); g.stroke(); });
+  // shirt collar and lapels
+  g.fillStyle = SHIRT; g.beginPath(); g.moveTo(-58, 566); g.lineTo(0, 640); g.lineTo(58, 566); g.closePath(); g.fill();
+  g.strokeStyle = "#30364a"; g.lineWidth = 8; g.beginPath(); g.moveTo(-58, 566); g.lineTo(-20, 700); g.moveTo(58, 566); g.lineTo(20, 700); g.stroke();
+  // eyes behind black rectangular glasses
+  const [lx, ly] = o.look || [0, 0];
+  [-68, 68].forEach(ex => { const cx = ex + lx * 10, cy = 456 + ly * 10; g.fillStyle = "#1b1e2c"; g.beginPath(); g.ellipse(cx, cy, 24, 31, 0, 0, 7); g.fill(); g.fillStyle = OUT; g.beginPath(); g.arc(cx - 8, cy - 12, 9, 0, 7); g.fill(); g.beginPath(); g.arc(cx + 9, cy + 11, 4, 0, 7); g.fill(); });
+  g.strokeStyle = "#111421"; g.lineWidth = 11; [-68, 68].forEach(ex => { g.beginPath(); g.roundRect(ex - 54, 418, 108, 78, 18); g.stroke(); }); g.beginPath(); g.moveTo(-14, 446); g.lineTo(14, 446); g.stroke();
+  g.beginPath(); g.moveTo(-122, 440); g.lineTo(-164, 432); g.moveTo(122, 440); g.lineTo(164, 432); g.stroke();
+  g.fillStyle = "rgba(255,120,130,0.4)"; g.beginPath(); g.ellipse(-112, 516, 28, 15, 0, 0, 7); g.fill(); g.beginPath(); g.ellipse(112, 516, 28, 15, 0, 0, 7); g.fill();
+  g.strokeStyle = "#7a4a45"; g.lineWidth = 7; g.beginPath(); g.arc(lx * 6, 512, 17, 0.15 * Math.PI, 0.85 * Math.PI); g.stroke();
+  // white earbud on the right ear
+  g.fillStyle = OUT; g.beginPath(); g.ellipse(176, 470, 16, 20, 0.3, 0, 7); g.fill(); g.beginPath(); g.roundRect(168, 482, 14, 40, 7); g.fill();
+  g.fillStyle = SKIN; g.strokeStyle = BLAZER; g.lineWidth = 5; [[-21, 712], [21, 712]].forEach(([hx, hy]) => { g.beginPath(); g.arc(hx, hy, 24, 0, 7); g.fill(); g.stroke(); });
+  g.restore();
+}
+window.renderAvatarChibi = () => {
+  cv.width = 800; cv.height = 800; bg(800, 800); waves(800, 800, 0.12);
+  chibi2(390, 930, 1.0, { look: [0, -0.1] }); bigQ(645, 185, 0.8);
+};
+window.renderAvatarPhoto = (img) => {
+  cv.width = 800; cv.height = 800; g.drawImage(img, 0, 0, 800, 800);
+  // brand ring just inside the circle YouTube shows, and the gold question mark badge
+  g.strokeStyle = GOLD; g.lineWidth = 14; g.beginPath(); g.arc(400, 400, 385, 0, TAU2); g.stroke();
+  g.fillStyle = BG; g.beginPath(); g.arc(640, 650, 92, 0, TAU2); g.fill(); g.strokeStyle = GOLD; g.lineWidth = 8; g.stroke(); bigQ(640, 656, 0.62);
+};
 window.renderBanner = () => {
   cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
   // safe area (all devices): x 507–2053, y 508–931
