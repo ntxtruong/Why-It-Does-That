@@ -179,13 +179,25 @@ window.renderAvatarVariant = (k) => {
   chibi3(530, 940, 0.86); if (P.q) bigQ(690, 190, 0.6);
 };
 window.renderBanner = () => {
-  cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
+  cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.08);
+  // right side: night sky and St Joseph's Cathedral in real-stone colours, fading into the navy towards the title
+  g.save(); const sky = g.createRadialGradient(2250, 620, 120, 2250, 620, 820); sky.addColorStop(0, "rgba(15,34,56,1)"); sky.addColorStop(0.6, "rgba(15,34,56,0.85)"); sky.addColorStop(1, "rgba(15,34,56,0)"); g.fillStyle = sky; g.fillRect(1300, 0, 1260, 1440);
+  for (let i = 0; i < 80; i++) { const x = 1750 + hash(i, 1) * 810, y = 120 + hash(i, 2) * 560; dot(x, y, 1.5 + hash(i, 3) * 2.2, "#F2F5FB", 0.25 + 0.6 * hash(i, 4)); }
+  cathedral(2200, 1010, 0.55, 1, PAL.stone);
+  g.restore();
   // safe area (all devices): x 507–2053, y 508–931
   text("Why It Does That", 600, 640, 132, INK, "left", 800);
   text("Everyday Science, Explained", 604, 760, 64, GOLD, "left", 700);
   const topics = [["body", "Body"], ["brain", "Brain"], ["tech", "Tech"], ["physics", "Physics"], ["nature", "Nature"]];
   topics.forEach(([k, lab], i) => { const x = 660 + i * 150, y = 870; disc(x, y, 52); ICON[k](x, y, 0.62); });
-  chibi(1900, 1000, 0.55, { look: [-0.5, -0.2], mouth: "smile" }); bigQ(2040, 560, 0.7);
+  chibi3(1870, 1010, 0.55, { look: [-0.9, -0.4] });
 };
-window.renderAvatar = () => renderAvatarVariant("stone");   // chosen by Trường 2026-10-30: real-stone cathedral at night, no question mark
+window.renderAvatar = () => {   // 2026-10-30: the character alone on navy, a gold wave behind as the "science" cue (cathedral moved to the banner)
+  cv.width = 800; cv.height = 800; bg(800, 800);
+  const pts = []; for (let x = -20; x <= 820; x += 6) pts.push([x, 240 + 60 * Math.sin(x / 800 * TAU2 * 1.5 + 0.6)]);
+  poly(pts, GOLD, 0.95, 16);
+  const pts2 = []; for (let x = -20; x <= 820; x += 6) pts2.push([x, 240 - 60 * Math.sin(x / 800 * TAU2 * 1.5 + 0.6)]);
+  poly(pts2, BLUE, 0.55, 10);
+  chibi3(440, 990, 1.06);
+};
 </script></body></html>
