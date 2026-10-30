@@ -9,6 +9,7 @@ YouTube channel of animated explainers about everyday phenomena, owned by Trư�
 ## Decisions already made
 
 - Goal for this stage (Trường, 2026-10-03): build the channel and learn how this kind of content is made. Monetisation is not a goal for now; do not pick topics for search volume or watch hours, and do not bring up monetisation thresholds unless he asks. He works in IT and wants AI used as far as it will go at every step. Where a step still needs him (hearing audio, signing in, the final check), say so plainly and note whether it could be automated later.
+- Positioning widened (Trường, 2026-10-30): many everyday topics, not only physics. Channel name "Why It Does That – Everyday Science, Explained"; five topic pillars, each a playlist: Your Body, Explained · Your Brain Is Tricking You · How Everyday Tech Works · Everyday Physics · Nature's Weird Rules (plus Shorts). Pick ideas across all five; the constant is one everyday "why" per video, answered with a visible simulation. Channel art v2 and texts in `brand/channel-setup.md` (rendered by `brand/channel.html` / `channel.js`).
 - One theme, two formats: long videos (5–8 min, one "why" question, one mechanism) and Shorts ("one surprising fact" plus a 30–45 s simulation). No listicles, no life-story content on this channel.
 - Visuals are code-drawn simulations of the real physics (HTML canvas), dark navy style, with the chibi mascot (`brand/brandkit.js`) in scenes, banner and thumbnails.
 - Voice: Kokoro (`kokoro-onnx`, Apache 2.0), voice `am_michael`, speed 0.9. Trường approved this voice and pace on episode 1.
@@ -255,7 +256,7 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 
 - Episodes 3, 4 and 5 are rendered and pushed (branches `claude/ep03-wheels`, `claude/ep04-traffic`, `claude/ep05-anc`) but not uploaded: the run had no linked computer. Upload all three as Unlisted in the next run that has the built-in browser (Stage 4), then the music gate.
 - Episode 3 was rebuilt from scratch on 2026-10-28 (the 2026-10-15 files were never pushed and Trường did not have them in the repo).
-- Channel page showed "Why It Does That??" on 2026-10-15; still waiting for Trường to confirm whether that name is intended.
+- Channel refresh approved 2026-10-30 (new name, handle, avatar, banner, description in 6 languages, keywords, pillar playlists, home layout), branch `claude/channel-refresh`, not yet applied in Studio: needs a session with the built-in browser. Handle: try @WhyItDoesThat, then @WhyItDoesThatScience, then @WhyItDoesThat.Explained.
 - Push from the scheduled task works: on 2026-10-28 the repo was already cloned with push access; `git push` to `claude/*` succeeded without `add_repo` (the tool was not offered in that session).
 - A throwaway branch `claude-push-test` was left on the remote by an earlier test because the git proxy blocks branch deletion; Trường may delete it on GitHub.
 - The hyperframes fork (`ntxtruong/hyperframes`) HEAD differed from `heygen-com/hyperframes` on 2026-10-28; Trường may press "Sync fork".

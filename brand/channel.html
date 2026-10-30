@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- Channel art v2 (2026-10-30): banner 2560×1440 and avatar 800×800, brand kit v2.  Rendered by channel.js. -->
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="2560" height="1440"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core-v2.js"></script>
+<script>
+const R = Math.PI / 180;
+function bg(w, h) { g.fillStyle = BG; g.fillRect(0, 0, w, h); const gr = g.createRadialGradient(w * 0.5, h * 0.5, 0, w * 0.5, h * 0.5, Math.max(w, h) * 0.7); gr.addColorStop(0, "rgba(35,53,106,0.9)"); gr.addColorStop(1, "rgba(24,38,79,0)"); g.fillStyle = gr; g.fillRect(0, 0, w, h); }
+// faint background pattern: travelling sine waves (the channel's "everything is a mechanism" texture)
+function waves(w, h, a) { for (let k = 0; k < 14; k++) { const y0 = h * (k + 0.5) / 14, amp = 18 + 10 * Math.sin(k), lam = 260 + 40 * k; const pts = []; for (let x = 0; x <= w; x += 8) pts.push([x, y0 + amp * Math.sin(TAU2 * x / lam + k)]); poly(pts, [140, 198, 255], a * (0.35 + 0.65 * ((k % 3) / 2)), 2); } }
+// topic icons, drawn at (x, y) inside a disc of radius r
+function disc(x, y, r) { g.fillStyle = PANEL; g.beginPath(); g.arc(x, y, r, 0, TAU2); g.fill(); g.strokeStyle = "rgba(170,183,209,0.35)"; g.lineWidth = 4; g.stroke(); }
+const ICON = {
+  body: (x, y, s) => { g.fillStyle = CORAL; g.beginPath(); g.moveTo(x, y + 34 * s); g.bezierCurveTo(x - 70 * s, y - 10 * s, x - 40 * s, y - 62 * s, x, y - 30 * s); g.bezierCurveTo(x + 40 * s, y - 62 * s, x + 70 * s, y - 10 * s, x, y + 34 * s); g.fill(); poly([[x - 46 * s, y - 4 * s], [x - 20 * s, y - 4 * s], [x - 10 * s, y - 22 * s], [x + 4 * s, y + 14 * s], [x + 14 * s, y - 4 * s], [x + 46 * s, y - 4 * s]], BG, 1, 6 * s); },
+  brain: (x, y, s) => { g.save(); g.fillStyle = INK; g.beginPath(); g.ellipse(x, y, 58 * s, 32 * s, 0, 0, TAU2); g.fill(); g.fillStyle = BLUE; g.beginPath(); g.arc(x, y, 24 * s, 0, TAU2); g.fill(); g.fillStyle = BG; g.beginPath(); g.arc(x, y, 11 * s, 0, TAU2); g.fill(); g.fillStyle = INK; g.beginPath(); g.arc(x - 6 * s, y - 7 * s, 5 * s, 0, TAU2); g.fill(); g.restore(); },
+  tech: (x, y, s) => { [44, 30, 16].forEach((r, i) => { g.strokeStyle = BLUE; g.lineWidth = 9 * s; g.lineCap = "round"; g.beginPath(); g.arc(x, y + 22 * s, r * s * 1.25, -Math.PI * 0.78, -Math.PI * 0.22); g.stroke(); }); dot(x, y + 22 * s, 8 * s, BLUE); },
+  physics: (x, y, s) => { const pts = []; for (let u = -52; u <= 52; u += 2) pts.push([x + u * s, y - 26 * s * Math.sin(u / 52 * Math.PI * 2)]); poly(pts, GOLD, 1, 9 * s); },
+  nature: (x, y, s) => { g.fillStyle = INK; g.beginPath(); [[-22, 0, 22], [4, -14, 26], [28, 2, 18]].forEach(([dx, dy, r]) => { g.moveTo(x + (dx + r) * s, y + dy * s); g.arc(x + dx * s, y + dy * s, r * s, 0, TAU2); }); g.rect(x - 40 * s, y, 86 * s, 18 * s); g.fill(); [[-18, 40], [6, 50], [28, 38]].forEach(([dx, dy]) => { g.fillStyle = BLUE; g.beginPath(); g.moveTo(x + dx * s, y + (dy - 10) * s); g.quadraticCurveTo(x + (dx + 7) * s, y + (dy + 4) * s, x + dx * s, y + (dy + 6) * s); g.quadraticCurveTo(x + (dx - 7) * s, y + (dy + 4) * s, x + dx * s, y + (dy - 10) * s); g.fill(); }); }
+};
+function bigQ(x, y, s) { g.save(); g.font = `800 ${220 * s}px ${FONT}`; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = BG; g.lineWidth = 26 * s; g.strokeText("?", x, y); g.fillStyle = GOLD; g.fillText("?", x, y); g.restore(); }
+
+window.renderBanner = () => {
+  cv.width = 2560; cv.height = 1440; bg(2560, 1440); waves(2560, 1440, 0.10);
+  // safe area (all devices): x 507–2053, y 508–931
+  text("Why It Does That", 600, 640, 132, INK, "left", 800);
+  text("Everyday Science, Explained", 604, 760, 64, GOLD, "left", 700);
+  const topics = [["body", "Body"], ["brain", "Brain"], ["tech", "Tech"], ["physics", "Physics"], ["nature", "Nature"]];
+  topics.forEach(([k, lab], i) => { const x = 660 + i * 150, y = 870; disc(x, y, 52); ICON[k](x, y, 0.62); });
+  chibi(1900, 1000, 0.55, { look: [-0.5, -0.2], mouth: "smile" }); bigQ(2040, 560, 0.7);
+};
+window.renderAvatar = () => {
+  cv.width = 800; cv.height = 800; bg(800, 800);
+  // ring of the five topic colours, then the mascot filling the circle
+  g.save(); g.beginPath(); g.arc(400, 400, 400, 0, TAU2); g.clip();
+  waves(800, 800, 0.12);
+  chibi(390, 930, 1.0, { look: [0, -0.15], mouth: "smile" });
+  bigQ(640, 190, 0.8);
+  g.restore();
+};
+</script></body></html>
