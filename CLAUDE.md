@@ -251,8 +251,24 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | spoke | nan hoa | ซี่ล้อ | スポーク | 바퀴살 | 輪輻 |
 | exposure time | thời gian phơi sáng | เวลาเปิดรับแสง | 露光時間 | 노출 시간 | 曝光時間 |
 | flicker | nhấp nháy | การกะพริบ | ちらつき | 깜박임 | 閃爍 |
+| Leidenfrost effect | hiệu ứng Leidenfrost | ปรากฏการณ์ไลเดนฟรอสต์ | ライデンフロスト効果 | 라이덴프로스트 효과 | 萊頓弗羅斯特效應 |
+| steam cushion (vapour layer) | lớp đệm hơi nước | เบาะไอน้ำ | 蒸気のクッション（蒸気層） | 수증기 쿠션(증기층) | 蒸氣氣墊（蒸氣層） |
+| sympathetic nervous system | hệ thần kinh giao cảm | ระบบประสาทซิมพาเทติก | 交感神経系 | 교감신경계 | 交感神經系統 |
+| vasoconstriction / narrowing of blood vessels | co mạch | การหดตัวของหลอดเลือด | 血管収縮 | 혈관 수축 | 血管收縮 |
+| blood vessel | mạch máu | หลอดเลือด | 血管 | 혈관 | 血管 |
+| stratum corneum / outer layer of skin | lớp sừng (lớp ngoài cùng của da) | ชั้นสตราตัมคอร์เนียม (ผิวชั้นนอกสุด) | 角質層（皮膚の最も外側の層） | 각질층(피부 가장 바깥층) | 角質層（皮膚最外層） |
+| sweat pore | lỗ mồ hôi | รูเหงื่อ | 汗孔 | 땀구멍 | 汗孔 |
+| magnetron | magnetron | แมกนีตรอน | マグネトロン | 마그네트론 | 磁控管 |
+| electric field | điện trường | สนามไฟฟ้า | 電界 | 전기장 | 電場 |
+| standing wave | sóng đứng | คลื่นนิ่ง | 定在波 | 정상파 | 駐波 |
+| penetration depth | độ sâu xuyên thấu | ความลึกในการทะลุทะลวง | 浸透深さ | 침투 깊이 | 穿透深度 |
+| turntable | bàn xoay | จานหมุน | ターンテーブル | 회전 접시 | 轉盤 |
+| hot spot / dead spot | điểm nóng / điểm chết | จุดร้อน / จุดดับ | ホットスポット / デッドスポット | 핫스폿 / 데드스폿 | 熱點 / 死點 |
+| ISM band | dải tần ISM (công nghiệp, khoa học, y tế) | ย่านความถี่ ISM | ISMバンド | ISM 대역 | ISM 頻段 |
+| thermal runaway | chạy mất kiểm soát (nhiệt) | ความร้อนเร่งตัวควบคุมไม่อยู่ | 熱暴走 | 열 폭주 | 熱失控 |
 
-## Open items (2026-10-29)
+
+## Open items (2026-11-02)
 
 - Episodes 3, 4 and 5 are Public since 2026-10-29 (switched by Claude on Trường's explicit request that day, "set công khai 3 video").
 - Music for episodes 3–5 was chosen by Claude on 2026-10-29 at Trường's explicit request ("e chọn luôn nhạc nhé, anh ok"), picked by mood filter, length and licence (all "Không cần ghi công") without listening. He may ask for a different track after hearing them.
@@ -264,12 +280,14 @@ Agreed translation of every scientific term, used in titles, descriptions and su
   - NOT done: channel name. YouTube rejected "Why It Does That – Everyday Science, Explained" and the "-" variant ("Bạn không thể sử dụng tên này…"), then locked name attempts for 24 h ("quá nhiều tên không dùng được"). The name stays "Why It Does That??". Name+description translations (vi, th, ja, ko, zh-Hant → "Tiếng Trung (Đài Loan)") were not saved because each translation carries a name and hit the same lock; retry after 2026-10-31 ~17:00 ICT, and ask Trường which name to use first.
   - Left as is: playlist "Light & Sound" (eps 1, 2, 3, 5) still exists and the videos are still in it; delete/empty it only if Trường says so. "Everyday Physics" keeps its old description.
   - Studio access: Trường's Chrome default account (authuser 0) is his work account without a channel; open Studio with `?authuser=1` or it redirects to youtube.com.
-- Channel name: still "Why It Does That??" (YouTube rejected the new name on 2026-10-30). Asked Trường on 2026-11-02 which name to use; waiting.
+- Channel name: still "Why It Does That??" (YouTube rejected "Why It Does That – Everyday Science, Explained" on 2026-10-30). On 2026-11-02 Trường asked Claude to propose a new name and retry; agreed order to try in Studio (stop at the first one YouTube accepts): 1 "Why It Does That", 2 "Why It Does That: Everyday Science", 3 "Why It Does That Science". Then save the name+description translations. Not done yet: the 2026-11-02 run had no linked computer.
 - Push from the scheduled task works: on 2026-10-28 the repo was already cloned with push access; `git push` to `claude/*` succeeded without `add_repo` (the tool was not offered in that session).
 - A throwaway branch `claude-push-test` was left on the remote by an earlier test because the git proxy blocks branch deletion; Trường may delete it on GitHub.
 - The hyperframes fork (`ntxtruong/hyperframes`) HEAD differed from `heygen-com/hyperframes` on 2026-10-28; Trường may press "Sync fork".
-- Glossary: the terms added on 2026-10-28 for episodes 3–5 are machine-drafted; Trường or a native speaker should confirm (least certain: vi "sóng dừng rồi đi" for stop-and-go wave, and every language's "string unstable").
+- Glossary: the terms added on 2026-10-28 (episodes 3–5) and 2026-11-02 (episodes 6–8) are machine-drafted; Trường or a native speaker should confirm (least certain: vi "sóng dừng rồi đi" for stop-and-go wave, and every language's "string unstable").
 - Music moods proposed at script approval (Trường did not object): ep3 curious/light, ep4 steady urban pulse, ep5 calm ambient.
+- Episodes 6–8 (2026-11-02): Trường approved all three scripts in one go ("lên luôn cho tập 6-7-8", "kịch bản ok") and asked Claude to choose the music himself ("mood nhạc em tự chọn luôn"). Planned moods: ep6 bright/playful (Short), ep7 light/curious, ep8 upbeat kitchen. Pick by mood filter, length and "Không cần ghi công" licence, without listening, and say so.
+- Playlist for ep7: the pillar playlist "Your Body, Explained" does not exist yet; ask Trường before creating it.
 
 ## Lessons from the 2026-10-28 run
 
@@ -302,6 +320,20 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 - The library search: click the filter field, choose "Tìm kiếm", type the title in the "Giá trị" box and "Áp dụng". The same title can appear twice with different track IDs; check "Thông tin về giấy phép" in the marker menu.
 - End screen time fields: the first edit after the template is applied often does not stick. Select the element row in the timeline, type into the start field, Enter, Tab, and confirm by moving the playhead past the new start time (the bars redraw only then). Screenshots of the emulated 1280×900 pane can be stale; trust `find`/DOM values.
 
+## Lessons from the 2026-11-02 run (episodes 6–8 in one session)
+
+- Three episodes in one session: one git worktree per branch (`git worktree add /home/claude/wNN claude/epNN-…`) with sparse checkout excluding `media/` and `brand/*.png`, and `tts`, `asr`, `node_modules` symlinked from the main clone. New media then needs `git add --sparse media/…`.
+- Remove the `[TRUONG_ANGLE …]` placeholder beat from `script.json` before `tts.py`, or Kokoro reads it aloud.
+- `pkill -f <pattern>` matched the tool's own shell and killed it; kill by PID instead.
+- A Short (1080×1920) uses the same `build.js` with `FW=1080 FH=1920`, extra CSS in `captions.css`, and `tts.py` short pauses (`"format": "short"`). Keep text in the top third and the character above y ≈ 1530; nothing right of x ≈ 940.
+- `ep06/core.js` holds the v2 helpers plus `chibi3()` / `mascot3()` (blink, mouth, lean) for the new character; ep07/ep08 copy it.
+- Machine load on 2 cores: a 6:30 render took about 30 minutes while TTS and a second render ran; run renders one at a time where possible.
+
+## Learnings
+
+- Episodes 6–8: split every sentence over ~7 s before TTS (93–99 subtitle lines per long episode now, none over 7 s); the skeptic review caught a wrong date (Boerhaave 1732 before Leidenfrost 1756) and an unhedged "°" without Celsius, so keep it on every script.
+- No Studio access this run, so no retention data yet for episodes 3–5; read it in the next run with a linked computer.
+
 ## Episodes
 
 | # | Topic | Status |
@@ -311,3 +343,6 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | 3 | Why do wheels spin backwards on camera? (wagon-wheel effect, aliasing) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/SxjS9sdc_Ek. 6:55, branch `claude/ep03-wheels`. Title, description, tags, A/B thumbnails, EN + 5 translated subtitles/titles/descriptions, end screen from 6:45. Music: "Golden" (mood Tươi sáng, 4:06), two segments 0:00–2:49 and 2:49–6:55, mix 15 |
 | 4 | Why do traffic jams appear out of nowhere? (phantom jams, Sugiyama 2008, Stern 2018) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/Rwx3Y7Pw9rk. 6:44, branch `claude/ep04-traffic`. Same set as ep 3, end screen from 6:34. Music: "Limo Ride" (TrackTribe, mood Khích lệ tinh thần, 4:15), two segments 0:00–2:29 and 2:29–6:44, mix 15 |
 | 5 | How do headphones cancel noise with more noise? (active noise cancellation) | Public since 2026-10-29 (switched by Claude on Trường's explicit request): https://youtu.be/rOxQ3PFvewk. 6:54, branch `claude/ep05-anc`. Same set as ep 3, end screen from 6:45. Music: "Stellar Wind" (mood Thư thái, 7:08), one segment 0:00–6:54, mix 15 |
+| 6 | Why do water drops dance on a hot pan? (Short, Leidenfrost effect) | Rendered 2026-11-02, 0:55, 1080×1920, branch `claude/ep06-leidenfrost`; not uploaded yet (no linked computer). Playlist: Everyday Physics |
+| 7 | Why do your fingers wrinkle in water? (nerves, vasoconstriction) | Rendered 2026-11-02, 6:30, branch `claude/ep07-wrinkly-fingers`; not uploaded yet. Playlist: Your Body, Explained (to create, ask Trường) |
+| 8 | Why microwaves don't heat food from the inside (penetration depth, standing waves) | Rendered 2026-11-02, 7:00, branch `claude/ep08-microwave`; not uploaded yet. Playlist: How Everyday Tech Works; card to ep 5 |
