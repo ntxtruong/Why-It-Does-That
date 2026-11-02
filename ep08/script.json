@@ -1,0 +1,137 @@
+{
+  "title": "Why Microwaves Don't Heat Food From the Inside",
+  "format": "long",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a 1.5 s pause",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [
+        0,
+        3,
+        6
+      ],
+      "beats": [
+        "Why is the middle of your leftovers still cold?",
+        "You heat a plate of lasagne for three minutes. The edges bubble. You take a bite from the middle, and it is cold.",
+        "That should not happen, if you believe the two things everyone says about microwave ovens.",
+        "One: they cook food from the inside out.",
+        "Two: they are tuned to a special frequency of water.",
+        "Both are wrong. And the real reasons explain the cold middle, the hot spots, and why defrosting goes so badly.",
+        "By the end of this video, you will know what a microwave actually does to your food, and why the turntable exists."
+      ]
+    },
+    {
+      "id": "wave",
+      "long": [
+        2,
+        4,
+        6
+      ],
+      "beats": [
+        "Start inside the box.",
+        "A device called a magnetron makes microwaves. They are the same kind of wave as light and radio, with a wavelength of about twelve centimetres.",
+        "A wave like this carries an electric field that points one way, then the other.",
+        "In a microwave oven, it swings back and forth about two and a half billion times every second.",
+        "Now look at a water molecule. One end carries a slight negative charge, the other end a slight positive charge.",
+        "So the field grabs it and tries to turn it. When the field flips, the molecule tries to turn the other way.",
+        "But in liquid water, every molecule is held by its neighbours. It almost keeps up, but not quite. It lags a tiny bit behind, bumping and dragging against its neighbours.",
+        "That jostling is heat. The oven barely heats the air, or a microwave-safe plate. It is shaking the water in your food.",
+        "Fats and sugars join in a little too. But in most food, water does most of the work."
+      ]
+    },
+    {
+      "id": "resonance",
+      "long": [
+        1,
+        4,
+        6
+      ],
+      "beats": [
+        "So is two point four five gigahertz a special frequency of water?",
+        "No. Water absorbs microwaves across a wide range of frequencies.",
+        "Water's molecules lag the field the most near twenty gigahertz, about eight times higher. And higher frequencies are absorbed even faster.",
+        "So why not use a higher frequency?",
+        "Because water would absorb it too well. Almost all the energy would be used up in the outer skin of the food. You would burn the surface and leave the inside raw.",
+        "A lower frequency gets absorbed more slowly, so it reaches deeper.",
+        "Two point four five gigahertz is a compromise, and a radio band reserved worldwide for industrial, scientific and medical machines. Wi-Fi shares it too. It isn't magic. It is a choice."
+      ]
+    },
+    {
+      "id": "depth",
+      "long": [
+        2,
+        4,
+        7
+      ],
+      "beats": [
+        "Even so, the waves don't get very far.",
+        "As they travel into food, the water keeps taking energy from them. By the time they have gone one or two centimetres into most foods, most of their power is gone.",
+        "That is the answer to the cold middle.",
+        "The microwaves mostly heat the outer layer. Everything deeper has to be heated the slow way, by heat creeping inward from that layer.",
+        "That creeping takes minutes. Your three minutes in the oven weren't enough.",
+        "That is also why a thin slice of pizza heats through fast, while a thick lump of rice stays cold at its heart. The thinner the food, the less distance the heat has to creep.",
+        "So a microwave doesn't cook from the inside out. It cooks from the outside in, like an oven, just with a thicker hot layer.",
+        "This is why the instructions tell you to stir, or to let the food stand for a minute. Stirring moves hot food into the cold middle, and standing lets the heat even out a little."
+      ]
+    },
+    {
+      "id": "hotspots",
+      "long": [
+        2,
+        5,
+        7
+      ],
+      "beats": [
+        "But that's not the whole story. The heat isn't even across the surface either.",
+        "Inside the metal box, the microwaves bounce off the walls. The waves going one way overlap with the waves coming back.",
+        "Where they line up, they add. Where they are opposite, they cancel.",
+        "The result is a pattern that stays in place, with strong spots and dead spots, about six centimetres apart. Half a wavelength.",
+        "You can see it yourself. Take the turntable out, heat a plate of marshmallows or chocolate briefly, and look for the spots that melted first.",
+        "Measure how far apart they are, multiply by two, and by the oven's frequency, and you get the speed of light.",
+        "Edges and corners of food also catch extra energy, which is why they bubble first. And now you know what the turntable is for. It drags every part of your food through the hot spots and the dead spots, so they even out.",
+        "It helps, but the very centre of the plate barely moves. That is often where the cold bite is."
+      ]
+    },
+    {
+      "id": "ice",
+      "long": [
+        1,
+        3,
+        5
+      ],
+      "beats": [
+        "Now the strangest part: frozen food.",
+        "Ice is almost invisible to microwaves. Its molecules are locked in a crystal, so they can't twist with the field. The waves pass straight through and barely heat it.",
+        "But the moment one corner melts, that liquid water starts absorbing strongly.",
+        "So that corner heats faster, which melts more, which absorbs more. It runs away.",
+        "That is how you end up with a frozen block that is cooked at one edge and solid ice in the middle.",
+        "The defrost setting fights this by lowering the power, usually by switching it on and off, giving the heat time to spread into the frozen parts."
+      ]
+    },
+    {
+      "id": "angle",
+      "long": [
+        0
+      ],
+      "beats": [
+        "[TRUONG_ANGLE: optional, Trường's own example or angle, 15-20 s. Leave empty to cut.]"
+      ]
+    },
+    {
+      "id": "payoff",
+      "long": [
+        2,
+        4
+      ],
+      "beats": [
+        "So why is the middle of your leftovers still cold?",
+        "The microwaves shake water molecules, but mostly in the outer one or two centimetres of your food.",
+        "The middle has to wait for that heat to creep in. The box is full of hot and dead spots, and the turntable can only do so much.",
+        "Not inside out. Not a magic water frequency. Just waves, water, and a bit of patience.",
+        "Here is a question for you. Why do you think leftovers heat more evenly when you spread them in a ring, with a hole in the middle? Tell me in the comments."
+      ]
+    }
+  ]
+}
