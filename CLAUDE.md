@@ -288,6 +288,7 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 - Music moods proposed at script approval (Trường did not object): ep3 curious/light, ep4 steady urban pulse, ep5 calm ambient.
 - Episodes 6–8 (2026-11-02): Trường approved all three scripts in one go ("lên luôn cho tập 6-7-8", "kịch bản ok") and asked Claude to choose the music himself ("mood nhạc em tự chọn luôn"). Planned moods: ep6 bright/playful (Short), ep7 light/curious, ep8 upbeat kitchen. Pick by mood filter, length and "Không cần ghi công" licence, without listening, and say so.
 - Playlist for ep7: the pillar playlist "Your Body, Explained" does not exist yet; ask Trường before creating it.
+- 2026-11-02 (later the same day): Trường wrote "upload đi rồi đăng công khai luôn nhé" (upload eps 6–8 and make them Public). That run had no linked computer, so nothing was uploaded. The Public request counts only for the run in which he says it: in the next run with Studio, upload first, then ask him in one line to confirm Public before switching.
 
 ## Lessons from the 2026-10-28 run
 
