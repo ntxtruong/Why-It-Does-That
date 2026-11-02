@@ -1,0 +1,11 @@
+# Sources (episode 7)
+- Haseleu, J. et al. (2014). Water-induced finger wrinkles do not affect touch acuity or dexterity in handling wet objects. PLoS ONE 9, e84949. https://pubmed.ncbi.nlm.nih.gov/24416318/
+- Kareklas, K., Nettle, D., Smulders, T. V. (2013). Water-induced finger wrinkles improve handling of wet objects. Biology Letters 9, 20120999. https://doi.org/10.1098/rsbl.2012.0999
+- Changizi, M. et al. (2011). Are wet-induced wrinkled fingers primate rain treads? Brain Behav. Evol. 77, 286–290. https://doi.org/10.1159/000328223
+- Wilder-Smith, E. P. V. (2004). Water immersion wrinkling — physiology and use as an indicator of sympathetic function. Clin. Auton. Res. 14, 125–131. https://doi.org/10.1007/s10286-004-0172-4
+- Wilder-Smith, E., Chow, A. (2003). Water immersion and EMLA cause similar digit skin wrinkling and vasoconstriction. Microvasc. Res. 66, 68–72.
+- Lewis, T., Pickering, G. W. (1936). Circulatory changes in the fingers in some diseases of the nervous system. Clinical Science 2, 149–175.
+- Braham, J., Sadeh, M., Sarova-Pinhas, I. (1979). Skin wrinkling on immersion of hands: a test of sympathetic function. Arch. Neurol. 36, 113–114.
+- Sáez, P., Zöllner, A. M. (2017). Mechanics reveals the biological trigger in wrinkly fingers. Ann. Biomed. Eng. 45, 1039–1047. https://doi.org/10.1007/s10439-016-1764-6
+- Taylor, N. A. S., Machado-Moreira, C. A. (2013). Regional variations in sweat gland density… Extreme Physiology & Medicine 2, 4.
+- German, G. et al. (2025), J. Mech. Behav. Biomed. Mater. — reported by Live Science: https://www.livescience.com/health/your-fingers-prune-the-exact-same-way-each-time-study-suggests
