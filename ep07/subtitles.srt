@@ -1,0 +1,371 @@
+1
+00:00:00,600 --> 00:00:02,957
+Why do your fingers wrinkle in water?
+
+2
+00:00:04,457 --> 00:00:09,537
+Stay in a warm bath for a while, and your fingertips turn into little prunes.
+
+3
+00:00:10,037 --> 00:00:11,614
+Your arms don't do it.
+
+4
+00:00:11,614 --> 00:00:13,334
+Your back doesn't do it.
+
+5
+00:00:13,334 --> 00:00:18,710
+Only the skin of your hands and feet, most of all your fingertips and toes.
+
+6
+00:00:19,210 --> 00:00:21,883
+Most people think the answer is simple.
+
+7
+00:00:21,883 --> 00:00:24,830
+The skin soaks up water, swells, and folds.
+
+8
+00:00:26,330 --> 00:00:28,074
+That is part of the story.
+
+9
+00:00:28,074 --> 00:00:30,556
+But it leaves out the strangest part.
+
+10
+00:00:31,056 --> 00:00:35,226
+If the nerve to a finger is cut, that finger stays smooth.
+
+11
+00:00:35,226 --> 00:00:37,239
+Soak it as long as you like.
+
+12
+00:00:37,739 --> 00:00:43,789
+By the end of this video, you will know why your nervous system decides whether you wrinkle.
+
+13
+00:00:43,789 --> 00:00:47,209
+And why scientists still argue about what it is for.
+
+14
+00:00:49,309 --> 00:00:52,912
+Start with the simple idea, because it is not wrong.
+
+15
+00:00:53,412 --> 00:00:57,985
+The outer layer of your skin is a sheet of dead, flattened cells.
+
+16
+00:00:57,985 --> 00:01:01,643
+They are packed with proteins that hold on to water.
+
+17
+00:01:02,143 --> 00:01:05,564
+In a bath, that layer takes in water and swells a little.
+
+18
+00:01:07,064 --> 00:01:11,475
+Wet a sheet of paper on one side and you see the same thing.
+
+19
+00:01:11,475 --> 00:01:16,107
+The wet side grows, the dry side does not, and the sheet curls.
+
+20
+00:01:16,607 --> 00:01:20,112
+Picture a carpet that is slightly too big for its room.
+
+21
+00:01:20,112 --> 00:01:22,342
+It can't spread out, so it buckles.
+
+22
+00:01:22,842 --> 00:01:27,778
+A soaked outer layer, glued to the tissue beneath it, gets pushed the same way.
+
+23
+00:01:28,278 --> 00:01:34,596
+If swelling were the whole answer, though, a finger would wrinkle whether or not its nerves worked.
+
+24
+00:01:34,596 --> 00:01:35,298
+It doesn't.
+
+25
+00:01:37,398 --> 00:01:39,473
+The big clue came from hospitals.
+
+26
+00:01:39,973 --> 00:01:46,644
+In the 1930s, two doctors, Thomas Lewis and George Pickering, studied patients.
+
+27
+00:01:46,644 --> 00:01:49,684
+Each had a damaged nerve in the arm.
+
+28
+00:01:50,184 --> 00:01:54,271
+In water, the fingers served by that nerve did not wrinkle.
+
+29
+00:01:54,271 --> 00:01:56,834
+The healthy fingers next to them did.
+
+30
+00:01:58,334 --> 00:01:59,139
+Same skin.
+
+31
+00:01:59,139 --> 00:02:00,025
+Same water.
+
+32
+00:02:00,025 --> 00:02:01,797
+Same time in the bath.
+
+33
+00:02:02,297 --> 00:02:04,284
+The only difference was the nerve.
+
+34
+00:02:05,784 --> 00:02:10,219
+Later work narrowed it down to the nerves that run on autopilot.
+
+35
+00:02:10,219 --> 00:02:15,554
+The ones that control sweating and blood flow, without you thinking about it.
+
+36
+00:02:16,054 --> 00:02:19,663
+So wrinkling is not just something water does to skin.
+
+37
+00:02:19,663 --> 00:02:21,734
+It is something your body does.
+
+38
+00:02:23,834 --> 00:02:25,820
+Here is how it seems to work.
+
+39
+00:02:26,320 --> 00:02:29,066
+Your fingertips are covered in sweat pores.
+
+40
+00:02:29,066 --> 00:02:31,812
+Water seeps in through them, into the skin.
+
+41
+00:02:33,312 --> 00:02:40,212
+That water probably upsets the balance of salts around tiny nerve endings, and the nerves respond.
+
+42
+00:02:40,712 --> 00:02:44,815
+They signal the small blood vessels under the fingertip to narrow.
+
+43
+00:02:46,315 --> 00:02:47,819
+Less blood flows in.
+
+44
+00:02:47,819 --> 00:02:51,731
+The soft pad of the fingertip loses a little volume.
+
+45
+00:02:52,231 --> 00:02:53,841
+None of this is instant.
+
+46
+00:02:53,841 --> 00:02:58,203
+In warm water, it takes several minutes before the wrinkles show.
+
+47
+00:02:58,703 --> 00:03:02,955
+Now the skin on top has too much surface for what is underneath.
+
+48
+00:03:02,955 --> 00:03:05,545
+And it is anchored down at many points.
+
+49
+00:03:07,045 --> 00:03:10,037
+So it gets pulled in between those anchors.
+
+50
+00:03:10,037 --> 00:03:11,847
+Ridges rise, valleys sink.
+
+51
+00:03:12,347 --> 00:03:19,018
+Computer models of fingertips found that either effect alone needs a lot to make wrinkles.
+
+52
+00:03:19,018 --> 00:03:23,465
+Swelling on top, shrinking below, together make them easily.
+
+53
+00:03:25,565 --> 00:03:27,421
+But why only hands and feet?
+
+54
+00:03:27,921 --> 00:03:33,076
+The palms and soles have more sweat pores than any other skin on your body.
+
+55
+00:03:33,076 --> 00:03:36,924
+They also have a dense mesh of nerves and blood vessels.
+
+56
+00:03:37,424 --> 00:03:40,065
+That is the hardware this reflex needs.
+
+57
+00:03:40,065 --> 00:03:43,383
+Most other skin does not have it in the same way.
+
+58
+00:03:44,883 --> 00:03:49,176
+Toes have it too, which is why they prune along with your fingers.
+
+59
+00:03:49,676 --> 00:03:52,637
+Doctors have even used the bath as a test.
+
+60
+00:03:52,637 --> 00:03:58,841
+If a finger does not wrinkle, it can be a sign that its nerves are not working properly.
+
+61
+00:03:59,341 --> 00:04:03,782
+And one small study, with just 3 people, found something else.
+
+62
+00:04:03,782 --> 00:04:09,636
+The same finger made the same pattern of wrinkles when it was soaked again a day later.
+
+63
+00:04:09,636 --> 00:04:13,336
+That suggests the blood vessels underneath set the map.
+
+64
+00:04:14,836 --> 00:04:20,268
+And when you get out and dry off, the blood flow returns and the pad fills back up.
+
+65
+00:04:20,268 --> 00:04:23,475
+Within about half an hour, the wrinkles are gone.
+
+66
+00:04:25,275 --> 00:04:27,244
+So why would your body bother?
+
+67
+00:04:27,744 --> 00:04:32,833
+If wrinkling is controlled by nerves, it might be there for a reason.
+
+68
+00:04:32,833 --> 00:04:37,184
+One idea is that wrinkled fingertips work like tyre treads.
+
+69
+00:04:38,684 --> 00:04:42,293
+Think about where our ancestors needed grip most.
+
+70
+00:04:42,293 --> 00:04:47,889
+Wet rocks by a river, slippery branches after rain, wet food in their hands.
+
+71
+00:04:48,389 --> 00:04:54,390
+On a car tyre, the grooves give water somewhere to go, so the rubber can grip the road.
+
+72
+00:04:54,890 --> 00:05:00,756
+Wrinkles might do the same thing, draining water away so your fingers can grip wet things.
+
+73
+00:05:01,256 --> 00:05:05,373
+In 2013, a team at Newcastle University tested it.
+
+74
+00:05:05,373 --> 00:05:09,408
+People moved wet marbles from one box to another.
+
+75
+00:05:09,408 --> 00:05:12,701
+With wrinkled fingers, they were faster.
+
+76
+00:05:14,201 --> 00:05:19,758
+But in 2014, a team in Berlin ran a similar test with 40 people.
+
+77
+00:05:19,758 --> 00:05:22,328
+They found no advantage at all.
+
+78
+00:05:22,828 --> 00:05:25,850
+So the honest answer is: we don't know yet.
+
+79
+00:05:25,850 --> 00:05:27,537
+The how is fairly clear.
+
+80
+00:05:27,537 --> 00:05:29,083
+The why is still open.
+
+81
+00:05:31,183 --> 00:05:34,510
+Whatever the reason, the reflex itself is real.
+
+82
+00:05:34,510 --> 00:05:38,615
+You can watch it switch on in a few minutes in warm water.
+
+83
+00:05:40,715 --> 00:05:43,310
+So, why do your fingers wrinkle in water?
+
+84
+00:05:43,810 --> 00:05:47,659
+Water soaks into the outer layer of your skin, and it swells.
+
+85
+00:05:48,159 --> 00:05:51,144
+But the real trigger is your nervous system.
+
+86
+00:05:51,144 --> 00:05:55,893
+It tightens the blood vessels in your fingertips, and the pad shrinks.
+
+87
+00:05:55,893 --> 00:05:58,539
+The skin above it folds into a pattern.
+
+88
+00:05:59,039 --> 00:06:01,536
+Cut the nerve, and the fingers stay smooth.
+
+89
+00:06:03,036 --> 00:06:05,984
+It is not your skin giving up in the bath.
+
+90
+00:06:05,984 --> 00:06:08,230
+It is your body making a change.
+
+91
+00:06:08,730 --> 00:06:10,610
+Here is a question for you.
+
+92
+00:06:10,610 --> 00:06:16,389
+If wrinkles really help us grip, why do our fingers not stay wrinkled all the time?
+
+93
+00:06:16,389 --> 00:06:19,105
+Tell me what you think in the comments.

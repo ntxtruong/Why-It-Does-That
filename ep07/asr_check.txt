@@ -1,0 +1,9 @@
+0:49.2  soak: script 'the' / heard 'a'
+2:40.6  mechanism: script 'vessels' / heard 'vessel'
+3:27.8  where: script 'pores' / heard 'pours'
+3:44.7  where: script 'toes' / heard 'tolls'
+4:27.6  why: script 'tyre' / heard 'tire'
+4:48.2  why: script 'tyre' / heard 'tire'
+
+6 beat(s) to listen to; 6 of 915 words differ (0.7%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
