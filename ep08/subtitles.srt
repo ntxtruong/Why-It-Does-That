@@ -1,0 +1,395 @@
+1
+00:00:00,600 --> 00:00:03,389
+Why is the middle of your leftovers still cold?
+
+2
+00:00:04,889 --> 00:00:07,976
+You heat a plate of lasagne for 3 minutes.
+
+3
+00:00:07,976 --> 00:00:09,117
+The edges bubble.
+
+4
+00:00:09,117 --> 00:00:12,338
+You take a bite from the middle, and it is cold.
+
+5
+00:00:12,838 --> 00:00:18,760
+That should not happen, if you believe the two things everyone says about microwave ovens.
+
+6
+00:00:19,260 --> 00:00:21,869
+One: they cook food from the inside out.
+
+7
+00:00:23,369 --> 00:00:26,718
+Two: they are tuned to a special frequency of water.
+
+8
+00:00:27,218 --> 00:00:28,353
+Both are wrong.
+
+9
+00:00:28,353 --> 00:00:32,818
+The real reasons explain the cold middle and the hot spots.
+
+10
+00:00:32,818 --> 00:00:35,316
+And why defrosting goes so badly.
+
+11
+00:00:35,816 --> 00:00:41,454
+By the end of this video, you will know what a microwave really does to your food.
+
+12
+00:00:41,454 --> 00:00:43,448
+And why the turntable exists.
+
+13
+00:00:45,548 --> 00:00:47,152
+Start inside the box.
+
+14
+00:00:47,652 --> 00:00:51,145
+A device called a magnetron makes microwaves.
+
+15
+00:00:51,145 --> 00:00:55,027
+They are the same kind of wave as light and radio.
+
+16
+00:00:55,027 --> 00:00:58,365
+Each wave is about 12 centimetres long.
+
+17
+00:00:58,865 --> 00:01:04,001
+A wave like this carries an electric field that points one way, then the other.
+
+18
+00:01:05,501 --> 00:01:12,021
+In a microwave oven, it swings back and forth about 2.5 billion times every second.
+
+19
+00:01:12,521 --> 00:01:14,675
+Now look at a water molecule.
+
+20
+00:01:14,675 --> 00:01:20,690
+One end carries a slight negative charge, the other end a slight positive charge.
+
+21
+00:01:22,190 --> 00:01:25,033
+So the field grabs it and tries to turn it.
+
+22
+00:01:25,033 --> 00:01:29,198
+When the field flips, the molecule tries to turn the other way.
+
+23
+00:01:29,698 --> 00:01:34,256
+But in liquid water, every molecule is held by its neighbours.
+
+24
+00:01:34,256 --> 00:01:36,756
+It almost keeps up, but not quite.
+
+25
+00:01:36,756 --> 00:01:41,976
+It lags a tiny bit behind, bumping and dragging against its neighbours.
+
+26
+00:01:43,476 --> 00:01:45,121
+That jostling is heat.
+
+27
+00:01:45,121 --> 00:01:49,386
+The oven barely heats the air, or a microwave-safe plate.
+
+28
+00:01:49,386 --> 00:01:52,154
+It is shaking the water in your food.
+
+29
+00:01:52,654 --> 00:01:55,284
+Fats and sugars join in a little too.
+
+30
+00:01:55,284 --> 00:01:58,554
+But in most food, water does most of the work.
+
+31
+00:02:00,354 --> 00:02:05,080
+So is 2.45 GHz a special frequency of water?
+
+32
+00:02:05,580 --> 00:02:05,826
+No.
+
+33
+00:02:05,826 --> 00:02:10,754
+Water absorbs microwaves across a wide range of frequencies.
+
+34
+00:02:12,254 --> 00:02:18,742
+Water's molecules lag the field the most near 20 GHz, about eight times higher.
+
+35
+00:02:18,742 --> 00:02:22,241
+And higher frequencies are absorbed even faster.
+
+36
+00:02:22,741 --> 00:02:25,139
+So why not use a higher frequency?
+
+37
+00:02:25,639 --> 00:02:28,338
+Because water would absorb it too well.
+
+38
+00:02:28,338 --> 00:02:33,113
+Almost all the energy would be used up in the outer skin of the food.
+
+39
+00:02:33,113 --> 00:02:36,711
+You would burn the surface and leave the inside raw.
+
+40
+00:02:38,211 --> 00:02:42,973
+A lower frequency gets absorbed more slowly, so it reaches deeper.
+
+41
+00:02:43,473 --> 00:02:47,263
+2.45 GHz is a compromise.
+
+42
+00:02:47,263 --> 00:02:54,759
+It is also a radio band reserved worldwide for industrial, scientific and medical machines.
+
+43
+00:02:54,759 --> 00:02:56,406
+Wi-Fi shares it too.
+
+44
+00:02:56,406 --> 00:02:57,642
+It isn't magic.
+
+45
+00:02:57,642 --> 00:02:58,878
+It is a choice.
+
+46
+00:03:00,978 --> 00:03:03,773
+Even so, the waves don't get very far.
+
+47
+00:03:04,273 --> 00:03:08,932
+As they travel into food, the water keeps taking energy from them.
+
+48
+00:03:08,932 --> 00:03:15,637
+By the time they have gone 1 or 2 centimetres into most foods, most of their power is gone.
+
+49
+00:03:16,137 --> 00:03:18,338
+That is the answer to the cold middle.
+
+50
+00:03:19,838 --> 00:03:22,811
+The microwaves mostly heat the outer layer.
+
+51
+00:03:22,811 --> 00:03:28,965
+Everything deeper has to be heated the slow way, by heat creeping inward from that layer.
+
+52
+00:03:29,465 --> 00:03:31,089
+That creeping takes minutes.
+
+53
+00:03:31,089 --> 00:03:33,756
+Your 3 minutes in the oven weren't enough.
+
+54
+00:03:35,256 --> 00:03:39,491
+That is also why a thin slice of pizza heats through fast.
+
+55
+00:03:39,491 --> 00:03:42,776
+A thick lump of rice stays cold at its heart.
+
+56
+00:03:42,776 --> 00:03:47,302
+The thinner the food, the less distance the heat has to creep.
+
+57
+00:03:47,802 --> 00:03:51,283
+So a microwave doesn't cook from the inside out.
+
+58
+00:03:51,283 --> 00:03:56,648
+It cooks from the outside in, like an oven, just with a thicker hot layer.
+
+59
+00:03:57,148 --> 00:04:02,898
+This is why the instructions tell you to stir, or to let the food stand for a minute.
+
+60
+00:04:02,898 --> 00:04:09,053
+Stirring moves hot food into the cold middle, and standing lets the heat even out a little.
+
+61
+00:04:11,153 --> 00:04:13,139
+But that's not the whole story.
+
+62
+00:04:13,139 --> 00:04:16,085
+The heat isn't even across the surface either.
+
+63
+00:04:16,585 --> 00:04:20,930
+Inside the metal box, the microwaves bounce off the walls.
+
+64
+00:04:20,930 --> 00:04:25,350
+The waves going one way overlap with the waves coming back.
+
+65
+00:04:25,850 --> 00:04:27,561
+Where they line up, they add.
+
+66
+00:04:27,561 --> 00:04:29,744
+Where they are opposite, they cancel.
+
+67
+00:04:31,244 --> 00:04:34,529
+The result is a pattern that stays in place.
+
+68
+00:04:34,529 --> 00:04:38,784
+Strong spots and dead spots, about 6 centimetres apart.
+
+69
+00:04:38,784 --> 00:04:40,128
+Half a wavelength.
+
+70
+00:04:40,628 --> 00:04:42,301
+You can see it yourself.
+
+71
+00:04:42,301 --> 00:04:46,764
+Take the turntable out and briefly heat a plate of marshmallows.
+
+72
+00:04:46,764 --> 00:04:49,345
+Look for the spots that melted first.
+
+73
+00:04:49,845 --> 00:04:52,107
+Measure how far apart they are.
+
+74
+00:04:52,107 --> 00:04:57,798
+Multiply by two, then by the oven's frequency, and you get the speed of light.
+
+75
+00:04:59,298 --> 00:05:05,184
+Edges and corners of food also catch extra energy, which is why they bubble first.
+
+76
+00:05:05,184 --> 00:05:08,271
+And now you know what the turntable is for.
+
+77
+00:05:08,271 --> 00:05:14,875
+It drags every part of your food through the hot spots and the dead spots, so they even out.
+
+78
+00:05:15,375 --> 00:05:18,950
+It helps, but the very centre of the plate barely moves.
+
+79
+00:05:18,950 --> 00:05:21,312
+That is often where the cold bite is.
+
+80
+00:05:23,412 --> 00:05:26,342
+Now the strangest part: frozen food.
+
+81
+00:05:26,842 --> 00:05:29,547
+Ice is almost invisible to microwaves.
+
+82
+00:05:29,547 --> 00:05:34,812
+Its molecules are locked in a crystal, so they can't twist with the field.
+
+83
+00:05:34,812 --> 00:05:38,442
+The waves pass straight through and barely heat it.
+
+84
+00:05:39,942 --> 00:05:45,204
+But the moment one corner melts, that liquid water starts absorbing strongly.
+
+85
+00:05:45,704 --> 00:05:50,356
+So that corner heats faster, which melts more, which absorbs more.
+
+86
+00:05:50,356 --> 00:05:51,272
+It runs away.
+
+87
+00:05:52,772 --> 00:05:58,910
+That is how you end up with a frozen block that is cooked at one edge and solid ice in the middle.
+
+88
+00:05:59,410 --> 00:06:05,582
+The defrost setting fights this by lowering the power, usually by switching it on and off.
+
+89
+00:06:05,582 --> 00:06:09,491
+That gives the heat time to spread into the frozen parts.
+
+90
+00:06:11,591 --> 00:06:14,777
+So why is the middle of your leftovers still cold?
+
+91
+00:06:15,277 --> 00:06:22,067
+The microwaves shake water molecules, but mostly in the outer 1 or 2 centimetres of your food.
+
+92
+00:06:22,567 --> 00:06:26,008
+The middle has to wait for that heat to creep in.
+
+93
+00:06:26,008 --> 00:06:31,415
+The box is full of hot and dead spots, and the turntable can only do so much.
+
+94
+00:06:32,915 --> 00:06:34,116
+Not inside out.
+
+95
+00:06:34,116 --> 00:06:36,357
+Not a magic water frequency.
+
+96
+00:06:36,357 --> 00:06:39,639
+Just waves, water, and a bit of patience.
+
+97
+00:06:40,139 --> 00:06:41,878
+Here is a question for you.
+
+98
+00:06:41,878 --> 00:06:48,450
+Why do you think leftovers heat more evenly when you spread them in a ring, with a hole in the middle?
+
+99
+00:06:48,450 --> 00:06:49,996
+Tell me in the comments.

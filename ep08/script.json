@@ -18,8 +18,8 @@
         "That should not happen, if you believe the two things everyone says about microwave ovens.",
         "One: they cook food from the inside out.",
         "Two: they are tuned to a special frequency of water.",
-        "Both are wrong. And the real reasons explain the cold middle, the hot spots, and why defrosting goes so badly.",
-        "By the end of this video, you will know what a microwave actually does to your food, and why the turntable exists."
+        "Both are wrong. The real reasons explain the cold middle and the hot spots. And why defrosting goes so badly.",
+        "By the end of this video, you will know what a microwave really does to your food. And why the turntable exists."
       ]
     },
     {
@@ -31,7 +31,7 @@
       ],
       "beats": [
         "Start inside the box.",
-        "A device called a magnetron makes microwaves. They are the same kind of wave as light and radio, with a wavelength of about twelve centimetres.",
+        "A device called a magnetron makes microwaves. They are the same kind of wave as light and radio. Each wave is about twelve centimetres long.",
         "A wave like this carries an electric field that points one way, then the other.",
         "In a microwave oven, it swings back and forth about two and a half billion times every second.",
         "Now look at a water molecule. One end carries a slight negative charge, the other end a slight positive charge.",
@@ -55,7 +55,7 @@
         "So why not use a higher frequency?",
         "Because water would absorb it too well. Almost all the energy would be used up in the outer skin of the food. You would burn the surface and leave the inside raw.",
         "A lower frequency gets absorbed more slowly, so it reaches deeper.",
-        "Two point four five gigahertz is a compromise, and a radio band reserved worldwide for industrial, scientific and medical machines. Wi-Fi shares it too. It isn't magic. It is a choice."
+        "Two point four five gigahertz is a compromise. It is also a radio band reserved worldwide for industrial, scientific and medical machines. Wi-Fi shares it too. It isn't magic. It is a choice."
       ]
     },
     {
@@ -71,7 +71,7 @@
         "That is the answer to the cold middle.",
         "The microwaves mostly heat the outer layer. Everything deeper has to be heated the slow way, by heat creeping inward from that layer.",
         "That creeping takes minutes. Your three minutes in the oven weren't enough.",
-        "That is also why a thin slice of pizza heats through fast, while a thick lump of rice stays cold at its heart. The thinner the food, the less distance the heat has to creep.",
+        "That is also why a thin slice of pizza heats through fast. A thick lump of rice stays cold at its heart. The thinner the food, the less distance the heat has to creep.",
         "So a microwave doesn't cook from the inside out. It cooks from the outside in, like an oven, just with a thicker hot layer.",
         "This is why the instructions tell you to stir, or to let the food stand for a minute. Stirring moves hot food into the cold middle, and standing lets the heat even out a little."
       ]
@@ -87,9 +87,9 @@
         "But that's not the whole story. The heat isn't even across the surface either.",
         "Inside the metal box, the microwaves bounce off the walls. The waves going one way overlap with the waves coming back.",
         "Where they line up, they add. Where they are opposite, they cancel.",
-        "The result is a pattern that stays in place, with strong spots and dead spots, about six centimetres apart. Half a wavelength.",
-        "You can see it yourself. Take the turntable out, heat a plate of marshmallows or chocolate briefly, and look for the spots that melted first.",
-        "Measure how far apart they are, multiply by two, and by the oven's frequency, and you get the speed of light.",
+        "The result is a pattern that stays in place. Strong spots and dead spots, about six centimetres apart. Half a wavelength.",
+        "You can see it yourself. Take the turntable out and briefly heat a plate of marshmallows. Look for the spots that melted first.",
+        "Measure how far apart they are. Multiply by two, then by the oven's frequency, and you get the speed of light.",
         "Edges and corners of food also catch extra energy, which is why they bubble first. And now you know what the turntable is for. It drags every part of your food through the hot spots and the dead spots, so they even out.",
         "It helps, but the very centre of the plate barely moves. That is often where the cold bite is."
       ]
@@ -107,16 +107,7 @@
         "But the moment one corner melts, that liquid water starts absorbing strongly.",
         "So that corner heats faster, which melts more, which absorbs more. It runs away.",
         "That is how you end up with a frozen block that is cooked at one edge and solid ice in the middle.",
-        "The defrost setting fights this by lowering the power, usually by switching it on and off, giving the heat time to spread into the frozen parts."
-      ]
-    },
-    {
-      "id": "angle",
-      "long": [
-        0
-      ],
-      "beats": [
-        "[TRUONG_ANGLE: optional, Trường's own example or angle, 15-20 s. Leave empty to cut.]"
+        "The defrost setting fights this by lowering the power, usually by switching it on and off. That gives the heat time to spread into the frozen parts."
       ]
     },
     {

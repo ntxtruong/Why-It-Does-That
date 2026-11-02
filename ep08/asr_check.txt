@@ -1,0 +1,12 @@
+0:04.7  hook: script 'lasagne' / heard 'lasagna'; script 'edges' / heard 'edge is'
+0:47.5  wave: script 'centimetres' / heard 'centimeters'
+1:29.5  wave: script 'neighbours' / heard 'neighbors'; script 'neighbours' / heard 'neighbors'
+2:12.1  resonance: script 'water's' / heard 'waters'
+2:43.3  resonance: script 'gigahertz' / heard 'ghz'
+3:04.1  depth: script 'centimetres' / heard 'centimeters'
+4:16.4  hotspots: script 'microwaves' / heard 'microwave's'
+4:31.1  hotspots: script 'centimetres' / heard 'centimeters'
+6:15.1  payoff: script 'centimetres' / heard 'centimeters'
+
+9 beat(s) to listen to; 12 of 971 words differ (1.2%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

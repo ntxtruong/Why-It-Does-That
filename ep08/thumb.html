@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.5);
+  slab(1000, 260, 22, 14, 0.75, 1, { edge: 1, px: 40, cell: 12 });
+  rrect(1000 + 11 * 40 - 120, 258, 240, 240, 60, BGc, 1);
+  const Wd = { 1: ["NOT", "INSIDE"], 2: ["COLD", "MIDDLE?"], 3: ["ONLY", "SKIN-DEEP"] }[v];
+  word(Wd[0], 500, 380, v === 3 ? 140 : 190, "#F2F5FB"); word(Wd[1], 500, 590, 190, v === 2 ? "#8CC6FF" : v === 3 ? "#FFD45E" : "#FF8A7A");
+  mascot3(150, 1060, 0.3, 0, { look: [0.8, -0.3], mouth: "wince" });
+};
+</script></body></html>
