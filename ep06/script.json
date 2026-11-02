@@ -1,0 +1,45 @@
+{
+  "title": "Why Do Water Drops Dance on a Hot Pan?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a 1.5 s pause; Short: keep pauses to 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why do water drops dance on a really hot pan?",
+        "On a hot pan, a drop of water hisses and is gone in a moment.",
+        "On a hotter pan, it skates around for over a minute.",
+        "Hotter, yet it lasts longer. How?"
+      ]
+    },
+    {
+      "id": "cushion",
+      "long": [2],
+      "beats": [
+        "Above roughly two hundred degrees Celsius, depending on the pan, the bottom of the drop boils the instant it lands.",
+        "That steam is trapped underneath: a cushion about as thin as a hair.",
+        "The drop floats. It never touches the metal."
+      ]
+    },
+    {
+      "id": "why",
+      "long": [1],
+      "beats": [
+        "Steam carries heat poorly, so the cushion shields the drop from the pan.",
+        "With nothing to rub against, it glides."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "This is the Leidenfrost effect, named after a doctor who wrote about it in 1756.",
+        "Cool the pan, the cushion collapses, and the drop boils away.",
+        "So what else could float on its own steam?"
+      ]
+    }
+  ]
+}
