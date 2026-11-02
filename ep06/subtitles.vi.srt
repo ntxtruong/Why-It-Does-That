@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:03,275
+Vì sao giọt nước nhảy múa trên chảo rất nóng?
+
+2
+00:00:03,575 --> 00:00:08,013
+Trên chảo nóng, giọt nước xèo xèo rồi biến mất ngay.
+
+3
+00:00:08,313 --> 00:00:11,691
+Trên chảo còn nóng hơn, nó trượt lượn hơn một phút.
+
+4
+00:00:11,991 --> 00:00:14,002
+Nóng hơn mà lại tồn tại lâu hơn.
+
+5
+00:00:14,002 --> 00:00:14,290
+Tại sao?
+
+6
+00:00:14,790 --> 00:00:21,008
+Vượt khoảng 200 °C, mặt dưới giọt nước sôi ngay khi chạm chảo.
+
+7
+00:00:21,308 --> 00:00:25,689
+Hơi nước bị giữ lại bên dưới: một lớp đệm mỏng cỡ sợi tóc.
+
+8
+00:00:25,989 --> 00:00:27,103
+Giọt nước lơ lửng.
+
+9
+00:00:27,103 --> 00:00:28,983
+Nó không hề chạm vào kim loại.
+
+10
+00:00:29,733 --> 00:00:34,466
+Hơi nước dẫn nhiệt kém, nên lớp đệm che chắn giọt nước khỏi chảo.
+
+11
+00:00:34,766 --> 00:00:37,152
+Không có gì để ma sát, nó trượt đi.
+
+12
+00:00:37,902 --> 00:00:45,499
+Đây là hiệu ứng Leidenfrost, đặt theo một bác sĩ đã viết về nó năm 1756.
+
+13
+00:00:45,799 --> 00:00:50,054
+Chảo nguội đi, lớp đệm sụp xuống, và giọt nước sôi cạn.
+
+14
+00:00:50,354 --> 00:00:52,660
+Vậy còn gì khác có thể lơ lửng trên hơi nước của chính nó?

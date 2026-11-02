@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.5);
+  cam(2.6, CX, PY, 1350, 800); pan(250); heatArrows(CX, 120, 10, 1, 0.8);
+  const P = drop(CX, 100, 10, 0, 1, {}); cushion(P, CX, 10, 0.4, 1, 1.4); uncam();
+  const Wd = { 1: ["IT'S", "FLOATING"], 2: ["HOTTER =", "LONGER?"], 3: ["NO", "CONTACT"] }[v];
+  word(Wd[0], 520, 300, 170, "#F2F5FB"); word(Wd[1], 520, 480, 170, v === 2 ? "#FFD45E" : "#8CC6FF");
+  mascot3(1800, 1060, 0.3, 0, { look: [-0.8, -0.3], mouth: "o" });
+};
+</script></body></html>

@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:03,275
+Why do water drops dance on a really hot pan?
+
+2
+00:00:03,575 --> 00:00:08,013
+On a hot pan, a drop of water hisses and is gone in a moment.
+
+3
+00:00:08,313 --> 00:00:11,691
+On a hotter pan, it skates around for over a minute.
+
+4
+00:00:11,991 --> 00:00:14,002
+Hotter, yet it lasts longer.
+
+5
+00:00:14,002 --> 00:00:14,290
+How?
+
+6
+00:00:14,790 --> 00:00:21,008
+Past about 200 °C, the drop's underside boils the instant it lands.
+
+7
+00:00:21,308 --> 00:00:25,689
+That steam is trapped underneath: a cushion about as thin as a hair.
+
+8
+00:00:25,989 --> 00:00:27,103
+The drop floats.
+
+9
+00:00:27,103 --> 00:00:28,983
+It never touches the metal.
+
+10
+00:00:29,733 --> 00:00:34,466
+Steam carries heat poorly, so the cushion shields the drop from the pan.
+
+11
+00:00:34,766 --> 00:00:37,152
+With nothing to rub against, it glides.
+
+12
+00:00:37,902 --> 00:00:45,499
+This is the Leidenfrost effect, named after a doctor who wrote about it in 1756.
+
+13
+00:00:45,799 --> 00:00:50,054
+Cool the pan, the cushion collapses, and the drop boils away.
+
+14
+00:00:50,354 --> 00:00:52,660
+So what else could float on its own steam?

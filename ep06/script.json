@@ -17,16 +17,20 @@
     },
     {
       "id": "cushion",
-      "long": [2],
+      "long": [
+        2
+      ],
       "beats": [
-        "Above roughly two hundred degrees Celsius, depending on the pan, the bottom of the drop boils the instant it lands.",
+        "Past about two hundred degrees Celsius, the drop's underside boils the instant it lands.",
         "That steam is trapped underneath: a cushion about as thin as a hair.",
         "The drop floats. It never touches the metal."
       ]
     },
     {
       "id": "why",
-      "long": [1],
+      "long": [
+        1
+      ],
       "beats": [
         "Steam carries heat poorly, so the cushion shields the drop from the pan.",
         "With nothing to rub against, it glides."

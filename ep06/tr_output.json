@@ -1,0 +1,144 @@
+{
+ "vi": {
+  "title": "Vì sao giọt nước nhảy múa trên chảo nóng? #Shorts",
+  "description": "Chảo càng nóng thì giọt nước lại tồn tại càng lâu. Khi vượt khoảng 200 °C (tùy loại chảo), mặt dưới của giọt nước sôi ngay lập tức và giọt nước lơ lửng trên chính lớp hơi nước của nó: hiệu ứng Leidenfrost.\n\nNguồn\n- Quéré (2013), Leidenfrost dynamics, Annual Review of Fluid Mechanics 45, 197–215\n- Biance, Clanet & Quéré (2003), Leidenfrost drops, Physics of Fluids 15, 1632\n- Bernardin & Mudawar (1999), The Leidenfrost point: experimental study and assessment of existing models, Journal of Heat Transfer 121, 894–903\n- Burton et al. (2012), Geometry of the vapor layer under a Leidenfrost drop, Physical Review Letters 109, 074301\n- Harvey, Mendez Harper & Burton (2021), Physical Review Letters (minimum Leidenfrost temperature)\n\nCòn gì khác có thể lơ lửng trên chính hơi nước của nó? Hãy cho mình biết ở phần bình luận nhé.\n\nKịch bản, giọng đọc và hoạt họa đều do AI tạo ra (Claude; giọng Kokoro). Mọi con số đều được đối chiếu với các nguồn ở trên.\n#Shorts #physics #science",
+  "subtitles": [
+   "Vì sao giọt nước nhảy múa trên chảo rất nóng?",
+   "Trên chảo nóng, giọt nước xèo xèo rồi biến mất ngay.",
+   "Trên chảo còn nóng hơn, nó trượt lượn hơn một phút.",
+   "Nóng hơn mà lại tồn tại lâu hơn.",
+   "Tại sao?",
+   "Vượt khoảng 200 °C, mặt dưới giọt nước sôi ngay khi chạm chảo.",
+   "Hơi nước bị giữ lại bên dưới: một lớp đệm mỏng cỡ sợi tóc.",
+   "Giọt nước lơ lửng.",
+   "Nó không hề chạm vào kim loại.",
+   "Hơi nước dẫn nhiệt kém, nên lớp đệm che chắn giọt nước khỏi chảo.",
+   "Không có gì để ma sát, nó trượt đi.",
+   "Đây là hiệu ứng Leidenfrost, đặt theo một bác sĩ đã viết về nó năm 1756.",
+   "Chảo nguội đi, lớp đệm sụp xuống, và giọt nước sôi cạn.",
+   "Vậy còn gì khác có thể lơ lửng trên hơi nước của chính nó?"
+  ]
+ },
+ "th": {
+  "title": "ทำไมหยดน้ำถึงเต้นระบำบนกระทะร้อน? #Shorts",
+  "description": "กระทะยิ่งร้อน หยดน้ำยิ่งอยู่ได้นานขึ้น เมื่อเกินประมาณ 200 °C (ขึ้นอยู่กับกระทะ) ด้านล่างของหยดน้ำจะเดือดทันที และหยดน้ำจะลอยอยู่บนไอน้ำของตัวเอง นี่คือปรากฏการณ์ไลเดนฟรอสต์ (Leidenfrost effect)\n\nแหล่งที่มา\n- Quéré (2013), Leidenfrost dynamics, Annual Review of Fluid Mechanics 45, 197–215\n- Biance, Clanet & Quéré (2003), Leidenfrost drops, Physics of Fluids 15, 1632\n- Bernardin & Mudawar (1999), The Leidenfrost point: experimental study and assessment of existing models, Journal of Heat Transfer 121, 894–903\n- Burton et al. (2012), Geometry of the vapor layer under a Leidenfrost drop, Physical Review Letters 109, 074301\n- Harvey, Mendez Harper & Burton (2021), Physical Review Letters (minimum Leidenfrost temperature)\n\nมีอะไรอีกบ้างที่ลอยบนไอน้ำของตัวเองได้ บอกเราในคอมเมนต์นะ\n\nบทพูด เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ตัวเลขทุกตัวตรวจสอบกับแหล่งที่มาข้างต้นแล้ว\n#Shorts #physics #science",
+  "subtitles": [
+   "ทำไมหยดน้ำถึงเต้นระบำบนกระทะที่ร้อนจัด?",
+   "บนกระทะร้อน หยดน้ำส่งเสียงฉ่าแล้วหายไปในพริบตา",
+   "บนกระทะที่ร้อนกว่า มันไถลไปมานานกว่าหนึ่งนาที",
+   "ร้อนกว่า แต่อยู่ได้นานกว่า",
+   "ทำไมน่ะหรือ?",
+   "เมื่อเกินประมาณ 200 °C ด้านล่างของหยดน้ำเดือดทันทีที่แตะ",
+   "ไอน้ำถูกกักไว้ข้างใต้ เป็นเบาะบางเท่าเส้นผม",
+   "หยดน้ำลอยขึ้น",
+   "มันไม่แตะโลหะเลย",
+   "ไอน้ำนำความร้อนได้ไม่ดี เบาะนี้จึงกันหยดน้ำจากกระทะ",
+   "ไม่มีอะไรให้เสียดทาน มันจึงลื่นไถล",
+   "นี่คือปรากฏการณ์ไลเดนฟรอสต์ ตั้งชื่อตามแพทย์ที่เขียนถึงมันในปี 1756",
+   "กระทะเย็นลง เบาะยุบ และหยดน้ำก็เดือดจนหมด",
+   "แล้วมีอะไรอีกที่ลอยบนไอน้ำของตัวเองได้?"
+  ]
+ },
+ "ja": {
+  "title": "熱いフライパンで水滴が踊るのはなぜ？ #Shorts",
+  "description": "フライパンが熱いほど、水滴は長持ちします。約200 °C（フライパンによって異なります）を超えると、水滴の底面が一瞬で沸騰し、水滴は自分の蒸気の上に浮かびます。これがライデンフロスト効果です。\n\n参考文献\n- Quéré (2013), Leidenfrost dynamics, Annual Review of Fluid Mechanics 45, 197–215\n- Biance, Clanet & Quéré (2003), Leidenfrost drops, Physics of Fluids 15, 1632\n- Bernardin & Mudawar (1999), The Leidenfrost point: experimental study and assessment of existing models, Journal of Heat Transfer 121, 894–903\n- Burton et al. (2012), Geometry of the vapor layer under a Leidenfrost drop, Physical Review Letters 109, 074301\n- Harvey, Mendez Harper & Burton (2021), Physical Review Letters (minimum Leidenfrost temperature)\n\nほかに、自分の蒸気で浮かぶものは何でしょう？ コメントで教えてください。\n\n台本、音声、アニメーションはAI（Claude、Kokoroの音声）が制作しました。数字はすべて上記の出典で確認しています。\n#Shorts #physics #science",
+  "subtitles": [
+   "熱いフライパンの上で水滴が踊るのはなぜ？",
+   "熱いフライパンでは、水滴はジュッと音を立てて一瞬で消えます。",
+   "もっと熱いと、1分以上も滑り回ります。",
+   "熱いのに、長持ちする。",
+   "なぜ？",
+   "約200 °Cを超えると、水滴の底は触れた瞬間に沸騰します。",
+   "その蒸気が下に閉じ込められ、髪の毛ほどの薄いクッションになります。",
+   "水滴は浮きます。",
+   "金属には触れません。",
+   "蒸気は熱を伝えにくいので、クッションが水滴を守ります。",
+   "摩擦がないので、すべるように動きます。",
+   "これがライデンフロスト効果。1756年にこれを記した医師の名前です。",
+   "フライパンが冷めるとクッションが崩れ、水滴は蒸発します。",
+   "では、ほかに自分の蒸気で浮くものは？"
+  ]
+ },
+ "ko": {
+  "title": "뜨거운 팬 위에서 물방울이 춤추는 이유는? #Shorts",
+  "description": "팬이 더 뜨거울수록 물방울은 더 오래 살아남습니다. 약 200 °C(팬에 따라 다름)를 넘으면 물방울의 아랫면이 순식간에 끓어 자기 수증기 위에 떠오릅니다. 바로 라이덴프로스트 효과입니다.\n\n출처\n- Quéré (2013), Leidenfrost dynamics, Annual Review of Fluid Mechanics 45, 197–215\n- Biance, Clanet & Quéré (2003), Leidenfrost drops, Physics of Fluids 15, 1632\n- Bernardin & Mudawar (1999), The Leidenfrost point: experimental study and assessment of existing models, Journal of Heat Transfer 121, 894–903\n- Burton et al. (2012), Geometry of the vapor layer under a Leidenfrost drop, Physical Review Letters 109, 074301\n- Harvey, Mendez Harper & Burton (2021), Physical Review Letters (minimum Leidenfrost temperature)\n\n자기 수증기 위에 뜰 수 있는 건 또 뭐가 있을까요? 댓글로 알려 주세요.\n\n대본, 목소리, 애니메이션은 AI(Claude, Kokoro 음성)가 만들었습니다. 모든 수치는 위의 출처로 확인했습니다.\n#Shorts #physics #science",
+  "subtitles": [
+   "아주 뜨거운 팬 위에서 물방울이 춤추는 이유는?",
+   "뜨거운 팬에서는 물방울이 치익 소리를 내며 금방 사라집니다.",
+   "더 뜨거운 팬에서는 1분 넘게 미끄러져 다닙니다.",
+   "더 뜨거운데 더 오래 갑니다.",
+   "어떻게?",
+   "약 200 °C를 넘으면 물방울 아랫면이 닿자마자 끓습니다.",
+   "그 수증기가 아래에 갇혀 머리카락만큼 얇은 쿠션이 됩니다.",
+   "물방울이 뜹니다.",
+   "금속에 닿지 않습니다.",
+   "수증기는 열을 잘 전하지 못해 쿠션이 물방울을 팬으로부터 지켜 줍니다.",
+   "마찰이 없으니 미끄러집니다.",
+   "이것이 라이덴프로스트 효과입니다. 1756년에 이를 쓴 의사의 이름이죠.",
+   "팬이 식으면 쿠션이 무너지고 물방울은 끓어 사라집니다.",
+   "그럼 자기 수증기 위에 뜰 수 있는 건 또 뭘까요?"
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼水滴會在熱鍋上跳舞？ #Shorts",
+  "description": "鍋子越熱，水滴反而撐得越久。超過約 200 °C（依鍋子而異）後，水滴底部會瞬間沸騰，讓水滴浮在自己產生的水蒸氣上，這就是萊頓弗羅斯特效應。\n\n資料來源\n- Quéré (2013), Leidenfrost dynamics, Annual Review of Fluid Mechanics 45, 197–215\n- Biance, Clanet & Quéré (2003), Leidenfrost drops, Physics of Fluids 15, 1632\n- Bernardin & Mudawar (1999), The Leidenfrost point: experimental study and assessment of existing models, Journal of Heat Transfer 121, 894–903\n- Burton et al. (2012), Geometry of the vapor layer under a Leidenfrost drop, Physical Review Letters 109, 074301\n- Harvey, Mendez Harper & Burton (2021), Physical Review Letters (minimum Leidenfrost temperature)\n\n還有什麼東西能浮在自己的水蒸氣上？歡迎在留言告訴我。\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有數字都已對照上述資料來源查證。\n#Shorts #physics #science",
+  "subtitles": [
+   "為什麼水滴會在很熱的鍋上跳舞？",
+   "在熱鍋上，水滴嘶的一聲就消失了。",
+   "在更熱的鍋上，它卻能滑行超過一分鐘。",
+   "更熱，卻撐得更久。",
+   "怎麼會？",
+   "超過約 200 °C，水滴底部一落下就沸騰。",
+   "蒸氣被困在下方，形成一層薄如髮絲的氣墊。",
+   "水滴浮了起來。",
+   "它完全沒碰到金屬。",
+   "蒸氣導熱很差，所以氣墊把水滴與鍋子隔開。",
+   "沒有摩擦，它便滑行起來。",
+   "這就是萊頓弗羅斯特效應，以一位在1756年寫下它的醫生命名。",
+   "鍋子冷卻後，氣墊崩潰，水滴就蒸發殆盡。",
+   "那還有什麼能浮在自己的水蒸氣上呢？"
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "Leidenfrost effect",
+   "vi": "hiệu ứng Leidenfrost",
+   "th": "ปรากฏการณ์ไลเดนฟรอสต์",
+   "ja": "ライデンフロスト効果",
+   "ko": "라이덴프로스트 효과",
+   "zh-Hant": "萊頓弗羅斯特效應"
+  },
+  {
+   "en": "steam cushion (vapour layer)",
+   "vi": "lớp đệm hơi nước",
+   "th": "เบาะไอน้ำ",
+   "ja": "蒸気のクッション（蒸気層）",
+   "ko": "수증기 쿠션(증기층)",
+   "zh-Hant": "蒸氣氣墊（蒸氣層）"
+  },
+  {
+   "en": "boil",
+   "vi": "sôi",
+   "th": "เดือด",
+   "ja": "沸騰",
+   "ko": "끓다(비등)",
+   "zh-Hant": "沸騰"
+  },
+  {
+   "en": "steam",
+   "vi": "hơi nước",
+   "th": "ไอน้ำ",
+   "ja": "蒸気",
+   "ko": "수증기",
+   "zh-Hant": "水蒸氣"
+  },
+  {
+   "en": "friction",
+   "vi": "ma sát",
+   "th": "แรงเสียดทาน",
+   "ja": "摩擦",
+   "ko": "마찰",
+   "zh-Hant": "摩擦"
+  }
+ ]
+}

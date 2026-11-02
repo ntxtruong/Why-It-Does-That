@@ -1,0 +1,6 @@
+0:11.8  hook: script 'hotter' / heard 'harder'
+0:14.6  cushion: script 'drop's' / heard 'drops'
+0:37.8  end: script 'leidenfrost' / heard 'laden frost'
+
+3 beat(s) to listen to; 4 of 137 words differ (2.9%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
