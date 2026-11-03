@@ -11,17 +11,18 @@ YouTube channel of animated explainers about everyday phenomena, owned by Trư�
 - Goal for this stage (Trường, 2026-10-03): build the channel and learn how this kind of content is made. Monetisation is not a goal for now; do not pick topics for search volume or watch hours, and do not bring up monetisation thresholds unless he asks. He works in IT and wants AI used as far as it will go at every step. Where a step still needs him (hearing audio, signing in, the final check), say so plainly and note whether it could be automated later.
 - Positioning widened (Trường, 2026-10-30): many everyday topics, not only physics. Channel name "Why It Does That – Everyday Science, Explained"; five topic pillars, each a playlist: Your Body, Explained · Your Brain Is Tricking You · How Everyday Tech Works · Everyday Physics · Nature's Weird Rules (plus Shorts). Pick ideas across all five; the constant is one everyday "why" per video, answered with a visible simulation. The channel's character from episode 6 on is the chibi drawn after Trường (`chibi3()` in `brand/channel.html`: brown tousled hair, black glasses, white earbud, black blazer over a light-blue shirt), replacing the beanie mascot. Channel art v2 and texts in `brand/channel-setup.md` (rendered by `brand/channel.html` / `channel.js`).
 - One theme, two formats: long videos (5–8 min, one "why" question, one mechanism) and Shorts ("one surprising fact" plus a 30–45 s simulation). No listicles, no life-story content on this channel.
+- Shorts-first (Trường, 2026-11-03): the first Short got 958 views in ~21 h while seven long videos got 55 in a month (long videos get almost no impressions on a new channel). Target 4–5 Shorts + 1 long video a week; every Short links to the long episode on its topic through "Video có liên quan". Weeks of 4/11 and 11/11: cut Shorts from the simulations of eps 3, 4, 5, 8, then 1, 2, 7, plus one new Short, no new long video. From 18/11: Wednesday = 1 long video (4–5 min, payoff image in the first second) + 2 Shorts cut from it; Friday = 2–3 standalone Shorts. Review on 1/12. Analysis and plan: https://claude.ai/artifact/HUnrMBuZvJrQmddX85QfL5
 - Visuals are code-drawn simulations of the real physics (HTML canvas), dark navy style, with the chibi mascot (`brand/brandkit.js`) in scenes, banner and thumbnails.
 - Voice: Kokoro (`kokoro-onnx`, Apache 2.0), voice `am_michael`, speed 0.9. Trường approved this voice and pace on episode 1.
-- Music: chosen by Trường by ear from the YouTube Audio Library and added in the YouTube Studio editor after upload, at mix level 15. Claude cannot hear, so Claude never picks or judges music alone.
+- Music: since 2026-11-03 Claude chooses the music itself (standing permission from Trường), by mood, to make each video more attractive to viewers, and may Save in the Studio editor; mix level 15. Prefer Vietnamese music when the YouTube Audio Library has a fitting free-to-use track; never a commercial song (Content ID claim). Claude cannot hear, so it always says the tracks were picked by mood, length and licence without listening, and Trường may ask for a change.
 - Uploads are Unlisted; Trường does the final check on YouTube and switches to Public himself. Claude never makes a video public.
 - Every description states that script, voice and animation are AI-produced, and lists sources.
 - Quality rules from the episode 1 review (Trường, 2026-10-08; numbers in `ep01/review.md`): no picture frozen for more than 3 s outside the end card; text at least 40 px at 1080p and the subject filling most of the frame; the question on screen within the first 3 s and a thumbnail that shows the phenomenon itself; sentences of about 7 s at most with a 1 to 2 s pause after each key idea, 900 to 1,000 words for a long video; the mascot present and reacting throughout; the narration checked by speech recognition before Trường listens.
 - Render tools (Trường, 2026-10-08): he wants better-looking videos and asked for Hyperframes and Remotion to be installed and used. The physics stays a code-drawn canvas simulation; Hyperframes is the first choice for the layer around it (animated titles and labels, transitions, audio tracks, layout and contrast checks), tried first on episode 2. Remotion is installed as the alternative. FlowKit (generated footage through Google Flow) is set aside for now.
 
-## Weekly routine (Wednesday and Saturday mornings)
+## Weekly routine (Wednesday and Friday mornings)
 
-A scheduled task opens a new session on Wednesday and Saturday morning (Vietnam time). Each session takes one video from idea to "ready for Trường's final check" in four stages. A stage marked **gate** ends with a question to Trường; wait for his answer before going on.
+A scheduled task ("Why It Does That - ý tưởng video mới") opens a new session at 7:47 on Wednesday and Friday morning (Vietnam time; changed from Wednesday/Saturday on 2026-11-03). What each run produces follows the Shorts-first mix in "Decisions already made"; each video goes from idea to "ready for Trường's final check" in four stages. A stage marked **gate** ends with a question to Trường; wait for his answer before going on.
 
 1. **Ideas (gate).** Open by saying it is idea day and offer 1–3 ideas: working title, format (long or Short), the mechanism in one line, why people would click. Choose for how interesting the phenomenon is and how clearly a simulation can show it. Take them from the plan doc's backlog or propose new ones; never repeat the Episodes table below. He picks one, asks for others, or skips the day.
 2. **Script (gate).** Check the mechanism and every number against published sources. Write `epNN/script.json`. Send him the full English narration, a two or three line Vietnamese summary, the planned scenes and the sources. He approves or asks for changes.
@@ -29,7 +30,7 @@ A scheduled task opens a new session on Wednesday and Saturday morning (Vietnam 
 4. **Publish prep (gates inside).**
    - Push the episode folder and `media/` files to this repo.
    - Upload to YouTube as Unlisted and fill in title, description with chapters, tags, thumbnail, subtitles, end screen (see "Uploading to YouTube"). This needs Trường's computer on, with the Claude desktop app open and its built-in browser signed in to YouTube; if it is not reachable, say so and wait.
-   - Music (gate): ask Trường to listen in the Studio editor and heart the tracks he wants (they then appear under "Thư viện của bạn"), and to say which track goes where. Place them, set mix level 15, let him listen. Saving in the editor cannot be undone: he presses "Lưu", or says to save.
+   - Music: choose by mood (Vietnamese music when the library has a fitting free track), place, mix level 15, Save (standing permission, 2026-11-03). Report the tracks and that they were picked without listening.
    - Final report (gate): the link, what was set, anything he should look at, and two or three lines on what was new this time (how the AI pipeline handled a step, what got automated or could not be, how YouTube behaved, something the numbers showed), because he wants to learn from building the channel. He checks and switches to Public.
    - Update the Episodes table here and push.
 
@@ -211,7 +212,7 @@ Change only with Trường's approval. The kit fixes identity, not content: each
 - Typeface: Inter (SIL OFL, commercial use allowed) for on-screen English text. On-screen text stays English; translated subtitles are rendered by YouTube's own fonts, so Inter's lack of Thai/CJK glyphs does not affect them. If translated text is ever burned into a video or thumbnail, use Noto Sans (Thai, JP, KR, TC; OFL).
 - Not pure black or white anywhere.
 - Logo sting ≤ 2 s, thumbnail layout, subtitle style and end-screen layout: keep the episode 2 versions until a v2 variant is approved (end card: mascot left, right two thirds free for YouTube elements).
-- Music: chosen by Trường; Mix level 15 in the YouTube Studio editor.
+- Music: chosen by Claude by mood (standing permission, 2026-11-03); Mix level 15 in the YouTube Studio editor.
 - Localization languages: Vietnamese (vi), Thai (th), Japanese (ja), Korean (ko), Chinese Traditional (zh-Hant). Added on every upload, no gate.
 - `brand/brandkit.js` switched to the v2 colours on 2026-10-28 (episodes 3–5 were built on v2).
 
@@ -268,7 +269,9 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | thermal runaway | chạy mất kiểm soát (nhiệt) | ความร้อนเร่งตัวควบคุมไม่อยู่ | 熱暴走 | 열 폭주 | 熱失控 |
 
 
-## Open items (2026-11-02)
+## Open items (2026-11-03)
+
+- 2026-11-03: Trường approved the Shorts-first mix and the schedule change to Wednesday/Friday; the scheduled task's prompt was updated to v10 the same day. Shorts analytics (viewed vs swiped, average % viewed, subscribers) could not be read: Studio Analytics does not render while the built-in browser pane is hidden. Keep the pane visible in Stage 0.
 
 - Episodes 3, 4 and 5 are Public since 2026-10-29 (switched by Claude on Trường's explicit request that day, "set công khai 3 video").
 - Music for episodes 3–5 was chosen by Claude on 2026-10-29 at Trường's explicit request ("e chọn luôn nhạc nhé, anh ok"), picked by mood filter, length and licence (all "Không cần ghi công") without listening. He may ask for a different track after hearing them.
