@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,945
+Why is the middle still cold?
+
+2
+00:00:02,245 --> 00:00:05,257
+Leftovers, three minutes in the microwave.
+
+3
+00:00:05,257 --> 00:00:06,477
+The edges bubble.
+
+4
+00:00:06,477 --> 00:00:07,840
+The middle is cold.
+
+5
+00:00:08,340 --> 00:00:11,170
+Microwaves don't cook from the inside out.
+
+6
+00:00:11,470 --> 00:00:16,485
+They shake the water in your food, and that water soaks up their energy fast.
+
+7
+00:00:16,985 --> 00:00:21,321
+1–2 cm in, most of their power is already gone.
+
+8
+00:00:21,921 --> 00:00:24,851
+So only a thin outer layer heats up directly.
+
+9
+00:00:25,351 --> 00:00:30,462
+The middle has to wait for that heat to creep inward, and creeping takes many minutes.
+
+10
+00:00:31,062 --> 00:00:34,246
+That's why the packet says stir it, or let it stand.
+
+11
+00:00:34,746 --> 00:00:37,464
+Skip that, and the middle often stays cold.

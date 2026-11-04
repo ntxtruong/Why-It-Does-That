@@ -1,0 +1,4 @@
+0:16.8  depth: script 'centimetres' / heard 'centimeters'
+
+1 beat(s) to listen to; 1 of 97 words differ (1.0%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
