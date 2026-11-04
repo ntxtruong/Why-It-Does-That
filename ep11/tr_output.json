@@ -1,0 +1,144 @@
+{
+ "vi": {
+  "title": "Sao bánh xe quay ngược trên camera? #camera",
+  "description": "Máy quay chụp các ảnh tĩnh, thường là 30 ảnh mỗi giây. Khi giữa hai ảnh mỗi nan hoa di chuyển hơn nửa khoảng cách tới nan kế tiếp, cách ghép ngắn nhất lại là đi lùi, và đó là điều bạn nhìn thấy.\n\nVideo đầy đủ: Tại sao bánh xe quay ngược trên camera? → https://youtu.be/SxjS9sdc_Ek\n\nNguồn\n- Wikipedia, Wagon-wheel effect\n- Wikipedia, Frame rate\n- Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41\n- Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)\n\nBạn từng thấy bánh xe quay ngược ở đâu, trên video hay bằng mắt thường? Kể cho mình nghe ở phần bình luận nhé.\n\nKịch bản, giọng đọc và hoạt họa đều do AI tạo ra (Claude; giọng Kokoro). Mọi con số đều được đối chiếu với các nguồn nêu trên.\n#Shorts #camera #physics",
+  "subtitles": [
+   "Sao bánh xe quay ngược trên camera?",
+   "Chiếc xe tăng tốc.",
+   "Bánh xe quay ngược, chậm dần rồi đứng yên.",
+   "Máy quay không ghi lại chuyển động mượt mà.",
+   "Nó chụp các ảnh tĩnh, thường là 30 ảnh mỗi giây.",
+   "Não bạn nối chúng lại bằng cách chọn bước dịch chuyển ngắn nhất giữa hai ảnh.",
+   "Quay bánh xe chậm thì mỗi nan hoa chỉ nhích một chút.",
+   "Theo chiều tiến.",
+   "Quay nhanh hơn, mỗi nan hoa dừng ngay trước vị trí của nan kế tiếp.",
+   "Cách ghép ngắn nhất lúc này là một bước nhỏ lùi về sau.",
+   "Và đó là điều bạn thấy.",
+   "Nếu nan hoa rơi đúng vào vị trí nan kế tiếp, bánh xe có vẻ như đứng yên.",
+   "Bánh xe quay tiến.",
+   "Còn các bức ảnh nói là lùi."
+  ]
+ },
+ "th": {
+  "title": "ทำไมล้อหมุนย้อนกลับในกล้อง? #camera",
+  "description": "กล้องถ่ายภาพนิ่งต่อเนื่อง มักเป็น 30 ภาพต่อวินาที เมื่อซี่ล้อแต่ละซี่ขยับเกินครึ่งหนึ่งของระยะห่างถึงซี่ถัดไประหว่างสองภาพ การจับคู่ที่สั้นที่สุดจะกลายเป็นการถอยหลัง และนั่นคือสิ่งที่คุณเห็น\n\nวิดีโอฉบับเต็ม: ทำไมล้อหมุนย้อนกลับในกล้อง? → https://youtu.be/SxjS9sdc_Ek\n\nแหล่งข้อมูล\n- Wikipedia, Wagon-wheel effect\n- Wikipedia, Frame rate\n- Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41\n- Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)\n\nคุณเคยเห็นล้อหมุนย้อนกลับที่ไหน ในวิดีโอหรือด้วยตาเปล่า? เล่าให้ฟังในคอมเมนต์ได้เลย\n\nสคริปต์ เสียงพากย์ และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ตัวเลขทุกตัวผ่านการตรวจสอบกับแหล่งข้อมูลข้างต้นแล้ว\n#Shorts #camera #physics",
+  "subtitles": [
+   "ทำไมล้อหมุนย้อนกลับในกล้อง?",
+   "รถเร่งความเร็วขึ้น",
+   "ล้อหมุนย้อนกลับ ช้าลง แล้วนิ่งสนิท",
+   "กล้องไม่ได้บันทึกการเคลื่อนไหวแบบลื่นไหล",
+   "มันถ่ายภาพนิ่ง มักเป็น 30 ภาพต่อวินาที",
+   "สมองของคุณเชื่อมภาพเหล่านั้นโดยเลือกการขยับที่สั้นที่สุดระหว่างภาพ",
+   "หมุนล้อช้าๆ ซี่ล้อแต่ละซี่ก็ขยับนิดเดียว",
+   "ไปข้างหน้า",
+   "เร็วขึ้น ซี่ล้อแต่ละซี่จะหยุดก่อนถึงตำแหน่งของซี่ถัดไปนิดเดียว",
+   "การจับคู่ที่สั้นที่สุดตอนนี้คือก้าวเล็กๆ ถอยหลัง",
+   "คุณจึงเห็นแบบนั้น",
+   "ถ้าซี่ล้อลงตรงตำแหน่งซี่ถัดไปพอดี ล้อจะดูเหมือนหยุดนิ่ง",
+   "ล้อหมุนไปข้างหน้า",
+   "แต่ภาพบอกว่าถอยหลัง"
+  ]
+ },
+ "ja": {
+  "title": "なぜ車輪はカメラで逆回転するの? #camera",
+  "description": "カメラは静止画を、多くは毎秒30枚撮っています。1枚から次の1枚の間に、各スポークが次のスポークまでの間隔の半分より多く動くと、最短の対応づけは「後ろ向き」になり、それがそのまま見えてしまいます。\n\nフル動画: なぜ車輪はカメラで逆回転して見えるのか? → https://youtu.be/SxjS9sdc_Ek\n\n出典\n- Wikipedia, Wagon-wheel effect\n- Wikipedia, Frame rate\n- Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41\n- Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)\n\n車輪が逆回転して見えたのはどこででしたか?動画でも、実際に自分の目でも。コメントで教えてください。\n\n台本、音声、アニメーションはAI(Claude、音声はKokoro)が制作しました。数値はすべて上記の出典で確認しています。\n#Shorts #camera #physics",
+  "subtitles": [
+   "なぜ車輪はカメラで逆回転するの?",
+   "車がスピードを上げます。",
+   "車輪は逆回転し、遅くなり、止まって見えます。",
+   "カメラはなめらかな動きを撮っているのではありません。",
+   "静止画を、多くは毎秒30枚撮っているのです。",
+   "脳は、画像の間の「最も短い動き」を選んでそれらをつなぎます。",
+   "車輪をゆっくり回すと、各スポークは少しだけ動きます。",
+   "前向きに。",
+   "もっと速いと、各スポークは次のスポークがあった位置の少し手前に着きます。",
+   "すると最短の対応は、小さな後ろ向きの一歩になります。",
+   "だから、そう見えるのです。",
+   "ちょうど次のスポークの位置に着くと、車輪は止まって見えます。",
+   "車輪は前に進んでいます。",
+   "でも画像は後ろ向きだと告げています。"
+  ]
+ },
+ "ko": {
+  "title": "카메라에서는 바퀴가 왜 거꾸로 돌까? #camera",
+  "description": "카메라는 정지 사진을 보통 1초에 30장 찍습니다. 사진과 사진 사이에 바퀴살이 다음 바퀴살까지 간격의 절반보다 많이 움직이면, 가장 짧은 대응은 뒤로 가는 것이 되고 우리 눈에는 그렇게 보입니다.\n\n전체 영상: 카메라에서는 바퀴가 왜 거꾸로 돌까? → https://youtu.be/SxjS9sdc_Ek\n\n출처\n- Wikipedia, Wagon-wheel effect\n- Wikipedia, Frame rate\n- Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41\n- Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)\n\n바퀴가 거꾸로 도는 것을 어디서 보셨나요? 영상에서든 직접 눈으로든요. 댓글로 알려주세요.\n\n대본, 음성, 애니메이션은 AI(Claude, 음성은 Kokoro)가 만들었습니다. 모든 수치는 위 출처로 확인했습니다.\n#Shorts #camera #physics",
+  "subtitles": [
+   "카메라에서는 바퀴가 왜 거꾸로 돌까?",
+   "자동차가 속도를 높입니다.",
+   "바퀴가 거꾸로 돌다가, 느려지고, 멈춘 듯 보입니다.",
+   "카메라는 부드러운 움직임을 찍지 않습니다.",
+   "정지 사진을 보통 1초에 30장 찍을 뿐입니다.",
+   "뇌는 사진 사이에서 가장 짧은 움직임을 골라 이어 붙입니다.",
+   "바퀴를 천천히 돌리면 바퀴살은 조금씩만 움직입니다.",
+   "앞으로요.",
+   "더 빨라지면, 각 바퀴살은 다음 바퀴살이 있던 자리 바로 앞에 닿습니다.",
+   "이제 가장 짧은 대응은 뒤로 가는 작은 한 걸음입니다.",
+   "그래서 그렇게 보이는 겁니다.",
+   "정확히 다음 바퀴살 자리에 닿으면 바퀴는 멈춘 것처럼 보입니다.",
+   "바퀴는 앞으로 가고 있습니다.",
+   "하지만 사진들은 뒤로 간다고 말합니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼鏡頭裡的車輪會倒轉? #camera",
+  "description": "相機拍的是靜態畫面,通常每秒30張。當兩張畫面之間,每根輪輻移動超過到下一根輪輻距離的一半時,最短的對應就變成往後,而這就是你看到的樣子。\n\n完整影片: 為什麼鏡頭裡的車輪會倒轉? → https://youtu.be/SxjS9sdc_Ek\n\n資料來源\n- Wikipedia, Wagon-wheel effect\n- Wikipedia, Frame rate\n- Finlay & Dodwell (1987), Speed of apparent motion and the wagon-wheel effect, Perception & Psychophysics 41\n- Purves, Paydarfar & Andrews (1996), The wagon wheel illusion in movies and reality, PNAS 93(8)\n\n你在哪裡看過車輪倒轉?影片裡,或是親眼所見?歡迎在留言告訴我。\n\n腳本、配音與動畫皆由 AI 製作(Claude;Kokoro 語音)。所有數字都已對照上述資料來源查證。\n#Shorts #camera #physics",
+  "subtitles": [
+   "為什麼鏡頭裡的車輪會倒轉?",
+   "車子加速。",
+   "車輪倒轉、變慢,然後像是靜止了。",
+   "相機拍的並不是流暢的動作。",
+   "它拍的是靜態畫面,通常每秒30張。",
+   "你的大腦會挑選畫面之間最短的移動,把它們連起來。",
+   "慢慢轉動車輪,每根輪輻只移動一點點。",
+   "向前。",
+   "再快一些,每根輪輻都停在下一根原本位置的稍前方。",
+   "此時最短的對應,就是向後的一小步。",
+   "所以你就是這樣看到的。",
+   "若剛好落在下一根輪輻的位置,車輪看起來就像停住了。",
+   "車輪明明在向前轉。",
+   "畫面卻告訴你是往後。"
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "conduction",
+   "vi": "dẫn nhiệt",
+   "th": "การนำความร้อน",
+   "ja": "熱伝導",
+   "ko": "열전도",
+   "zh-Hant": "熱傳導"
+  },
+  {
+   "en": "hydrogen bond",
+   "vi": "liên kết hydro",
+   "th": "พันธะไฮโดรเจน",
+   "ja": "水素結合",
+   "ko": "수소 결합",
+   "zh-Hant": "氫鍵"
+  },
+  {
+   "en": "hexagonal (six-sided) ice pattern / ice Ih",
+   "vi": "cấu trúc lục giác (băng Ih)",
+   "th": "โครงสร้างหกเหลี่ยม (น้ำแข็ง Ih)",
+   "ja": "六角形の並び(六方晶氷 Ih)",
+   "ko": "육각형 구조(육방정계 얼음 Ih)",
+   "zh-Hant": "六邊形排列(六方冰 Ih)"
+  },
+  {
+   "en": "moon illusion",
+   "vi": "ảo ảnh Mặt Trăng",
+   "th": "ภาพลวงตาของดวงจันทร์",
+   "ja": "月の錯視",
+   "ko": "달 착시",
+   "zh-Hant": "月亮錯覺"
+  },
+  {
+   "en": "flattened dome (of the sky)",
+   "vi": "vòm dẹt (của bầu trời)",
+   "th": "โดมแบน (ของท้องฟ้า)",
+   "ja": "平たいドーム(空の)",
+   "ko": "납작한 돔(하늘의)",
+   "zh-Hant": "扁平穹頂(天空的)"
+  }
+ ]
+}

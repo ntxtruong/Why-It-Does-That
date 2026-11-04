@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:02,569
+Why do wheels spin backwards on camera?
+
+2
+00:00:02,869 --> 00:00:04,155
+The car speeds up.
+
+3
+00:00:04,155 --> 00:00:07,657
+Its wheels spin backwards, slow down, and freeze.
+
+4
+00:00:08,157 --> 00:00:10,751
+A camera doesn't film smooth motion.
+
+5
+00:00:10,751 --> 00:00:14,138
+It takes still pictures, often 30 a second.
+
+6
+00:00:14,438 --> 00:00:18,330
+Your brain joins them up by picking the shortest move between them.
+
+7
+00:00:19,080 --> 00:00:22,411
+Spin a wheel slowly, and each spoke moves a little.
+
+8
+00:00:22,411 --> 00:00:22,933
+Forward.
+
+9
+00:00:23,233 --> 00:00:27,196
+Faster, and each spoke lands just short of where the next one was.
+
+10
+00:00:27,496 --> 00:00:30,689
+The shortest match is now a small step backwards.
+
+11
+00:00:30,689 --> 00:00:32,188
+So that's what you see.
+
+12
+00:00:32,938 --> 00:00:37,166
+Land exactly on the next spoke, and the wheel seems to freeze.
+
+13
+00:00:37,466 --> 00:00:39,035
+The wheel goes forward.
+
+14
+00:00:39,035 --> 00:00:40,876
+The pictures say backwards.

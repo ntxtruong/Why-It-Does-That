@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:02,569
+Sao bánh xe quay ngược trên camera?
+
+2
+00:00:02,869 --> 00:00:04,155
+Chiếc xe tăng tốc.
+
+3
+00:00:04,155 --> 00:00:07,657
+Bánh xe quay ngược, chậm dần rồi đứng yên.
+
+4
+00:00:08,157 --> 00:00:10,751
+Máy quay không ghi lại chuyển động mượt mà.
+
+5
+00:00:10,751 --> 00:00:14,138
+Nó chụp các ảnh tĩnh, thường là 30 ảnh mỗi giây.
+
+6
+00:00:14,438 --> 00:00:18,330
+Não bạn nối chúng lại bằng cách chọn bước dịch chuyển ngắn nhất giữa hai ảnh.
+
+7
+00:00:19,080 --> 00:00:22,411
+Quay bánh xe chậm thì mỗi nan hoa chỉ nhích một chút.
+
+8
+00:00:22,411 --> 00:00:22,933
+Theo chiều tiến.
+
+9
+00:00:23,233 --> 00:00:27,196
+Quay nhanh hơn, mỗi nan hoa dừng ngay trước vị trí của nan kế tiếp.
+
+10
+00:00:27,496 --> 00:00:30,689
+Cách ghép ngắn nhất lúc này là một bước nhỏ lùi về sau.
+
+11
+00:00:30,689 --> 00:00:32,188
+Và đó là điều bạn thấy.
+
+12
+00:00:32,938 --> 00:00:37,166
+Nếu nan hoa rơi đúng vào vị trí nan kế tiếp, bánh xe có vẻ như đứng yên.
+
+13
+00:00:37,466 --> 00:00:39,035
+Bánh xe quay tiến.
+
+14
+00:00:39,035 --> 00:00:40,876
+Còn các bức ảnh nói là lùi.
