@@ -1,0 +1,48 @@
+{
+  "title": "Why Do Traffic Jams Appear From Nowhere?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why do traffic jams appear from nowhere?",
+        "No crash. No roadworks. Nothing up ahead."
+      ]
+    },
+    {
+      "id": "ring",
+      "long": [
+        2
+      ],
+      "beats": [
+        "In a 2008 study in Japan, twenty-two cars drove around a ring, two hundred and thirty metres long.",
+        "Drivers held about thirty kilometres an hour. The road was crowded but clear.",
+        "Within minutes, a jam appeared anyway."
+      ]
+    },
+    {
+      "id": "chain",
+      "long": [
+        1
+      ],
+      "beats": [
+        "One driver eases off. The next reacts late, and brakes a little harder.",
+        "Each car passes it back, bigger, until cars almost stop."
+      ]
+    },
+    {
+      "id": "wave",
+      "long": [
+        0
+      ],
+      "beats": [
+        "So a jam is a wave. Cars move forward, but the jam slides backwards, at about twenty kilometres an hour.",
+        "That's why you crawl through a jam, and find nothing there."
+      ]
+    }
+  ]
+}
