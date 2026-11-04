@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:01,597
+Why does ice float?
+
+2
+00:00:01,897 --> 00:00:04,428
+Most solids sink in their own liquid.
+
+3
+00:00:04,428 --> 00:00:06,549
+Frozen water does the opposite.
+
+4
+00:00:07,049 --> 00:00:12,812
+Water molecules are tiny V shapes that cling to each other with hydrogen bonds.
+
+5
+00:00:13,112 --> 00:00:20,179
+In liquid water, those bonds break and re-form all the time, so the molecules can crowd close.
+
+6
+00:00:20,679 --> 00:00:26,949
+Freeze it, and each molecule locks onto four neighbours, in an open, six-sided pattern.
+
+7
+00:00:27,249 --> 00:00:29,890
+That pattern holds more empty space.
+
+8
+00:00:29,890 --> 00:00:35,099
+Ice takes up about 9% more room than the water, so it floats.
+
+9
+00:00:35,849 --> 00:00:41,352
+Lucky for fish: lakes freeze from the top, and the ice shields the water below.
+
+10
+00:00:41,652 --> 00:00:46,816
+Ice floats because freezing locks water's molecules into a roomier pattern.

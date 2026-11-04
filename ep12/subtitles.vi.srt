@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:01,597
+Vì sao băng nổi?
+
+2
+00:00:01,897 --> 00:00:04,428
+Hầu hết chất rắn chìm trong chất lỏng của chính nó.
+
+3
+00:00:04,428 --> 00:00:06,549
+Nước đóng băng thì ngược lại.
+
+4
+00:00:07,049 --> 00:00:12,812
+Phân tử nước là những hình chữ V nhỏ, bám vào nhau bằng liên kết hydro.
+
+5
+00:00:13,112 --> 00:00:20,179
+Trong nước lỏng, các liên kết này liên tục đứt rồi nối lại, nên phân tử có thể xích lại sát nhau.
+
+6
+00:00:20,679 --> 00:00:26,949
+Khi đóng băng, mỗi phân tử khóa chặt với bốn phân tử lân cận, tạo thành cấu trúc lục giác thoáng.
+
+7
+00:00:27,249 --> 00:00:29,890
+Cấu trúc đó chứa nhiều khoảng trống hơn.
+
+8
+00:00:29,890 --> 00:00:35,099
+Băng chiếm nhiều chỗ hơn nước khoảng 9%, nên nó nổi.
+
+9
+00:00:35,849 --> 00:00:41,352
+May cho cá: hồ đóng băng từ trên mặt xuống, và lớp băng che chắn cho nước bên dưới.
+
+10
+00:00:41,652 --> 00:00:46,816
+Băng nổi vì khi đóng băng, các phân tử nước bị khóa vào một cấu trúc rộng rãi hơn.

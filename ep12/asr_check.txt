@@ -1,0 +1,7 @@
+0:01.7  hook: script 'solids' / heard 'solid'
+0:13.0  liquid: script 're form' / heard 'reform'
+0:20.5  ice: script 'neighbours' / heard 'neighbors'
+0:41.5  end: script 'water's' / heard 'waters'
+
+4 beat(s) to listen to; 5 of 109 words differ (4.6%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
