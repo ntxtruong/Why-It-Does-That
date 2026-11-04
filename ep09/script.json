@@ -1,0 +1,52 @@
+{
+  "title": "Why Is the Middle Still Cold?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why is the middle still cold?",
+        "Leftovers, three minutes in the microwave. The edges bubble. The middle is cold."
+      ]
+    },
+    {
+      "id": "myth",
+      "long": [],
+      "beats": [
+        "Microwaves don't cook from the inside out.",
+        "They shake the water in your food, and that water soaks up their energy fast."
+      ]
+    },
+    {
+      "id": "depth",
+      "long": [
+        0
+      ],
+      "beats": [
+        "One or two centimetres in, most of their power is already gone.",
+        "So only a thin outer layer heats up directly."
+      ]
+    },
+    {
+      "id": "creep",
+      "long": [
+        0
+      ],
+      "beats": [
+        "The middle has to wait for that heat to creep inward, and creeping takes many minutes.",
+        "That's why the packet says stir it, or let it stand."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Skip that, and the middle often stays cold."
+      ]
+    }
+  ]
+}
