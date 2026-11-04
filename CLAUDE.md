@@ -267,9 +267,16 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | hot spot / dead spot | điểm nóng / điểm chết | จุดร้อน / จุดดับ | ホットスポット / デッドスポット | 핫스폿 / 데드스폿 | 熱點 / 死點 |
 | ISM band | dải tần ISM (công nghiệp, khoa học, y tế) | ย่านความถี่ ISM | ISMバンド | ISM 대역 | ISM 頻段 |
 | thermal runaway | chạy mất kiểm soát (nhiệt) | ความร้อนเร่งตัวควบคุมไม่อยู่ | 熱暴走 | 열 폭주 | 熱失控 |
+| conduction | dẫn nhiệt | การนำความร้อน | 熱伝導 | 열전도 | 熱傳導 |
+| hydrogen bond | liên kết hydro | พันธะไฮโดรเจน | 水素結合 | 수소 결합 | 氫鍵 |
+| hexagonal ice (ice Ih) | cấu trúc lục giác (băng Ih) | โครงสร้างหกเหลี่ยม (น้ำแข็ง Ih) | 六方晶氷（Ih） | 육방정계 얼음(Ih) | 六方冰（Ih） |
+| moon illusion | ảo ảnh Mặt Trăng | ภาพลวงตาของดวงจันทร์ | 月の錯視 | 달 착시 | 月亮錯覺 |
+| flattened sky dome | vòm trời dẹt | โดมท้องฟ้าแบน | 平たい天空ドーム | 납작한 하늘 돔 | 扁平天穹 |
 
 
 ## Open items (2026-11-03)
+
+- 2026-11-04: Shorts eps 9–13 are pushed with all upload files (video, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`, `youtube-metadata.md`) but not uploaded: the run had no linked computer. Next run with the built-in browser: upload all five Unlisted, set Related video and playlist per the Episodes table, create playlist "Nature's Weird Rules" for ep 12, pick music by mood (mix 15). Public or one-a-day schedule only on Trường's word.
 
 - 2026-11-03: Trường approved the Shorts-first mix and the schedule change to Wednesday/Friday; the scheduled task's prompt was updated to v10 the same day. Shorts analytics (viewed vs swiped, average % viewed, subscribers) could not be read: Studio Analytics does not render while the built-in browser pane is hidden. Keep the pane visible in Stage 0.
 
@@ -344,6 +351,9 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 
 ## Learnings
 
+- 2026-11-04 (eps 9–13, five Shorts in one run, Trường approved the three cut-downs and asked for two new Shorts): a Short takes about 2 minutes to render and 1 minute to voice on this machine, so five fit in one session. The skeptic caught a real error again (ep 11 hook had the backward/slow/freeze order wrong for a speeding-up car) and a density/volume slip (ice is ~8% less dense, takes ~9% more room). The cold read flagged unlabelled pictures (microwave waves, crossed-out icons, the pebble), fixed with one-line canvas labels before the final render.
+- Short layout that worked: question caption top (84 px, up to 3 lines, bottom ≈ 360 px), subject 440–1250 px, labels at ≈1270–1330 px to the right of the character, character at x ≈ 150 with feet at 1560 (s 0.4). The video's own 30 fps can be used as the camera (ep 11 hook: angle quantised to frame times) to show real aliasing.
+- `rm -rf <dir>/*` after `cd` is blocked by a safety check; write frame samples to fresh scratch folders instead.
 - Episodes 6–8: split every sentence over ~7 s before TTS (93–99 subtitle lines per long episode now, none over 7 s); the skeptic review caught a wrong date (Boerhaave 1732 before Leidenfrost 1756) and an unhedged "°" without Celsius, so keep it on every script.
 - No Studio access this run, so no retention data yet for episodes 3–5; read it in the next run with a linked computer.
 
@@ -359,3 +369,8 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | 6 | Why do water drops dance on a hot pan? (Short, Leidenfrost effect) | Public since 2026-11-02 (switched by Claude on Trường's explicit request): https://youtube.com/shorts/X1yAwU4o-IY. 0:55, 1080×1920, branch `claude/ep06-leidenfrost`. Title, description, tags, EN + 5 translated subtitles/titles/descriptions; no A/B (Short), no end screen. Playlist: Everyday Physics. Music: "Splashing Around" (mood Tươi sáng, 2:35), one segment 0:00–0:55, mix 15 |
 | 7 | Why do your fingers wrinkle in water? (nerves, vasoconstriction) | Public since 2026-11-02 (switched by Claude on Trường's explicit request): https://youtu.be/dTu9m6gXCck. 6:30, branch `claude/ep07-wrinkly-fingers`. Same set as ep 3, end screen from 6:19. Playlist: Your Body, Explained (created Public 2026-11-02 at Trường's request). Music: "Nimbus" (mood Thư thái, 4:41) 0:00–4:24, "Here Come The Raindrops" (mood Thư thái, 2:44) 4:24–6:30, mix 15 |
 | 8 | Why microwaves don't heat food from the inside (penetration depth, standing waves) | Public since 2026-11-02 (switched by Claude on Trường's explicit request): https://youtu.be/ri17BZl0Iq8. 7:01, branch `claude/ep08-microwave`. Same set as ep 3, end screen from 6:49, card at 4:25 → ep 5. Playlist: How Everyday Tech Works. Music: "Jazz Dancing" (mood Vui vẻ, 7:11) 0:00–4:10, "Living now" (mood Vui vẻ, 5:39) 4:10–7:01, mix 15 |
+| 9 | Why is the middle still cold? (Short, cut from ep 8) | Pushed 2026-11-04, not uploaded yet (no linked computer that run). 0:39, 1080×1920, branch `claude/ep09-cold-middle`, file `media/ep09-cold-middle-short.mp4`. Related video → ep 8; playlist How Everyday Tech Works |
+| 10 | Why do traffic jams appear from nowhere? (Short, cut from ep 4) | Pushed 2026-11-04, not uploaded yet. 0:48, branch `claude/ep10-phantom-jam`. Related → ep 4; playlist Everyday Physics |
+| 11 | Why do wheels spin backwards on camera? (Short, cut from ep 3) | Pushed 2026-11-04, not uploaded yet. 0:43, branch `claude/ep11-backwards-wheels`. Related → ep 3; playlist Your Brain Is Tricking You |
+| 12 | Why does ice float? (new Short) | Pushed 2026-11-04, not uploaded yet. 0:49, branch `claude/ep12-ice-floats`. Related → ep 8 (water molecules); playlist Nature's Weird Rules (create at upload: its first video) |
+| 13 | Why does the Moon look huge on the horizon? (new Short) | Pushed 2026-11-04, not uploaded yet. 0:42, branch `claude/ep13-moon-illusion`. Related → ep 3; playlist Your Brain Is Tricking You |
