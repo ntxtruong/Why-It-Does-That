@@ -1,0 +1,46 @@
+{
+  "title": "Why Does the Moon Look Huge on the Horizon?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does the Moon look huge on the horizon?",
+        "It isn't bigger. A small pebble at arm's length covers it, high or low."
+      ]
+    },
+    {
+      "id": "measure",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Measured, it spans about half a degree, wherever it is.",
+        "On the horizon it's actually a little farther from you, so a touch smaller."
+      ]
+    },
+    {
+      "id": "brain",
+      "long": [
+        2
+      ],
+      "beats": [
+        "The difference happens in your brain.",
+        "One leading idea: we sense the sky as a flattened dome, so the horizon feels farther away than overhead.",
+        "Same size in your eye, but farther away? Then it must be bigger. So your brain blows it up."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Scientists still argue about the full answer.",
+        "But the pebble stays the same."
+      ]
+    }
+  ]
+}
