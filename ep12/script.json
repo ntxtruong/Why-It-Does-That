@@ -1,0 +1,43 @@
+{
+  "title": "Why Does Ice Float?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does ice float?",
+        "Most solids sink in their own liquid. Frozen water does the opposite."
+      ]
+    },
+    {
+      "id": "liquid",
+      "long": [],
+      "beats": [
+        "Water molecules are tiny V shapes that cling to each other with hydrogen bonds.",
+        "In liquid water, those bonds break and re-form all the time, so the molecules can crowd close."
+      ]
+    },
+    {
+      "id": "ice",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Freeze it, and each molecule locks onto four neighbours, in an open, six-sided pattern.",
+        "That pattern holds more empty space. Ice takes up about nine percent more room than the water, so it floats."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Lucky for fish: lakes freeze from the top, and the ice shields the water below.",
+        "Ice floats because freezing locks water's molecules into a roomier pattern."
+      ]
+    }
+  ]
+}
