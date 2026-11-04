@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:02,750
+Why does the Moon look huge on the horizon?
+
+2
+00:00:03,050 --> 00:00:04,139
+It isn't bigger.
+
+3
+00:00:04,139 --> 00:00:07,815
+A small pebble at arm's length covers it, high or low.
+
+4
+00:00:08,315 --> 00:00:12,006
+Measured, it spans about half a degree, wherever it is.
+
+5
+00:00:12,306 --> 00:00:16,811
+On the horizon it's actually a little farther from you, so a touch smaller.
+
+6
+00:00:17,561 --> 00:00:19,620
+The difference happens in your brain.
+
+7
+00:00:19,920 --> 00:00:27,541
+One leading idea: we sense the sky as a flattened dome, so the horizon feels farther away than overhead.
+
+8
+00:00:27,841 --> 00:00:30,780
+Same size in your eye, but farther away?
+
+9
+00:00:30,780 --> 00:00:32,470
+Then it must be bigger.
+
+10
+00:00:32,470 --> 00:00:34,380
+So your brain blows it up.
+
+11
+00:00:35,130 --> 00:00:37,919
+Scientists still argue about the full answer.
+
+12
+00:00:38,219 --> 00:00:40,024
+But the pebble stays the same.
