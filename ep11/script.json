@@ -1,0 +1,46 @@
+{
+  "title": "Why Do Wheels Spin Backwards on Camera?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why do wheels spin backwards on camera?",
+        "The car speeds up. Its wheels spin backwards, slow down, and freeze."
+      ]
+    },
+    {
+      "id": "frames",
+      "long": [
+        1
+      ],
+      "beats": [
+        "A camera doesn't film smooth motion. It takes still pictures, often thirty a second.",
+        "Your brain joins them up by picking the shortest move between them."
+      ]
+    },
+    {
+      "id": "spokes",
+      "long": [
+        2
+      ],
+      "beats": [
+        "Spin a wheel slowly, and each spoke moves a little. Forward.",
+        "Faster, and each spoke lands just short of where the next one was.",
+        "The shortest match is now a small step backwards. So that's what you see."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Land exactly on the next spoke, and the wheel seems to freeze.",
+        "The wheel goes forward. The pictures say backwards."
+      ]
+    }
+  ]
+}
