@@ -1,0 +1,6 @@
+0:06.2  ring: script 'and' / heard ''
+0:14.3  ring: script 'kilometers an hour' / heard 'km h'
+0:23.4  chain: script 'brakes' / heard 'breaks'
+
+3 beat(s) to listen to; 5 of 108 words differ (4.6%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

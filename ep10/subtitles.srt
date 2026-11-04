@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:02,596
+Why do traffic jams appear from nowhere?
+
+2
+00:00:02,896 --> 00:00:03,583
+No crash.
+
+3
+00:00:03,583 --> 00:00:04,575
+No roadworks.
+
+4
+00:00:04,575 --> 00:00:05,872
+Nothing up ahead.
+
+5
+00:00:06,372 --> 00:00:14,180
+In a 2008 study in Japan, 22 cars drove around a ring, 230 metres long.
+
+6
+00:00:14,480 --> 00:00:17,659
+Drivers held about 30 km/h.
+
+7
+00:00:17,659 --> 00:00:19,849
+The road was crowded but clear.
+
+8
+00:00:20,149 --> 00:00:22,847
+Within minutes, a jam appeared anyway.
+
+9
+00:00:23,597 --> 00:00:25,058
+One driver eases off.
+
+10
+00:00:25,058 --> 00:00:28,467
+The next reacts late, and brakes a little harder.
+
+11
+00:00:28,767 --> 00:00:32,943
+Each car passes it back, bigger, until cars almost stop.
+
+12
+00:00:33,693 --> 00:00:35,208
+So a jam is a wave.
+
+13
+00:00:35,208 --> 00:00:41,905
+Cars move forward, but the jam slides backwards, at about 20 km/h.
+
+14
+00:00:42,505 --> 00:00:46,051
+That's why you crawl through a jam, and find nothing there.

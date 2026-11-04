@@ -1,0 +1,144 @@
+{
+ "vi": {
+  "title": "Sao tắc đường tự dưng xuất hiện? #traffic",
+  "description": "Một vụ tắc đường không có nguyên nhân thực chất là một con sóng: mỗi tài xế phản ứng chậm một chút và phanh gắt hơn một chút, khiến làn chậm lan ngược qua đoàn xe với tốc độ khoảng 20 km/h.\n\nVideo đầy đủ: Vì sao tắc đường tự dưng xuất hiện? → https://youtu.be/Rwx3Y7Pw9rk\n\nNguồn\n- Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001\n- Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035\n- Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89\n- Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)\n\nVụ tắc đường tự dưng tệ nhất mà bạn từng gặp là gì? Kể cho mình nghe ở phần bình luận nhé.\n\nKịch bản, giọng đọc và hoạt họa đều do AI tạo ra (Claude; giọng Kokoro). Mọi con số đều được đối chiếu với các nguồn nêu trên.\n#Shorts #traffic #physics",
+  "subtitles": [
+   "Sao tắc đường tự dưng xuất hiện?",
+   "Không có tai nạn.",
+   "Không có công trình.",
+   "Phía trước chẳng có gì cả.",
+   "Trong một nghiên cứu năm 2008 ở Nhật, 22 chiếc xe chạy vòng quanh đường tròn dài 230 mét.",
+   "Các tài xế giữ tốc độ khoảng 30 km/h.",
+   "Đường đông nhưng thông thoáng.",
+   "Vậy mà chỉ vài phút sau, một vụ tắc đường vẫn xuất hiện.",
+   "Một tài xế nhả ga.",
+   "Xe sau phản ứng chậm, và phanh gắt hơn một chút.",
+   "Mỗi xe truyền lại cú phanh ấy, mạnh dần lên, cho đến khi xe gần như dừng hẳn.",
+   "Vậy nên tắc đường là một con sóng.",
+   "Xe vẫn chạy về phía trước, nhưng vụ tắc trượt ngược về sau, với tốc độ khoảng 20 km/h.",
+   "Đó là lý do bạn bò qua đoạn tắc mà chẳng thấy có gì ở đó."
+  ]
+ },
+ "th": {
+  "title": "ทำไมรถติดถึงโผล่มาจากไหนไม่รู้? #traffic",
+  "description": "รถติดที่ไม่มีสาเหตุคือคลื่นลูกหนึ่ง คนขับแต่ละคนตอบสนองช้าไปนิดและเบรกแรงขึ้นอีกหน่อย ทำให้ความช้าแพร่ย้อนกลับผ่านรถทั้งแถวด้วยความเร็วราว 20 กม./ชม.\n\nวิดีโอฉบับเต็ม: ทำไมรถติดถึงโผล่มาจากไหนไม่รู้? → https://youtu.be/Rwx3Y7Pw9rk\n\nแหล่งข้อมูล\n- Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001\n- Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035\n- Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89\n- Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)\n\nรถติดแบบไม่มีสาเหตุที่แย่ที่สุดที่คุณเคยเจอคืออะไร? เล่าให้ฟังในคอมเมนต์ได้เลย\n\nสคริปต์ เสียงพากย์ และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ตัวเลขทุกตัวผ่านการตรวจสอบกับแหล่งข้อมูลข้างต้นแล้ว\n#Shorts #traffic #physics",
+  "subtitles": [
+   "ทำไมรถติดถึงโผล่มาจากไหนไม่รู้?",
+   "ไม่มีอุบัติเหตุ",
+   "ไม่มีการก่อสร้าง",
+   "ข้างหน้าไม่มีอะไรเลย",
+   "ในการศึกษาที่ญี่ปุ่นเมื่อปี 2008 รถ 22 คันวิ่งวนบนถนนวงกลมยาว 230 เมตร",
+   "คนขับรักษาความเร็วราว 30 กม./ชม.",
+   "ถนนแน่นแต่โล่ง",
+   "แต่ภายในไม่กี่นาที รถก็ติดจนได้",
+   "คนขับคนหนึ่งผ่อนคันเร่ง",
+   "คันถัดไปตอบสนองช้า และเบรกแรงขึ้นอีกนิด",
+   "รถแต่ละคันส่งต่อแรงเบรกนั้นไปเรื่อยๆ รุนแรงขึ้น จนรถแทบหยุดนิ่ง",
+   "รถติดจึงเป็นคลื่น",
+   "รถวิ่งไปข้างหน้า แต่รถติดเลื่อนถอยหลัง ด้วยความเร็วราว 20 กม./ชม.",
+   "นั่นคือเหตุผลที่คุณคลานผ่านรถติด แล้วไม่เจออะไรอยู่ตรงนั้นเลย"
+  ]
+ },
+ "ja": {
+  "title": "なぜ渋滞は突然生まれるの? #traffic",
+  "description": "原因のない渋滞は「波」です。各ドライバーの反応が少し遅れ、ブレーキが少し強くなることで、減速が車列を後ろ向きに約20 km/hで伝わっていきます。\n\nフル動画: なぜ渋滞は突然生まれるのか? → https://youtu.be/Rwx3Y7Pw9rk\n\n出典\n- Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001\n- Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035\n- Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89\n- Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)\n\n原因不明の渋滞で一番ひどかった経験は?コメントで教えてください。\n\n台本、音声、アニメーションはAI(Claude、音声はKokoro)が制作しました。数値はすべて上記の出典で確認しています。\n#Shorts #traffic #physics",
+  "subtitles": [
+   "なぜ渋滞は突然生まれるの?",
+   "事故はなし。",
+   "工事もなし。",
+   "前方には何もありません。",
+   "2008年の日本の研究では、22台の車が全長230メートルの円形コースを走りました。",
+   "ドライバーは時速約30 kmを保っていました。",
+   "道は混んでいても、流れていました。",
+   "それでも数分のうちに、渋滞が現れたのです。",
+   "一人のドライバーがアクセルを緩めます。",
+   "次の車は反応が遅れ、少し強めにブレーキを踏みます。",
+   "各車がそれをさらに大きくして後ろへ伝え、ついに車はほぼ止まります。",
+   "つまり、渋滞は波なのです。",
+   "車は前へ進みますが、渋滞は約20 km/hで後ろへ滑っていきます。",
+   "だから渋滞の中をのろのろ進んでも、原因は何も見つからないのです。"
+  ]
+ },
+ "ko": {
+  "title": "교통 체증은 왜 갑자기 생길까? #traffic",
+  "description": "원인 없는 정체는 하나의 파동입니다. 운전자마다 반응이 조금씩 늦고 브레이크를 조금씩 더 세게 밟으면서, 감속이 차량 행렬을 따라 시속 약 20 km로 뒤쪽으로 전해집니다.\n\n전체 영상: 교통 체증은 왜 갑자기 생길까? → https://youtu.be/Rwx3Y7Pw9rk\n\n출처\n- Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001\n- Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035\n- Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89\n- Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)\n\n갑자기 생긴 정체 중 가장 심했던 경험은 무엇인가요? 댓글로 알려주세요.\n\n대본, 음성, 애니메이션은 AI(Claude, 음성은 Kokoro)가 만들었습니다. 모든 수치는 위 출처로 확인했습니다.\n#Shorts #traffic #physics",
+  "subtitles": [
+   "교통 체증은 왜 갑자기 생길까?",
+   "사고도 없고,",
+   "공사도 없고,",
+   "앞에는 아무것도 없습니다.",
+   "2008년 일본의 한 연구에서 자동차 22대가 길이 230미터의 원형 도로를 돌았습니다.",
+   "운전자들은 시속 약 30 km를 유지했습니다.",
+   "도로는 붐볐지만 막히지 않았습니다.",
+   "그런데도 몇 분 만에 정체가 생겼습니다.",
+   "한 운전자가 가속 페달에서 발을 뗍니다.",
+   "뒤차는 늦게 반응하고, 조금 더 세게 브레이크를 밟습니다.",
+   "차마다 그것을 더 크게 뒤로 전하다가, 결국 차들이 거의 멈춰 섭니다.",
+   "그러니 정체는 하나의 파동입니다.",
+   "차는 앞으로 가지만, 정체는 시속 약 20 km로 뒤로 미끄러집니다.",
+   "정체 구간을 기어가도 아무것도 없는 이유입니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼塞車會莫名其妙出現? #traffic",
+  "description": "毫無原因的塞車其實是一道波:每位駕駛的反應都慢一點、煞車都重一點,於是減速以每小時約20公里的速度沿車隊向後傳遞。\n\n完整影片: 為什麼塞車會莫名其妙出現? → https://youtu.be/Rwx3Y7Pw9rk\n\n資料來源\n- Sugiyama et al. (2008), Traffic jams without bottlenecks, New Journal of Physics 10, 033001\n- Bando et al. (1995), Dynamical model of traffic congestion, Physical Review E 51, 1035\n- Stern et al. (2018), Dissipation of stop-and-go waves via control of autonomous vehicles, Transportation Research Part C 89\n- Green (2000), How long does it take to stop?, Transportation Human Factors 2(3)\n\n你遇過最嚴重的無緣無故塞車是什麼情況?歡迎在留言告訴我。\n\n腳本、配音與動畫皆由 AI 製作(Claude;Kokoro 語音)。所有數字都已對照上述資料來源查證。\n#Shorts #traffic #physics",
+  "subtitles": [
+   "為什麼塞車會莫名其妙出現?",
+   "沒有車禍。",
+   "沒有施工。",
+   "前方什麼也沒有。",
+   "2008年日本的一項研究中,22輛車繞著長230公尺的環形道路行駛。",
+   "駕駛們保持約每小時30公里。",
+   "路上雖擁擠,但很順暢。",
+   "然而幾分鐘內,塞車還是出現了。",
+   "一位駕駛稍微鬆開油門。",
+   "後面的車反應慢了一拍,煞車也踩得更重一點。",
+   "每輛車都把這個動作放大後傳給後車,直到車子幾乎停住。",
+   "所以,塞車就是一道波。",
+   "車子向前開,塞車卻以每小時約20公里的速度往後滑。",
+   "這就是你在車陣中龜速前進,卻找不到任何原因的緣故。"
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "conduction",
+   "vi": "dẫn nhiệt",
+   "th": "การนำความร้อน",
+   "ja": "熱伝導",
+   "ko": "열전도",
+   "zh-Hant": "熱傳導"
+  },
+  {
+   "en": "hydrogen bond",
+   "vi": "liên kết hydro",
+   "th": "พันธะไฮโดรเจน",
+   "ja": "水素結合",
+   "ko": "수소 결합",
+   "zh-Hant": "氫鍵"
+  },
+  {
+   "en": "hexagonal (six-sided) ice pattern / ice Ih",
+   "vi": "cấu trúc lục giác (băng Ih)",
+   "th": "โครงสร้างหกเหลี่ยม (น้ำแข็ง Ih)",
+   "ja": "六角形の並び(六方晶氷 Ih)",
+   "ko": "육각형 구조(육방정계 얼음 Ih)",
+   "zh-Hant": "六邊形排列(六方冰 Ih)"
+  },
+  {
+   "en": "moon illusion",
+   "vi": "ảo ảnh Mặt Trăng",
+   "th": "ภาพลวงตาของดวงจันทร์",
+   "ja": "月の錯視",
+   "ko": "달 착시",
+   "zh-Hant": "月亮錯覺"
+  },
+  {
+   "en": "flattened dome (of the sky)",
+   "vi": "vòm dẹt (của bầu trời)",
+   "th": "โดมแบน (ของท้องฟ้า)",
+   "ja": "平たいドーム(空の)",
+   "ko": "납작한 돔(하늘의)",
+   "zh-Hant": "扁平穹頂(天空的)"
+  }
+ ]
+}

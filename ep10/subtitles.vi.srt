@@ -1,0 +1,55 @@
+1
+00:00:00,150 --> 00:00:02,596
+Sao tắc đường tự dưng xuất hiện?
+
+2
+00:00:02,896 --> 00:00:03,583
+Không có tai nạn.
+
+3
+00:00:03,583 --> 00:00:04,575
+Không có công trình.
+
+4
+00:00:04,575 --> 00:00:05,872
+Phía trước chẳng có gì cả.
+
+5
+00:00:06,372 --> 00:00:14,180
+Trong một nghiên cứu năm 2008 ở Nhật, 22 chiếc xe chạy vòng quanh đường tròn dài 230 mét.
+
+6
+00:00:14,480 --> 00:00:17,659
+Các tài xế giữ tốc độ khoảng 30 km/h.
+
+7
+00:00:17,659 --> 00:00:19,849
+Đường đông nhưng thông thoáng.
+
+8
+00:00:20,149 --> 00:00:22,847
+Vậy mà chỉ vài phút sau, một vụ tắc đường vẫn xuất hiện.
+
+9
+00:00:23,597 --> 00:00:25,058
+Một tài xế nhả ga.
+
+10
+00:00:25,058 --> 00:00:28,467
+Xe sau phản ứng chậm, và phanh gắt hơn một chút.
+
+11
+00:00:28,767 --> 00:00:32,943
+Mỗi xe truyền lại cú phanh ấy, mạnh dần lên, cho đến khi xe gần như dừng hẳn.
+
+12
+00:00:33,693 --> 00:00:35,208
+Vậy nên tắc đường là một con sóng.
+
+13
+00:00:35,208 --> 00:00:41,905
+Xe vẫn chạy về phía trước, nhưng vụ tắc trượt ngược về sau, với tốc độ khoảng 20 km/h.
+
+14
+00:00:42,505 --> 00:00:46,051
+Đó là lý do bạn bò qua đoạn tắc mà chẳng thấy có gì ở đó.
