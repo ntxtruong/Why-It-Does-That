@@ -1,0 +1,47 @@
+{
+  "title": "Why Are Bubbles Always Round?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 8,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why are floating bubbles always round?",
+        "Blow through a square wand, and the bubble still comes out round."
+      ]
+    },
+    {
+      "id": "film",
+      "long": [
+        1
+      ],
+      "beats": [
+        "A soap film is pulled tight by surface tension. It always shrinks itself as small as it can.",
+        "But the air trapped inside pushes back.",
+        "So the film settles on the shape that holds that air with the least surface."
+      ]
+    },
+    {
+      "id": "sphere",
+      "long": [
+        0
+      ],
+      "beats": [
+        "That shape is a sphere. A cube holding the same air would need about a quarter more film.",
+        "Any bulge costs extra film, so the film pulls it back, and the wobbles fade away."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "The wand shapes the start. Physics shapes the bubble."
+      ]
+    }
+  ]
+}
