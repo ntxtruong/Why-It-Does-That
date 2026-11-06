@@ -55,9 +55,9 @@ function mic(x, y, a = 1) { if (a <= 0.01) return; rrect(x - 26, y - 46, 52, 82,
 const BAR_A = [0.55, 0.8, 0.95, 0.85, 0.7, 0.5, 0.35], BAR_B = [0.08, 0.15, 0.3, 0.35, 0.25, 0.1, 0.05];
 function bars(x0, y0, gold, a = 1, label = "") {
   if (a <= 0.01) return;
-  BAR_A.forEach((v, i) => { const x = x0 + i * 44, hb = 190 * v, hg = 190 * BAR_B[i] * gold;
+  BAR_A.forEach((v, i) => { const x = x0 + i * 40, hb = 190 * v, hg = 190 * BAR_B[i] * gold;
     rrect(x, y0 - hb, 34, hb, 6, BLUEc, a); if (hg > 1) rrect(x, y0 - hb - hg, 34, hg, 6, GOLDc, a); });
-  text(label, x0 + 150, y0 + 48, 46, INK, "center", 800, a);
+  text(label, x0 + 137, y0 + 48, 46, INK, "center", 800, a);
 }
 const SCENES = {};
 
@@ -67,7 +67,7 @@ SCENES.hook = (t, T, B, E, dur) => {
   phone(620, 900, T, 1, 1);
   plate("…is that me?", 620, 560, 54, CORAL, "center", seg(t, 0.4, 0.9), 800);
   plate("sounds like a stranger", 560, 1250, 48, INK, "center", seg(t, B(1) + 0.4, B(1) + 0.9), 800);
-  MAS(T, { look: [0.9, -0.4], mouth: "wince", lean: -0.05 });
+  MASR(T, t, { ev: [[0.5, "!", "wince"], [B(1) + 0.4, "?"]],  look: [0.9, -0.4], mouth: "wince", lean: -0.05 });
 };
 
 // 2 — paths: two ways to your ears: through the air (blue), through your head (gold)
@@ -80,7 +80,7 @@ SCENES.paths = (t, T, B, E, dur) => {
   plate("through the air", 560, 1300, 46, BLUE, "center", ai * (1 - 0.0), 800);
   plate("through your head", 560, 420, 46, GOLD, "center", bo, 800);
   plate("inner ear", COCH[0] - 40, COCH[1] - 110, 40, INK, "center", seg(t, B(2) + 2.5, B(2) + 3.0), 800);
-  MAS(T, { look: [0.9, -0.6], mouth: "o" });
+  MASR(T, t, { ev: [[0.4, "?"], [B(1) + 0.6, "ok"], [B(2) + 1.0, "!", "grin"]],  look: [0.9, -0.6], mouth: "o" });
 };
 
 // 3 — mix: the bone path changes the mix; a microphone gets only the air path; the recording ≈ what others hear
@@ -90,13 +90,13 @@ SCENES.mix = (t, T, B, E, dur) => {
   g.save(); g.translate(0, -200 * sh - 40); g.scale(1, 1);
   head(1); airPath(T, 1); bonePath(T, 1 - 0.0); mic(200, 900, seg(t, B(1), B(1) + 0.5));
   g.restore();
-  bars(300, 1330, 1, seg(t, 0.4, 1.0), "you hear");
+  bars(330, 1330, 1, seg(t, 0.4, 1.0), "you hear");
   bars(640, 1330, 0, seg(t, B(1) + 0.4, B(1) + 1.0), "mic / others");
   text("sketch, not measured", 930, 1440, 40, QUIET, "right", 600, seg(t, 0.4, 1.0));
   plate("a different mix", 540, 420, 50, INK, "center", win(t, 0.6, B(1) - 0.1, 0.3), 800);
   plate("mic: air only", 540, 420, 50, BLUE, "center", win(t, B(1) + 0.2, B(2) - 0.1, 0.3), 800);
   plate("recording ≈ what others hear", 540, 420, 46, GOLD, "center", win(t, B(2) + 0.2, dur - 0.2, 0.3), 800);
-  MAS(T, { look: [0.9, -0.6], mouth: t > B(2) ? "smile" : "o" });
+  MASR(T, t, { ev: [[0.6, "idea"], [B(1) + 0.4, "!"], [B(2) + 0.6, "ok", "smile"]],  look: [0.9, -0.6], mouth: t > B(2) ? "smile" : "o" });
 };
 
 // 4 — end: the phone plays again; "That's you." — then back to the opening frame (loop)
@@ -104,5 +104,5 @@ SCENES.end = (t, T, B, E, dur) => {
   clear(); vignette();
   phone(620, 900, T, 1, 1);
   plate("that's you", 620, 560, 60, GOLD, "center", win(t, 0.4, dur - 0.9, 0.3), 800);
-  MAS(T, { look: [0.9, -0.4], mouth: t < dur - 1.0 ? "smile" : "wince" });
+  MASR(T, t, { ev: [[0.3, "ok", "smile"]],  look: [0.9, -0.4], mouth: t < dur - 1.0 ? "smile" : "wince" });
 };
