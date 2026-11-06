@@ -1,0 +1,49 @@
+{
+  "title": "Why Do Only Your Fingers Wrinkle?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": 7,
+  "related_episode": 7,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why do only your fingers and toes wrinkle in water?",
+        "Your arms and your back stay smooth. Only fingertips and toes turn into prunes."
+      ]
+    },
+    {
+      "id": "clue",
+      "long": [
+        0,
+        2
+      ],
+      "beats": [
+        "Most people think the skin just soaks up water. That's not the whole story.",
+        "In the 1930s, doctors noticed something strange. Fingers with a damaged nerve didn't wrinkle.",
+        "Same skin, same water. No nerve signal, no wrinkles."
+      ]
+    },
+    {
+      "id": "how",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Here's how it seems to work. The nerve tells blood vessels in the fingertip to narrow.",
+        "The fingertip loses a little volume, and the skin on top folds into wrinkles."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "So it isn't just soaking. Your nervous system is making them wrinkle.",
+        "Why? Scientists are still arguing about that."
+      ]
+    }
+  ]
+}
