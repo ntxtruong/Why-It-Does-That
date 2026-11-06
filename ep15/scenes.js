@@ -43,7 +43,7 @@ function water(t, a = 1) {
 }
 // both fingers in the bath: left intact (wrinkles with wL), right damaged nerve (smooth)
 function pair(t, wL, nerve = 0, a = 1) {
-  finger(330, 380, 1150, wL, a, nerve ? 1 : 0); finger(640, 380, 1150, 0, a, nerve ? -1 : 0);
+  finger(420, 380, 1150, wL, a, nerve ? 1 : 0); finger(720, 380, 1150, 0, a, nerve ? -1 : 0);
 }
 const SCENES = {};
 
@@ -51,10 +51,10 @@ const SCENES = {};
 SCENES.hook = (t, T, B, E, dur) => {
   clear(); vignette();
   pair(T, lerp(0.55, 1, seg(t, 0, 3))); water(T);
-  plate("arms · back: smooth", 560, 1260, 46, INK, "center", win(t, B(1), B(1) + 2.2, 0.3), 800);
-  plate("fingertips · toes: prunes", 560, 1260, 46, GOLD, "center", seg(t, B(1) + 2.3, B(1) + 2.7), 800);
-  plate("wrinkly", 330, 720, 42, GOLD, "center", seg(t, 0.4, 0.8), 800); plate("smooth", 640, 720, 42, INK, "center", seg(t, 0.4, 0.8), 800);
-  MAS(T, { look: [0.9, -0.7], mouth: "o" });
+  plate("arms · back: smooth", 640, 1270, 46, INK, "center", win(t, B(1), B(1) + 2.2, 0.3), 800);
+  plate("fingertips · toes: prunes", 640, 1270, 46, GOLD, "center", seg(t, B(1) + 2.3, B(1) + 2.7), 800);
+  plate("wrinkly", 420, 720, 42, GOLD, "center", seg(t, 0.4, 0.8), 800); plate("smooth", 720, 720, 42, INK, "center", seg(t, 0.4, 0.8), 800);
+  MASR(T, t, { ev: [[0.6, "?"], [B(1) + 2.4, "!"]],  look: [0.9, -0.7], mouth: "o" });
 };
 
 // 2 — clue: "soaks up water?" crossed out; 1930s: the finger with a damaged nerve did not wrinkle
@@ -67,11 +67,11 @@ SCENES.clue = (t, T, B, E, dur) => {
   plate("just soaking up water?", 490, 300, 50, INK, "center", sk, 800);
   line(490 - 290 * st, 302, 490 + 290 * st, 298, CORALc, sk * st, 8);
   plate("1930s · Lewis & Pickering", 490, 300, 48, INK, "center", win(t, B(1), B(2) + 0.2, 0.3), 800);
-  plate("wrinkly", 330, 720, 42, GOLD, "center", 1 - nv, 800); plate("smooth", 640, 720, 42, INK, "center", 1 - nv, 800);
-  text("nerve OK", 330, 1240, 44, GOLD, "center", 800, nv);
-  text("damaged nerve", 640, 1240, 44, CORAL, "center", 800, nv);
+  plate("wrinkly", 420, 720, 42, GOLD, "center", 1 - nv, 800); plate("smooth", 720, 720, 42, INK, "center", 1 - nv, 800);
+  text("nerve OK", 420, 1240, 44, GOLD, "center", 800, nv);
+  text("damaged nerve", 720, 1240, 44, CORAL, "center", 800, nv);
   plate("no nerve signal → no wrinkles", 490, 300, 46, GOLD, "center", seg(t, B(2) + 0.3, B(2) + 0.8), 800);
-  MAS(T, { look: [0.9, -0.6], mouth: t > B(2) ? "grin" : "o" });
+  MASR(T, t, { ev: [[B(0) + 2.4, "?"], [B(1) + 1.9, "!", "o"], [B(2) + 0.4, "idea", "grin"]],  look: [0.9, -0.6], mouth: t > B(2) ? "grin" : "o" });
 };
 
 // 3 — how: cross-section of a fingertip; nerve pulses, the blood vessel narrows, the pad shrinks, the skin folds
@@ -93,17 +93,17 @@ SCENES.how = (t, T, B, E, dur) => {
   const pu = seg(t, 0.4, 2.2); if (pu > 0 && pu < 1) dot(lerp(C[0] - 230, C[0] + 230, pu), C[1] + 200, 16, GOLDc, 1);
   text("fingertip, cut across", 500, 470, 44, QUIET, "center", 700, 1);
   plate("seems to work like this", 500, 300, 46, INK, "center", win(t, 0.2, B(0) + 1.6, 0.3), 700);
-  plate("nerve signal", 500, 1270, 46, GOLD, "center", win(t, 0.6, B(0) + 2.0, 0.3), 800);
-  plate("blood vessel narrows", 500, 1270, 46, CORAL, "center", win(t, B(0) + 2.2, dur - 0.2, 0.3), 800);
+  plate("nerve signal", 640, 1270, 46, GOLD, "center", win(t, 0.6, B(0) + 2.0, 0.3), 800);
+  plate("blood vessel narrows", 640, 1270, 46, CORAL, "center", win(t, B(0) + 2.2, dur - 0.2, 0.3), 800);
   plate("pad loses a little volume → skin folds", 500, 300, 42, INK, "center", seg(t, B(1) + 0.8, B(1) + 1.3), 800);
-  MAS(T, { look: [0.9, -0.6], mouth: "o" });
+  MASR(T, t, { ev: [[0.8, "!"], [B(1) + 1.2, "idea", "grin"]],  look: [0.9, -0.6], mouth: "o" });
 };
 
 // 4 — end: your nervous system; purpose still debated; back to the pair (loops to frame 1)
 SCENES.end = (t, T, B, E, dur) => {
   clear(); vignette();
   pair(T, lerp(1, 0.55, seg(t, dur - 1.0, dur))); water(T);
-  plate("your nervous system", 560, 1260, 50, GOLD, "center", win(t, 0.3, B(1), 0.3), 800);
-  plate("why? still debated", 560, 1260, 48, INK, "center", win(t, B(1), dur - 1.0, 0.3), 800);
-  MAS(T, { look: [0.9, -0.7], mouth: "smile" });
+  plate("your nervous system", 640, 1270, 50, GOLD, "center", win(t, 0.3, B(1), 0.3), 800);
+  plate("why? still debated", 640, 1270, 48, INK, "center", win(t, B(1), dur - 1.0, 0.3), 800);
+  MASR(T, t, { ev: [[0.4, "ok", "smile"], [B(1), "?"]],  look: [0.9, -0.7], mouth: "smile" });
 };

@@ -111,3 +111,39 @@ function mascot3(x, yFeet, s, T, o = {}) {
   const bob = Math.sin(T * 2.1) * 16 * s + (o.hop ? -Math.abs(Math.sin(T * 7)) * 80 * s * o.hop : 0), ph = (T + 1.3) % 3.6, blink = ph < 0.16 ? 1 - Math.abs(ph - 0.08) / 0.08 : 0;
   chibi3(x, yFeet + bob, s, { blink, ...o });
 }
+
+// ---- character reactions (2026-11-06, Trường asked for a livelier character) ----
+// MASR(T, t, o): chibi v3 at lower left, larger (s 0.5), with reaction events o.ev = [[t0, kind], ...] in scene time t.
+// Each event: a small hop with squash-free bounce, a lean toward the subject, and a pop mark over the head
+// ("!" surprise, "?" puzzled, "idea" = a small lit bulb, "ok" = a check). Pure functions of time; no particles.
+function popMark(x, y, kind, k, a) {
+  if (a <= 0.01 || k <= 0.01) return;
+  g.save(); g.translate(x, y); g.scale(1.45 * k, 1.45 * k); g.globalAlpha = a;
+  g.fillStyle = css(PANELc); g.strokeStyle = css(INKc, 0.9); g.lineWidth = 4;
+  g.beginPath(); g.arc(0, 0, 46, 0, TAU2); g.fill(); g.stroke();
+  g.beginPath(); g.moveTo(-14, 40); g.lineTo(-30, 66); g.lineTo(4, 44); g.closePath(); g.fill();
+  const F = s => { g.font = `900 ${s}px ${FONT}`; g.textAlign = "center"; g.textBaseline = "middle"; };
+  if (kind === "!") { F(60); g.fillStyle = css(GOLDc); g.fillText("!", 0, 3); }
+  else if (kind === "?") { F(58); g.fillStyle = css(BLUEc); g.fillText("?", 0, 3); }
+  else if (kind === "ok") { g.strokeStyle = css(GOLDc); g.lineWidth = 9; g.lineCap = "round"; g.beginPath(); g.moveTo(-18, 2); g.lineTo(-4, 16); g.lineTo(20, -14); g.stroke(); }
+  else { // idea: a small bulb with three short rays
+    g.fillStyle = css(GOLDc); g.beginPath(); g.arc(0, -6, 18, 0, TAU2); g.fill(); g.fillRect(-9, 10, 18, 12);
+    g.strokeStyle = css(GOLDc); g.lineWidth = 5; g.lineCap = "round";
+    [[-30, -22, -22, -16], [0, -36, 0, -28], [30, -22, 22, -16]].forEach(([a1, b1, a2, b2]) => { g.beginPath(); g.moveTo(a1, b1); g.lineTo(a2, b2); g.stroke(); });
+  }
+  g.restore();
+}
+function MASR(T, t, o = {}) {
+  const x = o.x ?? 165, y = o.y ?? 1560, s = o.s ?? 0.55, ev = o.ev || [];
+  let hop = 0, lean = 0, mark = null, mk = 0, ma = 0, mouth = o.mouth;
+  ev.forEach(([t0, kind, mo]) => {
+    const u = t - t0; if (u < 0 || u > 2.2) return;
+    hop += 70 * s * Math.exp(-u * 5) * Math.abs(Math.sin(u * 11));
+    lean += 0.07 * Math.exp(-u * 3) * Math.sin(u * 9 + 0.6);
+    const k = clamp(spring(t, t0, 12, 0.45), 0, 1.25), fade = 1 - seg(u, 1.6, 2.2);
+    if (fade > ma) { mark = kind; mk = k; ma = fade; }
+    if (mo && u < 1.8) mouth = mo;
+  });
+  mascot3(x, y - hop, s, T, { ...o, mouth, rot: (o.rot || 0) + lean });
+  if (mark) popMark(x + 230 * s, y - 950 * s - hop, mark, mk, ma);
+}
