@@ -1,0 +1,4 @@
+0:30.4  catch: script 'hum's' / heard 'hum'
+
+1 beat(s) to listen to; 1 of 113 words differ (0.9%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

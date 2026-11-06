@@ -1,0 +1,59 @@
+1
+00:00:00,150 --> 00:00:03,112
+Làm sao tai nghe tạo ra sự yên lặng bằng cách thêm âm thanh?
+
+2
+00:00:03,412 --> 00:00:05,971
+Mạch điện không chặn tiếng ồn.
+
+3
+00:00:05,971 --> 00:00:06,914
+Chúng thêm vào nhiều hơn.
+
+4
+00:00:07,414 --> 00:00:10,156
+Âm thanh là sóng của không khí lúc bị nén lúc bị giãn.
+
+5
+00:00:10,456 --> 00:00:13,391
+Một micro nhỏ lắng nghe tiếng ồn.
+
+6
+00:00:13,391 --> 00:00:17,003
+Tai nghe phát một bản sao lộn ngược.
+
+7
+00:00:17,603 --> 00:00:21,315
+Chỗ nào tiếng ồn nén không khí, bản sao lại làm nó giãn ra.
+
+8
+00:00:21,315 --> 00:00:23,901
+Cộng lại, chúng gần như bằng không.
+
+9
+00:00:24,401 --> 00:00:26,147
+Nhưng thời điểm là tất cả.
+
+10
+00:00:26,147 --> 00:00:30,200
+Trễ nửa chu kỳ, bản sao lại làm tiếng ồn tăng gấp đôi.
+
+11
+00:00:30,500 --> 00:00:34,028
+Một chu kỳ của tiếng ù trầm kéo dài vài phần nghìn giây.
+
+12
+00:00:34,028 --> 00:00:37,851
+Âm càng cao càng nhanh, nên việc canh thời điểm càng khó.
+
+13
+00:00:38,151 --> 00:00:43,911
+Vì thế nó hiệu quả nhất với tiếng ù đều và trầm, như động cơ, và kém hơn với giọng nói.
+
+14
+00:00:44,411 --> 00:00:45,779
+Hai sóng lớn.
+
+15
+00:00:45,779 --> 00:00:47,055
+Một đôi tai yên tĩnh.

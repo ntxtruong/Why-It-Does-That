@@ -33,7 +33,7 @@
       ],
       "beats": [
         "But timing is everything. Half a cycle late, and the copy doubles the noise instead.",
-        "A low hum's cycle lasts a few thousandths of a second. Higher sounds are faster, so the timing gets harder.",
+        "A low hum's cycle lasts just a few milliseconds. Higher sounds are faster, so the timing gets harder.",
         "That's why it works best on steady, low hums, like an engine, and less on voices."
       ]
     },

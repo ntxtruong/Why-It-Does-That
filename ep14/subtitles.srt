@@ -1,0 +1,59 @@
+1
+00:00:00,150 --> 00:00:03,112
+How can headphones make silence by adding sound?
+
+2
+00:00:03,412 --> 00:00:05,971
+The electronics don't block the noise.
+
+3
+00:00:05,971 --> 00:00:06,914
+They add more.
+
+4
+00:00:07,414 --> 00:00:10,156
+Sound is a wave of squeezed and stretched air.
+
+5
+00:00:10,456 --> 00:00:13,391
+A tiny microphone listens to the noise.
+
+6
+00:00:13,391 --> 00:00:17,003
+The headphones play a copy, flipped upside down.
+
+7
+00:00:17,603 --> 00:00:21,315
+Where the noise squeezes the air, the copy stretches it.
+
+8
+00:00:21,315 --> 00:00:23,901
+Together they add up to almost nothing.
+
+9
+00:00:24,401 --> 00:00:26,147
+But timing is everything.
+
+10
+00:00:26,147 --> 00:00:30,200
+Half a cycle late, and the copy doubles the noise instead.
+
+11
+00:00:30,500 --> 00:00:34,028
+A low hum's cycle lasts just a few milliseconds.
+
+12
+00:00:34,028 --> 00:00:37,851
+Higher sounds are faster, so the timing gets harder.
+
+13
+00:00:38,151 --> 00:00:43,911
+That's why it works best on steady, low hums, like an engine, and less on voices.
+
+14
+00:00:44,411 --> 00:00:45,779
+Two loud waves.
+
+15
+00:00:45,779 --> 00:00:47,055
+One quiet ear.

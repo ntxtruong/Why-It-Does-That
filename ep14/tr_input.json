@@ -1,0 +1,21 @@
+{
+ "title": "How Can Noise Cancel Noise? #headphones #physics",
+ "description": "Noise-cancelling headphones don't block the noise: they add an upside-down copy of it, and the two add up to almost nothing at your ear. Half a cycle late, and the copy would double the noise instead.\n\nFull episode: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nSources\n- Elliott (2001), Signal Processing for Active Control, Academic Press\n- Leventhall, A history of active noise control, Institute of Acoustics\n- Cui, Behar, Kunov & Wong (2002), Canadian Acoustics 30(3)\n\nWhere do your noise-cancelling headphones work worst? Tell me in the comments.\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every number is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "How can headphones make silence by adding sound?",
+  "The electronics don't block the noise.",
+  "They add more.",
+  "Sound is a wave of squeezed and stretched air.",
+  "A tiny microphone listens to the noise.",
+  "The headphones play a copy, flipped upside down.",
+  "Where the noise squeezes the air, the copy stretches it.",
+  "Together they add up to almost nothing.",
+  "But timing is everything.",
+  "Half a cycle late, and the copy doubles the noise instead.",
+  "A low hum's cycle lasts just a few milliseconds.",
+  "Higher sounds are faster, so the timing gets harder.",
+  "That's why it works best on steady, low hums, like an engine, and less on voices.",
+  "Two loud waves.",
+  "One quiet ear."
+ ]
+}
