@@ -39,7 +39,7 @@ SCENES.hook = (t, T, B, E, dur) => {
   bubble(cx, cy, R, eio((t - 0.2) / 1.6), Math.exp(-t / 1.6) * 1.2, T);
   plate("square wand", 560, 1300, 44, INK, "center", seg(t, B(1), B(1) + 0.4), 800);
   plate("round bubble", 640, 1000, 44, GOLD, "center", seg(t, B(1) + 1.4, B(1) + 1.8), 800);
-  MAS(T, { look: [0.9, -0.8], mouth: "o" });
+  MASR(T, t, { ev: [[0.4, "?"], [B(1) + 1.5, "!", "grin"]],  look: [0.9, -0.8], mouth: "o" });
 };
 
 // 2 — film: surface tension pulls the film in; the air inside pushes back; the least surface for that air
@@ -55,7 +55,7 @@ SCENES.film = (t, T, B, E, dur) => {
   plate("surface tension pulls in", 540, 420, 48, GOLD, "center", win(t, 0.8, B(1) - 0.1, 0.3), 800);
   plate("the air inside pushes back", 540, 420, 48, BLUE, "center", win(t, B(1) + 0.2, B(2) - 0.1, 0.3), 800);
   plate("least surface for that air", 540, 420, 48, INK, "center", seg(t, B(2) + 0.3, B(2) + 0.8), 800);
-  MAS(T, { look: [0.9, -0.7], mouth: "o" });
+  MASR(T, t, { ev: [[0.9, "?"], [B(1) + 0.4, "!"], [B(2) + 0.5, "idea"]],  look: [0.9, -0.7], mouth: "o" });
 };
 
 // 3 — sphere: cube vs sphere with the same air; +24% film for the cube; a bulge is pulled back and the wobble fades
@@ -86,7 +86,7 @@ SCENES.sphere = (t, T, B, E, dur) => {
     plate("bulge = extra film", 540, 420, 48, CORAL, "center", win(t, B(1) + 0.2, B(1) + 2.6, 0.3) * bb, 800);
     plate("pulled back · wobbles fade", 540, 420, 46, GOLD, "center", seg(t, B(1) + 2.8, B(1) + 3.2) * bb, 800);
   }
-  MAS(T, { look: [0.9, -0.7], mouth: t > B(1) + 3 ? "grin" : "o" });
+  MASR(T, t, { ev: [[B(0) + 3.3, "!", "grin"], [B(1) + 0.4, "?"], [B(1) + 3.0, "ok", "smile"]],  look: [0.9, -0.7], mouth: t > B(1) + 3 ? "grin" : "o" });
 };
 
 // 4 — end: the wand shapes the start, physics shapes the bubble; returns to the opening frame (loop)
@@ -98,5 +98,5 @@ SCENES.end = (t, T, B, E, dur) => {
   bubble(cx, cy, R, 1 - back, 0.15 * (1 - back), T);
   plate("wand: the start", 600, 420, 48, INK, "center", win(t, 0.3, dur - 1.0, 0.3), 800);
   plate("physics: the bubble", 600, 520, 48, GOLD, "center", win(t, 1.6, dur - 1.0, 0.3), 800);
-  MAS(T, { look: [0.9, -0.8], mouth: "smile" });
+  MASR(T, t, { ev: [[0.4, "ok", "smile"]],  look: [0.9, -0.8], mouth: "smile" });
 };
