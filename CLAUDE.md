@@ -272,10 +272,25 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | hexagonal ice (ice Ih) | cấu trúc lục giác (băng Ih) | โครงสร้างหกเหลี่ยม (น้ำแข็ง Ih) | 六方晶氷（Ih） | 육방정계 얼음(Ih) | 六方冰（Ih） |
 | moon illusion | ảo ảnh Mặt Trăng | ภาพลวงตาของดวงจันทร์ | 月の錯視 | 달 착시 | 月亮錯覺 |
 | flattened sky dome | vòm trời dẹt | โดมท้องฟ้าแบน | 平たい天空ドーム | 납작한 하늘 돔 | 扁平天穹 |
+| cycle (of a wave) | chu kỳ | รอบ (ของคลื่น) | 周期 | 주기 | 週期 |
+| microphone | micro | ไมโครโฟน | マイク | 마이크 | 麥克風 |
+| nerve | dây thần kinh | เส้นประสาท | 神経 | 신경 | 神經 |
+| nervous system | hệ thần kinh | ระบบประสาท | 神経系 | 신경계 | 神經系統 |
+| fingertip pad | phần đệm đầu ngón tay | ปลายนิ้ว (ส่วนที่เป็นเนื้อนูน) | 指の腹 | 손끝 살 | 指腹 |
+| rainbow | cầu vồng | รุ้ง | 虹 | 무지개 | 彩虹 |
+| antisolar point (shadow of your head) | điểm đối nhật (bóng đầu bạn) | จุดตรงข้ามดวงอาทิตย์ (เงาศีรษะของคุณ) | 反太陽点（頭の影） | 대일점(머리 그림자) | 對日點（你頭部的影子） |
+| bone conduction | dẫn truyền qua xương | การนำเสียงผ่านกระดูก | 骨伝導 | 골전도 | 骨傳導 |
+| air conduction | dẫn truyền qua không khí | การนำเสียงผ่านอากาศ | 気導 | 기도(공기 전도) | 氣導 |
+| inner ear | tai trong | หูชั้นใน | 内耳 | 속귀(내이) | 內耳 |
+| skull | hộp sọ | กะโหลกศีรษะ | 頭蓋骨 | 두개골 | 頭骨 |
+| surface tension | sức căng bề mặt | แรงตึงผิว | 表面張力 | 표면장력 | 表面張力 |
+| soap film | màng xà phòng | ฟิล์มสบู่ | 石けん膜 | 비누막 | 肥皂膜 |
+| sphere (minimal surface for a given volume) | hình cầu | ทรงกลม | 球 | 구 | 球 |
 
 
 ## Open items (2026-11-03)
 
+- 2026-11-06: Shorts eps 14–18 are produced and pushed with all upload files but not uploaded: the run had no linked computer. Next run with the built-in browser: upload all five Unlisted, Related video and playlist per the Episodes table, music by mood (mix 15). Public or one-a-day schedule only on Trường's word. Playlist "Nature's Weird Rules" is still Unlisted (ask before Public).
 - 2026-11-04 (latest): Shorts eps 9–13 have music (mix 15, picked by mood without listening) and are **Public** (Trường asked in chat). Translations vi/th/ja/ko/zh-Hant for all five were added the same day (Trường asked in chat). Playlist "Nature's Weird Rules" (holds ep 12) is still Unlisted; ask Trường before making it Public.
 - 2026-11-04 (earlier): Shorts eps 9–13 are pushed with all upload files (video, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`, `youtube-metadata.md`) but not uploaded: the run had no linked computer. Next run with the built-in browser: upload all five Unlisted, set Related video and playlist per the Episodes table, create playlist "Nature's Weird Rules" for ep 12, pick music by mood (mix 15). Public or one-a-day schedule only on Trường's word.
 
@@ -352,6 +367,7 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 
 ## Learnings
 
+- 2026-11-06 (eps 14–18, five Shorts, three cut from eps 5/7/1 and two new; Trường approved all five ideas and scripts in chat): the skeptic again caught real slips (a "that's why" that contradicted itself in ep 14, 42° with no reference line in ep 16, "deeper" for bone conduction, which Reinfeldt 2010 does not support). The speech check caught two words Kokoro or the listener could misread ("thousandths" heard as "thousands", "bow" heard as "bowl"); reworded to "milliseconds" and "rainbow" and re-rendered. The cold read (Sonnet, contact sheets only) asked for labels on unlabelled pictures (which finger is which, what the circle is, the head's shadow); fixed before the final render. A Short renders in about 2–3 minutes here; five TTS runs about 5 minutes.
 - 2026-11-04 (eps 9–13, five Shorts in one run, Trường approved the three cut-downs and asked for two new Shorts): a Short takes about 2 minutes to render and 1 minute to voice on this machine, so five fit in one session. The skeptic caught a real error again (ep 11 hook had the backward/slow/freeze order wrong for a speeding-up car) and a density/volume slip (ice is ~8% less dense, takes ~9% more room). The cold read flagged unlabelled pictures (microwave waves, crossed-out icons, the pebble), fixed with one-line canvas labels before the final render.
 - Short layout that worked: question caption top (84 px, up to 3 lines, bottom ≈ 360 px), subject 440–1250 px, labels at ≈1270–1330 px to the right of the character, character at x ≈ 150 with feet at 1560 (s 0.4). The video's own 30 fps can be used as the camera (ep 11 hook: angle quantised to frame times) to show real aliasing.
 - `rm -rf <dir>/*` after `cd` is blocked by a safety check; write frame samples to fresh scratch folders instead.
@@ -375,3 +391,8 @@ Agreed translation of every scientific term, used in titles, descriptions and su
 | 11 | Why do wheels spin backwards on camera? (Short, cut from ep 3) | Uploaded 2026-11-04, **Public** 2026-11-04 (Trường asked in chat): https://youtube.com/shorts/LacxsCy1bD4 (title, description, tags, playlist Your Brain Is Tricking You, Related video → ep 3, EN subtitles; music "If I Had a Chicken" (mix 15, picked by mood without listening), translations vi/th/ja/ko/zh-Hant (title, description, subtitles) added 2026-11-04). 0:43, branch `claude/ep11-backwards-wheels`. Related → ep 3; playlist Your Brain Is Tricking You |
 | 12 | Why does ice float? (new Short) | Uploaded 2026-11-04, **Public** 2026-11-04 (Trường asked in chat): https://youtube.com/shorts/Cvag-o12Y_0 (title, description, tags, playlist Nature's Weird Rules (created Unlisted 2026-11-04; set Public when the first Short goes Public), Related video → ep 8, EN subtitles; music "Blue Skies" (mix 15, picked by mood without listening), translations vi/th/ja/ko/zh-Hant (title, description, subtitles) added 2026-11-04). 0:49, branch `claude/ep12-ice-floats`. Related → ep 8 (water molecules); playlist Nature's Weird Rules (create at upload: its first video) |
 | 13 | Why does the Moon look huge on the horizon? (new Short) | Uploaded 2026-11-04, **Public** 2026-11-04 (Trường asked in chat): https://youtube.com/shorts/9vzy6nn_b2o (title, description, tags, playlist Your Brain Is Tricking You, Related video → ep 3, EN subtitles; music "Invisible" (mix 15, picked by mood without listening), translations vi/th/ja/ko/zh-Hant (title, description, subtitles) added 2026-11-04). 0:42, branch `claude/ep13-moon-illusion`. Related → ep 3; playlist Your Brain Is Tricking You |
+| 14 | How can noise cancel noise? (Short, cut from ep 5) | Produced and pushed 2026-11-06, **not uploaded** (no linked computer that run). 0:49, 1080×1920, branch `claude/ep14-anti-noise`, file `media/ep14-anti-noise-short.mp4`, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`. Related → ep 5; playlist How Everyday Tech Works. Music: pick by mood at upload (mix 15) |
+| 15 | Why do only your fingers wrinkle? (Short, cut from ep 7) | Produced and pushed 2026-11-06, **not uploaded** (no linked computer that run). 0:49, 1080×1920, branch `claude/ep15-nerve-wrinkles`, file `media/ep15-nerve-wrinkles-short.mp4`, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`. Related → ep 7; playlist Your Body, Explained. Music: pick by mood at upload (mix 15) |
+| 16 | Why can't you ever reach a rainbow? (Short, cut from ep 1) | Produced and pushed 2026-11-06, **not uploaded** (no linked computer that run). 0:50, 1080×1920, branch `claude/ep16-rainbow-angle`, file `media/ep16-rainbow-angle-short.mp4`, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`. Related → ep 1; playlist Everyday Physics. Music: pick by mood at upload (mix 15) |
+| 17 | Why does your voice sound weird on recordings? (new Short, bone conduction) | Produced and pushed 2026-11-06, **not uploaded** (no linked computer that run). 0:48, 1080×1920, branch `claude/ep17-recorded-voice`, file `media/ep17-recorded-voice-short.mp4`, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`. Related → ep 5; playlist Your Body, Explained. Music: pick by mood at upload (mix 15) |
+| 18 | Why are bubbles always round? (new Short, surface tension) | Produced and pushed 2026-11-06, **not uploaded** (no linked computer that run). 0:40, 1080×1920, branch `claude/ep18-round-bubbles`, file `media/ep18-round-bubbles-short.mp4`, EN + 5 subtitle languages, `meta_en.json`, `tr_output.json`. Related → ep 8; playlist Nature's Weird Rules. Music: pick by mood at upload (mix 15) |
