@@ -1,0 +1,4 @@
+0:12.4  angle: script 'bends' / heard 'bands'
+
+1 beat(s) to listen to; 1 of 130 words differ (0.8%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

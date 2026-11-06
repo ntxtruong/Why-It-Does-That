@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:02,398
+Why can't you ever reach a rainbow?
+
+2
+00:00:02,698 --> 00:00:05,038
+Walk toward one, and it backs away.
+
+3
+00:00:05,038 --> 00:00:07,311
+Step sideways, and it follows you.
+
+4
+00:00:07,811 --> 00:00:11,074
+That's because a rainbow isn't a thing in the sky.
+
+5
+00:00:11,074 --> 00:00:11,987
+It's an angle.
+
+6
+00:00:12,587 --> 00:00:18,604
+Some sunlight enters a raindrop, bends, bounces off the back, and comes out again.
+
+7
+00:00:18,904 --> 00:00:24,816
+It comes back out bunched up about 42° from the path the sunlight came in on.
+
+8
+00:00:25,116 --> 00:00:31,171
+Each colour bends a little differently, so red and violet come out at slightly different angles.
+
+9
+00:00:31,671 --> 00:00:38,809
+So the rainbow is made by drops about 42° from the shadow of your head, as seen from your eye.
+
+10
+00:00:39,409 --> 00:00:42,731
+Take a step, and a different set of drops lights up.
+
+11
+00:00:42,731 --> 00:00:44,456
+The rainbow moves with you.
+
+12
+00:00:44,956 --> 00:00:48,989
+You can't reach it, because it's always 42° away.
