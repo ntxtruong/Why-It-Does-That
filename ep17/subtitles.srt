@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:02,884
+Why does your voice sound weird on recordings?
+
+2
+00:00:03,184 --> 00:00:07,075
+Hear yourself in a video, and it's like a stranger is talking.
+
+3
+00:00:07,575 --> 00:00:10,954
+When you speak, your voice reaches your ears two ways.
+
+4
+00:00:11,254 --> 00:00:15,623
+One path goes through the air, out of your mouth and into your ears.
+
+5
+00:00:15,923 --> 00:00:17,953
+The other goes through your head.
+
+6
+00:00:17,953 --> 00:00:22,751
+Your voice makes your skull vibrate, and that carries sound to your inner ear.
+
+7
+00:00:23,501 --> 00:00:30,424
+That bone path changes the mix of tones you hear, so your voice sounds fuller to you than on the recording.
+
+8
+00:00:31,024 --> 00:00:33,748
+A microphone only catches the air path.
+
+9
+00:00:34,348 --> 00:00:38,320
+So the recording is closer to the voice everyone else hears.
+
+10
+00:00:38,320 --> 00:00:44,080
+The one in your head has an extra path only you get, and that's the one you're used to.
+
+11
+00:00:44,580 --> 00:00:45,572
+That stranger?
+
+12
+00:00:45,572 --> 00:00:46,352
+That's you.

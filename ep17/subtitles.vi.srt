@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:02,884
+Tại sao giọng bạn nghe lạ trong bản ghi âm?
+
+2
+00:00:03,184 --> 00:00:07,075
+Nghe mình trong video, cứ như người lạ đang nói.
+
+3
+00:00:07,575 --> 00:00:10,954
+Khi bạn nói, giọng đến tai bạn bằng hai đường.
+
+4
+00:00:11,254 --> 00:00:15,623
+Một đường đi qua không khí, từ miệng đến tai bạn.
+
+5
+00:00:15,923 --> 00:00:17,953
+Đường kia đi xuyên qua đầu bạn.
+
+6
+00:00:17,953 --> 00:00:22,751
+Giọng nói làm hộp sọ rung lên, và rung động đó truyền âm thanh tới tai trong.
+
+7
+00:00:23,501 --> 00:00:30,424
+Đường truyền qua xương làm thay đổi sự pha trộn các âm bạn nghe, nên giọng bạn nghe đầy đặn hơn so với bản ghi âm.
+
+8
+00:00:31,024 --> 00:00:33,748
+Micro chỉ thu được đường truyền qua không khí.
+
+9
+00:00:34,348 --> 00:00:38,320
+Vì vậy bản ghi âm gần với giọng mà mọi người khác nghe được hơn.
+
+10
+00:00:38,320 --> 00:00:44,080
+Giọng trong đầu bạn có thêm một đường mà chỉ mình bạn có, và đó là giọng bạn đã quen.
+
+11
+00:00:44,580 --> 00:00:45,572
+Người lạ đó ư?
+
+12
+00:00:45,572 --> 00:00:46,352
+Là bạn đấy.
