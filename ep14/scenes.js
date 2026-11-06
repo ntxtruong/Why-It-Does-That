@@ -41,8 +41,8 @@ SCENES.hook = (t, T, B, E, dur) => {
   text("noise", X0, yN - 130, 44, CORAL, "left", 800, 1 - u);
   text("copy", X0, yA - 130, 44, BLUE, "left", 800, 1 - u);
   plate("silence", 520, yc - 150, 50, GOLD, "center", seg(t, 1.5, 1.9) * (1 - seg(t, B(1) - 0.2, B(1) + 0.2)), 800);
-  plate("not a wall: it adds sound", 470, 1130, 50, INK, "center", seg(t, B(1) + 0.2, B(1) + 0.6), 800);
-  MAS(T, { look: [0.9, -0.5], mouth: u < 0.5 ? "wince" : "smile" });
+  plate("not a wall: it adds sound", 580, 1130, 50, INK, "center", seg(t, B(1) + 0.2, B(1) + 0.6), 800);
+  MASR(T, t, { ev: [[1.5, "!", "smile"], [B(1) + 0.3, "ok"]],  look: [0.9, -0.5], mouth: u < 0.5 ? "wince" : "smile" });
 };
 
 // 2 — wave: squeezed / stretched air; a microphone listens; a flipped copy; the sum is almost nothing
@@ -52,10 +52,10 @@ SCENES.wave = (t, T, B, E, dur) => {
   air(yN, T, seg(t, 0, 0.5) * (1 - 0.6 * seg(t, B(1), B(1) + 0.6)));
   wave(yN, noiseF(T), CORALc, seg(t, 0.3, 0.9));
   // labels at a squeeze (dense dots) and a stretch: positions follow the travelling wave
-  const k = kOf(360), xs = ((OM * T / k) % 360 + 360) % 360 + X0 + 90, xp = xs + 180 > X1 ? xs - 180 : xs + 180;
+  const k = kOf(360), xs = ((OM * T / k) % 360 + 360) % 360 + X0 + 60, xp = xs + 180;
   const lab = win(t, 0.8, B(1) - 0.1, 0.3);
-  text("squeeze", Math.min(xs, 790), yN - 140, 48, INK, "center", 800, lab);
-  text("stretch", Math.min(xp, 790), yN - 140, 48, QUIET, "center", 800, lab);
+  text("squeeze", xs, yN - 140, 48, INK, "center", 800, lab);
+  text("stretch", xp, yN - 140, 48, QUIET, "center", 800, lab);
   // the microphone listens, then the flipped copy is drawn
   const mic = seg(t, B(1), B(1) + 0.5), cp = seg(t, B(1) + 1.6, B(1) + 2.6);
   rrect(X0 + 10, yN + 120, 46, 70, 22, QUIETc, mic); line(X0 + 33, yN + 190, X0 + 33, yN + 225, QUIETc, mic, 6);
@@ -67,7 +67,7 @@ SCENES.wave = (t, T, B, E, dur) => {
   wave(yS, x => noiseF(T)(x) + antiF(T)(x), GOLDc, sm, 9);
   ear(yS, sm, 1);
   plate("together ≈ 0", 520, yS - 110, 48, GOLD, "center", seg(t, B(2) + 1.8, B(2) + 2.2), 800);
-  MAS(T, { look: [0.9, -0.6], mouth: "o" });
+  MASR(T, t, { ev: [[0.3, "?"], [B(1) + 1.8, "!"], [B(2) + 1.8, "ok", "grin"]],  look: [0.9, -0.6], mouth: "o" });
 };
 
 // 3 — catch: half a cycle late → twice the height; higher sounds have shorter cycles; works best on low hums
@@ -88,7 +88,7 @@ SCENES.catch = (t, T, B, E, dur) => {
   const ok = seg(t, B(2) + 0.4, B(2) + 0.9), vo = seg(t, B(2) + 1.6, B(2) + 2.1);
   plate("steady low hum ✓", 330, 500, 46, GOLD, "center", ok, 800);
   plate("voices: less", 720, 500, 46, QUIET, "center", vo, 800);
-  MAS(T, { look: [0.9, -0.5], mouth: big > 0.5 ? "wince" : "o" });
+  MASR(T, t, { ev: [[B(0) + 2.0, "!", "wince"], [B(1) + 2.4, "?"], [B(2) + 0.5, "idea", "grin"]],  look: [0.9, -0.5], mouth: big > 0.5 ? "wince" : "o" });
 };
 
 // 4 — end: back to the pair and the flat line; in the last second the waves part again (loops to frame 1)
@@ -99,7 +99,7 @@ SCENES.end = (t, T, B, E, dur) => {
   wave(yN, noiseF(T), CORALc, 1 - 0.75 * u); wave(yA, antiF(T), BLUEc, 1 - 0.75 * u);
   wave(yc, x => noiseF(T)(x) + antiF(T)(x), GOLDc, u, 9);
   ear(yc, 1, u);
-  plate("two loud waves", 470, 1130, 52, INK, "center", win(t, 0.2, dur - 1.0, 0.3), 800);
-  plate("one quiet ear", 470, 1230, 52, GOLD, "center", win(t, 0.9, dur - 1.0, 0.3), 800);
-  MAS(T, { look: [0.9, -0.5], mouth: "smile" });
+  plate("two loud waves", 580, 1130, 52, INK, "center", win(t, 0.2, dur - 1.0, 0.3), 800);
+  plate("one quiet ear", 580, 1230, 52, GOLD, "center", win(t, 0.9, dur - 1.0, 0.3), 800);
+  MASR(T, t, { ev: [[0.4, "ok", "smile"]],  look: [0.9, -0.5], mouth: "smile" });
 };
