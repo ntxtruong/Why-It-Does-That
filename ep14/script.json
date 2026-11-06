@@ -1,0 +1,48 @@
+{
+  "title": "How Can Noise Cancel Noise?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": 5,
+  "related_episode": 5,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "How can headphones make silence by adding sound?",
+        "The electronics don't block the noise. They add more."
+      ]
+    },
+    {
+      "id": "wave",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Sound is a wave of squeezed and stretched air.",
+        "A tiny microphone listens to the noise. The headphones play a copy, flipped upside down.",
+        "Where the noise squeezes the air, the copy stretches it. Together they add up to almost nothing."
+      ]
+    },
+    {
+      "id": "catch",
+      "long": [
+        3
+      ],
+      "beats": [
+        "But timing is everything. Half a cycle late, and the copy doubles the noise instead.",
+        "A low hum's cycle lasts a few thousandths of a second. Higher sounds are faster, so the timing gets harder.",
+        "That's why it works best on steady, low hums, like an engine, and less on voices."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Two loud waves. One quiet ear."
+      ]
+    }
+  ]
+}
