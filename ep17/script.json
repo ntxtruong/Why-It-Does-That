@@ -1,0 +1,49 @@
+{
+  "title": "Why Does Your Voice Sound Weird on Recordings?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 5,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does your voice sound weird on recordings?",
+        "Hear yourself in a video, and it's like a stranger is talking."
+      ]
+    },
+    {
+      "id": "paths",
+      "long": [
+        2
+      ],
+      "beats": [
+        "When you speak, your voice reaches your ears two ways.",
+        "One path goes through the air, out of your mouth and into your ears.",
+        "The other goes through your head. Your voice makes your skull vibrate, and that carries sound to your inner ear."
+      ]
+    },
+    {
+      "id": "mix",
+      "long": [
+        0,
+        1
+      ],
+      "beats": [
+        "That bone path changes the mix of tones you hear, so your voice sounds fuller to you than on the recording.",
+        "A microphone only catches the air path.",
+        "So the recording is closer to the voice everyone else hears. The one in your head has an extra path only you get, and that's the one you're used to."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "That stranger? That's you."
+      ]
+    }
+  ]
+}
