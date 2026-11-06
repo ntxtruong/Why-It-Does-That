@@ -41,7 +41,7 @@ SCENES.hook = (t, T, B, E, dur) => {
   marks(0); bow(px + 330, 300, 1);
   plate("it backs away", 600, 640, 50, INK, "center", win(t, B(1) + 0.2, B(1) + 1.8, 0.3), 800);
   plate("it follows you", 600, 640, 50, GOLD, "center", seg(t, B(1) + 2.0, B(1) + 2.4), 800);
-  MAS(T, { x: px, look: [0.9, -0.7], mouth: "o" });
+  MASR(T, t, { ev: [[B(1) + 0.3, "?"], [B(1) + 2.1, "!"]],  x: px, look: [0.9, -0.7], mouth: "o" });
 };
 
 // 2 — angle: inside one raindrop: enter, bend, bounce off the back, exit; rays bunch near 42°; red and violet split
@@ -76,7 +76,7 @@ SCENES.angle = (t, T, B, E, dur) => {
   [[1.331, BANDS[0], "red"], [1.343, BANDS[5], "violet"]].forEach(([n, c, nm], k) => { const q = trace(Math.sqrt((4 - n * n) / 3), n), e = P(q.P3);
     line(e[0], e[1], e[0] + 560 * q.d3[0], e[1] + 560 * q.d3[1], c, col, 6);
     text(nm, e[0] + 560 * q.d3[0] - 60, e[1] + 560 * q.d3[1] + (k ? 50 : -50), 42, c, "center", 800, col); });
-  MAS(T, { look: [0.9, -0.7], mouth: "o" });
+  MASR(T, t, { ev: [[0.4, "idea"], [B(2) + 2.2, "!", "grin"], [B(3) + 0.6, "ok"]],  look: [0.9, -0.7], mouth: "o" });
 };
 
 // 3 — you: side view; the sun behind the character; drops ≈42° from the shadow of the head (seen from the eye) light up
@@ -100,7 +100,7 @@ SCENES.you = (t, T, B, E, dur) => {
   }
   plate("≈ 42° from your head's shadow", 540, 300, 46, GOLD, "center", seg(t, 1.6, 2.1) * (1 - seg(t, B(1), B(1) + 0.3)), 800);
   plate("step → new drops light up", 540, 300, 48, INK, "center", seg(t, B(1) + 0.4, B(1) + 0.8), 800);
-  MAS(T, { x: px, look: [0.9, -0.7], mouth: t > B(1) + 2 ? "grin" : "o" });
+  MASR(T, t, { ev: [[1.6, "!"], [B(1) + 0.9, "idea", "grin"]],  x: px, look: [0.9, -0.7], mouth: t > B(1) + 2 ? "grin" : "o" });
 };
 
 // 4 — end: walking again, the bow keeps its distance; ends at the opening frame (loop)
@@ -109,5 +109,5 @@ SCENES.end = (t, T, B, E, dur) => {
   const fw = eio(t / (dur - 1.0)) * (1 - eio((t - dur + 1.0) / 0.95)), px = 150 + 200 * fw;
   marks(0); bow(px + 330, 300, 1);
   plate("always 42° away", 600, 640, 54, GOLD, "center", win(t, 0.4, dur - 1.0, 0.3), 800);
-  MAS(T, { x: px, look: [0.9, -0.7], mouth: "smile" });
+  MASR(T, t, { ev: [[0.5, "ok", "smile"]],  x: px, look: [0.9, -0.7], mouth: "smile" });
 };
