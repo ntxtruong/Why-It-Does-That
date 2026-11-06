@@ -1,0 +1,48 @@
+{
+  "title": "Why Can't You Ever Reach a Rainbow?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": 1,
+  "related_episode": 1,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why can't you ever reach a rainbow?",
+        "Walk toward one, and it backs away. Step sideways, and it follows you."
+      ]
+    },
+    {
+      "id": "angle",
+      "long": [
+        0
+      ],
+      "beats": [
+        "That's because a rainbow isn't a thing in the sky. It's an angle.",
+        "Some sunlight enters a raindrop, bends, bounces off the back, and comes out again.",
+        "It comes back out bunched up about forty-two degrees from the path the sunlight came in on.",
+        "Each colour bends a little differently, so red and violet come out at slightly different angles."
+      ]
+    },
+    {
+      "id": "you",
+      "long": [
+        0
+      ],
+      "beats": [
+        "So the bow is made by drops about forty-two degrees from the shadow of your head, as seen from your eye.",
+        "Take a step, and a different set of drops lights up. The bow moves with you."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "You can't reach it, because it's always forty-two degrees away."
+      ]
+    }
+  ]
+}
