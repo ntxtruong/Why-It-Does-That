@@ -1,0 +1,51 @@
+1
+00:00:00,150 --> 00:00:02,683
+Why does cutting an onion make you cry?
+
+2
+00:00:02,983 --> 00:00:04,706
+A whole onion doesn't.
+
+3
+00:00:04,706 --> 00:00:05,881
+Only a cut one.
+
+4
+00:00:06,381 --> 00:00:13,110
+Inside each cell, the onion keeps two things apart: a harmless sulfur compound, and an enzyme.
+
+5
+00:00:13,410 --> 00:00:16,103
+Your knife breaks the cells, and the two mix.
+
+6
+00:00:16,703 --> 00:00:20,281
+A second enzyme turns the result into a stinging gas.
+
+7
+00:00:20,781 --> 00:00:24,528
+It drifts up and reaches the nerves on the surface of your eye.
+
+8
+00:00:24,828 --> 00:00:29,510
+Your eye does the only thing it can: it makes tears to wash it away.
+
+9
+00:00:30,010 --> 00:00:33,877
+Chill the onion first, and the enzymes work more slowly.
+
+10
+00:00:34,177 --> 00:00:39,334
+Scientists have even made onions with almost none of that second enzyme.
+
+11
+00:00:39,334 --> 00:00:41,125
+They hardly make you cry.
+
+12
+00:00:41,625 --> 00:00:42,945
+The onion isn't sad.
+
+13
+00:00:42,945 --> 00:00:46,114
+It's a chemical trap, and your knife springs it.

@@ -1,0 +1,53 @@
+{
+  "title": "Why Do Onions Make You Cry?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 7,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does cutting an onion make you cry?",
+        "A whole onion doesn't. Only a cut one."
+      ]
+    },
+    {
+      "id": "trap",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Inside each cell, the onion keeps two things apart: a harmless sulfur compound, and an enzyme.",
+        "Your knife breaks the cells, and the two mix.",
+        "A second enzyme turns the result into a stinging gas."
+      ]
+    },
+    {
+      "id": "eye",
+      "long": [],
+      "beats": [
+        "It drifts up and reaches the nerves on the surface of your eye.",
+        "Your eye does the only thing it can: it makes tears to wash it away."
+      ]
+    },
+    {
+      "id": "fix",
+      "long": [],
+      "beats": [
+        "Chill the onion first, and the enzymes work more slowly.",
+        "Scientists have even made onions with almost none of that second enzyme. They hardly make you cry."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "The onion isn't sad. It's a chemical trap, and your knife springs it."
+      ]
+    }
+  ]
+}
