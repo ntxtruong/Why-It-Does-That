@@ -1,0 +1,48 @@
+{
+  "title": "Why Is the Sky Blue but Sunsets Red?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": 2,
+  "related_episode": 2,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why is the sky blue, but the sunset red?",
+        "Same sun, same air. Only the path through the air changes."
+      ]
+    },
+    {
+      "id": "scatter",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Sunlight is every colour mixed together.",
+        "Air molecules knock some of it sideways, and they scatter blue about six times more strongly than red.",
+        "That scattered blue reaches you from every direction. That's the blue sky."
+      ]
+    },
+    {
+      "id": "sunset",
+      "long": [
+        1
+      ],
+      "beats": [
+        "At sunset, the light skims in almost flat, through about thirty-eight times more air.",
+        "Even in clean air, less than a thousandth of the blue survives that trip. About a quarter of the red does.",
+        "So the sun glows orange and red."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "And the blue you lost? Somebody to the west gets it, as their afternoon sky."
+      ]
+    }
+  ]
+}

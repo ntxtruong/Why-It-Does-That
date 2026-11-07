@@ -1,0 +1,51 @@
+1
+00:00:00,150 --> 00:00:02,885
+Why is the sky blue, but the sunset red?
+
+2
+00:00:03,185 --> 00:00:04,602
+Same sun, same air.
+
+3
+00:00:04,602 --> 00:00:07,435
+Only the path through the air changes.
+
+4
+00:00:07,935 --> 00:00:10,345
+Sunlight is every colour mixed together.
+
+5
+00:00:10,645 --> 00:00:17,466
+Air molecules knock some of it sideways, and they scatter blue about six times more strongly than red.
+
+6
+00:00:18,066 --> 00:00:21,474
+That scattered blue reaches you from every direction.
+
+7
+00:00:21,474 --> 00:00:22,760
+That's the blue sky.
+
+8
+00:00:23,260 --> 00:00:29,062
+At sunset, the light skims in almost flat, through about 38 times more air.
+
+9
+00:00:29,362 --> 00:00:34,478
+Even in clean air, less than a thousandth of the blue survives that trip.
+
+10
+00:00:34,478 --> 00:00:36,721
+About a quarter of the red does.
+
+11
+00:00:37,321 --> 00:00:39,528
+So the sun glows orange and red.
+
+12
+00:00:40,028 --> 00:00:41,595
+And the blue you lost?
+
+13
+00:00:41,595 --> 00:00:45,369
+Somebody to the west gets it, as their afternoon sky.
