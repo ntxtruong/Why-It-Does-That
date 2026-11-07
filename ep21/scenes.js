@@ -57,8 +57,8 @@ SCENES.air = (t, T, B, E, dur) => {
   const c = seg(t, B(1), B(1) + 0.6), X = 300, Y = 560, S = 420, d = 140;
   g.save(); g.globalAlpha = c; g.strokeStyle = css(GOLDc); g.lineWidth = 6; g.lineJoin = "round";
   g.strokeRect(X, Y, S, S); g.beginPath(); g.moveTo(X, Y); g.lineTo(X + d, Y - d); g.lineTo(X + S + d, Y - d); g.lineTo(X + S, Y); g.moveTo(X + S + d, Y - d); g.lineTo(X + S + d, Y + S - d); g.lineTo(X + S, Y + S); g.stroke(); g.restore();
-  plate("1 m³ of air · 32 °C · 75% humid", 640, 1010, 42, GOLD, "center", c, 800);
-  plate(`≈${roll(t, B(1) + 0.6, B(1) + 2.6, 25)} g of water`, 640, 1100, 54, INK, "center", seg(t, B(1) + 0.5, B(1) + 0.9), 900);
+  plate("1 m³ · 32 °C · 75% humid", 660, 1010, 38, GOLD, "center", c, 800);
+  plate(`≈${roll(t, B(1) + 0.6, B(1) + 2.6, 25)} g of water`, 660, 1100, 54, INK, "center", seg(t, B(1) + 0.5, B(1) + 0.9), 900);
   MASR(T, t, { ev: [[0.8, "!"], [B(1) + 2.6, "idea", "smile"]], look: [0.9, -0.8], mouth: "o" });
 };
 
