@@ -1,0 +1,52 @@
+{
+  "title": "Why Does a Cold Can Sweat?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 8,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does a cold can sweat?",
+        "The water isn't leaking out. The can is sealed."
+      ]
+    },
+    {
+      "id": "air",
+      "long": [],
+      "beats": [
+        "Warm air is full of invisible water vapour.",
+        "On a hot, humid day, one cubic metre of air carries about twenty-five grams of it."
+      ]
+    },
+    {
+      "id": "can",
+      "long": [
+        1
+      ],
+      "beats": [
+        "The air touching a can from the fridge chills to nearly fridge temperature.",
+        "That cold, no more than about six grams per cubic metre can stay as vapour.",
+        "The rest has nowhere to go, so it turns back into liquid, right on the can."
+      ]
+    },
+    {
+      "id": "dew",
+      "long": [],
+      "beats": [
+        "It's the same as morning dew, or the fog on your glasses when you step out of an air-conditioned room."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "The can isn't sweating. The air is."
+      ]
+    }
+  ]
+}

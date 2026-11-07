@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Tại sao lon nước lạnh lại "đổ mồ hôi"?
+
+2
+00:00:02,115 --> 00:00:03,922
+Nước không rỉ ra từ bên trong.
+
+3
+00:00:03,922 --> 00:00:05,083
+Lon được đóng kín.
+
+4
+00:00:05,583 --> 00:00:08,582
+Không khí ấm chứa đầy hơi nước vô hình.
+
+5
+00:00:08,882 --> 00:00:15,006
+Vào một ngày nóng ẩm, mỗi mét khối không khí mang khoảng 25 gam hơi nước.
+
+6
+00:00:15,506 --> 00:00:20,223
+Lớp không khí chạm vào lon lấy từ tủ lạnh nguội xuống gần bằng nhiệt độ tủ lạnh.
+
+7
+00:00:20,523 --> 00:00:25,820
+Lạnh như vậy, mỗi mét khối chỉ giữ được tối đa khoảng sáu gam ở dạng hơi.
+
+8
+00:00:26,420 --> 00:00:31,647
+Phần còn lại không còn chỗ nào để đi, nên nó trở lại thành nước lỏng, ngay trên lon.
+
+9
+00:00:32,147 --> 00:00:38,650
+Giống như sương sớm, hay lớp mờ trên kính khi bạn bước ra khỏi phòng máy lạnh.
+
+10
+00:00:39,150 --> 00:00:40,720
+Không phải lon đổ mồ hôi.
+
+11
+00:00:40,720 --> 00:00:41,471
+Mà là không khí.

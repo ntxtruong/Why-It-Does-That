@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Why does a cold can sweat?
+
+2
+00:00:02,115 --> 00:00:03,922
+The water isn't leaking out.
+
+3
+00:00:03,922 --> 00:00:05,083
+The can is sealed.
+
+4
+00:00:05,583 --> 00:00:08,582
+Warm air is full of invisible water vapour.
+
+5
+00:00:08,882 --> 00:00:15,006
+On a hot, humid day, one cubic metre of air carries about 25 grams of it.
+
+6
+00:00:15,506 --> 00:00:20,223
+The air touching a can from the fridge chills to nearly fridge temperature.
+
+7
+00:00:20,523 --> 00:00:25,820
+That cold, no more than about six grams per cubic metre can stay as vapour.
+
+8
+00:00:26,420 --> 00:00:31,647
+The rest has nowhere to go, so it turns back into liquid, right on the can.
+
+9
+00:00:32,147 --> 00:00:38,650
+It's the same as morning dew, or the fog on your glasses when you step out of an air-conditioned room.
+
+10
+00:00:39,150 --> 00:00:40,720
+The can isn't sweating.
+
+11
+00:00:40,720 --> 00:00:41,471
+The air is.

@@ -1,0 +1,17 @@
+{
+ "title": "Why Does a Cold Can Sweat? #science #physics",
+ "description": "The water on a cold can comes from the air, not from inside. On a hot, humid day (32 °C, 75% humidity) a cubic metre of air carries about 25 g of water vapour. The air touching the can cools to nearly fridge temperature, and at about 4 °C no more than about 6 g per cubic metre can stay as vapour. The rest condenses on the can, like morning dew.\n\nMore on water molecules: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nSources\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\nNext time your glass sweats, you'll know where the water came from. What else \"sweats\" around you?\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every number is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "Why does a cold can sweat?",
+  "The water isn't leaking out.",
+  "The can is sealed.",
+  "Warm air is full of invisible water vapour.",
+  "On a hot, humid day, one cubic metre of air carries about 25 grams of it.",
+  "The air touching a can from the fridge chills to nearly fridge temperature.",
+  "That cold, no more than about six grams per cubic metre can stay as vapour.",
+  "The rest has nowhere to go, so it turns back into liquid, right on the can.",
+  "It's the same as morning dew, or the fog on your glasses when you step out of an air-conditioned room.",
+  "The can isn't sweating.",
+  "The air is."
+ ]
+}
