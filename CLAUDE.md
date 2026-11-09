@@ -415,6 +415,15 @@ Reading of 2026-11-09 (Studio Analytics, 28 days; "viewed vs swiped" = "Ở lạ
 - v2 (19–21) has no data until Trường makes it Public.
 Next run: read average view duration and subscribers per Short (Analytics → Nội dung → Shorts, add the columns), compare v2 on the stayed %.
 
+## Hypotheses (updated 2026-11-09; the routine scores predictions against results every run)
+
+| # | Hypothesis | Evidence so far | Status | Next test |
+| --- | --- | --- | --- | --- |
+| H1 | A real physical object or action in frame one raises stayed % (viewed vs swiped) | v1 Shorts: object openers (bubbles, fingers, wheels, ice, microwave) 51-57 % stayed; abstract openers (noise, voice, traffic) 19-30 % | testing | eps 19-21 (sky, onion, can) once Public; every new Short states a predicted stayed % |
+| H2 | v2 burned-in captions + push-in raise stayed % and average % viewed over v1 | no data (19-21 are Unlisted) | testing | compare 19-21 with v1 when Public for 48 h |
+| H3 | The answer before 20 s keeps average % viewed higher | v1 avg % viewed 26-52 %, no link to length | testing | read retention graph of best and worst Short |
+| H4 | Titles that name the object beat abstract questions | not examined | testing | compare title wording against stayed % |
+
 ## Learnings
 
 - 2026-11-07, **Shorts v2** (Trường: "hãy tự học để cải thiện chất lượng dựng video"): Claude reviewed ep 18 frame by frame and found five weaknesses: (1) no burned-in captions, though most Shorts are watched muted; (2) the subject filled little of the frame (`qc_video.py` lit area 9–14 %, bottom half empty); (3) a dim, small opening image; (4) seams faded to an empty navy frame; (5) a static camera. Eps 19–21 fix all five: phrase captions burned in by `build.js` (≤ 24 characters a phrase, key words in gold, 62 px at x 318–938, y 1330–1500, right of the character; `captions.js` returns `{keys, skip}`), subject 380–1250 px, the payoff image at full size in frame one, a 0.12–0.18 s dip to 45 % at seams instead of a fade to navy, a slow 4.5 % push-in per scene. Lit area per scene (`qc_video.py`): ep 19 23–41 % (its sunset scene went 8.6 % → 33 % after painting the computed sky behind it), ep 20 12–23 %, ep 21 10–27 %, against 9–14 % for ep 18. Still under the 25 % target: ep 21's air scene (small molecules on dark) and ep 20's fix scene; next time give such scenes one large lit subject. Colours in ep 19 are computed from Rayleigh optical depths, not picked. Whether v2 actually keeps more viewers is unknown until the analytics are read (see "Self-learning loop").
