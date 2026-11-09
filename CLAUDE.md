@@ -394,17 +394,17 @@ Rubric (Shorts v2): payoff image readable at thumbnail size in frame one · ques
 
 | Short | Style | Length | Public since | Views | Viewed vs swiped | Avg % viewed | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6 | v1 | 0:55 | 2026-11-02 | 967 (2026-11-09; 958 after ~21 h, so almost flat since) | not read | not read | first Short |
-| 9 | v1 | 0:39 | 2026-11-04 | 504 (2026-11-09) | not read | not read | microwave middle |
-| 10 | v1 | 0:48 | 2026-11-04 | 407 | not read | not read | traffic jams |
-| 11 | v1 | 0:43 | 2026-11-04 | 1,226 | not read | not read | wheels backwards, best so far |
-| 12 | v1 | 0:49 | 2026-11-04 | 711 | not read | not read | ice floats |
-| 13 | v1 | 0:42 | 2026-11-04 | 152 | not read | not read | moon illusion, lowest |
-| 14 | v1 + livelier character | 0:49 | Public by 2026-11-06 (Studio shows Public; not set by Claude) | 454 | not read | not read | noise cancel |
-| 15 | same | 0:50 | same | 1,121 | not read | not read | fingers wrinkle |
-| 16 | same | 0:51 | same | 669 | not read | not read | rainbow |
-| 17 | same | 0:49 | same | 356 | not read | not read | voice on recordings |
-| 18 | same | 0:41 | same | 1,034 | not read | not read | bubbles |
+| 6 | v1 | 0:55 | 2026-11-02 | 988 (2026-11-09) | 20.4% stayed | 25.8% | first Short |
+| 9 | v1 | 0:39 | 2026-11-04 | 505 (2026-11-09) | 51.0% stayed | 52.3% | microwave middle |
+| 10 | v1 | 0:48 | 2026-11-04 | 413 (2026-11-09) | 29.9% stayed | 51.3% | traffic jams |
+| 11 | v1 | 0:43 | 2026-11-04 | 1,231 (2026-11-09) | 53.3% stayed | 44.7% | wheels backwards, best so far |
+| 12 | v1 | 0:49 | 2026-11-04 | 715 (2026-11-09) | 53.4% stayed | 37.6% | ice floats |
+| 13 | v1 | 0:42 | 2026-11-04 | 153 (2026-11-09) | 37.3% stayed | not read | moon illusion, lowest |
+| 14 | v1 + livelier character | 0:49 | Public by 2026-11-06 (Studio shows Public; not set by Claude) | 462 (2026-11-09) | 24.0% stayed | 31.7% | noise cancel |
+| 15 | same | 0:50 | same | 1,121 (2026-11-09) | 57.4% stayed | 42.4% | fingers wrinkle |
+| 16 | same | 0:51 | same | 693 (2026-11-09) | 30.7% stayed | 46.2% | rainbow |
+| 17 | same | 0:49 | same | 363 (2026-11-09) | 18.5% stayed | 115.8% (replays) | voice on recordings |
+| 18 | same | 0:41 | same | 1,014 (2026-11-09) | 55.2% stayed | 38.3% | bubbles |
 | 19–21 | v2 | 0:43–0:48 | Unlisted since 2026-11-09 (Public only on Trường's word) | — | — | — | first burned-in captions |
 
 Reading of 2026-11-09 (Studio Analytics, 28 days; "viewed vs swiped" = "Ở lại xem" stayed %; channel total 7,658 views, 41.7 % stayed / 58.3 % swiped, +5 subscribers, 95 % of views from the Shorts feed; average view duration and per-Short subscribers not read). 11 v1 Shorts, 153–1,231 views.
