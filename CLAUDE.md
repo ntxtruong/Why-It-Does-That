@@ -394,10 +394,20 @@ Rubric (Shorts v2): payoff image readable at thumbnail size in frame one · ques
 
 | Short | Style | Length | Public since | Views | Viewed vs swiped | Avg % viewed | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6 | v1 | 0:55 | 2026-11-02 | 958 in ~21 h (2026-11-03) | not read | not read | first Short |
-| 9–13 | v1 | 0:39–0:49 | 2026-11-04 | not read | not read | not read | Studio not reachable 2026-11-07 |
-| 14–18 | v1 + livelier character | 0:40–0:50 | Unlisted | — | — | — | |
+| 6 | v1 | 0:55 | 2026-11-02 | 967 (2026-11-09; 958 after ~21 h, so almost flat since) | not read | not read | first Short |
+| 9 | v1 | 0:39 | 2026-11-04 | 504 (2026-11-09) | not read | not read | microwave middle |
+| 10 | v1 | 0:48 | 2026-11-04 | 407 | not read | not read | traffic jams |
+| 11 | v1 | 0:43 | 2026-11-04 | 1,226 | not read | not read | wheels backwards, best so far |
+| 12 | v1 | 0:49 | 2026-11-04 | 711 | not read | not read | ice floats |
+| 13 | v1 | 0:42 | 2026-11-04 | 152 | not read | not read | moon illusion, lowest |
+| 14 | v1 + livelier character | 0:49 | Public by 2026-11-06 (Studio shows Public; not set by Claude) | 454 | not read | not read | noise cancel |
+| 15 | same | 0:50 | same | 1,121 | not read | not read | fingers wrinkle |
+| 16 | same | 0:51 | same | 669 | not read | not read | rainbow |
+| 17 | same | 0:49 | same | 356 | not read | not read | voice on recordings |
+| 18 | same | 0:41 | same | 1,034 | not read | not read | bubbles |
 | 19–21 | v2 | 0:43–0:48 | Unlisted since 2026-11-09 (Public only on Trường's word) | — | — | — | first burned-in captions |
+
+Reading of 2026-11-09 (views only, from the Studio Shorts list; Analytics pages show an error page, so viewed vs swiped and average % viewed are still unread): 11 v1 Shorts, 152–1,226 views, median 504. Ages differ (3–7 days), so views do not compare cleanly; no topic or style pattern is supported yet (top: wheels 1,226, fingers 1,121, bubbles 1,034, Leidenfrost 967; bottom: moon 152, voice 356). The sample is too small to conclude anything, and v2 (19–21) has no data until Trường makes it Public. Next run: retry Analytics with the pane visible.
 
 ## Learnings
 
