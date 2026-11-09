@@ -407,7 +407,13 @@ Rubric (Shorts v2): payoff image readable at thumbnail size in frame one · ques
 | 18 | same | 0:41 | same | 1,034 | not read | not read | bubbles |
 | 19–21 | v2 | 0:43–0:48 | Unlisted since 2026-11-09 (Public only on Trường's word) | — | — | — | first burned-in captions |
 
-Reading of 2026-11-09 (views only, from the Studio Shorts list; Analytics pages show an error page, so viewed vs swiped and average % viewed are still unread): 11 v1 Shorts, 152–1,226 views, median 504. Ages differ (3–7 days), so views do not compare cleanly; no topic or style pattern is supported yet (top: wheels 1,226, fingers 1,121, bubbles 1,034, Leidenfrost 967; bottom: moon 152, voice 356). The sample is too small to conclude anything, and v2 (19–21) has no data until Trường makes it Public. Next run: retry Analytics with the pane visible.
+Reading of 2026-11-09 (Studio Analytics, 28 days; "viewed vs swiped" = "Ở lại xem" stayed %; channel total 7,658 views, 41.7 % stayed / 58.3 % swiped, +5 subscribers, 95 % of views from the Shorts feed; average view duration and per-Short subscribers not read). 11 v1 Shorts, 153–1,231 views.
+- Stayed % tracks views: the five Shorts with stayed ≥ 51 % (wheels 53, fingers 57, bubbles 55, ice 53, microwave 51) got 505–1,231 views; the five at ≤ 31 % (Leidenfrost 20, voice 19, noise 24, traffic 30, rainbow 31) got 363–988, except Leidenfrost (988, probably the extra days online). The first seconds decide it.
+- The high-stayed group shows a physical object or action in frame one (soap bubble, wrinkled fingertip, spinning wheel, ice cube, microwave); the low group opens on an abstract idea (noise, voice, traffic wave) or a drawing of it. One channel, 11 Shorts, ages 3–7 days: a pattern to test, not a conclusion.
+- Average % viewed ranges 26–52 % (voice 116 % = many replays), no link with length at 0:41–0:55.
+- Subscribers: +5 in 28 days from 7.7 K views. Nothing to compare per Short yet.
+- v2 (19–21) has no data until Trường makes it Public.
+Next run: read average view duration and subscribers per Short (Analytics → Nội dung → Shorts, add the columns), compare v2 on the stayed %.
 
 ## Learnings
 
