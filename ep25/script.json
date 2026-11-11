@@ -1,0 +1,58 @@
+{
+  "title": "Why Does Toast Land Butter-Side Down?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 3,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does toast land butter-side down?",
+        "It's not bad luck, and it's not the weight of the butter."
+      ]
+    },
+    {
+      "id": "answer",
+      "long": [],
+      "beats": [
+        "Mostly, it's the height of your table."
+      ]
+    },
+    {
+      "id": "tip",
+      "long": [
+        1
+      ],
+      "beats": [
+        "As toast slides off the edge, it pivots on the rim and starts to spin.",
+        "But the spin is slow, and the fall is short: from a table, about four tenths of a second."
+      ]
+    },
+    {
+      "id": "half",
+      "long": [],
+      "beats": [
+        "In that time, the toast only manages about half a turn.",
+        "It started butter up. Half a turn later: butter down."
+      ]
+    },
+    {
+      "id": "tall",
+      "long": [],
+      "beats": [
+        "From a table about three metres high, it would spin a full turn and land butter up."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "So don't blame the butter. Blame the table."
+      ]
+    }
+  ]
+}
