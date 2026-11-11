@@ -1,0 +1,52 @@
+{
+  "title": "Why Does Your Phone Go Dark Through Sunglasses?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 5,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does your phone go dark through sunglasses?",
+        "Tilt your head, and the picture usually comes back."
+      ]
+    },
+    {
+      "id": "light",
+      "long": [],
+      "beats": [
+        "Light is a wave, and it can wiggle in any direction.",
+        "Many phone screens only let out light that wiggles one way."
+      ]
+    },
+    {
+      "id": "glasses",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Polarized sunglasses are a filter too.",
+        "Worn upright, they only pass up-and-down wiggles, to block the glare off roads and water."
+      ]
+    },
+    {
+      "id": "cross",
+      "long": [],
+      "beats": [
+        "Line the two filters up, and the light gets through.",
+        "Turn one a quarter turn, and they cross. Almost nothing passes."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Your screen never switched off. Your glasses just blocked it."
+      ]
+    }
+  ]
+}
