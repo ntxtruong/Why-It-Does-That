@@ -1,0 +1,53 @@
+{
+  "title": "Why Does a Spoon Look Broken in Water?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 1,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does a spoon look broken in water?",
+        "Pull it out, and it's perfectly straight."
+      ]
+    },
+    {
+      "id": "ray",
+      "long": [],
+      "beats": [
+        "You see the spoon by the light that leaves it and reaches your eye.",
+        "In water, light travels about a quarter slower than in air."
+      ]
+    },
+    {
+      "id": "bend",
+      "long": [
+        1
+      ],
+      "beats": [
+        "So a ray leaving the water at a slant bends at the surface, tipping flatter.",
+        "But your brain assumes the ray never bent.",
+        "It traces each ray straight back, to a spot higher than the spoon really is."
+      ]
+    },
+    {
+      "id": "snap",
+      "long": [],
+      "beats": [
+        "The part in the air appears where it is. The part under water appears lifted.",
+        "So the spoon seems to snap right at the surface."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "The spoon isn't bent. The light is."
+      ]
+    }
+  ]
+}

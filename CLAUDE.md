@@ -304,6 +304,8 @@ Terms from episodes 19–21 (2026-11-07), with the two new languages (machine-dr
 
 ## Open items (2026-11-03)
 
+- 2026-11-11: no browser linked, Stage 0 skipped. Trường said Shorts 19–21 are Public with limited views; read their stayed % and retention in the next run with Studio (H2). Eps 22–24 (spoon, coin, soda; all three approved as ideas) in production on `claude/ep22-spoon-refraction`, `claude/ep23-spinning-coin`, `claude/ep24-soda-bubbles`.
+
 - 2026-11-09: Shorts 19–21 uploaded Unlisted in Claude in Chrome with Related video, playlist, EN + 7 translations and music (mix 15). Not done: Shorts analytics, pinned comments (Trường posts), Public switch. Lessons: a hidden/unfocused Chrome tab throttles Studio dialogs, so run one tab at a time and take a screenshot every ~10 s to keep it live; the translation dialog sometimes skips "Lưu nội dung thay đổi", so afterwards check the translations table for "–" in the title or subtitle column and fix by clicking the language row (Cập nhật); the Related-video picker lists long videos only after scrolling to the bottom; the editor's permanent-save confirmation checkbox needs a real click (not JS) and the save of a Short's edit is permanent, so it needs Trường's word in chat.
 - 2026-11-07: Shorts 14–18 uploaded Unlisted with translations and music (Trường asked in chat). Shorts 19–21 produced in the new v2 style and pushed; not uploaded (Claude in Chrome was not reachable from Trường's phone). Next run with a browser: upload 19–21 Unlisted with Related video, playlist, EN + 7 languages, music; read the Shorts analytics into the Self-learning loop table. Public only on Trường's word.
 
@@ -405,7 +407,7 @@ Rubric (Shorts v2): payoff image readable at thumbnail size in frame one · ques
 | 16 | same | 0:51 | same | 693 (2026-11-09) | 30.7% stayed | 46.2% | rainbow |
 | 17 | same | 0:49 | same | 363 (2026-11-09) | 18.5% stayed | 115.8% (replays) | voice on recordings |
 | 18 | same | 0:41 | same | 1,014 (2026-11-09) | 55.2% stayed | 38.3% | bubbles |
-| 19–21 | v2 | 0:43–0:48 | Unlisted since 2026-11-09 (Public only on Trường's word) | — | — | — | first burned-in captions |
+| 19–21 | v2 | 0:43–0:48 | Public by 2026-11-11 (Trường said so in chat; switched by him) | — | — | — | first burned-in captions; Trường: "lượt xem khá hạn chế" (2026-11-11), numbers not read (no browser that run) |
 
 Reading of 2026-11-09 (Studio Analytics, 28 days; "viewed vs swiped" = "Ở lại xem" stayed %; channel total 7,658 views, 41.7 % stayed / 58.3 % swiped, +5 subscribers, 95 % of views from the Shorts feed; average view duration and per-Short subscribers not read). 11 v1 Shorts, 153–1,231 views.
 - Stayed % tracks views: the five Shorts with stayed ≥ 51 % (wheels 53, fingers 57, bubbles 55, ice 53, microwave 51) got 505–1,231 views; the five at ≤ 31 % (Leidenfrost 20, voice 19, noise 24, traffic 30, rainbow 31) got 363–988, except Leidenfrost (988, probably the extra days online). The first seconds decide it.
