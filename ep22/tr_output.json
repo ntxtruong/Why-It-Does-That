@@ -1,0 +1,210 @@
+{
+ "vi": {
+  "title": "Sao thìa trông như bị gãy trong nước? #science #physics",
+  "description": "Chiếc thìa trong nước không bị cong: ánh sáng mới bị bẻ. Ánh sáng đi trong nước chậm hơn trong không khí khoảng một phần tư (chiết suất 1,33), nên tia sáng đi ra khỏi nước theo hướng xiên sẽ bị bẻ tại mặt nước. Não bạn lần ngược mỗi tia theo đường thẳng, nên phần thìa dưới nước trông như được nâng lên, và chiếc thìa có vẻ gãy ngay tại mặt nước.\n\nThêm về sự bẻ cong ánh sáng: Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\nNguồn\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\nHôm nay hãy nhìn cái ống hút trong ly của bạn: nó trông như gãy ở chỗ nào?\n\nKịch bản, giọng đọc và hoạt họa do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Sao thìa trông như bị gãy trong nước?",
+   "Nhấc ra khỏi nước, nó thẳng tắp.",
+   "Bạn thấy thìa nhờ ánh sáng rời khỏi nó và tới mắt bạn.",
+   "Trong nước, ánh sáng đi chậm hơn trong không khí khoảng một phần tư.",
+   "Nên tia sáng ra khỏi nước theo hướng xiên bị bẻ tại mặt nước, nằm thấp xuống.",
+   "Nhưng não bạn tưởng tia sáng chưa từng bị bẻ.",
+   "Nó lần ngược mỗi tia theo đường thẳng, tới chỗ cao hơn vị trí thật của thìa.",
+   "Phần thìa trong không khí hiện đúng chỗ.",
+   "Phần dưới nước hiện lên cao hơn.",
+   "Nên thìa trông như gãy ngay tại mặt nước.",
+   "Chiếc thìa không hề cong.",
+   "Ánh sáng mới bị bẻ."
+  ]
+ },
+ "th": {
+  "title": "ทำไมช้อนดูเหมือนหักในน้ำ #science #physics",
+  "description": "ช้อนในน้ำไม่ได้งอ แต่แสงต่างหากที่หักเห แสงเดินทางในน้ำช้ากว่าในอากาศประมาณหนึ่งในสี่ (ดัชนีหักเห 1.33) ดังนั้นรังสีแสงที่ออกจากน้ำในแนวเฉียงจึงหักเหที่ผิวน้ำ สมองของคุณลากเส้นย้อนกลับของแต่ละรังสีเป็นเส้นตรง ส่วนของช้อนใต้น้ำจึงดูเหมือนถูกยกขึ้น และช้อนก็ดูเหมือนหักตรงผิวน้ำพอดี\n\nเรื่องการหักเหของแสงเพิ่มเติม: Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\nแหล่งที่มา\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\nวันนี้ลองดูหลอดในแก้วของคุณสิ ดูเหมือนมันหักตรงไหน\n\nบทพูด เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ทุกข้ออ้างได้รับการตรวจสอบกับแหล่งที่มาข้างต้น\n#Shorts",
+  "subtitles": [
+   "ทำไมช้อนดูเหมือนหักในน้ำ",
+   "ยกขึ้นมาจากน้ำ มันก็ตรงสนิท",
+   "คุณมองเห็นช้อนจากแสงที่ออกจากช้อนมาถึงตาคุณ",
+   "ในน้ำ แสงเดินทางช้ากว่าในอากาศประมาณหนึ่งในสี่",
+   "รังสีแสงที่ออกจากน้ำในแนวเฉียงจึงหักเหที่ผิวน้ำ และเอียงราบลง",
+   "แต่สมองคิดว่ารังสีไม่เคยหักเห",
+   "มันลากย้อนแต่ละรังสีเป็นเส้นตรง ไปยังจุดที่สูงกว่าตำแหน่งจริงของช้อน",
+   "ส่วนที่อยู่ในอากาศปรากฏตรงตำแหน่งจริง",
+   "ส่วนที่อยู่ใต้น้ำปรากฏสูงขึ้น",
+   "ช้อนจึงดูเหมือนหักตรงผิวน้ำ",
+   "ช้อนไม่ได้งอ",
+   "แสงต่างหากที่หักเห"
+  ]
+ },
+ "ja": {
+  "title": "水の中のスプーンはなぜ折れて見える？ #science #physics",
+  "description": "水の中のスプーンは曲がっていません。曲がっているのは光です。光は水中では空気中より約4分の1遅く進む（屈折率1.33）ため、水から斜めに出る光線は水面で曲がります。脳は各光線をまっすぐ逆にたどるので、水中の部分は持ち上がって見え、スプーンは水面でぽきりと折れたように見えます。\n\n光の曲がり方をもっと知る： Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\n出典\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\n今日はコップのストローを見てみよう。どこで折れて見えるかな？\n\n台本、音声、アニメーションはAIが制作しています（Claude、音声はKokoro）。すべての主張は上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "水の中のスプーンはなぜ折れて見える？",
+   "引き上げると、ちゃんとまっすぐ。",
+   "スプーンから出て目に届く光で、私たちは見ています。",
+   "水中の光は、空気中より約4分の1遅く進みます。",
+   "水から斜めに出る光線は、水面で曲がって寝ます。",
+   "でも脳は、光線が曲がっていないと思い込みます。",
+   "各光線をまっすぐ逆にたどり、本当より高い位置を示します。",
+   "空気中の部分は、そのままの位置に見えます。",
+   "水中の部分は、持ち上がって見えます。",
+   "だからスプーンは水面で折れたように見えます。",
+   "スプーンは曲がっていません。",
+   "曲がっているのは光です。"
+  ]
+ },
+ "ko": {
+  "title": "물속 숟가락은 왜 꺾여 보일까? #science #physics",
+  "description": "물속의 숟가락은 휘지 않았습니다. 휜 것은 빛입니다. 빛은 물속에서 공기 중보다 약 4분의 1 느리게 나아가기(굴절률 1.33) 때문에, 물에서 비스듬히 나온 광선은 수면에서 꺾입니다. 뇌는 각 광선을 곧게 거슬러 추적하므로 물속 부분이 떠올라 보이고, 숟가락이 수면에서 딱 꺾인 것처럼 보입니다.\n\n빛의 꺾임에 대해 더 알아보기: Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\n출처\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\n오늘 컵 속 빨대를 보세요. 어디에서 꺾여 보이나요?\n\n대본, 음성, 애니메이션은 AI가 제작했습니다(Claude, Kokoro 음성). 모든 주장은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "물속 숟가락은 왜 꺾여 보일까?",
+   "꺼내 보면 완전히 곧습니다.",
+   "우리는 숟가락에서 나와 눈에 닿는 빛으로 숟가락을 봅니다.",
+   "물속에서 빛은 공기 중보다 약 4분의 1 느리게 나아갑니다.",
+   "그래서 물에서 비스듬히 나온 광선은 수면에서 꺾여 눕습니다.",
+   "하지만 뇌는 광선이 꺾이지 않았다고 가정합니다.",
+   "각 광선을 곧게 거슬러, 숟가락의 실제보다 높은 곳을 찾습니다.",
+   "공기 중의 부분은 제 위치에 보입니다.",
+   "물속 부분은 떠올라 보입니다.",
+   "그래서 숟가락이 수면에서 꺾인 것처럼 보입니다.",
+   "숟가락은 휘지 않았습니다.",
+   "휜 것은 빛입니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼湯匙在水裡看起來斷了？ #science #physics",
+  "description": "水裡的湯匙並沒有彎，彎的是光。光在水中的速度比在空氣中慢約四分之一（折射率 1.33），所以從水中斜向射出的光線會在水面折射。你的大腦會把每條光線沿直線往回推，因此水下的部分看起來被抬高了，湯匙就像在水面處折斷一樣。\n\n更多關於光線彎折： Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\n資料來源\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\n今天看看杯子裡的吸管吧：它看起來在哪裡折斷？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上述資料來源查證。\n#Shorts",
+  "subtitles": [
+   "為什麼湯匙在水裡看起來斷了？",
+   "拿出水面，它其實是直的。",
+   "你看見湯匙，是因為它發出的光進入了你的眼睛。",
+   "在水中，光比在空氣中慢約四分之一。",
+   "所以從水中斜向射出的光線，在水面折射而變平。",
+   "但大腦以為光線從未彎折。",
+   "它把每條光線沿直線往回推，推到比湯匙實際位置更高的地方。",
+   "空氣中的部分，出現在原本的位置。",
+   "水下的部分，看起來被抬高。",
+   "於是湯匙看起來剛好在水面斷掉。",
+   "湯匙並沒有彎。",
+   "彎的是光。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Sendok Tampak Patah di Dalam Air? #science #physics",
+  "description": "Sendok di dalam air tidak bengkok: cahayanya yang membelok. Cahaya merambat sekitar seperempat lebih lambat di air daripada di udara (indeks bias 1,33), sehingga sinar yang keluar dari air secara miring membelok di permukaan. Otakmu menelusuri setiap sinar lurus ke belakang, jadi bagian sendok di bawah air tampak terangkat, dan sendok seolah patah tepat di permukaan.\n\nLebih lanjut tentang pembelokan cahaya: Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\nSumber\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\nHari ini, lihat sedotan di gelasmu: di mana tampaknya ia patah?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim sudah diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa sendok tampak patah di dalam air?",
+   "Angkat keluar, dan sendoknya lurus sempurna.",
+   "Kamu melihat sendok lewat cahaya yang keluar darinya dan sampai ke matamu.",
+   "Di dalam air, cahaya merambat sekitar seperempat lebih lambat daripada di udara.",
+   "Jadi sinar yang keluar dari air secara miring membelok di permukaan, menjadi lebih landai.",
+   "Tapi otakmu mengira sinar itu tidak pernah membelok.",
+   "Ia menelusuri tiap sinar lurus ke belakang, ke titik yang lebih tinggi dari posisi sendok sebenarnya.",
+   "Bagian di udara tampak di tempat aslinya.",
+   "Bagian di bawah air tampak terangkat.",
+   "Jadi sendok seolah patah tepat di permukaan.",
+   "Sendoknya tidak bengkok.",
+   "Cahayanya yang membelok."
+  ]
+ },
+ "fil": {
+  "title": "Bakit Mukhang Putol ang Kutsara sa Tubig? #science #physics",
+  "description": "Hindi baluktot ang kutsara sa tubig: ang liwanag ang bumabaluktot. Mas mabagal ng mga isang-kapat ang takbo ng liwanag sa tubig kaysa sa hangin (refractive index 1.33), kaya ang sinag na lumalabas sa tubig nang pahilis ay bumabaluktot sa ibabaw. Binabalikan ng utak mo ang bawat sinag nang tuwid, kaya mukhang nakataas ang bahagi ng kutsara sa ilalim ng tubig, at parang naputol ang kutsara mismo sa ibabaw.\n\nHigit pa tungkol sa pagbaluktot ng liwanag: Why is a rainbow always at the same angle? https://youtu.be/CywvAndxdSk\n\nMga Pinagmulan\n- OpenStax, University Physics Volume 3, 1.3 Refraction (Snell's law, index of water 1.333)\n- OpenStax, University Physics Volume 3, 2.3 Images Formed by Refraction (apparent depth)\n- OpenStax, Physics (high school), 16.2 Refraction\n\nTingnan mo ngayon ang straw sa baso mo: saan ito mukhang naputol?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat claim ay tinsek sa mga source sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit mukhang putol ang kutsara sa tubig?",
+   "Iahon mo, at tuwid na tuwid pala ito.",
+   "Nakikita mo ang kutsara dahil sa liwanag na lumalabas dito at umaabot sa mata mo.",
+   "Sa tubig, mas mabagal ng mga isang-kapat ang liwanag kaysa sa hangin.",
+   "Kaya ang sinag na lumalabas sa tubig nang pahilis ay bumabaluktot sa ibabaw, at humihiga.",
+   "Pero akala ng utak mo, hindi kailanman bumaluktot ang sinag.",
+   "Binabalikan nito ang bawat sinag nang tuwid, sa lugar na mas mataas kaysa sa tunay na kinalalagyan ng kutsara.",
+   "Ang bahaging nasa hangin ay lumilitaw kung nasaan talaga ito.",
+   "Ang bahaging nasa ilalim ng tubig ay mukhang nakataas.",
+   "Kaya parang naputol ang kutsara mismo sa ibabaw.",
+   "Hindi baluktot ang kutsara.",
+   "Ang liwanag ang baluktot."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "refractive index",
+   "vi": "chiết suất",
+   "th": "ดัชนีหักเห",
+   "ja": "屈折率",
+   "ko": "굴절률",
+   "zh-Hant": "折射率",
+   "id": "indeks bias",
+   "fil": "refractive index"
+  },
+  {
+   "en": "light ray",
+   "vi": "tia sáng",
+   "th": "รังสีแสง",
+   "ja": "光線",
+   "ko": "광선",
+   "zh-Hant": "光線",
+   "id": "sinar cahaya",
+   "fil": "sinag ng liwanag"
+  },
+  {
+   "en": "touching point (contact point)",
+   "vi": "điểm tiếp xúc",
+   "th": "จุดสัมผัส",
+   "ja": "接点",
+   "ko": "접촉점",
+   "zh-Hant": "接觸點",
+   "id": "titik sentuh",
+   "fil": "contact point"
+  },
+  {
+   "en": "energy",
+   "vi": "năng lượng",
+   "th": "พลังงาน",
+   "ja": "エネルギー",
+   "ko": "에너지",
+   "zh-Hant": "能量",
+   "id": "energi",
+   "fil": "enerhiya"
+  },
+  {
+   "en": "carbon dioxide",
+   "vi": "carbon dioxide",
+   "th": "คาร์บอนไดออกไซด์",
+   "ja": "二酸化炭素",
+   "ko": "이산화탄소",
+   "zh-Hant": "二氧化碳",
+   "id": "karbon dioksida",
+   "fil": "carbon dioxide"
+  },
+  {
+   "en": "lint / hollow fibre",
+   "vi": "xơ (sợi xơ rỗng)",
+   "th": "ขุย / เส้นใยกลวง",
+   "ja": "糸くず / 中空の繊維",
+   "ko": "보푸라기 / 속 빈 섬유",
+   "zh-Hant": "棉絮 / 中空纖維",
+   "id": "serabut / serat berongga",
+   "fil": "lint / guwang na hibla"
+  },
+  {
+   "en": "bubble",
+   "vi": "bọt khí",
+   "th": "ฟอง",
+   "ja": "泡",
+   "ko": "거품",
+   "zh-Hant": "氣泡",
+   "id": "gelembung",
+   "fil": "bubble"
+  },
+  {
+   "en": "gas pocket",
+   "vi": "túi khí",
+   "th": "โพรงก๊าซ",
+   "ja": "ガスの空洞",
+   "ko": "기체 주머니",
+   "zh-Hant": "氣體空腔",
+   "id": "kantong gas",
+   "fil": "bulsa ng gas"
+  }
+ ]
+}

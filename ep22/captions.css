@@ -1,0 +1,5 @@
+      /* Short (1080×1920): the question sits in the top third, wraps, and stays left of the Shorts buttons. */
+      .q { left: 60px; top: 110px; width: 880px; white-space: normal; font-size: 84px; line-height: 1.08; padding: 18px 30px 22px; }
+      /* burned-in phrase captions (Shorts v2): right of the character, above the Shorts UI (y < 1536) */
+      .kara { position: absolute; left: 318px; top: 1330px; width: 620px; text-align: center; font-size: 62px; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; color: #FFFFFF; padding: 12px 18px 16px; background: rgba(14, 22, 48, 0.78); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #FFD45E; font-weight: 900; }
