@@ -1,0 +1,52 @@
+{
+  "title": "Why Does a Spinning Coin Speed Up Before It Stops?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 3,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does a spinning coin speed up before it stops?",
+        "The rattle gets faster and faster, then suddenly, silence."
+      ]
+    },
+    {
+      "id": "face",
+      "long": [],
+      "beats": [
+        "But late in the spin, the coin's face is barely turning."
+      ]
+    },
+    {
+      "id": "point",
+      "long": [
+        1
+      ],
+      "beats": [
+        "What speeds up is the point where the edge touches the table.",
+        "As the coin loses energy, it leans lower.",
+        "And the lower it leans, the faster that touching point races around the circle."
+      ]
+    },
+    {
+      "id": "sound",
+      "long": [],
+      "beats": [
+        "Each lap adds a tap on the table, so the rattle rises.",
+        "Near the end, it laps tens of times a second, then the coin drops flat."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "The coin is losing energy. Only the touching point speeds up."
+      ]
+    }
+  ]
+}
