@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,265
+Why does a spinning coin speed up before it stops?
+
+2
+00:00:03,565 --> 00:00:07,587
+The rattle gets faster and faster, then suddenly, silence.
+
+3
+00:00:08,087 --> 00:00:11,813
+But late in the spin, the coin's face is barely turning.
+
+4
+00:00:12,313 --> 00:00:15,982
+What speeds up is the point where the edge touches the table.
+
+5
+00:00:16,282 --> 00:00:19,495
+As the coin loses energy, it leans lower.
+
+6
+00:00:20,095 --> 00:00:25,384
+And the lower it leans, the faster that touching point races around the circle.
+
+7
+00:00:25,884 --> 00:00:29,798
+Each lap adds a tap on the table, so the rattle rises.
+
+8
+00:00:30,098 --> 00:00:34,815
+Near the end, it laps tens of times a second, then the coin drops flat.
+
+9
+00:00:35,315 --> 00:00:37,203
+The coin is losing energy.
+
+10
+00:00:37,203 --> 00:00:39,672
+Only the touching point speeds up.

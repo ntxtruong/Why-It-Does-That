@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,265
+Kenapa koin berputar makin cepat sebelum berhenti?
+
+2
+00:00:03,565 --> 00:00:07,587
+Bunyi gemeretaknya makin cepat, lalu tiba-tiba hening.
+
+3
+00:00:08,087 --> 00:00:11,813
+Tapi di akhir putaran, permukaan koin hampir tidak berputar.
+
+4
+00:00:12,313 --> 00:00:15,982
+Yang makin cepat adalah titik tempat tepi menyentuh meja.
+
+5
+00:00:16,282 --> 00:00:19,495
+Saat kehilangan energi, koin miring makin rendah.
+
+6
+00:00:20,095 --> 00:00:25,384
+Makin rendah miringnya, makin cepat titik sentuh itu mengitari lingkaran.
+
+7
+00:00:25,884 --> 00:00:29,798
+Tiap putaran menambah satu ketukan di meja, jadi bunyinya makin rapat.
+
+8
+00:00:30,098 --> 00:00:34,815
+Di akhir, ia berputar puluhan kali per detik, lalu koin jatuh rata.
+
+9
+00:00:35,315 --> 00:00:37,203
+Koin itu kehilangan energi.
+
+10
+00:00:37,203 --> 00:00:39,672
+Hanya titik sentuhnya yang makin cepat.

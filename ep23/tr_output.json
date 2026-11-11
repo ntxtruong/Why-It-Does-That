@@ -1,0 +1,196 @@
+{
+ "vi": {
+  "title": "Sao đồng xu quay nhanh dần trước khi dừng? #physics",
+  "description": "Đồng xu đang quay không hề nhanh lên: nó đang mất năng lượng. Thứ nhanh lên là điểm mép đồng xu chạm bàn. Khi đồng xu nghiêng thấp dần, điểm tiếp xúc đó chạy vòng quanh nhanh hơn (với đĩa lăn lý tưởng, tốc độ tăng theo nghịch đảo căn bậc hai của độ nghiêng), nên tiếng lạch cạch tăng lên hàng chục vòng mỗi giây trước khi đồng xu đổ phẳng. Cảnh quay chậm 12 lần; số vòng mỗi giây tính cho đồng xu 12 mm.\n\nThêm về chuyển động đánh lừa mắt bạn: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nNguồn\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\nHãy quay một đồng xu và lắng nghe: bạn có nghe thấy lúc nó bắt đầu chạy nhanh không?\n\nKịch bản, giọng đọc và hoạt họa do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Sao đồng xu quay nhanh dần trước khi dừng?",
+   "Tiếng lạch cạch nhanh dần, rồi bỗng im bặt.",
+   "Nhưng cuối vòng quay, mặt đồng xu gần như không xoay.",
+   "Thứ nhanh lên là điểm mép chạm bàn.",
+   "Đồng xu mất năng lượng nên nghiêng thấp dần.",
+   "Nghiêng càng thấp, điểm tiếp xúc chạy quanh vòng càng nhanh.",
+   "Mỗi vòng thêm một tiếng gõ lên bàn, nên tiếng rung dồn dập hơn.",
+   "Cuối cùng, nó chạy hàng chục vòng mỗi giây rồi đổ phẳng.",
+   "Đồng xu đang mất năng lượng.",
+   "Chỉ có điểm tiếp xúc là nhanh lên."
+  ]
+ },
+ "th": {
+  "title": "ทำไมเหรียญหมุนเร็วขึ้นก่อนหยุด #physics",
+  "description": "เหรียญที่หมุนไม่ได้เร็วขึ้น แต่กำลังสูญเสียพลังงาน สิ่งที่เร็วขึ้นคือจุดที่ขอบเหรียญแตะโต๊ะ เมื่อเหรียญเอนต่ำลง จุดสัมผัสนั้นวิ่งรอบเร็วขึ้น (สำหรับจานกลิ้งในอุดมคติ อัตราเพิ่มตามหนึ่งส่วนรากที่สองของมุมเอียง) เสียงกรุ๋งกริ๋งจึงถี่ขึ้นเป็นหลายสิบรอบต่อวินาทีก่อนเหรียญจะล้มราบ ภาพนี้ช้าลง 12 เท่า จำนวนรอบต่อวินาทีคำนวณสำหรับเหรียญ 12 มม.\n\nเรื่องการเคลื่อนไหวที่หลอกตาเพิ่มเติม: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nแหล่งที่มา\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\nลองหมุนเหรียญแล้วฟังดู คุณได้ยินจังหวะที่มันเริ่มเร่งไหม\n\nบทพูด เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ทุกข้ออ้างได้รับการตรวจสอบกับแหล่งที่มาข้างต้น\n#Shorts",
+  "subtitles": [
+   "ทำไมเหรียญหมุนเร็วขึ้นก่อนหยุด",
+   "เสียงกรุ๋งกริ๋งถี่ขึ้นเรื่อย ๆ แล้วเงียบสนิท",
+   "แต่ช่วงท้าย หน้าเหรียญแทบไม่หมุนแล้ว",
+   "สิ่งที่เร็วขึ้นคือจุดที่ขอบแตะโต๊ะ",
+   "เมื่อเหรียญเสียพลังงาน มันเอนต่ำลง",
+   "ยิ่งเอนต่ำ จุดสัมผัสยิ่งวิ่งรอบวงเร็วขึ้น",
+   "ทุกรอบเพิ่มเสียงเคาะบนโต๊ะ เสียงจึงถี่ขึ้น",
+   "ใกล้จบ มันวิ่งหลายสิบรอบต่อวินาที แล้วเหรียญก็ล้มราบ",
+   "เหรียญกำลังสูญเสียพลังงาน",
+   "มีแค่จุดสัมผัสที่เร็วขึ้น"
+  ]
+ },
+ "ja": {
+  "title": "回るコインは止まる前になぜ速くなる？ #physics",
+  "description": "回るコインが速くなっているのではなく、エネルギーを失っています。速くなるのは、コインの縁が机に触れている点です。コインが低く傾くほど、その接点は速く回ります（理想的な転がる円盤では、傾きの平方根の逆数に比例して増えます）。そのためカタカタ音は1秒間に数十周まで速まり、コインはぱたりと倒れます。映像は12分の1に減速、1秒あたりの周回数は直径12 mmのコインで計算しています。\n\n目をだます動きをもっと知る： Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n出典\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\nコインを回して耳を澄まそう。速くなり始める瞬間が聞こえるかな？\n\n台本、音声、アニメーションはAIが制作しています（Claude、音声はKokoro）。すべての主張は上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "回るコインは止まる前になぜ速くなる？",
+   "カタカタ音はどんどん速まり、突然の静寂。",
+   "でも終わり際、コインの面はほとんど回っていません。",
+   "速くなるのは、縁が机に触れる点です。",
+   "コインはエネルギーを失い、低く傾きます。",
+   "傾くほど、接点は円を速く回ります。",
+   "1周ごとに机を1回たたくので、音が速まります。",
+   "最後は1秒に数十周し、コインは平らに倒れます。",
+   "コインはエネルギーを失っています。",
+   "速くなるのは接点だけです。"
+  ]
+ },
+ "ko": {
+  "title": "돌던 동전은 왜 멈추기 전에 빨라질까? #physics",
+  "description": "돌고 있는 동전이 빨라지는 것이 아니라 에너지를 잃고 있습니다. 빨라지는 것은 동전 모서리가 탁자에 닿는 점입니다. 동전이 낮게 기울수록 그 접촉점은 더 빠르게 돌아다닙니다(이상적인 구르는 원판에서는 기울기의 제곱근에 반비례해 빨라집니다). 그래서 달그락 소리는 초당 수십 바퀴까지 빨라진 뒤 동전이 납작하게 쓰러집니다. 영상은 12배 느리게 보여 주며, 초당 바퀴 수는 12 mm 동전 기준으로 계산했습니다.\n\n눈을 속이는 움직임 더 알아보기: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n출처\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\n동전을 돌리고 귀 기울여 보세요. 빨라지기 시작하는 순간이 들리나요?\n\n대본, 음성, 애니메이션은 AI가 제작했습니다(Claude, Kokoro 음성). 모든 주장은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "돌던 동전은 왜 멈추기 전에 빨라질까?",
+   "달그락 소리가 점점 빨라지다가 갑자기 정적.",
+   "하지만 막판에 동전 면은 거의 돌지 않습니다.",
+   "빨라지는 것은 모서리가 탁자에 닿는 점입니다.",
+   "동전이 에너지를 잃으면서 더 낮게 기웁니다.",
+   "낮게 기울수록 접촉점은 원을 더 빨리 돕니다.",
+   "한 바퀴마다 탁자를 한 번 두드려 소리가 빨라집니다.",
+   "끝에서는 초당 수십 바퀴를 돈 뒤 동전이 납작하게 쓰러집니다.",
+   "동전은 에너지를 잃고 있습니다.",
+   "빨라지는 것은 접촉점뿐입니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "旋轉的硬幣為什麼停下前會加速？ #physics",
+  "description": "旋轉的硬幣並沒有加速，它其實在損失能量。加速的是硬幣邊緣接觸桌面的那個點。硬幣傾斜得越低，這個接觸點繞圈就越快（對理想的滾動圓盤而言，速率與傾角的平方根成反比），所以嗒嗒聲會升到每秒數十圈，然後硬幣平躺下來。畫面為 12 倍慢動作；每秒圈數以 12 mm 硬幣計算。\n\n更多會騙過眼睛的運動： Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n資料來源\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\n轉一枚硬幣聽聽看：你能聽出它開始加速的那一刻嗎？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上述資料來源查證。\n#Shorts",
+  "subtitles": [
+   "旋轉的硬幣為什麼停下前會加速？",
+   "嗒嗒聲越來越快，然後突然安靜。",
+   "但接近尾聲時，硬幣表面幾乎沒在轉。",
+   "加速的是邊緣接觸桌面的那個點。",
+   "硬幣損失能量，傾斜得越來越低。",
+   "越低，接觸點繞圈就越快。",
+   "每繞一圈就敲桌面一下，所以聲音越來越密。",
+   "接近尾聲時，每秒繞數十圈，然後硬幣平躺。",
+   "硬幣正在損失能量。",
+   "只有接觸點在加速。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Koin Berputar Makin Cepat Sebelum Berhenti? #physics",
+  "description": "Koin yang berputar sebenarnya tidak makin cepat: ia kehilangan energi. Yang makin cepat adalah titik tempat tepi koin menyentuh meja. Saat koin miring makin rendah, titik sentuh itu berlari mengelilingi lingkaran makin cepat (untuk cakram menggelinding ideal, lajunya naik sebanding dengan satu per akar kuadrat kemiringan), sehingga bunyi gemeretaknya naik hingga puluhan putaran per detik sebelum koin jatuh rata. Ditampilkan 12 kali lebih lambat; putaran per detik dihitung untuk koin 12 mm.\n\nLebih lanjut tentang gerakan yang menipu matamu: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nSumber\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\nPutar sebuah koin dan dengarkan: bisakah kamu mendengar saat ia mulai ngebut?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim sudah diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa koin berputar makin cepat sebelum berhenti?",
+   "Bunyi gemeretaknya makin cepat, lalu tiba-tiba hening.",
+   "Tapi di akhir putaran, permukaan koin hampir tidak berputar.",
+   "Yang makin cepat adalah titik tempat tepi menyentuh meja.",
+   "Saat kehilangan energi, koin miring makin rendah.",
+   "Makin rendah miringnya, makin cepat titik sentuh itu mengitari lingkaran.",
+   "Tiap putaran menambah satu ketukan di meja, jadi bunyinya makin rapat.",
+   "Di akhir, ia berputar puluhan kali per detik, lalu koin jatuh rata.",
+   "Koin itu kehilangan energi.",
+   "Hanya titik sentuhnya yang makin cepat."
+  ]
+ },
+ "fil": {
+  "title": "Bakit Bumibilis ang Umiikot na Barya Bago Huminto? #physics",
+  "description": "Hindi talaga bumibilis ang umiikot na barya: nawawalan ito ng enerhiya. Ang bumibilis ay ang punto kung saan dumidikit ang gilid ng barya sa mesa. Habang mas bumababa ang pagkakahilig ng barya, mas mabilis na umiikot ang contact point na iyon (para sa ideal na gumugulong na disc, tumataas ito ayon sa isa na hinati sa square root ng pagkakahilig), kaya umaabot sa sampu-sampung ikot kada segundo ang kalansing bago humiga ang barya. Pinabagal nang 12 beses; ang ikot kada segundo ay kinuwenta para sa barya na 12 mm.\n\nHigit pa tungkol sa galaw na nanloloko ng mata: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nMga Pinagmulan\n- Moffatt, H. K. (2000), Euler's disk and its finite-time singularity, Nature 404: 833–834\n- Petrie, D., Hunt, J. L. & Gray, C. G. (2002), Does the Euler Disk slip during its motion?, American Journal of Physics 70: 1025–1028\n- Leine, R. I. (2009), Experimental and theoretical investigation of the energy dissipation of a rolling disk during its final stage of motion, Archive of Applied Mechanics 79: 1063–1082\n\nPaikutin mo ang isang barya at making: maririnig mo ba ang sandaling nagsisimula itong bumilis?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat claim ay tinsek sa mga source sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit bumibilis ang umiikot na barya bago huminto?",
+   "Bumibilis ang kalansing, tapos biglang katahimikan.",
+   "Pero sa dulo, halos hindi na umiikot ang mukha ng barya.",
+   "Ang bumibilis ay ang punto kung saan dumidikit ang gilid sa mesa.",
+   "Habang nawawalan ng enerhiya, bumababa ang pagkakahilig ng barya.",
+   "Habang mas mababa ito, mas mabilis na umiikot ang contact point.",
+   "Bawat ikot ay may katok sa mesa, kaya lalong dumadalas ang tunog.",
+   "Sa dulo, sampu-sampung ikot kada segundo, tapos hihiga ang barya.",
+   "Nawawalan ng enerhiya ang barya.",
+   "Ang contact point lang ang bumibilis."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "refractive index",
+   "vi": "chiết suất",
+   "th": "ดัชนีหักเห",
+   "ja": "屈折率",
+   "ko": "굴절률",
+   "zh-Hant": "折射率",
+   "id": "indeks bias",
+   "fil": "refractive index"
+  },
+  {
+   "en": "light ray",
+   "vi": "tia sáng",
+   "th": "รังสีแสง",
+   "ja": "光線",
+   "ko": "광선",
+   "zh-Hant": "光線",
+   "id": "sinar cahaya",
+   "fil": "sinag ng liwanag"
+  },
+  {
+   "en": "touching point (contact point)",
+   "vi": "điểm tiếp xúc",
+   "th": "จุดสัมผัส",
+   "ja": "接点",
+   "ko": "접촉점",
+   "zh-Hant": "接觸點",
+   "id": "titik sentuh",
+   "fil": "contact point"
+  },
+  {
+   "en": "energy",
+   "vi": "năng lượng",
+   "th": "พลังงาน",
+   "ja": "エネルギー",
+   "ko": "에너지",
+   "zh-Hant": "能量",
+   "id": "energi",
+   "fil": "enerhiya"
+  },
+  {
+   "en": "carbon dioxide",
+   "vi": "carbon dioxide",
+   "th": "คาร์บอนไดออกไซด์",
+   "ja": "二酸化炭素",
+   "ko": "이산화탄소",
+   "zh-Hant": "二氧化碳",
+   "id": "karbon dioksida",
+   "fil": "carbon dioxide"
+  },
+  {
+   "en": "lint / hollow fibre",
+   "vi": "xơ (sợi xơ rỗng)",
+   "th": "ขุย / เส้นใยกลวง",
+   "ja": "糸くず / 中空の繊維",
+   "ko": "보푸라기 / 속 빈 섬유",
+   "zh-Hant": "棉絮 / 中空纖維",
+   "id": "serabut / serat berongga",
+   "fil": "lint / guwang na hibla"
+  },
+  {
+   "en": "bubble",
+   "vi": "bọt khí",
+   "th": "ฟอง",
+   "ja": "泡",
+   "ko": "거품",
+   "zh-Hant": "氣泡",
+   "id": "gelembung",
+   "fil": "bubble"
+  },
+  {
+   "en": "gas pocket",
+   "vi": "túi khí",
+   "th": "โพรงก๊าซ",
+   "ja": "ガスの空洞",
+   "ko": "기체 주머니",
+   "zh-Hant": "氣體空腔",
+   "id": "kantong gas",
+   "fil": "bulsa ng gas"
+  }
+ ]
+}

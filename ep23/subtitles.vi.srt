@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,265
+Sao đồng xu quay nhanh dần trước khi dừng?
+
+2
+00:00:03,565 --> 00:00:07,587
+Tiếng lạch cạch nhanh dần, rồi bỗng im bặt.
+
+3
+00:00:08,087 --> 00:00:11,813
+Nhưng cuối vòng quay, mặt đồng xu gần như không xoay.
+
+4
+00:00:12,313 --> 00:00:15,982
+Thứ nhanh lên là điểm mép chạm bàn.
+
+5
+00:00:16,282 --> 00:00:19,495
+Đồng xu mất năng lượng nên nghiêng thấp dần.
+
+6
+00:00:20,095 --> 00:00:25,384
+Nghiêng càng thấp, điểm tiếp xúc chạy quanh vòng càng nhanh.
+
+7
+00:00:25,884 --> 00:00:29,798
+Mỗi vòng thêm một tiếng gõ lên bàn, nên tiếng rung dồn dập hơn.
+
+8
+00:00:30,098 --> 00:00:34,815
+Cuối cùng, nó chạy hàng chục vòng mỗi giây rồi đổ phẳng.
+
+9
+00:00:35,315 --> 00:00:37,203
+Đồng xu đang mất năng lượng.
+
+10
+00:00:37,203 --> 00:00:39,672
+Chỉ có điểm tiếp xúc là nhanh lên.
