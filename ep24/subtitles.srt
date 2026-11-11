@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,357
+Why do soda bubbles rise from the same spots?
+
+2
+00:00:03,657 --> 00:00:08,126
+Each string usually starts at a tiny speck of lint stuck to the glass.
+
+3
+00:00:08,626 --> 00:00:13,045
+Soda is packed with carbon dioxide, forced in under pressure.
+
+4
+00:00:13,345 --> 00:00:17,388
+Open it, and the gas wants out, but starting a bubble is hard.
+
+5
+00:00:17,888 --> 00:00:23,903
+A brand-new bubble is so tiny that surface tension squeezes its gas back into the drink.
+
+6
+00:00:24,203 --> 00:00:28,072
+It needs a head start: a pocket of gas that's already there.
+
+7
+00:00:28,822 --> 00:00:32,525
+Hollow fibres, like towel lint, trap exactly that.
+
+8
+00:00:32,825 --> 00:00:37,214
+Each one fills with gas and lets go of a bubble, again and again.
+
+9
+00:00:37,714 --> 00:00:39,556
+The gas comes from the drink.
+
+10
+00:00:39,556 --> 00:00:42,733
+The starting points are bits of lint on the glass.

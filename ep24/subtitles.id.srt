@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,357
+Kenapa gelembung soda muncul dari titik yang sama?
+
+2
+00:00:03,657 --> 00:00:08,126
+Tiap untaian biasanya bermula dari serabut kecil yang menempel di gelas.
+
+3
+00:00:08,626 --> 00:00:13,045
+Soda penuh karbon dioksida yang dimasukkan dengan tekanan.
+
+4
+00:00:13,345 --> 00:00:17,388
+Begitu dibuka, gas ingin keluar, tapi memulai gelembung itu sulit.
+
+5
+00:00:17,888 --> 00:00:23,903
+Gelembung baru begitu kecil, tegangan permukaan memeras gasnya kembali ke minuman.
+
+6
+00:00:24,203 --> 00:00:28,072
+Ia butuh awalan: kantong gas yang sudah ada.
+
+7
+00:00:28,822 --> 00:00:32,525
+Serat berongga, seperti serabut handuk, memerangkap persis itu.
+
+8
+00:00:32,825 --> 00:00:37,214
+Masing-masing terisi gas dan melepas gelembung, berulang kali.
+
+9
+00:00:37,714 --> 00:00:39,556
+Gasnya berasal dari minuman.
+
+10
+00:00:39,556 --> 00:00:42,733
+Titik awalnya adalah serabut di gelas.

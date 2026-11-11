@@ -1,0 +1,11 @@
+◆  Capturing 3 frames at [16.5s, 29.9s, 34s] from ep24
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, llvmpipe (LLVM 20.1.2 256 bits), OpenGL ES 3.2)")
+
+   Fonts: 1 loaded, 2 unused
+
+◇  3 snapshots saved to /home/claude/w24/ep24/snapshots/r3
+   snapshots/r3/frame-00-at-16.5s.png
+   snapshots/r3/frame-01-at-29.9s.png
+   snapshots/r3/frame-02-at-34s.png
+   contact-sheet.jpg (grid view for AI review)

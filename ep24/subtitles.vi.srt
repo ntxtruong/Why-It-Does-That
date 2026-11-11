@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,357
+Sao bọt soda luôn nổi lên từ cùng một chỗ?
+
+2
+00:00:03,657 --> 00:00:08,126
+Mỗi dây bọt thường bắt đầu từ một sợi xơ nhỏ bám vào thành ly.
+
+3
+00:00:08,626 --> 00:00:13,045
+Soda chứa đầy carbon dioxide, nén vào dưới áp suất.
+
+4
+00:00:13,345 --> 00:00:17,388
+Mở nắp, khí muốn thoát ra, nhưng tạo ra một bọt rất khó.
+
+5
+00:00:17,888 --> 00:00:23,903
+Bọt mới sinh nhỏ đến mức sức căng bề mặt ép khí trở lại vào nước.
+
+6
+00:00:24,203 --> 00:00:28,072
+Nó cần một lợi thế: một túi khí có sẵn.
+
+7
+00:00:28,822 --> 00:00:32,525
+Những sợi xơ rỗng, như xơ khăn tắm, giữ đúng thứ đó.
+
+8
+00:00:32,825 --> 00:00:37,214
+Mỗi sợi chứa đầy khí và nhả ra bọt, hết lần này đến lần khác.
+
+9
+00:00:37,714 --> 00:00:39,556
+Khí đến từ chính ly nước.
+
+10
+00:00:39,556 --> 00:00:42,733
+Điểm bắt đầu là những sợi xơ trên thành ly.

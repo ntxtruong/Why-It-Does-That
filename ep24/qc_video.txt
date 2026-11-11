@@ -1,0 +1,8 @@
+Length 0:44.5. Frozen stretches longer than 3 s: 0, total 0 s (0% of the video).
+
+scene        lit area   moving px   still time   bottom 15% used
+hook           27.9%      6.68%          0%            0%
+gas            36.6%     12.04%          0%            0%
+squeeze        42.7%     11.19%          0%            0%
+fibre          43.1%     11.53%          0%            0%
+end            25.9%      8.52%          0%            0%

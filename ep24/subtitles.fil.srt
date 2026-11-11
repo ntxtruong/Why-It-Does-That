@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:03,357
+Bakit sa parehong lugar umaahon ang bubbles ng soda?
+
+2
+00:00:03,657 --> 00:00:08,126
+Ang bawat hanay ay kadalasang nagsisimula sa maliit na lint na nakadikit sa baso.
+
+3
+00:00:08,626 --> 00:00:13,045
+Punô ang soda ng carbon dioxide, ipinasok sa ilalim ng pressure.
+
+4
+00:00:13,345 --> 00:00:17,388
+Kapag binuksan, gustong lumabas ng gas, pero mahirap magsimula ng bubble.
+
+5
+00:00:17,888 --> 00:00:23,903
+Napakaliit ng bagong bubble kaya pinipiga ng surface tension ang gas pabalik sa inumin.
+
+6
+00:00:24,203 --> 00:00:28,072
+Kailangan nito ng panimula: bulsa ng gas na nandoon na.
+
+7
+00:00:28,822 --> 00:00:32,525
+Ikinukulong iyon ng mga guwang na hibla, tulad ng lint ng tuwalya.
+
+8
+00:00:32,825 --> 00:00:37,214
+Napupuno ang bawat isa ng gas at nagpapakawala ng bubble, paulit-ulit.
+
+9
+00:00:37,714 --> 00:00:39,556
+Galing sa inumin ang gas.
+
+10
+00:00:39,556 --> 00:00:42,733
+Ang mga panimulang punto ay lint sa baso.

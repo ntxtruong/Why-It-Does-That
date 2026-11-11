@@ -1,0 +1,196 @@
+{
+ "vi": {
+  "title": "Sao bọt soda luôn nổi lên từ cùng một chỗ? #science",
+  "description": "Mỗi dây bọt trong ly soda thường bắt đầu từ một sợi xơ rỗng nhỏ xíu, như xơ khăn tắm, bám vào thành ly. Một bọt khí mới sinh nhỏ đến mức sức căng bề mặt ép khí của nó trở lại vào nước, nên bọt cần một túi khí có sẵn. Sợi xơ giữ lại một túi khí, được lấp đầy bằng carbon dioxide từ nước uống, rồi nhả ra bọt hết lần này đến lần khác. (Phần lớn nghiên cứu này làm trên champagne; vật lý tương tự áp dụng cho soda.)\n\nThêm về các phân tử quanh ta: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nNguồn\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\nLần tới, hãy tìm điểm bắt đầu của mỗi dây bọt. Bạn đếm được bao nhiêu?\n\nKịch bản, giọng đọc và hoạt họa do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Sao bọt soda luôn nổi lên từ cùng một chỗ?",
+   "Mỗi dây bọt thường bắt đầu từ một sợi xơ nhỏ bám vào thành ly.",
+   "Soda chứa đầy carbon dioxide, nén vào dưới áp suất.",
+   "Mở nắp, khí muốn thoát ra, nhưng tạo ra một bọt rất khó.",
+   "Bọt mới sinh nhỏ đến mức sức căng bề mặt ép khí trở lại vào nước.",
+   "Nó cần một lợi thế: một túi khí có sẵn.",
+   "Những sợi xơ rỗng, như xơ khăn tắm, giữ đúng thứ đó.",
+   "Mỗi sợi chứa đầy khí và nhả ra bọt, hết lần này đến lần khác.",
+   "Khí đến từ chính ly nước.",
+   "Điểm bắt đầu là những sợi xơ trên thành ly."
+  ]
+ },
+ "th": {
+  "title": "ทำไมฟองโซดาลอยขึ้นจากจุดเดิมเสมอ #science",
+  "description": "ทุกสายฟองในแก้วโซดามักเริ่มจากเส้นใยกลวงเล็กจิ๋ว เหมือนขุยผ้าเช็ดตัว ที่ติดอยู่กับแก้ว ฟองใหม่เล็กมากจนแรงตึงผิวบีบก๊าซของมันกลับเข้าไปในเครื่องดื่ม ฟองจึงต้องมีโพรงก๊าซที่มีอยู่แล้ว เส้นใยดักโพรงนั้นไว้ เติมคาร์บอนไดออกไซด์จากเครื่องดื่ม แล้วปล่อยฟองออกมาซ้ำแล้วซ้ำเล่า (งานวิจัยส่วนใหญ่ทำกับแชมเปญ ฟิสิกส์เดียวกันใช้ได้กับโซดา)\n\nเรื่องโมเลกุลรอบตัวเพิ่มเติม: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nแหล่งที่มา\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\nครั้งหน้า ลองหาจุดเริ่มต้นของสายฟองแต่ละสาย นับได้กี่จุด\n\nบทพูด เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ทุกข้ออ้างได้รับการตรวจสอบกับแหล่งที่มาข้างต้น\n#Shorts",
+  "subtitles": [
+   "ทำไมฟองโซดาลอยขึ้นจากจุดเดิมเสมอ",
+   "แต่ละสายฟองมักเริ่มจากขุยเล็ก ๆ ที่ติดอยู่กับแก้ว",
+   "โซดาอัดแน่นด้วยคาร์บอนไดออกไซด์ที่อัดเข้าไปด้วยความดัน",
+   "พอเปิดฝา ก๊าซอยากออก แต่การเริ่มฟองแรกนั้นยาก",
+   "ฟองใหม่เล็กมากจนแรงตึงผิวบีบก๊าซกลับเข้าเครื่องดื่ม",
+   "มันต้องมีตัวช่วย คือโพรงก๊าซที่มีอยู่แล้ว",
+   "เส้นใยกลวง เช่น ขุยผ้าเช็ดตัว ดักไว้ได้พอดี",
+   "แต่ละเส้นเติมก๊าซแล้วปล่อยฟองออกมา ซ้ำแล้วซ้ำเล่า",
+   "ก๊าซมาจากเครื่องดื่มเอง",
+   "จุดเริ่มต้นคือขุยเล็ก ๆ บนแก้ว"
+  ]
+ },
+ "ja": {
+  "title": "炭酸の泡はなぜ同じ場所から出てくる？ #science",
+  "description": "炭酸のグラスで泡が列になって上る場所は、たいていグラスに付いた、タオルくずのような小さな中空の繊維です。生まれたての泡はとても小さく、表面張力が中のガスを飲み物へ押し戻してしまうため、泡にはあらかじめあるガスの空洞が必要です。繊維がそれを抱え、飲み物の二酸化炭素で満たされ、泡を何度も放ちます。（研究の大半はシャンパンで行われましたが、同じ物理が炭酸飲料にも当てはまります。）\n\n身近な分子をもっと知る： Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\n出典\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\n次は、泡の列の出発点を探してみよう。いくつ数えられるかな？\n\n台本、音声、アニメーションはAIが制作しています（Claude、音声はKokoro）。すべての主張は上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "炭酸の泡はなぜ同じ場所から出てくる？",
+   "泡の列は、たいていグラスに付いた小さな糸くずから始まります。",
+   "炭酸は、圧力で二酸化炭素を詰め込んであります。",
+   "開けるとガスは出たがりますが、泡を作り始めるのは難しい。",
+   "生まれたての泡は小さく、表面張力でガスが飲み物に押し戻されます。",
+   "先に、ガスの空洞が要ります。",
+   "タオルくずのような中空の繊維が、まさにそれを抱えます。",
+   "それぞれがガスで満ち、泡を何度も放ちます。",
+   "ガスは飲み物から来ます。",
+   "出発点は、グラスについた糸くずです。"
+  ]
+ },
+ "ko": {
+  "title": "탄산 거품은 왜 늘 같은 자리에서 올라올까? #science",
+  "description": "탄산음료 잔에서 거품 줄기는 대개 잔에 붙은 수건 보푸라기 같은 아주 작은 속 빈 섬유에서 시작합니다. 갓 생긴 거품은 너무 작아서 표면장력이 그 안의 기체를 음료 속으로 다시 짜 넣기 때문에, 거품에는 이미 존재하는 기체 주머니가 필요합니다. 섬유가 그 주머니를 붙들고, 음료의 이산화탄소로 채워진 뒤, 거품을 계속 내보냅니다. (이 연구의 대부분은 샴페인으로 했지만, 같은 물리가 탄산음료에도 적용됩니다.)\n\n일상 속 분자에 대해 더 알아보기: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\n출처\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\n다음에는 거품 줄기마다 시작점을 찾아보세요. 몇 개나 셀 수 있나요?\n\n대본, 음성, 애니메이션은 AI가 제작했습니다(Claude, Kokoro 음성). 모든 주장은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "탄산 거품은 왜 늘 같은 자리에서 올라올까?",
+   "거품 줄기는 대개 잔에 붙은 작은 보푸라기에서 시작합니다.",
+   "탄산음료에는 압력으로 이산화탄소가 가득 녹아 있습니다.",
+   "열면 기체가 빠져나가려 하지만, 거품을 만들기는 어렵습니다.",
+   "갓 생긴 거품은 너무 작아 표면장력이 기체를 음료로 다시 밀어 넣습니다.",
+   "그래서 이미 있는 기체 주머니가 필요합니다.",
+   "수건 보푸라기 같은 속 빈 섬유가 바로 그걸 붙듭니다.",
+   "섬유마다 기체가 차올라 거품을 계속 내보냅니다.",
+   "기체는 음료에서 나옵니다.",
+   "시작점은 잔에 붙은 보푸라기입니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "汽水氣泡為什麼總從同幾個點冒出來？ #science",
+  "description": "汽水杯裡每一串氣泡，通常都從黏在杯壁上的一根微小中空纖維開始，就像毛巾的棉絮。剛生成的新氣泡非常小，表面張力會把裡面的氣體擠回飲料中，所以氣泡需要一個已經存在的氣體小空腔。纖維困住這樣的空腔，由飲料中的二氧化碳填滿，然後一次又一次放出氣泡。（這項研究大多以香檳進行，同樣的物理原理也適用於汽水。）\n\n更多生活中的分子知識： Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\n資料來源\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\n下次請找找每串氣泡的起點。你數得出幾個？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上述資料來源查證。\n#Shorts",
+  "subtitles": [
+   "汽水氣泡為什麼總從同幾個點冒出來？",
+   "每一串氣泡，通常從黏在杯壁的一小團棉絮開始。",
+   "汽水裡以壓力塞滿了二氧化碳。",
+   "打開後氣體想跑出來，但要形成氣泡並不容易。",
+   "剛生成的氣泡太小，表面張力把氣體擠回飲料。",
+   "它需要先有一個氣體空腔當作起點。",
+   "像毛巾棉絮這樣的中空纖維，正好能困住空腔。",
+   "每一根都充滿氣體，並一次次放出氣泡。",
+   "氣體來自飲料本身。",
+   "起點就是杯壁上的棉絮。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Gelembung Soda Selalu Muncul dari Titik yang Sama? #science",
+  "description": "Setiap untaian gelembung di gelas soda biasanya bermula dari serat berongga yang sangat kecil, seperti serabut handuk, yang menempel di gelas. Gelembung yang baru terbentuk begitu kecil sehingga tegangan permukaan memeras gasnya kembali ke dalam minuman, jadi gelembung butuh kantong gas yang sudah ada. Serat itu memerangkap satu kantong, mengisinya dengan karbon dioksida dari minuman, dan melepaskan gelembung berulang kali. (Sebagian besar penelitian ini dilakukan pada sampanye; fisika yang sama berlaku untuk soda.)\n\nLebih lanjut tentang molekul di sekitar kita: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nSumber\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\nLain kali, cari titik awal setiap untaian gelembung. Berapa yang bisa kamu hitung?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim sudah diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa gelembung soda muncul dari titik yang sama?",
+   "Tiap untaian biasanya bermula dari serabut kecil yang menempel di gelas.",
+   "Soda penuh karbon dioksida yang dimasukkan dengan tekanan.",
+   "Begitu dibuka, gas ingin keluar, tapi memulai gelembung itu sulit.",
+   "Gelembung baru begitu kecil, tegangan permukaan memeras gasnya kembali ke minuman.",
+   "Ia butuh awalan: kantong gas yang sudah ada.",
+   "Serat berongga, seperti serabut handuk, memerangkap persis itu.",
+   "Masing-masing terisi gas dan melepas gelembung, berulang kali.",
+   "Gasnya berasal dari minuman.",
+   "Titik awalnya adalah serabut di gelas."
+  ]
+ },
+ "fil": {
+  "title": "Bakit Laging Sa Parehong Lugar Umaahon ang Bubbles ng Soda? #science",
+  "description": "Ang bawat hanay ng bubbles sa baso ng soda ay kadalasang nagsisimula sa isang maliit na guwang na hibla, tulad ng lint ng tuwalya, na nakadikit sa baso. Napakaliit ng bagong bubble kaya ang surface tension ay pumipiga sa gas nito pabalik sa inumin, kaya kailangan ng bubble ng bulsa ng gas na nandoon na. Ikinukulong ito ng hibla, pinupuno ng carbon dioxide mula sa inumin, at paulit-ulit na nagpapakawala ng bubble. (Karamihan ng pananaliksik na ito ay ginawa sa champagne; pareho ang physics sa soda.)\n\nHigit pa tungkol sa mga molecule sa paligid natin: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nMga Pinagmulan\n- Liger-Belair, G. et al. (2002), Kinetics of gas discharging in a glass of champagne: the role of nucleation sites, Langmuir 18: 1294–1301\n- Liger-Belair, G. (2003), The Physics and Chemistry of Champagne, Scientific American 288(1): 80–85\n- Liger-Belair, G. (2005), The physics and chemistry behind the bubbling properties of champagne and sparkling wines, J. Agric. Food Chem. 53: 2788–2802\n- Jones, S. F., Evans, G. M. & Galvin, K. P. (1999), Bubble nucleation from gas cavities — a review, Adv. Colloid Interface Sci. 80: 27–50\n\nSa susunod, hanapin ang simula ng bawat hanay ng bubbles. Ilan ang mabibilang mo?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat claim ay tinsek sa mga source sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit sa parehong lugar umaahon ang bubbles ng soda?",
+   "Ang bawat hanay ay kadalasang nagsisimula sa maliit na lint na nakadikit sa baso.",
+   "Punô ang soda ng carbon dioxide, ipinasok sa ilalim ng pressure.",
+   "Kapag binuksan, gustong lumabas ng gas, pero mahirap magsimula ng bubble.",
+   "Napakaliit ng bagong bubble kaya pinipiga ng surface tension ang gas pabalik sa inumin.",
+   "Kailangan nito ng panimula: bulsa ng gas na nandoon na.",
+   "Ikinukulong iyon ng mga guwang na hibla, tulad ng lint ng tuwalya.",
+   "Napupuno ang bawat isa ng gas at nagpapakawala ng bubble, paulit-ulit.",
+   "Galing sa inumin ang gas.",
+   "Ang mga panimulang punto ay lint sa baso."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "refractive index",
+   "vi": "chiết suất",
+   "th": "ดัชนีหักเห",
+   "ja": "屈折率",
+   "ko": "굴절률",
+   "zh-Hant": "折射率",
+   "id": "indeks bias",
+   "fil": "refractive index"
+  },
+  {
+   "en": "light ray",
+   "vi": "tia sáng",
+   "th": "รังสีแสง",
+   "ja": "光線",
+   "ko": "광선",
+   "zh-Hant": "光線",
+   "id": "sinar cahaya",
+   "fil": "sinag ng liwanag"
+  },
+  {
+   "en": "touching point (contact point)",
+   "vi": "điểm tiếp xúc",
+   "th": "จุดสัมผัส",
+   "ja": "接点",
+   "ko": "접촉점",
+   "zh-Hant": "接觸點",
+   "id": "titik sentuh",
+   "fil": "contact point"
+  },
+  {
+   "en": "energy",
+   "vi": "năng lượng",
+   "th": "พลังงาน",
+   "ja": "エネルギー",
+   "ko": "에너지",
+   "zh-Hant": "能量",
+   "id": "energi",
+   "fil": "enerhiya"
+  },
+  {
+   "en": "carbon dioxide",
+   "vi": "carbon dioxide",
+   "th": "คาร์บอนไดออกไซด์",
+   "ja": "二酸化炭素",
+   "ko": "이산화탄소",
+   "zh-Hant": "二氧化碳",
+   "id": "karbon dioksida",
+   "fil": "carbon dioxide"
+  },
+  {
+   "en": "lint / hollow fibre",
+   "vi": "xơ (sợi xơ rỗng)",
+   "th": "ขุย / เส้นใยกลวง",
+   "ja": "糸くず / 中空の繊維",
+   "ko": "보푸라기 / 속 빈 섬유",
+   "zh-Hant": "棉絮 / 中空纖維",
+   "id": "serabut / serat berongga",
+   "fil": "lint / guwang na hibla"
+  },
+  {
+   "en": "bubble",
+   "vi": "bọt khí",
+   "th": "ฟอง",
+   "ja": "泡",
+   "ko": "거품",
+   "zh-Hant": "氣泡",
+   "id": "gelembung",
+   "fil": "bubble"
+  },
+  {
+   "en": "gas pocket",
+   "vi": "túi khí",
+   "th": "โพรงก๊าซ",
+   "ja": "ガスの空洞",
+   "ko": "기체 주머니",
+   "zh-Hant": "氣體空腔",
+   "id": "kantong gas",
+   "fil": "bulsa ng gas"
+  }
+ ]
+}

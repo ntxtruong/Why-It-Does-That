@@ -1,0 +1,25 @@
+◆  Capturing 17 frames at [0s, 2.8s, 6.4s, 8.3s, 9.5s, 13.2s, 16.5s, 19.5s, 21.5s, 25.5s, 27.5s, 30s, 31.6s, 35.5s, 39s, 41.5s, 44.6s] from ep24
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, llvmpipe (LLVM 20.1.2 256 bits), OpenGL ES 3.2)")
+
+   Fonts: 1 loaded, 2 unused
+
+◇  17 snapshots saved to /home/claude/w24/ep24/snapshots/r2
+   snapshots/r2/frame-00-at-0s.png
+   snapshots/r2/frame-01-at-2.8s.png
+   snapshots/r2/frame-02-at-6.4s.png
+   snapshots/r2/frame-03-at-8.3s.png
+   snapshots/r2/frame-04-at-9.5s.png
+   snapshots/r2/frame-05-at-13.2s.png
+   snapshots/r2/frame-06-at-16.5s.png
+   snapshots/r2/frame-07-at-19.5s.png
+   snapshots/r2/frame-08-at-21.5s.png
+   snapshots/r2/frame-09-at-25.5s.png
+   snapshots/r2/frame-10-at-27.5s.png
+   snapshots/r2/frame-11-at-30s.png
+   snapshots/r2/frame-12-at-31.6s.png
+   snapshots/r2/frame-13-at-35.5s.png
+   snapshots/r2/frame-14-at-39s.png
+   snapshots/r2/frame-15-at-41.5s.png
+   snapshots/r2/frame-16-at-44.6s.png
+   contact-sheet-1..2.jpg (grid view for AI review)
