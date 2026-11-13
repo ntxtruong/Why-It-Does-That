@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Bakit malamig ang pakiramdam ng mint?
+
+2
+00:00:02,115 --> 00:00:04,545
+Hindi pinalalamig ng mint ang bibig mo.
+
+3
+00:00:05,045 --> 00:00:11,493
+Ang mga nerve sa bibig mo ay may maliit na cold sensor: isang gate na bumubukas kapag bumaba ang temperatura.
+
+4
+00:00:11,993 --> 00:00:16,408
+Ang menthol, ang molecule sa mint, ay kumakapit sa mismong gate na iyon.
+
+5
+00:00:16,708 --> 00:00:21,011
+Ngayon, bumubukas na ito sa mas maiinit na temperatura, kahit sa maiinit na bibig.
+
+6
+00:00:21,611 --> 00:00:25,422
+Nagfi-fire ang nerve, at isang mensahe lang ang natatanggap ng utak mo: malamig.
+
+7
+00:00:25,922 --> 00:00:29,721
+Kaya ang isang lagok ng tubig pagkatapos ng mint ay puwedeng maging parang yelo.
+
+8
+00:00:29,721 --> 00:00:31,839
+Handa na kasi ang sensor.
+
+9
+00:00:32,339 --> 00:00:35,763
+Ganito rin ang trick ng sili sa burning-heat sensor mo.
+
+10
+00:00:36,263 --> 00:00:37,585
+Hindi malamig ang mint.
+
+11
+00:00:37,585 --> 00:00:39,980
+Pinapatunog lang nito ang cold alarm.

@@ -1,0 +1,4 @@
+0:11.8  menthol: script 'menthol' / heard 'menthal'
+
+1 beat(s) to listen to; 1 of 96 words differ (1.0%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

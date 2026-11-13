@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Why does mint feel cold?
+
+2
+00:00:02,115 --> 00:00:04,545
+The mint isn't cooling your mouth down.
+
+3
+00:00:05,045 --> 00:00:11,493
+Nerves in your mouth carry a tiny cold sensor: a gate that opens when the temperature drops.
+
+4
+00:00:11,993 --> 00:00:16,408
+Menthol, the molecule in mint, latches onto that same gate.
+
+5
+00:00:16,708 --> 00:00:21,011
+Now it opens at warmer temperatures, even in a warm mouth.
+
+6
+00:00:21,611 --> 00:00:25,422
+The nerve fires, and your brain gets one message: cold.
+
+7
+00:00:25,922 --> 00:00:29,721
+That's why a sip of water after a mint can feel icy.
+
+8
+00:00:29,721 --> 00:00:31,839
+The sensor is already primed.
+
+9
+00:00:32,339 --> 00:00:35,763
+Chili plays the same trick on your burning-heat sensor.
+
+10
+00:00:36,263 --> 00:00:37,585
+Mint isn't cold.
+
+11
+00:00:37,585 --> 00:00:39,980
+It just rings the cold alarm.
