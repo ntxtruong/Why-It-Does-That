@@ -1,0 +1,49 @@
+{
+ "title": "Why Is Earth Closest to the Sun in January?",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3 (2026-11-13): 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 4,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Earth is closest to the Sun in January.",
+    "Not July."
+   ]
+  },
+  {
+   "id": "dist",
+   "long": [],
+   "beats": [
+    "In January we're 147 million kilometres away.",
+    "In July, 152 million."
+   ]
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "So why is January cold up north?",
+    "Distance isn't the reason. Earth is tilted."
+   ]
+  },
+  {
+   "id": "tilt",
+   "long": [],
+   "beats": [
+    "In January the north leans away, so sunlight hits it low and weak, spread over more ground."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Closest to the Sun, and still cold."
+   ]
+  }
+ ]
+}
