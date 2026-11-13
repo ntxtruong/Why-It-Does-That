@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,921
+Sao điện thoại tối đen khi nhìn qua kính râm?
+
+2
+00:00:03,221 --> 00:00:06,381
+Nghiêng đầu là hình ảnh thường hiện lại.
+
+3
+00:00:06,881 --> 00:00:10,369
+Ánh sáng là sóng, và nó có thể dao động theo mọi hướng.
+
+4
+00:00:10,669 --> 00:00:14,787
+Nhiều màn hình điện thoại chỉ phát ra ánh sáng dao động theo một hướng.
+
+5
+00:00:15,287 --> 00:00:17,976
+Kính râm phân cực cũng là một bộ lọc.
+
+6
+00:00:18,276 --> 00:00:24,590
+Khi đeo thẳng, nó chỉ cho dao động lên-xuống đi qua, để chặn ánh chói từ mặt đường và mặt nước.
+
+7
+00:00:25,340 --> 00:00:28,456
+Cho hai bộ lọc thẳng hàng, ánh sáng đi qua.
+
+8
+00:00:28,756 --> 00:00:31,507
+Xoay một cái đi một phần tư vòng, chúng chéo nhau.
+
+9
+00:00:31,507 --> 00:00:33,020
+Gần như không còn gì lọt qua.
+
+10
+00:00:33,520 --> 00:00:35,561
+Màn hình của bạn chưa hề tắt.
+
+11
+00:00:35,561 --> 00:00:37,470
+Kính của bạn đã chặn nó.

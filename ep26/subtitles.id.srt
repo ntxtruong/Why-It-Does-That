@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,921
+Kenapa layar ponsel jadi gelap lewat kacamata hitam?
+
+2
+00:00:03,221 --> 00:00:06,381
+Miringkan kepalamu, dan gambarnya biasanya kembali.
+
+3
+00:00:06,881 --> 00:00:10,369
+Cahaya adalah gelombang, dan bisa bergetar ke arah mana saja.
+
+4
+00:00:10,669 --> 00:00:14,787
+Banyak layar ponsel hanya memancarkan cahaya yang bergetar ke satu arah.
+
+5
+00:00:15,287 --> 00:00:17,976
+Kacamata hitam terpolarisasi juga sebuah filter.
+
+6
+00:00:18,276 --> 00:00:24,590
+Saat dipakai tegak, ia hanya meloloskan getaran naik-turun, untuk menahan silau dari jalan dan air.
+
+7
+00:00:25,340 --> 00:00:28,456
+Sejajarkan kedua filter, dan cahaya lolos.
+
+8
+00:00:28,756 --> 00:00:31,507
+Putar salah satunya seperempat putaran, dan keduanya bersilangan.
+
+9
+00:00:31,507 --> 00:00:33,020
+Hampir tidak ada yang lewat.
+
+10
+00:00:33,520 --> 00:00:35,561
+Layarmu tidak pernah mati.
+
+11
+00:00:35,561 --> 00:00:37,470
+Kacamatamu hanya menghalanginya.

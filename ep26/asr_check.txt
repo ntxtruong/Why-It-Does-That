@@ -1,0 +1,5 @@
+0:28.6  cross: script 'a' / heard ''
+0:33.4  end: script 'glasses' / heard 'glass has'
+
+2 beat(s) to listen to; 3 of 93 words differ (3.2%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

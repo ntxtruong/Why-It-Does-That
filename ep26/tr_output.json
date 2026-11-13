@@ -1,0 +1,173 @@
+{
+ "vi": {
+  "title": "Sao điện thoại tối đen khi nhìn qua kính râm? #science",
+  "description": "Màn hình chưa hề tắt: kính râm phân cực đã chặn nó. Nhiều màn hình điện thoại phát ra ánh sáng chỉ dao động theo một hướng (ánh sáng phân cực). Kính râm phân cực cũng là một bộ lọc: khi đeo thẳng, nó chỉ cho các dao động lên-xuống đi qua, để chặn ánh chói từ mặt đường và mặt nước. Khi hai bộ lọc thẳng hàng, ánh sáng đi qua; xoay một phần tư vòng, hai bộ lọc chéo nhau và gần như không còn gì lọt qua (định luật Malus, I = I₀ cos²θ). Nghiêng đầu là hình ảnh thường hiện lại.\n\nLưu ý: nhiều điện thoại đặt phân cực ở 45° hoặc dán thêm một lớp phim để màn hình vẫn thấy được ở mọi hướng; khi đó nó chỉ tối đi. Hướng nào bị tối còn tùy từng mẫu máy.\n\nThêm về sự triệt tiêu của sóng: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nNguồn\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\nĐiện thoại của bạn tối đen khi cầm dọc hay cầm ngang qua kính râm?\n\nKịch bản, giọng đọc và hoạt họa do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Sao điện thoại tối đen khi nhìn qua kính râm?",
+   "Nghiêng đầu là hình ảnh thường hiện lại.",
+   "Ánh sáng là sóng, và nó có thể dao động theo mọi hướng.",
+   "Nhiều màn hình điện thoại chỉ phát ra ánh sáng dao động theo một hướng.",
+   "Kính râm phân cực cũng là một bộ lọc.",
+   "Khi đeo thẳng, nó chỉ cho dao động lên-xuống đi qua, để chặn ánh chói từ mặt đường và mặt nước.",
+   "Cho hai bộ lọc thẳng hàng, ánh sáng đi qua.",
+   "Xoay một cái đi một phần tư vòng, chúng chéo nhau.",
+   "Gần như không còn gì lọt qua.",
+   "Màn hình của bạn chưa hề tắt.",
+   "Kính của bạn đã chặn nó."
+  ]
+ },
+ "th": {
+  "title": "ทำไมจอมือถือดำเมื่อมองผ่านแว่นกันแดด? #science",
+  "description": "จอของคุณไม่เคยดับ แต่แว่นกันแดดโพลาไรซ์ของคุณบังไว้ จอมือถือจำนวนมากปล่อยแสงที่สั่นไปทางเดียวเท่านั้น (แสงโพลาไรซ์) แว่นกันแดดโพลาไรซ์ก็เป็นฟิลเตอร์เหมือนกัน เมื่อสวมตามปกติจะยอมให้แสงที่สั่นขึ้น-ลงผ่านได้ เพื่อกันแสงจ้าที่สะท้อนจากถนนและผิวน้ำ เมื่อฟิลเตอร์สองอันขนานกัน แสงผ่านได้ แต่ถ้าหมุนไปหนึ่งในสี่รอบ ฟิลเตอร์จะตัดกันและแทบไม่มีแสงผ่านเลย (กฎของมาลุส, I = I₀ cos²θ) เอียงศีรษะแล้วภาพมักจะกลับมา\n\nข้อควรระวัง: มือถือหลายรุ่นตั้งโพลาไรเซชันไว้ที่ 45° หรือเพิ่มฟิล์มเพื่อให้เห็นจอได้ทั้งสองแนว กรณีนั้นจอจะแค่มืดลง แนวไหนที่มืดขึ้นอยู่กับรุ่น\n\nดูเรื่องคลื่นที่หักล้างกันเพิ่มเติม: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nแหล่งอ้างอิง\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\nมือถือของคุณดำเมื่อถือแนวตั้งหรือแนวนอนผ่านแว่นกันแดด?\n\nบท เสียงพากย์ และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ทุกข้ออ้างได้รับการตรวจสอบกับแหล่งอ้างอิงข้างต้น\n#Shorts",
+  "subtitles": [
+   "ทำไมจอมือถือดำเมื่อมองผ่านแว่นกันแดด?",
+   "เอียงศีรษะแล้วภาพมักจะกลับมา",
+   "แสงเป็นคลื่น และมันสั่นได้ในทุกทิศทาง",
+   "จอมือถือจำนวนมากปล่อยแสงที่สั่นไปทางเดียวเท่านั้น",
+   "แว่นกันแดดโพลาไรซ์ก็เป็นฟิลเตอร์เหมือนกัน",
+   "เมื่อสวมตามปกติ จะให้แสงที่สั่นขึ้น-ลงผ่านเท่านั้น เพื่อกันแสงจ้าจากถนนและผิวน้ำ",
+   "ถ้าฟิลเตอร์สองอันขนานกัน แสงก็ผ่านได้",
+   "หมุนอันหนึ่งไปหนึ่งในสี่รอบ ทั้งสองก็ตัดกัน",
+   "แทบไม่มีแสงผ่านเลย",
+   "จอของคุณไม่เคยดับ",
+   "แว่นของคุณแค่บังมันไว้"
+  ]
+ },
+ "ja": {
+  "title": "なぜサングラス越しだとスマホの画面が真っ暗になるの？ #science",
+  "description": "画面が消えたわけではありません。偏光サングラスがさえぎっているのです。多くのスマホの画面は、一方向にだけ振動する光（偏光）を出しています。偏光サングラスもフィルターの一種で、かけた状態では上下に振動する光だけを通し、道路や水面からのまぶしい反射光をカットします。2つのフィルターの向きがそろえば光は通り、4分の1回転させると直交して、ほとんど何も通りません（マリュスの法則、I = I₀ cos²θ）。頭を傾けると、たいてい画面が戻ります。\n\n注意：多くのスマホは偏光方向を45°にしたり、フィルムを重ねたりして、どちらの向きでも見えるようにしています。その場合は暗くなるだけです。どの向きで暗くなるかは機種によります。\n\n波が打ち消し合う話、もっと見る： How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n出典\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\nサングラス越しだと、あなたのスマホは縦向きと横向きのどちらで暗くなる？\n\n台本・音声・アニメーションはAIが制作しました（Claude；Kokoro音声）。すべての主張は上記の出典で確認済みです。\n#Shorts",
+  "subtitles": [
+   "なぜサングラス越しだとスマホの画面が真っ暗になるの？",
+   "頭を傾けると、たいてい画面が戻ります。",
+   "光は波で、あらゆる方向に振動できます。",
+   "多くのスマホの画面は、一方向にだけ振動する光を出しています。",
+   "偏光サングラスもフィルターの一種です。",
+   "かけた状態では上下に振動する光だけを通し、道路や水面のまぶしさを防ぎます。",
+   "2つのフィルターの向きをそろえると、光は通ります。",
+   "片方を4分の1回転させると、直交します。",
+   "ほとんど何も通りません。",
+   "画面は消えていません。",
+   "サングラスがさえぎっているだけです。"
+  ]
+ },
+ "ko": {
+  "title": "선글라스를 끼면 왜 휴대폰 화면이 까맣게 보일까? #science",
+  "description": "화면이 꺼진 게 아닙니다. 편광 선글라스가 막은 것입니다. 많은 휴대폰 화면은 한 방향으로만 진동하는 빛(편광)을 내보냅니다. 편광 선글라스도 일종의 필터로, 똑바로 쓰면 위아래로 진동하는 빛만 통과시켜 도로와 수면에서 반사되는 눈부심을 막습니다. 두 필터의 방향이 나란하면 빛이 통과하고, 4분의 1바퀴 돌리면 서로 직교해서 거의 아무것도 통과하지 못합니다(말뤼스 법칙, I = I₀ cos²θ). 고개를 기울이면 보통 화면이 다시 보입니다.\n\n참고: 많은 휴대폰은 편광 방향을 45°로 맞추거나 필름을 덧대서 어느 방향에서든 화면이 보이게 합니다. 그런 경우에는 어두워지기만 합니다. 어느 방향에서 어두워지는지는 기종마다 다릅니다.\n\n파동이 서로 상쇄되는 원리 더 보기: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n출처\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\n선글라스를 끼고 보면 휴대폰은 세로 모드와 가로 모드 중 어느 쪽에서 어두워지나요?\n\n대본, 음성, 애니메이션은 AI가 제작했습니다(Claude; Kokoro 음성). 모든 내용은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "선글라스를 끼면 왜 휴대폰 화면이 까맣게 보일까?",
+   "고개를 기울이면 보통 화면이 다시 보입니다.",
+   "빛은 파동이고, 어느 방향으로든 진동할 수 있습니다.",
+   "많은 휴대폰 화면은 한 방향으로만 진동하는 빛을 내보냅니다.",
+   "편광 선글라스도 일종의 필터입니다.",
+   "똑바로 쓰면 위아래로 진동하는 빛만 통과시켜, 도로와 수면의 눈부심을 막아 줍니다.",
+   "두 필터의 방향을 맞추면 빛이 통과합니다.",
+   "하나를 4분의 1바퀴 돌리면 서로 직교합니다.",
+   "거의 아무것도 통과하지 못합니다.",
+   "화면은 꺼진 적이 없습니다.",
+   "선글라스가 막았을 뿐이에요."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼戴太陽眼鏡看手機螢幕會變黑？ #science",
+  "description": "螢幕從來沒有關掉，是你的偏光太陽眼鏡把它擋住了。許多手機螢幕發出的光只朝一個方向振動（偏振光）。偏光太陽眼鏡也是一種濾鏡：正戴時只讓上下振動的光通過，用來擋掉路面和水面的眩光。兩片濾鏡方向一致時，光能通過；轉四分之一圈後兩者互相垂直，幾乎沒有光能通過（馬呂斯定律，I = I₀ cos²θ）。把頭歪一下，畫面通常就回來了。\n\n補充：許多手機把偏振方向設在 45°，或加了一層膜，讓螢幕不論怎麼拿都看得到；這時只會變暗。哪個方向會變黑，要看機型。\n\n更多關於波互相抵消： How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n資料來源\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\n戴著太陽眼鏡看，你的手機是直拿還是橫拿時會變黑？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上列資料來源查證。\n#Shorts",
+  "subtitles": [
+   "為什麼戴太陽眼鏡看手機螢幕會變黑？",
+   "把頭歪一下，畫面通常就回來了。",
+   "光是一種波，可以朝任何方向振動。",
+   "許多手機螢幕只發出朝單一方向振動的光。",
+   "偏光太陽眼鏡也是一種濾鏡。",
+   "正戴時只讓上下振動的光通過，用來擋掉路面和水面的眩光。",
+   "把兩片濾鏡方向對齊，光就能通過。",
+   "把其中一片轉四分之一圈，兩者就互相垂直。",
+   "幾乎沒有光能通過。",
+   "你的螢幕從來沒有關掉。",
+   "是眼鏡把它擋住了。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Layar Ponsel Jadi Gelap Lewat Kacamata Hitam? #science",
+  "description": "Layarmu tidak pernah mati: kacamata hitam terpolarisasimu yang menghalanginya. Banyak layar ponsel memancarkan cahaya yang bergetar ke satu arah saja (cahaya terpolarisasi). Kacamata hitam terpolarisasi juga sebuah filter: saat dipakai tegak, ia hanya meloloskan getaran naik-turun, untuk menahan silau dari jalan dan air. Kalau kedua filter sejajar, cahaya lolos; kalau diputar seperempat putaran, filter saling bersilangan dan hampir tidak ada cahaya yang lewat (hukum Malus, I = I₀ cos²θ). Miringkan kepalamu dan gambarnya biasanya kembali.\n\nCatatan: banyak ponsel mengatur polarisasinya di 45° atau menambahkan lapisan film agar layar tetap terlihat dari arah mana pun; dalam hal itu layar hanya meredup. Orientasi mana yang menjadi gelap bergantung pada modelnya.\n\nLebih lanjut tentang gelombang yang saling meniadakan: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nSumber\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\nApakah ponselmu menjadi gelap saat potret atau saat lanskap jika dilihat lewat kacamata hitam?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa layar ponsel jadi gelap lewat kacamata hitam?",
+   "Miringkan kepalamu, dan gambarnya biasanya kembali.",
+   "Cahaya adalah gelombang, dan bisa bergetar ke arah mana saja.",
+   "Banyak layar ponsel hanya memancarkan cahaya yang bergetar ke satu arah.",
+   "Kacamata hitam terpolarisasi juga sebuah filter.",
+   "Saat dipakai tegak, ia hanya meloloskan getaran naik-turun, untuk menahan silau dari jalan dan air.",
+   "Sejajarkan kedua filter, dan cahaya lolos.",
+   "Putar salah satunya seperempat putaran, dan keduanya bersilangan.",
+   "Hampir tidak ada yang lewat.",
+   "Layarmu tidak pernah mati.",
+   "Kacamatamu hanya menghalanginya."
+  ]
+ },
+ "fil": {
+  "title": "Bakit Dumidilim ang Phone Kapag Tiningnan sa Sunglasses? #science",
+  "description": "Hindi kailanman namatay ang screen mo: hinarangan ito ng polarized sunglasses mo. Maraming phone screen ang naglalabas ng liwanag na nanginginig sa isang direksyon lang (polarized light). Filter din ang polarized sunglasses: kapag suot nang tuwid, pinapadaan nito ang pataas-pababang panginginig, para harangan ang silaw mula sa kalsada at tubig. Kapag magkapareho ang pagkakahanay, dumadaan ang liwanag; kapag pinaikot nang one-fourth turn, nagkakasalungat ang mga filter at halos walang dumadaan (Malus's law, I = I₀ cos²θ). Ikiling mo ang ulo mo at kadalasan ay babalik ang larawan.\n\nPaalala: maraming phone ang naka-set ang polarization sa 45° o may dagdag na film para makita pa rin ang screen sa alinmang oryentasyon; sa ganoong kaso, lumalabo lang ito. Depende sa modelo kung aling oryentasyon ang dumidilim.\n\nHigit pa tungkol sa mga alon na nagkakansela: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nMga Sanggunian\n- OpenStax, University Physics Volume 3, 1.7 Polarization (Malus's law, polarization by reflection, LCDs)\n- Hecht, E., Optics (5th ed., 2017), chapter 8 Polarization\n\nDumidilim ba ang phone mo sa portrait o sa landscape kapag tiningnan sa sunglasses mo?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat pahayag ay sinuri batay sa mga sanggunian sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit dumidilim ang phone kapag tiningnan sa sunglasses?",
+   "Ikiling mo ang ulo mo, at kadalasan ay babalik ang larawan.",
+   "Ang liwanag ay isang alon, at puwede itong manginig sa anumang direksyon.",
+   "Maraming phone screen ang naglalabas lang ng liwanag na nanginginig sa isang direksyon.",
+   "Filter din ang polarized sunglasses.",
+   "Kapag suot nang tuwid, pataas-pababang panginginig lang ang pinapadaan, para harangan ang silaw mula sa kalsada at tubig.",
+   "Pagpantayin ang hanay ng dalawang filter, at dadaan ang liwanag.",
+   "Paikutin ang isa nang one-fourth turn, at magkakasalungat na sila.",
+   "Halos walang dumadaan.",
+   "Hindi kailanman namatay ang screen mo.",
+   "Hinarangan lang ito ng salamin mo."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "polarization",
+   "vi": "phân cực",
+   "th": "การโพลาไรซ์",
+   "ja": "偏光",
+   "ko": "편광",
+   "zh-Hant": "偏振",
+   "id": "polarisasi",
+   "fil": "polarization"
+  },
+  {
+   "en": "polarized light",
+   "vi": "ánh sáng phân cực",
+   "th": "แสงโพลาไรซ์",
+   "ja": "偏光",
+   "ko": "편광",
+   "zh-Hant": "偏振光",
+   "id": "cahaya terpolarisasi",
+   "fil": "polarized light"
+  },
+  {
+   "en": "polarizer / polarized sunglasses",
+   "vi": "kính râm phân cực",
+   "th": "แว่นกันแดดโพลาไรซ์",
+   "ja": "偏光サングラス",
+   "ko": "편광 선글라스",
+   "zh-Hant": "偏光太陽眼鏡",
+   "id": "kacamata hitam terpolarisasi",
+   "fil": "polarized sunglasses"
+  },
+  {
+   "en": "Malus's law",
+   "vi": "định luật Malus",
+   "th": "กฎของมาลุส",
+   "ja": "マリュスの法則",
+   "ko": "말뤼스 법칙",
+   "zh-Hant": "馬呂斯定律",
+   "id": "hukum Malus",
+   "fil": "Malus's law"
+  },
+  {
+   "en": "glare",
+   "vi": "ánh chói",
+   "th": "แสงจ้า",
+   "ja": "まぶしい反射光",
+   "ko": "눈부심",
+   "zh-Hant": "眩光",
+   "id": "silau",
+   "fil": "silaw"
+  }
+ ]
+}
