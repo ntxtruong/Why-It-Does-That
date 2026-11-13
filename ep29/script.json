@@ -1,0 +1,54 @@
+{
+ "title": "Why Can't You See Your Own Eyes Move?",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3 (2026-11-13): 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 11,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "You've never seen your own eyes move."
+   ]
+  },
+  {
+   "id": "mirror",
+   "long": [],
+   "beats": [
+    "Look in a mirror. Look at your left eye, then your right."
+   ]
+  },
+  {
+   "id": "jump",
+   "long": [],
+   "beats": [
+    "You never see them move. But they do: a quick jump, several times a second."
+   ]
+  },
+  {
+   "id": "brain",
+   "long": [],
+   "beats": [
+    "During each jump, your brain hides the blur and stitches the gap."
+   ]
+  },
+  {
+   "id": "phone",
+   "long": [],
+   "beats": [
+    "Your phone's front camera shows you a split second late.",
+    "So on the screen, you catch them moving."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Now try the mirror again."
+   ]
+  }
+ ]
+}

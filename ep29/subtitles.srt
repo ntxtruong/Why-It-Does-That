@@ -1,0 +1,35 @@
+1
+00:00:00,150 --> 00:00:02,164
+You've never seen your own eyes move.
+
+2
+00:00:02,664 --> 00:00:03,642
+Look in a mirror.
+
+3
+00:00:03,642 --> 00:00:05,886
+Look at your left eye, then your right.
+
+4
+00:00:06,386 --> 00:00:07,980
+You never see them move.
+
+5
+00:00:07,980 --> 00:00:11,301
+But they do: a quick jump, several times a second.
+
+6
+00:00:11,801 --> 00:00:15,606
+During each jump, your brain hides the blur and stitches the gap.
+
+7
+00:00:16,106 --> 00:00:19,241
+Your phone's front camera shows you a split second late.
+
+8
+00:00:19,541 --> 00:00:21,843
+So on the screen, you catch them moving.
+
+9
+00:00:22,343 --> 00:00:23,839
+Now try the mirror again.
