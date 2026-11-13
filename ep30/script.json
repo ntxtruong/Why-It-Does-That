@@ -1,0 +1,48 @@
+{
+ "title": "Why Are Blue Eyes Blue?",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3 (2026-11-13): 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 2,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "There's no blue pigment in blue eyes."
+   ]
+  },
+  {
+   "id": "pigment",
+   "long": [],
+   "beats": [
+    "Every eye colour comes from one brown pigment: melanin.",
+    "Blue eyes have almost none in the front layer of the iris."
+   ]
+  },
+  {
+   "id": "scatter",
+   "long": [],
+   "beats": [
+    "Tiny fibres there scatter light, and blue scatters the most.",
+    "The dark back layer soaks up the rest."
+   ]
+  },
+  {
+   "id": "more",
+   "long": [],
+   "beats": [
+    "Add a little melanin, and the eye looks green. Add more, brown."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Blue eyes are blue the way the sky is blue."
+   ]
+  }
+ ]
+}

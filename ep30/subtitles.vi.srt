@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,393
+Mắt xanh không hề có sắc tố xanh.
+
+2
+00:00:02,893 --> 00:00:06,507
+Mọi màu mắt đều đến từ một sắc tố nâu: melanin.
+
+3
+00:00:06,807 --> 00:00:10,228
+Mắt xanh gần như không có melanin ở lớp trước của mống mắt.
+
+4
+00:00:10,728 --> 00:00:14,271
+Những sợi nhỏ ở đó tán xạ ánh sáng, và màu xanh tán xạ mạnh nhất.
+
+5
+00:00:14,571 --> 00:00:16,681
+Lớp sau sẫm màu hút hết phần còn lại.
+
+6
+00:00:17,181 --> 00:00:20,055
+Thêm một chút melanin, mắt trông xanh lục.
+
+7
+00:00:20,055 --> 00:00:21,055
+Thêm nữa, thành nâu.
+
+8
+00:00:21,555 --> 00:00:24,226
+Mắt xanh có màu xanh theo cách bầu trời có màu xanh.
