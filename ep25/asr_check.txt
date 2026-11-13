@@ -1,0 +1,4 @@
+0:00.0  hook: script 'butter side' / heard 'butterside'
+
+1 beat(s) to listen to; 2 of 106 words differ (1.9%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,571
+Kenapa roti panggang jatuh dengan sisi mentega di bawah?
+
+2
+00:00:02,871 --> 00:00:06,263
+Bukan karena sial, dan bukan karena berat mentega.
+
+3
+00:00:06,763 --> 00:00:08,997
+Sebagian besar karena tinggi mejamu.
+
+4
+00:00:09,497 --> 00:00:14,260
+Saat roti meluncur dari tepi meja, roti berputar pada tepinya lalu mulai berputar.
+
+5
+00:00:14,560 --> 00:00:20,531
+Tapi putarannya lambat dan jatuhnya singkat: dari meja, sekitar 0,4 detik.
+
+6
+00:00:21,281 --> 00:00:25,275
+Dalam waktu itu, roti hanya sempat berputar sekitar setengah putaran.
+
+7
+00:00:25,575 --> 00:00:27,069
+Awalnya sisi mentega di atas.
+
+8
+00:00:27,069 --> 00:00:29,273
+Setengah putaran kemudian: sisi mentega di bawah.
+
+9
+00:00:29,773 --> 00:00:35,268
+Dari meja setinggi sekitar 3 m, roti akan berputar satu putaran penuh dan mendarat dengan sisi mentega di atas.
+
+10
+00:00:35,768 --> 00:00:37,514
+Jadi jangan salahkan mentega.
+
+11
+00:00:37,514 --> 00:00:38,589
+Salahkan mejanya.

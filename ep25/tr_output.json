@@ -1,0 +1,153 @@
+{
+ "vi": {
+  "title": "Sao bánh mì nướng hay rơi úp mặt bơ xuống? #science #physics",
+  "description": "Không phải xui, cũng không phải do bơ: phần lớn là do chiều cao của chiếc bàn. Lát bánh mì trượt khỏi mép bàn sẽ xoay quanh mép và bắt đầu quay. Từ chiếc bàn cao 75 cm, cú rơi mất khoảng 0,4 giây, chỉ đủ để quay khoảng nửa vòng, nên mặt bơ từ trên thành dưới. Từ chiếc bàn cao khoảng 3 m, nó sẽ quay gần trọn một vòng và rơi xuống với mặt bơ hướng lên.\n\nLưu ý: nếu bị búng mạnh theo phương ngang thì kết quả sẽ khác; điều này chỉ đúng với lát bánh trượt hoặc bị đẩy nhẹ khỏi mép bàn.\n\nThêm về các vật đang quay trước ống kính: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nNguồn\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nThử với một lát bánh mì (không bơ) đặt trên kệ cao hơn: nó có rơi khác đi không?\n\nKịch bản, giọng đọc và hoạt họa do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Sao bánh mì nướng hay rơi úp mặt bơ xuống?",
+   "Không phải xui, cũng không phải do độ nặng của bơ.",
+   "Phần lớn là do chiều cao của chiếc bàn.",
+   "Khi trượt khỏi mép bàn, lát bánh xoay quanh mép và bắt đầu quay.",
+   "Nhưng nó quay chậm, mà cú rơi lại ngắn: từ mặt bàn, chỉ khoảng 0,4 giây.",
+   "Trong khoảng đó, lát bánh chỉ kịp quay khoảng nửa vòng.",
+   "Lúc đầu mặt bơ hướng lên.",
+   "Nửa vòng sau: mặt bơ úp xuống.",
+   "Từ chiếc bàn cao khoảng 3 m, nó sẽ quay trọn một vòng và rơi mặt bơ hướng lên.",
+   "Nên đừng trách miếng bơ.",
+   "Hãy trách cái bàn."
+  ]
+ },
+ "th": {
+  "title": "ทำไมขนมปังปิ้งถึงตกด้านทาเนยคว่ำลง? #science #physics",
+  "description": "ไม่ใช่เพราะโชคร้าย และไม่ใช่เพราะเนย แต่ส่วนใหญ่เป็นเพราะความสูงของโต๊ะ ขนมปังที่ไถลตกขอบโต๊ะจะหมุนรอบขอบแล้วเริ่มหมุนตัว จากโต๊ะสูง 75 cm การตกใช้เวลาประมาณ 0.4 วินาที พอให้หมุนได้แค่ครึ่งรอบ ด้านเนยที่หงายอยู่จึงกลายเป็นคว่ำลง แต่ถ้าตกจากโต๊ะสูงราว 3 m ขนมปังจะหมุนประมาณหนึ่งรอบเต็มและลงมาด้านเนยหงาย\n\nข้อควรระวัง: ถ้าดีดออกไปด้านข้างแรง ๆ ผลจะเปลี่ยนไป เรื่องนี้ใช้กับขนมปังที่ไถลหรือถูกเขี่ยตกขอบเท่านั้น\n\nดูเรื่องของที่หมุนหน้ากล้องเพิ่มเติม: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nแหล่งอ้างอิง\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nลองใช้ขนมปังแผ่น (ไม่ทาเนย) ปล่อยจากชั้นที่สูงกว่า: มันตกต่างออกไปไหม?\n\nบท เสียงพากย์ และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ทุกข้ออ้างได้รับการตรวจสอบกับแหล่งอ้างอิงข้างต้น\n#Shorts",
+  "subtitles": [
+   "ทำไมขนมปังปิ้งถึงตกด้านทาเนยคว่ำลง?",
+   "ไม่ใช่เพราะโชคร้าย และไม่ใช่เพราะน้ำหนักของเนย",
+   "ส่วนใหญ่เป็นเพราะความสูงของโต๊ะ",
+   "ตอนขนมปังไถลตกขอบโต๊ะ มันจะหมุนรอบขอบแล้วเริ่มหมุนตัว",
+   "แต่มันหมุนช้า และการตกก็สั้น: จากโต๊ะใช้เวลาแค่ราว 0.4 วินาที",
+   "ในเวลานั้น ขนมปังหมุนได้แค่ประมาณครึ่งรอบ",
+   "ตอนแรกด้านเนยหงายอยู่",
+   "ครึ่งรอบต่อมา: ด้านเนยคว่ำ",
+   "ถ้าตกจากโต๊ะสูงราว 3 m มันจะหมุนครบหนึ่งรอบและลงมาด้านเนยหงาย",
+   "อย่าโทษเนยเลย",
+   "โทษโต๊ะเถอะ"
+  ]
+ },
+ "ja": {
+  "title": "なぜトーストはバター面を下にして落ちるの？ #science #physics",
+  "description": "運が悪いからでも、バターのせいでもありません。おもに原因はテーブルの高さです。縁からすべり落ちるトーストは、縁を支点に回り始めます。高さ75 cmのテーブルからだと落下時間は約0.4秒で、回れるのは半回転ほど。バターが上だった面が下になります。高さ約3 mのテーブルなら、ほぼ1回転してバター面が上のまま着地します。\n\n注意：横に勢いよくはじいた場合は結果が変わります。この話は、すべり落ちる、または軽く押し出されたトーストの場合です。\n\nカメラの前で回るものについて、もっと見る： Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n出典\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nバターなしの食パンを、もっと高い棚から落としてみて。落ち方は変わる？\n\n台本・音声・アニメーションはAIが制作しました（Claude；Kokoro音声）。すべての主張は上記の出典で確認済みです。\n#Shorts",
+  "subtitles": [
+   "なぜトーストはバター面を下にして落ちるの？",
+   "運が悪いからでも、バターの重さのせいでもありません。",
+   "おもな原因は、テーブルの高さです。",
+   "トーストが縁からすべり落ちると、縁を支点にして回り始めます。",
+   "でも回転はゆっくりで、落下は短い。テーブルからだと約0.4秒です。",
+   "その間にトーストが回れるのは、半回転ほど。",
+   "最初はバター面が上でした。",
+   "半回転後は、バター面が下。",
+   "高さ約3 mのテーブルなら、1回転してバター面が上で着地します。",
+   "だから、バターを責めないで。",
+   "責めるならテーブルです。"
+  ]
+ },
+ "ko": {
+  "title": "토스트는 왜 버터 바른 면이 바닥으로 떨어질까? #science #physics",
+  "description": "운이 나빠서도, 버터 때문도 아닙니다. 대부분은 탁자의 높이 때문입니다. 가장자리에서 미끄러진 토스트는 모서리를 축으로 회전하기 시작합니다. 높이 75 cm 탁자에서는 낙하에 약 0.4초가 걸리고, 이 시간에는 반 바퀴쯤만 돌 수 있어서 버터가 위였던 면이 아래가 됩니다. 높이 약 3 m의 탁자라면 거의 한 바퀴를 돌아 버터 면이 위로 향한 채 떨어집니다.\n\n참고: 옆으로 세게 튕기면 결과가 달라집니다. 이 설명은 미끄러지거나 살짝 밀려 떨어지는 토스트에 해당합니다.\n\n카메라 앞에서 도는 물체에 대해 더 보기: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n출처\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\n버터를 바르지 않은 식빵을 더 높은 선반에서 떨어뜨려 보세요. 다르게 떨어질까요?\n\n대본, 음성, 애니메이션은 AI가 제작했습니다(Claude; Kokoro 음성). 모든 내용은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "토스트는 왜 버터 바른 면이 바닥으로 떨어질까?",
+   "운이 나빠서도, 버터가 무거워서도 아닙니다.",
+   "대부분은 탁자의 높이 때문입니다.",
+   "토스트가 가장자리에서 미끄러지면, 모서리를 축으로 돌기 시작합니다.",
+   "하지만 회전은 느리고 낙하는 짧습니다. 탁자에서는 약 0.4초예요.",
+   "그 시간 동안 토스트는 반 바퀴쯤만 돕니다.",
+   "처음엔 버터 면이 위였죠.",
+   "반 바퀴 뒤에는 버터 면이 아래입니다.",
+   "높이 약 3 m의 탁자라면 한 바퀴 돌아서 버터 면이 위로 떨어집니다.",
+   "그러니 버터를 탓하지 마세요.",
+   "탁자를 탓하세요."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼吐司總是塗奶油的那面朝下落地？ #science #physics",
+  "description": "這不是運氣差，也不是奶油的錯，主要是桌子的高度。吐司從桌緣滑落時會以桌緣為支點開始旋轉。從 75 cm 高的桌子落下，大約需要 0.4 秒，只夠轉半圈，所以原本朝上的奶油面就變成朝下。如果從約 3 m 高的桌子落下，它大約會轉一整圈，奶油面朝上落地。\n\n補充：如果是往側面用力彈出去，結果就會不同；這裡說的是滑落或被輕輕推下桌的吐司。\n\n更多關於鏡頭前旋轉的東西： Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\n資料來源\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\n試試拿一片沒塗奶油的吐司，從更高的架子上丟下：落地方式會不一樣嗎？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上列資料來源查證。\n#Shorts",
+  "subtitles": [
+   "為什麼吐司總是塗奶油的那面朝下落地？",
+   "不是運氣差，也不是奶油太重。",
+   "主要是因為桌子的高度。",
+   "吐司滑出桌緣時，會以桌緣為支點，開始旋轉。",
+   "但旋轉很慢，下落又很短：從桌上落下，大約 0.4 秒。",
+   "在這段時間裡，吐司只轉得了大約半圈。",
+   "一開始奶油面朝上。",
+   "轉了半圈之後：奶油面朝下。",
+   "如果從約 3 m 高的桌子落下，它會轉整整一圈，奶油面朝上落地。",
+   "所以別怪奶油。",
+   "要怪就怪桌子。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Roti Panggang Jatuh dengan Sisi Mentega di Bawah? #science #physics",
+  "description": "Bukan karena sial, dan bukan karena mentega: sebagian besar karena tinggi mejamu. Roti panggang yang meluncur dari tepi meja akan berputar pada tepinya lalu mulai berputar-putar. Dari meja setinggi 75 cm, jatuhnya makan waktu sekitar 0,4 detik, hanya cukup untuk setengah putaran, jadi sisi mentega yang tadinya di atas berakhir di bawah. Dari meja setinggi sekitar 3 m, roti akan berputar kira-kira satu putaran penuh dan mendarat dengan sisi mentega di atas.\n\nCatatan: sentilan cepat ke samping akan mengubah hasilnya; penjelasan ini untuk roti yang meluncur atau terdorong pelan dari meja.\n\nLebih lanjut tentang benda yang berputar di depan kamera: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nSumber\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nCoba dengan selembar roti tawar (tanpa mentega) dari rak yang lebih tinggi: apakah jatuhnya berbeda?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa roti panggang jatuh dengan sisi mentega di bawah?",
+   "Bukan karena sial, dan bukan karena berat mentega.",
+   "Sebagian besar karena tinggi mejamu.",
+   "Saat roti meluncur dari tepi meja, roti berputar pada tepinya lalu mulai berputar.",
+   "Tapi putarannya lambat dan jatuhnya singkat: dari meja, sekitar 0,4 detik.",
+   "Dalam waktu itu, roti hanya sempat berputar sekitar setengah putaran.",
+   "Awalnya sisi mentega di atas.",
+   "Setengah putaran kemudian: sisi mentega di bawah.",
+   "Dari meja setinggi sekitar 3 m, roti akan berputar satu putaran penuh dan mendarat dengan sisi mentega di atas.",
+   "Jadi jangan salahkan mentega.",
+   "Salahkan mejanya."
+  ]
+ },
+ "fil": {
+  "title": "Bakit Laging Butter-Side Down Bumabagsak ang Toast? #science #physics",
+  "description": "Hindi ito malas at hindi rin dahil sa butter: kadalasan ay dahil ito sa taas ng mesa mo. Ang toast na dumudulas palabas ng gilid ay umiikot sa gilid (pivot) at nagsisimulang mag-spin. Mula sa mesang 75 cm ang taas, mga 0.4 segundo ang pagbagsak, sapat lang para sa halos kalahating ikot, kaya ang butter na nasa itaas ay napupunta sa ibaba. Mula sa mesang mga 3 m ang taas, halos isang buong ikot ang gagawin nito at lalapag na butter-up.\n\nPaalala: iba ang kalalabasan kung mabilis itong pitikin pahalang; para ito sa toast na dumudulas o marahang natutulak palabas ng mesa.\n\nHigit pa tungkol sa mga bagay na umiikot sa camera: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nMga Sanggunian\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nSubukan ito sa isang hiwa ng tinapay (walang butter) mula sa mas mataas na shelf: iba ba ang pagbagsak nito?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat pahayag ay sinuri batay sa mga sanggunian sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit butter-side down bumabagsak ang toast?",
+   "Hindi ito malas, at hindi rin dahil sa bigat ng butter.",
+   "Kadalasan, dahil ito sa taas ng mesa mo.",
+   "Habang dumudulas ang toast palabas ng gilid, umiikot ito sa gilid at nagsisimulang mag-spin.",
+   "Pero mabagal ang ikot, at maikli ang pagbagsak: mula sa mesa, mga 0.4 segundo.",
+   "Sa oras na iyon, halos kalahating ikot lang ang kaya ng toast.",
+   "Butter up ito noong una.",
+   "Pagkalipas ng kalahating ikot: butter down.",
+   "Mula sa mesang mga 3 m ang taas, isang buong ikot ito at lalapag na butter up.",
+   "Kaya huwag sisihin ang butter.",
+   "Ang mesa ang sisihin."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "rotation / spin",
+   "vi": "sự quay",
+   "th": "การหมุน",
+   "ja": "回転",
+   "ko": "회전",
+   "zh-Hant": "旋轉",
+   "id": "rotasi / berputar",
+   "fil": "pag-ikot (spin)"
+  },
+  {
+   "en": "fall time",
+   "vi": "thời gian rơi",
+   "th": "เวลาที่ตก",
+   "ja": "落下時間",
+   "ko": "낙하 시간",
+   "zh-Hant": "下落時間",
+   "id": "waktu jatuh",
+   "fil": "oras ng pagbagsak"
+  },
+  {
+   "en": "pivot (point of rotation)",
+   "vi": "điểm xoay (trục quay)",
+   "th": "จุดหมุน",
+   "ja": "支点",
+   "ko": "회전축",
+   "zh-Hant": "支點",
+   "id": "titik tumpu",
+   "fil": "pivot"
+  }
+ ]
+}

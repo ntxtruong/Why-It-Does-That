@@ -1,0 +1,17 @@
+{
+ "title": "Why Does Toast Land Butter-Side Down? #science #physics",
+ "description": "It's not bad luck and it's not the butter: it's mostly the height of your table. Toast sliding off the edge pivots on the rim and starts to spin. From a 75 cm table the fall takes about 0.4 seconds, only enough for about half a turn, so butter-up becomes butter-down. From a table about 3 m high it would turn roughly a full turn and land butter up.\n\nCaveat: a fast sideways flick changes the outcome; this is for toast that slides or is nudged off.\n\nMore on spinning things on camera: Why do wheels spin backwards on camera? https://youtu.be/SxjS9sdc_Ek\n\nSources\n- Matthews, R. A. J. (1995), Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16: 172–176\n- Bacon, M. E., Heald, G. & James, M. (2001), A closer look at tumbling toast, American Journal of Physics 69: 38–43\n- Fall time computed: t = √(2h/g) = 0.39 s for h = 0.75 m\n\nTry it with a slice of bread (no butter) from a higher shelf: does it land differently?\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every claim is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "Why does toast land butter-side down?",
+  "It's not bad luck, and it's not the weight of the butter.",
+  "Mostly, it's the height of your table.",
+  "As toast slides off the edge, it pivots on the rim and starts to spin.",
+  "But the spin is slow, and the fall is short: from a table, about 0.4 seconds.",
+  "In that time, the toast only manages about half a turn.",
+  "It started butter up.",
+  "Half a turn later: butter down.",
+  "From a table about 3m high, it would spin a full turn and land butter up.",
+  "So don't blame the butter.",
+  "Blame the table."
+ ]
+}

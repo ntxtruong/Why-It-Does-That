@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,571
+Why does toast land butter-side down?
+
+2
+00:00:02,871 --> 00:00:06,263
+It's not bad luck, and it's not the weight of the butter.
+
+3
+00:00:06,763 --> 00:00:08,997
+Mostly, it's the height of your table.
+
+4
+00:00:09,497 --> 00:00:14,260
+As toast slides off the edge, it pivots on the rim and starts to spin.
+
+5
+00:00:14,560 --> 00:00:20,531
+But the spin is slow, and the fall is short: from a table, about 0.4 seconds.
+
+6
+00:00:21,281 --> 00:00:25,275
+In that time, the toast only manages about half a turn.
+
+7
+00:00:25,575 --> 00:00:27,069
+It started butter up.
+
+8
+00:00:27,069 --> 00:00:29,273
+Half a turn later: butter down.
+
+9
+00:00:29,773 --> 00:00:35,268
+From a table about 3m high, it would spin a full turn and land butter up.
+
+10
+00:00:35,768 --> 00:00:37,514
+So don't blame the butter.
+
+11
+00:00:37,514 --> 00:00:38,589
+Blame the table.
