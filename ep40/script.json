@@ -1,0 +1,47 @@
+{
+ "title": "That's Not the Ocean in a Seashell",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 5,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "That's not the ocean in a seashell."
+   ]
+  },
+  {
+   "id": "room",
+   "long": [],
+   "beats": [
+    "It's the noise of the room around you."
+   ]
+  },
+  {
+   "id": "ring",
+   "long": [],
+   "beats": [
+    "The hollow shell makes some pitches ring louder, like blowing across a bottle."
+   ]
+  },
+  {
+   "id": "quiet",
+   "long": [],
+   "beats": [
+    "In a noisy cafe, the waves get louder.",
+    "In a very quiet room, the ocean fades to a faint hush."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "An empty cup does it too."
+   ]
+  }
+ ]
+}

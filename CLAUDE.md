@@ -351,7 +351,46 @@ Terms from episodes 19–21 (2026-11-07), with the two new languages (machine-dr
 | palm | lòng bàn tay | ฝ่ามือ | 手のひら | 손바닥 | 手掌 | telapak tangan | palad |
 | robot | robot | หุ่นยนต์ | ロボット | 로봇 | 機器人 | robot | robot |
 
+## Glossary additions (eps 33–40, 2026-11-14; machine-drafted by Sonnet subagents, native check pending)
+
+| English | vi | th | ja | ko | zh-Hant | id | fil |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| radioactive decay | phân rã phóng xạ | การสลายตัวของกัมมันตรังสี | 放射性崩壊 | 방사성 붕괴 | 放射性衰變 | peluruhan radioaktif | radioactive decay |
+| potassium | kali | โพแทสเซียม | カリウム | 칼륨 | 鉀 | kalium | potassium |
+| isotope | đồng vị | ไอโซโทป | 同位体 | 동위원소 | 同位素 | isotop | isotope |
+| radioactive | phóng xạ | กัมมันตรังสี | 放射性 | 방사성 | 放射性 | radioaktif | radioactive |
+| glass | thủy tinh | แก้ว | ガラス | 유리 | 玻璃 | kaca | salamin |
+| amorphous solid | chất rắn vô định hình | ของแข็งอสัณฐาน | 非晶質固体 | 비정질 고체 | 非晶質固體 | padatan amorf | amorphous solid |
+| viscosity | độ nhớt | ความหนืด | 粘性 | 점성 | 黏滯性 | viskositas | viscosity |
+| glass transition | chuyển pha thủy tinh | การเปลี่ยนสถานะคล้ายแก้ว | ガラス転移 | 유리 전이 | 玻璃轉化 | transisi gelas | glass transition |
+| spine | cột sống | กระดูกสันหลัง | 背骨 | 척추 | 脊椎 | tulang belakang | gulugod |
+| spinal disc | đĩa đệm | หมอนรองกระดูกสันหลัง | 椎間板 | 추간판(디스크) | 椎間盤 | cakram tulang belakang | disc ng gulugod |
+| gravity | trọng lực | แรงโน้มถ่วง | 重力 | 중력 | 重力 | gravitasi | gravity |
+| astronaut | phi hành gia | นักบินอวกาศ | 宇宙飛行士 | 우주비행사 | 太空人 | astronaut | astronaut |
+| touchscreen | màn hình cảm ứng | หน้าจอสัมผัส (ทัชสกรีน) | タッチスクリーン | 터치스크린 | 觸控螢幕 | layar sentuh | touchscreen |
+| electrode | điện cực | ขั้วไฟฟ้า | 電極 | 전극 | 電極 | elektroda | electrode |
+| electric field | điện trường | สนามไฟฟ้า | 電界 | 전기장 | 電場 | medan listrik | electric field |
+| conductor | vật dẫn điện | ตัวนำไฟฟ้า | 導体 | 도체 | 導體 | penghantar listrik | conductor |
+| capacitive sensing | cảm biến điện dung | การตรวจจับแบบเก็บประจุ | 静電容量方式 | 정전 용량 방식 | 電容式感測 | penginderaan kapasitif | capacitive sensing |
+| cumulus cloud | mây tích | เมฆคิวมูลัส | 積雲 | 적운 | 積雲 | awan kumulus | cumulus cloud (ulap na cumulus) |
+| cloud droplet | giọt nước trong mây | หยดน้ำในเมฆ | 雲粒 | 구름 물방울 | 雲滴 | tetesan awan | patak sa ulap |
+| rising air (updraft) | luồng khí bốc lên | กระแสอากาศที่ลอยขึ้น | 上昇気流 | 상승 기류 | 上升氣流 | arus udara naik | umaakyat na hangin (updraft) |
+| liquid water | nước lỏng | น้ำเหลว | 液体の水 | 액체 상태의 물 | 液態水 | air cair | likidong tubig |
+| blind spot | điểm mù | จุดบอด | 盲点 | 맹점 | 盲點 | bintik buta | blind spot |
+| optic nerve | dây thần kinh thị giác | เส้นประสาทตา | 視神経 | 시신경 | 視神經 | saraf optik | optic nerve |
+| light sensor (photoreceptor) | tế bào cảm quang | เซลล์รับแสง | 光を感じる細胞（光受容細胞） | 광수용체(빛 감지 세포) | 感光細胞 | sel fotoreseptor | photoreceptor |
+| retina | võng mạc | จอประสาทตา | 網膜 | 망막 | 視網膜 | retina | retina |
+| pressure cooker | nồi áp suất | หม้อแรงดัน | 圧力鍋 | 압력솥 | 壓力鍋 | panci presto | pressure cooker |
+| starch | tinh bột | แป้ง | デンプン | 녹말 | 澱粉 | pati | starch |
+| hull (kernel shell) | vỏ hạt | เปลือกเมล็ด | 外皮 | 껍질 | 外殼 | kulit biji | balat ng butil |
+| steam | hơi nước | ไอน้ำ | 水蒸気 | 수증기 | 蒸氣 | uap | singaw |
+| resonance | cộng hưởng | การสั่นพ้อง | 共鳴 | 공명 | 共振 | resonansi | resonance |
+| seashell | vỏ ốc biển | เปลือกหอย | 貝殻 | 조개껍데기 | 貝殼 | cangkang kerang | kabibe |
+| cavity (Helmholtz) resonator | hộp cộng hưởng (Helmholtz) | ตัวสั่นพ้องแบบโพรง (เฮล์มโฮลทซ์) | ヘルムホルツ共鳴器 | 헬름홀츠 공명기 | 亥姆霍茲共振腔 | resonator rongga (Helmholtz) | cavity (Helmholtz) resonator |
+
 ## Open items (2026-11-03)
+
+- 2026-11-14 (same session, later): Trường in chat: "Dựng tiếp 34-40 mình sẽ upload sau". Built eps 33–40 (8 v3 Shorts; read as "continue up to 40", numbering kept continuous) and pushed each to its own branch with all upload files (EN + 7 languages). Not uploaded: Trường will upload later (or the next run with Claude in Chrome). Eps 31–40 all wait for upload.
 
 - 2026-11-14 (scheduled run, Saturday): first run under creative control (ep 31 on, no idea/script gates). No browser linked, so Stage 0 skipped (Shorts 19–30 analytics still unread: H1–H5, H7 unscored) and nothing uploaded. Eps 31 (metal vs wood) and 32 (self-tickle) produced as v3 Shorts and pushed with all upload files (EN + 7 languages). Next run with Claude in Chrome: upload both Unlisted (Related video, playlist, EN + 7 translations, music mix 15), then read the analytics.
 
@@ -488,6 +527,7 @@ Next run: read average view duration and subscribers per Short (Analytics → N�
 
 ## Learnings
 
+- 2026-11-14 (eps 33–40, eight Shorts in one session): a fact-check subagent WITH web search before voicing (instead of a skeptic reading only my claims table) caught five wording problems at once (cloud "weighs" → "the water in this cloud weighs", 1 cm → 1–2 cm, "phone doesn't feel pressure" → "most screens", popcorn pop hedged, seashell "silent room" unverified). `qc_video.py` lit area counts pixels brighter than the frame's median by 18, so brightening the background does not help; only bigger or brighter subjects do (sky-blue ep 37 with a white cloud scored 33–39 %, navy rooms with mid-size drawings 17–24 %). Next: give each Short one subject ≥ 700 px tall and light-coloured, or a light background with dark subjects. Process note: 8 Shorts took ~2.5 h wall time with renders running in one detached queue while I wrote metadata.
 - 2026-11-14 (eps 31–32, v3, one session, no subagents for scenes): the cold read (Sonnet, contact sheets only) understood both explanations correctly but caught a convergence animation that read as a contradiction (thermometers starting at 12 °C and 36 °C under the caption "same temperature": now both rise together from empty) and labels touching objects. `qc_video.py` lit area on the tickle Short came out 20–22 % with a single hand as subject; scaling the hand ×1.15 fixed it. Rule: a lone subject must be ≥ 700 px tall in a Short. Mistake to avoid: plates at y ≈ 1180 sit behind the character's head (x < 330); put scene labels in the free top band (y ≈ 200–300) once the claim caption has gone.
 - 2026-11-13, **analytics review** (first full read; Trường: "đọc số liệu để tự cải thiện"). Shorts numbers since publish (views · stayed % · avg view ≈ watch hours ×3600 ÷ views · top country):
   ep 11 wheels 1,227 · 53 % · ~11 s/43 s · PH/US · ep 15 fingers 1,125 · 57 % · ~13 s/50 s · US/PH · ep 13 moon 155 · 38 % · ~9 s · – · ep 22 spoon 958 · 45 % · ~10 s/42 s · VN 99 % · ep 23 coin 719 · 59 % · ~12 s/42 s · VN 82 % · ep 24 soda 679 · 33 % · ~10 s/45 s · VN 98 % · ep 20 onion 45 · 22 % · – · ep 19 sky 85 and ep 21 can 109 were still **Unlisted** (never actually Public until 2026-11-13; ep 21 switched that day, ep 19 still Unlisted, the switch was blocked and is left to Trường).
@@ -567,3 +607,11 @@ Next run: read average view duration and subscribers per Short (Analytics → N�
 | 30 | There's no blue pigment in blue eyes (new Short, v3, structural colour, 26 s) | **Uploaded Unlisted 2026-11-13**: https://youtube.com/shorts/2BMXXYMflqo, playlist Your Body, Explained, Related video → ep 2, EN + 7 translations, music "Somewhere Fuse" (mood Thư thái, mix 15) saved. Branch `claude/ep30-blue-eyes`. Tests H5/H7 |
 | 31 | Metal isn't colder than wood (new Short, v3, thermal conductivity, 26 s) | Produced 2026-11-14 (creative control: idea and script by Claude, skeptic + cold read done), **not uploaded** (no browser this run). Branch `claude/ep31-metal-wood`, file `media/ep31-metal-wood-short.mp4`, EN + 7 languages. Related → ep 8; playlist Everyday Physics. Tests H1/H4/H7 (prediction: stayed ≥ 55 %) |
 | 32 | You can't really tickle yourself (new Short, v3, sensory prediction, 23 s) | Produced 2026-11-14, **not uploaded** (no browser this run). Branch `claude/ep32-self-tickle`, file `media/ep32-self-tickle-short.mp4`, EN + 7 languages. Related → ep 3; playlist Your Brain Is Tricking You. Tests H5/H7 (prediction: stayed ≥ 50 %) |
+| 33 | Every banana is a little radioactive (K-40) (new Short, v3, 26 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep33-banana-radioactive`, file `media/ep33-banana-radioactive-short.mp4`, EN + 7 languages. Related → ep 8; playlist Nature's Weird Rules. Tests H1/H5/H7 |
+| 34 | Old windows aren't melting (glass flow myth) (new Short, v3, 25 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep34-old-glass`, file `media/ep34-old-glass-short.mp4`, EN + 7 languages. Related → ep 1; playlist Everyday Physics. Tests H1/H5/H7 |
+| 35 | You're taller in the morning (spinal discs) (new Short, v3, 23 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep35-taller-morning`, file `media/ep35-taller-morning-short.mp4`, EN + 7 languages. Related → ep 7; playlist Your Body, Explained. Tests H1/H5/H7 |
+| 36 | A sausage can work your touchscreen (capacitive touch) (new Short, v3, 23 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep36-sausage-touchscreen`, file `media/ep36-sausage-touchscreen-short.mp4`, EN + 7 languages. Related → ep 5; playlist How Everyday Tech Works. Tests H1/H5/H7 |
+| 37 | The water in this cloud weighs 500 tonnes (new Short, v3, 25 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep37-cloud-weight`, file `media/ep37-cloud-weight-short.mp4`, EN + 7 languages. Related → ep 2; playlist Nature's Weird Rules. Tests H1/H5/H7 |
+| 38 | There's a hole in what you see (blind spot, try-it test) (new Short, v3, 20 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep38-blind-spot`, file `media/ep38-blind-spot-short.mp4`, EN + 7 languages. Related → ep 3; playlist Your Brain Is Tricking You. Tests H1/H5/H7 |
+| 39 | Every popcorn kernel is a pressure cooker (new Short, v3, 23 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep39-popcorn-pressure`, file `media/ep39-popcorn-pressure-short.mp4`, EN + 7 languages. Related → ep 8; playlist Everyday Physics. Tests H1/H5/H7 |
+| 40 | That's not the ocean in a seashell (cavity resonance) (new Short, v3, 21 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep40-seashell-ocean`, file `media/ep40-seashell-ocean-short.mp4`, EN + 7 languages. Related → ep 5; playlist Everyday Physics. Tests H1/H5/H7 |
