@@ -1,0 +1,195 @@
+1
+00:00:00,600 --> 00:00:04,776
+Sentuh pagar logam dan bangku kayu di pagi musim dingin yang sama.
+
+2
+00:00:05,276 --> 00:00:07,080
+Logam terasa dingin sekali.
+
+3
+00:00:07,080 --> 00:00:09,028
+Kayu terasa hampir hangat.
+
+4
+00:00:09,528 --> 00:00:13,428
+Tapi kalau kamu taruh termometer di keduanya, angkanya hampir sama.
+
+5
+00:00:14,928 --> 00:00:17,356
+Jadi sebenarnya tanganmu mengukur apa?
+
+6
+00:00:17,856 --> 00:00:21,050
+Di akhir video, kamu akan tahu kenapa sauna tidak membakar kulitmu,
+
+7
+00:00:21,550 --> 00:00:26,314
+kenapa perosotan logam bisa, dan bagaimana mint menipu sensor yang sama.
+
+8
+00:00:28,414 --> 00:00:33,070
+Taruh apa pun di ruangan cukup lama, dan suhunya akan sama dengan suhu ruangan.
+
+9
+00:00:33,570 --> 00:00:36,541
+Logam, kayu, plastik, bahkan udara.
+
+10
+00:00:37,041 --> 00:00:40,317
+Tidak ada yang lebih dingin dari yang lain di ruangan itu.
+
+11
+00:00:42,417 --> 00:00:44,401
+Kulitmu tidak punya termometer.
+
+12
+00:00:45,901 --> 00:00:51,758
+Yang ada adalah ujung saraf yang bereaksi terhadap suhunya sendiri, dan seberapa cepat suhu itu berubah.
+
+13
+00:00:52,258 --> 00:00:56,964
+Salah satu sensor dingin utama adalah protein bernama TRPM8.
+
+14
+00:00:57,464 --> 00:01:03,340
+Saat kulit di sekitarnya mendingin, protein ini terbuka dan mengirim pesan sederhana ke otak: dingin.
+
+15
+00:01:05,440 --> 00:01:11,017
+Tanganmu lebih hangat dari ruangan, sekitar 34 °C di permukaannya.
+
+16
+00:01:11,517 --> 00:01:15,172
+Jadi panas mengalir keluar dari kulitmu, ke apa pun yang kamu sentuh.
+
+17
+00:01:16,672 --> 00:01:18,917
+Secepat apa, tergantung bahannya.
+
+18
+00:01:19,417 --> 00:01:25,537
+Aluminium menghantarkan panas sekitar 1,000 sampai 2,000 kali lebih baik daripada kayu pinus.
+
+19
+00:01:26,037 --> 00:01:29,460
+Dan udara menghantarkan panas sekitar 5 kali lebih buruk daripada kayu pinus.
+
+20
+00:01:31,560 --> 00:01:36,814
+Saat dua benda bersentuhan, titik pertemuannya mencapai suhu di antara keduanya.
+
+21
+00:01:37,314 --> 00:01:40,659
+Suhunya lebih dekat ke bahan yang memindahkan panas lebih baik.
+
+22
+00:01:42,159 --> 00:01:47,849
+Sentuh aluminium 20 °C, dan permukaan kulitmu turun hampir ke dua puluh derajat.
+
+23
+00:01:48,349 --> 00:01:52,528
+Sentuh pinus 20 °C, dan kulitmu tetap sekitar tiga puluh derajat.
+
+24
+00:01:53,028 --> 00:01:54,675
+Suhu benda sama.
+
+25
+00:01:54,675 --> 00:01:57,009
+Suhu kulit sangat berbeda.
+
+26
+00:01:58,509 --> 00:02:02,263
+Dan suhu kulit itulah yang dilaporkan sensor dinginmu.
+
+27
+00:02:04,363 --> 00:02:05,756
+Sekarang kita balik.
+
+28
+00:02:07,256 --> 00:02:12,713
+Di hari musim panas yang terik, perosotan logam di bawah matahari bisa cukup panas untuk membakar kulit.
+
+29
+00:02:13,213 --> 00:02:17,858
+Bangku kayu di bawah matahari yang sama terasa hangat, tapi jarang berbahaya.
+
+30
+00:02:18,358 --> 00:02:19,936
+Fisikanya sama, arahnya terbalik.
+
+31
+00:02:20,436 --> 00:02:23,090
+Logam menuangkan panasnya ke kulitmu.
+
+32
+00:02:23,090 --> 00:02:25,612
+Kayu tidak bisa menyalurkannya cukup cepat.
+
+33
+00:02:27,712 --> 00:02:29,945
+Begitu juga cara kerja sauna panas.
+
+34
+00:02:30,445 --> 00:02:36,499
+Udaranya sering 80 sampai 100 °C, tapi orang duduk di dalamnya selama beberapa menit.
+
+35
+00:02:37,999 --> 00:02:44,488
+Udara penghantar panas yang buruk dan menyimpan sangat sedikit panas, jadi panasnya sampai ke kulitmu dengan lambat.
+
+36
+00:02:44,988 --> 00:02:47,633
+Bangkunya dari kayu, karena alasan yang sama.
+
+37
+00:02:48,133 --> 00:02:51,906
+Tapi kalau kamu menyentuh paku logam telanjang di bangku itu, kamu bisa terbakar.
+
+38
+00:02:54,006 --> 00:02:58,390
+Sensor dinginmu bahkan bisa tertipu tanpa ada panas yang mengalir sama sekali.
+
+39
+00:02:58,890 --> 00:03:06,704
+Mentol, bagian sejuk dari mint, menempel pada TRPM8 dan membuatnya terbuka walau kulit hangat.
+
+40
+00:03:07,204 --> 00:03:10,367
+Sensornya menyala, dan otakmu mendengar: dingin.
+
+41
+00:03:10,867 --> 00:03:12,799
+Padahal tidak ada yang benar-benar jadi lebih dingin.
+
+42
+00:03:14,899 --> 00:03:17,208
+Jadi tanganmu bukan termometer.
+
+43
+00:03:17,708 --> 00:03:23,032
+Tangan melaporkan apa yang terjadi pada kulitmu sendiri: seberapa jauh dan seberapa cepat kulit mendingin.
+
+44
+00:03:23,532 --> 00:03:25,677
+Logam tidak lebih dingin daripada kayu.
+
+45
+00:03:25,677 --> 00:03:28,252
+Logam hanya menarik panasmu lebih cepat.
+
+46
+00:03:29,752 --> 00:03:34,579
+Lain kali kamu memegang pagar yang dingin, ingat: kamu tidak merasakan dingin.
+
+47
+00:03:34,579 --> 00:03:37,092
+Kamu merasakan panas tubuhmu sendiri yang pergi.
+
+48
+00:03:38,592 --> 00:03:41,409
+Permukaan mana di rumahmu yang terasa paling dingin?
+
+49
+00:03:41,409 --> 00:03:42,911
+Kasih tahu aku di kolom komentar.

@@ -1,0 +1,7 @@
+0:52.1  skin: script 'trpmeight' / heard 'trpm eight'
+1:42.0  contact: script 'skin's' / heard 'skin'
+2:27.6  sauna: script 'hot' / heard 'hyatt'
+2:30.3  sauna: script 'a' / heard 'one'
+
+4 beat(s) to listen to; 5 of 494 words differ (1.0%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

@@ -388,7 +388,27 @@ Terms from episodes 19–21 (2026-11-07), with the two new languages (machine-dr
 | seashell | vỏ ốc biển | เปลือกหอย | 貝殻 | 조개껍데기 | 貝殼 | cangkang kerang | kabibe |
 | cavity (Helmholtz) resonator | hộp cộng hưởng (Helmholtz) | ตัวสั่นพ้องแบบโพรง (เฮล์มโฮลทซ์) | ヘルムホルツ共鳴器 | 헬름홀츠 공명기 | 亥姆霍茲共振腔 | resonator rongga (Helmholtz) | cavity (Helmholtz) resonator |
 
+## Glossary additions (eps 41–42, 2026-11-14; machine-drafted by a Sonnet subagent, native check pending)
+
+| English | vi | th | ja | ko | zh-Hant | id | fil |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| thermal effusivity | độ thấm nhiệt (effusivity) | เอฟฟิวซิวิตี (ความสามารถในการแลกเปลี่ยนความร้อน) | 熱浸透率 | 열침투율 | 熱滲透率 | efusivitas termal | thermal effusivity |
+| sauna | phòng xông hơi | ซาวน่า | サウナ | 사우나 | 三溫暖 | sauna | sauna |
+| heat flow | dòng nhiệt | การไหลของความร้อน | 熱の流れ | 열 흐름 | 熱流 | aliran panas | daloy ng init |
+| pine | gỗ thông | ไม้สน | 松 | 소나무 | 松木 | kayu pinus | pino |
+| nerve ending | đầu dây thần kinh | ปลายประสาท | 神経終末 | 신경 말단 | 神經末梢 | ujung saraf | dulo ng nerve |
+| skin surface | bề mặt da | ผิวหนังชั้นนอก | 皮膚の表面 | 피부 표면 | 皮膚表面 | permukaan kulit | ibabaw ng balat |
+| optic disc | đĩa thị | จานประสาทตา | 視神経乳頭 | 시신경 유두 | 視神經盤 | diskus optik | optic disc |
+| rod (photoreceptor) | tế bào que | เซลล์รูปแท่ง | 桿体 | 막대세포 | 視桿細胞 | sel batang | rod |
+| cone (photoreceptor) | tế bào nón | เซลล์รูปกรวย | 錐体 | 원뿔세포 | 視錐細胞 | sel kerucut | cone |
+| fovea | hố trung tâm (fovea) | โฟเวีย | 中心窩 | 중심와 | 中央小窩 | fovea | fovea |
+| filling-in (perceptual) | sự lấp đầy (của não) | การเติมภาพ | 補完 | 채움(보완) | 感知補全 | pengisian (perseptual) | pagpupuno (filling-in) |
+| visual field | trường nhìn | ลานสายตา | 視野 | 시야 | 視野 | lapang pandang | visual field |
+| nerve fibre | sợi thần kinh | เส้นใยประสาท | 神経線維 | 신경 섬유 | 神經纖維 | serat saraf | nerve fiber |
+
 ## Open items (2026-11-03)
+
+- 2026-11-14 (same session, later): Trường: "Sản xuất tiếp mấy video nhé" then "Video dài tập nha, không phải short". Built two long episodes, 41 (metal vs wood: heat flow, TRPM8, sauna, mint) and 42 (the blind spot), ~3:54 each, with 3 A/B thumbnails, chapters, EN + 7 languages, end-screen and card notes in `youtube-metadata.md`. Not uploaded (no browser in this session). At upload: set "Video có liên quan" of Shorts 27 and 31 to ep 41, and of Shorts 29, 32 and 38 to ep 42. Four Short ideas (cloudy ice, honey, TV remote infrared, goosebumps) were fact-checked and set aside when he asked for long videos; they are in the backlog.
 
 - 2026-11-14 (same session, later): Trường in chat: "Dựng tiếp 34-40 mình sẽ upload sau". Built eps 33–40 (8 v3 Shorts; read as "continue up to 40", numbering kept continuous) and pushed each to its own branch with all upload files (EN + 7 languages). Not uploaded: Trường will upload later (or the next run with Claude in Chrome). Eps 31–40 all wait for upload.
 
@@ -527,6 +547,7 @@ Next run: read average view duration and subscribers per Short (Analytics → N�
 
 ## Learnings
 
+- 2026-11-14 (long eps 41–42): `tts.py` splits subtitles at every ". ", so initials ("V. S. Ramachandran") became three subtitle lines; merged by hand in ep 42. Avoid initials in narration or fix the splitter. The ASR check still hears "isn't" as "is in" (ep 41, twice): write "is not" in narration from now on. A long video with ~490 words at speed 0.9 and 1.5 s pauses on key beats comes out ~3:55; aim for ~560 words to reach the 4–5 min target. Long renders run ~8–12 fps here (7,000 frames ≈ 12 min).
 - 2026-11-14 (eps 33–40, eight Shorts in one session): a fact-check subagent WITH web search before voicing (instead of a skeptic reading only my claims table) caught five wording problems at once (cloud "weighs" → "the water in this cloud weighs", 1 cm → 1–2 cm, "phone doesn't feel pressure" → "most screens", popcorn pop hedged, seashell "silent room" unverified). `qc_video.py` lit area counts pixels brighter than the frame's median by 18, so brightening the background does not help; only bigger or brighter subjects do (sky-blue ep 37 with a white cloud scored 33–39 %, navy rooms with mid-size drawings 17–24 %). Next: give each Short one subject ≥ 700 px tall and light-coloured, or a light background with dark subjects. Process note: 8 Shorts took ~2.5 h wall time with renders running in one detached queue while I wrote metadata.
 - 2026-11-14 (eps 31–32, v3, one session, no subagents for scenes): the cold read (Sonnet, contact sheets only) understood both explanations correctly but caught a convergence animation that read as a contradiction (thermometers starting at 12 °C and 36 °C under the caption "same temperature": now both rise together from empty) and labels touching objects. `qc_video.py` lit area on the tickle Short came out 20–22 % with a single hand as subject; scaling the hand ×1.15 fixed it. Rule: a lone subject must be ≥ 700 px tall in a Short. Mistake to avoid: plates at y ≈ 1180 sit behind the character's head (x < 330); put scene labels in the free top band (y ≈ 200–300) once the claim caption has gone.
 - 2026-11-13, **analytics review** (first full read; Trường: "đọc số liệu để tự cải thiện"). Shorts numbers since publish (views · stayed % · avg view ≈ watch hours ×3600 ÷ views · top country):
@@ -615,3 +636,5 @@ Next run: read average view duration and subscribers per Short (Analytics → N�
 | 38 | There's a hole in what you see (blind spot, try-it test) (new Short, v3, 20 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep38-blind-spot`, file `media/ep38-blind-spot-short.mp4`, EN + 7 languages. Related → ep 3; playlist Your Brain Is Tricking You. Tests H1/H5/H7 |
 | 39 | Every popcorn kernel is a pressure cooker (new Short, v3, 23 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep39-popcorn-pressure`, file `media/ep39-popcorn-pressure-short.mp4`, EN + 7 languages. Related → ep 8; playlist Everyday Physics. Tests H1/H5/H7 |
 | 40 | That's not the ocean in a seashell (cavity resonance) (new Short, v3, 21 s) | Produced 2026-11-14 (Trường: "Dựng tiếp 34-40"), **not uploaded** (Trường uploads later). Branch `claude/ep40-seashell-ocean`, file `media/ep40-seashell-ocean-short.mp4`, EN + 7 languages. Related → ep 5; playlist Everyday Physics. Tests H1/H5/H7 |
+| 41 | Why does metal feel colder than wood? (long, heat flow, contact temperature, TRPM8, sauna, mint) | Produced 2026-11-14 (Trường: "Video dài tập"), **not uploaded**. ~3:53, branch `claude/ep41-metal-colder`, file `media/ep41-metal-colder-1080p.mp4`, thumbnails `media/ep41-thumb-1/2/3.png`, chapters, EN + 7 languages. Playlist Your Body, Explained. Related video for Shorts 27 and 31 |
+| 42 | Why don't you see the hole in your vision? (long, blind spot, optic disc, filling-in, fovea) | Produced 2026-11-14, **not uploaded**. ~3:54, branch `claude/ep42-blind-spot`, file `media/ep42-blind-spot-1080p.mp4`, thumbnails `media/ep42-thumb-1/2/3.png`, chapters, EN + 7 languages. Playlist Your Brain Is Tricking You. Related video for Shorts 29, 32 and 38 |

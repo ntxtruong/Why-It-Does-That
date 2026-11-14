@@ -1,0 +1,12 @@
+Length 3:53.5. Frozen stretches longer than 3 s: 0, total 0 s (0% of the video).
+
+scene        lit area   moving px   still time   bottom 15% used
+hook           26.2%      3.64%          0%          100%
+same           25.8%      7.03%          0%            4%
+skin           36.6%      3.72%          0%            1%
+flow           15.4%      2.55%          4%            1%
+contact        35.0%      3.16%          8%            1%
+slide           9.0%      5.64%          0%           88%
+sauna          17.7%      3.29%          0%           14%
+mint           16.6%      5.30%          0%            1%
+payoff         19.1%      4.95%          0%           64%

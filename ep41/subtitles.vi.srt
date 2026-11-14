@@ -1,0 +1,195 @@
+1
+00:00:00,600 --> 00:00:04,776
+Hãy chạm vào lan can kim loại và ghế gỗ vào cùng một buổi sáng mùa đông.
+
+2
+00:00:05,276 --> 00:00:07,080
+Kim loại lạnh buốt.
+
+3
+00:00:07,080 --> 00:00:09,028
+Gỗ thì gần như ấm.
+
+4
+00:00:09,528 --> 00:00:13,428
+Nhưng đặt nhiệt kế lên cả hai, chúng chỉ cùng một nhiệt độ.
+
+5
+00:00:14,928 --> 00:00:17,356
+Vậy tay bạn thực sự đang đo cái gì?
+
+6
+00:00:17,856 --> 00:00:21,050
+Đến cuối video, bạn sẽ hiểu vì sao phòng xông hơi không làm bạn bỏng,
+
+7
+00:00:21,550 --> 00:00:26,314
+vì sao cầu trượt kim loại thì có thể, và bạc hà đánh lừa chính những cảm biến ấy ra sao.
+
+8
+00:00:28,414 --> 00:00:33,070
+Để một vật trong phòng đủ lâu, nó sẽ dần về nhiệt độ phòng.
+
+9
+00:00:33,570 --> 00:00:36,541
+Kim loại, gỗ, nhựa, thậm chí cả không khí.
+
+10
+00:00:37,041 --> 00:00:40,317
+Không thứ nào trong phòng lạnh hơn thứ nào.
+
+11
+00:00:42,417 --> 00:00:44,401
+Da bạn không có nhiệt kế.
+
+12
+00:00:45,901 --> 00:00:51,758
+Nó có các đầu dây thần kinh phản ứng với nhiệt độ của chính chúng, và với tốc độ nhiệt độ thay đổi.
+
+13
+00:00:52,258 --> 00:00:56,964
+Một trong những cảm biến lạnh chính là một loại protein tên là TRPM8.
+
+14
+00:00:57,464 --> 00:01:03,340
+Khi vùng da quanh nó lạnh đi, nó mở ra và gửi một thông điệp đơn giản lên não: lạnh.
+
+15
+00:01:05,440 --> 00:01:11,017
+Tay bạn ấm hơn căn phòng, khoảng 34 °C ở bề mặt.
+
+16
+00:01:11,517 --> 00:01:15,172
+Vì vậy nhiệt chạy từ da bạn sang bất cứ thứ gì bạn chạm vào.
+
+17
+00:01:16,672 --> 00:01:18,917
+Nhanh hay chậm tùy vào vật liệu.
+
+18
+00:01:19,417 --> 00:01:25,537
+Nhôm dẫn nhiệt tốt hơn gỗ thông khoảng 1,000 đến 2,000 lần.
+
+19
+00:01:26,037 --> 00:01:29,460
+Còn không khí dẫn nhiệt kém hơn gỗ thông khoảng 5 lần.
+
+20
+00:01:31,560 --> 00:01:36,814
+Khi hai vật chạm nhau, chỗ tiếp xúc sẽ đạt một nhiệt độ nằm giữa hai bên.
+
+21
+00:01:37,314 --> 00:01:40,659
+Nhiệt độ đó gần với vật liệu truyền nhiệt tốt hơn.
+
+22
+00:01:42,159 --> 00:01:47,849
+Chạm vào nhôm ở 20 °C, bề mặt da bạn tụt xuống gần đúng hai mươi độ.
+
+23
+00:01:48,349 --> 00:01:52,528
+Chạm vào gỗ thông ở 20 °C, da bạn vẫn ở quanh ba mươi độ.
+
+24
+00:01:53,028 --> 00:01:54,675
+Cùng nhiệt độ vật.
+
+25
+00:01:54,675 --> 00:01:57,009
+Nhiệt độ da lại khác hẳn.
+
+26
+00:01:58,509 --> 00:02:02,263
+Và nhiệt độ da chính là điều cảm biến lạnh của bạn báo lại.
+
+27
+00:02:04,363 --> 00:02:05,756
+Giờ thử đảo ngược.
+
+28
+00:02:07,256 --> 00:02:12,713
+Một ngày hè nóng, cầu trượt kim loại dưới nắng gắt có thể nóng đến mức làm bỏng da.
+
+29
+00:02:13,213 --> 00:02:17,858
+Một ghế gỗ dưới cùng nắng ấy thì ấm, nhưng hiếm khi nguy hiểm.
+
+30
+00:02:18,358 --> 00:02:19,936
+Cùng một vật lý, chiều ngược lại.
+
+31
+00:02:20,436 --> 00:02:23,090
+Kim loại đổ nhiệt vào da bạn.
+
+32
+00:02:23,090 --> 00:02:25,612
+Gỗ không đưa nhiệt đủ nhanh.
+
+33
+00:02:27,712 --> 00:02:29,945
+Phòng xông hơi cũng hoạt động theo cách đó.
+
+34
+00:02:30,445 --> 00:02:36,499
+Không khí thường 80 đến 100 °C, vậy mà người ta vẫn ngồi trong đó nhiều phút.
+
+35
+00:02:37,999 --> 00:02:44,488
+Không khí dẫn nhiệt kém và chứa rất ít nhiệt, nên nó truyền nhiệt vào da khá chậm.
+
+36
+00:02:44,988 --> 00:02:47,633
+Ghế trong phòng xông làm bằng gỗ cũng vì lý do đó.
+
+37
+00:02:48,133 --> 00:02:51,906
+Nhưng chạm vào một chiếc đinh kim loại trần trên ghế ấy thì có thể bị bỏng.
+
+38
+00:02:54,006 --> 00:02:58,390
+Cảm biến lạnh của bạn thậm chí có thể bị đánh lừa mà không có nhiệt nào chảy đi.
+
+39
+00:02:58,890 --> 00:03:06,704
+Menthol, thành phần mát lạnh của bạc hà, bám vào TRPM8 và khiến nó mở ra ngay cả khi da đang ấm.
+
+40
+00:03:07,204 --> 00:03:10,367
+Cảm biến kích hoạt, và não nghe thấy: lạnh.
+
+41
+00:03:10,867 --> 00:03:12,799
+Thực ra không có gì lạnh đi cả.
+
+42
+00:03:14,899 --> 00:03:17,208
+Vậy tay bạn không phải là nhiệt kế.
+
+43
+00:03:17,708 --> 00:03:23,032
+Nó báo lại điều đang xảy ra với chính da bạn: lạnh đi bao nhiêu, và nhanh đến đâu.
+
+44
+00:03:23,532 --> 00:03:25,677
+Kim loại không lạnh hơn gỗ.
+
+45
+00:03:25,677 --> 00:03:28,252
+Nó chỉ hút nhiệt của bạn đi nhanh hơn.
+
+46
+00:03:29,752 --> 00:03:34,579
+Lần tới nắm vào một lan can lạnh, hãy nhớ: bạn không cảm nhận cái lạnh.
+
+47
+00:03:34,579 --> 00:03:37,092
+Bạn đang cảm nhận chính hơi ấm của mình đang rời đi.
+
+48
+00:03:38,592 --> 00:03:41,409
+Bề mặt nào trong nhà bạn cảm giác lạnh nhất?
+
+49
+00:03:41,409 --> 00:03:42,911
+Hãy cho mình biết trong phần bình luận.
