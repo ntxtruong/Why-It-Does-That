@@ -1,0 +1,47 @@
+{
+ "title": "You're Taller in the Morning",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 7,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "You're taller in the morning."
+   ]
+  },
+  {
+   "id": "discs",
+   "long": [],
+   "beats": [
+    "Between the bones of your spine are soft discs, full of water."
+   ]
+  },
+  {
+   "id": "day",
+   "long": [],
+   "beats": [
+    "Standing all day squeezes water out, and you lose a centimetre or two."
+   ]
+  },
+  {
+   "id": "night",
+   "long": [],
+   "beats": [
+    "Lying down at night, the discs soak it back up.",
+    "Astronauts in orbit stretch even more, up to three percent."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Measure your height before breakfast."
+   ]
+  }
+ ]
+}
