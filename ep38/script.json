@@ -1,0 +1,47 @@
+{
+ "title": "There's a Hole in What You See",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 3,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "There's a hole in what you see."
+   ]
+  },
+  {
+   "id": "nerve",
+   "long": [],
+   "beats": [
+    "Where the optic nerve leaves your eye, there are no light sensors at all."
+   ]
+  },
+  {
+   "id": "fill",
+   "long": [],
+   "beats": [
+    "Your brain fills that spot with whatever surrounds it."
+   ]
+  },
+  {
+   "id": "try",
+   "long": [],
+   "beats": [
+    "Try it: close your left eye and stare at the cross.",
+    "Move your phone slowly closer. The dot vanishes."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "You never see the hole."
+   ]
+  }
+ ]
+}
