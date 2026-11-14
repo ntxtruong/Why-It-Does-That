@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:01,966
+Hindi mo talaga kayang kilitiin ang sarili mo.
+
+2
+00:00:02,466 --> 00:00:05,853
+Kapag gumagalaw ka, hinuhulaan ng utak ang haplos bago pa ito dumating.
+
+3
+00:00:06,153 --> 00:00:09,020
+Kaya pinapahina nito iyon, at nawawala ang kiliti.
+
+4
+00:00:09,520 --> 00:00:14,650
+Sa isang eksperimento, ginalaw ng mga tao ang isang kamay, at hinaplos ng robot ang kabila nilang palad.
+
+5
+00:00:14,950 --> 00:00:18,284
+Dagdagan ng delay na isang-kalima ng segundo, at mas kumiliti ito.
+
+6
+00:00:18,784 --> 00:00:21,006
+Pinapahina ng utak mo ang nakikita nitong paparating.

@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:01,966
+Bạn không thể thật sự tự cù mình.
+
+2
+00:00:02,466 --> 00:00:05,853
+Khi bạn cử động, não dự đoán cái chạm trước khi nó xảy ra.
+
+3
+00:00:06,153 --> 00:00:09,020
+Nên nó giảm bớt cảm giác đó, và cảm giác nhột mờ đi.
+
+4
+00:00:09,520 --> 00:00:14,650
+Trong một thí nghiệm, người ta cử động một tay, còn robot quét lên lòng bàn tay kia.
+
+5
+00:00:14,950 --> 00:00:18,284
+Thêm độ trễ một phần năm giây, và họ thấy nhột hơn.
+
+6
+00:00:18,784 --> 00:00:21,006
+Não giảm bớt những gì nó đã đoán trước.

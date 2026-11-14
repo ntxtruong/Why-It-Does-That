@@ -1,0 +1,4 @@
+0:06.0  predict: script 'touch down' / heard 'touchdown'
+
+1 beat(s) to listen to; 2 of 61 words differ (3.3%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
