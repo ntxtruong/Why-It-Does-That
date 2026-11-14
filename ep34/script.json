@@ -1,0 +1,47 @@
+{
+ "title": "Old Windows Aren't Melting",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 1,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Old windows aren't melting."
+   ]
+  },
+  {
+   "id": "myth",
+   "long": [],
+   "beats": [
+    "Some old panes are thicker at the bottom, so people say glass flows."
+   ]
+  },
+  {
+   "id": "time",
+   "long": [],
+   "beats": [
+    "But at room temperature, glass would take far longer than the age of the universe to sag."
+   ]
+  },
+  {
+   "id": "made",
+   "long": [],
+   "beats": [
+    "Old glass was spun or blown by hand, so it came out uneven.",
+    "Builders often set the thick edge down."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "It was uneven from the day it was made."
+   ]
+  }
+ ]
+}
