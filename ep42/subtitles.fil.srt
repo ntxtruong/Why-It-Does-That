@@ -1,0 +1,199 @@
+1
+00:00:00,600 --> 00:00:01,970
+Ipikit ang kaliwang mata mo.
+
+2
+00:00:02,470 --> 00:00:07,204
+Tingnan ang cross gamit ang kanang mata, at dahan-dahang lumapit sa screen.
+
+3
+00:00:07,704 --> 00:00:11,269
+Sa isang punto, mawawala ang tuldok sa kanan.
+
+4
+00:00:11,269 --> 00:00:11,967
+Hindi lang lumalabo.
+
+5
+00:00:11,967 --> 00:00:12,820
+Nawawala.
+
+6
+00:00:14,320 --> 00:00:17,830
+May butas sa paningin mo, sa bawat mata, palagi.
+
+7
+00:00:18,330 --> 00:00:20,522
+Kaya bakit hindi mo ito napapansin kailanman?
+
+8
+00:00:20,522 --> 00:00:23,842
+Marami itong sinasabi tungkol sa kung ano talaga ang pagtingin.
+
+9
+00:00:25,942 --> 00:00:32,842
+Pumapasok ang liwanag sa mata at tumatama sa retina, isang manipis na patong ng mga light sensor sa likod ng mata.
+
+10
+00:00:34,342 --> 00:00:36,866
+Rods para sa madilim na liwanag, cones para sa kulay.
+
+11
+00:00:37,366 --> 00:00:42,406
+Mga 90 million na rods, at 4.5 million na cones, sa bawat mata.
+
+12
+00:00:44,506 --> 00:00:46,774
+Pero baligtad ang pagkakakabit ng retina.
+
+13
+00:00:48,274 --> 00:00:55,043
+Nakaharap palayo sa liwanag ang mga sensor, at ang mga nerve fiber na nagdadala ng signal nila ay tumatawid sa harap.
+
+14
+00:00:55,543 --> 00:01:01,463
+Para makalabas ng mata, mga 1 million sa mga fiber na iyon ang nagbubundle bilang optic nerve.
+
+15
+00:01:01,963 --> 00:01:04,675
+At tumatagos sila sa retina sa iisang lugar.
+
+16
+00:01:05,175 --> 00:01:09,068
+Ang lugar na iyon, ang optic disc, ay walang light sensor kahit isa.
+
+17
+00:01:11,168 --> 00:01:12,372
+Hindi ito maliit.
+
+18
+00:01:13,872 --> 00:01:19,283
+Ang blind spot mo ay nasa 12 hanggang 15 degrees sa gilid ng tinitingnan mo.
+
+19
+00:01:19,783 --> 00:01:23,548
+Mga 5 degrees ang lapad at 7 degrees ang taas.
+
+20
+00:01:24,048 --> 00:01:28,510
+Sapat ang laki para itago ang hindi bababa sa 10 buong Buwan nang magkakatabi.
+
+21
+00:01:30,010 --> 00:01:35,693
+Unang inilarawan ito noong 1660s ng Pranses na pisikong si Edme Mariotte.
+
+22
+00:01:37,793 --> 00:01:40,000
+Hindi lahat ng mata ay ganito ang pagkakagawa.
+
+23
+00:01:40,500 --> 00:01:46,587
+Kabaligtaran ang pagkakakabit ng mata ng pugita, nasa likod ng mga sensor ang mga nerve fiber.
+
+24
+00:01:47,087 --> 00:01:50,009
+Kaya walang blind spot ang pugita.
+
+25
+00:01:51,509 --> 00:01:55,362
+Ang atin ay side effect ng pag-unlad ng mata ng mga vertebrate.
+
+26
+00:01:57,462 --> 00:01:59,250
+Kaya bakit hindi mo nakikita ang butas?
+
+27
+00:02:00,750 --> 00:02:02,903
+Unang dahilan: dalawa ang mata mo.
+
+28
+00:02:03,403 --> 00:02:08,327
+Ang blind spot ng bawat mata ay tumatama sa bahagi ng mundo na nakikita ng kabilang mata.
+
+29
+00:02:09,827 --> 00:02:15,189
+Ikalawang dahilan: kahit nakapikit ang isang mata, hindi ka pinapakitaan ng utak mo ng itim na butas.
+
+30
+00:02:15,689 --> 00:02:18,260
+Pinupunan nito ang puwang ng kung ano ang nasa paligid.
+
+31
+00:02:18,760 --> 00:02:20,038
+Nagpapatuloy ang mga guhit.
+
+32
+00:02:20,038 --> 00:02:21,165
+Kumakalat ang mga kulay.
+
+33
+00:02:21,165 --> 00:02:23,270
+Basta nagpapatuloy ang pattern.
+
+34
+00:02:25,370 --> 00:02:30,581
+Ang neuroscientist na si V. S. Ramachandran ang nagpakita kung gaano ito nakakakumbinsi.
+
+35
+00:02:31,081 --> 00:02:35,401
+Gumuhit ng linyang may puwang, at ilagay ang puwang sa loob ng blind spot.
+
+36
+00:02:35,901 --> 00:02:38,416
+Maraming tao ang nakakakita ng linya na tuloy-tuloy.
+
+37
+00:02:40,516 --> 00:02:43,285
+Narito ang mas malaki pang puwang na hindi mo napapansin.
+
+38
+00:02:43,785 --> 00:02:49,778
+Ang malinaw at detalyadong paningin ay nagmumula sa maliit na bahagi sa gitna ng mata, na tinatawag na fovea.
+
+39
+00:02:50,278 --> 00:02:55,544
+Mga 2 degrees lang ang saklaw nito, mga kasing-laki ng kuko ng hinlalaki mo kapag nakaunat ang braso.
+
+40
+00:02:57,044 --> 00:03:00,705
+Malabo ang lahat ng nasa paligid nito, at mas mahina sa kulay.
+
+41
+00:03:01,205 --> 00:03:08,046
+Pero malinaw ang buong kuwarto dahil patuloy na lumulundag ang mga mata mo, at tinatahi ng utak mo ang mga piraso.
+
+42
+00:03:10,146 --> 00:03:12,442
+Palagi nitong pinupunan ang mga kulang.
+
+43
+00:03:12,942 --> 00:03:17,163
+Kapag lumulundag ang mga mata mo, mga 3 beses kada segundo, itinatago nito ang labo.
+
+44
+00:03:17,663 --> 00:03:20,525
+Kapag gumagalaw ka, hinuhulaan nito ang mararamdaman mo.
+
+45
+00:03:22,025 --> 00:03:24,422
+Ang nakikita mo ay hindi raw na feed ng camera.
+
+46
+00:03:24,922 --> 00:03:28,461
+Ito ang pinakamahusay na hula ng utak mo, binuo mula sa inaasahan nito.
+
+47
+00:03:30,561 --> 00:03:32,636
+Kaya matagal nang nandiyan ang butas.
+
+48
+00:03:33,136 --> 00:03:34,923
+Hindi lang ito kailanman ipinakita sa iyo.
+
+49
+00:03:36,423 --> 00:03:40,856
+Bumalik sa simula, subukan ulit ang test, at sabihin mo sa akin sa comments:
+
+50
+00:03:41,356 --> 00:03:43,998
+sa anong layo nawala ang tuldok para sa iyo?

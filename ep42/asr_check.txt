@@ -1,0 +1,10 @@
+0:37.2  retina: script 'and a half' / heard 'point five'
+0:48.1  wiring: script 'fibres' / heard 'fibers'
+0:55.4  wiring: script 'fibres' / heard 'fibers'
+1:29.9  size: script 'sixteen sixties' / heard 'one thousand six hundred sixtys'; script 'edme mariotte' / heard 'edmie marion'
+1:40.3  octopus: script 'fibres' / heard 'fibers'
+1:51.4  octopus: script 'ours' / heard 'hours'
+2:25.2  ram: script 'ramachandran' / heard 'ramachundran'
+
+7 beat(s) to listen to; 15 of 505 words differ (3.0%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

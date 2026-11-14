@@ -1,0 +1,199 @@
+1
+00:00:00,600 --> 00:00:01,970
+Close your left eye.
+
+2
+00:00:02,470 --> 00:00:07,204
+Look at the cross with your right eye, and slowly move closer to the screen.
+
+3
+00:00:07,704 --> 00:00:11,269
+At one point, the dot on the right disappears.
+
+4
+00:00:11,269 --> 00:00:11,967
+Not dims.
+
+5
+00:00:11,967 --> 00:00:12,820
+Disappears.
+
+6
+00:00:14,320 --> 00:00:17,830
+There's a hole in your vision, in each eye, all the time.
+
+7
+00:00:18,330 --> 00:00:20,522
+So why have you never noticed it?
+
+8
+00:00:20,522 --> 00:00:23,842
+The answer says a lot about what seeing really is.
+
+9
+00:00:25,942 --> 00:00:32,842
+Light enters your eye and lands on the retina, a thin sheet of light sensors lining the back of the eye.
+
+10
+00:00:34,342 --> 00:00:36,866
+Rods for dim light, cones for colour.
+
+11
+00:00:37,366 --> 00:00:42,406
+About 90 million rods, and 4.5 million cones, in each eye.
+
+12
+00:00:44,506 --> 00:00:46,774
+But the retina is wired backwards.
+
+13
+00:00:48,274 --> 00:00:55,043
+The sensors face away from the light, and the nerve fibres that carry their signals run across the front.
+
+14
+00:00:55,543 --> 00:01:01,463
+To leave the eye, about 1 million of those fibres bundle together into the optic nerve.
+
+15
+00:01:01,963 --> 00:01:04,675
+And they punch through the retina at one spot.
+
+16
+00:01:05,175 --> 00:01:09,068
+That spot, the optic disc, has no light sensors at all.
+
+17
+00:01:11,168 --> 00:01:12,372
+It isn't tiny.
+
+18
+00:01:13,872 --> 00:01:19,283
+Your blind spot sits roughly 12 to 15 degrees to the side of where you're looking.
+
+19
+00:01:19,783 --> 00:01:23,548
+It's roughly 5 degrees wide and 7 degrees tall.
+
+20
+00:01:24,048 --> 00:01:28,510
+That's wide enough to hide at least 10 full Moons, side by side.
+
+21
+00:01:30,010 --> 00:01:35,693
+It was first described in the 1660s by the French physicist Edme Mariotte.
+
+22
+00:01:37,793 --> 00:01:40,000
+Not every eye is built like this.
+
+23
+00:01:40,500 --> 00:01:46,587
+An octopus eye is wired the other way round, with the nerve fibres behind the sensors.
+
+24
+00:01:47,087 --> 00:01:50,009
+So an octopus has no blind spot at all.
+
+25
+00:01:51,509 --> 00:01:55,362
+Ours is a side effect of how the vertebrate eye developed.
+
+26
+00:01:57,462 --> 00:01:59,250
+So why don't you see the hole?
+
+27
+00:02:00,750 --> 00:02:02,903
+Reason one: you have two eyes.
+
+28
+00:02:03,403 --> 00:02:08,327
+Each eye's blind spot lands on a part of the world the other eye can see.
+
+29
+00:02:09,827 --> 00:02:15,189
+Reason two: even with one eye closed, your brain doesn't show you a black hole.
+
+30
+00:02:15,689 --> 00:02:18,260
+It fills the gap with whatever surrounds it.
+
+31
+00:02:18,760 --> 00:02:20,038
+Stripes continue.
+
+32
+00:02:20,038 --> 00:02:21,165
+Colours spread.
+
+33
+00:02:21,165 --> 00:02:23,270
+A pattern simply carries on.
+
+34
+00:02:25,370 --> 00:02:30,581
+The neuroscientist V. S. Ramachandran showed how convincing this is.
+
+35
+00:02:31,081 --> 00:02:35,401
+Draw a line with a gap, and place the gap inside the blind spot.
+
+36
+00:02:35,901 --> 00:02:38,416
+Many people see the line as unbroken.
+
+37
+00:02:40,516 --> 00:02:43,285
+Here's an even bigger gap you never notice.
+
+38
+00:02:43,785 --> 00:02:49,778
+Sharp, detailed vision comes from a tiny patch in the centre of your eye, called the fovea.
+
+39
+00:02:50,278 --> 00:02:55,544
+It covers only about 2 degrees, roughly your thumbnail held at arm's length.
+
+40
+00:02:57,044 --> 00:03:00,705
+Everything around it is blurry, and much poorer at colour.
+
+41
+00:03:01,205 --> 00:03:08,046
+Yet the whole room looks sharp, because your eyes keep jumping, and your brain stitches the pieces together.
+
+42
+00:03:10,146 --> 00:03:12,442
+Your brain fills things in all the time.
+
+43
+00:03:12,942 --> 00:03:17,163
+When your eyes jump, about 3 times a second, it hides the blur.
+
+44
+00:03:17,663 --> 00:03:20,525
+When you move, it predicts what you're about to feel.
+
+45
+00:03:22,025 --> 00:03:24,422
+What you see isn't a raw camera feed.
+
+46
+00:03:24,922 --> 00:03:28,461
+It's your brain's best guess, built from what it expects.
+
+47
+00:03:30,561 --> 00:03:32,636
+So the hole has always been there.
+
+48
+00:03:33,136 --> 00:03:34,923
+You've just never been shown it.
+
+49
+00:03:36,423 --> 00:03:40,856
+Go back to the start, try the test again, and tell me in the comments:
+
+50
+00:03:41,356 --> 00:03:43,998
+at what distance did the dot vanish for you?

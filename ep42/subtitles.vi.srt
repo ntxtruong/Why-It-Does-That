@@ -1,0 +1,199 @@
+1
+00:00:00,600 --> 00:00:01,970
+Hãy nhắm mắt trái lại.
+
+2
+00:00:02,470 --> 00:00:07,204
+Nhìn vào dấu thập bằng mắt phải, rồi từ từ nhích lại gần màn hình.
+
+3
+00:00:07,704 --> 00:00:11,269
+Đến một lúc nào đó, chấm tròn bên phải biến mất.
+
+4
+00:00:11,269 --> 00:00:11,967
+Không phải mờ đi.
+
+5
+00:00:11,967 --> 00:00:12,820
+Mà biến mất.
+
+6
+00:00:14,320 --> 00:00:17,830
+Có một lỗ hổng trong tầm nhìn của bạn, ở mỗi mắt, lúc nào cũng có.
+
+7
+00:00:18,330 --> 00:00:20,522
+Vậy sao bạn chưa bao giờ nhận ra nó?
+
+8
+00:00:20,522 --> 00:00:23,842
+Câu trả lời nói lên rất nhiều điều về việc nhìn thực sự là gì.
+
+9
+00:00:25,942 --> 00:00:32,842
+Ánh sáng đi vào mắt và rơi xuống võng mạc, một lớp mỏng các cảm biến ánh sáng lót ở đáy mắt.
+
+10
+00:00:34,342 --> 00:00:36,866
+Tế bào que cho ánh sáng yếu, tế bào nón cho màu sắc.
+
+11
+00:00:37,366 --> 00:00:42,406
+Mỗi mắt có khoảng 90 triệu tế bào que và 4.5 triệu tế bào nón.
+
+12
+00:00:44,506 --> 00:00:46,774
+Nhưng võng mạc được nối dây ngược.
+
+13
+00:00:48,274 --> 00:00:55,043
+Các cảm biến quay lưng lại với ánh sáng, còn các sợi thần kinh mang tín hiệu của chúng chạy ngang qua mặt trước.
+
+14
+00:00:55,543 --> 00:01:01,463
+Để ra khỏi mắt, khoảng 1 triệu sợi như vậy bó lại thành dây thần kinh thị giác.
+
+15
+00:01:01,963 --> 00:01:04,675
+Và chúng xuyên qua võng mạc tại một điểm.
+
+16
+00:01:05,175 --> 00:01:09,068
+Điểm đó, đĩa thị, hoàn toàn không có cảm biến ánh sáng.
+
+17
+00:01:11,168 --> 00:01:12,372
+Nó không hề nhỏ.
+
+18
+00:01:13,872 --> 00:01:19,283
+Điểm mù nằm lệch khoảng 12 đến 15 độ sang bên so với hướng bạn đang nhìn.
+
+19
+00:01:19,783 --> 00:01:23,548
+Nó rộng khoảng 5 độ và cao khoảng 7 độ.
+
+20
+00:01:24,048 --> 00:01:28,510
+Đủ rộng để giấu ít nhất 10 Mặt Trăng tròn đặt cạnh nhau.
+
+21
+00:01:30,010 --> 00:01:35,693
+Nó được nhà vật lý người Pháp Edme Mariotte mô tả lần đầu vào những năm 1660.
+
+22
+00:01:37,793 --> 00:01:40,000
+Không phải mắt nào cũng được cấu tạo như vậy.
+
+23
+00:01:40,500 --> 00:01:46,587
+Mắt bạch tuộc được nối dây theo chiều ngược lại, với các sợi thần kinh nằm sau các cảm biến.
+
+24
+00:01:47,087 --> 00:01:50,009
+Nên bạch tuộc hoàn toàn không có điểm mù.
+
+25
+00:01:51,509 --> 00:01:55,362
+Của chúng ta là tác dụng phụ của cách mắt động vật có xương sống tiến hóa.
+
+26
+00:01:57,462 --> 00:01:59,250
+Vậy tại sao bạn không thấy cái lỗ ấy?
+
+27
+00:02:00,750 --> 00:02:02,903
+Lý do thứ nhất: bạn có hai mắt.
+
+28
+00:02:03,403 --> 00:02:08,327
+Điểm mù của mỗi mắt rơi vào phần thế giới mà mắt kia nhìn thấy được.
+
+29
+00:02:09,827 --> 00:02:15,189
+Lý do thứ hai: dù nhắm một mắt, não bạn cũng không cho bạn thấy một lỗ đen.
+
+30
+00:02:15,689 --> 00:02:18,260
+Nó lấp khoảng trống bằng những gì xung quanh.
+
+31
+00:02:18,760 --> 00:02:20,038
+Sọc tiếp tục kéo dài.
+
+32
+00:02:20,038 --> 00:02:21,165
+Màu sắc lan ra.
+
+33
+00:02:21,165 --> 00:02:23,270
+Một họa tiết cứ thế nối tiếp.
+
+34
+00:02:25,370 --> 00:02:30,581
+Nhà thần kinh học V. S. Ramachandran đã cho thấy điều này thuyết phục đến mức nào.
+
+35
+00:02:31,081 --> 00:02:35,401
+Vẽ một đường có khoảng đứt, rồi đặt khoảng đứt ấy vào điểm mù.
+
+36
+00:02:35,901 --> 00:02:38,416
+Nhiều người thấy đường kẻ liền mạch.
+
+37
+00:02:40,516 --> 00:02:43,285
+Đây là một khoảng trống còn lớn hơn mà bạn không hề nhận ra.
+
+38
+00:02:43,785 --> 00:02:49,778
+Thị lực sắc nét, chi tiết đến từ một vùng nhỏ ở trung tâm mắt, gọi là hố trung tâm (fovea).
+
+39
+00:02:50,278 --> 00:02:55,544
+Nó chỉ phủ khoảng 2 độ, tương đương móng tay cái khi duỗi thẳng tay.
+
+40
+00:02:57,044 --> 00:03:00,705
+Mọi thứ xung quanh đều mờ, và kém màu hơn nhiều.
+
+41
+00:03:01,205 --> 00:03:08,046
+Vậy mà cả căn phòng trông vẫn sắc nét, vì mắt bạn liên tục nhảy, và não ghép các mảnh lại.
+
+42
+00:03:10,146 --> 00:03:12,442
+Não bạn lúc nào cũng điền vào chỗ thiếu.
+
+43
+00:03:12,942 --> 00:03:17,163
+Khi mắt nhảy, khoảng 3 lần mỗi giây, nó che đi sự nhòe.
+
+44
+00:03:17,663 --> 00:03:20,525
+Khi bạn cử động, nó dự đoán điều bạn sắp cảm nhận.
+
+45
+00:03:22,025 --> 00:03:24,422
+Thứ bạn thấy không phải là luồng hình thô từ máy quay.
+
+46
+00:03:24,922 --> 00:03:28,461
+Đó là phỏng đoán tốt nhất của não, dựng từ những gì nó mong đợi.
+
+47
+00:03:30,561 --> 00:03:32,636
+Vậy nên lỗ hổng vẫn luôn ở đó.
+
+48
+00:03:33,136 --> 00:03:34,923
+Chỉ là bạn chưa từng được cho thấy nó.
+
+49
+00:03:36,423 --> 00:03:40,856
+Hãy quay lại đầu video, thử bài kiểm tra lần nữa, và cho mình biết trong phần bình luận:
+
+50
+00:03:41,356 --> 00:03:43,998
+chấm tròn biến mất ở khoảng cách nào với bạn?

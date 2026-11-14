@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  roomBG();
+  g.save(); g.translate(560, 380); g.scale(0.62, 0.62); card(1, v === 2 ? 0.15 : 1); g.restore();
+  g.save(); g.translate(1150, 120); g.scale(0.55, 0.55); eyeSide(900, 520, 340, 1, 0, {}); g.restore();
+  const Wd = { 1: ["THERE'S A", "HOLE"], 2: ["YOU CAN'T", "SEE THIS"], 3: ["BLIND", "SPOT"] }[v];
+  word(Wd[0], 560, 160, 140, "#F2F5FB"); word(Wd[1], 560, 310, 150, v === 1 ? "#FF8A7A" : v === 2 ? "#FFD45E" : "#8CC6FF");
+  mascot3(150, 1060, 0.3, 0, { look: [0.8, -0.3], mouth: "o" });
+};
+</script></body></html>

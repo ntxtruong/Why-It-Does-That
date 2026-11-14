@@ -1,0 +1,145 @@
+{
+ "title": "Why Don't You See the Hole in Your Vision?",
+ "format": "long",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "pause_note": "long: beats listed in 'long' get a 1.5 s pause",
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [
+    2,
+    4
+   ],
+   "beats": [
+    "Close your left eye.",
+    "Look at the cross with your right eye, and slowly move closer to the screen.",
+    "At one point, the dot on the right disappears. Not dims. Disappears.",
+    "There's a hole in your vision, in each eye, all the time.",
+    "So why have you never noticed it? The answer says a lot about what seeing really is."
+   ]
+  },
+  {
+   "id": "retina",
+   "long": [
+    0,
+    2
+   ],
+   "beats": [
+    "Light enters your eye and lands on the retina, a thin sheet of light sensors lining the back of the eye.",
+    "Rods for dim light, cones for colour.",
+    "About ninety million rods, and four and a half million cones, in each eye."
+   ]
+  },
+  {
+   "id": "wiring",
+   "long": [
+    0,
+    4
+   ],
+   "beats": [
+    "But the retina is wired backwards.",
+    "The sensors face away from the light, and the nerve fibres that carry their signals run across the front.",
+    "To leave the eye, about a million of those fibres bundle together into the optic nerve.",
+    "And they punch through the retina at one spot.",
+    "That spot, the optic disc, has no light sensors at all."
+   ]
+  },
+  {
+   "id": "size",
+   "long": [
+    0,
+    3,
+    4
+   ],
+   "beats": [
+    "It isn't tiny.",
+    "Your blind spot sits roughly twelve to fifteen degrees to the side of where you're looking.",
+    "It's roughly five degrees wide and seven degrees tall.",
+    "That's wide enough to hide at least ten full Moons, side by side.",
+    "It was first described in the sixteen sixties by the French physicist Edme Mariotte."
+   ]
+  },
+  {
+   "id": "octopus",
+   "long": [
+    2,
+    3
+   ],
+   "beats": [
+    "Not every eye is built like this.",
+    "An octopus eye is wired the other way round, with the nerve fibres behind the sensors.",
+    "So an octopus has no blind spot at all.",
+    "Ours is a side effect of how the vertebrate eye developed."
+   ]
+  },
+  {
+   "id": "two",
+   "long": [
+    0,
+    2,
+    5
+   ],
+   "beats": [
+    "So why don't you see the hole?",
+    "Reason one: you have two eyes.",
+    "Each eye's blind spot lands on a part of the world the other eye can see.",
+    "Reason two: even with one eye closed, your brain doesn't show you a black hole.",
+    "It fills the gap with whatever surrounds it.",
+    "Stripes continue. Colours spread. A pattern simply carries on."
+   ]
+  },
+  {
+   "id": "ram",
+   "long": [
+    2
+   ],
+   "beats": [
+    "The neuroscientist V. S. Ramachandran showed how convincing this is.",
+    "Draw a line with a gap, and place the gap inside the blind spot.",
+    "Many people see the line as unbroken."
+   ]
+  },
+  {
+   "id": "fovea",
+   "long": [
+    2,
+    4
+   ],
+   "beats": [
+    "Here's an even bigger gap you never notice.",
+    "Sharp, detailed vision comes from a tiny patch in the centre of your eye, called the fovea.",
+    "It covers only about two degrees, roughly your thumbnail held at arm's length.",
+    "Everything around it is blurry, and much poorer at colour.",
+    "Yet the whole room looks sharp, because your eyes keep jumping, and your brain stitches the pieces together."
+   ]
+  },
+  {
+   "id": "guess",
+   "long": [
+    2,
+    4
+   ],
+   "beats": [
+    "Your brain fills things in all the time.",
+    "When your eyes jump, about three times a second, it hides the blur.",
+    "When you move, it predicts what you're about to feel.",
+    "What you see isn't a raw camera feed.",
+    "It's your brain's best guess, built from what it expects."
+   ]
+  },
+  {
+   "id": "payoff",
+   "long": [
+    1,
+    3
+   ],
+   "beats": [
+    "So the hole has always been there.",
+    "You've just never been shown it.",
+    "Go back to the start, try the test again, and tell me in the comments:",
+    "at what distance did the dot vanish for you?"
+   ]
+  }
+ ]
+}
