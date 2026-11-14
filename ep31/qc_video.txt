@@ -1,0 +1,8 @@
+Length 0:25.5. Frozen stretches longer than 3 s: 0, total 0 s (0% of the video).
+
+scene        lit area   moving px   still time   bottom 15% used
+hook           24.8%     18.54%          0%            0%
+same           24.1%     12.20%          0%            0%
+heat           28.2%      6.15%          0%            0%
+feel           29.1%      5.71%          0%            0%
+end            26.3%      9.58%          0%            0%

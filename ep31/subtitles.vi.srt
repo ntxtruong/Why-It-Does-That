@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:01,913
+Kim loại không lạnh hơn gỗ.
+
+2
+00:00:02,413 --> 00:00:06,057
+Để cả hai trong một phòng, chúng sẽ có cùng nhiệt độ.
+
+3
+00:00:06,557 --> 00:00:10,392
+Nhưng tay bạn ấm hơn, khoảng 34 °C.
+
+4
+00:00:10,692 --> 00:00:14,549
+Nhôm dẫn nhiệt tốt hơn gỗ hơn một nghìn lần.
+
+5
+00:00:15,049 --> 00:00:18,159
+Nên da bạn nguội nhiều hơn, và nhanh hơn, trên kim loại.
+
+6
+00:00:18,459 --> 00:00:21,066
+Cảm giác nguội nhanh đó chính là cảm giác lạnh.
+
+7
+00:00:21,566 --> 00:00:22,667
+Cùng nhiệt độ.
+
+8
+00:00:22,667 --> 00:00:23,703
+Khác tốc độ.

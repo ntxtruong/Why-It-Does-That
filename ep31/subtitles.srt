@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:01,913
+Metal isn't colder than wood.
+
+2
+00:00:02,413 --> 00:00:06,057
+Leave both in one room, and they reach the same temperature.
+
+3
+00:00:06,557 --> 00:00:10,392
+But your hand is warmer, about 34 °C.
+
+4
+00:00:10,692 --> 00:00:14,549
+Aluminium conducts heat over a thousand times better than wood.
+
+5
+00:00:15,049 --> 00:00:18,159
+So your skin cools more, and faster, on the metal.
+
+6
+00:00:18,459 --> 00:00:21,066
+That fast cooling is what you feel as cold.
+
+7
+00:00:21,566 --> 00:00:22,667
+Same temperature.
+
+8
+00:00:22,667 --> 00:00:23,703
+Different speed.

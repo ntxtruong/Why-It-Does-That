@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:01,913
+Logam tidak lebih dingin dari kayu.
+
+2
+00:00:02,413 --> 00:00:06,057
+Taruh keduanya di satu ruangan, dan suhunya akan sama.
+
+3
+00:00:06,557 --> 00:00:10,392
+Tapi tanganmu lebih hangat, sekitar 34 °C.
+
+4
+00:00:10,692 --> 00:00:14,549
+Aluminium menghantarkan panas lebih dari seribu kali lebih baik daripada kayu.
+
+5
+00:00:15,049 --> 00:00:18,159
+Jadi kulitmu mendingin lebih banyak, dan lebih cepat, di logam.
+
+6
+00:00:18,459 --> 00:00:21,066
+Pendinginan cepat itulah yang kamu rasakan sebagai dingin.
+
+7
+00:00:21,566 --> 00:00:22,667
+Suhu yang sama.
+
+8
+00:00:22,667 --> 00:00:23,703
+Kecepatan yang beda.

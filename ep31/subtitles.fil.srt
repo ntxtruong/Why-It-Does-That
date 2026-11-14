@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:01,913
+Hindi mas malamig ang metal kaysa kahoy.
+
+2
+00:00:02,413 --> 00:00:06,057
+Iwan ang dalawa sa iisang kuwarto, at pareho ang magiging temperatura nila.
+
+3
+00:00:06,557 --> 00:00:10,392
+Pero mas mainit ang kamay mo, mga 34 °C.
+
+4
+00:00:10,692 --> 00:00:14,549
+Mahigit isang libong beses na mas magaling magpadaloy ng init ang aluminium kaysa kahoy.
+
+5
+00:00:15,049 --> 00:00:18,159
+Kaya mas lumalamig, at mas mabilis, ang balat mo sa metal.
+
+6
+00:00:18,459 --> 00:00:21,066
+Ang mabilis na paglamig na iyon ang nararamdaman mong lamig.
+
+7
+00:00:21,566 --> 00:00:22,667
+Parehong temperatura.
+
+8
+00:00:22,667 --> 00:00:23,703
+Magkaibang bilis.
