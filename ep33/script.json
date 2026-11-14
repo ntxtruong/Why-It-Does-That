@@ -1,0 +1,46 @@
+{
+ "title": "Every Banana Is a Little Radioactive",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 8,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Every banana is a little radioactive."
+   ]
+  },
+  {
+   "id": "k40",
+   "long": [],
+   "beats": [
+    "Bananas are rich in potassium, and about one potassium atom in ten thousand is radioactive."
+   ]
+  },
+  {
+   "id": "you",
+   "long": [],
+   "beats": [
+    "Your body is full of the same atoms, hundreds of times more than a banana."
+   ]
+  },
+  {
+   "id": "flush",
+   "long": [],
+   "beats": [
+    "Eating one doesn't make you more radioactive: your body flushes out the extra potassium."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "You're more radioactive than the banana."
+   ]
+  }
+ ]
+}
