@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:02,179
+Puwedeng gamitin ang sausage sa touchscreen.
+
+2
+00:00:02,679 --> 00:00:04,505
+Karamihan ng screen ay hindi nakakaramdam ng pressure.
+
+3
+00:00:04,805 --> 00:00:07,625
+Maliit na electric field sa ibabaw ng salamin ang nararamdaman nila.
+
+4
+00:00:08,125 --> 00:00:13,940
+Ang nagko-conduct, tulad ng daliri o sausage, ay ginugulo ang field na iyon sa lugar na tinamaan.
+
+5
+00:00:14,440 --> 00:00:17,646
+Hindi nagko-conduct ang wool na guwantes, kaya hindi ito nakikita ng screen.
+
+6
+00:00:18,146 --> 00:00:20,765
+Kuryente ang nararamdaman ng screen mo, hindi ang haplos.

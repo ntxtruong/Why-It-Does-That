@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:02,179
+Xúc xích cũng bấm được màn hình cảm ứng.
+
+2
+00:00:02,679 --> 00:00:04,505
+Hầu hết màn hình không cảm nhận lực ép.
+
+3
+00:00:04,805 --> 00:00:07,625
+Chúng cảm nhận một điện trường rất nhỏ phía trên lớp kính.
+
+4
+00:00:08,125 --> 00:00:13,940
+Vật dẫn điện, như ngón tay hay xúc xích, làm nhiễu điện trường ở chỗ chạm.
+
+5
+00:00:14,440 --> 00:00:17,646
+Găng len không dẫn điện nên màn hình không nhìn thấy.
+
+6
+00:00:18,146 --> 00:00:20,765
+Màn hình cảm nhận điện, không phải cái chạm.

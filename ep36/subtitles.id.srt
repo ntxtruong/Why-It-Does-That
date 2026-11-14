@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:02,179
+Sosis bisa menggerakkan layar sentuh.
+
+2
+00:00:02,679 --> 00:00:04,505
+Kebanyakan layar tidak merasakan tekanan.
+
+3
+00:00:04,805 --> 00:00:07,625
+Layar merasakan medan listrik kecil di atas kaca.
+
+4
+00:00:08,125 --> 00:00:13,940
+Benda penghantar listrik, seperti jari atau sosis, mengganggu medan itu di tempat ia menyentuh.
+
+5
+00:00:14,440 --> 00:00:17,646
+Sarung tangan wol tidak menghantarkan listrik, jadi layar tidak bisa melihatnya.
+
+6
+00:00:18,146 --> 00:00:20,765
+Layarmu merasakan listrik, bukan sentuhan.

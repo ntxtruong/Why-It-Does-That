@@ -1,0 +1,4 @@
+0:00.0  hook: script 'touchscreen' / heard 'touch screen'
+
+1 beat(s) to listen to; 2 of 52 words differ (3.8%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.
