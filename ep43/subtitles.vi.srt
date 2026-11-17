@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,574
+Điện thoại của bạn thấy được ánh sáng mà mắt bạn không thấy.
+
+2
+00:00:03,074 --> 00:00:06,449
+Hướng điều khiển TV vào camera rồi bấm một nút.
+
+3
+00:00:06,949 --> 00:00:08,123
+Đầu điều khiển sáng lên.
+
+4
+00:00:08,123 --> 00:00:10,535
+Đó là ánh sáng hồng ngoại, ngay sau màu đỏ.
+
+5
+00:00:11,035 --> 00:00:12,744
+Mắt bạn mờ dần ở màu đỏ.
+
+6
+00:00:12,744 --> 00:00:14,847
+Cảm biến camera thì vẫn nhìn tiếp.
+
+7
+00:00:15,347 --> 00:00:15,918
+Không thấy sáng?
+
+8
+00:00:15,918 --> 00:00:17,488
+Hãy thử camera selfie.
+
+9
+00:00:17,488 --> 00:00:20,271
+Camera sau thường lọc bỏ tia hồng ngoại.
+
+10
+00:00:20,771 --> 00:00:22,463
+Điều khiển Bluetooth sẽ không hiện lên.
+
+11
+00:00:22,763 --> 00:00:25,960
+Nhưng hầu hết điều khiển TV vẫn luôn phát sáng về phía bạn.

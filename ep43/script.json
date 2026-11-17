@@ -1,0 +1,54 @@
+{
+ "title": "Your Phone Can See Your TV Remote's Light",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 42,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Your phone can see a light your eyes cannot."
+   ]
+  },
+  {
+   "id": "try",
+   "long": [],
+   "beats": [
+    "Point your TV remote at the camera and press a button."
+   ]
+  },
+  {
+   "id": "flash",
+   "long": [],
+   "beats": [
+    "The tip lights up. That's infrared light, just past red."
+   ]
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "Your eyes fade out at red. The camera's sensor keeps going."
+   ]
+  },
+  {
+   "id": "tip",
+   "long": [],
+   "beats": [
+    "No glow? Try the selfie camera. Rear cameras often filter infrared out."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Bluetooth remotes won't show it.",
+    "But most TV remotes have been glowing at you all along."
+   ]
+  }
+ ]
+}

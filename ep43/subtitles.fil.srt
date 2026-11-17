@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,574
+Nakikita ng phone mo ang ilaw na hindi nakikita ng mata mo.
+
+2
+00:00:03,074 --> 00:00:06,449
+Itutok ang TV remote sa camera at pindutin ang isang button.
+
+3
+00:00:06,949 --> 00:00:08,123
+Iilaw ang dulo.
+
+4
+00:00:08,123 --> 00:00:10,535
+Infrared light iyon, kasunod lang ng pula.
+
+5
+00:00:11,035 --> 00:00:12,744
+Nawawala ang paningin natin sa pula.
+
+6
+00:00:12,744 --> 00:00:14,847
+Tuloy pa rin ang sensor ng camera.
+
+7
+00:00:15,347 --> 00:00:15,918
+Walang ilaw?
+
+8
+00:00:15,918 --> 00:00:17,488
+Subukan ang selfie camera.
+
+9
+00:00:17,488 --> 00:00:20,271
+Madalas sinasala ng rear camera ang infrared.
+
+10
+00:00:20,771 --> 00:00:22,463
+Hindi lalabas ang mga Bluetooth remote.
+
+11
+00:00:22,763 --> 00:00:25,960
+Pero ang karamihan ng TV remote ay kanina pa nagliliwanag sa iyo.
