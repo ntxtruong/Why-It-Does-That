@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,761
+The cloud in your ice is mostly trapped air.
+
+2
+00:00:03,261 --> 00:00:05,358
+Tap water holds dissolved air.
+
+3
+00:00:05,358 --> 00:00:07,105
+Ice can hold very little.
+
+4
+00:00:07,605 --> 00:00:11,741
+Your tray freezes from the outside in, pushing the air toward the middle.
+
+5
+00:00:12,241 --> 00:00:17,593
+The last water to freeze is packed with air, so tiny bubbles form and get locked in.
+
+6
+00:00:18,093 --> 00:00:22,546
+Freeze it from one side only, and the air is pushed into the last layer.
+
+7
+00:00:22,846 --> 00:00:25,433
+Cut that off, and the rest of the ice is clear.
+
+8
+00:00:25,933 --> 00:00:28,634
+That's why a normal cube is cloudy in the middle.

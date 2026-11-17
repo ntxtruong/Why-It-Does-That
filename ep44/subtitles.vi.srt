@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,761
+Phần đục trong viên đá chủ yếu là không khí bị mắc kẹt.
+
+2
+00:00:03,261 --> 00:00:05,358
+Nước máy chứa không khí hòa tan.
+
+3
+00:00:05,358 --> 00:00:07,105
+Đá chỉ chứa được rất ít.
+
+4
+00:00:07,605 --> 00:00:11,741
+Khay đá đóng băng từ ngoài vào trong, đẩy không khí về giữa.
+
+5
+00:00:12,241 --> 00:00:17,593
+Nước đóng băng sau cùng chứa đầy không khí, nên bọt khí nhỏ hình thành và bị giam lại.
+
+6
+00:00:18,093 --> 00:00:22,546
+Chỉ làm đông từ một phía, không khí sẽ bị đẩy vào lớp cuối.
+
+7
+00:00:22,846 --> 00:00:25,433
+Cắt lớp đó đi, phần đá còn lại sẽ trong suốt.
+
+8
+00:00:25,933 --> 00:00:28,634
+Vì vậy viên đá thường bị đục ở giữa.
