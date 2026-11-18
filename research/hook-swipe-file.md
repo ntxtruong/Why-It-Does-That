@@ -1,0 +1,41 @@
+# Hook and topic swipe file
+
+Purpose: each run adds what it learned about hooks and topics, so the next Shorts start stronger. Patterns only: paraphrase, never copy scripts or lyrics. Everything here is a hypothesis until our own numbers (`shorts-results.md`) agree.
+
+## What outside sources say (read 2026-11-18, third-party blogs, directional; none is YouTube's own data)
+- The first 1.5–3 s decide stay or swipe; a pattern interrupt (something visually or audibly unexpected) beats a spoken preamble (joinbrands.com, mainframee blog, klap.app).
+- Curiosity gap / open loop: show or promise a result and hold the explanation back; the loop must close late, and an over-sold tease that the video does not pay off costs more on Shorts than elsewhere because the system weights sustained watch time (ugccopilot.ai, socialmediaexaminer.com, opus.pro).
+- Check "Stayed to watch" first (is the opening earning attention), then the retention graph for the first big drop (gofaceless.ai, vidIQ). Compare against your own Shorts of similar length and topic; there is no official threshold (bytecap.io).
+- Test a few hook formulas over about two weeks and track which wins in your niche (dev.to wedge-method write-ups). A study of 4,148 million-view hooks found most did not use direct "you" language, so do not force it (overseeros.com).
+- Clip one idea with one payoff, link a related long video (vidIQ).
+
+## Hook types for this channel (tag every Short with one)
+1. DO — the viewer does something in the first 3 s ("Cover your left eye, look at the plus."). Evidence: ep 29 (1.3K, best), ep 43 (890).
+2. WEIRD — the strange result is on screen at 0 s and the cause is withheld (wheels turning backwards, coin speeding up). Evidence: eps 11, 23.
+3. STAKE — a belief the viewer holds, with a concrete consequence ("The coldest thing in your kitchen is the same temperature as the warmest.").
+4. GUESS — a prediction game with a visible reveal ("Which lands first?").
+5. COUNTDOWN — a promise with a time ("In 6 seconds you will lose a coin to your own blind spot").
+Weak so far: CLAIM (a flat statement of the fact, eps 28, 30, 31, 33, 39) and abstract QUESTION openers.
+
+## Script shape v4 (20–30 s)
+0–1.5 s picture and 3–6 word text, already moving · 1.5–6 s the loop opens (what to watch or try) · 7–10 s second beat: a visible change or reveal (beat the 10-second wall) · 10–22 s the cause, one idea, drawn · last 4 s the last frame loops into the first. No recap sentence.
+
+## Topic score (0–2 each; build at 8 or more of 10)
+a) a thing the viewer owns or touches · b) can be tried in 10 s · c) most people guess wrong · d) the payoff is seen, not told · e) one idea fits 20–30 s.
+
+## Candidate topics (UNCHECKED: fact-check with web search before voicing; scores are first guesses)
+| Candidate | Hook | Notes |
+| --- | --- | --- |
+| Spaghetti never snaps into two pieces | DO / WEIRD | Feynman puzzle; Audoly and Neukirch 2005 explain it; check |
+| Hearing your own name across a noisy room | DO | cocktail-party effect; check the "about a third" figure |
+| Your phone sees stripes on another screen | DO | screen refresh vs camera shutter; link to ep 3 |
+| Lift an ice cube with a thread and salt | DO | freezing-point lowering; easy to show |
+| Pinch your nose and try to hum | DO | sound path; 5 s try-it |
+| The afterimage flag (stare, then look at white) | DO | vision; classic, check source |
+| Honey rope coiling | WEIRD | fluid buckling; check |
+| Hot shower, curtain blows in | STAKE | explanation is contested: only if a source settles it |
+
+## Run log (add one row per run)
+| Date | What I looked at | What it taught | Applied in |
+| --- | --- | --- | --- |
+| 2026-11-18 | channel numbers, outside hook sources | claim-first openers and explain-first scripts lose people by 5 s; the best Shorts hold about 10 s then leave | Shorts v4 playbook in CLAUDE.md |

@@ -1,0 +1,44 @@
+# Shorts results log
+
+Append one block per run (Stage 0). Source: Studio → Analytics → Content (advanced mode, 28 days). Avg view = watch hours × 3600 ÷ views (hours are rounded to 0.1, so rows under ~200 views are rough). "Hook" = first 1.5 s of the video and the first sentence (types in `hook-swipe-file.md`).
+
+## 2026-11-18 (all Shorts, 28 days)
+
+| Ep | Topic | Len (s) | Views | Avg view (s) | % of length | Hook (first beat) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 29 | your own eyes move | 26 | 1330 | 11.4 | 44 | do-it-now (mirror) |
+| 11 | wheels backwards | 43 | 1232 | 10.8 | 25 | weird result |
+| 15 | fingers wrinkle | 50 | 1126 | 12.8 | 26 | object + question |
+| 25 | toast butter-side | 41 | 1100 | 13.7 | 33 | question |
+| 30 | blue eyes | 27 | 1054 | 5.8 | 21 | claim |
+| 18 | round bubbles | 41 | 1038 | 9.4 | 23 | object + question |
+| 6 | Leidenfrost | 55 | 968 | 4.5 | 8 | question (oldest, most days) |
+| 22 | spoon in water | 42 | 967 | 9.7 | 23 | object + question |
+| 23 | spinning coin | 42 | 746 | 12.1 | 29 | weird result |
+| 12 | ice floats | 49 | 712 | 10.1 | 21 | question |
+| 24 | soda bubbles | 45 | 684 | 9.5 | 21 | question |
+| 16 | rainbow | 51 | 675 | 8.5 | 17 | question |
+| 9 | microwave middle | 40 | 507 | 10.7 | 27 | question |
+| 14 | noise cancel | 49 | 456 | 5.5 | 11 | abstract |
+| 10 | traffic jams | 48 | 407 | 9.7 | 20 | abstract |
+| 28 | Earth closest in Jan | 30 | 362 | 5.0 | 17 | claim |
+| 17 | voice on recordings | 49 | 362 | 11.9 | 24 | question |
+| 26 | phone/sunglasses | 40 | 188 | 7.7 | 19 | question |
+| 27 | mint feels cold | 42 | 163 | 13.3 | 32 | question |
+| 13 | moon illusion | 42 | 155 | 9.3 | 22 | question |
+| 39 | popcorn | 23 | 147 | 4.9 | 21 | claim |
+| 33 | banana | 27 | 135 | 5.3 | 20 | claim |
+| 21 | cold can | 44 | 109 | 3.3 | 8 | question |
+| 32 | self-tickle | 23 | 93 | 7.7 | 33 | claim |
+| 38 | blind spot | 21 | 90 | 4.0 | 19 | claim + try-it |
+| 19 | sky/sunset | 48 | 85 | 8.5 | 18 | question |
+| 35, 20, 37, 40, 34, 31, 36 | various | 21–49 | 37–48 | n/a | n/a | claims / questions |
+
+Ep 43 (TV remote, try-it) had 890 views on the morning of 2026-11-18, not in the table above (listed later). Eps 31–40 were uploaded by Trường a few days earlier, so their views are early.
+
+Channel: 15.2K views, 40.6 watch hours, +8 subscribers, 42.2 % stayed, 95.7 % of views from the Shorts feed.
+
+Reading:
+- Avg view is 10–14 s for the best Shorts and 4–6 s for the worst, whatever the length (21 to 55 s). The best are not watched longer in percent; the worst lose people in the first 3–5 s.
+- The "10-second wall": nearly every Short that works holds people for about 10 s, then they leave. Nothing in our scripts changes at 7–10 s.
+- Cutting length (eps 31–40 at 21–27 s) did not help.
