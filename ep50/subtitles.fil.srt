@@ -1,0 +1,207 @@
+1
+00:00:00,600 --> 00:00:05,057
+I-film ang ilaw sa kisame gamit ang phone, at minsan ganito ang makikita mo.
+
+2
+00:00:05,557 --> 00:00:07,942
+Madidilim na guhit na gumugulong sa larawan.
+
+3
+00:00:09,442 --> 00:00:12,955
+Pero sa sarili mong mata, perpektong tuloy-tuloy ang liwanag.
+
+4
+00:00:13,455 --> 00:00:15,351
+Kaya alin ang nagsasabi ng totoo?
+
+5
+00:00:16,851 --> 00:00:17,718
+Parehong tama.
+
+6
+00:00:17,718 --> 00:00:20,519
+At nagsisimula ang dahilan sa saksakan sa dingding.
+
+7
+00:00:22,319 --> 00:00:25,413
+Ang kuryente sa dingding ay alternating current.
+
+8
+00:00:25,913 --> 00:00:30,960
+Sa Vietnam at Europe, umuugoy ito ng 50 beses kada segundo.
+
+9
+00:00:30,960 --> 00:00:33,008
+Sa United States, 60.
+
+10
+00:00:33,508 --> 00:00:37,104
+Bawat ugoy ay may tulak sa isang direksyon, at tulak sa kabilang direksyon.
+
+11
+00:00:37,604 --> 00:00:41,027
+Hindi alintana ng ilaw kung saang direksyon dumadaloy ang kuryente.
+
+12
+00:00:41,027 --> 00:00:42,875
+Maliwanag ito sa parehong tuktok.
+
+13
+00:00:44,375 --> 00:00:49,978
+Kaya dalawang beses itong tumutuktok kada ugoy: 100 o 120 beses kada segundo.
+
+14
+00:00:52,078 --> 00:00:56,775
+Nananatiling mainit ang lumang filament bulb sa pagitan ng mga tuktok, kaya halos hindi ito nagdidilim.
+
+15
+00:00:57,275 --> 00:00:59,375
+Walang ganoong alaala ang LED.
+
+16
+00:00:59,375 --> 00:01:02,443
+Sinusundan nito ang kuryente halos agad-agad.
+
+17
+00:01:02,443 --> 00:01:05,673
+Kapag bumaba ang kuryente, bumababa rin ang liwanag.
+
+18
+00:01:06,173 --> 00:01:10,452
+Pinapakinis ng magandang LED driver ang kuryente, kaya nananatiling tuloy-tuloy ang ilaw.
+
+19
+00:01:10,952 --> 00:01:16,737
+Mas kaunti ang pagpapakinis ng murang driver, kaya maaaring gumuhit-guhit ang ilaw, minsan halos mamatay.
+
+20
+00:01:18,237 --> 00:01:22,158
+May isa pang trick ang dimming, na tinatawag na pulse-width modulation.
+
+21
+00:01:22,658 --> 00:01:28,561
+Mabilis na lubos na bumubukas at nagsasara ang LED, at mas matagal nakapatay para mukhang mas madilim.
+
+22
+00:01:29,061 --> 00:01:34,340
+Maraming phone screen, at ilang laptop screen, ang nagdidilim ng ganitong paraan kapag mababa ang liwanag.
+
+23
+00:01:36,440 --> 00:01:38,564
+Kaya bakit hindi mo nakikita ang alinman dito?
+
+24
+00:01:39,064 --> 00:01:45,670
+Pinagsasama ng mata at utak mo ang liwanag sa maikling sandali, at pinag-iisa ang mabilis na pagbabago sa isang liwanag.
+
+25
+00:01:46,170 --> 00:01:51,047
+Para sa karamihan ng tao, mukhang tuloy-tuloy ang kislap na mas mabilis sa mga 80 beses kada segundo.
+
+26
+00:01:52,547 --> 00:01:59,462
+Pero may ilan pa ring nakakapansin, lalo na sa mga dimmed na screen, o kapag mabilis gumalaw ang mata sa ibabaw ng ilaw.
+
+27
+00:02:01,562 --> 00:02:03,597
+Iba ang gawa ng phone camera.
+
+28
+00:02:04,097 --> 00:02:07,820
+Karamihan ng phone camera ay hindi kumukuha ng buong larawan nang sabay-sabay.
+
+29
+00:02:08,320 --> 00:02:12,580
+Binabasa nila ang sensor isang hanay sa bawat pagkakataon, mula taas hanggang baba.
+
+30
+00:02:12,580 --> 00:02:14,963
+Tinatawag itong rolling shutter.
+
+31
+00:02:16,463 --> 00:02:21,625
+Bawat hanay ay nangongolekta ng liwanag sa napakaikling sandali, lalo na sa maliwanag na eksena.
+
+32
+00:02:22,125 --> 00:02:24,628
+Ang mga hanay na nahuli sa tuktok ay lalabas na maliwanag.
+
+33
+00:02:24,628 --> 00:02:26,934
+Ang mga hanay na nahuli sa lubog ay lalabas na madilim.
+
+34
+00:02:27,434 --> 00:02:31,335
+Kapag pinagsama ang mga hanay, nagiging guhit sa buong larawan ang kislap.
+
+35
+00:02:32,835 --> 00:02:37,356
+Hindi ito nakikita ng mata mo, dahil hindi ito tumitingin isang hanay sa bawat pagkakataon.
+
+36
+00:02:39,156 --> 00:02:40,833
+Pero bakit gumagalaw ang mga guhit?
+
+37
+00:02:41,333 --> 00:02:47,608
+Sabihin nating kumikislap ang ilaw mo ng 100 beses kada segundo, at nagre-record ang camera mo ng 30 frames kada segundo.
+
+38
+00:02:48,108 --> 00:02:51,274
+Ibig sabihin, 3⅓ na kislap kada frame.
+
+39
+00:02:51,274 --> 00:02:54,145
+Ang natitirang isang-katlo ang buong kuwento.
+
+40
+00:02:54,645 --> 00:03:00,405
+Kaya bawat bagong frame ay nagsisimula ng isang-katlo ng kislap na mas huli sa ritmo ng ilaw, at gumagalaw ang mga guhit.
+
+41
+00:03:01,905 --> 00:03:07,898
+Frame kada frame, gumugulong ang mga ito, tulad ng mga gulong na mukhang umiikot paatras sa camera.
+
+42
+00:03:08,398 --> 00:03:12,214
+Ngayon subukan ang 120 kislap sa 30 frames.
+
+43
+00:03:12,214 --> 00:03:16,966
+Eksaktong 4 kada frame iyon, kaya halos hindi gumagalaw ang mga guhit.
+
+44
+00:03:19,066 --> 00:03:22,417
+Ang ayos ay hayaang bawat hanay ay makakolekta ng buong kislap.
+
+45
+00:03:23,917 --> 00:03:25,457
+Gumamit ng pro camera mode.
+
+46
+00:03:25,457 --> 00:03:31,969
+Kung 50 Hz ang kuryente, itakda ang shutter sa 1/50 o 1/100 ng isang segundo.
+
+47
+00:03:32,469 --> 00:03:37,253
+Kung 60 Hz, gamitin ang 1/60 o 1/120 ng isang segundo.
+
+48
+00:03:38,753 --> 00:03:43,489
+Ngayon, pareho ang dami ng liwanag na nakukuha ng bawat hanay, at nawawala ang mga guhit.
+
+49
+00:03:44,989 --> 00:03:50,129
+Maraming phone ang sumusubok gawin ito nang mag-isa, gamit ang setting na tinatawag na anti-banding.
+
+50
+00:03:51,929 --> 00:03:54,522
+Kaya hindi sira sa camera ang mga guhit.
+
+51
+00:03:55,022 --> 00:03:58,916
+Ang totoong ritmo iyon ng ilaw, ang pinapakinis ng mata mo.
+
+52
+00:04:00,416 --> 00:04:04,155
+Mamayang gabi, itutok ang phone mo sa mga ilaw sa bahay, at tingnan kung alin ang kumikislap.

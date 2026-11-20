@@ -1,0 +1,207 @@
+1
+00:00:00,600 --> 00:00:05,057
+Film a lamp or a screen with your phone, and sometimes you see this.
+
+2
+00:00:05,557 --> 00:00:07,942
+Dark stripes, rolling through the picture.
+
+3
+00:00:09,442 --> 00:00:12,955
+Yet to your own eyes, the light looks perfectly steady.
+
+4
+00:00:13,455 --> 00:00:15,351
+So which one is telling the truth?
+
+5
+00:00:16,851 --> 00:00:17,718
+Both of them.
+
+6
+00:00:17,718 --> 00:00:20,519
+And the reason starts in your wall socket.
+
+7
+00:00:22,319 --> 00:00:25,413
+The power in your wall is alternating current.
+
+8
+00:00:25,913 --> 00:00:30,960
+In Vietnam and Europe, it swings back and forth 50 times a second.
+
+9
+00:00:30,960 --> 00:00:33,008
+In the United States, 60.
+
+10
+00:00:33,508 --> 00:00:37,104
+Each swing has a push one way, and a push the other way.
+
+11
+00:00:37,604 --> 00:00:41,027
+A light does not care which way the current flows.
+
+12
+00:00:41,027 --> 00:00:42,875
+It is bright at both peaks.
+
+13
+00:00:44,375 --> 00:00:49,978
+So it can peak twice per swing: 100 or 120 times a second.
+
+14
+00:00:52,078 --> 00:00:56,775
+An old filament bulb stays hot between peaks, so it barely dims.
+
+15
+00:00:57,275 --> 00:00:59,375
+An LED has no such memory.
+
+16
+00:00:59,375 --> 00:01:02,443
+It follows its power almost instantly.
+
+17
+00:01:02,443 --> 00:01:05,673
+When the power dips, the light dips too.
+
+18
+00:01:06,173 --> 00:01:10,452
+A good LED driver smooths the power, and the light stays steady.
+
+19
+00:01:10,952 --> 00:01:16,737
+A cheap driver smooths it less, so the light can ripple, sometimes almost to dark.
+
+20
+00:01:18,237 --> 00:01:22,158
+Dimming adds another trick, called pulse-width modulation.
+
+21
+00:01:22,658 --> 00:01:28,561
+The LED switches fully on and off, very fast, and stays off longer to look dimmer.
+
+22
+00:01:29,061 --> 00:01:34,340
+Many phone screens, and some laptop screens, dim this way at low brightness.
+
+23
+00:01:36,440 --> 00:01:38,564
+So why do you not see any of this?
+
+24
+00:01:39,064 --> 00:01:45,670
+Your eyes and brain add up light over a short moment, and blend fast changes into one glow.
+
+25
+00:01:46,170 --> 00:01:51,047
+For most people, flicker faster than about 80 times a second looks steady.
+
+26
+00:01:52,547 --> 00:01:59,462
+Some people still notice it, especially on dimmed screens, or when their eyes dart across a light.
+
+27
+00:02:01,562 --> 00:02:03,597
+A phone camera works differently.
+
+28
+00:02:04,097 --> 00:02:07,820
+Most phone cameras do not take the whole picture at once.
+
+29
+00:02:08,320 --> 00:02:12,580
+They read the sensor one row at a time, from top to bottom.
+
+30
+00:02:12,580 --> 00:02:14,963
+This is called a rolling shutter.
+
+31
+00:02:16,463 --> 00:02:21,625
+Each row collects light for a very short moment, especially in bright scenes.
+
+32
+00:02:22,125 --> 00:02:24,628
+Rows caught at a peak come out bright.
+
+33
+00:02:24,628 --> 00:02:26,934
+Rows caught in a dip come out dark.
+
+34
+00:02:27,434 --> 00:02:31,335
+Stack the rows, and the flicker becomes stripes across the picture.
+
+35
+00:02:32,835 --> 00:02:37,356
+Your eyes never see them, because they never look one row at a time.
+
+36
+00:02:39,156 --> 00:02:40,833
+But why do the stripes move?
+
+37
+00:02:41,333 --> 00:02:47,608
+Say your light pulses 100 times a second, and your camera records 30 frames a second.
+
+38
+00:02:48,108 --> 00:02:51,274
+That is 3⅓ pulses per frame.
+
+39
+00:02:51,274 --> 00:02:54,145
+That leftover third is the whole story.
+
+40
+00:02:54,645 --> 00:03:00,405
+So each new frame starts a third of a pulse later in the light's rhythm, and the stripes shift.
+
+41
+00:03:01,905 --> 00:03:07,898
+Frame after frame, they roll, like the wheels that seem to spin backwards on camera.
+
+42
+00:03:08,398 --> 00:03:12,214
+Now try 120 pulses at 30 frames.
+
+43
+00:03:12,214 --> 00:03:16,966
+That is exactly 4 per frame, so the stripes almost stand still.
+
+44
+00:03:19,066 --> 00:03:22,417
+The fix is to let every row collect whole pulses.
+
+45
+00:03:23,917 --> 00:03:25,457
+Use a pro camera mode.
+
+46
+00:03:25,457 --> 00:03:31,969
+Where the power is 50 Hz, set the shutter to 1/50 or 1/100 of a second.
+
+47
+00:03:32,469 --> 00:03:37,253
+Where it is 60 Hz, use 1/60 or 1/120 of a second.
+
+48
+00:03:38,753 --> 00:03:43,489
+Now every row gets the same amount of light, and the stripes fade away.
+
+49
+00:03:44,989 --> 00:03:50,129
+Many phones try to do this on their own, with a setting called anti-banding.
+
+50
+00:03:51,929 --> 00:03:54,522
+So the stripes are not a fault in your camera.
+
+51
+00:03:55,022 --> 00:03:58,916
+They are the light's real rhythm, the one your eyes smooth over.
+
+52
+00:04:00,416 --> 00:04:04,155
+Point your phone at your lights tonight, and see which ones pulse.
