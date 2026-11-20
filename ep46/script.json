@@ -1,0 +1,15 @@
+{
+ "title": "Why spaghetti never snaps in two",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO + WEIRD hook (three pieces at 1.5 s), slow-motion reveal at 7-10 s, loop ending",
+ "related_episode": 3,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["Try to snap a dry spaghetti strand in two."]},
+  {"id": "fail", "long": [], "beats": ["You almost never can. It usually breaks into three or more."]},
+  {"id": "slow", "long": [], "beats": ["In slow motion, the first break makes the pieces snap back.", "That sends a bending wave down the strand, and it breaks again."], "gaps": [0.3, 0.6]},
+  {"id": "fix", "long": [], "beats": ["Researchers at MIT found a fix. Twist it almost a full turn first.", "Then bend it slowly. Now it usually snaps in two."]},
+  {"id": "end", "long": [], "beats": ["It takes a few tries. Try it tonight."]}
+ ]
+}

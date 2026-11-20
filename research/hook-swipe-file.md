@@ -34,8 +34,14 @@ a) a thing the viewer owns or touches · b) can be tried in 10 s · c) most peop
 | The afterimage flag (stare, then look at white) | DO | vision; classic, check source |
 | Honey rope coiling | WEIRD | fluid buckling; check |
 | Hot shower, curtain blows in | STAKE | explanation is contested: only if a source settles it |
+| ~~Spaghetti never snaps into two pieces~~ | DO / WEIRD | built as ep 46 (score 8: a2 b1 c2 d2 e1) |
+| ~~The afterimage (stare, then look at white)~~ | DO / COUNTDOWN | built as ep 45, blue banana (score 9: a2 b2 c1 d2 e2) |
+| Cover one eye: your thumb jumps sideways (eye dominance / parallax) | DO | 2026-11-20 first guess a2 b2 c1 d1 e2 = 8; check "most people are right-eye dominant" figure before use |
+| Lift an ice cube with a thread and a pinch of salt | DO / WEIRD | 2026-11-20: a2 b0 (needs ~1 min) c2 d2 e2 = 8; show the wait as a cut |
+| Your phone sees stripes on another screen | DO | 2026-11-20: a2 b2 c1 d2 e1 = 8; link to ep 3 |
 
 ## Run log (add one row per run)
 | Date | What I looked at | What it taught | Applied in |
 | --- | --- | --- | --- |
 | 2026-11-18 | channel numbers, outside hook sources | claim-first openers and explain-first scripts lose people by 5 s; the best Shorts hold about 10 s then leave | Shorts v4 playbook in CLAUDE.md |
+| 2026-11-20 | 5 web searches (search-result titles only, no page read; no browser for YouTube search): "stare at" afterimage illusions spread as viral challenges (brobible.com, theblaze.com "take 10 seconds", upworthy "colours that don't exist"); vidIQ and dev.to 2026 write-ups on loops and the first 3 s | HYPOTHESIS: a self-test the viewer runs on their own eyes ("stare 10 s") keeps people through a stretch with no new event, because the payoff happens in their head; the risk is a weak effect on a dim phone (fact-check: 30–60 s gives a strong afterimage, ~10 s a faint one) | ep 45 (DO + COUNTDOWN, 11 s stare, no reveal until 11 s); ep 46 (WEIRD at 1.4 s + slow-motion reveal at 7.3 s) |

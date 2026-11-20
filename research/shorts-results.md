@@ -42,3 +42,7 @@ Reading:
 - Avg view is 10–14 s for the best Shorts and 4–6 s for the worst, whatever the length (21 to 55 s). The best are not watched longer in percent; the worst lose people in the first 3–5 s.
 - The "10-second wall": nearly every Short that works holds people for about 10 s, then they leave. Nothing in our scripts changes at 7–10 s.
 - Cutting length (eps 31–40 at 21–27 s) did not help.
+
+## 2026-11-20 (no new numbers)
+
+No browser or linked computer in this run (scheduled cloud session), so Studio could not be read. The 2026-11-18 block above stays the latest data. Eps 43–44 went Public about 2026-11-18, so they are still under or near 48 h: too early in any case. Retention graphs of the best and worst Short (asked for in the 2026-11-18 lesson) are still unread.
