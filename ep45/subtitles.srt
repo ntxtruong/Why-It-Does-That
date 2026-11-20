@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:02,331
+Stare at the dot on this blue banana.
+
+2
+00:00:04,031 --> 00:00:05,486
+Do not move your eyes.
+
+3
+00:00:07,086 --> 00:00:08,006
+Keep staring.
+
+4
+00:00:09,406 --> 00:00:10,418
+Almost there.
+
+5
+00:00:11,068 --> 00:00:11,312
+Now.
+
+6
+00:00:11,312 --> 00:00:12,408
+What colour is it?
+
+7
+00:00:12,708 --> 00:00:14,535
+Nothing on your screen is yellow.
+
+8
+00:00:15,635 --> 00:00:18,891
+Staring wore down the cells in your eyes that sense blue.
+
+9
+00:00:19,191 --> 00:00:22,543
+On white, the blue signal is weak, so yellow wins.
+
+10
+00:00:23,043 --> 00:00:25,204
+Look back at the dot and try it again.
