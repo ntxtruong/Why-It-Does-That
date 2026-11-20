@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:02,339
+Point your phone at a ceiling light.
+
+2
+00:00:02,339 --> 00:00:03,677
+Switch to slow motion.
+
+3
+00:00:04,177 --> 00:00:05,334
+Now look closely.
+
+4
+00:00:05,834 --> 00:00:10,399
+Some lights are pulsing, 100 or 120 times a second.
+
+5
+00:00:10,949 --> 00:00:13,566
+That is twice the rate of the power in your wall.
+
+6
+00:00:13,866 --> 00:00:16,266
+Your eyes blur it into a steady glow.
+
+7
+00:00:16,266 --> 00:00:19,120
+The camera's quick snapshots catch the dips.
+
+8
+00:00:19,620 --> 00:00:21,511
+Good LEDs barely flicker.
+
+9
+00:00:21,511 --> 00:00:23,780
+Cheap or dimmed ones often do.
+
+10
+00:00:23,780 --> 00:00:24,915
+Go check yours.

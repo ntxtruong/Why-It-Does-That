@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:02,339
+Hướng điện thoại vào đèn trần.
+
+2
+00:00:02,339 --> 00:00:03,677
+Chuyển sang quay chậm.
+
+3
+00:00:04,177 --> 00:00:05,334
+Giờ hãy nhìn kỹ nhé.
+
+4
+00:00:05,834 --> 00:00:10,399
+Một số đèn đang nhấp nháy 100 hoặc 120 lần mỗi giây.
+
+5
+00:00:10,949 --> 00:00:13,566
+Đó là gấp đôi tần số của điện trong tường nhà bạn.
+
+6
+00:00:13,866 --> 00:00:16,266
+Mắt bạn làm nó nhòe thành ánh sáng đều.
+
+7
+00:00:16,266 --> 00:00:19,120
+Nhưng các khung chụp nhanh của camera bắt được những lúc tối.
+
+8
+00:00:19,620 --> 00:00:21,511
+Đèn LED tốt hầu như không nhấp nháy.
+
+9
+00:00:21,511 --> 00:00:23,780
+Đèn rẻ tiền hoặc bị chỉnh mờ thì thường có.
+
+10
+00:00:23,780 --> 00:00:24,915
+Hãy kiểm tra đèn nhà bạn nhé.

@@ -1,0 +1,119 @@
+{
+ "vi": {
+  "title": "Quay đèn của bạn bằng slow motion #khoahoc #congnghe",
+  "description": "Hướng điện thoại vào đèn trần và chuyển sang quay chậm. Một số đèn nhấp nháy, sáng lên và tối đi 100 hoặc 120 lần mỗi giây: gấp đôi tần số của điện lưới (50 hoặc 60 Hz). Mắt bạn hòa chúng thành ánh sáng đều, nhưng các khung chụp ngắn của camera bắt được những lúc tối. Đèn LED tốt hầu như không nhấp nháy; đèn rẻ tiền hoặc đèn bị chỉnh mờ thường thì có.\n\nMẹo: 240 khung hình mỗi giây thể hiện rõ nhất; ở 120 fps, nhấp nháy 120 Hz có thể bị che khuất.\n\nXem thêm: Tập 50 (dài, vì sao camera thấy nhấp nháy)\n\nNguồn\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (điện đã chỉnh lưu: 100 Hz ở châu Âu, 120 Hz ở Mỹ)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- Nhịp nhấp nháy trong hoạt hình được làm chậm nhiều hơn so với một đoạn 240 fps thật\n\nThử xem: quay ba đèn trong nhà bạn ở chế độ slow motion. Đèn nào nhấp nháy?\n\nKịch bản, giọng đọc và hoạt hình do AI tạo ra (Claude; giọng Kokoro). Mọi khẳng định đều được kiểm tra với các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Hướng điện thoại vào đèn trần.",
+   "Chuyển sang quay chậm.",
+   "Giờ hãy nhìn kỹ nhé.",
+   "Một số đèn đang nhấp nháy 100 hoặc 120 lần mỗi giây.",
+   "Đó là gấp đôi tần số của điện trong tường nhà bạn.",
+   "Mắt bạn làm nó nhòe thành ánh sáng đều.",
+   "Nhưng các khung chụp nhanh của camera bắt được những lúc tối.",
+   "Đèn LED tốt hầu như không nhấp nháy.",
+   "Đèn rẻ tiền hoặc bị chỉnh mờ thì thường có.",
+   "Hãy kiểm tra đèn nhà bạn nhé."
+  ]
+ },
+ "th": {
+  "title": "ถ่ายไฟของคุณในโหมดสโลว์โมชัน #วิทยาศาสตร์ #เทคโนโลยี",
+  "description": "จ่อโทรศัพท์ไปที่หลอดไฟบนเพดานแล้วเปลี่ยนเป็นโหมดสโลว์โมชัน ไฟบางดวงจะกะพริบ สว่างและหรี่ลง 100 หรือ 120 ครั้งต่อวินาที ซึ่งเป็นสองเท่าของความถี่ไฟฟ้าในผนังบ้าน (50 หรือ 60 Hz) ดวงตาของคุณจะรวมมันเป็นแสงนิ่ง แต่การถ่ายภาพสั้นๆ ของกล้องจะจับช่วงที่แสงหรี่ได้ หลอด LED ที่ดีแทบไม่กะพริบ ส่วนดวงที่ราคาถูกหรือปรับหรี่ มักจะกะพริบ\n\nเคล็ดลับ: 240 เฟรมต่อวินาทีจะเห็นได้ชัดที่สุด ที่ 120 fps การกะพริบ 120 Hz อาจซ่อนอยู่\n\nเพิ่มเติม: ตอนที่ 50 (ยาว ทำไมกล้องถึงเห็นการกะพริบ)\n\nแหล่งอ้างอิง\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (ไฟที่ผ่านการเรียงกระแส: 100 Hz ในยุโรป 120 Hz ในสหรัฐฯ)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- จังหวะการกะพริบในแอนิเมชันช้ากว่าคลิป 240 fps จริงมาก\n\nลองทำดู: ถ่ายไฟสามดวงในบ้านด้วยโหมดสโลว์โมชัน ดวงไหนกะพริบบ้าง?\n\nสคริปต์ เสียงพากย์ และแอนิเมชันผลิตโดย AI (Claude; เสียง Kokoro) ทุกข้อความได้รับการตรวจสอบกับแหล่งอ้างอิงข้างต้นแล้ว\n#Shorts",
+  "subtitles": [
+   "จ่อโทรศัพท์ไปที่หลอดไฟบนเพดาน",
+   "เปลี่ยนเป็นโหมดสโลว์โมชัน",
+   "ตอนนี้ลองดูให้ดีๆ",
+   "ไฟบางดวงกำลังกะพริบ 100 หรือ 120 ครั้งต่อวินาที",
+   "ซึ่งเป็นสองเท่าของความถี่ไฟในผนังบ้านคุณ",
+   "ดวงตาของคุณทำให้มันพร่าเป็นแสงนิ่ง",
+   "แต่ภาพถ่ายเร็วๆ ของกล้องจับจังหวะที่หรี่ลงได้",
+   "หลอด LED ที่ดีแทบไม่กะพริบ",
+   "ส่วนดวงที่ราคาถูกหรือปรับหรี่ มักจะกะพริบ",
+   "ลองไปดูของคุณสิ"
+  ]
+ },
+ "ja": {
+  "title": "スローモーションで照明を撮ると？ #科学 #テック",
+  "description": "天井のライトにスマホを向けて、スローモーションに切り替えてください。ライトによっては、1秒間に100回または120回、明るくなったり暗くなったりを繰り返しています。これは壁のコンセントの電力の周波数（50Hzまたは60Hz）の2倍です。目にはなめらかな光に見えますが、カメラの短い露光は暗くなる瞬間を捉えます。良質なLEDはほとんどちらつきません。安価なものや調光されたものは、よくちらつきます。\n\nヒント：240フレーム毎秒で最もよく見えます。120fpsでは120Hzのちらつきが隠れることがあります。\n\n詳しく：エピソード50（長編、カメラがちらつきを見える理由）\n\n出典\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it（整流された電源：欧州では100Hz、米国では120Hz）\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- アニメーションの明滅は、実際の240fps映像よりもずっと遅くしています\n\nやってみよう：家の中のライト3つをスローモーションで撮ってみてください。どれが点滅していますか？\n\n台本、音声、アニメーションはAIで制作しています（Claude、Kokoro音声）。すべての主張は上記の出典と照合して確認しています。\n#Shorts",
+  "subtitles": [
+   "スマホを天井のライトに向けて。",
+   "スローモーションに切り替えて。",
+   "では、じっくり見てください。",
+   "一部のライトは毎秒100回か120回、明滅しています。",
+   "これは壁のコンセントの電気の周波数の2倍です。",
+   "目にはぼやけて、安定した光に見えます。",
+   "でもカメラの短いスナップ写真は、暗くなる瞬間を捉えます。",
+   "良いLEDはほとんどちらつきません。",
+   "安いものや調光されたものは、よくちらつきます。",
+   "ご自宅のライトも確かめてみて。"
+  ]
+ },
+ "ko": {
+  "title": "조명을 슬로모션으로 촬영하면? #과학 #기술",
+  "description": "천장 조명에 휴대폰을 대고 슬로모션으로 바꿔 보세요. 어떤 조명은 초당 100번 또는 120번 밝아졌다 어두워졌다를 반복해요. 벽 콘센트 전기 주파수(50Hz 또는 60Hz)의 두 배예요. 눈은 이를 하나의 안정된 빛으로 뭉쳐 보지만, 카메라의 짧은 노출은 어두워지는 순간을 포착해요. 좋은 LED는 거의 깜박이지 않아요. 싸구려나 조광된 조명은 자주 깜박여요.\n\n팁: 240fps에서 가장 잘 보여요. 120fps에서는 120Hz 깜박임이 가려질 수 있어요.\n\n더 보기: 50화 (긴 영상, 카메라가 깜박임을 보는 이유)\n\n출처\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (정류된 전원: 유럽 100Hz, 미국 120Hz)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- 애니메이션의 깜박임은 실제 240fps 영상보다 훨씬 느리게 표현했어요\n\n직접 해 보기: 집에 있는 조명 세 개를 슬로모션으로 촬영해 보세요. 어떤 조명이 깜박이나요?\n\n대본, 음성, 애니메이션은 AI로 제작했어요(Claude; Kokoro 음성). 모든 내용은 위 출처와 대조해 확인했어요.\n#Shorts",
+  "subtitles": [
+   "천장 조명에 휴대폰을 대 보세요.",
+   "슬로모션으로 바꿔 보세요.",
+   "이제 자세히 보세요.",
+   "어떤 조명은 초당 100번 또는 120번 깜박이고 있어요.",
+   "벽 콘센트 전기의 두 배 속도예요.",
+   "눈은 이를 흐릿하게 뭉개서 안정된 빛으로 봐요.",
+   "하지만 카메라의 빠른 순간 촬영은 어두워지는 순간을 잡아내요.",
+   "좋은 LED는 거의 깜박이지 않아요.",
+   "싸구려나 조광된 것은 자주 깜박여요.",
+   "여러분 집 조명도 확인해 보세요."
+  ]
+ },
+ "zh-Hant": {
+  "title": "用慢動作拍你的燈光 #科學 #科技",
+  "description": "用手機對準天花板的燈，切換到慢動作。有些燈每秒會亮暗變化 100 或 120 次，是牆上電源頻率（50 或 60 Hz）的兩倍。你的眼睛會把它融合成穩定的光，但相機的短暫曝光會捕捉到暗的瞬間。品質好的 LED 幾乎不閃爍；便宜或調光的燈則常常會閃。\n\n小提示：240 fps 最能看出來；在 120 fps 下，120 Hz 的閃爍可能看不出來。\n\n更多：第 50 集（長片，為什麼相機會拍到閃爍）\n\n來源\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it（整流後的市電：歐洲 100 Hz，美國 120 Hz）\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- 動畫中的脈衝比真實 240 fps 影片所示的慢得多\n\n試試看：用慢動作拍下家裡的三盞燈。哪些會閃？\n\n腳本、語音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法都已依上述來源查證。\n#Shorts",
+  "subtitles": [
+   "把手機對準天花板的燈。",
+   "切換到慢動作。",
+   "現在仔細看。",
+   "有些燈每秒閃爍 100 或 120 次。",
+   "那是牆上電源頻率的兩倍。",
+   "你的眼睛會把它模糊成穩定的光。",
+   "但相機的快速快照會捕捉到那些暗下去的瞬間。",
+   "好的 LED 幾乎不閃爍。",
+   "便宜的或調暗的燈常常會。",
+   "去看看你家的燈吧。"
+  ]
+ },
+ "id": {
+  "title": "Rekam Lampumu dengan Gerak Lambat #sains #teknologi",
+  "description": "Arahkan ponselmu ke lampu langit-langit dan beralih ke gerak lambat. Beberapa lampu berdenyut, menyala dan meredup 100 atau 120 kali per detik: dua kali frekuensi listrik di dinding rumahmu (50 atau 60 Hz). Matamu menyatukannya menjadi cahaya yang stabil, tetapi jepretan singkat kamera menangkap saat-saat redup. LED yang bagus hampir tidak berkedip; yang murah atau yang diredupkan sering berkedip.\n\nTips: 240 bingkai per detik paling jelas; di 120 fps, kedipan 120 Hz bisa tersembunyi.\n\nLainnya: Episode 50 (panjang, mengapa kamera melihat kedipan)\n\nSumber\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (listrik yang sudah disearahkan: 100 Hz di Eropa, 120 Hz di AS)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- Denyut dalam animasi diperlambat jauh lebih lambat daripada klip 240 fps asli\n\nCoba sendiri: rekam tiga lampu di rumahmu dengan gerak lambat. Mana yang berdenyut?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim sudah dicek terhadap sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Arahkan ponselmu ke lampu langit-langit.",
+   "Beralih ke gerak lambat.",
+   "Sekarang perhatikan baik-baik.",
+   "Beberapa lampu berdenyut 100 atau 120 kali per detik.",
+   "Itu dua kali lipat frekuensi listrik di dinding rumahmu.",
+   "Matamu memburamkannya menjadi cahaya yang stabil.",
+   "Jepretan cepat kamera menangkap saat-saat redupnya.",
+   "LED yang bagus hampir tidak berkedip.",
+   "Yang murah atau yang diredupkan sering berkedip.",
+   "Coba cek lampumu sendiri."
+  ]
+ },
+ "fil": {
+  "title": "I-film ang Iyong mga Ilaw sa Slow Motion #agham #teknolohiya",
+  "description": "Itutok ang phone mo sa ilaw sa kisame at lumipat sa slow motion. May mga ilaw na kumikislap, lumiliwanag at nagdidilim nang 100 o 120 beses kada segundo. Dalawang beses ito ng dalas ng kuryente sa pader ninyo (50 o 60 Hz). Pinaghahalo ito ng mata mo at nagiging tuloy-tuloy na liwanag, pero nahuhuli ng maiikling kuha ng camera ang mga paghina. Halos hindi kumikislap ang magagandang LED; madalas kumislap ang mura o pinadilim na ilaw.\n\nTip: pinakamalinaw ito sa 240 frames per second; sa 120 fps, maaaring matakpan ang kislap na 120 Hz.\n\nDagdag: Episode 50 (mahaba, bakit nakikita ng camera ang kislap)\n\nMga sanggunian\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (naayos na kuryente: 100 Hz sa Europe, 120 Hz sa US)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- Mas binagal ang mga pulso sa animation kaysa sa totoong 240 fps na clip\n\nSubukan mo: i-film ang tatlong ilaw sa bahay mo sa slow motion. Alin ang kumikislap?\n\nGawa ng AI ang script, boses, at animation (Claude; Kokoro voice). Sinuri ang bawat claim laban sa mga sanggunian sa itaas.\n#Shorts",
+  "subtitles": [
+   "Itutok ang phone mo sa ilaw sa kisame.",
+   "Lumipat sa slow motion.",
+   "Ngayon, tingnan mo nang mabuti.",
+   "May mga ilaw na kumikislap ng 100 o 120 beses kada segundo.",
+   "Doble iyon ng dalas ng kuryente sa pader mo.",
+   "Pinagsasama ng mata mo ang lahat at nagiging tuloy-tuloy na liwanag.",
+   "Pero nahuhuli ng mabilis na kuha ng camera ang mga paghina.",
+   "Halos hindi kumikislap ang magagandang LED.",
+   "Madalas kumislap ang mura o pinadilim na ilaw.",
+   "Tingnan mo ang sa iyo."
+  ]
+ },
+ "new_terms": [
+  {"en": "mains frequency", "vi": "tần số điện lưới", "th": "ความถี่ไฟฟ้าในบ้าน", "ja": "商用電源の周波数", "ko": "상용 전원 주파수", "zh-Hant": "市電頻率", "id": "frekuensi listrik jaringan", "fil": "mains frequency (dalas ng kuryente)"},
+  {"en": "flicker fusion threshold", "vi": "ngưỡng hợp nhất nhấp nháy", "th": "เกณฑ์การรวมการกะพริบ", "ja": "フリッカー融合頻度", "ko": "플리커 융합 임계값", "zh-Hant": "閃爍融合閾值", "id": "ambang fusi kedip", "fil": "flicker fusion threshold"},
+  {"en": "LED driver", "vi": "bộ điều khiển LED", "th": "วงจรขับหลอด LED", "ja": "LEDドライバー", "ko": "LED 드라이버", "zh-Hant": "LED 驅動器", "id": "driver LED", "fil": "LED driver"}
+ ]
+}
