@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:03,366
+Viên đá này đang treo bằng một sợi chỉ.
+
+2
+00:00:03,366 --> 00:00:04,572
+Không nút thắt, không keo.
+
+3
+00:00:05,072 --> 00:00:07,848
+Chỉ một chút muối, và vài phút.
+
+4
+00:00:09,348 --> 00:00:10,496
+Muối làm tan băng.
+
+5
+00:00:10,496 --> 00:00:12,179
+Hầu hết mọi người đều biết điều đó.
+
+6
+00:00:12,679 --> 00:00:15,947
+Nhưng muối cũng làm nước đá lạnh hơn 0 độ.
+
+7
+00:00:17,447 --> 00:00:20,397
+Để hiểu vì sao, chúng ta phải quan sát các phân tử.
+
+8
+00:00:22,197 --> 00:00:26,115
+Đây là băng nằm trong nước, ở 0 °C.
+
+9
+00:00:26,615 --> 00:00:28,256
+Dường như không có gì xảy ra.
+
+10
+00:00:28,256 --> 00:00:31,813
+Nhưng ở bề mặt, các phân tử không bao giờ ngừng chuyển động.
+
+11
+00:00:32,313 --> 00:00:35,598
+Một số thoát khỏi băng và gia nhập nước.
+
+12
+00:00:35,598 --> 00:00:37,034
+Số khác lại bám trở lại.
+
+13
+00:00:37,534 --> 00:00:43,604
+Ở 0 độ, cả hai xảy ra với cùng tốc độ, nên băng không lớn lên cũng không nhỏ đi.
+
+14
+00:00:45,104 --> 00:00:48,282
+Các nhà hóa học gọi đây là cân bằng động.
+
+15
+00:00:48,282 --> 00:00:49,754
+Bận rộn, nhưng cân bằng.
+
+16
+00:00:50,254 --> 00:00:53,141
+Làm nóng một chút, nhiều phân tử hơn thoát ra.
+
+17
+00:00:53,141 --> 00:00:55,125
+Làm lạnh một chút, nhiều phân tử hơn bám vào.
+
+18
+00:00:57,225 --> 00:00:58,254
+Giờ thêm muối.
+
+19
+00:00:58,254 --> 00:01:03,316
+Trong nước, muối tách thành hai loại ion: natri và clorua.
+
+20
+00:01:03,816 --> 00:01:08,162
+Các ion chen vào giữa các phân tử nước bên cạnh băng.
+
+21
+00:01:08,662 --> 00:01:12,729
+Chúng không lọt vào mạng tinh thể băng, nên ở lại trong nước.
+
+22
+00:01:13,229 --> 00:01:17,507
+Ít phân tử nước chạm tới băng mỗi giây, nên ít phân tử bám vào hơn.
+
+23
+00:01:18,007 --> 00:01:21,028
+Nhưng sự tan chảy vẫn diễn ra gần như cùng tốc độ.
+
+24
+00:01:21,028 --> 00:01:23,362
+Tan chảy thắng thế, và băng nhỏ dần.
+
+25
+00:01:24,862 --> 00:01:28,287
+Để cân bằng lại, bạn phải làm lạnh xuống dưới 0 độ.
+
+26
+00:01:28,287 --> 00:01:30,329
+Đó là điểm đóng băng mới.
+
+27
+00:01:30,829 --> 00:01:34,497
+Nước biển có khoảng 3,5 % muối.
+
+28
+00:01:34,497 --> 00:01:38,165
+Nó đóng băng ở khoảng −1,9 °C.
+
+29
+00:01:38,665 --> 00:01:41,055
+Càng nhiều muối, điểm đóng băng càng thấp.
+
+30
+00:01:41,055 --> 00:01:45,236
+Về cơ bản, điều quan trọng là số hạt bạn hòa tan.
+
+31
+00:01:47,336 --> 00:01:49,241
+Nhưng tan chảy luôn cần nhiệt.
+
+32
+00:01:49,241 --> 00:01:50,764
+Nhiệt đó đến từ đâu?
+
+33
+00:01:51,264 --> 00:01:52,968
+Không ai cung cấp nó cả.
+
+34
+00:01:52,968 --> 00:01:57,087
+Vậy nên băng và nước quanh nó phải nhường lại nhiệt của chính mình.
+
+35
+00:01:58,587 --> 00:02:04,646
+Cả hỗn hợp lạnh xuống dưới 0 độ, và tiếp tục tan cho tới khi đạt điểm đóng băng mới.
+
+36
+00:02:05,146 --> 00:02:08,004
+Đó là cách làm kem trong túi nilon.
+
+37
+00:02:08,004 --> 00:02:10,290
+Đá, muối, và rất nhiều lần lắc.
+
+38
+00:02:11,790 --> 00:02:17,452
+Với đủ muối ăn, hỗn hợp có thể xuống tới khoảng −21 °C.
+
+39
+00:02:17,952 --> 00:02:21,920
+Đó là mức lạnh nhất mà nước muối vẫn còn ở dạng lỏng.
+
+40
+00:02:24,020 --> 00:02:26,037
+Điều đó giải thích một vấn đề mùa đông.
+
+41
+00:02:26,537 --> 00:02:29,430
+Trên đường ở −3 °C, muối hoạt động tốt.
+
+42
+00:02:29,930 --> 00:02:35,581
+Nhưng càng lạnh, mỗi nắm muối tan được ít băng hơn, và tốc độ chậm lại.
+
+43
+00:02:37,081 --> 00:02:42,906
+Gần −1 °C, một kilô muối có thể làm tan khoảng 46 kg băng.
+
+44
+00:02:42,906 --> 00:02:45,776
+Gần −7 °C, chỉ khoảng chín kilô.
+
+45
+00:02:47,276 --> 00:02:54,019
+Dưới khoảng −9 °C, các đội rải đường thường thấy muối đá thô quá chậm.
+
+46
+00:02:54,519 --> 00:03:00,250
+Khi đó họ chuyển sang chất khử băng dạng lỏng, hoặc các hóa chất hoạt động được ở nhiệt độ thấp hơn.
+
+47
+00:03:02,350 --> 00:03:03,404
+Còn sợi chỉ thì sao?
+
+48
+00:03:03,404 --> 00:03:05,513
+Cùng một vật lý, ở quy mô nhỏ.
+
+49
+00:03:06,013 --> 00:03:08,217
+Không có muối, không có gì xảy ra.
+
+50
+00:03:08,217 --> 00:03:12,039
+Băng và lớp màng nước mỏng đều ở 0 độ.
+
+51
+00:03:12,539 --> 00:03:18,736
+Muối làm tan một lớp băng mỏng quanh sợi chỉ, và sự tan chảy đó lấy nhiệt ra khỏi viên đá.
+
+52
+00:03:19,236 --> 00:03:21,301
+Viên đá trở nên lạnh hơn 0 độ.
+
+53
+00:03:22,801 --> 00:03:28,775
+Nước tan ra làm loãng muối, và viên đá lạnh làm nước quanh sợi chỉ đông lại.
+
+54
+00:03:29,275 --> 00:03:30,816
+Với sợi chỉ nằm bên trong.
+
+55
+00:03:30,816 --> 00:03:33,026
+Nhấc lên, và viên đá theo lên.
+
+56
+00:03:35,126 --> 00:03:37,292
+Vậy muối không làm nóng băng.
+
+57
+00:03:37,292 --> 00:03:38,591
+Nó làm nghiêng một cân bằng.
+
+58
+00:03:40,091 --> 00:03:46,954
+Ít phân tử đông lại hơn, gần như số phân tử tan vẫn như cũ, và băng trả giá cho sự tan của chính nó bằng nhiệt.
+
+59
+00:03:47,454 --> 00:03:52,302
+Tối nay hãy thử mẹo sợi chỉ, và cho mình biết bạn nhấc được bao nhiêu viên đá cùng lúc.

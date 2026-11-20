@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:03,366
+Nakasabit ang ice cube na ito sa sinulid.
+
+2
+00:00:03,366 --> 00:00:04,572
+Walang buhol, walang pandikit.
+
+3
+00:00:05,072 --> 00:00:07,848
+Isang kurot lang na asin, at ilang minuto.
+
+4
+00:00:09,348 --> 00:00:10,496
+Natutunaw ng asin ang yelo.
+
+5
+00:00:10,496 --> 00:00:12,179
+Alam iyon ng karamihan ng tao.
+
+6
+00:00:12,679 --> 00:00:15,947
+Pero ginagawa rin ng asin na mas malamig sa zero ang tubig-yelo.
+
+7
+00:00:17,447 --> 00:00:20,397
+Para makita kung paano, kailangan nating panoorin ang mga molecule.
+
+8
+00:00:22,197 --> 00:00:26,115
+Narito ang yelo na nasa tubig, sa 0 °C.
+
+9
+00:00:26,615 --> 00:00:28,256
+Parang walang nangyayari.
+
+10
+00:00:28,256 --> 00:00:31,813
+Pero sa ibabaw, hindi kailanman tumitigil ang mga molecule.
+
+11
+00:00:32,313 --> 00:00:35,598
+May ilang kumakalas sa yelo at sumasama sa tubig.
+
+12
+00:00:35,598 --> 00:00:37,034
+May iba namang bumabalik at dumidikit.
+
+13
+00:00:37,534 --> 00:00:43,604
+Sa zero degrees, parehong nangyayari sa parehong bilis, kaya hindi lumalaki o lumiliit ang yelo.
+
+14
+00:00:45,104 --> 00:00:48,282
+Tinatawag ito ng mga chemist na dynamic equilibrium.
+
+15
+00:00:48,282 --> 00:00:49,754
+Abala, pero balanse.
+
+16
+00:00:50,254 --> 00:00:53,141
+Kapag bahagyang pinainit, mas maraming molecule ang kumakalas.
+
+17
+00:00:53,141 --> 00:00:55,125
+Kapag bahagyang nilamig, mas maraming molecule ang dumidikit.
+
+18
+00:00:57,225 --> 00:00:58,254
+Ngayon, lagyan ng asin.
+
+19
+00:00:58,254 --> 00:01:03,316
+Sa tubig, nahahati ang asin sa dalawang uri ng ion, sodium at chloride.
+
+20
+00:01:03,816 --> 00:01:08,162
+Nagsisiksikan ang mga ion sa pagitan ng mga water molecule na malapit sa yelo.
+
+21
+00:01:08,662 --> 00:01:12,729
+Hindi sila kasya sa kristal ng yelo, kaya nananatili sila sa tubig.
+
+22
+00:01:13,229 --> 00:01:17,507
+Kaunting water molecule ang umaabot sa yelo bawat segundo, kaya kaunti rin ang dumidikit.
+
+23
+00:01:18,007 --> 00:01:21,028
+Pero halos pareho pa rin ang bilis ng pagtunaw.
+
+24
+00:01:21,028 --> 00:01:23,362
+Nananalo ang pagtunaw, at lumiliit ang yelo.
+
+25
+00:01:24,862 --> 00:01:28,287
+Para mabalik ang balanse, kailangan mo itong palamigin sa ibaba ng zero.
+
+26
+00:01:28,287 --> 00:01:30,329
+Iyon ang bagong freezing point.
+
+27
+00:01:30,829 --> 00:01:34,497
+Mga 3.5 % na asin ang tubig-dagat.
+
+28
+00:01:34,497 --> 00:01:38,165
+Nagyeyelo ito sa humigit-kumulang −1.9 °C.
+
+29
+00:01:38,665 --> 00:01:41,055
+Kapag mas maraming asin, mas mababa ang freezing point.
+
+30
+00:01:41,055 --> 00:01:45,236
+Ang mahalaga ay kung ilang particle ang natunaw mo.
+
+31
+00:01:47,336 --> 00:01:49,241
+Pero palaging kumukuha ng init ang pagtunaw.
+
+32
+00:01:49,241 --> 00:01:50,764
+Saan galing ang init na iyon?
+
+33
+00:01:51,264 --> 00:01:52,968
+Walang nagbibigay nito.
+
+34
+00:01:52,968 --> 00:01:57,087
+Kaya ang yelo at ang tubig sa paligid nito ay nagbibigay ng sarili nilang init.
+
+35
+00:01:58,587 --> 00:02:04,646
+Lumalamig ang buong halo sa ibaba ng zero, at patuloy na natutunaw hanggang maabot ang bagong freezing point.
+
+36
+00:02:05,146 --> 00:02:08,004
+Ganito ginagawa ang ice cream sa plastic bag.
+
+37
+00:02:08,004 --> 00:02:10,290
+Yelo, asin, at maraming pag-alog.
+
+38
+00:02:11,790 --> 00:02:17,452
+Sa sapat na table salt, kayang bumaba ng halo hanggang mga −21 °C.
+
+39
+00:02:17,952 --> 00:02:21,920
+Iyon ang pinakamalamig na kayang manatiling likido ng maalat na tubig.
+
+40
+00:02:24,020 --> 00:02:26,037
+Ipinapaliwanag nito ang isang problema sa taglamig.
+
+41
+00:02:26,537 --> 00:02:29,430
+Sa kalsadang −3 °C, maganda ang gamit ng asin.
+
+42
+00:02:29,930 --> 00:02:35,581
+Pero habang lumalamig, mas kaunting yelo ang natutunaw ng bawat kurot ng asin, at mas mabagal ang trabaho nito.
+
+43
+00:02:37,081 --> 00:02:42,906
+Malapit sa −1 °C, kayang tunawin ng isang kilo ng asin ang mga 46 kilo ng yelo.
+
+44
+00:02:42,906 --> 00:02:45,776
+Malapit sa −7 °C, mga siyam na kilo lang.
+
+45
+00:02:47,276 --> 00:02:54,019
+Sa ilalim ng mga −9 °C, kadalasang masyadong mabagal para sa mga road crew ang ordinaryong rock salt.
+
+46
+00:02:54,519 --> 00:03:00,250
+Saka sila lumilipat sa likidong de-icer, o sa mga kemikal na gumagana sa mas malamig na temperatura.
+
+47
+00:03:02,350 --> 00:03:03,404
+Paano naman ang sinulid?
+
+48
+00:03:03,404 --> 00:03:05,513
+Parehong physics, sa maliit na sukat.
+
+49
+00:03:06,013 --> 00:03:08,217
+Kapag walang asin, walang nangyayari.
+
+50
+00:03:08,217 --> 00:03:12,039
+Parehong nasa zero ang yelo at ang manipis na patong ng tubig.
+
+51
+00:03:12,539 --> 00:03:18,736
+Tinutunaw ng asin ang manipis na patong ng yelo sa paligid ng sinulid, at ang pagtunaw na iyon ay kumukuha ng init mula sa cube.
+
+52
+00:03:19,236 --> 00:03:21,301
+Nagiging mas malamig pa sa zero ang cube.
+
+53
+00:03:22,801 --> 00:03:28,775
+Pinapalabnaw ng natunaw na tubig ang asin, at muling nagyeyelo ang tubig sa paligid ng sinulid dahil sa malamig na cube.
+
+54
+00:03:29,275 --> 00:03:30,816
+Kasama ang sinulid sa loob.
+
+55
+00:03:30,816 --> 00:03:33,026
+Iangat, at kasama nitong aangat ang cube.
+
+56
+00:03:35,126 --> 00:03:37,292
+Kaya hindi pinapainit ng asin ang yelo.
+
+57
+00:03:37,292 --> 00:03:38,591
+Ginugulo lang nito ang balanse.
+
+58
+00:03:40,091 --> 00:03:46,954
+Mas kaunting molecule ang nagyeyelo, halos kasing dami pa rin ang natutunaw, at ang yelo ay nagbabayad para sa sarili nitong pagtunaw gamit ang init.
+
+59
+00:03:47,454 --> 00:03:52,302
+Subukan ang trick ng sinulid ngayong gabi, at sabihin mo sa akin kung ilang cube ang naiangat mo nang sabay-sabay.
