@@ -1,0 +1,54 @@
+{
+ "title": "Pinch your nose and try to hum",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO hook (hand pinching the nose in frame one), hum waveform flatlines at 7-10 s, a visible change every <= 2.5 s after it (H12), loop ending on the instruction",
+ "related_episode": 7,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Close your lips, pinch your nose, and hum."
+   ]
+  },
+  {
+   "id": "try",
+   "long": [],
+   "beats": [
+    "Keep humming, as long as you can."
+   ],
+   "gaps": [
+    2.0
+   ]
+  },
+  {
+   "id": "stop",
+   "long": [],
+   "beats": [
+    "It stops. Air fills your mouth, and the hum is gone."
+   ],
+   "gaps": [
+    0.5
+   ]
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "When you hum, the air leaves through your nose.",
+    "Pinch your nose shut, and the air piles up above your vocal folds.",
+    "The pressure there climbs until it almost matches your lungs.",
+    "With no push across them, the folds stop vibrating."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Pinch your nose, and try again."
+   ]
+  }
+ ]
+}

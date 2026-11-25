@@ -1,0 +1,5 @@
+      /* Short (1080×1920): the instruction sits in the top band, wraps, and stays left of the Shorts buttons. */
+      .q { left: 60px; top: 96px; width: 860px; white-space: normal; font-size: 84px; line-height: 1.06; padding: 16px 30px 20px; }
+      /* burned-in phrase captions: under the chin, left of the pressure bars, above the Shorts UI (y < 1536) */
+      .kara { position: absolute; left: 60px; top: 1440px; width: 680px; text-align: center; font-size: 56px; font-weight: 900; line-height: 1.06; letter-spacing: -0.01em; color: #FFFFFF; padding: 10px 18px 14px; background: rgba(14, 22, 48, 0.82); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #FFD45E; font-weight: 900; }
