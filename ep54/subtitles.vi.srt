@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:03,202
+Lần tới đi máy bay, hãy đếm số góc trên cửa sổ.
+
+2
+00:00:03,202 --> 00:00:04,083
+Không có góc nào.
+
+3
+00:00:04,583 --> 00:00:09,685
+Năm 1954, chiếc máy bay phản lực chở khách đầu tiên liên tục vỡ giữa không trung.
+
+4
+00:00:10,185 --> 00:00:14,320
+Mỗi chuyến bay bơm khoang lên như quả bóng, rồi xả xuống.
+
+5
+00:00:14,820 --> 00:00:19,094
+Quanh một góc nhọn, toàn bộ lực căng dồn vào một điểm nhỏ.
+
+6
+00:00:19,594 --> 00:00:24,528
+Chuyến này qua chuyến khác, một vết nứt lớn dần từ một góc vuông, đến khi khoang bung ra.
+
+7
+00:00:25,028 --> 00:00:28,696
+Bo tròn các góc, ứng suất sẽ chảy êm quanh lỗ.
+
+8
+00:00:29,196 --> 00:00:30,653
+Ghế cạnh cửa sổ hay lối đi?

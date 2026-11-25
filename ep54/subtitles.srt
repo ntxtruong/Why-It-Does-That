@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:03,202
+Next time you fly, count the corners on your window.
+
+2
+00:00:03,202 --> 00:00:04,083
+There are none.
+
+3
+00:00:04,583 --> 00:00:09,685
+In 1954, the first jet airliner kept breaking up in midair.
+
+4
+00:00:10,185 --> 00:00:14,320
+Every flight pumps the cabin up like a balloon, then lets it down.
+
+5
+00:00:14,820 --> 00:00:19,094
+Around a sharp corner, all that stretch piles up in one tiny spot.
+
+6
+00:00:19,594 --> 00:00:24,528
+Flight after flight, a crack grew from one square corner, until the cabin burst.
+
+7
+00:00:25,028 --> 00:00:28,696
+Round the corners, and the stress flows smoothly around the hole.
+
+8
+00:00:29,196 --> 00:00:30,653
+Window seat or aisle?
