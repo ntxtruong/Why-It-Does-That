@@ -1,0 +1,58 @@
+{
+ "title": "Why a wooden spoon stops a pot boiling over",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "Channel v5, Kitchen Science. WEIRD + DO hook: foam already at the rim at 0 s, a spoon drops on and the foam backs off by ~1.5 s; wrong guess (it presses the foam down) killed at ~4 s; reveal at ~7 s (macro: bubbles touching the dry wood burst); cause (starch skin), chain reaction, consequence (hot wet spoon stops working, foam spills), loop to the foaming pot; one-word question.",
+ "related_episode": 53,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "This pot of pasta is about to boil over. Put a wooden spoon across it, and the foam backs off."
+   ]
+  },
+  {
+   "id": "guess",
+   "long": [],
+   "beats": [
+    "It is not pushing the foam down. Watch where the bubbles touch it."
+   ]
+  },
+  {
+   "id": "pop",
+   "long": [],
+   "beats": [
+    "Every bubble that hits the dry, cooler wood bursts."
+   ]
+  },
+  {
+   "id": "starch",
+   "long": [],
+   "beats": [
+    "Starch from the pasta coats each bubble in a sticky skin, so they stack into a tower instead of popping."
+   ]
+  },
+  {
+   "id": "chain",
+   "long": [],
+   "beats": [
+    "The spoon breaks the top ones, and each burst knocks out its neighbours."
+   ]
+  },
+  {
+   "id": "fail",
+   "long": [],
+   "beats": [
+    "But once the spoon is hot and soaked, it stops working, and the foam climbs over."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Have you tried it?"
+   ]
+  }
+ ]
+}

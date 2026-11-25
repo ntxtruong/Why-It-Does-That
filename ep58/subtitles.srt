@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:01,186
+Look at the dot.
+
+2
+00:00:01,186 --> 00:00:03,257
+Now jump your eyes to the clock.
+
+3
+00:00:04,557 --> 00:00:06,469
+That first tick seemed to hang.
+
+4
+00:00:06,469 --> 00:00:07,764
+The video didn't lag.
+
+5
+00:00:08,264 --> 00:00:12,020
+While your eyes jump, your brain switches off the blurry view.
+
+6
+00:00:12,520 --> 00:00:16,670
+Then it fills the gap with the clock, as if you'd been looking all along.
+
+7
+00:00:17,170 --> 00:00:19,845
+That borrowed time lands on the first tick.
+
+8
+00:00:19,845 --> 00:00:22,272
+It can feel up to half a second longer.
+
+9
+00:00:22,772 --> 00:00:25,481
+And your eyes jump about three times a second.
+
+10
+00:00:25,981 --> 00:00:27,298
+Did your clock freeze?

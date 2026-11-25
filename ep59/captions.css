@@ -1,0 +1,5 @@
+      /* ep59 (v5, "Animals Explained" palette: night plum + berry panel + amber/eyeshine green-gold). */
+      .q { left: 60px; top: 96px; width: 900px; white-space: normal; font-size: 92px; line-height: 1.04; padding: 18px 30px 22px; background: rgba(91, 35, 64, 0.95); color: #FFF0F4; }
+      .kara { position: absolute; left: 330px; top: 1352px; width: 640px; text-align: center; font-size: 60px; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; color: #FFFFFF; padding: 12px 18px 16px; background: rgba(34, 10, 26, 0.86); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #FFC857; font-weight: 900; }
+      html, body { background: #1E0A18 !important; }

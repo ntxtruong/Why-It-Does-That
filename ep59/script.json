@@ -1,0 +1,16 @@
+{
+ "title": "How a falling cat lands on its feet",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Animals Explained. WEIRD hook: a cat falling upside down, already starting to turn, at 0 s; wrong guess (1894: it pushed off the hand) at ~4 s; reveal at ~8-9 s: it bends in the middle and turns each half on its own; front half (legs tucked) spins, back barely moves; swap; feet down; stake: from very low there is no time; loop to the upside-down cat; one-word question.",
+ "related_episode": 55,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["This cat is falling upside down, with nothing to push on."]},
+  {"id": "guess", "long": [], "beats": ["In 1894, scientists thought it cheated, pushing off the hand."]},
+  {"id": "bend", "long": [], "beats": ["It did not. It bends in the middle, and turns each half on its own."]},
+  {"id": "front", "long": [], "beats": ["Front legs tucked in, the front half spins round, while the stretched-out back barely moves."]},
+  {"id": "back", "long": [], "beats": ["Then it swaps, and the back half catches up. Feet down."]},
+  {"id": "low", "long": [], "beats": ["But from very low, it runs out of time to turn."]},
+  {"id": "end", "long": [], "beats": ["Cat person or dog person?"]}
+ ]
+}

@@ -1,0 +1,9 @@
+# ep59 retro (falling cat righting reflex, bf_emma, 28.9 s, WEIRD hook)
+- Applied from ep56/55/57 retros: pop-mark zone (x 220-360, y 950-1080) and kara box kept clear in the layout code; no two plates in one slot at once (caught one: "it bends" / "two halves" overlapped 0.1 s -> 0.05 s gap); reveal budgeted inside the 7-10 s window (cut the guess line by 1 s after the first TTS put the reveal at 10.5 s).
+- Critic pass 1: (a) "back legs out" and "pushed off the hand?" plates hidden by the mascot -> right-shifted; (b) roll arrows sat around the neck and read as a collar -> rings centred on each half's midpoint, rotated with the bend; (c) feet-down cat hovered ~110 px above the floor, low-drop cat too -> floor/fall targets fixed; (d) 1894 grid showed six empty dark frames for 0.9 s -> frames fill from 0.3 s.
+- Pass 2: 7.4-9.3 s was a static grid (all frames filled, nothing moving in the 10-second-wall window) -> camera pushes into frame 1 (hand on the cat) + big red "?" at 7.7 s with whoosh/pop.
+- One cat rig (two half-cylinders with roll angle, legs/belly/ears follow the roll) carried all 7 scenes; physics drawn first (front 180°, back -25° then +205°), script read against it.
+- ASR 0/84 differences (bf_emma, en-gb).
+- Still weak: lit area 12-17 % (plum night palette, median-based metric); 1894 frames are small at phone size until the zoom; low-drop scene is the weakest beat.
+- Do better next time: build a reusable rig for the subject first and test 5 poses in one snapshot before writing scenes; check every 2.5 s window of the guess scene, not just scene starts.
+- Prediction: stayed 55-60 %, avg view 12-14 s. Reason: an upside-down cat flipping mid-air at 0 s is a strong WEIRD visual with a pet everyone knows, plus a "cheating cat" story beat; risk: the mechanism (two spins) is abstract.

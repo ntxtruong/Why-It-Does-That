@@ -1,0 +1,58 @@
+{
+ "title": "Why ice cream gives you brain freeze",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "Channel v5, Your Body, Explained. WEIRD hook: cone goes into the mouth at 0 s and the forehead flashes with pain by ~1.5 s; wrong guess (the brain is freezing) killed at ~4.5 s; reveal at ~7 s (palate vessels clamp then flood open); nerve shares the forehead (referred pain); the tongue fix (hedged: doctors suggest); loop to the cone; one-word question.",
+ "related_episode": 27,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "The ice cream is in your mouth. So why does your forehead hurt?"
+   ]
+  },
+  {
+   "id": "guess",
+   "long": [],
+   "beats": [
+    "Your brain is not freezing. Look at the roof of your mouth."
+   ]
+  },
+  {
+   "id": "vessels",
+   "long": [],
+   "beats": [
+    "The cold makes its blood vessels clamp shut, then flood wide open."
+   ]
+  },
+  {
+   "id": "nerve",
+   "long": [],
+   "beats": [
+    "The nerve that reports it also covers your forehead, so your brain blames the wrong spot."
+   ]
+  },
+  {
+   "id": "fast",
+   "long": [],
+   "beats": [
+    "In one trial, gulping it more than doubled the chance of getting one."
+   ]
+  },
+  {
+   "id": "fix",
+   "long": [],
+   "beats": [
+    "Doctors suggest pressing your tongue to the roof of your mouth, to warm it back up."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Fast eater or slow?"
+   ]
+  }
+ ]
+}

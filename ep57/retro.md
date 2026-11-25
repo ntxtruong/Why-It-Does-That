@@ -1,0 +1,9 @@
+# ep57 retro (wooden spoon vs boil-over, bella_sarah, 32.1 s, WEIRD + DO hook)
+- Critic pass 1 failed: (a) end scene showed NO foam: `cap` default 1e9 marked every bubble "above the spoon" and hid it -> default -1e9 (a sentinel bug only a frame check finds); (b) spoon bowl ran off the right edge -> shorter handle; (c) pot bottom sat under the mascot -> pot raised 40-50 px; (d) bursts were thin white rings, invisible at phone size -> 8 px ring + gold rays.
+- Pass 2: the 7-10 s reveal zoom was gold confetti (every bubble bursting every frame) and bubbles drawn ABOVE the spoon (contradicted the point) -> bursts staggered (30 % of the time), touching bubbles squashed under the wood, zoom 2.7 -> 2.2.
+- Pass 3 (after re-voicing): "spoon breaks the top" crossfaded over "chain reaction" (two labels at once) -> first label leaves before the second; the big starch bubble read as a dark hole -> light inner gradient.
+- ASR caught "Lay a wooden" -> "leia wouldn't" and "pasta starch" -> "postastarch": reworded to "Put a wooden spoon" / "Starch from the pasta"; only neighbours/neighbors remains (spelling).
+- Fact check changed wording: no "hydrophobic" (no source), no temperatures or times; "cooler + porous/dry" and "buys time" are what the sources say.
+- Still weak: the guess-scene push-in is ~60 % steel pot wall; the macro "pop" scene is the real reveal but lands at 9.9 s (edge of the window).
+- Do better next time: keep the reveal visual inside the guess scene's second sentence (it worked: push-in at 7.8 s), and budget the hook sentence to <= 4.5 s so the macro lands by 9 s; grep scenes for 1e9/-1e9 sentinels before the first snapshot.
+- Prediction: stayed 52-58 %, avg view 11-13 s. Reason: overflowing pot + hovering spoon at 0 s is a familiar kitchen moment with an open "does it work?" loop, and the payoff (foam backs off) is shown at 3-5 s; risk: the trick is widely known, and 32 s is long.
