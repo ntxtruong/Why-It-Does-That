@@ -1,0 +1,55 @@
+{
+ "title": "Make a floating finger",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO + WEIRD hook (fingertips approaching at 0 s), focus pull at ~4 s, floating finger at 7-10 s, a visible change every <= 2.5 s after it (H12), loop ending on frame one",
+ "related_episode": 42,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Touch your fingertips, about a hand's length from your eyes."
+   ]
+  },
+  {
+   "id": "look",
+   "long": [],
+   "beats": [
+    "Now look past them, at something far away."
+   ],
+   "gaps": [
+    0.7
+   ]
+  },
+  {
+   "id": "see",
+   "long": [],
+   "beats": [
+    "See it? A little floating finger, with two tips.",
+    "Pull them apart a bit. It floats."
+   ],
+   "gaps": [
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "Your eyes aim far, so each eye sees your fingers in a different place.",
+    "Your brain lays both views on top of each other.",
+    "Where the two fingertips overlap, you see a floating finger."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Look back at your fingers, and it is gone."
+   ]
+  }
+ ]
+}
