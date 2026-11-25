@@ -20,12 +20,28 @@
     "am_michael": 1.0
    },
    "speed": 1.0
+  },
+  "bm_fable": {
+   "mix": {
+    "bm_fable": 1.0
+   },
+   "speed": 1.0,
+   "lang": "en-gb"
+  },
+  "bf_emma": {
+   "mix": {
+    "bf_emma": 1.0
+   },
+   "speed": 1.0,
+   "lang": "en-gb"
   }
  },
  "rotation": [
   "bella_heart",
   "bella_sarah",
+  "bm_fable",
+  "bella_sarah",
   "am_michael",
-  "bella_sarah"
+  "bf_emma"
  ]
 }

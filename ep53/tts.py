@@ -17,7 +17,7 @@ out = []; t = 0.0; TL = {"scenes": []}; srt = []
 for sc in S["scenes"]:
     s0 = t; beats = []; out.append(sil(PRE)); t += PRE
     for i, txt in enumerate(sc["beats"]):
-        _v, _sp, _n = resolve(k, S["voice"], S.get("speed")); a, sr = k.create(txt, voice=_v, speed=_sp, lang="en-us"); assert sr == SR
+        _v, _sp, _n, _lg = resolve(k, S["voice"], S.get("speed")); a, sr = k.create(txt, voice=_v, speed=_sp, lang=_lg); assert sr == SR
         a = trim(a.astype(np.float32)); d = len(a) / SR
         beats.append({"start": round(t - s0, 3), "end": round(t - s0 + d, 3)}); srt.append((t, t + d, txt))
         out.append(a); t += d

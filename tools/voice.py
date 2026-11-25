@@ -12,6 +12,6 @@ def pick(name, ep_dir=None):
 def resolve(k, name, speed=None, ep_dir=None):
     name = pick(name, ep_dir)
     p = CFG["presets"].get(name)
-    if not p: return name, (speed or 1.0), name
+    if not p: return name, (speed or 1.0), name, ("en-gb" if name[:1] == "b" else "en-us")
     st = sum(k.get_voice_style(v) * w for v, w in p["mix"].items())
-    return st, (speed or p["speed"]), name
+    return st, (speed or p["speed"]), name, p.get("lang", "en-us")
