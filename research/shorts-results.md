@@ -46,3 +46,7 @@ Reading:
 ## 2026-11-20 (no new numbers)
 
 No browser or linked computer in this run (scheduled cloud session), so Studio could not be read. The 2026-11-18 block above stays the latest data. Eps 43–44 went Public about 2026-11-18, so they are still under or near 48 h: too early in any case. Retention graphs of the best and worst Short (asked for in the 2026-11-18 lesson) are still unread.
+
+## 2026-11-25 (no new numbers)
+
+Scheduled cloud run again had no browser (neither Claude in Chrome nor a linked computer), so Studio could not be read and the 2026-11-18 block stays the latest data. Eps 45–50 are still not uploaded, so the v4 Shorts have no numbers yet; eps 43–44 (Public ~2026-11-18) are past 48 h but unread. Retention graphs of the best and worst Short are still unread.
