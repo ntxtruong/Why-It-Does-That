@@ -5,6 +5,7 @@ scene's "long" array is followed by a 1.5 s pause, so the picture can play on it
 """
 import json, re, numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
+import sys as _s; _s.path.insert(0, "../tools"); from voice import resolve
 S = json.load(open('script.json')); k = Kokoro("../tts/kokoro-v1.0.onnx", "../tts/voices-v1.0.bin"); SR = 24000
 SHORT = S.get("format") == "short"
 PRE, GAP, LONG, POST, TAIL = (0.15, 0.3, 0.6, 0.35, 1.6) if SHORT else (0.6, 0.5, 1.5, 1.2, 9.0)   # TAIL = end card held after the last word
@@ -16,7 +17,7 @@ out = []; t = 0.0; TL = {"scenes": []}; srt = []
 for sc in S["scenes"]:
     s0 = t; beats = []; out.append(sil(PRE)); t += PRE
     for i, txt in enumerate(sc["beats"]):
-        a, sr = k.create(txt, voice=S["voice"], speed=S.get("speed", 0.9), lang="en-us"); assert sr == SR
+        _v, _sp, _n = resolve(k, S["voice"], S.get("speed")); a, sr = k.create(txt, voice=_v, speed=_sp, lang="en-us"); assert sr == SR
         a = trim(a.astype(np.float32)); d = len(a) / SR
         beats.append({"start": round(t - s0, 3), "end": round(t - s0 + d, 3)}); srt.append((t, t + d, txt))
         out.append(a); t += d

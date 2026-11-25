@@ -1,0 +1,31 @@
+{
+ "_note": "Voice presets (Tr\u01b0\u1eddng 2026-11-26: default bella_sarah, rotate voices so the channel does not sound the same every video). A preset is one Kokoro voice or a weighted blend. Rotation: rotation[episode_number % len(rotation)].",
+ "presets": {
+  "bella_sarah": {
+   "mix": {
+    "af_bella": 0.6,
+    "af_sarah": 0.4
+   },
+   "speed": 1.05
+  },
+  "bella_heart": {
+   "mix": {
+    "af_bella": 0.6,
+    "af_heart": 0.4
+   },
+   "speed": 1.05
+  },
+  "am_michael": {
+   "mix": {
+    "am_michael": 1.0
+   },
+   "speed": 1.0
+  }
+ },
+ "rotation": [
+  "bella_heart",
+  "bella_sarah",
+  "am_michael",
+  "bella_sarah"
+ ]
+}
