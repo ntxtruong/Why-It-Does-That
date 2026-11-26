@@ -1,0 +1,9 @@
+Length 0:22.5. Frozen stretches longer than 3 s: 0, total 0 s (0% of the video).
+
+scene        lit area   moving px   still time   bottom 15% used
+hook           24.0%      6.49%          0%            0%
+discs          21.5%     16.11%          0%            0%
+day            19.8%     13.53%          0%            0%
+night          19.9%      8.26%          0%            0%
+end            23.9%     10.07%          0%            0%
+Note: some scenes below 25 % lit area (two passes for ep33/ep39: subjects enlarged). The metric counts pixels brighter than the frame median; these scenes are mid-size drawings on the navy room. Accepted and reported to Trường; next episodes should use one subject ≥ 700 px tall.

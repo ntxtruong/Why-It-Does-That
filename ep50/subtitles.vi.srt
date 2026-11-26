@@ -1,0 +1,207 @@
+1
+00:00:00,600 --> 00:00:05,057
+Quay đèn trần bằng điện thoại, đôi khi bạn sẽ thấy thế này.
+
+2
+00:00:05,557 --> 00:00:07,942
+Các vệt tối chạy ngang khung hình.
+
+3
+00:00:09,442 --> 00:00:12,955
+Nhưng với mắt bạn, ánh sáng vẫn hoàn toàn đều.
+
+4
+00:00:13,455 --> 00:00:15,351
+Vậy ai đúng?
+
+5
+00:00:16,851 --> 00:00:17,718
+Cả hai.
+
+6
+00:00:17,718 --> 00:00:20,519
+Và lý do bắt đầu từ ổ cắm trên tường.
+
+7
+00:00:22,319 --> 00:00:25,413
+Điện trong tường là dòng điện xoay chiều.
+
+8
+00:00:25,913 --> 00:00:30,960
+Ở Việt Nam và châu Âu, nó đổi chiều 50 lần mỗi giây.
+
+9
+00:00:30,960 --> 00:00:33,008
+Ở Mỹ là 60 lần.
+
+10
+00:00:33,508 --> 00:00:37,104
+Mỗi chu kỳ có một lần đẩy theo chiều này và một lần theo chiều kia.
+
+11
+00:00:37,604 --> 00:00:41,027
+Đèn không quan tâm dòng điện đang chạy theo chiều nào.
+
+12
+00:00:41,027 --> 00:00:42,875
+Nó sáng ở cả hai đỉnh.
+
+13
+00:00:44,375 --> 00:00:49,978
+Vì vậy nó có thể đạt đỉnh hai lần mỗi chu kỳ: 100 hoặc 120 lần mỗi giây.
+
+14
+00:00:52,078 --> 00:00:56,775
+Bóng đèn sợi đốt cũ vẫn nóng giữa các đỉnh, nên hầu như không tối đi.
+
+15
+00:00:57,275 --> 00:00:59,375
+Đèn LED thì không có độ trễ đó.
+
+16
+00:00:59,375 --> 00:01:02,443
+Nó bám theo điện năng gần như ngay lập tức.
+
+17
+00:01:02,443 --> 00:01:05,673
+Khi điện giảm, ánh sáng cũng giảm theo.
+
+18
+00:01:06,173 --> 00:01:10,452
+Bộ driver LED tốt làm phẳng điện, nên ánh sáng vẫn ổn định.
+
+19
+00:01:10,952 --> 00:01:16,737
+Driver rẻ tiền làm phẳng kém hơn, nên ánh sáng có thể gợn, đôi khi gần như tối hẳn.
+
+20
+00:01:18,237 --> 00:01:22,158
+Việc làm mờ thêm một mánh khác, gọi là điều chế độ rộng xung.
+
+21
+00:01:22,658 --> 00:01:28,561
+Đèn LED bật hẳn rồi tắt hẳn, rất nhanh, và tắt lâu hơn để trông mờ hơn.
+
+22
+00:01:29,061 --> 00:01:34,340
+Nhiều màn hình điện thoại, và một số màn hình laptop, làm mờ theo cách này khi độ sáng thấp.
+
+23
+00:01:36,440 --> 00:01:38,564
+Vậy tại sao bạn không thấy gì trong số này?
+
+24
+00:01:39,064 --> 00:01:45,670
+Mắt và não bạn cộng dồn ánh sáng trong một khoảng thời gian ngắn, và gộp các thay đổi nhanh thành một vầng sáng.
+
+25
+00:01:46,170 --> 00:01:51,047
+Với hầu hết mọi người, nhấp nháy nhanh hơn khoảng 80 lần mỗi giây sẽ trông như đứng yên.
+
+26
+00:01:52,547 --> 00:01:59,462
+Một số người vẫn nhận ra, nhất là trên màn hình bị làm mờ, hoặc khi mắt lướt qua một ánh sáng.
+
+27
+00:02:01,562 --> 00:02:03,597
+Camera điện thoại thì hoạt động khác.
+
+28
+00:02:04,097 --> 00:02:07,820
+Hầu hết camera điện thoại không chụp toàn bộ khung hình cùng lúc.
+
+29
+00:02:08,320 --> 00:02:12,580
+Chúng đọc cảm biến từng hàng một, từ trên xuống dưới.
+
+30
+00:02:12,580 --> 00:02:14,963
+Đây gọi là rolling shutter.
+
+31
+00:02:16,463 --> 00:02:21,625
+Mỗi hàng thu sáng trong một khoảnh khắc rất ngắn, nhất là trong cảnh sáng.
+
+32
+00:02:22,125 --> 00:02:24,628
+Hàng bắt đúng đỉnh sáng thì ra sáng.
+
+33
+00:02:24,628 --> 00:02:26,934
+Hàng bắt đúng lúc tối thì ra tối.
+
+34
+00:02:27,434 --> 00:02:31,335
+Xếp các hàng lại, nhấp nháy thành các vệt sọc trên khung hình.
+
+35
+00:02:32,835 --> 00:02:37,356
+Mắt bạn không bao giờ thấy chúng, vì mắt không nhìn từng hàng một.
+
+36
+00:02:39,156 --> 00:02:40,833
+Nhưng tại sao các vệt lại chạy?
+
+37
+00:02:41,333 --> 00:02:47,608
+Giả sử đèn nhấp nháy 100 lần mỗi giây, còn camera quay 30 khung hình mỗi giây.
+
+38
+00:02:48,108 --> 00:02:51,274
+Vậy là 3⅓ nhịp mỗi khung hình.
+
+39
+00:02:51,274 --> 00:02:54,145
+Phần lẻ một phần ba đó là toàn bộ câu chuyện.
+
+40
+00:02:54,645 --> 00:03:00,405
+Nên mỗi khung hình mới bắt đầu trễ một phần ba nhịp trong nhịp của ánh sáng, và các vệt dịch chuyển.
+
+41
+00:03:01,905 --> 00:03:07,898
+Khung này nối khung kia, chúng chạy, giống như những bánh xe trông như quay ngược trên camera.
+
+42
+00:03:08,398 --> 00:03:12,214
+Giờ thử 120 nhịp với 30 khung hình.
+
+43
+00:03:12,214 --> 00:03:16,966
+Chính xác là 4 nhịp mỗi khung, nên các vệt gần như đứng yên.
+
+44
+00:03:19,066 --> 00:03:22,417
+Cách sửa là để mỗi hàng thu đúng số nguyên nhịp.
+
+45
+00:03:23,917 --> 00:03:25,457
+Dùng chế độ quay chuyên nghiệp.
+
+46
+00:03:25,457 --> 00:03:31,969
+Nơi điện 50 Hz, đặt màn trập 1/50 hoặc 1/100 giây.
+
+47
+00:03:32,469 --> 00:03:37,253
+Nơi điện 60 Hz, dùng 1/60 hoặc 1/120 giây.
+
+48
+00:03:38,753 --> 00:03:43,489
+Giờ mỗi hàng nhận cùng một lượng sáng, và các vệt biến mất.
+
+49
+00:03:44,989 --> 00:03:50,129
+Nhiều điện thoại tự làm điều này, bằng một cài đặt gọi là chống sọc.
+
+50
+00:03:51,929 --> 00:03:54,522
+Nên các vệt không phải lỗi của camera.
+
+51
+00:03:55,022 --> 00:03:58,916
+Chúng là nhịp thật của ánh sáng, thứ mắt bạn làm mượt đi.
+
+52
+00:04:00,416 --> 00:04:04,155
+Tối nay hãy chĩa điện thoại vào đèn nhà bạn, xem đèn nào nhấp nháy.

@@ -1,0 +1,9 @@
+0:44.2  ac: script 'a' / heard 'one'; script 'a' / heard 'one'; script 'and' / heard ''
+2:22.0  camera: script 'rows' / heard 'rose'; script 'rows' / heard 'rose'
+3:08.2  roll: script 'a' / heard 'one'; script 'and' / heard ''
+3:23.8  fix: script 'hertz' / heard 'hz'; script 'fiftieth' / heard 'fiftyth'
+3:32.3  fix: script 'sixtieth' / heard 'sixty'; script 'and twentieth' / heard 'twentyth'
+4:00.3  payoff: script 'ones' / heard 'one's'
+
+6 beat(s) to listen to; 13 of 566 words differ (2.3%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

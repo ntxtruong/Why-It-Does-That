@@ -1,0 +1,8 @@
+Length 0:23.0. Frozen stretches longer than 3 s: 0, total 0 s (0% of the video).
+
+scene        lit area   moving px   still time   bottom 15% used
+hook           22.7%     14.01%          0%            0%
+predict        22.7%     10.99%          0%            0%
+robot          20.7%      9.31%          0%            0%
+end            23.2%     13.63%          0%            0%
+Note: lit area 21–23 % (< 25 %) after two passes (hand scaled ×1.15). A single hand on the dark navy room is the subject; the remaining dark area is the background gradient, not an empty frame. Accepted for this episode; reported to Trường.

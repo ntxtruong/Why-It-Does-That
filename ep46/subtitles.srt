@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,642
+Try to snap a dry spaghetti strand in two.
+
+2
+00:00:03,142 --> 00:00:04,506
+You almost never can.
+
+3
+00:00:04,506 --> 00:00:06,908
+It usually breaks into three or more.
+
+4
+00:00:07,408 --> 00:00:11,137
+In slow motion, the first break makes the pieces snap back.
+
+5
+00:00:11,437 --> 00:00:15,257
+That sends a bending wave down the strand, and it breaks again.
+
+6
+00:00:16,007 --> 00:00:18,429
+Researchers at MIT found a fix.
+
+7
+00:00:18,429 --> 00:00:21,085
+Twist it almost a full turn first.
+
+8
+00:00:21,385 --> 00:00:22,824
+Then bend it slowly.
+
+9
+00:00:22,824 --> 00:00:24,840
+Now it usually snaps in two.
+
+10
+00:00:25,340 --> 00:00:26,656
+It takes a few tries.
+
+11
+00:00:26,656 --> 00:00:27,596
+Try it tonight.

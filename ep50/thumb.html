@@ -1,0 +1,15 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  clear(); vignette(0.35);
+  phoneL(800, 330, 1060, 640, (x, y, w, h) => lampView(x, y, w, h, u => clamp(1.8 * band(u, 0.55, 3.3, 1) - 0.4)), 1, 0);
+  const Wd = { 1: ["STRIPES", "ON CAMERA?"], 2: ["YOUR LIGHT", "IS PULSING"], 3: ["100–120×", "A SECOND"] }[v];
+  word(Wd[0], 50, 150, 120, "#F2F5FB", "left"); word(Wd[1], 50, 280, 110, v === 1 ? "#FFD45E" : v === 2 ? "#FF8A7A" : "#8CC6FF", "left");
+  mascot3(230, 1040, 0.5, 0, { look: [0.8, -0.3], mouth: "o" });
+};
+</script></body></html>

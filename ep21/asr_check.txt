@@ -1,0 +1,5 @@
+0:32.0  dew: script 'dew' / heard 'do'
+0:39.0  end: script 'can' / heard 'chem'
+
+2 beat(s) to listen to; 2 of 112 words differ (1.8%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

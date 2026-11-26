@@ -1,0 +1,4 @@
+0:05.7  reveal: script 'a' / heard 'one'; script 'a' / heard 'one'; script 'and' / heard ''
+
+1 beat(s) to listen to; 3 of 67 words differ (4.5%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

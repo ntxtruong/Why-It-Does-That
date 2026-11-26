@@ -1,0 +1,113 @@
+{
+ "vi": {
+  "title": "Tại sao bong bóng xà phòng luôn tròn? #bubbles #physics",
+  "description": "Thổi qua một khung vuông, bạn vẫn được bong bóng tròn. Sức căng bề mặt co màng xà phòng lại hết mức có thể, trong khi không khí bên trong đẩy ngược ra. Hình dạng chứa lượng khí đó với ít màng nhất là hình cầu: một hình lập phương sẽ cần nhiều hơn khoảng 24%.\n\nTìm hiểu thêm về phân tử nước: Tại sao lò vi sóng không làm nóng thức ăn từ bên trong https://youtu.be/ri17BZl0Iq8\n\nNguồn\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\nHãy thử với một khung vuông. Bạn có được bong bóng tròn không? Hãy cho mình biết trong phần bình luận.\n\nKịch bản, giọng đọc và hoạt hình đều do AI tạo ra (Claude; giọng Kokoro). Mọi con số đều được đối chiếu với các nguồn ở trên.\n#Shorts",
+  "subtitles": [
+   "Tại sao bong bóng bay lơ lửng luôn tròn?",
+   "Thổi qua một khung vuông, bong bóng vẫn ra hình tròn.",
+   "Màng xà phòng bị căng chặt bởi sức căng bề mặt.",
+   "Nó luôn tự co lại nhỏ hết mức có thể.",
+   "Nhưng lượng khí bị giữ bên trong đẩy ngược lại.",
+   "Vì vậy màng ổn định ở hình dạng chứa lượng khí đó với diện tích bề mặt nhỏ nhất.",
+   "Hình dạng đó là hình cầu.",
+   "Một hình lập phương chứa cùng lượng khí cần nhiều màng hơn khoảng một phần tư.",
+   "Mọi chỗ phồng đều tốn thêm màng, nên màng kéo nó lại, và các gợn sóng tắt dần.",
+   "Khung quyết định lúc ban đầu.",
+   "Vật lý quyết định hình dạng bong bóng."
+  ]
+ },
+ "th": {
+  "title": "ทำไมฟองสบู่ถึงกลมเสมอ? #bubbles #physics",
+  "description": "เป่าผ่านห่วงสี่เหลี่ยม คุณก็ยังได้ฟองสบู่ทรงกลม แรงตึงผิวทำให้ฟิล์มสบู่หดตัวมากที่สุดเท่าที่จะทำได้ ขณะที่อากาศข้างในดันกลับ รูปทรงที่กักอากาศนั้นไว้ด้วยฟิล์มน้อยที่สุดคือทรงกลม ส่วนลูกบาศก์ต้องใช้ฟิล์มมากกว่าราว 24%\n\nเรียนรู้เพิ่มเติมเกี่ยวกับโมเลกุลของน้ำ: ทำไมไมโครเวฟไม่ได้ทำให้อาหารร้อนจากข้างใน https://youtu.be/ri17BZl0Iq8\n\nแหล่งข้อมูล\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\nลองทำกับห่วงสี่เหลี่ยมดู ได้ฟองสบู่กลมไหม? บอกฉันในคอมเมนต์ได้เลย\n\nบทพูด เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ตัวเลขทุกตัวได้รับการตรวจสอบกับแหล่งข้อมูลด้านบนแล้ว\n#Shorts",
+  "subtitles": [
+   "ทำไมฟองสบู่ที่ลอยอยู่ถึงกลมเสมอ",
+   "เป่าผ่านห่วงสี่เหลี่ยม ฟองสบู่ก็ยังออกมากลม",
+   "ฟิล์มสบู่ถูกดึงตึงด้วยแรงตึงผิว",
+   "มันจะหดตัวให้เล็กที่สุดเท่าที่จะทำได้เสมอ",
+   "แต่อากาศที่ติดอยู่ข้างในดันกลับ",
+   "ฟิล์มจึงเข้าสู่รูปทรงที่กักอากาศนั้นไว้ได้ด้วยพื้นผิวน้อยที่สุด",
+   "รูปทรงนั้นคือทรงกลม",
+   "ลูกบาศก์ที่กักอากาศปริมาณเท่ากันต้องใช้ฟิล์มมากกว่าราวหนึ่งในสี่",
+   "ส่วนที่นูนออกมาทุกจุดต้องใช้ฟิล์มเพิ่ม ฟิล์มจึงดึงกลับ และการสั่นไหวก็ค่อยๆ หายไป",
+   "ห่วงกำหนดแค่จุดเริ่มต้น",
+   "ฟิสิกส์กำหนดรูปร่างของฟองสบู่"
+  ]
+ },
+ "ja": {
+  "title": "シャボン玉がいつも丸いのはなぜ？ #bubbles #physics",
+  "description": "四角い枠から吹いても、シャボン玉は丸くなります。表面張力は石けんの膜をできるだけ小さく縮めようとし、中の空気は押し返します。同じ空気を最小の膜で包める形は球で、立方体だと約24%多く膜が必要です。\n\n水分子についてもっと: 電子レンジが食べ物を内側から温めないのはなぜ https://youtu.be/ri17BZl0Iq8\n\n出典\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\n四角い枠で試してみてください。丸いシャボン玉になりましたか？ コメントで教えてください。\n\n台本・音声・アニメーションはAI（Claude、音声はKokoro）が制作しました。数字はすべて上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "宙に浮かぶシャボン玉は、なぜいつも丸いの？",
+   "四角い枠から吹いても、シャボン玉は丸く出てきます。",
+   "石けんの膜は、表面張力でぴんと引っ張られています。",
+   "膜は、できるだけ小さく縮もうとします。",
+   "でも、中に閉じ込められた空気が押し返します。",
+   "そこで膜は、その空気を最小の表面で包める形に落ち着きます。",
+   "その形が球です。",
+   "同じ空気を入れる立方体には、約4分の1多く膜が必要です。",
+   "出っ張りがあると余分な膜が必要なので、膜が引き戻し、揺らぎは消えていきます。",
+   "枠が決めるのは、最初の形だけ。",
+   "シャボン玉の形を決めるのは、物理です。"
+  ]
+ },
+ "ko": {
+  "title": "비눗방울은 왜 항상 동그랄까? #bubbles #physics",
+  "description": "네모난 틀로 불어도 비눗방울은 동그랗게 나옵니다. 표면장력은 비누막을 최대한 작게 줄이려 하고, 안의 공기는 밀어냅니다. 그 공기를 가장 적은 막으로 감싸는 모양이 구이고, 정육면체는 약 24% 더 많은 막이 필요합니다.\n\n물 분자에 대해 더 알아보기: 전자레인지는 왜 음식을 안쪽부터 데우지 않을까 https://youtu.be/ri17BZl0Iq8\n\n출처\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\n네모난 틀로 한번 해 보세요. 동그란 비눗방울이 나왔나요? 댓글로 알려 주세요.\n\n대본, 음성, 애니메이션은 AI(Claude, Kokoro 음성)가 만들었습니다. 모든 수치는 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "공중에 떠다니는 비눗방울은 왜 항상 동그랄까요?",
+   "네모난 틀로 불어도 비눗방울은 둥글게 나옵니다.",
+   "비누막은 표면장력 때문에 팽팽하게 당겨집니다.",
+   "막은 항상 가능한 한 작게 줄어들려고 합니다.",
+   "하지만 안에 갇힌 공기가 밀어냅니다.",
+   "그래서 막은 그 공기를 가장 적은 표면으로 감싸는 모양에 자리 잡습니다.",
+   "그 모양이 구입니다.",
+   "같은 양의 공기를 담는 정육면체는 막이 약 4분의 1 더 필요합니다.",
+   "튀어나온 부분은 막이 더 들기 때문에 막이 다시 끌어당기고, 흔들림은 사라집니다.",
+   "틀은 시작만 정합니다.",
+   "모양은 물리가 정합니다."
+  ]
+ },
+ "zh-Hant": {
+  "title": "為什麼泡泡總是圓的？ #bubbles #physics",
+  "description": "用方形泡泡棒吹，你還是會吹出圓形的泡泡。表面張力讓肥皂膜盡可能縮小，而裡面的空氣會往外推。用最少薄膜包住那些空氣的形狀就是球：立方體則需要多約 24% 的薄膜。\n\n更多關於水分子的內容: 為什麼微波爐不會從內部加熱食物 https://youtu.be/ri17BZl0Iq8\n\n資料來源\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\n用方形泡泡棒試試看，吹出來的是圓泡泡嗎？歡迎留言告訴我。\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有數字均已對照上方資料來源查證。\n#Shorts",
+  "subtitles": [
+   "為什麼飄浮的泡泡總是圓的？",
+   "用方形泡泡棒吹，泡泡出來還是圓的。",
+   "肥皂膜被表面張力拉得緊繃。",
+   "它總是盡可能縮到最小。",
+   "但困在裡面的空氣會往外推。",
+   "所以薄膜會停在用最少表面積包住那些空氣的形狀。",
+   "那個形狀就是球。",
+   "裝同樣空氣的立方體，需要多大約四分之一的薄膜。",
+   "任何凸起都要多用薄膜，所以薄膜會把它拉回來，晃動也就消失了。",
+   "泡泡棒只決定一開始的形狀。",
+   "物理決定泡泡的樣子。"
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "surface tension",
+   "vi": "sức căng bề mặt",
+   "th": "แรงตึงผิว",
+   "ja": "表面張力",
+   "ko": "표면장력",
+   "zh-Hant": "表面張力"
+  },
+  {
+   "en": "soap film",
+   "vi": "màng xà phòng",
+   "th": "ฟิล์มสบู่",
+   "ja": "石けん膜",
+   "ko": "비누막",
+   "zh-Hant": "肥皂膜"
+  },
+  {
+   "en": "sphere (minimal surface for a given volume)",
+   "vi": "hình cầu",
+   "th": "ทรงกลม",
+   "ja": "球",
+   "ko": "구",
+   "zh-Hant": "球"
+  }
+ ]
+}

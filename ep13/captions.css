@@ -1,0 +1,2 @@
+      /* Short (1080×1920): the question sits in the top third, wraps, and stays left of the Shorts buttons. */
+      .q { left: 60px; top: 110px; width: 880px; white-space: normal; font-size: 84px; line-height: 1.08; padding: 18px 30px 22px; }

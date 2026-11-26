@@ -1,0 +1,35 @@
+1
+00:00:00,150 --> 00:00:02,272
+Ilapag ang basang sinulid sa ibabaw ng ice cube.
+
+2
+00:00:02,772 --> 00:00:06,273
+Budburan ng isang kurot na asin, at maghintay ng ilang minuto.
+
+3
+00:00:06,823 --> 00:00:07,474
+Ngayon, hilahin.
+
+4
+00:00:07,474 --> 00:00:08,705
+Walang buhol, walang pandikit.
+
+5
+00:00:09,455 --> 00:00:13,966
+Tinutunaw ng asin ang manipis na patong ng yelo, at kumukuha ang pagtunaw ng init sa cube.
+
+6
+00:00:14,266 --> 00:00:16,264
+Nagiging mas malamig pa sa zero ang cube.
+
+7
+00:00:16,264 --> 00:00:22,194
+Pinapalabnaw ng natunaw na tubig ang asin, at muling nagyeyelo ang tubig sa paligid ng sinulid.
+
+8
+00:00:22,694 --> 00:00:24,061
+Kasama ang sinulid sa loob.
+
+9
+00:00:24,061 --> 00:00:24,952
+Subukan ngayong gabi.

@@ -1,0 +1,46 @@
+{
+ "title": "Every Popcorn Kernel Is a Pressure Cooker",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 8,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Every popcorn kernel is a tiny pressure cooker."
+   ]
+  },
+  {
+   "id": "water",
+   "long": [],
+   "beats": [
+    "Inside is a drop of water, sealed in a hard shell."
+   ]
+  },
+  {
+   "id": "heat",
+   "long": [],
+   "beats": [
+    "Near one hundred eighty degrees Celsius, the pressure inside reaches about ten times the air around it."
+   ]
+  },
+  {
+   "id": "burst",
+   "long": [],
+   "beats": [
+    "The shell bursts, and the starch puffs into foam."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "And the pop? Most likely, the steam escaping."
+   ]
+  }
+ ]
+}

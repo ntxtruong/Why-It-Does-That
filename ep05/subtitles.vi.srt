@@ -1,0 +1,443 @@
+1
+00:00:00,600 --> 00:00:04,999
+Làm sao tai nghe có thể khiến thế giới
+yên tĩnh hơn bằng cách thêm tiếng ồn?
+
+2
+00:00:05,499 --> 00:00:10,079
+Hãy đeo tai nghe chống ồn
+trên máy bay và bấm một nút.
+
+3
+00:00:10,079 --> 00:00:12,812
+Tiếng ồn trầm của khoang
+máy bay giảm mạnh.
+
+4
+00:00:14,312 --> 00:00:17,202
+Nhưng bấm nút không hề chặn thêm thứ gì.
+
+5
+00:00:17,202 --> 00:00:19,501
+Tai nghe không dày lên.
+
+6
+00:00:19,501 --> 00:00:21,209
+Nó bắt đầu phát ra âm thanh.
+
+7
+00:00:21,709 --> 00:00:26,443
+Nhiều người nghĩ chống ồn hoạt động như
+một bức tường, ngăn âm thanh bên ngoài.
+
+8
+00:00:27,943 --> 00:00:28,643
+Không phải vậy.
+
+9
+00:00:28,643 --> 00:00:30,362
+Nó dùng âm thanh để chống lại âm thanh.
+
+10
+00:00:30,862 --> 00:00:36,096
+Hết video này, bạn sẽ hiểu vì sao nó
+làm dịu tiếng ù trầm của máy bay.
+
+11
+00:00:36,096 --> 00:00:40,256
+Và vì sao nó hầu như không động
+đến giọng người ngồi cạnh bạn.
+
+12
+00:00:42,056 --> 00:00:44,276
+Trước hết, hãy xem âm thanh thực sự là gì.
+
+13
+00:00:44,776 --> 00:00:47,571
+Khi động cơ gầm lên, nó đẩy không khí.
+
+14
+00:00:47,571 --> 00:00:54,141
+Cú đẩy lan ra thành các vùng không
+khí bị nén và bị giãn, nối tiếp nhau.
+
+15
+00:00:54,641 --> 00:00:58,308
+Khi tới tai bạn, vùng nén
+đẩy màng nhĩ vào trong.
+
+16
+00:00:58,308 --> 00:00:59,897
+Vùng giãn kéo nó ra ngoài.
+
+17
+00:01:01,397 --> 00:01:04,684
+Vẽ áp suất đó theo thời
+gian, bạn sẽ có một sóng.
+
+18
+00:01:04,684 --> 00:01:06,396
+Đỉnh sóng là vùng nén.
+
+19
+00:01:06,396 --> 00:01:08,108
+Đáy sóng là vùng giãn.
+
+20
+00:01:08,608 --> 00:01:11,548
+Độ cao của sóng quyết định âm to hay nhỏ.
+
+21
+00:01:11,548 --> 00:01:14,129
+Số lần lặp lại quyết định cao độ.
+
+22
+00:01:14,629 --> 00:01:18,983
+Tiếng ù trầm của động cơ lặp
+lại khoảng 100 lần mỗi giây.
+
+23
+00:01:18,983 --> 00:01:20,970
+Tiếng huýt sáo thì vài nghìn lần.
+
+24
+00:01:23,070 --> 00:01:24,529
+Và đây là mấu chốt.
+
+25
+00:01:25,029 --> 00:01:28,375
+Giả sử tiếng ồn nén không
+khí ngay tại tai bạn.
+
+26
+00:01:28,375 --> 00:01:33,287
+Đúng khoảnh khắc đó, một chiếc loa nhỏ
+làm không khí giãn ra đúng bằng lượng ấy.
+
+27
+00:01:33,787 --> 00:01:37,784
+Vùng nén gặp vùng giãn, và
+chúng cộng lại thành không.
+
+28
+00:01:37,784 --> 00:01:40,209
+Không khí tại màng nhĩ
+gần như không dao động.
+
+29
+00:01:41,709 --> 00:01:45,572
+Hai sóng, mỗi sóng đều to,
+ghép lại thì thành im lặng.
+
+30
+00:01:46,072 --> 00:01:49,301
+Các nhà vật lý gọi đó là
+giao thoa triệt tiêu.
+
+31
+00:01:49,301 --> 00:01:55,480
+Sóng thứ hai là ảnh phản chiếu của sóng thứ
+nhất: chỗ nào tiếng ồn có đỉnh thì nó có đáy.
+
+32
+00:01:56,980 --> 00:02:02,800
+Cũng giống như hai gợn sóng trên mặt ao gặp
+nhau và để lại một vùng nước phẳng lặng.
+
+33
+00:02:03,300 --> 00:02:08,463
+Vậy tai nghe chống ồn thực chất là những chiếc
+máy tạo ảnh phản chiếu tí hon, cực nhanh.
+
+34
+00:02:10,563 --> 00:02:13,277
+Mở một chiếc ra, bạn sẽ thấy ba thứ.
+
+35
+00:02:13,777 --> 00:02:19,088
+Một micro bên ngoài nghe thế giới
+trước khi âm thanh đến tai bạn.
+
+36
+00:02:19,588 --> 00:02:22,590
+Một con chip tính ra ảnh
+phản chiếu của âm thanh đó.
+
+37
+00:02:24,090 --> 00:02:29,330
+Còn chiếc loa phát nhạc cho bạn cũng
+phát luôn ảnh phản chiếu ấy, trộn vào.
+
+38
+00:02:29,830 --> 00:02:33,870
+Nhiều tai nghe còn có micro
+thứ hai bên trong chụp tai.
+
+39
+00:02:33,870 --> 00:02:39,621
+Nó nghe thứ thực sự đến tai bạn,
+và sửa những gì micro đầu bỏ sót.
+
+40
+00:02:40,121 --> 00:02:43,056
+Ý tưởng này cũ đến bất ngờ.
+
+41
+00:02:43,056 --> 00:02:48,436
+Một nhà phát minh người Đức, Paul Lueg, đã
+đăng ký bằng sáng chế vào những năm 1930.
+
+42
+00:02:49,936 --> 00:02:55,551
+Nhưng phải mất nhiều thập kỷ điện tử nhanh
+hơn thì nó mới nhỏ gọn để đeo lên đầu.
+
+43
+00:02:55,551 --> 00:03:00,759
+Bose bán tai nghe chống ồn cho
+phi công vào cuối thập niên 1980.
+
+44
+00:03:00,759 --> 00:03:04,014
+Hành khách bình thường có
+được chúng muộn hơn nhiều.
+
+45
+00:03:04,514 --> 00:03:06,358
+Vậy sao lại mất lâu đến thế?
+
+46
+00:03:06,358 --> 00:03:09,364
+Vì ảnh phản chiếu phải gần như hoàn hảo.
+
+47
+00:03:11,464 --> 00:03:14,372
+Hãy tưởng tượng âm chống
+ồn đến trễ một chút.
+
+48
+00:03:14,872 --> 00:03:18,748
+Lúc này vùng giãn của nó không còn
+khớp với vùng nén của tiếng ồn.
+
+49
+00:03:18,748 --> 00:03:20,814
+Một phần tiếng ồn lọt qua.
+
+50
+00:03:21,314 --> 00:03:26,152
+Nếu trễ nửa chu kỳ, hai sóng
+sẽ chồng đỉnh lên đỉnh.
+
+51
+00:03:26,152 --> 00:03:31,783
+Thay vì im lặng, bạn làm sóng cao
+gấp đôi: ồn hơn chứ không êm hơn.
+
+52
+00:03:33,283 --> 00:03:40,663
+Để giảm 99% năng lượng của âm thanh, thời điểm
+phải đúng đến khoảng một phần sáu mươi chu kỳ.
+
+53
+00:03:41,163 --> 00:03:45,792
+Với tiếng ù động cơ 100 hertz,
+một chu kỳ kéo dài 10 mili giây.
+
+54
+00:03:45,792 --> 00:03:49,686
+Một phần sáu mươi của đó là
+khoảng một phần sáu mili giây.
+
+55
+00:03:49,686 --> 00:03:52,184
+Như vậy vẫn còn chỗ cho sai số nhỏ.
+
+56
+00:03:53,684 --> 00:03:58,676
+Với âm thanh 2.000 hertz, một
+chu kỳ kéo dài nửa mili giây.
+
+57
+00:03:58,676 --> 00:04:05,356
+Lúc này cả hệ thống, kể cả độ vừa khít, phải
+chính xác đến khoảng 8 phần triệu giây.
+
+58
+00:04:05,856 --> 00:04:09,663
+Vì vậy âm càng cao, ảnh phản
+chiếu càng khó làm đúng.
+
+59
+00:04:11,763 --> 00:04:14,329
+Và còn một vấn đề thứ hai: không gian.
+
+60
+00:04:14,829 --> 00:04:17,478
+Triệt tiêu không xảy ra ở mọi nơi.
+
+61
+00:04:17,478 --> 00:04:22,446
+Nó chỉ hoạt động trong một vùng nhỏ
+quanh điểm mà hai sóng khớp nhau.
+
+62
+00:04:22,946 --> 00:04:29,099
+Các nhà âm học đã tính được vùng này cho âm
+thanh đến từ mọi hướng trong một căn phòng.
+
+63
+00:04:29,099 --> 00:04:35,324
+Nơi năng lượng âm giảm mười lần, vùng đó
+chỉ rộng khoảng một phần mười bước sóng.
+
+64
+00:04:36,824 --> 00:04:41,638
+Tiếng ù 100 hertz có bước
+sóng khoảng 3,5 mét.
+
+65
+00:04:41,638 --> 00:04:46,520
+Một phần mười của nó là 34
+centimet, rộng hơn cả đầu bạn.
+
+66
+00:04:47,020 --> 00:04:47,353
+Dễ thôi.
+
+67
+00:04:47,353 --> 00:04:49,284
+Vùng yên tĩnh bao trọn tai bạn.
+
+68
+00:04:49,784 --> 00:04:56,039
+Nhưng âm 3.000 hertz có bước
+sóng khoảng 11 centimet.
+
+69
+00:04:56,039 --> 00:04:59,590
+Vùng yên tĩnh của nó chỉ
+rộng khoảng một centimet.
+
+70
+00:05:01,090 --> 00:05:05,158
+Micro bên trong nằm cách
+màng nhĩ vài centimet.
+
+71
+00:05:05,158 --> 00:05:08,438
+Ở cao độ đó, vị trí này đã
+nằm ngoài vùng yên tĩnh.
+
+72
+00:05:08,938 --> 00:05:11,982
+Vậy vùng yên tĩnh thu
+nhỏ lại khi cao độ tăng.
+
+73
+00:05:14,082 --> 00:05:18,311
+Gộp hai vấn đề lại, bạn có lời
+giải cho câu đố của chúng ta.
+
+74
+00:05:18,811 --> 00:05:23,689
+Tiếng động cơ, điều hòa, tàu chạy
+ầm ầm: trầm, đều và dễ đoán.
+
+75
+00:05:23,689 --> 00:05:26,407
+Tai nghe triệt tiêu chúng rất tuyệt.
+
+76
+00:05:26,907 --> 00:05:31,266
+Giọng người cao hơn, và thay
+đổi từng phần nhỏ của giây.
+
+77
+00:05:31,266 --> 00:05:33,727
+Ảnh phản chiếu không bao giờ theo kịp.
+
+78
+00:05:35,227 --> 00:05:40,038
+Nên với âm cao, tai nghe
+quay về mẹo xưa nhất.
+
+79
+00:05:40,038 --> 00:05:42,797
+Lớp đệm dày và mềm đơn
+giản là chặn chúng lại.
+
+80
+00:05:43,297 --> 00:05:45,993
+Chống ồn chủ động lo phần âm trầm.
+
+81
+00:05:45,993 --> 00:05:48,051
+Lớp đệm lo phần âm cao.
+
+82
+00:05:48,051 --> 00:05:50,747
+Cùng nhau, chúng tạo nên
+sự yên tĩnh bạn nghe thấy.
+
+83
+00:05:52,847 --> 00:05:55,715
+Hãy nghĩ đến nơi ồn ào nhất
+mà tuần nào bạn cũng ngồi.
+
+84
+00:05:56,215 --> 00:05:59,334
+Tiếng ồn ở đó là tiếng ù
+trầm, hay tiếng ríu rít cao?
+
+85
+00:05:59,334 --> 00:06:03,216
+Giờ bạn biết tai nghe
+sẽ thắng loại nào rồi.
+
+86
+00:06:05,316 --> 00:06:08,704
+Vậy, làm sao tai nghe triệt tiêu
+tiếng ồn bằng cách thêm tiếng ồn?
+
+87
+00:06:09,204 --> 00:06:12,695
+Chúng lắng nghe thế giới và
+dựng nên ảnh phản chiếu của nó.
+
+88
+00:06:12,695 --> 00:06:16,388
+Rồi phát vào tai bạn đúng thời điểm.
+
+89
+00:06:16,388 --> 00:06:20,617
+Vùng nén gặp vùng giãn, và
+cộng lại gần như bằng không.
+
+90
+00:06:21,117 --> 00:06:25,499
+Âm càng trầm và càng đều, ảnh
+phản chiếu càng hiệu quả.
+
+91
+00:06:25,499 --> 00:06:30,799
+Đó là lý do tiếng động cơ phản lực nhỏ đi,
+còn giọng người bên cạnh nhỏ đi ít hơn nhiều.
+
+92
+00:06:31,299 --> 00:06:34,639
+Ở đây, yên tĩnh không
+phải là vắng sóng âm.
+
+93
+00:06:34,639 --> 00:06:38,776
+Mà là hai sóng lệch nhịp
+hoàn hảo, ngay tại tai bạn.
+
+94
+00:06:40,276 --> 00:06:42,790
+Bạn muốn triệt tiêu tiếng ồn nào nhất?
+
+95
+00:06:42,790 --> 00:06:44,261
+Hãy cho tôi biết trong phần bình luận.

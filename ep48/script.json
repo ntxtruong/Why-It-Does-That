@@ -1,0 +1,14 @@
+{
+ "title": "Film your lights in slow motion",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO hook (phone already filming a ceiling LED at 0 s), slow-motion reveal of the pulsing bulb at ~7-9 s, loop ending",
+ "related_episode": 50,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["Point your phone at a ceiling light. Switch to slow motion."]},
+  {"id": "reveal", "long": [], "beats": ["Now look closely.", "Some lights are pulsing, a hundred or a hundred and twenty times a second."], "gaps": [0.5, 0.4]},
+  {"id": "why", "long": [], "beats": ["That is twice the rate of the power in your wall.", "Your eyes blur it into a steady glow. The camera's quick snapshots catch the dips."]},
+  {"id": "end", "long": [], "beats": ["Good LEDs barely flicker. Cheap or dimmed ones often do. Go check yours."]}
+ ]
+}

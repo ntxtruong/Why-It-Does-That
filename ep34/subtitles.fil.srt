@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:01,806
+Hindi natutunaw ang mga lumang bintana.
+
+2
+00:00:02,306 --> 00:00:06,872
+Mas makapal sa ibaba ang ilang lumang salamin, kaya sabi ng iba, dumadaloy ang salamin.
+
+3
+00:00:07,372 --> 00:00:12,774
+Pero sa temperatura ng kuwarto, mas matagal pa sa edad ng uniberso bago ito lumaylay.
+
+4
+00:00:13,274 --> 00:00:17,453
+Hinulma sa kamay ang lumang salamin, kaya hindi ito pantay.
+
+5
+00:00:17,753 --> 00:00:20,041
+Madalas ibinababa ng mga builder ang makapal na gilid.
+
+6
+00:00:20,541 --> 00:00:22,852
+Hindi na ito pantay mula nang gawin ito.

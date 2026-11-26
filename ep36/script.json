@@ -1,0 +1,47 @@
+{
+ "title": "A Sausage Can Work Your Touchscreen",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 5,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "A sausage can work your touchscreen."
+   ]
+  },
+  {
+   "id": "field",
+   "long": [],
+   "beats": [
+    "Most screens don't feel pressure.",
+    "They sense a tiny electric field over the glass."
+   ]
+  },
+  {
+   "id": "conduct",
+   "long": [],
+   "beats": [
+    "Anything that conducts, like a finger or a sausage, disturbs that field where it touches."
+   ]
+  },
+  {
+   "id": "glove",
+   "long": [],
+   "beats": [
+    "A wool glove doesn't conduct, so the screen can't see it."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Your screen feels electricity, not touch."
+   ]
+  }
+ ]
+}

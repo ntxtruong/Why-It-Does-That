@@ -1,0 +1,54 @@
+{
+ "title": "The Cloud in Your Ice Is Trapped Air",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 41,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "The cloud in your ice is mostly trapped air."
+   ]
+  },
+  {
+   "id": "dissolved",
+   "long": [],
+   "beats": [
+    "Tap water holds dissolved air. Ice can hold very little."
+   ]
+  },
+  {
+   "id": "freeze",
+   "long": [],
+   "beats": [
+    "Your tray freezes from the outside in, pushing the air toward the middle."
+   ]
+  },
+  {
+   "id": "core",
+   "long": [],
+   "beats": [
+    "The last water to freeze is packed with air, so tiny bubbles form and get locked in."
+   ]
+  },
+  {
+   "id": "clear",
+   "long": [],
+   "beats": [
+    "Freeze it from one side only, and the air is pushed into the last layer.",
+    "Cut that off, and the rest of the ice is clear."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "That's why a normal cube is cloudy in the middle."
+   ]
+  }
+ ]
+}

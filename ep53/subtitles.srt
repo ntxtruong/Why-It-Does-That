@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:01,669
+Same apple, same cut.
+
+2
+00:00:01,669 --> 00:00:04,273
+So why is only one half going brown?
+
+3
+00:00:04,773 --> 00:00:05,641
+It isn't rot.
+
+4
+00:00:05,641 --> 00:00:07,776
+The apple is doing it to itself.
+
+5
+00:00:08,276 --> 00:00:09,755
+Cutting bursts its cells.
+
+6
+00:00:10,055 --> 00:00:13,449
+An enzyme spills out onto the fruit's own polyphenols.
+
+7
+00:00:13,949 --> 00:00:18,670
+Add oxygen, and it turns them into quinones that clump into brown pigment.
+
+8
+00:00:19,170 --> 00:00:21,023
+The white half got lemon juice.
+
+9
+00:00:21,323 --> 00:00:25,705
+Acid slows the enzyme, and vitamin C undoes its first step.
+
+10
+00:00:26,205 --> 00:00:28,107
+Would you still eat the brown half?

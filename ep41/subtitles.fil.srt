@@ -1,0 +1,195 @@
+1
+00:00:00,600 --> 00:00:04,776
+Hawakan ang metal na railing at ang kahoy na bangko sa parehong umaga ng taglamig.
+
+2
+00:00:05,276 --> 00:00:07,080
+Nagyeyelo ang pakiramdam ng metal.
+
+3
+00:00:07,080 --> 00:00:09,028
+Halos mainit-init naman ang kahoy.
+
+4
+00:00:09,528 --> 00:00:13,428
+Pero kapag nilagyan mo ng thermometer ang dalawa, halos pareho ang basa.
+
+5
+00:00:14,928 --> 00:00:17,356
+Kaya ano ba talaga ang sinusukat ng kamay mo?
+
+6
+00:00:17,856 --> 00:00:21,050
+Sa dulo ng video, malalaman mo kung bakit hindi ka napapaso ng sauna,
+
+7
+00:00:21,550 --> 00:00:26,314
+kung bakit puwedeng makapaso ang metal na slide, at kung paano nililinlang ng mint ang parehong sensor.
+
+8
+00:00:28,414 --> 00:00:33,070
+Iwan mo ang kahit ano sa isang kuwarto nang sapat na tagal, at aabot ito sa temperatura ng kuwarto.
+
+9
+00:00:33,570 --> 00:00:36,541
+Metal, kahoy, plastik, pati ang hangin mismo.
+
+10
+00:00:37,041 --> 00:00:40,317
+Walang mas malamig sa kahit ano pa sa kuwartong iyon.
+
+11
+00:00:42,417 --> 00:00:44,401
+Walang thermometer ang balat mo.
+
+12
+00:00:45,901 --> 00:00:51,758
+May mga dulo ito ng nerve na tumutugon sa sarili nilang temperatura, at sa bilis ng pagbabago nito.
+
+13
+00:00:52,258 --> 00:00:56,964
+Isa sa mga pangunahing cold sensor ay isang protein na tinatawag na TRPM8.
+
+14
+00:00:57,464 --> 00:01:03,340
+Kapag lumamig ang balat sa paligid nito, bumubukas ito at nagpapadala ng simpleng mensahe sa utak mo: malamig.
+
+15
+00:01:05,440 --> 00:01:11,017
+Mas mainit ang kamay mo kaysa sa kuwarto, mga 34 °C sa ibabaw.
+
+16
+00:01:11,517 --> 00:01:15,172
+Kaya umaagos palabas ang init mula sa balat mo, papunta sa anumang hinahawakan mo.
+
+17
+00:01:16,672 --> 00:01:18,917
+Depende sa materyal kung gaano ito kabilis.
+
+18
+00:01:19,417 --> 00:01:25,537
+Mga 1,000 hanggang 2,000 beses na mas mahusay magpadaloy ng init ang aluminium kaysa sa kahoy na pino.
+
+19
+00:01:26,037 --> 00:01:29,460
+At mga 5 beses na mas mahina ang hangin magpadaloy ng init kaysa sa pino.
+
+20
+00:01:31,560 --> 00:01:36,814
+Kapag nagdikit ang dalawang bagay, nasa pagitan ng dalawa ang temperatura ng lugar kung saan sila nagtatagpo.
+
+21
+00:01:37,314 --> 00:01:40,659
+Mas malapit ito sa materyal na mas mahusay maglipat ng init.
+
+22
+00:01:42,159 --> 00:01:47,849
+Hawakan mo ang aluminium na 20 °C, at halos bababa sa dalawampung digri ang ibabaw ng balat mo.
+
+23
+00:01:48,349 --> 00:01:52,528
+Hawakan mo ang pino na 20 °C, at nananatili ang balat mo sa mga tatlumpung digri.
+
+24
+00:01:53,028 --> 00:01:54,675
+Pareho ang temperatura ng bagay.
+
+25
+00:01:54,675 --> 00:01:57,009
+Ibang-iba ang temperatura ng balat.
+
+26
+00:01:58,509 --> 00:02:02,263
+At ang temperatura ng balat ang iniuulat ng mga cold sensor mo.
+
+27
+00:02:04,363 --> 00:02:05,756
+Ngayon, baligtarin natin.
+
+28
+00:02:07,256 --> 00:02:12,713
+Sa mainit na araw ng tag-init, ang metal na slide sa ilalim ng araw ay puwedeng uminit nang sapat para makapaso ng balat.
+
+29
+00:02:13,213 --> 00:02:17,858
+Ang kahoy na bangko sa ilalim ng parehong araw ay mainit-init lang, at bihirang mapanganib.
+
+30
+00:02:18,358 --> 00:02:19,936
+Parehong physics, baligtad lang.
+
+31
+00:02:20,436 --> 00:02:23,090
+Ibinubuhos ng metal ang init niya sa balat mo.
+
+32
+00:02:23,090 --> 00:02:25,612
+Hindi naibibigay ng kahoy ang init nang sapat na bilis.
+
+33
+00:02:27,712 --> 00:02:29,945
+Ganyan din gumagana ang mainit na sauna.
+
+34
+00:02:30,445 --> 00:02:36,499
+Madalas 80 hanggang 100 °C ang hangin, pero nakaupo pa rin ang mga tao roon nang ilang minuto.
+
+35
+00:02:37,999 --> 00:02:44,488
+Mahina ang hangin magpadaloy ng init at kaunti lang ang hawak nitong init, kaya mabagal itong magbigay ng init sa balat mo.
+
+36
+00:02:44,988 --> 00:02:47,633
+Kahoy ang mga bangko sa parehong dahilan.
+
+37
+00:02:48,133 --> 00:02:51,906
+Pero kapag hinawakan mo ang hubad na metal na pako sa bangkong iyon, puwede kang mapaso.
+
+38
+00:02:54,006 --> 00:02:58,390
+Malilinlang pa nga ang mga cold sensor mo kahit walang init na dumadaloy.
+
+39
+00:02:58,890 --> 00:03:06,704
+Ang menthol, ang malamig na bahagi ng mint, ay kumakapit sa TRPM8 at pinabubuksan ito kahit mainit pa ang balat.
+
+40
+00:03:07,204 --> 00:03:10,367
+Gumagana ang sensor, at ang naririnig ng utak mo: malamig.
+
+41
+00:03:10,867 --> 00:03:12,799
+Wala namang talagang lumamig.
+
+42
+00:03:14,899 --> 00:03:17,208
+Kaya hindi thermometer ang kamay mo.
+
+43
+00:03:17,708 --> 00:03:23,032
+Iniuulat nito ang nangyayari sa sarili mong balat: gaano ito kalamig, at gaano kabilis.
+
+44
+00:03:23,532 --> 00:03:25,677
+Hindi mas malamig ang metal kaysa sa kahoy.
+
+45
+00:03:25,677 --> 00:03:28,252
+Mas mabilis lang nitong hinihila palayo ang init mo.
+
+46
+00:03:29,752 --> 00:03:34,579
+Sa susunod na humawak ka ng malamig na railing, tandaan mo: hindi lamig ang nararamdaman mo.
+
+47
+00:03:34,579 --> 00:03:37,092
+Ang nararamdaman mo ay ang sarili mong init na umaalis.
+
+48
+00:03:38,592 --> 00:03:41,409
+Aling ibabaw sa bahay ninyo ang pinakamalamig sa pakiramdam?
+
+49
+00:03:41,409 --> 00:03:42,911
+Sabihin mo sa akin sa comments.

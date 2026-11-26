@@ -1,0 +1,17 @@
+{
+ "title": "Why Are Bubbles Always Round? #bubbles #physics",
+ "description": "Blow through a square wand and you still get a round bubble. Surface tension shrinks the soap film as much as it can, while the air inside pushes back. The shape that holds that air with the least film is a sphere: a cube would need about 24% more.\n\nMore on water molecules: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nSources\n- Isenberg (1992), The Science of Soap Films and Soap Bubbles, Dover\n- MIT NNF, Bubbles (web.mit.edu/nnf/education/wettability/bubbles.html)\n- Virginia Tech Physics, Bubble physics: basic information\n- Schwarz (1884), isoperimetric property of the sphere\n\nTry it with a square wand. Did you get a round bubble? Tell me in the comments.\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every number is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "Why are floating bubbles always round?",
+  "Blow through a square wand, and the bubble still comes out round.",
+  "A soap film is pulled tight by surface tension.",
+  "It always shrinks itself as small as it can.",
+  "But the air trapped inside pushes back.",
+  "So the film settles on the shape that holds that air with the least surface.",
+  "That shape is a sphere.",
+  "A cube holding the same air would need about a quarter more film.",
+  "Any bulge costs extra film, so the film pulls it back, and the wobbles fade away.",
+  "The wand shapes the start.",
+  "Physics shapes the bubble."
+ ]
+}

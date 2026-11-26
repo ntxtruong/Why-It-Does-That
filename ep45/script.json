@@ -1,0 +1,51 @@
+{
+ "title": "Stare at this blue banana for 12 seconds",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO + COUNTDOWN hook, 12 s stare, white reveal, loop ending",
+ "related_episode": 42,
+ "scenes": [
+  {
+   "id": "stare",
+   "long": [],
+   "beats": [
+    "Stare at the dot on this blue banana.",
+    "Do not move your eyes.",
+    "Keep staring.",
+    "Almost there."
+   ],
+   "hold": 0,
+   "gaps": [
+    1.7,
+    1.6,
+    1.4,
+    0.5
+   ]
+  },
+  {
+   "id": "now",
+   "long": [],
+   "beats": [
+    "Now. What colour is it?",
+    "Nothing on your screen is yellow."
+   ],
+   "hold": 0.6
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "Staring wore down the cells in your eyes that sense blue.",
+    "On white, the blue signal is weak, so yellow wins."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Look back at the dot and try it again."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,574
+Ponselmu bisa melihat cahaya yang tidak terlihat matamu.
+
+2
+00:00:03,074 --> 00:00:06,449
+Arahkan remote TV ke kamera lalu tekan sebuah tombol.
+
+3
+00:00:06,949 --> 00:00:08,123
+Ujungnya menyala.
+
+4
+00:00:08,123 --> 00:00:10,535
+Itu cahaya inframerah, tepat di luar warna merah.
+
+5
+00:00:11,035 --> 00:00:12,744
+Mata kita tidak lagi melihat setelah warna merah.
+
+6
+00:00:12,744 --> 00:00:14,847
+Sensor kamera masih terus menangkapnya.
+
+7
+00:00:15,347 --> 00:00:15,918
+Tidak ada cahaya?
+
+8
+00:00:15,918 --> 00:00:17,488
+Coba kamera depan.
+
+9
+00:00:17,488 --> 00:00:20,271
+Kamera belakang sering menyaring inframerah.
+
+10
+00:00:20,771 --> 00:00:22,463
+Remote Bluetooth tidak akan terlihat.
+
+11
+00:00:22,763 --> 00:00:25,960
+Tetapi sebagian besar remote TV selama ini terus menyala ke arahmu.

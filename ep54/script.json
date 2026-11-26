@@ -1,0 +1,59 @@
+{
+ "title": "Why plane windows have no corners",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Channel v5, first 'Why Is It Designed Like That?' Short. DO + STAKE hook: count the corners at 0 s (a square window morphing round); stake (1954 Comet) at ~4 s; reveal (stress piles up at a corner) at ~9 s; crack grows; fix; loop; one-word question.",
+ "related_episode": 41,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Next time you fly, count the corners on your window. There are none."
+   ]
+  },
+  {
+   "id": "stake",
+   "long": [],
+   "beats": [
+    "In 1954, the first jet airliner kept breaking up in midair."
+   ]
+  },
+  {
+   "id": "pump",
+   "long": [],
+   "beats": [
+    "Every flight pumps the cabin up like a balloon, then lets it down."
+   ]
+  },
+  {
+   "id": "corner",
+   "long": [],
+   "beats": [
+    "Around a sharp corner, all that stretch piles up in one tiny spot."
+   ]
+  },
+  {
+   "id": "crack",
+   "long": [],
+   "beats": [
+    "Flight after flight, a crack grew from one square corner, until the cabin burst."
+   ]
+  },
+  {
+   "id": "fix",
+   "long": [],
+   "beats": [
+    "Round the corners, and the stress flows smoothly around the hole."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Window seat or aisle?"
+   ]
+  }
+ ]
+}

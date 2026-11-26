@@ -1,0 +1,14 @@
+{
+ "title": "Metal Isn't Colder Than Wood #science #physics",
+ "description": "Metal isn't colder than wood. Left in the same room, both sit at room temperature. Your hand is warmer (about 34 °C), and aluminium conducts heat over a thousand times better than wood, so your skin loses heat faster and cools more on the metal. That fast cooling is what you feel as cold.\n\nMore heat physics: Why microwaves don't heat food from the inside https://youtu.be/ri17BZl0Iq8\n\nSources\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), Tables A.1 and A.3 (aluminium ≈ 237 W/m·K; woods ≈ 0.1–0.2 W/m·K) and §5.7 (two solids in contact)\n- The skin bars in the animation use the contact-temperature formula with typical values; no measured numbers are shown\n\nWhat feels coldest to touch in your house?\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every claim is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "Metal isn't colder than wood.",
+  "Leave both in one room, and they reach the same temperature.",
+  "But your hand is warmer, about 34 °C.",
+  "Aluminium conducts heat over a thousand times better than wood.",
+  "So your skin cools more, and faster, on the metal.",
+  "That fast cooling is what you feel as cold.",
+  "Same temperature.",
+  "Different speed."
+ ]
+}

@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Kenapa mint terasa dingin?
+
+2
+00:00:02,115 --> 00:00:04,545
+Mint tidak mendinginkan mulutmu.
+
+3
+00:00:05,045 --> 00:00:11,493
+Saraf di mulutmu punya sensor dingin yang sangat kecil: gerbang yang terbuka saat suhu turun.
+
+4
+00:00:11,993 --> 00:00:16,408
+Mentol, molekul dalam mint, menempel pada gerbang yang sama.
+
+5
+00:00:16,708 --> 00:00:21,011
+Sekarang gerbang itu terbuka pada suhu yang lebih hangat, bahkan di mulut yang hangat.
+
+6
+00:00:21,611 --> 00:00:25,422
+Saraf menembakkan sinyal, dan otakmu menerima satu pesan: dingin.
+
+7
+00:00:25,922 --> 00:00:29,721
+Itu sebabnya seteguk air setelah mint bisa terasa sedingin es.
+
+8
+00:00:29,721 --> 00:00:31,839
+Sensornya sudah siap lebih dulu.
+
+9
+00:00:32,339 --> 00:00:35,763
+Cabai melakukan trik yang sama pada sensor panas membakarmu.
+
+10
+00:00:36,263 --> 00:00:37,585
+Mint itu tidak dingin.
+
+11
+00:00:37,585 --> 00:00:39,980
+Ia hanya membunyikan alarm dingin.

@@ -1,0 +1,133 @@
+{
+ "title": "Why Does Metal Feel Colder Than Wood?",
+ "format": "long",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "pause_note": "long: beats listed in 'long' get a 1.5 s pause",
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [
+    2,
+    5
+   ],
+   "beats": [
+    "Touch a metal railing and a wooden bench on the same winter morning.",
+    "The metal feels freezing. The wood feels almost warm.",
+    "But put a thermometer on both, and they read about the same.",
+    "So what is your hand actually measuring?",
+    "By the end, you'll know why a sauna doesn't burn you,",
+    "why a metal slide can, and how mint fools the very same sensors."
+   ]
+  },
+  {
+   "id": "same",
+   "long": [
+    2
+   ],
+   "beats": [
+    "Leave anything in a room long enough, and it settles at room temperature.",
+    "Metal, wood, plastic, even the air itself.",
+    "Nothing in that room is colder than anything else."
+   ]
+  },
+  {
+   "id": "skin",
+   "long": [
+    0,
+    3
+   ],
+   "beats": [
+    "Your skin has no thermometer.",
+    "It has nerve endings that react to their own temperature, and to how fast it is changing.",
+    "One of the main cold sensors is a protein called TRPM8.",
+    "When the skin around it cools, it opens, and sends a simple message to your brain: cold."
+   ]
+  },
+  {
+   "id": "flow",
+   "long": [
+    1,
+    4
+   ],
+   "beats": [
+    "Your hand is warmer than the room, about thirty-four degrees Celsius at the surface.",
+    "So heat flows out of your skin, into whatever you touch.",
+    "How fast depends on the material.",
+    "Aluminium conducts heat roughly a thousand to two thousand times better than pine wood.",
+    "And air conducts about five times worse than pine."
+   ]
+  },
+  {
+   "id": "contact",
+   "long": [
+    1,
+    4,
+    5
+   ],
+   "beats": [
+    "When two things touch, the place where they meet settles at a temperature in between.",
+    "It lands closer to the material that moves heat better.",
+    "Touch aluminium at twenty degrees, and your skin's surface drops almost to twenty.",
+    "Touch pine at twenty degrees, and your skin stays around thirty.",
+    "Same object temperature. A very different skin temperature.",
+    "And skin temperature is what your cold sensors report."
+   ]
+  },
+  {
+   "id": "slide",
+   "long": [
+    0,
+    4
+   ],
+   "beats": [
+    "Now flip it around.",
+    "On a hot summer day, a metal slide in full sun can get hot enough to burn skin.",
+    "A wooden bench in the same sun feels warm, but rarely dangerous.",
+    "Same physics, reversed.",
+    "The metal pours its heat into your skin. The wood can't deliver it fast enough."
+   ]
+  },
+  {
+   "id": "sauna",
+   "long": [
+    1,
+    4
+   ],
+   "beats": [
+    "That's also how a hot sauna works.",
+    "The air is often eighty to a hundred degrees Celsius, and yet people sit in it for minutes.",
+    "Air is a poor conductor, and it holds very little heat, so it delivers heat to your skin slowly.",
+    "The benches are wood, for the same reason.",
+    "But touch a bare metal nail in that bench, and it can burn you."
+   ]
+  },
+  {
+   "id": "mint",
+   "long": [
+    3
+   ],
+   "beats": [
+    "Your cold sensors can even be fooled with no heat flowing at all.",
+    "Menthol, the cool part of mint, sticks to TRPM8 and makes it open even at warm skin temperature.",
+    "The sensor fires, and your brain hears: cold.",
+    "Nothing actually got colder."
+   ]
+  },
+  {
+   "id": "payoff",
+   "long": [
+    2,
+    3,
+    4
+   ],
+   "beats": [
+    "So your hand is not a thermometer.",
+    "It reports what is happening to your own skin: how far it cools, and how fast.",
+    "Metal is not colder than wood. It just pulls your heat away faster.",
+    "Next time you grab a cold railing, remember: you're not feeling the cold. You're feeling your own heat, leaving.",
+    "Which surface in your home feels the coldest? Tell me in the comments."
+   ]
+  }
+ ]
+}

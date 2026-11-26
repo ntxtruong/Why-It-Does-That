@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,393
+There's no blue pigment in blue eyes.
+
+2
+00:00:02,893 --> 00:00:06,507
+Every eye colour comes from one brown pigment: melanin.
+
+3
+00:00:06,807 --> 00:00:10,228
+Blue eyes have almost none in the front layer of the iris.
+
+4
+00:00:10,728 --> 00:00:14,271
+Tiny fibres there scatter light, and blue scatters the most.
+
+5
+00:00:14,571 --> 00:00:16,681
+The dark back layer soaks up the rest.
+
+6
+00:00:17,181 --> 00:00:20,055
+Add a little melanin, and the eye looks green.
+
+7
+00:00:20,055 --> 00:00:21,055
+Add more, brown.
+
+8
+00:00:21,555 --> 00:00:24,226
+Blue eyes are blue the way the sky is blue.

@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:02,574
+Your phone can see a light your eyes cannot.
+
+2
+00:00:03,074 --> 00:00:06,449
+Point your TV remote at the camera and press a button.
+
+3
+00:00:06,949 --> 00:00:08,123
+The tip lights up.
+
+4
+00:00:08,123 --> 00:00:10,535
+That's infrared light, just past red.
+
+5
+00:00:11,035 --> 00:00:12,744
+Your eyes fade out at red.
+
+6
+00:00:12,744 --> 00:00:14,847
+The camera's sensor keeps going.
+
+7
+00:00:15,347 --> 00:00:15,918
+No glow?
+
+8
+00:00:15,918 --> 00:00:17,488
+Try the selfie camera.
+
+9
+00:00:17,488 --> 00:00:20,271
+Rear cameras often filter infrared out.
+
+10
+00:00:20,771 --> 00:00:22,463
+Bluetooth remotes won't show it.
+
+11
+00:00:22,763 --> 00:00:25,960
+But most TV remotes have been glowing at you all along.

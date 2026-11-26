@@ -1,0 +1,123 @@
+{
+ "title": "Why Do Screens and Lights Flicker on Camera?",
+ "format": "long",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "pause_note": "long: beats listed in 'long' get a 1.5 s pause",
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [
+    1,
+    3
+   ],
+   "beats": [
+    "Film a lamp or a screen with your phone, and sometimes you see this.",
+    "Dark stripes, rolling through the picture.",
+    "Yet to your own eyes, the light looks perfectly steady.",
+    "So which one is telling the truth?",
+    "Both of them. And the reason starts in your wall socket."
+   ]
+  },
+  {
+   "id": "ac",
+   "long": [
+    3,
+    4
+   ],
+   "beats": [
+    "The power in your wall is alternating current.",
+    "In Vietnam and Europe, it swings back and forth fifty times a second. In the United States, sixty.",
+    "Each swing has a push one way, and a push the other way.",
+    "A light does not care which way the current flows. It is bright at both peaks.",
+    "So it can peak twice per swing: a hundred, or a hundred and twenty times a second."
+   ]
+  },
+  {
+   "id": "lights",
+   "long": [
+    3,
+    6
+   ],
+   "beats": [
+    "An old filament bulb stays hot between peaks, so it barely dims.",
+    "An LED has no such memory. It follows its power almost instantly. When the power dips, the light dips too.",
+    "A good LED driver smooths the power, and the light stays steady.",
+    "A cheap driver smooths it less, so the light can ripple, sometimes almost to dark.",
+    "Dimming adds another trick, called pulse width modulation.",
+    "The LED switches fully on and off, very fast, and stays off longer to look dimmer.",
+    "Many phone screens, and some laptop screens, dim this way at low brightness."
+   ]
+  },
+  {
+   "id": "eyes",
+   "long": [
+    2,
+    3
+   ],
+   "beats": [
+    "So why do you not see any of this?",
+    "Your eyes and brain add up light over a short moment, and blend fast changes into one glow.",
+    "For most people, flicker faster than about eighty times a second looks steady.",
+    "Some people still notice it, especially on dimmed screens, or when their eyes dart across a light."
+   ]
+  },
+  {
+   "id": "camera",
+   "long": [
+    2,
+    5
+   ],
+   "beats": [
+    "A phone camera works differently.",
+    "Most phone cameras do not take the whole picture at once.",
+    "They read the sensor one row at a time, from top to bottom. This is called a rolling shutter.",
+    "Each row collects light for a very short moment, especially in bright scenes.",
+    "Rows caught at a peak come out bright. Rows caught in a dip come out dark.",
+    "Stack the rows, and the flicker becomes stripes across the picture.",
+    "Your eyes never see them, because they never look one row at a time."
+   ]
+  },
+  {
+   "id": "roll",
+   "long": [
+    3,
+    5
+   ],
+   "beats": [
+    "But why do the stripes move?",
+    "Say your light pulses a hundred times a second, and your camera records thirty frames a second.",
+    "That is three and a third pulses per frame. That leftover third is the whole story.",
+    "So each new frame starts a third of a pulse later in the light's rhythm, and the stripes shift.",
+    "Frame after frame, they roll, like the wheels that seem to spin backwards on camera.",
+    "Now try a hundred and twenty pulses at thirty frames. That is exactly four per frame, so the stripes almost stand still."
+   ]
+  },
+  {
+   "id": "fix",
+   "long": [
+    0,
+    2,
+    3
+   ],
+   "beats": [
+    "The fix is to let every row collect whole pulses.",
+    "Use a pro camera mode. Where the power is fifty hertz, set the shutter to one fiftieth or one hundredth of a second.",
+    "Where it is sixty hertz, use one sixtieth or one hundred and twentieth.",
+    "Now every row gets the same amount of light, and the stripes fade away.",
+    "Many phones try to do this on their own, with a setting called anti banding."
+   ]
+  },
+  {
+   "id": "payoff",
+   "long": [
+    1
+   ],
+   "beats": [
+    "So the stripes are not a fault in your camera.",
+    "They are the light's real rhythm, the one your eyes smooth over.",
+    "Point your phone at your lights tonight, and see which ones pulse."
+   ]
+  }
+ ]
+}

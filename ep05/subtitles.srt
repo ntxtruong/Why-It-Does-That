@@ -1,0 +1,379 @@
+1
+00:00:00,600 --> 00:00:04,999
+How can a pair of headphones make the world quieter by adding more noise?
+
+2
+00:00:05,499 --> 00:00:10,079
+Put on noise-cancelling headphones on a plane and press one button.
+
+3
+00:00:10,079 --> 00:00:12,812
+The low roar of the cabin drops sharply.
+
+4
+00:00:14,312 --> 00:00:17,202
+But pressing the button blocked nothing new.
+
+5
+00:00:17,202 --> 00:00:19,501
+The headphones did not get thicker.
+
+6
+00:00:19,501 --> 00:00:21,209
+They started making sound.
+
+7
+00:00:21,709 --> 00:00:26,443
+Most people think noise cancelling works like a wall, keeping sound out.
+
+8
+00:00:27,943 --> 00:00:28,643
+It doesn't.
+
+9
+00:00:28,643 --> 00:00:30,362
+It fights sound with sound.
+
+10
+00:00:30,862 --> 00:00:36,096
+By the end of this video, you will know why it tames the low drone of a plane.
+
+11
+00:00:36,096 --> 00:00:40,256
+And why it barely touches the voice of the person next to you.
+
+12
+00:00:42,056 --> 00:00:44,276
+Start with what sound actually is.
+
+13
+00:00:44,776 --> 00:00:47,571
+When an engine roars, it pushes the air.
+
+14
+00:00:47,571 --> 00:00:54,141
+That push travels outward as a pattern of squeezed air and stretched air, one after the other.
+
+15
+00:00:54,641 --> 00:00:58,308
+When it reaches your ear, the squeezes push your eardrum in.
+
+16
+00:00:58,308 --> 00:00:59,897
+The stretches pull it out.
+
+17
+00:01:01,397 --> 00:01:04,684
+Draw that pressure over time and you get a wave.
+
+18
+00:01:04,684 --> 00:01:06,396
+High points are squeezes.
+
+19
+00:01:06,396 --> 00:01:08,108
+Low points are stretches.
+
+20
+00:01:08,608 --> 00:01:11,548
+How tall the wave is sets how loud it is.
+
+21
+00:01:11,548 --> 00:01:14,129
+How often it repeats sets the pitch.
+
+22
+00:01:14,629 --> 00:01:18,983
+A deep engine hum repeats about 100 times a second.
+
+23
+00:01:18,983 --> 00:01:20,970
+A whistle, a few thousand.
+
+24
+00:01:23,070 --> 00:01:24,529
+Now here is the trick.
+
+25
+00:01:25,029 --> 00:01:28,375
+Imagine the noise squeezes the air at your ear.
+
+26
+00:01:28,375 --> 00:01:33,287
+At that exact moment, a tiny speaker stretches it by the same amount.
+
+27
+00:01:33,787 --> 00:01:37,784
+The squeeze and the stretch meet, and they add up to nothing.
+
+28
+00:01:37,784 --> 00:01:40,209
+The air at your eardrum barely moves.
+
+29
+00:01:41,709 --> 00:01:45,572
+Two waves, each loud on its own, together make silence.
+
+30
+00:01:46,072 --> 00:01:49,301
+Physicists call this destructive interference.
+
+31
+00:01:49,301 --> 00:01:55,480
+The second wave is a mirror image of the first: every peak where the noise has a trough.
+
+32
+00:01:56,980 --> 00:02:02,800
+It is the same reason two ripples on a pond can meet and leave a patch of flat water.
+
+33
+00:02:03,300 --> 00:02:08,463
+So noise-cancelling headphones are really tiny, very fast mirror makers.
+
+34
+00:02:10,563 --> 00:02:13,277
+Open one up and you find three things.
+
+35
+00:02:13,777 --> 00:02:19,088
+A microphone on the outside listens to the world before the sound reaches you.
+
+36
+00:02:19,588 --> 00:02:22,590
+A chip works out the mirror image of that sound.
+
+37
+00:02:24,090 --> 00:02:29,330
+And the speaker that plays your music also plays that mirror image, mixed in.
+
+38
+00:02:29,830 --> 00:02:33,870
+Many headphones add a second microphone inside the ear cup.
+
+39
+00:02:33,870 --> 00:02:39,621
+It hears what actually reached your ear, and corrects whatever the first one missed.
+
+40
+00:02:40,121 --> 00:02:43,056
+This idea is surprisingly old.
+
+41
+00:02:43,056 --> 00:02:48,436
+A German inventor, Paul Lueg, patented it in the 1930s.
+
+42
+00:02:49,936 --> 00:02:55,551
+But it took decades of faster electronics before it fit on your head.
+
+43
+00:02:55,551 --> 00:03:00,759
+Bose sold noise-cancelling headsets to pilots in the late 1980s.
+
+44
+00:03:00,759 --> 00:03:04,014
+Ordinary travellers got them much later.
+
+45
+00:03:04,514 --> 00:03:06,358
+So why did it take so long?
+
+46
+00:03:06,358 --> 00:03:09,364
+Because the mirror has to be almost perfect.
+
+47
+00:03:11,464 --> 00:03:14,372
+Imagine the anti-noise arrives a little late.
+
+48
+00:03:14,872 --> 00:03:18,748
+Now its stretch no longer lines up with the noise's squeeze.
+
+49
+00:03:18,748 --> 00:03:20,814
+Part of the noise leaks through.
+
+50
+00:03:21,314 --> 00:03:26,152
+Arrive half a cycle late, and the two waves line up peak with peak.
+
+51
+00:03:26,152 --> 00:03:31,783
+Instead of silence, you have made the wave twice as tall: louder, not quieter.
+
+52
+00:03:33,283 --> 00:03:40,663
+To cut the sound's energy by 99%, the timing must be right to about a sixtieth of a cycle.
+
+53
+00:03:41,163 --> 00:03:45,792
+For a 100-hertz engine hum, a cycle lasts 10 milliseconds.
+
+54
+00:03:45,792 --> 00:03:49,686
+A sixtieth of that is about a sixth of a millisecond.
+
+55
+00:03:49,686 --> 00:03:52,184
+That leaves room for small errors.
+
+56
+00:03:53,684 --> 00:03:58,676
+For a sound at 2,000 hertz, a cycle lasts half a millisecond.
+
+57
+00:03:58,676 --> 00:04:05,356
+Now the whole system, fit included, must be accurate to about 8 millionths of a second.
+
+58
+00:04:05,856 --> 00:04:09,663
+So the higher the pitch, the harder the mirror is to get right.
+
+59
+00:04:11,763 --> 00:04:14,329
+And there is a second problem: space.
+
+60
+00:04:14,829 --> 00:04:17,478
+Cancellation does not happen everywhere.
+
+61
+00:04:17,478 --> 00:04:22,446
+It only works in a small bubble around the point where the two waves match.
+
+62
+00:04:22,946 --> 00:04:29,099
+Acousticians have worked out that bubble for sound arriving from all around in a room.
+
+63
+00:04:29,099 --> 00:04:35,324
+Where the sound energy drops ten-fold, it is only about a tenth of a wavelength across.
+
+64
+00:04:36,824 --> 00:04:41,638
+A 100-hertz hum has a wavelength of about 3.5 metres.
+
+65
+00:04:41,638 --> 00:04:46,520
+A tenth of that is 34 centimetres, wider than your whole head.
+
+66
+00:04:47,020 --> 00:04:47,353
+Easy.
+
+67
+00:04:47,353 --> 00:04:49,284
+The bubble swallows your ear.
+
+68
+00:04:49,784 --> 00:04:56,039
+But a sound at 3,000 hertz has a wavelength of about 11 centimetres.
+
+69
+00:04:56,039 --> 00:04:59,590
+Its quiet bubble is about one centimetre wide.
+
+70
+00:05:01,090 --> 00:05:05,158
+The inner microphone sits a few centimetres from your eardrum.
+
+71
+00:05:05,158 --> 00:05:08,438
+At that pitch, that is already outside the bubble.
+
+72
+00:05:08,938 --> 00:05:11,982
+So the quiet zone shrinks as the pitch rises.
+
+73
+00:05:14,082 --> 00:05:18,311
+Put the two problems together, and you get the answer to our puzzle.
+
+74
+00:05:18,811 --> 00:05:23,689
+Engine roar, air conditioning, train rumble: low, steady, predictable.
+
+75
+00:05:23,689 --> 00:05:26,407
+The headphones cancel them beautifully.
+
+76
+00:05:26,907 --> 00:05:31,266
+Voices are higher, and they change every fraction of a second.
+
+77
+00:05:31,266 --> 00:05:33,727
+The mirror can never quite keep up.
+
+78
+00:05:35,227 --> 00:05:40,038
+So for high sounds, headphones fall back on the oldest trick of all.
+
+79
+00:05:40,038 --> 00:05:42,797
+Thick, soft padding simply blocks them.
+
+80
+00:05:43,297 --> 00:05:45,993
+Active cancelling handles the low end.
+
+81
+00:05:45,993 --> 00:05:48,051
+Padding handles the high end.
+
+82
+00:05:48,051 --> 00:05:50,747
+Together they make the quiet you hear.
+
+83
+00:05:52,847 --> 00:05:55,715
+Think about the noisiest place you sit every week.
+
+84
+00:05:56,215 --> 00:05:59,334
+Is its noise a low rumble, or a high chatter?
+
+85
+00:05:59,334 --> 00:06:03,216
+Now you know which one your headphones will win against.
+
+86
+00:06:05,316 --> 00:06:08,704
+So, how can headphones cancel noise with more noise?
+
+87
+00:06:09,204 --> 00:06:12,695
+They listen to the world and build its mirror image.
+
+88
+00:06:12,695 --> 00:06:16,388
+They play it into your ear at exactly the right moment.
+
+89
+00:06:16,388 --> 00:06:20,617
+The squeeze and the stretch meet, and add up to almost nothing.
+
+90
+00:06:21,117 --> 00:06:25,499
+The lower and steadier the sound, the better the mirror works.
+
+91
+00:06:25,499 --> 00:06:30,799
+That is why the jet engine fades, and the voice beside you fades much less.
+
+92
+00:06:31,299 --> 00:06:34,639
+Here, quiet is not the absence of sound waves.
+
+93
+00:06:34,639 --> 00:06:38,776
+It is two waves perfectly out of step, right at your ear.
+
+94
+00:06:40,276 --> 00:06:42,790
+What noise would you most like to cancel?
+
+95
+00:06:42,790 --> 00:06:44,261
+Tell me in the comments.

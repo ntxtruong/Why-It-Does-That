@@ -1,0 +1,46 @@
+{
+ "title": "The Water in This Cloud Weighs 500 Tonnes",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 2,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "The water in this cloud weighs five hundred tonnes."
+   ]
+  },
+  {
+   "id": "gram",
+   "long": [],
+   "beats": [
+    "A puffy cloud a kilometre across holds about half a gram of water in each cubic metre."
+   ]
+  },
+  {
+   "id": "sum",
+   "long": [],
+   "beats": [
+    "Over a billion cubic metres, that adds up to five hundred tonnes."
+   ]
+  },
+  {
+   "id": "float",
+   "long": [],
+   "beats": [
+    "It floats because the droplets are tiny, so they fall very slowly, and rising air holds them up."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Heavy, but spread thin."
+   ]
+  }
+ ]
+}

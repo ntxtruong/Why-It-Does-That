@@ -1,0 +1,4 @@
+0:02.2  myth: script 'panes' / heard 'pains'
+
+1 beat(s) to listen to; 1 of 63 words differ (1.6%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

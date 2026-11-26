@@ -1,0 +1,16 @@
+{
+ "title": "Why one apple half goes brown",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Channel v5, first Kitchen Science Short. WEIRD hook: same apple, one half browning at 0 s; wrong guess (rot) killed at ~4 s; reveal (cells burst, enzyme spills) at ~7 s; a visible change every <= 2.5 s; payoff = lemon half; loop to two halves; one-word question.",
+ "related_episode": 49,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["Same apple, same cut. So why is only one half going brown?"]},
+  {"id": "guess", "long": [], "beats": ["It isn't rot. The apple is doing it to itself."]},
+  {"id": "burst", "long": [], "beats": ["Cutting bursts its cells.", "An enzyme spills out onto the fruit's own polyphenols."], "gaps": [0.2]},
+  {"id": "brown", "long": [], "beats": ["Add oxygen, and it turns them into quinones that clump into brown pigment."]},
+  {"id": "lemon", "long": [], "beats": ["The white half got lemon juice.", "Acid slows the enzyme, and vitamin C undoes its first step."], "gaps": [0.2]},
+  {"id": "end", "long": [], "beats": ["Would you still eat the brown half?"]}
+ ]
+}

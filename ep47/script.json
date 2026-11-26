@@ -1,0 +1,52 @@
+{
+ "title": "Lift an ice cube with a thread",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Shorts v4: DO + WEIRD hook (thread on a cube, frame one), timer cut, lift at 7-10 s, loop ending",
+ "related_episode": 49,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Lay a wet thread across an ice cube."
+   ]
+  },
+  {
+   "id": "salt",
+   "long": [],
+   "beats": [
+    "Sprinkle a pinch of salt on it, and wait a couple of minutes."
+   ],
+   "gaps": [
+    0.4
+   ]
+  },
+  {
+   "id": "lift",
+   "long": [],
+   "beats": [
+    "Now pull. No knot, no glue."
+   ],
+   "gaps": [
+    0.6
+   ]
+  },
+  {
+   "id": "why",
+   "long": [],
+   "beats": [
+    "Salt melts a thin layer of ice, and melting pulls heat out of the cube.",
+    "The cube gets colder than zero. The meltwater dilutes the salt, and the cold cube freezes the water around the thread again."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "With the thread inside. Try it tonight."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  sky(1); rrect(0, 900, W, 180, 0, [200, 210, 228], 1);
+  g.save(); g.translate(400, 230); g.scale(0.82, 0.82);
+  railing(520, 520, 560); bench(1220, 600, 560); hand(800, 486, 0.9); hand(1500, 520, 0.9);
+  thermo(1050, 830, 5, 1); thermo(1760, 830, 5, 1);
+  g.restore();
+  const Wd = { 1: ["SAME", "TEMPERATURE?"], 2: ["METAL", "ISN'T COLD"], 3: ["IT'S YOUR", "HEAT"] }[v];
+  word(Wd[0], 620, 150, 150, "#F2F5FB"); word(Wd[1], 620, 320, v === 1 ? 130 : 150, v === 2 ? "#8CC6FF" : v === 3 ? "#FF8A7A" : "#FFD45E");
+  mascot3(150, 1060, 0.3, 0, { look: [0.8, -0.3], mouth: "o" });
+};
+</script></body></html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<!-- Thumbnail for episode 2: the phenomenon itself (a blue midday sky against a red sunset), four words. -->
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#0a1020}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenesA.js"></script>
+<script>
+window.renderThumb = () => {
+  const T = 3.1;
+  g.save(); g.beginPath(); g.rect(0, 0, 960, H); g.clip(); landscape(T, { e: 1, sunX: 470, sunTop: 520, clouds: false }); cloud(250, 640, 1.5, [255, 255, 255], 0.95); g.restore();
+  g.save(); g.beginPath(); g.rect(960, 0, 960, H); g.clip(); landscape(T, { e: 0, sunX: 1500, clouds: false }); cloud(1700, 560, 1.4, [255, 170, 120], 0.95); cloud(1250, 610, 1.0, [235, 130, 120], 0.9); g.restore();
+  g.fillStyle = "#ffffff"; g.fillRect(954, 0, 12, 900);
+  const word = (s, x, y, size, col) => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#0a1020"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+  word("WHY", 480, 150, 150, "#ffffff"); word("BLUE?", 480, 330, 230, "#bfe0ff");
+  word("WHY", 1440, 150, 150, "#ffffff"); word("RED?", 1440, 330, 230, "#ffb37a");
+  chibi(960, 1040, 0.72, { look: [0, -0.7], mouth: "o", q: true });
+};
+</script></body></html>

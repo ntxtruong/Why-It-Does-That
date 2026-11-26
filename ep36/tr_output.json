@@ -1,0 +1,138 @@
+{
+ "vi": {
+  "title": "Xúc xích cũng bấm được màn hình cảm ứng #science #tech",
+  "description": "Xúc xích cũng bấm được màn hình cảm ứng. Hầu hết màn hình điện thoại không cảm nhận lực ép: bên dưới lớp kính là một lưới điện cực trong suốt tạo ra một điện trường rất nhỏ phía trên bề mặt. Bất cứ vật nào dẫn điện, như ngón tay bạn hay một cây xúc xích mặn và ẩm, đều làm nhiễu điện trường ở chỗ chạm, và điện thoại đọc ra vị trí đó. Găng len không dẫn điện nên màn hình không nhìn thấy nó (găng tay cảm ứng có dệt sợi dẫn điện).\n\nThêm về công nghệ quanh ta: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nNguồn\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- Các đường sức trong hoạt họa chỉ mang tính sơ đồ\n\nThứ kỳ lạ nhất bạn từng dùng để chạm vào điện thoại là gì?\n\nKịch bản, giọng đọc và hoạt họa đều do AI tạo ra (Claude; giọng Kokoro). Mọi khẳng định đều được đối chiếu với các nguồn ở trên.\n#Shorts",
+  "subtitles": [
+   "Xúc xích cũng bấm được màn hình cảm ứng.",
+   "Hầu hết màn hình không cảm nhận lực ép.",
+   "Chúng cảm nhận một điện trường rất nhỏ phía trên lớp kính.",
+   "Vật dẫn điện, như ngón tay hay xúc xích, làm nhiễu điện trường ở chỗ chạm.",
+   "Găng len không dẫn điện nên màn hình không nhìn thấy.",
+   "Màn hình cảm nhận điện, không phải cái chạm."
+  ]
+ },
+ "th": {
+  "title": "ไส้กรอกก็ใช้จอทัชสกรีนได้ #science #tech",
+  "description": "ไส้กรอกก็ใช้จอทัชสกรีนได้ จอโทรศัพท์ส่วนใหญ่ไม่ได้รับรู้แรงกด ใต้กระจกมีตารางขั้วไฟฟ้าโปร่งใสที่สร้างสนามไฟฟ้าเล็ก ๆ เหนือพื้นผิว สิ่งใดก็ตามที่นำไฟฟ้า เช่น นิ้วของคุณหรือไส้กรอกที่เค็มและเปียก จะรบกวนสนามไฟฟ้าตรงจุดที่แตะ แล้วโทรศัพท์ก็อ่านตำแหน่งนั้นได้ ถุงมือขนสัตว์ไม่นำไฟฟ้า หน้าจอจึงมองไม่เห็น (ถุงมือทัชสกรีนทอเส้นใยนำไฟฟ้าเข้าไป)\n\nเทคโนโลยีใกล้ตัวเพิ่มเติม: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nแหล่งข้อมูล\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- เส้นสนามในแอนิเมชันเป็นเพียงแผนภาพ\n\nของแปลกที่สุดที่คุณเคยใช้จิ้มโทรศัพท์คืออะไร?\n\nบทพูด เสียง และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ข้อมูลทุกข้อผ่านการตรวจสอบกับแหล่งข้อมูลด้านบน\n#Shorts",
+  "subtitles": [
+   "ไส้กรอกก็ใช้จอทัชสกรีนได้",
+   "จอส่วนใหญ่ไม่ได้รับรู้แรงกด",
+   "มันรับรู้สนามไฟฟ้าเล็ก ๆ เหนือกระจก",
+   "สิ่งที่นำไฟฟ้า เช่น นิ้วหรือไส้กรอก จะรบกวนสนามไฟฟ้าตรงจุดที่แตะ",
+   "ถุงมือขนสัตว์ไม่นำไฟฟ้า หน้าจอจึงมองไม่เห็น",
+   "หน้าจอรับรู้ไฟฟ้า ไม่ใช่การสัมผัส"
+  ]
+ },
+ "ja": {
+  "title": "ソーセージでもタッチスクリーンは動きます #science #tech",
+  "description": "ソーセージでもタッチスクリーンは動きます。ほとんどのスマホの画面は圧力を感じ取っていません。ガラスの下には透明な電極の格子があり、表面の上にごく小さな電界を保っています。指や、塩気があって湿ったソーセージのように電気を通すものが触れると、その場所で電界が乱れ、スマホがその位置を読み取ります。ウールの手袋は電気を通さないので、画面には見えません（タッチ対応の手袋には導電性の糸が織り込まれています）。\n\n身近なテクノロジーをもっと知りたい方はこちら： How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n出典\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- アニメーションの電気力線は模式的なものです\n\nスマホをタップするのに使った一番変わったものは何ですか？\n\n台本、音声、アニメーションはAIが制作しました（Claude、Kokoroの音声）。すべての主張は上記の情報源で確認しています。\n#Shorts",
+  "subtitles": [
+   "ソーセージでもタッチスクリーンは動きます。",
+   "ほとんどの画面は圧力を感じ取っていません。",
+   "ガラスの上のごく小さな電界を感じ取っています。",
+   "指やソーセージのように電気を通すものは、触れた場所で電界を乱します。",
+   "ウールの手袋は電気を通さないので、画面には見えません。",
+   "画面が感じているのは、触れたことではなく電気です。"
+  ]
+ },
+ "ko": {
+  "title": "소시지로도 터치스크린이 작동해요 #science #tech",
+  "description": "소시지로도 터치스크린을 작동시킬 수 있습니다. 대부분의 휴대폰 화면은 누르는 힘을 느끼지 않습니다. 유리 아래에는 투명한 전극 격자가 있어서 표면 위에 아주 작은 전기장을 유지합니다. 손가락이나 짭짤하고 촉촉한 소시지처럼 전기가 통하는 물체가 닿으면 닿은 자리에서 전기장이 흐트러지고, 휴대폰이 그 위치를 읽습니다. 털장갑은 전기가 통하지 않아서 화면이 인식하지 못합니다(터치스크린용 장갑에는 전도성 실이 섞여 짜여 있습니다).\n\n일상 속 기술을 더 보고 싶다면: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n출처\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- 애니메이션 속 전기장 선은 개념도입니다\n\n휴대폰을 터치하려고 써 본 것 중 가장 엉뚱한 물건은 무엇인가요?\n\n대본, 목소리, 애니메이션은 AI가 만들었습니다(Claude, Kokoro 음성). 모든 내용은 위의 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "소시지로도 터치스크린이 작동해요.",
+   "대부분의 화면은 누르는 힘을 느끼지 않아요.",
+   "유리 위의 아주 작은 전기장을 감지해요.",
+   "손가락이나 소시지처럼 전기가 통하면 닿은 자리의 전기장이 흐트러져요.",
+   "털장갑은 전기가 통하지 않아서 화면이 인식하지 못해요.",
+   "화면이 느끼는 건 터치가 아니라 전기예요."
+  ]
+ },
+ "zh-Hant": {
+  "title": "香腸也能操作觸控螢幕 #science #tech",
+  "description": "香腸也能操作觸控螢幕。多數手機螢幕並不是感應壓力：玻璃底下有一層透明電極網格，在表面上方維持著一個微小的電場。任何會導電的東西，像是你的手指，或是又鹹又濕的香腸，碰到時都會干擾接觸處的電場，手機就能讀出那個位置。羊毛手套不導電，所以螢幕看不到它（觸控手套會織入導電纖維）。\n\n更多日常科技： How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\n資料來源\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- 動畫中的電場線僅為示意\n\n你用過最奇怪的點手機工具是什麼？\n\n腳本、配音與動畫皆由 AI 製作（Claude；Kokoro 語音）。所有說法均已對照上方資料來源查證。\n#Shorts",
+  "subtitles": [
+   "香腸也能操作觸控螢幕。",
+   "多數螢幕並不是感應壓力。",
+   "它們感應的是玻璃上方的微小電場。",
+   "會導電的東西，像手指或香腸，碰到時會干擾接觸處的電場。",
+   "羊毛手套不導電，所以螢幕看不到它。",
+   "你的螢幕感覺到的是電，不是觸碰。"
+  ]
+ },
+ "id": {
+  "title": "Sosis Bisa Menggerakkan Layar Sentuh #science #tech",
+  "description": "Sosis bisa menggerakkan layar sentuh. Kebanyakan layar ponsel tidak merasakan tekanan: di bawah kacanya ada kisi elektroda transparan yang menjaga medan listrik kecil di atas permukaan. Benda apa pun yang menghantarkan listrik, seperti jarimu atau sosis yang asin dan basah, mengganggu medan itu di tempat ia menyentuh, lalu ponsel membaca titik tersebut. Sarung tangan wol tidak menghantarkan listrik, jadi layar tidak bisa melihatnya (sarung tangan layar sentuh dianyam dengan benang konduktif).\n\nTeknologi sehari-hari lainnya: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nSumber\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- Garis medan dalam animasi hanya skema\n\nApa benda paling aneh yang pernah kamu pakai untuk mengetuk ponselmu?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim dicek dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Sosis bisa menggerakkan layar sentuh.",
+   "Kebanyakan layar tidak merasakan tekanan.",
+   "Layar merasakan medan listrik kecil di atas kaca.",
+   "Benda penghantar listrik, seperti jari atau sosis, mengganggu medan itu di tempat ia menyentuh.",
+   "Sarung tangan wol tidak menghantarkan listrik, jadi layar tidak bisa melihatnya.",
+   "Layarmu merasakan listrik, bukan sentuhan."
+  ]
+ },
+ "fil": {
+  "title": "Puwedeng Gamitin ang Sausage sa Touchscreen #science #tech",
+  "description": "Puwedeng gamitin ang sausage sa touchscreen. Karamihan ng screen ng phone ay hindi nakakaramdam ng pressure: sa ilalim ng salamin ay may grid ng mga transparent na electrode na nagpapanatili ng maliit na electric field sa ibabaw. Anumang nagko-conduct, tulad ng daliri mo o ng maalat at basang sausage, ay ginugulo ang field na iyon sa lugar na tinamaan, at binabasa ng phone ang puwestong iyon. Hindi nagko-conduct ang wool na guwantes, kaya hindi ito nakikita ng screen (may habing conductive thread ang mga touchscreen na guwantes).\n\nMas maraming everyday tech: How do headphones cancel noise with more noise? https://youtu.be/rOxQ3PFvewk\n\nMga source\n- Texas Instruments / Microchip application notes on projected-capacitive touch sensing\n- Walker, G. (2012), A review of technologies for sensing contact location on the surface of a display, Journal of the Society for Information Display 20: 413–440\n- Schematic lang ang mga field line sa animation\n\nAno ang pinakakakaibang bagay na ginamit mo sa pag-tap ng phone mo?\n\nAng script, boses, at animation ay gawa ng AI (Claude; boses ng Kokoro). Bawat claim ay sinuri laban sa mga source sa itaas.\n#Shorts",
+  "subtitles": [
+   "Puwedeng gamitin ang sausage sa touchscreen.",
+   "Karamihan ng screen ay hindi nakakaramdam ng pressure.",
+   "Maliit na electric field sa ibabaw ng salamin ang nararamdaman nila.",
+   "Ang nagko-conduct, tulad ng daliri o sausage, ay ginugulo ang field na iyon sa lugar na tinamaan.",
+   "Hindi nagko-conduct ang wool na guwantes, kaya hindi ito nakikita ng screen.",
+   "Kuryente ang nararamdaman ng screen mo, hindi ang haplos."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "touchscreen",
+   "vi": "màn hình cảm ứng",
+   "th": "หน้าจอสัมผัส (ทัชสกรีน)",
+   "ja": "タッチスクリーン",
+   "ko": "터치스크린",
+   "zh-Hant": "觸控螢幕",
+   "id": "layar sentuh",
+   "fil": "touchscreen"
+  },
+  {
+   "en": "electrode",
+   "vi": "điện cực",
+   "th": "ขั้วไฟฟ้า",
+   "ja": "電極",
+   "ko": "전극",
+   "zh-Hant": "電極",
+   "id": "elektroda",
+   "fil": "electrode"
+  },
+  {
+   "en": "electric field",
+   "vi": "điện trường",
+   "th": "สนามไฟฟ้า",
+   "ja": "電界",
+   "ko": "전기장",
+   "zh-Hant": "電場",
+   "id": "medan listrik",
+   "fil": "electric field"
+  },
+  {
+   "en": "conductor",
+   "vi": "vật dẫn điện",
+   "th": "ตัวนำไฟฟ้า",
+   "ja": "導体",
+   "ko": "도체",
+   "zh-Hant": "導體",
+   "id": "penghantar listrik",
+   "fil": "conductor"
+  },
+  {
+   "en": "capacitive sensing",
+   "vi": "cảm biến điện dung",
+   "th": "การตรวจจับแบบเก็บประจุ",
+   "ja": "静電容量方式",
+   "ko": "정전 용량 방식",
+   "zh-Hant": "電容式感測",
+   "id": "penginderaan kapasitif",
+   "fil": "capacitive sensing"
+  }
+ ]
+}

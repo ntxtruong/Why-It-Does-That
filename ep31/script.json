@@ -1,0 +1,16 @@
+{
+ "title": "Metal Isn't Colder Than Wood",
+ "format": "short",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "pause_note": "Short format v3: 20-30 s, claim first, loop ending",
+ "source_episode": null,
+ "related_episode": 8,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["Metal isn't colder than wood."]},
+  {"id": "same", "long": [], "beats": ["Leave both in one room, and they reach the same temperature."]},
+  {"id": "heat", "long": [], "beats": ["But your hand is warmer, about thirty-four degrees Celsius.", "Aluminium conducts heat over a thousand times better than wood."]},
+  {"id": "feel", "long": [], "beats": ["So your skin cools more, and faster, on the metal.", "That fast cooling is what you feel as cold."]},
+  {"id": "end", "long": [], "beats": ["Same temperature. Different speed."]}
+ ]
+}

@@ -1,0 +1,6 @@
+0:00.0  hook: script 'you're' / heard 'your'
+0:02.0  discs: script 'sit soft' / heard 'sits off'
+0:06.2  day: script 'centimetre' / heard 'centimeter'
+
+3 beat(s) to listen to; 4 of 55 words differ (7.3%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

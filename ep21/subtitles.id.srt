@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Kenapa kaleng dingin bisa "berkeringat"?
+
+2
+00:00:02,115 --> 00:00:03,922
+Airnya tidak bocor dari dalam.
+
+3
+00:00:03,922 --> 00:00:05,083
+Kalengnya tertutup rapat.
+
+4
+00:00:05,583 --> 00:00:08,582
+Udara hangat penuh dengan uap air yang tak terlihat.
+
+5
+00:00:08,882 --> 00:00:15,006
+Di hari yang panas dan lembap, satu meter kubik udara membawa sekitar 25 gram uap air.
+
+6
+00:00:15,506 --> 00:00:20,223
+Udara yang menyentuh kaleng dari kulkas mendingin hampir sampai suhu kulkas.
+
+7
+00:00:20,523 --> 00:00:25,820
+Sedingin itu, paling banyak sekitar enam gram per meter kubik yang bisa tetap menjadi uap.
+
+8
+00:00:26,420 --> 00:00:31,647
+Sisanya tidak punya tempat, jadi berubah lagi menjadi cairan, tepat di kaleng.
+
+9
+00:00:32,147 --> 00:00:38,650
+Sama seperti embun pagi, atau kacamata yang berembun saat kamu keluar dari ruangan ber-AC.
+
+10
+00:00:39,150 --> 00:00:40,720
+Bukan kalengnya yang berkeringat.
+
+11
+00:00:40,720 --> 00:00:41,471
+Tapi udaranya.

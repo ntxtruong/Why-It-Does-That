@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><style>html,body{margin:0;background:#18264F}canvas{display:block}</style></head>
+<body><canvas id="sim" width="1920" height="1080"></canvas>
+<script>window.TL = { scenes: [] };</script>
+<script src="./core.js"></script><script src="./scenes.js"></script>
+<script>
+const word = (s, x, y, size, col, align = "center") => { g.save(); g.font = `800 ${size}px ${FONT}`; g.textAlign = align; g.textBaseline = "middle"; g.lineJoin = "round"; g.strokeStyle = "#101a38"; g.lineWidth = size * 0.16; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); g.restore(); };
+window.renderThumb = v => {
+  room(); vignette(0.3);
+  if (v === 1) {
+    hanging(1320, 150, 1.75, -0.05, 1); saltGrains(1360, 430, 380, 40, 1);
+    word("NO KNOT.", 560, 330, 150, "#F2F5FB"); word("NO GLUE.", 560, 500, 150, "#F2F5FB"); word("JUST SALT", 560, 690, 150, "#FFD45E");
+  } else if (v === 2) {
+    glass(1150, 960, 420, 520, 0.75, 1); iceChunks(1150, 960, 380, 10, 1.5, 1); saltGrains(1150, 600, 340, 50, 1);
+    thermo(1640, 860, -9, -12, 1, "below 0 °C");
+    word("SALT MAKES", 520, 360, 140, "#F2F5FB"); word("ICE COLDER?", 520, 540, 140, "#8CC6FF");
+    mascot3(170, 1060, 0.3, 0, { look: [0.8, -0.3], mouth: "o" });
+  } else {
+    g.save(); g.translate(300, 40); molPanel(2.3, { rows: 5, freeze: 0.55, ions: 1, ionsT: 9, hl: 1 }); g.restore();
+    word("WHY SALT", 70, 380, 140, "#F2F5FB", "left"); word("MELTS ICE", 70, 560, 140, "#FFD45E", "left");
+  }
+};
+</script></body></html>

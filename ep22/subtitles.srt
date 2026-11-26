@@ -1,0 +1,47 @@
+1
+00:00:00,150 --> 00:00:02,392
+Why does a spoon look broken in water?
+
+2
+00:00:02,692 --> 00:00:04,814
+Pull it out, and it's perfectly straight.
+
+3
+00:00:05,314 --> 00:00:09,369
+You see the spoon by the light that leaves it and reaches your eye.
+
+4
+00:00:09,669 --> 00:00:13,435
+In water, light travels about a quarter slower than in air.
+
+5
+00:00:13,935 --> 00:00:18,793
+So a ray leaving the water at a slant bends at the surface, tipping flatter.
+
+6
+00:00:19,093 --> 00:00:21,700
+But your brain assumes the ray never bent.
+
+7
+00:00:22,300 --> 00:00:27,332
+It traces each ray straight back, to a spot higher than the spoon really is.
+
+8
+00:00:27,832 --> 00:00:30,541
+The part in the air appears where it is.
+
+9
+00:00:30,541 --> 00:00:32,979
+The part under water appears lifted.
+
+10
+00:00:33,279 --> 00:00:36,032
+So the spoon seems to snap right at the surface.
+
+11
+00:00:36,532 --> 00:00:38,128
+The spoon is not bent.
+
+12
+00:00:38,128 --> 00:00:39,071
+The light is.

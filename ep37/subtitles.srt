@@ -1,0 +1,19 @@
+1
+00:00:00,150 --> 00:00:02,994
+The water in this cloud weighs 500 tonnes.
+
+2
+00:00:03,494 --> 00:00:09,074
+A puffy cloud a kilometre across holds about 0.5 g of water in each cubic metre.
+
+3
+00:00:09,574 --> 00:00:13,872
+Over a billion m³, that adds up to 500 tonnes.
+
+4
+00:00:14,372 --> 00:00:20,876
+It floats because the droplets are tiny, so they fall very slowly, and rising air holds them up.
+
+5
+00:00:21,376 --> 00:00:22,781
+Heavy, but spread thin.

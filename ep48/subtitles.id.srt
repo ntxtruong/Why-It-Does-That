@@ -1,0 +1,39 @@
+1
+00:00:00,150 --> 00:00:02,339
+Arahkan ponselmu ke lampu langit-langit.
+
+2
+00:00:02,339 --> 00:00:03,677
+Beralih ke gerak lambat.
+
+3
+00:00:04,177 --> 00:00:05,334
+Sekarang perhatikan baik-baik.
+
+4
+00:00:05,834 --> 00:00:10,399
+Beberapa lampu berdenyut 100 atau 120 kali per detik.
+
+5
+00:00:10,949 --> 00:00:13,566
+Itu dua kali lipat frekuensi listrik di dinding rumahmu.
+
+6
+00:00:13,866 --> 00:00:16,266
+Matamu memburamkannya menjadi cahaya yang stabil.
+
+7
+00:00:16,266 --> 00:00:19,120
+Jepretan cepat kamera menangkap saat-saat redupnya.
+
+8
+00:00:19,620 --> 00:00:21,511
+LED yang bagus hampir tidak berkedip.
+
+9
+00:00:21,511 --> 00:00:23,780
+Yang murah atau yang diredupkan sering berkedip.
+
+10
+00:00:23,780 --> 00:00:24,915
+Coba cek lampumu sendiri.

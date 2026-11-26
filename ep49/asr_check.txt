@@ -1,0 +1,9 @@
+0:04.9  hook: script 'and' / heard 'in'
+1:17.9  salt: script 'wins' / heard 'winds'
+1:30.7  salt: script 'seawater' / heard 'sea water'; script 'and a half' / heard 'point five'; script 'minus' / heard ''
+2:11.6  cold: script 'minus' / heard ''
+2:26.4  road: script 'minus' / heard ''
+2:54.4  road: script 'icers' / heard 'isers'
+
+6 beat(s) to listen to; 11 of 531 words differ (2.1%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

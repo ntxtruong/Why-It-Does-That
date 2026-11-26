@@ -1,0 +1,16 @@
+{
+ "title": "Film Your Lights in Slow Motion #science #tech",
+ "description": "Point your phone at a ceiling light and switch to slow motion. Some lights pulse, brightening and dimming 100 or 120 times a second: twice the frequency of the power in your wall (50 or 60 Hz). Your eyes blend it into a steady glow, but the camera's short exposures catch the dips. Well-made LEDs barely flicker; cheap or dimmed ones often do.\n\nTip: 240 frames per second shows it best; at 120 fps a 120 Hz flicker can hide.\n\nMore: Episode 50 (long, why cameras see flicker)\n\nSources\n- U.S. Department of Energy, Flicker Basics (energy.gov/cmei/ssl/flicker-basics)\n- Avnet Abacus, What is LED flicker – and how to prevent it (rectified mains: 100 Hz in Europe, 120 Hz in the US)\n- ENTTEC, Why do LEDs flicker on camera? (support.enttec.com)\n- Wikipedia, Flicker fusion threshold\n- The pulse in the animation is slowed far more than a real 240 fps clip shows it\n\nTry it: film three lights in your home in slow motion. Which ones pulse?\n\nScript, voice and animation are AI-produced (Claude; Kokoro voice). Every claim is checked against the sources above.\n#Shorts",
+ "subtitles": [
+  "Point your phone at a ceiling light.",
+  "Switch to slow motion.",
+  "Now look closely.",
+  "Some lights are pulsing, 100 or 120 times a second.",
+  "That is twice the rate of the power in your wall.",
+  "Your eyes blur it into a steady glow.",
+  "The camera's quick snapshots catch the dips.",
+  "Good LEDs barely flicker.",
+  "Cheap or dimmed ones often do.",
+  "Go check yours."
+ ]
+}

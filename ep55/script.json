@@ -1,0 +1,58 @@
+{
+ "title": "Why cats' eyes glow in the dark",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, first Animals Explained Short. WEIRD hook: glowing cat eyes in a flashlight beam at 0 s, a human face that does not glow at ~2.5 s; wrong guess (the eyes make light) killed at ~4.5 s; reveal (mirror layer behind the retina) at ~8 s; second pass, leak = the glow; stake (a sixth of the light, a bit blurrier); one-word question; loop.",
+ "related_episode": 42,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Shine a light at a cat in the dark, and its eyes light up. Yours don't."
+   ]
+  },
+  {
+   "id": "guess",
+   "long": [],
+   "beats": [
+    "Cat eyes don't make light. They bounce yours back."
+   ]
+  },
+  {
+   "id": "mirror",
+   "long": [],
+   "beats": [
+    "Behind the retina sits a mirror layer, the tapetum lucidum."
+   ]
+  },
+  {
+   "id": "second",
+   "long": [],
+   "beats": [
+    "Light that slips past the retina hits it, and goes back through for a second chance."
+   ]
+  },
+  {
+   "id": "leak",
+   "long": [],
+   "beats": [
+    "Some of it escapes, straight back toward your light. That's the glow."
+   ]
+  },
+  {
+   "id": "cost",
+   "long": [],
+   "beats": [
+    "So a cat sees with about a sixth of the light you need. The price: a slightly blurrier picture."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Your cat's eyes: green or gold?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+0:00.0  hook: script 'tonnes' / heard 'tons'
+0:09.4  sum: script 'tonnes' / heard 'tons'
+
+2 beat(s) to listen to; 2 of 60 words differ (3.3%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

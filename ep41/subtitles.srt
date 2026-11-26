@@ -1,0 +1,195 @@
+1
+00:00:00,600 --> 00:00:04,776
+Touch a metal railing and a wooden bench on the same winter morning.
+
+2
+00:00:05,276 --> 00:00:07,080
+The metal feels freezing.
+
+3
+00:00:07,080 --> 00:00:09,028
+The wood feels almost warm.
+
+4
+00:00:09,528 --> 00:00:13,428
+But put a thermometer on both, and they read about the same.
+
+5
+00:00:14,928 --> 00:00:17,356
+So what is your hand actually measuring?
+
+6
+00:00:17,856 --> 00:00:21,050
+By the end, you'll know why a sauna doesn't burn you,
+
+7
+00:00:21,550 --> 00:00:26,314
+why a metal slide can, and how mint fools the very same sensors.
+
+8
+00:00:28,414 --> 00:00:33,070
+Leave anything in a room long enough, and it settles at room temperature.
+
+9
+00:00:33,570 --> 00:00:36,541
+Metal, wood, plastic, even the air itself.
+
+10
+00:00:37,041 --> 00:00:40,317
+Nothing in that room is colder than anything else.
+
+11
+00:00:42,417 --> 00:00:44,401
+Your skin has no thermometer.
+
+12
+00:00:45,901 --> 00:00:51,758
+It has nerve endings that react to their own temperature, and to how fast it is changing.
+
+13
+00:00:52,258 --> 00:00:56,964
+One of the main cold sensors is a protein called TRPM8.
+
+14
+00:00:57,464 --> 00:01:03,340
+When the skin around it cools, it opens, and sends a simple message to your brain: cold.
+
+15
+00:01:05,440 --> 00:01:11,017
+Your hand is warmer than the room, about 34 °C at the surface.
+
+16
+00:01:11,517 --> 00:01:15,172
+So heat flows out of your skin, into whatever you touch.
+
+17
+00:01:16,672 --> 00:01:18,917
+How fast depends on the material.
+
+18
+00:01:19,417 --> 00:01:25,537
+Aluminium conducts heat roughly 1,000 to 2,000 times better than pine wood.
+
+19
+00:01:26,037 --> 00:01:29,460
+And air conducts about 5 times worse than pine.
+
+20
+00:01:31,560 --> 00:01:36,814
+When two things touch, the place where they meet settles at a temperature in between.
+
+21
+00:01:37,314 --> 00:01:40,659
+It lands closer to the material that moves heat better.
+
+22
+00:01:42,159 --> 00:01:47,849
+Touch aluminium at 20 °C, and your skin's surface drops almost to twenty.
+
+23
+00:01:48,349 --> 00:01:52,528
+Touch pine at 20 °C, and your skin stays around thirty.
+
+24
+00:01:53,028 --> 00:01:54,675
+Same object temperature.
+
+25
+00:01:54,675 --> 00:01:57,009
+A very different skin temperature.
+
+26
+00:01:58,509 --> 00:02:02,263
+And skin temperature is what your cold sensors report.
+
+27
+00:02:04,363 --> 00:02:05,756
+Now flip it around.
+
+28
+00:02:07,256 --> 00:02:12,713
+On a hot summer day, a metal slide in full sun can get hot enough to burn skin.
+
+29
+00:02:13,213 --> 00:02:17,858
+A wooden bench in the same sun feels warm, but rarely dangerous.
+
+30
+00:02:18,358 --> 00:02:19,936
+Same physics, reversed.
+
+31
+00:02:20,436 --> 00:02:23,090
+The metal pours its heat into your skin.
+
+32
+00:02:23,090 --> 00:02:25,612
+The wood can't deliver it fast enough.
+
+33
+00:02:27,712 --> 00:02:29,945
+That's also how a hot sauna works.
+
+34
+00:02:30,445 --> 00:02:36,499
+The air is often 80 to 100 °C, and yet people sit in it for minutes.
+
+35
+00:02:37,999 --> 00:02:44,488
+Air is a poor conductor, and it holds very little heat, so it delivers heat to your skin slowly.
+
+36
+00:02:44,988 --> 00:02:47,633
+The benches are wood, for the same reason.
+
+37
+00:02:48,133 --> 00:02:51,906
+But touch a bare metal nail in that bench, and it can burn you.
+
+38
+00:02:54,006 --> 00:02:58,390
+Your cold sensors can even be fooled with no heat flowing at all.
+
+39
+00:02:58,890 --> 00:03:06,704
+Menthol, the cool part of mint, sticks to TRPM8 and makes it open even at warm skin temperature.
+
+40
+00:03:07,204 --> 00:03:10,367
+The sensor fires, and your brain hears: cold.
+
+41
+00:03:10,867 --> 00:03:12,799
+Nothing actually got colder.
+
+42
+00:03:14,899 --> 00:03:17,208
+So your hand is not a thermometer.
+
+43
+00:03:17,708 --> 00:03:23,032
+It reports what is happening to your own skin: how far it cools, and how fast.
+
+44
+00:03:23,532 --> 00:03:25,677
+Metal is not colder than wood.
+
+45
+00:03:25,677 --> 00:03:28,252
+It just pulls your heat away faster.
+
+46
+00:03:29,752 --> 00:03:34,579
+Next time you grab a cold railing, remember: you're not feeling the cold.
+
+47
+00:03:34,579 --> 00:03:37,092
+You're feeling your own heat, leaving.
+
+48
+00:03:38,592 --> 00:03:41,409
+Which surface in your home feels the coldest?
+
+49
+00:03:41,409 --> 00:03:42,911
+Tell me in the comments.

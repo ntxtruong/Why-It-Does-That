@@ -1,0 +1,43 @@
+1
+00:00:00,150 --> 00:00:01,815
+Sao bạc hà lại cho cảm giác lạnh?
+
+2
+00:00:02,115 --> 00:00:04,545
+Bạc hà không làm miệng bạn nguội đi.
+
+3
+00:00:05,045 --> 00:00:11,493
+Các dây thần kinh trong miệng mang một cảm biến lạnh rất nhỏ: một cánh cổng mở ra khi nhiệt độ giảm.
+
+4
+00:00:11,993 --> 00:00:16,408
+Menthol, phân tử có trong bạc hà, bám vào chính cánh cổng đó.
+
+5
+00:00:16,708 --> 00:00:21,011
+Giờ nó mở ở nhiệt độ ấm hơn, kể cả trong một cái miệng ấm.
+
+6
+00:00:21,611 --> 00:00:25,422
+Dây thần kinh phát tín hiệu, và não bạn nhận một thông điệp duy nhất: lạnh.
+
+7
+00:00:25,922 --> 00:00:29,721
+Vì thế một ngụm nước sau khi ngậm bạc hà có thể buốt như đá.
+
+8
+00:00:29,721 --> 00:00:31,839
+Cảm biến vốn đã sẵn sàng.
+
+9
+00:00:32,339 --> 00:00:35,763
+Ớt cũng làm trò y hệt với cảm biến nóng rát của bạn.
+
+10
+00:00:36,263 --> 00:00:37,585
+Bạc hà không hề lạnh.
+
+11
+00:00:37,585 --> 00:00:39,980
+Nó chỉ rung chuông báo động lạnh.

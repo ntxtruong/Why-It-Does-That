@@ -1,0 +1,121 @@
+{
+ "vi": {
+  "title": "Tại sao lon nước lạnh lại \"đổ mồ hôi\"? #science #physics",
+  "description": "Nước trên lon lạnh đến từ không khí, không phải từ bên trong. Vào một ngày nóng ẩm (32 °C, độ ẩm 75%), mỗi mét khối không khí mang khoảng 25 g hơi nước. Lớp không khí sát lon lạnh xuống gần bằng nhiệt độ tủ lạnh, và ở khoảng 4 °C chỉ tối đa khoảng 6 g mỗi mét khối có thể ở dạng hơi. Phần còn lại ngưng tụ trên lon, giống như sương sớm.\n\nThêm về phân tử nước: Tại sao lò vi sóng không làm nóng thức ăn từ bên trong https://youtu.be/ri17BZl0Iq8\n\nNguồn\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\nLần tới thấy ly nước \"đổ mồ hôi\", bạn đã biết nước từ đâu ra. Quanh bạn còn thứ gì \"đổ mồ hôi\" nữa không?\n\nKịch bản, giọng đọc và hoạt hình do AI tạo (Claude; giọng Kokoro). Mọi con số đều được kiểm tra theo các nguồn ở trên.\n#Shorts",
+  "subtitles": [
+   "Tại sao lon nước lạnh lại \"đổ mồ hôi\"?",
+   "Nước không rỉ ra từ bên trong.",
+   "Lon được đóng kín.",
+   "Không khí ấm chứa đầy hơi nước vô hình.",
+   "Vào một ngày nóng ẩm, mỗi mét khối không khí mang khoảng 25 gam hơi nước.",
+   "Lớp không khí chạm vào lon lấy từ tủ lạnh nguội xuống gần bằng nhiệt độ tủ lạnh.",
+   "Lạnh như vậy, mỗi mét khối chỉ giữ được tối đa khoảng sáu gam ở dạng hơi.",
+   "Phần còn lại không còn chỗ nào để đi, nên nó trở lại thành nước lỏng, ngay trên lon.",
+   "Giống như sương sớm, hay lớp mờ trên kính khi bạn bước ra khỏi phòng máy lạnh.",
+   "Không phải lon đổ mồ hôi.",
+   "Mà là không khí."
+  ]
+ },
+ "th": {
+  "title": "ทำไมกระป๋องเย็นๆ ถึง \"เหงื่อออก\"? #science #physics",
+  "description": "น้ำบนกระป๋องเย็นมาจากอากาศ ไม่ได้ซึมออกมาจากข้างใน ในวันที่ร้อนชื้น (32 °C ความชื้น 75%) อากาศหนึ่งลูกบาศก์เมตรมีไอน้ำประมาณ 25 กรัม อากาศที่สัมผัสกระป๋องเย็นลงจนเกือบเท่าอุณหภูมิตู้เย็น และที่ประมาณ 4 °C ไอน้ำอยู่ในสภาพแก๊สได้ไม่เกินประมาณ 6 กรัมต่อลูกบาศก์เมตร ส่วนที่เหลือจึงควบแน่นบนกระป๋อง เหมือนน้ำค้างยามเช้า\n\nเพิ่มเติมเรื่องโมเลกุลน้ำ: ทำไมไมโครเวฟไม่ได้ทำให้อาหารร้อนจากข้างใน https://youtu.be/ri17BZl0Iq8\n\nแหล่งอ้างอิง\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\nครั้งหน้าที่เห็นแก้ว \"เหงื่อออก\" คุณจะรู้ว่าน้ำมาจากไหน รอบตัวคุณมีอะไรอีกที่ \"เหงื่อออก\"?\n\nบท เสียงบรรยาย และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ตัวเลขทุกตัวตรวจสอบกับแหล่งอ้างอิงข้างต้นแล้ว\n#Shorts",
+  "subtitles": [
+   "ทำไมกระป๋องเย็นๆ ถึง \"เหงื่อออก\"?",
+   "น้ำไม่ได้รั่วออกมา",
+   "กระป๋องปิดสนิท",
+   "อากาศอุ่นเต็มไปด้วยไอน้ำที่มองไม่เห็น",
+   "ในวันที่ร้อนชื้น อากาศหนึ่งลูกบาศก์เมตรมีไอน้ำประมาณ 25 กรัม",
+   "อากาศที่สัมผัสกระป๋องจากตู้เย็นจะเย็นลงจนเกือบเท่าอุณหภูมิตู้เย็น",
+   "ที่ความเย็นขนาดนั้น ไอน้ำอยู่ในสภาพแก๊สได้ไม่เกินประมาณหกกรัมต่อลูกบาศก์เมตร",
+   "ส่วนที่เหลือไม่มีที่ไป จึงกลับเป็นของเหลว บนกระป๋องนั่นเอง",
+   "เหมือนน้ำค้างยามเช้า หรือฝ้าบนแว่นเวลาคุณเดินออกจากห้องแอร์",
+   "กระป๋องไม่ได้เหงื่อออก",
+   "อากาศต่างหาก"
+  ]
+ },
+ "ja": {
+  "title": "冷たい缶が「汗をかく」のはなぜ？ #science #physics",
+  "description": "冷たい缶の水滴は中からではなく、空気から来ています。蒸し暑い日（32 °C、湿度75%）には、空気1立方メートルに約25 gの水蒸気が含まれます。缶に触れた空気は冷蔵庫に近い温度まで冷え、約4 °Cでは1立方メートルあたり約6 gまでしか水蒸気のままでいられません。残りは缶の表面で水になります。朝露と同じしくみです。\n\n水の分子についてもっと：なぜ電子レンジは食べ物を内側から温めないのか https://youtu.be/ri17BZl0Iq8\n\n出典\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\n次にコップが汗をかいていたら、水の出どころがわかりますね。身の回りで他に「汗をかく」ものは？\n\n台本・音声・アニメーションはAIで制作しています（Claude、Kokoro音声）。数値はすべて上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "冷たい缶が「汗をかく」のはなぜ？",
+   "中の水が漏れているのではありません。",
+   "缶は密閉されています。",
+   "暖かい空気には、目に見えない水蒸気がたくさん含まれています。",
+   "蒸し暑い日には、空気1立方メートルに約25グラムの水蒸気があります。",
+   "冷蔵庫から出した缶に触れた空気は、冷蔵庫に近い温度まで冷えます。",
+   "その冷たさでは、1立方メートルあたり約6グラムまでしか水蒸気のままでいられません。",
+   "残りは行き場がなく、缶の上で液体の水に戻ります。",
+   "朝露や、冷房の効いた部屋から出たときにメガネが曇るのと同じです。",
+   "汗をかいているのは缶ではありません。",
+   "空気なのです。"
+  ]
+ },
+ "ko": {
+  "title": "차가운 캔은 왜 '땀'을 흘릴까? #science #physics",
+  "description": "차가운 캔에 맺힌 물은 안에서 새어 나온 게 아니라 공기에서 온 거예요. 덥고 습한 날(32 °C, 습도 75%)에는 공기 1세제곱미터에 수증기가 약 25 g 들어 있습니다. 캔에 닿은 공기는 냉장고 온도 가까이 식고, 약 4 °C에서는 1세제곱미터당 약 6 g까지만 수증기로 남을 수 있어요. 나머지는 캔 표면에서 물로 맺힙니다. 아침 이슬과 같은 원리예요.\n\n물 분자에 대해 더 알아보기: 전자레인지는 왜 음식을 속부터 데우지 않을까 https://youtu.be/ri17BZl0Iq8\n\n출처\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\n다음에 컵이 땀을 흘리면 그 물이 어디서 왔는지 알겠죠? 주변에 또 '땀 흘리는' 게 있나요?\n\n대본, 음성, 애니메이션은 AI로 제작했습니다(Claude, Kokoro 음성). 모든 수치는 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "차가운 캔은 왜 '땀'을 흘릴까?",
+   "안에서 물이 새는 게 아니에요.",
+   "캔은 밀봉되어 있어요.",
+   "따뜻한 공기에는 눈에 보이지 않는 수증기가 가득해요.",
+   "덥고 습한 날에는 공기 1세제곱미터에 수증기가 약 25그램 있어요.",
+   "냉장고에서 꺼낸 캔에 닿은 공기는 냉장고 온도 가까이 식어요.",
+   "그렇게 차가우면 1세제곱미터당 약 6그램까지만 수증기로 남을 수 있어요.",
+   "나머지는 갈 곳이 없어서 캔 위에서 다시 액체가 돼요.",
+   "아침 이슬이나, 에어컨 켠 방에서 나왔을 때 안경에 김이 서리는 것과 같아요.",
+   "땀을 흘리는 건 캔이 아니에요.",
+   "공기예요."
+  ]
+ },
+ "zh-Hant": {
+  "title": "冰飲料罐為什麼會「冒汗」？ #science #physics",
+  "description": "冰罐上的水來自空氣，不是從罐子裡滲出來的。在又熱又潮濕的日子（32 °C、濕度75%），每立方公尺空氣含有約25克水蒸氣。貼著罐子的空氣會冷到接近冰箱溫度，而在約4 °C時，每立方公尺最多只能保留約6克水蒸氣。其餘的就在罐子上凝結成水，和清晨的露水一樣。\n\n更多關於水分子：為什麼微波爐不會從裡面加熱食物 https://youtu.be/ri17BZl0Iq8\n\n資料來源\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\n下次看到杯子冒汗，你就知道水從哪裡來了。你身邊還有什麼會「冒汗」？\n\n腳本、配音和動畫由 AI 製作（Claude；Kokoro 語音）。所有數字都已對照上方資料來源核實。\n#Shorts",
+  "subtitles": [
+   "冰飲料罐為什麼會「冒汗」？",
+   "水不是從裡面漏出來的。",
+   "罐子是密封的。",
+   "溫暖的空氣裡充滿看不見的水蒸氣。",
+   "在又熱又潮濕的日子，每立方公尺空氣大約含有25克水蒸氣。",
+   "碰到冰箱拿出來的罐子，空氣會冷到接近冰箱的溫度。",
+   "那麼冷的時候，每立方公尺最多只有約6克能維持水蒸氣狀態。",
+   "其餘的無處可去，就在罐子上變回液態的水。",
+   "這和清晨的露水一樣，也像你走出冷氣房時眼鏡起霧。",
+   "冒汗的不是罐子。",
+   "是空氣。"
+  ]
+ },
+ "id": {
+  "title": "Kenapa Kaleng Dingin Bisa \"Berkeringat\"? #science #physics",
+  "description": "Air di kaleng dingin berasal dari udara, bukan dari dalam kaleng. Di hari yang panas dan lembap (32 °C, kelembapan 75%), satu meter kubik udara membawa sekitar 25 g uap air. Udara yang menyentuh kaleng mendingin hampir sampai suhu kulkas, dan pada sekitar 4 °C hanya paling banyak sekitar 6 g per meter kubik yang bisa tetap menjadi uap. Sisanya mengembun di kaleng, seperti embun pagi.\n\nLebih lanjut tentang molekul air: Kenapa microwave tidak memanaskan makanan dari dalam https://youtu.be/ri17BZl0Iq8\n\nSumber\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\nLain kali gelasmu \"berkeringat\", kamu sudah tahu dari mana airnya. Apa lagi yang \"berkeringat\" di sekitarmu?\n\nNaskah, suara, dan animasi dibuat dengan AI (Claude; suara Kokoro). Setiap angka sudah diperiksa dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Kenapa kaleng dingin bisa \"berkeringat\"?",
+   "Airnya tidak bocor dari dalam.",
+   "Kalengnya tertutup rapat.",
+   "Udara hangat penuh dengan uap air yang tak terlihat.",
+   "Di hari yang panas dan lembap, satu meter kubik udara membawa sekitar 25 gram uap air.",
+   "Udara yang menyentuh kaleng dari kulkas mendingin hampir sampai suhu kulkas.",
+   "Sedingin itu, paling banyak sekitar enam gram per meter kubik yang bisa tetap menjadi uap.",
+   "Sisanya tidak punya tempat, jadi berubah lagi menjadi cairan, tepat di kaleng.",
+   "Sama seperti embun pagi, atau kacamata yang berembun saat kamu keluar dari ruangan ber-AC.",
+   "Bukan kalengnya yang berkeringat.",
+   "Tapi udaranya."
+  ]
+ },
+ "fil": {
+  "title": "Bakit \"Pinapawisan\" ang Malamig na Lata? #science #physics",
+  "description": "Galing sa hangin ang tubig sa malamig na lata, hindi sa loob nito. Sa mainit at maalinsangang araw (32 °C, 75% humidity), may mga 25 g ng water vapor ang isang metro kubiko ng hangin. Lumalamig ang hanging dumadampi sa lata hanggang halos kasinlamig ng ref, at sa mga 4 °C, hanggang mga 6 g lang bawat metro kubiko ang kayang manatiling singaw. Ang natitira ay namumuo sa lata, gaya ng hamog sa umaga.\n\nHigit pa tungkol sa mga molekula ng tubig: Bakit hindi pinapainit ng microwave ang pagkain mula sa loob https://youtu.be/ri17BZl0Iq8\n\nMga pinagkunan\n- Alduchov & Eskridge (1996), Improved Magnus form approximation of saturation vapor pressure, J. Appl. Meteorol. 35: 601–609 (numbers computed for 32 °C at 75% humidity, and 4 °C)\n- OpenStax, College Physics 2e, 13.6 Humidity, Evaporation, and Boiling (saturation vapour density table)\n- NOAA National Weather Service, Dew point\n\nSa susunod na pagpawisan ang baso mo, alam mo na kung saan galing ang tubig. Ano pa ang \"pinapawisan\" sa paligid mo?\n\nAng script, boses at animation ay gawa ng AI (Claude; boses ng Kokoro). Sinuri ang bawat numero ayon sa mga pinagkunan sa itaas.\n#Shorts",
+  "subtitles": [
+   "Bakit \"pinapawisan\" ang malamig na lata?",
+   "Hindi tumatagas ang tubig mula sa loob.",
+   "Selyado ang lata.",
+   "Puno ang mainit na hangin ng di-nakikitang singaw ng tubig.",
+   "Sa mainit at maalinsangang araw, may mga 25 gramo nito ang isang metro kubiko ng hangin.",
+   "Ang hanging dumadampi sa lata mula sa ref ay lumalamig hanggang halos kasinlamig ng ref.",
+   "Sa ganoong lamig, hanggang mga anim na gramo lang bawat metro kubiko ang kayang manatiling singaw.",
+   "Walang mapuntahan ang natitira, kaya nagiging likido ulit ito, mismo sa lata.",
+   "Kapareho ito ng hamog sa umaga, o ng pagkalabo ng salamin mo paglabas mo sa kuwartong may aircon.",
+   "Hindi ang lata ang pinapawisan.",
+   "Ang hangin."
+  ]
+ }
+}

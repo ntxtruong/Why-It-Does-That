@@ -1,0 +1,5 @@
+0:00.0  hook: script 'metal' / heard 'madal'
+0:18.3  feel: script 'as' / heard 'is'
+
+2 beat(s) to listen to; 2 of 59 words differ (3.4%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

@@ -1,0 +1,162 @@
+{
+ "vi": {
+  "title": "Kim loại không lạnh hơn gỗ #science #physics",
+  "description": "Kim loại không lạnh hơn gỗ. Để trong cùng một phòng, cả hai đều ở nhiệt độ phòng. Tay bạn ấm hơn (khoảng 34 °C), mà nhôm dẫn nhiệt tốt hơn gỗ hơn một nghìn lần, nên da mất nhiệt nhanh hơn và nguội đi nhiều hơn khi chạm vào kim loại. Cảm giác nguội nhanh đó chính là cảm giác lạnh.\n\nThêm về vật lý nhiệt: Vì sao lò vi sóng không làm nóng thức ăn từ bên trong https://youtu.be/ri17BZl0Iq8\n\nNguồn\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), Bảng A.1 và A.3 (nhôm ≈ 237 W/m·K; các loại gỗ ≈ 0,1–0,2 W/m·K) và mục 5.7 (hai vật rắn tiếp xúc nhau)\n- Các thanh da trong hoạt hình dùng công thức nhiệt độ tiếp xúc với các giá trị điển hình; không hiển thị số đo thực tế\n\nTrong nhà bạn, thứ gì chạm vào thấy lạnh nhất?\n\nKịch bản, giọng đọc và hoạt hình do AI tạo ra (Claude; giọng Kokoro). Mọi nhận định đều được đối chiếu với các nguồn ở trên.\n#Shorts",
+  "subtitles": [
+   "Kim loại không lạnh hơn gỗ.",
+   "Để cả hai trong một phòng, chúng sẽ có cùng nhiệt độ.",
+   "Nhưng tay bạn ấm hơn, khoảng 34 °C.",
+   "Nhôm dẫn nhiệt tốt hơn gỗ hơn một nghìn lần.",
+   "Nên da bạn nguội nhiều hơn, và nhanh hơn, trên kim loại.",
+   "Cảm giác nguội nhanh đó chính là cảm giác lạnh.",
+   "Cùng nhiệt độ.",
+   "Khác tốc độ."
+  ]
+ },
+ "th": {
+  "title": "โลหะไม่ได้เย็นกว่าไม้ #science #physics",
+  "description": "โลหะไม่ได้เย็นกว่าไม้ ถ้าวางไว้ในห้องเดียวกัน ทั้งสองอย่างจะมีอุณหภูมิเท่ากับอุณหภูมิห้อง มือของคุณอุ่นกว่า (ประมาณ 34 °C) และอะลูมิเนียมนำความร้อนได้ดีกว่าไม้มากกว่าพันเท่า ผิวหนังจึงสูญเสียความร้อนเร็วกว่าและเย็นลงมากกว่าเมื่อแตะโลหะ การเย็นลงอย่างรวดเร็วนั้นคือสิ่งที่เรารู้สึกว่าเย็น\n\nฟิสิกส์ความร้อนเพิ่มเติม: ทำไมไมโครเวฟไม่ได้ทำให้อาหารร้อนจากข้างใน https://youtu.be/ri17BZl0Iq8\n\nแหล่งอ้างอิง\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), ตาราง A.1 และ A.3 (อะลูมิเนียม ≈ 237 W/m·K; ไม้ ≈ 0.1–0.2 W/m·K) และหัวข้อ 5.7 (ของแข็งสองชิ้นที่สัมผัสกัน)\n- แท่งผิวหนังในแอนิเมชันใช้สูตรอุณหภูมิที่จุดสัมผัสกับค่าทั่วไป ไม่ได้แสดงตัวเลขที่วัดจริง\n\nในบ้านของคุณ อะไรที่จับแล้วรู้สึกเย็นที่สุด?\n\nบทพูด เสียง และแอนิเมชันสร้างโดย AI (Claude; เสียง Kokoro) ข้อมูลทุกข้อได้รับการตรวจสอบกับแหล่งอ้างอิงด้านบน\n#Shorts",
+  "subtitles": [
+   "โลหะไม่ได้เย็นกว่าไม้",
+   "วางทั้งสองอย่างไว้ในห้องเดียวกัน อุณหภูมิจะเท่ากัน",
+   "แต่มือของคุณอุ่นกว่า ประมาณ 34 °C",
+   "อะลูมิเนียมนำความร้อนได้ดีกว่าไม้มากกว่าพันเท่า",
+   "ผิวของคุณจึงเย็นลงมากกว่าและเร็วกว่าเมื่อแตะโลหะ",
+   "การเย็นลงอย่างรวดเร็วนั้น คือสิ่งที่เรารู้สึกว่าเย็น",
+   "อุณหภูมิเท่ากัน",
+   "ความเร็วต่างกัน"
+  ]
+ },
+ "ja": {
+  "title": "金属は木より冷たいわけじゃない #science #physics",
+  "description": "金属は木より冷たいわけではありません。同じ部屋に置いておけば、どちらも室温になります。手は温かく(約34 °C)、アルミニウムは木より千倍以上よく熱を伝えるので、金属に触れると皮膚の熱がより速く奪われ、より冷えます。その急な冷え方が「冷たさ」として感じられるのです。\n\n熱の物理をもっと:電子レンジはなぜ食べ物を内側から温めないの? https://youtu.be/ri17BZl0Iq8\n\n出典\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), 表A.1・A.3(アルミニウム ≈ 237 W/m·K、木材 ≈ 0.1–0.2 W/m·K)および §5.7(接触する2つの固体)\n- アニメーション中の皮膚のバーは、代表的な値を使った接触温度の式によるもので、実測値は示していません\n\nあなたの家で、触って一番冷たく感じるものは何ですか?\n\n台本・音声・アニメーションはAI(Claude、Kokoro音声)で制作しています。すべての主張は上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "金属は木より冷たいわけではありません。",
+   "同じ部屋に置けば、同じ温度になります。",
+   "でも、手は温かく、約34 °Cです。",
+   "アルミニウムは木より千倍以上よく熱を伝えます。",
+   "だから金属の上では、皮膚がより多く、より速く冷えます。",
+   "その急な冷え方が、冷たさとして感じられます。",
+   "同じ温度。",
+   "違うのは速さ。"
+  ]
+ },
+ "ko": {
+  "title": "금속이 나무보다 차가운 건 아니에요 #science #physics",
+  "description": "금속이 나무보다 차가운 건 아닙니다. 같은 방에 두면 둘 다 실온이 됩니다. 손은 더 따뜻하고(약 34 °C), 알루미늄은 나무보다 열을 천 배 넘게 잘 전도하기 때문에 금속에 닿으면 피부가 열을 더 빨리 잃고 더 많이 식습니다. 그 빠른 냉각이 바로 차갑다는 느낌입니다.\n\n열 물리 더 보기: 전자레인지는 왜 음식을 안쪽부터 데우지 않을까 https://youtu.be/ri17BZl0Iq8\n\n출처\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), 표 A.1 및 A.3(알루미늄 ≈ 237 W/m·K; 목재 ≈ 0.1–0.2 W/m·K)과 §5.7(접촉한 두 고체)\n- 애니메이션의 피부 막대는 전형적인 값으로 접촉 온도 공식을 적용한 것이며, 실측 수치는 표시하지 않았습니다\n\n우리 집에서 만졌을 때 가장 차가운 건 뭔가요?\n\n대본, 음성, 애니메이션은 AI(Claude; Kokoro 음성)가 만들었습니다. 모든 내용은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "금속이 나무보다 차가운 건 아닙니다.",
+   "한 방에 두면 둘은 같은 온도가 됩니다.",
+   "하지만 손은 더 따뜻해요, 약 34 °C예요.",
+   "알루미늄은 나무보다 열을 천 배 넘게 잘 전도합니다.",
+   "그래서 금속에서는 피부가 더 많이, 더 빨리 식습니다.",
+   "그 빠른 냉각이 차갑다는 느낌입니다.",
+   "같은 온도.",
+   "다른 속도."
+  ]
+ },
+ "zh-Hant": {
+  "title": "金屬並不比木頭冷 #science #physics",
+  "description": "金屬並不比木頭冷。放在同一個房間裡,兩者都會是室溫。你的手比較溫暖(約 34 °C),而鋁的熱傳導能力比木頭好上一千多倍,所以碰到金屬時,皮膚散熱更快、降溫更多。那種快速降溫,就是你感覺到的冰冷。\n\n更多熱的物理:為什麼微波爐不是從食物內部開始加熱 https://youtu.be/ri17BZl0Iq8\n\n資料來源\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), 表 A.1 與 A.3(鋁 ≈ 237 W/m·K;木材 ≈ 0.1–0.2 W/m·K)以及 §5.7(兩個接觸的固體)\n- 動畫中的皮膚長條是用典型數值代入接觸溫度公式畫成的,並未顯示實測數字\n\n你家裡摸起來最冰的東西是什麼?\n\n腳本、配音與動畫皆由 AI 製作(Claude;Kokoro 語音)。所有說法都已對照上方資料來源查證。\n#Shorts",
+  "subtitles": [
+   "金屬並不比木頭冷。",
+   "把兩者放在同一個房間,溫度會變得一樣。",
+   "但你的手比較溫暖,約 34 °C。",
+   "鋁的熱傳導能力比木頭好上一千多倍。",
+   "所以在金屬上,皮膚降溫更多、也更快。",
+   "那種快速降溫,就是你感覺到的冰冷。",
+   "溫度一樣。",
+   "速度不同。"
+  ]
+ },
+ "id": {
+  "title": "Logam Tidak Lebih Dingin dari Kayu #science #physics",
+  "description": "Logam tidak lebih dingin dari kayu. Kalau dibiarkan di ruangan yang sama, keduanya bersuhu sama dengan suhu ruangan. Tanganmu lebih hangat (sekitar 34 °C), dan aluminium menghantarkan panas lebih dari seribu kali lebih baik daripada kayu, jadi kulitmu kehilangan panas lebih cepat dan mendingin lebih banyak saat menyentuh logam. Pendinginan cepat itulah yang kamu rasakan sebagai dingin.\n\nFisika panas lainnya: Mengapa microwave tidak memanaskan makanan dari dalam https://youtu.be/ri17BZl0Iq8\n\nSumber\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), Tabel A.1 dan A.3 (aluminium ≈ 237 W/m·K; kayu ≈ 0,1–0,2 W/m·K) dan §5.7 (dua benda padat yang bersentuhan)\n- Batang kulit dalam animasi memakai rumus suhu kontak dengan nilai tipikal; tidak ada angka hasil pengukuran yang ditampilkan\n\nApa benda di rumahmu yang terasa paling dingin saat disentuh?\n\nNaskah, suara, dan animasi dibuat oleh AI (Claude; suara Kokoro). Setiap klaim sudah dicek dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Logam tidak lebih dingin dari kayu.",
+   "Taruh keduanya di satu ruangan, dan suhunya akan sama.",
+   "Tapi tanganmu lebih hangat, sekitar 34 °C.",
+   "Aluminium menghantarkan panas lebih dari seribu kali lebih baik daripada kayu.",
+   "Jadi kulitmu mendingin lebih banyak, dan lebih cepat, di logam.",
+   "Pendinginan cepat itulah yang kamu rasakan sebagai dingin.",
+   "Suhu yang sama.",
+   "Kecepatan yang beda."
+  ]
+ },
+ "fil": {
+  "title": "Hindi Mas Malamig ang Metal Kaysa Kahoy #science #physics",
+  "description": "Hindi mas malamig ang metal kaysa kahoy. Kapag iniwan sa iisang kuwarto, parehong nasa room temperature ang dalawa. Mas mainit ang kamay mo (mga 34 °C), at mahigit isang libong beses na mas magaling magpadaloy ng init ang aluminium kaysa kahoy, kaya mas mabilis mawalan ng init ang balat mo at mas lumalamig ito sa metal. Ang mabilis na paglamig na iyon ang nararamdaman mong lamig.\n\nHigit pang physics ng init: Bakit hindi iniinit ng microwave ang pagkain mula sa loob https://youtu.be/ri17BZl0Iq8\n\nMga Source\n- American Physical Society, PhysicsQuest 2019: Getting Warmer, Getting Colder (aps.org)\n- Incropera, DeWitt, Bergman & Lavine, Fundamentals of Heat and Mass Transfer (Wiley), Tables A.1 at A.3 (aluminium ≈ 237 W/m·K; mga kahoy ≈ 0.1–0.2 W/m·K) at §5.7 (dalawang solid na magkadikit)\n- Ang mga skin bar sa animation ay gumagamit ng contact-temperature formula na may mga karaniwang halaga; walang ipinapakitang sinukat na numero\n\nAno ang pinakamalamig sa pakiramdam kapag hinawakan sa bahay ninyo?\n\nAng script, boses, at animation ay gawa ng AI (Claude; Kokoro voice). Bawat claim ay sinuri base sa mga source sa itaas.\n#Shorts",
+  "subtitles": [
+   "Hindi mas malamig ang metal kaysa kahoy.",
+   "Iwan ang dalawa sa iisang kuwarto, at pareho ang magiging temperatura nila.",
+   "Pero mas mainit ang kamay mo, mga 34 °C.",
+   "Mahigit isang libong beses na mas magaling magpadaloy ng init ang aluminium kaysa kahoy.",
+   "Kaya mas lumalamig, at mas mabilis, ang balat mo sa metal.",
+   "Ang mabilis na paglamig na iyon ang nararamdaman mong lamig.",
+   "Parehong temperatura.",
+   "Magkaibang bilis."
+  ]
+ },
+ "new_terms": [
+  {
+   "en": "conduction",
+   "vi": "dẫn nhiệt",
+   "th": "การนำความร้อน",
+   "ja": "熱伝導",
+   "ko": "열전도",
+   "zh-Hant": "熱傳導",
+   "id": "konduksi",
+   "fil": "pagpapadaloy ng init (conduction)"
+  },
+  {
+   "en": "thermal conductivity",
+   "vi": "độ dẫn nhiệt",
+   "th": "สภาพนำความร้อน",
+   "ja": "熱伝導率",
+   "ko": "열전도율",
+   "zh-Hant": "熱傳導率",
+   "id": "konduktivitas termal",
+   "fil": "thermal conductivity"
+  },
+  {
+   "en": "room temperature",
+   "vi": "nhiệt độ phòng",
+   "th": "อุณหภูมิห้อง",
+   "ja": "室温",
+   "ko": "실온",
+   "zh-Hant": "室溫",
+   "id": "suhu ruangan",
+   "fil": "room temperature"
+  },
+  {
+   "en": "contact temperature",
+   "vi": "nhiệt độ tiếp xúc",
+   "th": "อุณหภูมิที่จุดสัมผัส",
+   "ja": "接触温度",
+   "ko": "접촉 온도",
+   "zh-Hant": "接觸溫度",
+   "id": "suhu kontak",
+   "fil": "contact temperature"
+  },
+  {
+   "en": "aluminium",
+   "vi": "nhôm",
+   "th": "อะลูมิเนียม",
+   "ja": "アルミニウム",
+   "ko": "알루미늄",
+   "zh-Hant": "鋁",
+   "id": "aluminium",
+   "fil": "aluminium"
+  },
+  {
+   "en": "microwave",
+   "vi": "lò vi sóng",
+   "th": "ไมโครเวฟ",
+   "ja": "電子レンジ",
+   "ko": "전자레인지",
+   "zh-Hant": "微波爐",
+   "id": "microwave",
+   "fil": "microwave"
+  }
+ ]
+}

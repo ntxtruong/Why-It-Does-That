@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:03,366
+This ice cube is hanging from a thread.
+
+2
+00:00:03,366 --> 00:00:04,572
+No knot, no glue.
+
+3
+00:00:05,072 --> 00:00:07,848
+Just a pinch of salt, and a couple of minutes.
+
+4
+00:00:09,348 --> 00:00:10,496
+Salt melts ice.
+
+5
+00:00:10,496 --> 00:00:12,179
+Most people know that.
+
+6
+00:00:12,679 --> 00:00:15,947
+But salt also makes ice water colder than zero.
+
+7
+00:00:17,447 --> 00:00:20,397
+To see how, we have to watch the molecules.
+
+8
+00:00:22,197 --> 00:00:26,115
+Here is ice sitting in water, at 0 °C.
+
+9
+00:00:26,615 --> 00:00:28,256
+Nothing seems to happen.
+
+10
+00:00:28,256 --> 00:00:31,813
+But at the surface, the molecules never stop moving.
+
+11
+00:00:32,313 --> 00:00:35,598
+Some break free from the ice and join the water.
+
+12
+00:00:35,598 --> 00:00:37,034
+Others stick back on.
+
+13
+00:00:37,534 --> 00:00:43,604
+At zero degrees, both happen at the same rate, so the ice neither grows nor shrinks.
+
+14
+00:00:45,104 --> 00:00:48,282
+Chemists call this a dynamic equilibrium.
+
+15
+00:00:48,282 --> 00:00:49,754
+Busy, but balanced.
+
+16
+00:00:50,254 --> 00:00:53,141
+Warm it a little, and more molecules break free.
+
+17
+00:00:53,141 --> 00:00:55,125
+Cool it a little, and more stick.
+
+18
+00:00:57,225 --> 00:00:58,254
+Now add salt.
+
+19
+00:00:58,254 --> 00:01:03,316
+In water, it splits into two kinds of ions, sodium and chloride.
+
+20
+00:01:03,816 --> 00:01:08,162
+The ions crowd in among the water molecules next to the ice.
+
+21
+00:01:08,662 --> 00:01:12,729
+They do not fit into the ice crystal, so they stay in the water.
+
+22
+00:01:13,229 --> 00:01:17,507
+Fewer water molecules reach the ice each second, so fewer stick.
+
+23
+00:01:18,007 --> 00:01:21,028
+But melting goes on at nearly the same rate.
+
+24
+00:01:21,028 --> 00:01:23,362
+Melting wins, and the ice shrinks.
+
+25
+00:01:24,862 --> 00:01:28,287
+To balance it again, you have to cool it below zero.
+
+26
+00:01:28,287 --> 00:01:30,329
+That is the new freezing point.
+
+27
+00:01:30,829 --> 00:01:34,497
+Seawater has about 3.5 % salt.
+
+28
+00:01:34,497 --> 00:01:38,165
+It freezes at about −1.9 °C.
+
+29
+00:01:38,665 --> 00:01:41,055
+More salt, lower freezing point.
+
+30
+00:01:41,055 --> 00:01:45,236
+Mostly, what matters is how many particles you dissolve.
+
+31
+00:01:47,336 --> 00:01:49,241
+But melting always takes heat.
+
+32
+00:01:49,241 --> 00:01:50,764
+Where does it come from?
+
+33
+00:01:51,264 --> 00:01:52,968
+Nobody is supplying any.
+
+34
+00:01:52,968 --> 00:01:57,087
+So the ice and the water around it give up their own heat.
+
+35
+00:01:58,587 --> 00:02:04,646
+The whole mix cools below zero, and keeps melting until it reaches the new freezing point.
+
+36
+00:02:05,146 --> 00:02:08,004
+That is how you make ice cream in a bag.
+
+37
+00:02:08,004 --> 00:02:10,290
+Ice, salt, and a lot of shaking.
+
+38
+00:02:11,790 --> 00:02:17,452
+With enough table salt, the mix can get down toward −21 °C.
+
+39
+00:02:17,952 --> 00:02:21,920
+That is as cold as salt water can get and still stay liquid.
+
+40
+00:02:24,020 --> 00:02:26,037
+Which explains a winter problem.
+
+41
+00:02:26,537 --> 00:02:29,430
+On a road at −3 °C, salt works well.
+
+42
+00:02:29,930 --> 00:02:35,581
+But the colder it gets, the less ice each handful can melt, and the slower it works.
+
+43
+00:02:37,081 --> 00:02:42,906
+Near −1 °C, a kilo of salt can melt about 46 kg of ice.
+
+44
+00:02:42,906 --> 00:02:45,776
+Near −7 °C, only about nine.
+
+45
+00:02:47,276 --> 00:02:54,019
+Below about −9 °C, road crews usually find plain rock salt too slow.
+
+46
+00:02:54,519 --> 00:03:00,250
+Then they switch to liquid de-icers, or to chemicals that work at colder temperatures.
+
+47
+00:03:02,350 --> 00:03:03,404
+And the thread?
+
+48
+00:03:03,404 --> 00:03:05,513
+Same physics, on a tiny scale.
+
+49
+00:03:06,013 --> 00:03:08,217
+Without salt, nothing happens.
+
+50
+00:03:08,217 --> 00:03:12,039
+The ice and the thin film of water both sit at zero.
+
+51
+00:03:12,539 --> 00:03:18,736
+Salt melts a thin layer of ice around the thread, and that melting pulls heat out of the cube.
+
+52
+00:03:19,236 --> 00:03:21,301
+The cube gets colder than zero.
+
+53
+00:03:22,801 --> 00:03:28,775
+The meltwater dilutes the salt, and the cold cube freezes the water around the thread again.
+
+54
+00:03:29,275 --> 00:03:30,816
+With the thread inside.
+
+55
+00:03:30,816 --> 00:03:33,026
+Lift, and the cube comes with it.
+
+56
+00:03:35,126 --> 00:03:37,292
+So salt does not heat the ice.
+
+57
+00:03:37,292 --> 00:03:38,591
+It tips a balance.
+
+58
+00:03:40,091 --> 00:03:46,954
+Fewer molecules freeze, about the same number melt, and the ice pays for its own melting with heat.
+
+59
+00:03:47,454 --> 00:03:52,302
+Try the thread trick tonight, and tell me how many cubes you lifted at once.

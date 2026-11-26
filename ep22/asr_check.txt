@@ -1,0 +1,4 @@
+0:27.7  snap: script 'under water' / heard 'underwater'
+
+1 beat(s) to listen to; 2 of 111 words differ (1.8%).
+A difference is a place to listen, not proof of an error: homophones ('a ray' / 'array') are expected.

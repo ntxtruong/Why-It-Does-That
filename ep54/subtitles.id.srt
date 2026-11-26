@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:03,202
+Lain kali naik pesawat, hitung sudut di jendelamu.
+
+2
+00:00:03,202 --> 00:00:04,083
+Tidak ada sama sekali.
+
+3
+00:00:04,583 --> 00:00:09,685
+Pada 1954, pesawat jet penumpang pertama terus pecah di udara.
+
+4
+00:00:10,185 --> 00:00:14,320
+Setiap penerbangan memompa kabin seperti balon, lalu mengempiskannya.
+
+5
+00:00:14,820 --> 00:00:19,094
+Di sekitar sudut tajam, semua regangan menumpuk di satu titik kecil.
+
+6
+00:00:19,594 --> 00:00:24,528
+Penerbangan demi penerbangan, retakan tumbuh dari satu sudut persegi, sampai kabin pecah.
+
+7
+00:00:25,028 --> 00:00:28,696
+Bulatkan sudutnya, dan tegangan mengalir mulus di sekitar lubang.
+
+8
+00:00:29,196 --> 00:00:30,653
+Kursi jendela atau lorong?

@@ -1,0 +1,399 @@
+1
+00:00:00,600 --> 00:00:02,107
+Why is the sky blue?
+
+2
+00:00:02,607 --> 00:00:06,305
+And if it's blue all day, why does it turn red at sunset?
+
+3
+00:00:07,805 --> 00:00:09,925
+It isn't a reflection of the sea.
+
+4
+00:00:10,425 --> 00:00:12,723
+And it isn't the colour of space.
+
+5
+00:00:12,723 --> 00:00:13,768
+Space is black.
+
+6
+00:00:14,268 --> 00:00:18,399
+Both colours come from the same sunlight and the same air.
+
+7
+00:00:18,399 --> 00:00:23,172
+The only thing that changes is how much air the light has to cross.
+
+8
+00:00:25,272 --> 00:00:26,557
+Start with sunlight.
+
+9
+00:00:26,557 --> 00:00:30,025
+It looks white, but it's really a mix of every colour.
+
+10
+00:00:30,525 --> 00:00:34,944
+Light travels as a wave, and each colour has its own wavelength.
+
+11
+00:00:35,444 --> 00:00:40,847
+Red waves are long, about 700 nanometres from one crest to the next.
+
+12
+00:00:41,347 --> 00:00:44,988
+Blue waves are shorter, about 450.
+
+13
+00:00:46,488 --> 00:00:51,091
+In empty space, all the colours travel together in a straight line.
+
+14
+00:00:51,091 --> 00:00:52,671
+Nothing separates them.
+
+15
+00:00:54,471 --> 00:00:56,319
+Then the light reaches the air.
+
+16
+00:00:56,819 --> 00:01:00,792
+Air is mostly nitrogen and oxygen molecules.
+
+17
+00:01:01,292 --> 00:01:05,626
+Each one is more than a thousand times smaller than a wave of light.
+
+18
+00:01:06,126 --> 00:01:11,078
+When a light wave passes a molecule, it shakes the electrons inside it.
+
+19
+00:01:11,578 --> 00:01:16,253
+The molecule then sends a little of that light back out, in every direction.
+
+20
+00:01:16,753 --> 00:01:18,492
+This is called scattering.
+
+21
+00:01:18,492 --> 00:01:22,168
+The light isn't absorbed, and it doesn't change colour.
+
+22
+00:01:22,168 --> 00:01:23,907
+It only changes direction.
+
+23
+00:01:26,007 --> 00:01:27,433
+But here's the catch.
+
+24
+00:01:27,433 --> 00:01:30,488
+Molecules don't scatter every colour equally.
+
+25
+00:01:30,988 --> 00:01:37,061
+A shorter wave shakes the electrons faster, and a faster shake sends out far more light.
+
+26
+00:01:37,561 --> 00:01:38,813
+The rule is steep.
+
+27
+00:01:38,813 --> 00:01:43,613
+Cut the wavelength in half, and the scattering goes up sixteen times.
+
+28
+00:01:44,113 --> 00:01:48,294
+So blue light is scattered about six times more strongly than red.
+
+29
+00:01:49,794 --> 00:01:51,197
+Watch what that does.
+
+30
+00:01:51,197 --> 00:01:57,607
+Send 1,000 red photons and 1,000 blue ones straight down through the whole atmosphere.
+
+31
+00:01:58,107 --> 00:02:00,808
+Of the red, fewer than forty are scattered.
+
+32
+00:02:00,808 --> 00:02:02,630
+The rest go straight through.
+
+33
+00:02:03,130 --> 00:02:06,402
+Of the blue, about two hundred are knocked sideways.
+
+34
+00:02:07,902 --> 00:02:13,391
+Lord Rayleigh worked this out in 1871, so it's called Rayleigh scattering.
+
+35
+00:02:13,891 --> 00:02:16,959
+At first, people thought dust was doing it.
+
+36
+00:02:16,959 --> 00:02:21,454
+Later, Einstein showed that the air molecules alone are enough.
+
+37
+00:02:23,254 --> 00:02:27,590
+Now stand on the ground at midday, and look up, away from the sun.
+
+38
+00:02:28,090 --> 00:02:30,395
+There's no lamp in that direction.
+
+39
+00:02:30,395 --> 00:02:35,004
+Without air, that patch of sky would be black, as it is on the Moon.
+
+40
+00:02:35,504 --> 00:02:38,259
+But sunlight is streaming through the air above you.
+
+41
+00:02:38,759 --> 00:02:43,055
+And the molecules up there are scattering a little of it down toward you.
+
+42
+00:02:43,555 --> 00:02:45,649
+What they scatter is mostly blue.
+
+43
+00:02:46,149 --> 00:02:48,926
+It happens in every direction you look.
+
+44
+00:02:48,926 --> 00:02:50,919
+So the whole sky glows blue.
+
+45
+00:02:52,419 --> 00:02:55,207
+The blue sky is sunlight that took a detour.
+
+46
+00:02:56,707 --> 00:02:59,831
+Meanwhile, the sun itself still looks almost white.
+
+47
+00:03:00,331 --> 00:03:03,397
+With the sun overhead, the layer of air is thin.
+
+48
+00:03:03,397 --> 00:03:07,167
+About four fifths of the blue still comes straight through.
+
+49
+00:03:07,667 --> 00:03:11,204
+Look near the horizon, though, and the blue turns pale.
+
+50
+00:03:11,704 --> 00:03:16,590
+That light has crossed so much air that it's been scattered again and again.
+
+51
+00:03:16,590 --> 00:03:19,098
+The colours end up mixed back together.
+
+52
+00:03:19,598 --> 00:03:24,251
+And if you climb higher, there's less air above you to scatter light.
+
+53
+00:03:24,251 --> 00:03:27,083
+The sky darkens, and in space it is black.
+
+54
+00:03:29,183 --> 00:03:29,870
+But wait.
+
+55
+00:03:29,870 --> 00:03:32,922
+Violet waves are even shorter than blue.
+
+56
+00:03:33,422 --> 00:03:36,717
+They're scattered nearly ten times more than red.
+
+57
+00:03:36,717 --> 00:03:38,601
+So why isn't the sky violet?
+
+58
+00:03:39,101 --> 00:03:40,112
+Three reasons.
+
+59
+00:03:40,112 --> 00:03:44,012
+The sun gives off less violet than blue to begin with.
+
+60
+00:03:44,512 --> 00:03:48,095
+Some of that violet is absorbed high in the atmosphere.
+
+61
+00:03:48,595 --> 00:03:52,591
+And our eyes are much less sensitive to violet than to blue.
+
+62
+00:03:53,091 --> 00:03:57,567
+Put those together, and the mix that reaches your brain reads as blue.
+
+63
+00:03:59,667 --> 00:04:01,369
+Now let the sun go down.
+
+64
+00:04:01,869 --> 00:04:05,185
+The atmosphere is a thin shell around the Earth.
+
+65
+00:04:05,185 --> 00:04:08,709
+At midday, sunlight takes the short way through it.
+
+66
+00:04:09,209 --> 00:04:13,954
+At sunset, the light comes in almost flat, skimming along the ground.
+
+67
+00:04:14,454 --> 00:04:17,648
+That path crosses about 38 times more air.
+
+68
+00:04:19,148 --> 00:04:25,514
+And every molecule along the way is still doing the same thing: knocking blue out of the beam.
+
+69
+00:04:26,014 --> 00:04:28,076
+Follow the beam as it goes.
+
+70
+00:04:28,076 --> 00:04:29,604
+It starts out white.
+
+71
+00:04:30,104 --> 00:04:35,221
+Then it turns yellow, then orange, as the blue and the green drain away.
+
+72
+00:04:35,721 --> 00:04:37,879
+Over that distance, it adds up.
+
+73
+00:04:37,879 --> 00:04:41,846
+In clean air, less than a thousandth of the blue is left.
+
+74
+00:04:42,346 --> 00:04:44,632
+But about a quarter of the red survives.
+
+75
+00:04:45,132 --> 00:04:48,814
+So the sun you see is what's left over: orange and red.
+
+76
+00:04:50,314 --> 00:04:54,249
+That leftover light paints the clouds and the low sky around it.
+
+77
+00:04:54,749 --> 00:04:58,737
+Dust and haze in the air can deepen the colour even more.
+
+78
+00:04:59,237 --> 00:05:03,550
+Sunrise works the same way, with the light skimming in from the east.
+
+79
+00:05:05,350 --> 00:05:07,822
+So where did the blue from your sunset go?
+
+80
+00:05:08,322 --> 00:05:09,744
+It wasn't destroyed.
+
+81
+00:05:09,744 --> 00:05:11,948
+Scattered light never vanishes.
+
+82
+00:05:11,948 --> 00:05:13,940
+It only goes somewhere else.
+
+83
+00:05:14,440 --> 00:05:18,110
+It left the beam along the way, far to the west of you.
+
+84
+00:05:18,610 --> 00:05:20,764
+Out there, it's still afternoon.
+
+85
+00:05:20,764 --> 00:05:24,332
+And that scattered light is somebody else's blue sky.
+
+86
+00:05:25,832 --> 00:05:30,428
+The blue sky and the red sunset are two halves of the same sunlight.
+
+87
+00:05:32,228 --> 00:05:34,526
+The same idea explains clouds.
+
+88
+00:05:34,526 --> 00:05:38,510
+A cloud droplet is much bigger than a wave of light.
+
+89
+00:05:39,010 --> 00:05:42,497
+Drops that big scatter every colour about equally.
+
+90
+00:05:42,497 --> 00:05:43,962
+So clouds look white.
+
+91
+00:05:45,462 --> 00:05:48,298
+And on Mars, it works the other way round.
+
+92
+00:05:48,798 --> 00:05:52,227
+The air there is thin, and full of fine dust.
+
+93
+00:05:52,227 --> 00:05:55,198
+That dust turns the daytime sky orange.
+
+94
+00:05:55,698 --> 00:05:59,460
+But around the setting sun, the Martian sky glows blue.
+
+95
+00:06:01,560 --> 00:06:03,969
+So the sky has no colour of its own.
+
+96
+00:06:04,469 --> 00:06:07,155
+Air scatters blue light far more than red.
+
+97
+00:06:07,155 --> 00:06:11,246
+Look away from the sun, and you see the blue that was scattered.
+
+98
+00:06:11,746 --> 00:06:15,454
+Look toward a setting sun, and you see the red that wasn't.
+
+99
+00:06:16,954 --> 00:06:22,850
+Next time you watch a sunset, remember: someone to the west of you is getting your blue.
+
+100
+00:06:23,350 --> 00:06:24,792
+That's why it does that.

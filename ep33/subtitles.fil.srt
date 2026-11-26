@@ -1,0 +1,19 @@
+1
+00:00:00,150 --> 00:00:02,808
+Bawat saging ay medyo radioactive.
+
+2
+00:00:03,308 --> 00:00:09,843
+Mayaman sa potassium ang saging, at isa sa sampung libong atom ng potassium ay radioactive.
+
+3
+00:00:10,343 --> 00:00:15,098
+Puno ng parehong atom ang katawan mo, daan-daang beses na mas marami kaysa sa saging.
+
+4
+00:00:15,598 --> 00:00:21,380
+Hindi ka nagiging mas radioactive sa pagkain ng saging: inilalabas ng katawan ang sobrang potassium.
+
+5
+00:00:21,880 --> 00:00:24,209
+Mas radioactive ka pa kaysa sa saging.

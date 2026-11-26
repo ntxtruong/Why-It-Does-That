@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:03,276
+Setiap biji popcorn adalah panci presto mungil.
+
+2
+00:00:03,776 --> 00:00:07,116
+Di dalamnya ada setetes air, terkurung dalam cangkang yang keras.
+
+3
+00:00:07,616 --> 00:00:14,207
+Mendekati 180 °C, tekanan di dalamnya mencapai sekitar 10 kali udara di sekitarnya.
+
+4
+00:00:14,707 --> 00:00:17,644
+Cangkangnya pecah, dan pati mengembang menjadi busa.
+
+5
+00:00:18,144 --> 00:00:18,911
+Lalu bagaimana dengan bunyi letupannya?
+
+6
+00:00:18,911 --> 00:00:20,955
+Kemungkinan besar, uap yang keluar.

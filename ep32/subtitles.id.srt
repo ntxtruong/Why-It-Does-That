@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:01,966
+Kamu sebenarnya tidak bisa menggelitik dirimu sendiri.
+
+2
+00:00:02,466 --> 00:00:05,853
+Saat kamu bergerak, otakmu memprediksi sentuhan sebelum terjadi.
+
+3
+00:00:06,153 --> 00:00:09,020
+Jadi otak menurunkan sentuhan itu, dan rasa geli memudar.
+
+4
+00:00:09,520 --> 00:00:14,650
+Dalam satu eksperimen, orang menggerakkan satu tangan, dan robot menggosok telapak tangan yang lain.
+
+5
+00:00:14,950 --> 00:00:18,284
+Tambahkan jeda seperlima detik, dan jadi lebih geli.
+
+6
+00:00:18,784 --> 00:00:21,006
+Otakmu menurunkan apa yang sudah bisa ia duga.

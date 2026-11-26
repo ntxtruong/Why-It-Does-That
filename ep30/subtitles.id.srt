@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,393
+Mata biru tidak punya pigmen biru.
+
+2
+00:00:02,893 --> 00:00:06,507
+Semua warna mata berasal dari satu pigmen cokelat: melanin.
+
+3
+00:00:06,807 --> 00:00:10,228
+Mata biru hampir tak punya melanin di lapisan depan iris.
+
+4
+00:00:10,728 --> 00:00:14,271
+Serat kecil di sana menghamburkan cahaya, dan biru paling banyak terhambur.
+
+5
+00:00:14,571 --> 00:00:16,681
+Lapisan belakang yang gelap menyerap sisanya.
+
+6
+00:00:17,181 --> 00:00:20,055
+Tambah sedikit melanin, mata tampak hijau.
+
+7
+00:00:20,055 --> 00:00:21,055
+Tambah lagi, cokelat.
+
+8
+00:00:21,555 --> 00:00:24,226
+Mata biru berwarna biru seperti langit berwarna biru.

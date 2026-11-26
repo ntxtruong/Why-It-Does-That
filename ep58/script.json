@@ -1,0 +1,59 @@
+{
+ "title": "The first tick of a clock lasts too long",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Your Brain Is Tricking You. DO hook: look at the dot, then jump to the ticking clock (stopped-clock illusion) in the first 3 s; wrong guess (the video lagged) killed at ~5 s; reveal (vision switched off during the eye jump) at ~8 s; the brain backfills the gap with the clock; up to half a second; three jumps a second; one-word question; loop.",
+ "related_episode": 29,
+ "scenes": [
+  {
+   "id": "hook",
+   "long": [],
+   "beats": [
+    "Look at the dot. Now jump your eyes to the clock."
+   ],
+   "hold": 1.1
+  },
+  {
+   "id": "guess",
+   "long": [],
+   "beats": [
+    "That first tick seemed to hang. The video didn't lag."
+   ]
+  },
+  {
+   "id": "blind",
+   "long": [],
+   "beats": [
+    "While your eyes jump, your brain switches off the blurry view."
+   ]
+  },
+  {
+   "id": "fill",
+   "long": [],
+   "beats": [
+    "Then it fills the gap with the clock, as if you'd been looking all along."
+   ]
+  },
+  {
+   "id": "stretch",
+   "long": [],
+   "beats": [
+    "That borrowed time lands on the first tick. It can feel up to half a second longer."
+   ]
+  },
+  {
+   "id": "every",
+   "long": [],
+   "beats": [
+    "And your eyes jump about three times a second."
+   ]
+  },
+  {
+   "id": "end",
+   "long": [],
+   "beats": [
+    "Did your clock freeze?"
+   ]
+  }
+ ]
+}

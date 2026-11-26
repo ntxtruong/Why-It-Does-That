@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:03,366
+Balok es ini digantung dengan benang.
+
+2
+00:00:03,366 --> 00:00:04,572
+Tanpa simpul, tanpa lem.
+
+3
+00:00:05,072 --> 00:00:07,848
+Cukup sejumput garam, dan beberapa menit.
+
+4
+00:00:09,348 --> 00:00:10,496
+Garam melelehkan es.
+
+5
+00:00:10,496 --> 00:00:12,179
+Kebanyakan orang sudah tahu itu.
+
+6
+00:00:12,679 --> 00:00:15,947
+Tapi garam juga membuat air es menjadi lebih dingin dari nol derajat.
+
+7
+00:00:17,447 --> 00:00:20,397
+Untuk melihat caranya, kita harus mengamati molekulnya.
+
+8
+00:00:22,197 --> 00:00:26,115
+Ini es yang berada di dalam air, pada 0 °C.
+
+9
+00:00:26,615 --> 00:00:28,256
+Tampaknya tidak ada yang terjadi.
+
+10
+00:00:28,256 --> 00:00:31,813
+Tapi di permukaan, molekul tidak pernah berhenti bergerak.
+
+11
+00:00:32,313 --> 00:00:35,598
+Beberapa lepas dari es dan bergabung dengan air.
+
+12
+00:00:35,598 --> 00:00:37,034
+Yang lain menempel kembali.
+
+13
+00:00:37,534 --> 00:00:43,604
+Pada nol derajat, keduanya terjadi dengan kecepatan yang sama, jadi es tidak membesar atau menyusut.
+
+14
+00:00:45,104 --> 00:00:48,282
+Para ahli kimia menyebut ini kesetimbangan dinamis.
+
+15
+00:00:48,282 --> 00:00:49,754
+Sibuk, tetapi seimbang.
+
+16
+00:00:50,254 --> 00:00:53,141
+Sedikit dihangatkan, lebih banyak molekul yang lepas.
+
+17
+00:00:53,141 --> 00:00:55,125
+Sedikit didinginkan, lebih banyak molekul yang menempel.
+
+18
+00:00:57,225 --> 00:00:58,254
+Sekarang tambahkan garam.
+
+19
+00:00:58,254 --> 00:01:03,316
+Di dalam air, garam terurai menjadi dua jenis ion, natrium dan klorida.
+
+20
+00:01:03,816 --> 00:01:08,162
+Ion-ion itu menyelip di antara molekul air di dekat es.
+
+21
+00:01:08,662 --> 00:01:12,729
+Mereka tidak muat masuk ke kristal es, jadi tetap berada di air.
+
+22
+00:01:13,229 --> 00:01:17,507
+Lebih sedikit molekul air yang sampai ke es setiap detik, jadi lebih sedikit yang menempel.
+
+23
+00:01:18,007 --> 00:01:21,028
+Tapi pencairan tetap berlangsung hampir dengan kecepatan yang sama.
+
+24
+00:01:21,028 --> 00:01:23,362
+Pencairan menang, dan es menyusut.
+
+25
+00:01:24,862 --> 00:01:28,287
+Untuk menyeimbangkannya lagi, kamu harus mendinginkannya hingga di bawah nol.
+
+26
+00:01:28,287 --> 00:01:30,329
+Itulah titik beku yang baru.
+
+27
+00:01:30,829 --> 00:01:34,497
+Air laut mengandung sekitar 3,5 % garam.
+
+28
+00:01:34,497 --> 00:01:38,165
+Air laut membeku pada sekitar −1,9 °C.
+
+29
+00:01:38,665 --> 00:01:41,055
+Makin banyak garam, makin rendah titik bekunya.
+
+30
+00:01:41,055 --> 00:01:45,236
+Yang penting pada dasarnya adalah berapa banyak partikel yang kamu larutkan.
+
+31
+00:01:47,336 --> 00:01:49,241
+Tapi pencairan selalu membutuhkan panas.
+
+32
+00:01:49,241 --> 00:01:50,764
+Dari mana panas itu berasal?
+
+33
+00:01:51,264 --> 00:01:52,968
+Tidak ada yang memasokkannya.
+
+34
+00:01:52,968 --> 00:01:57,087
+Jadi es dan air di sekitarnya melepaskan panas mereka sendiri.
+
+35
+00:01:58,587 --> 00:02:04,646
+Seluruh campuran mendingin di bawah nol, dan terus meleleh sampai mencapai titik beku yang baru.
+
+36
+00:02:05,146 --> 00:02:08,004
+Begitulah cara membuat es krim dalam kantong.
+
+37
+00:02:08,004 --> 00:02:10,290
+Es, garam, dan banyak kocokan.
+
+38
+00:02:11,790 --> 00:02:17,452
+Dengan garam dapur yang cukup, campuran bisa turun hingga sekitar −21 °C.
+
+39
+00:02:17,952 --> 00:02:21,920
+Itulah suhu terdingin yang masih bisa dicapai air garam dan tetap cair.
+
+40
+00:02:24,020 --> 00:02:26,037
+Itu menjelaskan satu masalah musim dingin.
+
+41
+00:02:26,537 --> 00:02:29,430
+Di jalan pada −3 °C, garam bekerja dengan baik.
+
+42
+00:02:29,930 --> 00:02:35,581
+Tapi makin dingin, makin sedikit es yang bisa dilelehkan setiap genggam garam, dan makin lambat kerjanya.
+
+43
+00:02:37,081 --> 00:02:42,906
+Di sekitar −1 °C, satu kilo garam bisa melelehkan sekitar 46 kilo es.
+
+44
+00:02:42,906 --> 00:02:45,776
+Di sekitar −7 °C, hanya sekitar sembilan kilo.
+
+45
+00:02:47,276 --> 00:02:54,019
+Di bawah sekitar −9 °C, petugas jalan biasanya menganggap garam batu biasa terlalu lambat.
+
+46
+00:02:54,519 --> 00:03:00,250
+Lalu mereka beralih ke cairan anti-es, atau bahan kimia yang bekerja pada suhu lebih dingin.
+
+47
+00:03:02,350 --> 00:03:03,404
+Dan benangnya?
+
+48
+00:03:03,404 --> 00:03:05,513
+Fisika yang sama, dalam skala kecil.
+
+49
+00:03:06,013 --> 00:03:08,217
+Tanpa garam, tidak terjadi apa-apa.
+
+50
+00:03:08,217 --> 00:03:12,039
+Es dan lapisan tipis air sama-sama berada di nol derajat.
+
+51
+00:03:12,539 --> 00:03:18,736
+Garam melelehkan lapisan tipis es di sekitar benang, dan pencairan itu menarik panas dari balok es.
+
+52
+00:03:19,236 --> 00:03:21,301
+Balok es menjadi lebih dingin dari nol.
+
+53
+00:03:22,801 --> 00:03:28,775
+Air lelehan mengencerkan garam, dan balok es yang dingin membekukan kembali air di sekitar benang.
+
+54
+00:03:29,275 --> 00:03:30,816
+Dengan benang di dalamnya.
+
+55
+00:03:30,816 --> 00:03:33,026
+Angkat, dan balok es ikut terangkat.
+
+56
+00:03:35,126 --> 00:03:37,292
+Jadi garam tidak memanaskan es.
+
+57
+00:03:37,292 --> 00:03:38,591
+Garam menggeser keseimbangan.
+
+58
+00:03:40,091 --> 00:03:46,954
+Lebih sedikit molekul yang membeku, sekitar jumlah yang sama meleleh, dan es membayar pencairannya sendiri dengan panas.
+
+59
+00:03:47,454 --> 00:03:52,302
+Coba trik benang malam ini, dan beri tahu aku berapa balok es yang bisa kamu angkat sekaligus.

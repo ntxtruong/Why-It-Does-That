@@ -1,0 +1,19 @@
+1
+00:00:00,150 --> 00:00:02,808
+Every banana is a little radioactive.
+
+2
+00:00:03,308 --> 00:00:09,843
+Bananas are rich in potassium, and about one potassium atom in ten thousand is radioactive.
+
+3
+00:00:10,343 --> 00:00:15,098
+Your body is full of the same atoms, hundreds of times more than a banana.
+
+4
+00:00:15,598 --> 00:00:21,380
+Eating one doesn't make you more radioactive: your body flushes out the extra potassium.
+
+5
+00:00:21,880 --> 00:00:24,209
+You're more radioactive than the banana.

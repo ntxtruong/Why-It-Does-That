@@ -1,0 +1,58 @@
+{
+  "title": "Why Does Mint Feel Cold?",
+  "format": "short",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "pause_note": "'long' lists beat indices followed by a pause; Short: 0.6 s",
+  "source_episode": null,
+  "related_episode": 7,
+  "scenes": [
+    {
+      "id": "hook",
+      "long": [],
+      "beats": [
+        "Why does mint feel cold?",
+        "The mint isn't cooling your mouth down."
+      ]
+    },
+    {
+      "id": "sensor",
+      "long": [],
+      "beats": [
+        "Nerves in your mouth carry a tiny cold sensor: a gate that opens when the temperature drops."
+      ]
+    },
+    {
+      "id": "menthol",
+      "long": [
+        1
+      ],
+      "beats": [
+        "Menthol, the molecule in mint, latches onto that same gate.",
+        "Now it opens at warmer temperatures, even in a warm mouth.",
+        "The nerve fires, and your brain gets one message: cold."
+      ]
+    },
+    {
+      "id": "water",
+      "long": [],
+      "beats": [
+        "That's why a sip of water after a mint can feel icy. The sensor is already primed."
+      ]
+    },
+    {
+      "id": "chili",
+      "long": [],
+      "beats": [
+        "Chili plays the same trick on your burning-heat sensor."
+      ]
+    },
+    {
+      "id": "end",
+      "long": [],
+      "beats": [
+        "Mint isn't cold. It just rings the cold alarm."
+      ]
+    }
+  ]
+}

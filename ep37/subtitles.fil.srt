@@ -1,0 +1,19 @@
+1
+00:00:00,150 --> 00:00:02,994
+Ang tubig sa ulap na ito ay 500 tonelada.
+
+2
+00:00:03,494 --> 00:00:09,074
+Ang malambot na ulap na isang kilometro ang lapad ay may halos 0.5 g ng tubig sa bawat cubic meter.
+
+3
+00:00:09,574 --> 00:00:13,872
+Sa mahigit isang bilyong m³, umaabot ito sa 500 tonelada.
+
+4
+00:00:14,372 --> 00:00:20,876
+Lumulutang ito dahil napakaliit ng mga patak kaya napakabagal bumagsak, at sinusuportahan sila ng umaakyat na hangin.
+
+5
+00:00:21,376 --> 00:00:22,781
+Mabigat, pero nakakalat nang manipis.

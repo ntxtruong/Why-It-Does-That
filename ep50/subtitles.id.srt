@@ -1,0 +1,207 @@
+1
+00:00:00,600 --> 00:00:05,057
+Arahkan ponselmu ke lampu langit-langit, dan kamu mungkin melihat ini.
+
+2
+00:00:05,557 --> 00:00:07,942
+Garis gelap bergulir melintasi gambar.
+
+3
+00:00:09,442 --> 00:00:12,955
+Namun bagi matamu, cahayanya tampak sepenuhnya stabil.
+
+4
+00:00:13,455 --> 00:00:15,351
+Jadi yang mana yang benar?
+
+5
+00:00:16,851 --> 00:00:17,718
+Keduanya.
+
+6
+00:00:17,718 --> 00:00:20,519
+Dan alasannya dimulai dari stop kontak di dinding.
+
+7
+00:00:22,319 --> 00:00:25,413
+Listrik di dinding adalah arus bolak-balik.
+
+8
+00:00:25,913 --> 00:00:30,960
+Di Vietnam dan Eropa, arus itu bolak-balik 50 kali per detik.
+
+9
+00:00:30,960 --> 00:00:33,008
+Di Amerika Serikat, 60 kali.
+
+10
+00:00:33,508 --> 00:00:37,104
+Setiap ayunan punya dorongan ke satu arah dan dorongan ke arah sebaliknya.
+
+11
+00:00:37,604 --> 00:00:41,027
+Lampu tidak peduli arah aliran arusnya.
+
+12
+00:00:41,027 --> 00:00:42,875
+Lampu itu terang di kedua puncaknya.
+
+13
+00:00:44,375 --> 00:00:49,978
+Jadi ia bisa mencapai puncak dua kali per ayunan: 100 atau 120 kali per detik.
+
+14
+00:00:52,078 --> 00:00:56,775
+Lampu pijar lama tetap panas di antara puncak, jadi hampir tidak meredup.
+
+15
+00:00:57,275 --> 00:00:59,375
+LED tidak punya ingatan seperti itu.
+
+16
+00:00:59,375 --> 00:01:02,443
+Ia mengikuti daya listriknya hampir seketika.
+
+17
+00:01:02,443 --> 00:01:05,673
+Saat daya turun, cahayanya ikut turun.
+
+18
+00:01:06,173 --> 00:01:10,452
+Driver LED yang bagus meratakan daya, sehingga cahayanya tetap stabil.
+
+19
+00:01:10,952 --> 00:01:16,737
+Driver murah meratakannya kurang baik, sehingga cahayanya bisa bergelombang, kadang hampir padam.
+
+20
+00:01:18,237 --> 00:01:22,158
+Peredupan punya trik lain, disebut pulse-width modulation.
+
+21
+00:01:22,658 --> 00:01:28,561
+LED menyala penuh dan mati penuh dengan sangat cepat, dan lebih lama mati agar terlihat lebih redup.
+
+22
+00:01:29,061 --> 00:01:34,340
+Banyak layar ponsel, dan sebagian layar laptop, meredup dengan cara ini pada kecerahan rendah.
+
+23
+00:01:36,440 --> 00:01:38,564
+Jadi mengapa kamu tidak melihat semua ini?
+
+24
+00:01:39,064 --> 00:01:45,670
+Mata dan otakmu menjumlahkan cahaya dalam waktu singkat, dan menyatukan perubahan cepat menjadi satu cahaya.
+
+25
+00:01:46,170 --> 00:01:51,047
+Bagi kebanyakan orang, kedipan lebih cepat dari sekitar 80 kali per detik terlihat stabil.
+
+26
+00:01:52,547 --> 00:01:59,462
+Tetapi sebagian orang masih menyadarinya, terutama pada layar yang diredupkan, atau saat matanya bergerak cepat melintasi lampu.
+
+27
+00:02:01,562 --> 00:02:03,597
+Kamera ponsel bekerja dengan cara yang berbeda.
+
+28
+00:02:04,097 --> 00:02:07,820
+Sebagian besar kamera ponsel tidak merekam seluruh gambar sekaligus.
+
+29
+00:02:08,320 --> 00:02:12,580
+Mereka membaca sensor satu baris setiap kali, dari atas ke bawah.
+
+30
+00:02:12,580 --> 00:02:14,963
+Ini disebut rolling shutter.
+
+31
+00:02:16,463 --> 00:02:21,625
+Setiap baris mengumpulkan cahaya hanya dalam waktu sangat singkat, terutama di adegan yang terang.
+
+32
+00:02:22,125 --> 00:02:24,628
+Baris yang tertangkap di puncak akan tampak terang.
+
+33
+00:02:24,628 --> 00:02:26,934
+Baris yang tertangkap di lembah akan tampak gelap.
+
+34
+00:02:27,434 --> 00:02:31,335
+Saat baris-baris itu disusun, kedipan berubah menjadi garis-garis di seluruh gambar.
+
+35
+00:02:32,835 --> 00:02:37,356
+Matamu tidak pernah melihatnya, karena matamu tidak melihat satu baris setiap kali.
+
+36
+00:02:39,156 --> 00:02:40,833
+Tapi mengapa garis-garisnya bergerak?
+
+37
+00:02:41,333 --> 00:02:47,608
+Misalkan lampumu berdenyut 100 kali per detik, dan kameramu merekam 30 bingkai per detik.
+
+38
+00:02:48,108 --> 00:02:51,274
+Itu berarti 3⅓ denyut per bingkai.
+
+39
+00:02:51,274 --> 00:02:54,145
+Sepertiga sisanya itulah inti ceritanya.
+
+40
+00:02:54,645 --> 00:03:00,405
+Jadi setiap bingkai baru dimulai sepertiga denyut lebih lambat dalam ritme cahaya, dan garisnya bergeser.
+
+41
+00:03:01,905 --> 00:03:07,898
+Bingkai demi bingkai, garisnya bergulir, seperti roda yang tampak berputar mundur di kamera.
+
+42
+00:03:08,398 --> 00:03:12,214
+Sekarang coba 120 denyut dengan 30 bingkai.
+
+43
+00:03:12,214 --> 00:03:16,966
+Itu tepat 4 denyut per bingkai, jadi garisnya hampir diam.
+
+44
+00:03:19,066 --> 00:03:22,417
+Solusinya adalah membiarkan setiap baris mengumpulkan denyut utuh.
+
+45
+00:03:23,917 --> 00:03:25,457
+Gunakan mode kamera pro.
+
+46
+00:03:25,457 --> 00:03:31,969
+Jika listriknya 50 Hz, atur rana ke 1/50 atau 1/100 detik.
+
+47
+00:03:32,469 --> 00:03:37,253
+Jika 60 Hz, gunakan 1/60 atau 1/120 detik.
+
+48
+00:03:38,753 --> 00:03:43,489
+Sekarang setiap baris menerima jumlah cahaya yang sama, dan garisnya memudar.
+
+49
+00:03:44,989 --> 00:03:50,129
+Banyak ponsel mencoba melakukan ini sendiri, dengan pengaturan bernama anti-banding.
+
+50
+00:03:51,929 --> 00:03:54,522
+Jadi garis-garis itu bukan kerusakan pada kameramu.
+
+51
+00:03:55,022 --> 00:03:58,916
+Itu adalah ritme asli cahaya, yang dihaluskan oleh matamu.
+
+52
+00:04:00,416 --> 00:04:04,155
+Malam ini, arahkan ponselmu ke lampu di rumahmu, dan lihat mana yang berdenyut.

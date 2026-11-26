@@ -1,0 +1,395 @@
+1
+00:00:00,600 --> 00:00:03,389
+Vì sao giữa đĩa thức ăn thừa vẫn còn lạnh?
+
+2
+00:00:04,889 --> 00:00:07,976
+Bạn hâm một đĩa lasagne 3 phút.
+
+3
+00:00:07,976 --> 00:00:09,117
+Phần rìa sủi bọt.
+
+4
+00:00:09,117 --> 00:00:12,338
+Bạn cắn một miếng ở giữa, và nó vẫn lạnh.
+
+5
+00:00:12,838 --> 00:00:18,760
+Điều đó lẽ ra không xảy ra, nếu bạn tin hai điều ai cũng nói về lò vi sóng.
+
+6
+00:00:19,260 --> 00:00:21,869
+Một: nó nấu thức ăn từ trong ra ngoài.
+
+7
+00:00:23,369 --> 00:00:26,718
+Hai: nó được chỉnh theo một tần số riêng của nước.
+
+8
+00:00:27,218 --> 00:00:28,353
+Cả hai đều sai.
+
+9
+00:00:28,353 --> 00:00:32,818
+Lý do thật giải thích được vì sao giữa còn lạnh và vì sao có điểm nóng.
+
+10
+00:00:32,818 --> 00:00:35,316
+Và vì sao rã đông hay hỏng đến vậy.
+
+11
+00:00:35,816 --> 00:00:41,454
+Hết video này, bạn sẽ biết lò vi sóng thực sự làm gì với thức ăn.
+
+12
+00:00:41,454 --> 00:00:43,448
+Và vì sao có bàn xoay.
+
+13
+00:00:45,548 --> 00:00:47,152
+Hãy bắt đầu từ bên trong chiếc hộp.
+
+14
+00:00:47,652 --> 00:00:51,145
+Một thiết bị gọi là magnetron tạo ra vi sóng.
+
+15
+00:00:51,145 --> 00:00:55,027
+Chúng cùng loại sóng với ánh sáng và sóng radio.
+
+16
+00:00:55,027 --> 00:00:58,365
+Mỗi sóng dài khoảng 12 cm.
+
+17
+00:00:58,865 --> 00:01:04,001
+Sóng này mang một điện trường, lúc hướng về phía này, lúc hướng về phía kia.
+
+18
+00:01:05,501 --> 00:01:12,021
+Trong lò vi sóng, nó đổi chiều qua lại khoảng 2.5 tỷ lần mỗi giây.
+
+19
+00:01:12,521 --> 00:01:14,675
+Giờ hãy nhìn một phân tử nước.
+
+20
+00:01:14,675 --> 00:01:20,690
+Một đầu mang điện âm nhẹ, đầu kia mang điện dương nhẹ.
+
+21
+00:01:22,190 --> 00:01:25,033
+Nên điện trường nắm lấy nó và cố xoay nó.
+
+22
+00:01:25,033 --> 00:01:29,198
+Khi điện trường đảo chiều, phân tử lại cố xoay theo hướng ngược lại.
+
+23
+00:01:29,698 --> 00:01:34,256
+Nhưng trong nước lỏng, mỗi phân tử bị các phân tử bên cạnh giữ lại.
+
+24
+00:01:34,256 --> 00:01:36,756
+Nó gần như theo kịp, nhưng không hẳn.
+
+25
+00:01:36,756 --> 00:01:41,976
+Nó chậm hơn một chút, va chạm và cọ xát với các phân tử xung quanh.
+
+26
+00:01:43,476 --> 00:01:45,121
+Sự xô đẩy đó chính là nhiệt.
+
+27
+00:01:45,121 --> 00:01:49,386
+Lò hầu như không làm nóng không khí hay chiếc đĩa dùng được trong lò vi sóng.
+
+28
+00:01:49,386 --> 00:01:52,154
+Nó đang làm rung nước trong thức ăn của bạn.
+
+29
+00:01:52,654 --> 00:01:55,284
+Chất béo và đường cũng góp một phần nhỏ.
+
+30
+00:01:55,284 --> 00:01:58,554
+Nhưng trong hầu hết thực phẩm, nước làm phần lớn công việc.
+
+31
+00:02:00,354 --> 00:02:05,080
+Vậy 2.45 GHz có phải là tần số đặc biệt của nước không?
+
+32
+00:02:05,580 --> 00:02:05,826
+Không.
+
+33
+00:02:05,826 --> 00:02:10,754
+Nước hấp thụ vi sóng trên một dải tần số rộng.
+
+34
+00:02:12,254 --> 00:02:18,742
+Các phân tử nước trễ pha so với điện trường nhiều nhất ở gần 20 GHz, cao hơn khoảng tám lần.
+
+35
+00:02:18,742 --> 00:02:22,241
+Và tần số cao hơn còn bị hấp thụ nhanh hơn nữa.
+
+36
+00:02:22,741 --> 00:02:25,139
+Vậy sao không dùng tần số cao hơn?
+
+37
+00:02:25,639 --> 00:02:28,338
+Vì nước sẽ hấp thụ quá tốt.
+
+38
+00:02:28,338 --> 00:02:33,113
+Gần như toàn bộ năng lượng bị dùng hết ở lớp da ngoài của thức ăn.
+
+39
+00:02:33,113 --> 00:02:36,711
+Bạn sẽ làm cháy bề mặt và để phần trong vẫn sống.
+
+40
+00:02:38,211 --> 00:02:42,973
+Tần số thấp hơn bị hấp thụ chậm hơn, nên đi sâu hơn.
+
+41
+00:02:43,473 --> 00:02:47,263
+2.45 GHz là một sự dung hòa.
+
+42
+00:02:47,263 --> 00:02:54,759
+Nó cũng nằm trong một dải radio được dành riêng trên toàn thế giới cho máy móc công nghiệp, khoa học và y tế.
+
+43
+00:02:54,759 --> 00:02:56,406
+Wi-Fi cũng dùng chung dải này.
+
+44
+00:02:56,406 --> 00:02:57,642
+Nó không phải phép màu.
+
+45
+00:02:57,642 --> 00:02:58,878
+Nó là một lựa chọn.
+
+46
+00:03:00,978 --> 00:03:03,773
+Dù vậy, sóng cũng không đi được xa.
+
+47
+00:03:04,273 --> 00:03:08,932
+Khi đi vào thức ăn, nước liên tục lấy năng lượng của chúng.
+
+48
+00:03:08,932 --> 00:03:15,637
+Đến khi đi sâu 1 hoặc 2 cm vào hầu hết thực phẩm, phần lớn công suất đã mất.
+
+49
+00:03:16,137 --> 00:03:18,338
+Đó là câu trả lời cho phần giữa còn lạnh.
+
+50
+00:03:19,838 --> 00:03:22,811
+Vi sóng chủ yếu làm nóng lớp ngoài.
+
+51
+00:03:22,811 --> 00:03:28,965
+Mọi thứ sâu hơn phải được làm nóng theo cách chậm, nhờ nhiệt từ lớp đó lan dần vào trong.
+
+52
+00:03:29,465 --> 00:03:31,089
+Sự lan dần đó mất vài phút.
+
+53
+00:03:31,089 --> 00:03:33,756
+3 phút trong lò của bạn là chưa đủ.
+
+54
+00:03:35,256 --> 00:03:39,491
+Đó cũng là lý do một lát pizza mỏng nóng xuyên rất nhanh.
+
+55
+00:03:39,491 --> 00:03:42,776
+Còn một cục cơm dày thì giữa vẫn lạnh.
+
+56
+00:03:42,776 --> 00:03:47,302
+Thức ăn càng mỏng, nhiệt càng ít phải đi xa.
+
+57
+00:03:47,802 --> 00:03:51,283
+Vì vậy lò vi sóng không nấu từ trong ra ngoài.
+
+58
+00:03:51,283 --> 00:03:56,648
+Nó nấu từ ngoài vào trong, giống như lò nướng, chỉ là lớp nóng dày hơn.
+
+59
+00:03:57,148 --> 00:04:02,898
+Đây là lý do hướng dẫn bảo bạn khuấy đều, hoặc để thức ăn nghỉ một phút.
+
+60
+00:04:02,898 --> 00:04:09,053
+Khuấy đưa thức ăn nóng vào phần giữa lạnh, còn để nghỉ giúp nhiệt tỏa đều thêm một chút.
+
+61
+00:04:11,153 --> 00:04:13,139
+Nhưng đó chưa phải toàn bộ câu chuyện.
+
+62
+00:04:13,139 --> 00:04:16,085
+Nhiệt cũng không đều trên bề mặt.
+
+63
+00:04:16,585 --> 00:04:20,930
+Bên trong chiếc hộp kim loại, vi sóng dội lại từ các thành lò.
+
+64
+00:04:20,930 --> 00:04:25,350
+Sóng đi theo một hướng chồng lên sóng quay ngược lại.
+
+65
+00:04:25,850 --> 00:04:27,561
+Chỗ nào cùng pha thì cộng lại.
+
+66
+00:04:27,561 --> 00:04:29,744
+Chỗ nào ngược pha thì triệt tiêu.
+
+67
+00:04:31,244 --> 00:04:34,529
+Kết quả là một hình mẫu đứng yên tại chỗ.
+
+68
+00:04:34,529 --> 00:04:38,784
+Có chỗ mạnh và chỗ chết, cách nhau khoảng 6 cm.
+
+69
+00:04:38,784 --> 00:04:40,128
+Tức nửa bước sóng.
+
+70
+00:04:40,628 --> 00:04:42,301
+Bạn có thể tự xem.
+
+71
+00:04:42,301 --> 00:04:46,764
+Tháo bàn xoay ra và hâm nhanh một đĩa kẹo marshmallow.
+
+72
+00:04:46,764 --> 00:04:49,345
+Tìm những chỗ chảy trước.
+
+73
+00:04:49,845 --> 00:04:52,107
+Đo khoảng cách giữa chúng.
+
+74
+00:04:52,107 --> 00:04:57,798
+Nhân đôi, rồi nhân với tần số của lò, bạn sẽ ra tốc độ ánh sáng.
+
+75
+00:04:59,298 --> 00:05:05,184
+Rìa và góc của thức ăn cũng hứng thêm năng lượng, nên chúng sủi bọt trước.
+
+76
+00:05:05,184 --> 00:05:08,271
+Và giờ bạn biết bàn xoay dùng để làm gì.
+
+77
+00:05:08,271 --> 00:05:14,875
+Nó kéo mọi phần thức ăn đi qua các điểm nóng và điểm chết, để chúng cân bằng nhau.
+
+78
+00:05:15,375 --> 00:05:18,950
+Nó có ích, nhưng tâm đĩa hầu như không di chuyển.
+
+79
+00:05:18,950 --> 00:05:21,312
+Đó thường là chỗ có miếng cắn lạnh.
+
+80
+00:05:23,412 --> 00:05:26,342
+Giờ đến phần lạ nhất: thức ăn đông lạnh.
+
+81
+00:05:26,842 --> 00:05:29,547
+Nước đá gần như vô hình với vi sóng.
+
+82
+00:05:29,547 --> 00:05:34,812
+Các phân tử của nó bị khóa trong tinh thể nên không xoay theo điện trường được.
+
+83
+00:05:34,812 --> 00:05:38,442
+Sóng xuyên thẳng qua và hầu như không làm nóng nó.
+
+84
+00:05:39,942 --> 00:05:45,204
+Nhưng ngay khi một góc tan ra, nước lỏng đó bắt đầu hấp thụ rất mạnh.
+
+85
+00:05:45,704 --> 00:05:50,356
+Góc đó nóng nhanh hơn, tan nhiều hơn, rồi hấp thụ nhiều hơn.
+
+86
+00:05:50,356 --> 00:05:51,272
+Nó chạy mất kiểm soát.
+
+87
+00:05:52,772 --> 00:05:58,910
+Vậy là bạn có khối thực phẩm đông lạnh chín ở một mép còn bên trong vẫn là đá cứng.
+
+88
+00:05:59,410 --> 00:06:05,582
+Chế độ rã đông đối phó bằng cách giảm công suất, thường là bật rồi tắt liên tục.
+
+89
+00:06:05,582 --> 00:06:09,491
+Nhờ vậy nhiệt có thời gian lan vào phần còn đóng băng.
+
+90
+00:06:11,591 --> 00:06:14,777
+Vậy vì sao giữa đĩa thức ăn thừa vẫn còn lạnh?
+
+91
+00:06:15,277 --> 00:06:22,067
+Vi sóng làm rung các phân tử nước, nhưng chủ yếu trong 1 hoặc 2 cm ngoài cùng của thức ăn.
+
+92
+00:06:22,567 --> 00:06:26,008
+Phần giữa phải chờ nhiệt lan vào.
+
+93
+00:06:26,008 --> 00:06:31,415
+Chiếc hộp đầy điểm nóng và điểm chết, và bàn xoay chỉ làm được đến thế.
+
+94
+00:06:32,915 --> 00:06:34,116
+Không phải từ trong ra ngoài.
+
+95
+00:06:34,116 --> 00:06:36,357
+Không phải tần số thần kỳ của nước.
+
+96
+00:06:36,357 --> 00:06:39,639
+Chỉ là sóng, nước, và một chút kiên nhẫn.
+
+97
+00:06:40,139 --> 00:06:41,878
+Mình có một câu hỏi cho bạn.
+
+98
+00:06:41,878 --> 00:06:48,450
+Theo bạn, vì sao thức ăn thừa nóng đều hơn khi dàn thành vòng tròn, chừa một lỗ ở giữa?
+
+99
+00:06:48,450 --> 00:06:49,996
+Hãy cho mình biết trong phần bình luận nhé.

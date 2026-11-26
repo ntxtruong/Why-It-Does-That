@@ -1,0 +1,18 @@
+# ep59 retro (falling cat righting reflex, bf_emma, 28.9 s, WEIRD hook)
+- Applied from ep56/55/57 retros: pop-mark zone (x 220-360, y 950-1080) and kara box kept clear in the layout code; no two plates in one slot at once (caught one: "it bends" / "two halves" overlapped 0.1 s -> 0.05 s gap); reveal budgeted inside the 7-10 s window (cut the guess line by 1 s after the first TTS put the reveal at 10.5 s).
+- Critic pass 1: (a) "back legs out" and "pushed off the hand?" plates hidden by the mascot -> right-shifted; (b) roll arrows sat around the neck and read as a collar -> rings centred on each half's midpoint, rotated with the bend; (c) feet-down cat hovered ~110 px above the floor, low-drop cat too -> floor/fall targets fixed; (d) 1894 grid showed six empty dark frames for 0.9 s -> frames fill from 0.3 s.
+- Pass 2: 7.4-9.3 s was a static grid (all frames filled, nothing moving in the 10-second-wall window) -> camera pushes into frame 1 (hand on the cat) + big red "?" at 7.7 s with whoosh/pop.
+- One cat rig (two half-cylinders with roll angle, legs/belly/ears follow the roll) carried all 7 scenes; physics drawn first (front 180°, back -25° then +205°), script read against it.
+- ASR 0/84 differences (bf_emma, en-gb).
+- Still weak: lit area 12-17 % (plum night palette, median-based metric); 1894 frames are small at phone size until the zoom; low-drop scene is the weakest beat.
+- Do better next time: build a reusable rig for the subject first and test 5 poses in one snapshot before writing scenes; check every 2.5 s window of the guess scene, not just scene starts.
+- Prediction: stayed 55-60 %, avg view 12-14 s. Reason: an upside-down cat flipping mid-air at 0 s is a strong WEIRD visual with a pet everyone knows, plus a "cheating cat" story beat; risk: the mechanism (two spins) is abstract.
+
+## Round 2 (cold review 6/10 -> self-score 7.5/10 on the review checklist)
+- Changed: frame 0 reads as falling. The cat is tilted with startled, wide eyes and an open mouth, there are motion streaks above it, a window ledge it fell from with a dashed drop line, and brighter, thicker speed lines. The end matches it for the loop. The 1894 grid of tiny photos became one large flip-book photo (655×780, "frame n / 6" at 48 px) that cycles every 0.6 s, then returns to frame 1 with the hand plus a big "?". "The photos proved them wrong" now sits on "It did not." Axes are 10 px and labels 50 px or more. The low drop got a soft "oof!" (pop, not thud). The ending question is "Seen your cat do this?": narration, TTS and ASR (0/85 differences), the last subtitle in all 7 languages, and the pinned comment were updated.
+- Checklist: frame 0 at 120 px shows a falling cat ✓; the cat (or its photo) is on screen in every frame 0-15 s ✓; it moves every 2 s ✓; text and lines meet the size rules ✓; the question is on topic ✓. Still weak: everything is drawn, so there is no real footage, and the mascot pop mark sits near the subject in the front scene.
+- Lesson: "the hook object stays on screen 7-15 s" also means a picture of the object must be big enough to read. Tiny thumbnails of the subject count as an abstract diagram.
+
+## Round 3 (second review 8/10; polish)
+- Pop marks moved to the same fixed slot left of the mascot's head, off the cat and the photo. Labels no longer repeat the captions: "bend at the waist", "legs tucked = fast spin", "legs out = slow", "now swap the legs", "landed!", "not enough time!", "cheating?".
+- Lesson: write labels as the picture's own short words (a formula, a verdict) and never as a copy of the narration. The caption already carries the sentence.

@@ -1,0 +1,3 @@
+# Skeptic review (2026-10-28)
+
+One subagent briefed as a demanding physicist read script.json and claims.md for episodes 3, 4 and 5 together. All arithmetic checked in Python passed. Every ERROR and MISLEADING item was fixed in script.json with the reviewer's replacement wording (or close to it); CAVEAT items were applied as well. See the gate message to Trường for the list.

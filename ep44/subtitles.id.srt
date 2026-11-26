@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,761
+Bagian keruh pada es sebagian besar adalah udara yang terperangkap.
+
+2
+00:00:03,261 --> 00:00:05,358
+Air keran mengandung udara terlarut.
+
+3
+00:00:05,358 --> 00:00:07,105
+Es hanya bisa menampung sangat sedikit.
+
+4
+00:00:07,605 --> 00:00:11,741
+Cetakan es membeku dari luar ke dalam, mendorong udara ke tengah.
+
+5
+00:00:12,241 --> 00:00:17,593
+Air yang terakhir membeku penuh udara, jadi gelembung kecil terbentuk dan terkunci.
+
+6
+00:00:18,093 --> 00:00:22,546
+Bekukan dari satu sisi saja, dan udara terdorong ke lapisan terakhir.
+
+7
+00:00:22,846 --> 00:00:25,433
+Potong lapisan itu, dan sisa es menjadi bening.
+
+8
+00:00:25,933 --> 00:00:28,634
+Itulah sebabnya es batu biasa keruh di bagian tengah.

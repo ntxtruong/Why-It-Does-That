@@ -1,0 +1,23 @@
+1
+00:00:00,150 --> 00:00:02,179
+A sausage can work your touchscreen.
+
+2
+00:00:02,679 --> 00:00:04,505
+Most screens don't feel pressure.
+
+3
+00:00:04,805 --> 00:00:07,625
+They sense a tiny electric field over the glass.
+
+4
+00:00:08,125 --> 00:00:13,940
+Anything that conducts, like a finger or a sausage, disturbs that field where it touches.
+
+5
+00:00:14,440 --> 00:00:17,646
+A wool glove doesn't conduct, so the screen can't see it.
+
+6
+00:00:18,146 --> 00:00:20,765
+Your screen feels electricity, not touch.

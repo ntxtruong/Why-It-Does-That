@@ -1,0 +1,16 @@
+{
+ "title": "Why pen caps have a hole",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Why Is It Designed Like That? DO hook: a pen cap held up to the light, a beam through the hole at 0 s; wrong guess (for the ink) stamped out at ~4 s; reveal: the cap is breathed in at ~7 s and air still flows through the hole at ~9 s; standard 8 L/min; or too big to breathe in; loop back to the cap in the light; one-word question.",
+ "related_episode": 54,
+ "scenes": [
+  {"id": "hook", "long": [], "beats": ["Hold a pen cap up to the light. See the hole?"]},
+  {"id": "guess", "long": [], "beats": ["It's not there for the ink."]},
+  {"id": "stake", "long": [], "beats": ["Kids chew caps, and now and then, one gets breathed in."]},
+  {"id": "air", "long": [], "beats": ["Stuck in the windpipe, the hole still lets air through, until a doctor gets it out."]},
+  {"id": "rule", "long": [], "beats": ["A safety standard asks for at least eight litres of air a minute through the cap."]},
+  {"id": "big", "long": [], "beats": ["Or a cap too big to breathe in at all."]},
+  {"id": "end", "long": [], "beats": ["Cap chewer: yes or no?"]}
+ ]
+}
