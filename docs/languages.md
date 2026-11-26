@@ -52,3 +52,4 @@ Views are counted from the first frame since 2026-08-27, and a country is not pr
 | Date | Decision |
 |---|---|
 | 2026-11-26 | Added hi, ms, pl to the subtitle/metadata list (trial) and a hi dub trial; de listed as next candidate. Reason: IN 604, MY 255, PL 122 views in 28 days. |
+| 2026-11-26 | Trial started on ep 61 (https://youtube.com/shorts/av2Gxw-DZGA): hi, ms, pl title, description and subtitles uploaded in Studio (machine drafts, native check pending). No hi dub yet (needs Trường's listening test). Read caption/audio language views after 7 days (2026-12-03). |
