@@ -1,0 +1,46 @@
+{
+ "title": "Stop a spinning raw egg and it starts again",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v20, Kitchen Science, hook=why len=short look=flat. WHY hook at 0 s: frame 0 = a raw egg on a wooden board turning again right after a finger lifted off it (motion arcs, finger just above it); 0.4 s finger presses, egg stops, ~2.0 s finger lifts, ~2.5 s egg creeps round again (hold 0.8 s = clean restart). Wrong guess (a sloppy stop) killed at ~4 s by a boiled egg stopped the same way that stays still. Reveal at ~7.8 s on 'Look inside': the raw egg's shell is cut open in place (fills >= 60 % of frame), the white and yolk are still swirling while the shell is pinned. Explain inside the cutaway: swirl drags the shell round on 'drags'. Boiled cutaway is solid and stops all at once. End: 'Raw?' over the restarting raw egg = frame 0 (loop). Related: ep 23 (spinning coin). No mascot.",
+ "related_episode": 23,
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    "Why won't this egg stay stopped?"
+   ],
+   "hold": 0.8
+  },
+  {
+   "id": "guess",
+   "beats": [
+    "It's not a sloppy stop. A boiled egg, stopped the same way, stays still."
+   ]
+  },
+  {
+   "id": "reveal",
+   "beats": [
+    "Look inside. Your finger only stopped the shell."
+   ]
+  },
+  {
+   "id": "why",
+   "beats": [
+    "The runny inside keeps swirling, and when you let go, it drags the shell back around."
+   ]
+  },
+  {
+   "id": "boiled",
+   "beats": [
+    "A boiled egg is solid, so it all stops at once."
+   ]
+  },
+  {
+   "id": "end",
+   "beats": [
+    "Raw?"
+   ]
+  }
+ ]
+}

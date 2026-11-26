@@ -1,0 +1,14 @@
+# Ep 63 storyboard (raw vs boiled egg, Kitchen Science, hook=why len=short look=flat, ~22 s, bella_sarah by rotation)
+Stage: one warm wooden kitchen board (Kitchen Science palette, PANEL #4A2418 brown, cream/yolk accents, no navy), seen from slightly above; the raw egg is big (egg ~620 px long, centre y ~800) and stays on screen 0-22 s. Finger/hand enters from the top right. Captions x 60-1020, y ~1350-1500; nothing important below 1536. One label slot (y ~260), out before in. No mascot.
+Times are estimates; re-time every event to its word (char share of the beat) after TTS.
+
+| scene | ~time | on screen | hands over by |
+|---|---|---|---|
+| hook | 0.0-3.0 | Frame 0: raw egg already turning (speck pattern + motion arcs), finger hovering just above it, label "raw". 0.4 s finger presses down (tap SFX), egg halts; 2.0 s finger lifts (whoosh); 2.5 s the egg creeps round again (rising tick). Caption = the question from the first syllable. | the egg keeps turning as the camera pulls back a little |
+| guess | 3.0-7.5 | Struck label "sloppy stop" on "sloppy". Boiled egg slides in on the left at ~60 % size (label "boiled", whiter shell), same finger stops it on "stopped the same way"; on "stays still" it is dead still while the raw egg at right is still creeping round (contrast in one frame). Change every <=2.5 s: strike 3.6 s, boiled in 4.6 s, stop 5.8 s, still vs moving 6.8 s. | boiled egg slides out left; camera pushes into the raw egg |
+| reveal | 7.5-10.5 | On "Look inside" (~7.7 s): the raw egg's top half of shell cracks and lifts away (crack SFX, flash) = strongest event at 7.5-9 s; egg fills >= 60 % of frame; yolk and white visibly swirling (streak lines >= 8 px). On "only stopped the shell": finger pins the shell, shell rim goes red/still ("shell" label), the swirl keeps going. | the swirl arrows grow |
+| why | 10.5-15.5 | Inside the same cutaway: swirl arrows ("swirl") run; on "let go" finger lifts; on "drags" the arrows hook onto the shell wall and the shell rim turns with them (rising tone). | camera pulls out, boiled egg slides back in beside it, cut open |
+| boiled | 15.5-19.5 | Boiled egg cutaway (solid white ring, firm yolk, label "solid") spins; finger stops it on "stops"; everything inside freezes together (thud), while the raw one next to it still swirls slowly. | boiled egg slides out; raw shell closes back up |
+| end | 19.5-22 | Raw egg whole again, finger lifts, egg turns again = frame 0 exactly; question "Raw?" big (>= 120 px) over the board. Last 0.4 s = frame 0. | loop to hook |
+
+Motion budget: something moves on the raw egg in every 2 s window (turning, swirl, rim). Text sizes >= 44 px; labels 56 px. SFX: tap 0.4, whoosh 2.0, tick 2.5, strike 3.6, slide 4.6, tap 5.8, crack ~7.7, swish ~11.5, rising tone on "drags", thud on "stops", pop on "Raw?".

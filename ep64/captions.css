@@ -1,0 +1,4 @@
+      /* ep64 (v5, "Your Brain Is Tricking You", ink-violet variant, look=boil; no mascot): kara captions span x 60-1020, at the TOP of the frame (review 1: the bottom box hid ruler numbers). */
+      .kara { position: absolute; left: 60px; top: 56px; width: 960px; text-align: center; font-size: 64px; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; color: #FFFFFF; padding: 12px 20px 16px; background: rgba(16, 10, 44, 0.9); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #FFD24A; font-weight: 900; }
+      html, body { background: #100a2c !important; }

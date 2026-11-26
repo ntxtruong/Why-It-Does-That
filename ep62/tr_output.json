@@ -1,0 +1,193 @@
+{
+ "vi": {
+  "title": "Cắt đôi một vòng giấy xoắn: bạn được MỘT vòng #math #mobiusstrip",
+  "description": "Lấy một dải giấy, xoắn nửa vòng rồi dán hai đầu lại thành vòng. Đó là dải Möbius: nó chỉ có một mặt và một mép. Giờ cắt dọc chính giữa. Bạn nghĩ sẽ được hai vòng. Nhưng bạn được một vòng, dài gấp đôi. Đi theo một nửa dải giấy: chỗ xoắn nối nó sang nửa kia, nên hai nửa vốn là một dải đi hai vòng. Vòng mới bị xoắn (hai vòng xoắn trọn) và không còn là dải Möbius. Nếu cắt cách mép một phần ba thì bạn được hai vòng móc vào nhau: một dải Möbius mảnh và một vòng dài gấp đôi. Thử với giấy, băng keo và kéo nhé.\n\nXem thêm: Vì sao mì spaghetti không gãy làm đôi (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nNguồn\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- Hình minh họa mang tính sơ đồ\n\nMọi thông tin đều được kiểm tra theo các nguồn trên.\n#Shorts",
+  "subtitles": [
+   "Xoắn nửa vòng một vòng giấy rồi cắt dọc chính giữa.",
+   "Hai vòng?",
+   "Không.",
+   "Nó bung ra thành một vòng dài.",
+   "Đi theo một nửa.",
+   "Chỗ xoắn nối nó sang nửa kia.",
+   "Vậy hai nửa là một dải, dài gấp đôi.",
+   "Cắt cách mép một phần ba: hai vòng, móc vào nhau.",
+   "Hai?"
+  ]
+ },
+ "th": {
+  "title": "ตัดห่วงกระดาษบิดครึ่งหนึ่ง: ได้ห่วงเดียว #math #mobiusstrip",
+  "description": "เอากระดาษเป็นแถบยาว บิดครึ่งรอบ แล้วติดเทปปลายทั้งสองให้เป็นห่วง นี่คือแถบเมอบิอุส: มีด้านเดียวและขอบเดียว ตอนนี้ตัดตามยาวตรงกลาง คุณคงคิดว่าจะได้สองห่วง แต่จะได้ห่วงเดียวที่ยาวขึ้นสองเท่า ลองตามครึ่งหนึ่งของแถบไป: จุดที่บิดพาไปต่อกับอีกครึ่ง ทั้งสองครึ่งจึงเป็นแถบเดียวที่วนสองรอบ ห่วงใหม่มีการบิด (บิดเต็มสองรอบ) และไม่ใช่แถบเมอบิอุสแล้ว ถ้าตัดห่างจากขอบหนึ่งในสามแทน จะได้สองห่วงที่คล้องกันอยู่: แถบเมอบิอุสเส้นบาง กับห่วงที่ยาวกว่าสองเท่า ลองทำด้วยกระดาษ เทป และกรรไกรดูนะ\n\nดูเพิ่ม: ทำไมเส้นสปาเกตตีไม่หักเป็นสองท่อน (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nแหล่งอ้างอิง\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- ภาพเป็นแผนภาพอย่างง่าย\n\nทุกข้อมูลได้รับการตรวจสอบกับแหล่งอ้างอิงข้างต้น\n#Shorts",
+  "subtitles": [
+   "บิดห่วงกระดาษครึ่งรอบ แล้วตัดตรงกลางตามยาว",
+   "สองห่วง?",
+   "ไม่ใช่",
+   "มันคลายออกเป็นห่วงยาวห่วงเดียว",
+   "ตามไปครึ่งหนึ่ง",
+   "จุดบิดพามันไปต่อกับอีกครึ่ง",
+   "สองครึ่งจึงเป็นแถบเดียว ยาวสองเท่า",
+   "ตัดห่างขอบหนึ่งในสามแทน: สองห่วง คล้องกัน",
+   "สอง?"
+  ]
+ },
+ "ja": {
+  "title": "ねじった紙の輪を半分に切ると、輪は一つ #math #メビウスの帯",
+  "description": "紙の帯を半回転ねじって、両端をテープでとめて輪にします。これがメビウスの帯で、面が一つ、ふちも一つしかありません。真ん中を縦に切ってみましょう。輪が二つになると思いますよね。でも、長さが二倍の輪が一つできます。帯の片方の半分をたどると、ねじれの所でもう片方の半分につながります。二つの半分は、もともと二周する一本の帯だったのです。新しい輪はねじれていて（二回ねじれ）、もうメビウスの帯ではありません。ふちから三分の一の所を切ると、つながった二つの輪ができます。細いメビウスの帯と、その二倍の長さの輪です。紙とテープとはさみで試してみてください。\n\n関連：スパゲッティはなぜ二つに折れないのか（Short） https://youtube.com/shorts/87bY1d5qLyg\n\n出典\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- 図は模式図です\n\nすべての内容は上記の出典で確認しています。\n#Shorts",
+  "subtitles": [
+   "紙の輪を半回転ねじり、真ん中を切る。",
+   "輪が二つ？",
+   "いいえ。",
+   "長い輪が一つになる。",
+   "半分をたどると、",
+   "ねじれで、もう半分につながる。",
+   "二つの半分は一本、長さは二倍。",
+   "三分の一で切ると、つながった輪が二つ。",
+   "二つ？"
+  ]
+ },
+ "ko": {
+  "title": "꼬인 종이 고리를 반으로 자르면: 고리는 하나 #math #뫼비우스의띠",
+  "description": "종이 띠를 반 바퀴 꼬아서 양 끝을 테이프로 붙여 고리를 만드세요. 이것이 뫼비우스의 띠입니다. 면도 하나, 가장자리도 하나뿐이에요. 이제 가운데를 길게 잘라 보세요. 고리 두 개가 될 것 같죠. 하지만 두 배로 긴 고리 하나가 나옵니다. 띠의 한쪽 절반을 따라가 보면, 꼬인 곳에서 다른 절반과 이어집니다. 그래서 두 절반은 원래 두 바퀴 도는 한 띠였어요. 새 고리는 꼬여 있고(두 번 완전히 꼬임) 더 이상 뫼비우스의 띠가 아닙니다. 대신 가장자리에서 3분의 1 지점을 자르면 서로 걸린 고리 두 개가 생깁니다. 가는 뫼비우스의 띠와 두 배 긴 고리예요. 종이, 테이프, 가위로 직접 해 보세요.\n\n더 보기: 스파게티는 왜 두 동강 나지 않을까 (Short) https://youtube.com/shorts/87bY1d5qLyg\n\n출처\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- 그림은 개략도입니다\n\n모든 내용은 위 출처로 확인했습니다.\n#Shorts",
+  "subtitles": [
+   "종이 고리를 반 바퀴 꼬고 가운데를 자르세요.",
+   "고리 두 개?",
+   "아니요.",
+   "긴 고리 하나로 풀립니다.",
+   "한쪽 절반을 따라가면",
+   "꼬인 곳에서 다른 절반과 이어져요.",
+   "두 절반은 한 띠, 길이는 두 배.",
+   "3분의 1 지점을 자르면: 고리 두 개, 서로 걸려요.",
+   "두 개?"
+  ]
+ },
+ "zh-Hant": {
+  "title": "把扭過的紙圈剪成兩半：只得到一個圈 #math #莫比烏斯帶",
+  "description": "拿一條紙帶，扭轉半圈，再把兩端用膠帶黏成一個圈。這就是莫比烏斯帶：它只有一個面、一條邊。現在沿著正中間剪開。你會以為得到兩個圈，結果卻是一個圈，長度變成兩倍。順著紙帶的一半走：扭轉的地方把它接到另一半，所以兩半本來就是一條繞兩圈的紙帶。新的圈是扭著的（扭了兩整圈），已經不是莫比烏斯帶。改從離邊三分之一的地方剪，會得到兩個套在一起的圈：一條細的莫比烏斯帶，和一個兩倍長的圈。拿紙、膠帶和剪刀試試看吧。\n\n延伸觀看：為什麼義大利麵不會剛好斷成兩段（Short） https://youtube.com/shorts/87bY1d5qLyg\n\n資料來源\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- 圖為示意圖\n\n所有內容皆已依上列來源查證。\n#Shorts",
+  "subtitles": [
+   "把紙圈扭半圈，從中間剪開。",
+   "兩個圈？",
+   "不是。",
+   "它散開成一個長圈。",
+   "順著一半走，",
+   "扭轉處把它接到另一半。",
+   "兩半是同一條，長度兩倍。",
+   "改剪三分之一處：兩個圈，套在一起。",
+   "兩個？"
+  ]
+ },
+ "id": {
+  "title": "Gunting Lingkaran Kertas Terpilin Jadi Dua: Hasilnya SATU #math #mobiusstrip",
+  "description": "Ambil sepotong pita kertas, pilin setengah putaran, lalu rekatkan kedua ujungnya jadi lingkaran. Itulah pita Möbius: hanya punya satu sisi dan satu tepi. Sekarang gunting memanjang tepat di tengah. Kamu pasti mengira dapat dua lingkaran. Ternyata kamu dapat satu lingkaran, dua kali lebih panjang. Ikuti satu separuh pita: pilinan menyambungkannya ke separuh yang lain, jadi kedua separuh itu sejak awal satu pita yang berputar dua kali. Lingkaran baru ini terpilin (dua pilinan penuh) dan bukan pita Möbius lagi. Kalau kamu menggunting sepertiga dari tepi, kamu dapat dua lingkaran yang saling mengait: pita Möbius tipis dan lingkaran dua kali lebih panjang. Coba dengan kertas, selotip, dan gunting.\n\nLihat juga: Kenapa spageti tidak pernah patah jadi dua (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nSumber\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- Gambarnya skematis\n\nSetiap klaim sudah dicek dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Pilin lingkaran kertas setengah putaran, lalu gunting di tengah.",
+   "Dua lingkaran?",
+   "Bukan.",
+   "Ia terbuka jadi satu lingkaran panjang.",
+   "Ikuti satu separuh.",
+   "Pilinan menyambungkannya ke separuh lain.",
+   "Jadi kedua separuh satu pita, dua kali panjang.",
+   "Gunting sepertiga dari tepi: dua lingkaran, saling mengait.",
+   "Dua?"
+  ]
+ },
+ "fil": {
+  "title": "Gupitin sa Gitna ang Pinaikot na Papel: ISANG Singsing Lang #math #mobiusstrip",
+  "description": "Kumuha ng piraso ng papel, ikutin ito nang kalahating ikot, at idikit ang dalawang dulo para maging singsing. Iyan ang Möbius strip: iisa lang ang gilid at iisa lang ang mukha nito. Ngayon, gupitin ito nang pahaba sa gitna. Akala mo dalawang singsing ang lalabas. Pero isang singsing ang makukuha mo, doble ang haba. Sundan ang isang kalahati ng papel: dinudugtong ito ng ikot sa kabilang kalahati, kaya iisang piraso lang pala ang dalawang kalahati na umiikot nang dalawang beses. May ikot ang bagong singsing (dalawang buong ikot) at hindi na ito Möbius strip. Kung gugupitin mo naman ito sa ikatlong bahagi mula sa gilid, dalawang singsing na magkakabit ang lalabas: isang manipis na Möbius strip at isang singsing na doble ang haba. Subukan mo gamit ang papel, tape at gunting.\n\nPanoorin din: Bakit hindi nababali sa dalawa ang spaghetti (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nMga pinagkunan\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- Eskematiko ang mga larawan\n\nBawat pahayag ay sinuri ayon sa mga pinagkunan sa itaas.\n#Shorts",
+  "subtitles": [
+   "Ikutin nang kalahati ang papel na singsing at gupitin sa gitna.",
+   "Dalawang singsing?",
+   "Hindi.",
+   "Bumubukas ito bilang isang mahabang singsing.",
+   "Sundan ang isang kalahati.",
+   "Dinudugtong ito ng ikot sa kabilang kalahati.",
+   "Kaya iisang piraso ang dalawa, doble ang haba.",
+   "Gupitin sa ikatlong bahagi mula sa gilid: dalawang singsing, magkakabit.",
+   "Dalawa?"
+  ]
+ },
+ "hi": {
+  "title": "मुड़े हुए कागज़ के छल्ले को बीच से काटें: बनेगा एक ही छल्ला #math #mobiusstrip",
+  "description": "कागज़ की एक पट्टी लें, उसे आधा मोड़ (आधा ट्विस्ट) दें और दोनों सिरों को टेप से जोड़कर छल्ला बना लें। यही मोबियस पट्टी है: इसकी सिर्फ़ एक सतह और एक किनारा होता है। अब इसे लंबाई में ठीक बीच से काटें। आप सोचेंगे कि दो छल्ले बनेंगे। लेकिन बनता है एक ही छल्ला, दोगुना लंबा। पट्टी के एक आधे हिस्से के साथ चलिए: मोड़ उसे दूसरे आधे हिस्से से जोड़ देता है, इसलिए दोनों आधे हिस्से असल में एक ही पट्टी थे जो दो चक्कर लगाती है। नया छल्ला मुड़ा हुआ है (दो पूरे मोड़) और अब मोबियस पट्टी नहीं है। अगर आप किनारे से एक-तिहाई पर काटें, तो दो आपस में फँसे छल्ले बनते हैं: एक पतली मोबियस पट्टी और उससे दोगुना लंबा छल्ला। कागज़, टेप और कैंची से खुद आज़माएँ।\n\nऔर देखें: स्पेगेटी कभी दो टुकड़ों में क्यों नहीं टूटती (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nस्रोत\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- चित्र योजनाबद्ध हैं\n\nहर दावे की जाँच ऊपर दिए स्रोतों से की गई है।\n#Shorts",
+  "subtitles": [
+   "कागज़ के छल्ले को आधा मोड़ें और बीच से काटें।",
+   "दो छल्ले?",
+   "नहीं।",
+   "वह खुलकर एक लंबा छल्ला बन जाता है।",
+   "एक आधे हिस्से के साथ चलिए।",
+   "मोड़ उसे दूसरे आधे से जोड़ देता है।",
+   "तो दोनों आधे एक ही पट्टी हैं, दोगुनी लंबी।",
+   "किनारे से एक-तिहाई पर काटें: दो छल्ले, आपस में फँसे।",
+   "दो?"
+  ]
+ },
+ "ms": {
+  "title": "Gunting Gelung Kertas Berpintal Dua: Hasilnya SATU #math #mobiusstrip",
+  "description": "Ambil sejalur kertas, pintal separuh pusingan, dan lekatkan kedua-dua hujungnya dengan pita menjadi gelung. Itulah jalur Möbius: ia hanya ada satu sisi dan satu tepi. Sekarang gunting memanjang tepat di tengah. Anda mungkin sangka akan dapat dua gelung. Sebaliknya anda dapat satu gelung, dua kali lebih panjang. Ikut separuh jalur itu: pintalan menyambungkannya ke separuh yang lain, jadi kedua-dua separuh itu sebenarnya satu jalur yang berpusing dua kali. Gelung baharu ini berpintal (dua pintalan penuh) dan bukan lagi jalur Möbius. Jika anda gunting satu pertiga dari tepi, anda dapat dua gelung yang bersangkut: jalur Möbius yang nipis dan gelung dua kali lebih panjang. Cubalah dengan kertas, pita pelekat dan gunting.\n\nTonton juga: Kenapa spageti tidak pernah patah dua (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nSumber\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- Gambar adalah skematik\n\nSetiap fakta telah disemak dengan sumber di atas.\n#Shorts",
+  "subtitles": [
+   "Pintal gelung kertas separuh pusingan, kemudian gunting di tengah.",
+   "Dua gelung?",
+   "Bukan.",
+   "Ia terbuka menjadi satu gelung panjang.",
+   "Ikut satu separuh.",
+   "Pintalan menyambungkannya ke separuh lain.",
+   "Jadi kedua-dua separuh satu jalur, dua kali panjang.",
+   "Gunting satu pertiga dari tepi: dua gelung, bersangkut.",
+   "Dua?"
+  ]
+ },
+ "pl": {
+  "title": "Przetnij skręconą pętlę z papieru na pół: wychodzi JEDNA #math #wstęgamöbiusa",
+  "description": "Weź pasek papieru, skręć go o pół obrotu i sklej końce taśmą w pętlę. To wstęga Möbiusa: ma tylko jedną stronę i jedną krawędź. Teraz przetnij ją wzdłuż, dokładnie przez środek. Spodziewasz się dwóch pętli. A dostajesz jedną, dwa razy dłuższą. Idź wzdłuż jednej połowy paska: skręt łączy ją z drugą połową, więc obie połowy od początku były jednym paskiem, który okrąża pętlę dwa razy. Nowa pętla jest skręcona (dwa pełne skręty) i nie jest już wstęgą Möbiusa. Jeśli zamiast tego przetniesz ją w jednej trzeciej szerokości od brzegu, dostaniesz dwie sczepione pętle: cienką wstęgę Möbiusa i pętlę dwa razy dłuższą. Spróbuj z papierem, taśmą i nożyczkami.\n\nZobacz też: Dlaczego spaghetti nigdy nie łamie się na dwie części (Short) https://youtube.com/shorts/87bY1d5qLyg\n\nŹródła\n- Wikipedia: Möbius strip (https://en.wikipedia.org/wiki/M%C3%B6bius_strip)\n- Wolfram MathWorld: Möbius Strip (https://mathworld.wolfram.com/MoebiusStrip.html)\n- Brilliant: Möbius Strips (https://brilliant.org/wiki/mobius-strips/)\n- Martin Gardner, Mathematical Games, Scientific American, June 1957\n- Rysunki są schematyczne\n\nKażda informacja została sprawdzona w powyższych źródłach.\n#Shorts",
+  "subtitles": [
+   "Skręć papierową pętlę o pół obrotu i przetnij przez środek.",
+   "Dwie pętle?",
+   "Nie.",
+   "Rozkłada się w jedną długą pętlę.",
+   "Idź wzdłuż jednej połowy.",
+   "Skręt łączy ją z drugą połową.",
+   "Więc obie połowy to jeden pasek, dwa razy dłuższy.",
+   "Przetnij w jednej trzeciej od brzegu: dwie pętle, sczepione.",
+   "Dwie?"
+  ]
+ },
+ "new_terms": {
+  "Möbius strip": {
+   "vi": "dải Möbius",
+   "th": "แถบเมอบิอุส",
+   "ja": "メビウスの帯",
+   "ko": "뫼비우스의 띠",
+   "zh-Hant": "莫比烏斯帶",
+   "id": "pita Möbius",
+   "fil": "Möbius strip",
+   "hi": "मोबियस पट्टी",
+   "ms": "jalur Möbius",
+   "pl": "wstęga Möbiusa",
+   "de": "Möbiusband"
+  },
+  "half twist": {
+   "vi": "xoắn nửa vòng",
+   "th": "บิดครึ่งรอบ",
+   "ja": "半回転ねじり",
+   "ko": "반 바퀴 꼬기",
+   "zh-Hant": "扭轉半圈",
+   "id": "pilinan setengah putaran",
+   "fil": "kalahating ikot",
+   "hi": "आधा मोड़",
+   "ms": "pintalan separuh pusingan",
+   "pl": "skręt o pół obrotu",
+   "de": "halbe Drehung"
+  },
+  "linked rings": {
+   "vi": "hai vòng móc vào nhau",
+   "th": "ห่วงที่คล้องกัน",
+   "ja": "つながった輪",
+   "ko": "서로 걸린 고리",
+   "zh-Hant": "套在一起的圈",
+   "id": "lingkaran saling mengait",
+   "fil": "magkakabit na singsing",
+   "hi": "आपस में फँसे छल्ले",
+   "ms": "gelung bersangkut",
+   "pl": "sczepione pętle",
+   "de": "verkettete Ringe"
+  }
+ }
+}

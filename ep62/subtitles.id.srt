@@ -1,0 +1,35 @@
+1
+00:00:00,150 --> 00:00:03,488
+Pilin lingkaran kertas setengah putaran, lalu gunting di tengah.
+
+2
+00:00:04,788 --> 00:00:05,971
+Dua lingkaran?
+
+3
+00:00:05,971 --> 00:00:06,562
+Bukan.
+
+4
+00:00:07,062 --> 00:00:09,765
+Ia terbuka jadi satu lingkaran panjang.
+
+5
+00:00:10,265 --> 00:00:11,340
+Ikuti satu separuh.
+
+6
+00:00:11,340 --> 00:00:13,826
+Pilinan menyambungkannya ke separuh lain.
+
+7
+00:00:14,126 --> 00:00:17,253
+Jadi kedua separuh satu pita, dua kali panjang.
+
+8
+00:00:17,753 --> 00:00:21,290
+Gunting sepertiga dari tepi: dua lingkaran, saling mengait.
+
+9
+00:00:21,790 --> 00:00:22,538
+Dua?

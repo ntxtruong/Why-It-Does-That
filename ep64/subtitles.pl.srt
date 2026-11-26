@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,473
+Ściśnij palce, gdy tylko spadnie.
+
+2
+00:00:03,973 --> 00:00:06,362
+Wiele osób łapie ją przy około 20 cm.
+
+3
+00:00:06,362 --> 00:00:07,864
+To nie wolne palce.
+
+4
+00:00:08,364 --> 00:00:09,905
+Ta linijka to zegar.
+
+5
+00:00:10,405 --> 00:00:15,188
+20 cm to 1/5 sekundy: oko, mózg, palce.
+
+6
+00:00:15,688 --> 00:00:17,425
+Spada coraz szybciej.
+
+7
+00:00:17,425 --> 00:00:19,997
+0,3 sekundy i już jej nie ma.
+
+8
+00:00:20,497 --> 00:00:21,475
+Ile cm?
