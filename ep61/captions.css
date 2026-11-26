@@ -1,0 +1,4 @@
+      /* ep61 (v5, "Your Brain Is Tricking You", plum-violet variant; no mascot): kara captions span x 90–990, top of the lower band. */
+      .kara { position: absolute; left: 90px; top: 1392px; width: 900px; text-align: center; font-size: 64px; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; color: #FFFFFF; padding: 12px 20px 16px; background: rgba(24, 8, 44, 0.88); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #5EE8E2; font-weight: 900; }
+      html, body { background: #120826 !important; }

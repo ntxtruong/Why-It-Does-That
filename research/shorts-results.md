@@ -50,3 +50,26 @@ No browser or linked computer in this run (scheduled cloud session), so Studio c
 ## 2026-11-25 (no new numbers)
 
 Scheduled cloud run again had no browser (neither Claude in Chrome nor a linked computer), so Studio could not be read and the 2026-11-18 block stays the latest data. Eps 45–50 are still not uploaded, so the v4 Shorts have no numbers yet; eps 43–44 (Public ~2026-11-18) are past 48 h but unread. Retention graphs of the best and worst Short are still unread.
+
+## 2026-11-26 (dry run v19, eps 53–60, vidIQ only)
+
+Source tags: [vidIQ channel_videos] = views, likes, vph, publish time. [vidIQ channel_analytics] = avg view duration, avg % viewed, subs gained. "missing" = the tool did not return the number. Nothing estimated.
+
+Episode numbers are not written down anywhere in the repo for these uploads. The labels below are inferred by publish order after ep 44 (the 2026-11-17 "Ice Cloudy" Short), so treat them as unconfirmed. Rows are keyed by video ID, which is the reliable column.
+
+| Inferred ep | Video ID | Published (UTC) | Views [channel_videos] | Likes [channel_videos] | Views/hour [channel_videos] | Avg view (s) [channel_analytics] | Subs gained [channel_analytics] |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 53 | 34IL-pABBsg | 2026-11-26 09:00 | 1006 | 3 | 201.2 | missing | missing |
+| 54 | 3fVd4kAmDUo | 2026-11-26 10:00 | 739 | 9 | 184.75 | missing | missing |
+| 55 | 0BKTGLfYHbc | 2026-11-26 11:00 | 700 | 7 | 233.33 | missing | missing |
+| 56 | _MwAVcEh1e0 | 2026-11-26 12:00 | 201 | 4 | 100.5 | missing | missing |
+| 57 | jt534EcP0bc | 2026-11-26 13:00 | 400 | 3 | 400 | missing | missing |
+| 58 | dRTEC3p_sJc | 2026-11-26 14:00 | 118 | 2 | missing | missing | missing |
+| 59 | not on channel at this run | — | missing | missing | missing | missing | missing |
+| 60 | not on channel at this run | — | missing | missing | missing | missing | missing |
+
+Notes:
+- channel_analytics returned no rows for any video published 2026-11-25 or later (its newest rows are 2026-11-17 uploads), so avg view, avg % viewed and subs gained are missing for all of eps 53–58. That looks like reporting lag, not zero.
+- None of these are 48 h old, so none is an experiment readout. Experiment scoreboard not updated.
+- Views and likes are as of the vidIQ call on 2026-11-26; vph is the value vidIQ returned (null for the newest upload, which had no hour count).
+- Not run: vidiq_video_stats (no per-video history was needed for this step), Windsor fallback (not needed, vidIQ returned views and likes), YouTube Studio retention (browser step 10 only).

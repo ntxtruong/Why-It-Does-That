@@ -1,0 +1,46 @@
+{
+ "title": "Cross your fingers, touch your nose: two noses",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Your Brain Is Tricking You, hook=try len=short look=flat. DO hook at 0 s: crossed fingers land on the nose tip with a pink touch ripple at 0.5 s (Aristotle illusion; one nose in frame 0, the \"two\" is first shown at the 8.4 s reveal); 1.4 s hold = clean touch moment; wrong guess (numb / confused fingers) killed at ~5 s; reveal at ~8 s: the brain still uses the uncrossed finger map, the nose splits in two on the stage; outer sides explained inside the zoomed fingertips; Aristotle 2,300+ years ago; one-word question (\"Two?\"); loop to frame one. No mascot.",
+ "related_episode": 52,
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    "Cross two fingers and rub the tip of your nose."
+   ],
+   "hold": 1.4
+  },
+  {
+   "id": "guess",
+   "beats": [
+    "Feels like two? It's not your fingers."
+   ]
+  },
+  {
+   "id": "reveal",
+   "beats": [
+    "Your brain still thinks they're uncrossed."
+   ]
+  },
+  {
+   "id": "why",
+   "beats": [
+    "Then these outer sides could only touch two different things. So it feels two noses."
+   ]
+  },
+  {
+   "id": "old",
+   "beats": [
+    "Aristotle wrote about this trick over two thousand years ago."
+   ]
+  },
+  {
+   "id": "end",
+   "beats": [
+    "Two?"
+   ]
+  }
+ ]
+}
