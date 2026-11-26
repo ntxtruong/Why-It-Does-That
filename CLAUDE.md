@@ -19,6 +19,7 @@ This file is the core every agent reads; keep it under about 25 KB. Details move
 | `docs/production.md` | Producing an episode, brand kit, older production lessons | Build agents |
 | `docs/upload-studio.md` | Uploading in YouTube Studio, music, subtitles, translations, dubbed audio, every upload lesson | Browser (Claude in Chrome) agent only |
 | `docs/glossary.md` | Term glossary for the 7 translations | Translation agent only |
+| `docs/languages.md` | Audience countries, language lists (subtitles, dubs), trials, the language expansion rule and its log | Coordinator (step 1) and translation agent |
 | `docs/references.md` | Reference repositories | When asked |
 | `docs/archive.md` | Superseded weekly routine with gates, old open items | Nobody by default |
 
