@@ -13,4 +13,4 @@ Open work carried between runs. The coordinator reads this first and updates it 
 
 ## Other
 
-(none)
+- [ ] 2026-11-27 run (v20): eps 62, 63, 64 are BUILT and pushed (commit a794691 on claude/project-thread-1ku2hd) but NOT uploaded: Windsor `upload_video` was rate-limited again on its one retry, and no browser was connected. Per ep: media/epNN-*.mp4, ep NN/dub.ja.mp3, dub.zh-Hant.mp3, subtitles.*.srt (en + vi th ja ko zh-Hant id fil + trial hi ms pl), meta_en.json, youtube-metadata.md (tags, Related, playlist, pinned comment). Next run: upload (Chrome/built-in browser first), full Studio finishing, then schedule. Scores: ep62 7.5 (round 2); ep63 7.0 and ep64 7.5 at round 3, then a last fix round with no re-review: re-review both (needs >= 7.5) BEFORE scheduling. hi/ms/pl subtitles and hi dub are trial; hi dub not built (needs Trường's listening test).
