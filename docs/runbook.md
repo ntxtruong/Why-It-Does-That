@@ -2,7 +2,7 @@
 
 Approved by Trường on 2026-11-26 ("Duyệt, làm và chạy thử"). The scheduled task prompt stays short and points here, so change the routine by editing this file, not the task. CLAUDE.md (core) still wins over this file on any conflict; say so in one line.
 
-Goal of every run: 3 Shorts (or the number the prompt names), each with an independent review score ≥ 7.5 and no P0, on YouTube as **Unlisted**, with EN subtitles, 7 translations and ja/zh dubbed audio, and a short Vietnamese report. Never Public, never scheduled, never deleted unless Trường asks in chat.
+Goal of every run: 3 Shorts (or the number the prompt names), each with an independent review score ≥ 7.5 and no P0, on YouTube as **Unlisted**, with EN subtitles, 7 translations (plus the trial languages in `docs/languages.md`) and ja/zh dubbed audio, and a short Vietnamese report. Never Public, never scheduled, never deleted unless Trường asks in chat.
 
 ## Token rules (read first)
 
@@ -33,6 +33,7 @@ Goal of every run: 3 Shorts (or the number the prompt names), each with an indep
 
 ## 1. Measure (Haiku agent, no browser needed)
 
+- Language expansion data: `vidiq_channel_analytics` with `report: audience_geography` for the last 28 days (feeds the rule below).
 - vidIQ: `vidiq_channel_videos` / `vidiq_video_stats` / `vidiq_channel_analytics` for channel `UC9sC_yvLVzT19dxs39Q22fg`: per Short views, average view duration, stayed % or average % viewed where offered, likes, subs gained.
 - If vidIQ gives nothing: Windsor `get_data` (connector `youtube`; call `get_fields` first).
 - Append one dated block to `research/shorts-results.md`; mark which tool gave which number. Missing numbers stay missing; never estimate them.
@@ -93,7 +94,7 @@ Scoreboard: one table in `docs/learning.md` (columns: episode, label, 48 h views
 
 ## 8. Translations, dubs, metadata (Haiku agent)
 
-Title, description WITHOUT any mention of AI, Claude, TTS or how it was made (sources list stays), tags, pinned-comment draft in `youtube-metadata.md`; 7 translations (vi, th, ja, ko, zh-Hant, id, fil) with the glossary. Optional: `vidiq_score_title` on 2–3 title options, pick the best.
+Title, description WITHOUT any mention of AI, Claude, TTS or how it was made (sources list stays), tags, pinned-comment draft in `youtube-metadata.md`; 7 translations (vi, th, ja, ko, zh-Hant, id, fil) with the glossary, plus the trial subtitle languages hi, ms, pl from `docs/languages.md` (machine-drafted, native check pending; de is a later candidate). Run the language expansion rule (below) once per run. Optional: `vidiq_score_title` on 2–3 title options, pick the best.
 
 ## 9. Upload (Windsor, no browser needed)
 
@@ -117,9 +118,13 @@ Not reachable: say so in one line; the items stay in the queue for the next run.
 - Commit and push; update `state/queue.md` last.
 - Report to Trường in short Vietnamese: numbers and what changed because of them; what was made (topic, voice, length, independent score per round, prediction, experiment label); the experiment scoreboard in two lines; per video either **"sẵn sàng"** (uploaded + finished in the browser) or **"đã lên Unlisted, chưa làm đẹp"** with links; what could not be checked (ask him to listen to one video when a voice, SFX or dub changed). Tell him to schedule only videos marked "sẵn sàng".
 
+## Language expansion (standing rule, 2026-11-26)
+
+Details, audience table, trial plan and log: `docs/languages.md`. Each run: read audience countries (step 1), compare with the languages we have, and add any language that has about 100 or more views in 28 days (or 2 %) and a workable path: subtitles and metadata when a translation is possible, a dubbed track only with a verified TTS license and a quality check by Trường. Record it in the log of `docs/languages.md` and one line in `docs/learning.md` Learnings, add it to step 8 and the glossary, and mention it in the report. Hindi dubbed audio (Kokoro) is a one-video trial; voice quality and YouTube's per-video track limit are unverified. Unlisted only, nothing Public or scheduled, no deletes, as always.
+
 ## Hard rules
 
 - Never make a video Public or schedule it unless Trường asks in chat; never delete a video; never sign in, type passwords or switch accounts; confirm the channel before any Studio action; never post comments.
 - Never present an unverified number as fact.
-- Vietnamese, Thai, Indonesian and Korean dubs are on hold until Trường decides.
+- Vietnamese, Thai, Indonesian and Korean dubs are on hold until Trường decides. Hindi dub is a trial on one Short only (see `docs/languages.md`).
 - If Trường writes during a run, his message comes first.
