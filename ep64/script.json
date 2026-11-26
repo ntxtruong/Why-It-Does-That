@@ -1,0 +1,46 @@
+{
+ "title": "Catch the falling ruler: your reaction time in centimetres",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Your Brain Is Tricking You, hook=try len=short look=boil (hand-drawn line wobble, Animation rules item 8; this Short only). DO + COUNTDOWN at 0 s: a big yellow ruler hangs from a drawn hand, already swaying, open catching fingers at its bottom, on-screen countdown 3-2-1; the viewer pinches their own fingers. Drop at ~2.7 s inside the 1.4 s hold (real g at the drawn scale), the hand closes on the 20 cm mark ~0.2 s later = clean try-it moment (0-4 s only ruler and hands move). Wrong guess 'slow fingers' struck at ~6 s. Reveal at ~8.2 s on 'clock': the cm numbers flip into seconds ON the ruler (strongest event). Why: a signal pulse runs eye -> brain -> fingers along the ruler edge, landing on 0.2 s. Consequence: unevenly spaced time ticks (0.1 s at 5 cm, 0.2 s at 20 cm), 0.3 s points past the ruler end (44 cm), the ruler falls out of the hand. One-word question 'Centimetres?'; the ruler snaps back up to frame one. No mascot.",
+ "related_episode": 58,
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    "Pinch your fingers the instant it drops."
+   ],
+   "hold": 1.0
+  },
+  {
+   "id": "guess",
+   "beats": [
+    "Many people catch it around twenty. It's not slow fingers."
+   ]
+  },
+  {
+   "id": "reveal",
+   "beats": [
+    "This ruler is a clock."
+   ]
+  },
+  {
+   "id": "why",
+   "beats": [
+    "Twenty centimetres is a fifth of a second: eye, to brain, to fingers."
+   ]
+  },
+  {
+   "id": "speed",
+   "beats": [
+    "It falls faster and faster. Three tenths of a second, and it's gone."
+   ]
+  },
+  {
+   "id": "end",
+   "beats": [
+    "Centimetres?"
+   ]
+  }
+ ]
+}

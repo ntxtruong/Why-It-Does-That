@@ -1,0 +1,47 @@
+{
+ "title": "Cut a twisted paper loop in half: you get one ring",
+ "format": "short",
+ "voice": "auto",
+ "pause_note": "v5, Why Is It Designed Like That? / Everyday Physics, hook=try len=short look=flat. DO hook at 0 s: a big yellow paper loop with ONE half twist (Mobius strip) on a green cutting mat, scissors already moving along the inked centre line, title 'Cut it in half.' (frame 0 never shows the result). Wrong guess (two rings) shown as two ghost rings and struck out at ~5 s on 'Nope'. Strongest event at ~7.8 s on 'one': the cut closes and the paper springs open into ONE ring twice as long. Why explained inside the strip: a gold paint stroke runs along one half, the twist hands it to the other half, it needs two laps to get home. Consequence: a 1/3 cut gives two rings, linked (shown). One-word ending 'Two?' echoes the wrong guess; the linked pair folds back into the frame-0 loop. No mascot. Avoid saying 'Mobius' (ASR); it is on screen as a label only.",
+ "related_episode": 46,
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    "Half-twist a paper loop and cut it down the middle."
+   ],
+   "hold": 0.8
+  },
+  {
+   "id": "guess",
+   "beats": [
+    "Two rings? Nope."
+   ]
+  },
+  {
+   "id": "reveal",
+   "beats": [
+    "It falls open into one long ring."
+   ]
+  },
+  {
+   "id": "why",
+   "beats": [
+    "Follow one half. The twist joins it to the other half.",
+    "So both halves are one strip, twice as long."
+   ]
+  },
+  {
+   "id": "third",
+   "beats": [
+    "Cut a third from the edge instead: two rings, linked."
+   ]
+  },
+  {
+   "id": "end",
+   "beats": [
+    "Two?"
+   ]
+  }
+ ]
+}

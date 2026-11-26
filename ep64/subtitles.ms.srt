@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:02,473
+Sepit jari sebaik ia jatuh.
+
+2
+00:00:03,973 --> 00:00:06,362
+Ramai orang menangkapnya sekitar 20 cm.
+
+3
+00:00:06,362 --> 00:00:07,864
+Bukan kerana jari lambat.
+
+4
+00:00:08,364 --> 00:00:09,905
+Pembaris ini sebuah jam.
+
+5
+00:00:10,405 --> 00:00:15,188
+20 cm ialah 1/5 saat: mata, ke otak, ke jari.
+
+6
+00:00:15,688 --> 00:00:17,425
+Ia jatuh semakin laju.
+
+7
+00:00:17,425 --> 00:00:19,997
+0.3 saat, dan ia hilang.
+
+8
+00:00:20,497 --> 00:00:21,475
+Berapa cm?

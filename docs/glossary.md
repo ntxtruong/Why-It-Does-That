@@ -250,3 +250,34 @@ Terms from episodes 19–21 (2026-11-07), with the two new languages (machine-dr
 - floating finger illusion: ảo ảnh ngón tay lơ lửng / ภาพลวงนิ้วลอย / 浮かぶ指の錯視 / 떠다니는 손가락 착시 / 漂浮手指錯覺 / ilusi jari melayang / floating finger illusion
 - double images (physiological diplopia): ảnh đôi (song thị sinh lý) / ภาพซ้อน / 生理的複視 / 생리적 복시 / 生理性複視 / diplopia fisiologis / physiological diplopia
 - binocular vision: thị giác hai mắt / การมองเห็นด้วยสองตา / 両眼視 / 양안시 / 雙眼視覺 / penglihatan binokular / binocular vision
+
+## Glossary additions (ep 63, 2026-11-26; machine-drafted, native check pending; adds hi / ms / pl / de columns)
+
+| English | vi | th | ja | ko | zh-Hant | id | fil | hi | ms | pl | de |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| raw egg | trứng sống | ไข่ดิบ | 生卵 | 날달걀 | 生雞蛋 | telur mentah | hilaw na itlog | कच्चा अंडा | telur mentah | surowe jajko | rohes Ei |
+| hard-boiled egg | trứng luộc chín | ไข่ต้มสุก | ゆで卵 | 완숙 삶은 달걀 | 全熟水煮蛋 | telur rebus matang | nilagang itlog | उबला अंडा | telur rebus masak | jajko na twardo | hartgekochtes Ei |
+| eggshell | vỏ trứng | เปลือกไข่ | 殻 | 껍데기 | 蛋殼 | cangkang telur | balat ng itlog | छिलका | kulit telur | skorupka | Eierschale |
+| yolk | lòng đỏ | ไข่แดง | 黄身 | 노른자 | 蛋黃 | kuning telur | pula ng itlog | ज़र्दी | kuning telur | żółtko | Eigelb |
+| egg white | lòng trắng | ไข่ขาว | 白身 | 흰자 | 蛋白 | putih telur | puti ng itlog | सफ़ेद भाग | putih telur | białko | Eiweiß |
+| friction | ma sát | แรงเสียดทาน | 摩擦 | 마찰 | 摩擦 | gesekan | friction (pagkiskis) | घर्षण | geseran | tarcie | Reibung |
+
+## Glossary additions (ep 64, 2026-11-26; machine-drafted, native check pending; trial languages hi / ms / pl / de)
+
+| English | hi | ms | pl | de |
+| --- | --- | --- | --- | --- |
+| reaction time | प्रतिक्रिया समय (रिएक्शन टाइम) | masa tindak balas | czas reakcji | Reaktionszeit |
+| ruler drop test | रूलर ड्रॉप टेस्ट | ujian jatuhan pembaris | test spadającej linijki | Linealfalltest |
+| free fall | मुक्त पतन | jatuh bebas | spadek swobodny | freier Fall |
+
+- ruler drop test (other languages): thử nghiệm thả thước / การทดสอบปล่อยไม้บรรทัด / 定規落下テスト / 자 떨어뜨리기 테스트 / 落尺測試 / uji jatuhkan penggaris / ruler drop test
+- free fall: rơi tự do / การตกอย่างอิสระ / 自由落下 / 자유 낙하 / 自由落體 / jatuh bebas / malayang pagbagsak
+- reaction time (id / fil): waktu reaksi / reaction time (oras ng reaksyon)
+
+## Glossary additions (ep 62, 2026-11-26; machine-drafted, native check pending; with hi / ms / pl / de)
+
+| English | vi | th | ja | ko | zh-Hant | id | fil | hi | ms | pl | de |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Möbius strip | dải Möbius | แถบเมอบิอุส | メビウスの帯 | 뫼비우스의 띠 | 莫比烏斯帶 | pita Möbius | Möbius strip | मोबियस पट्टी | jalur Möbius | wstęga Möbiusa | Möbiusband |
+| half twist | xoắn nửa vòng | บิดครึ่งรอบ | 半回転ねじり | 반 바퀴 꼬기 | 扭轉半圈 | pilinan setengah putaran | kalahating ikot | आधा मोड़ | pintalan separuh pusingan | skręt o pół obrotu | halbe Drehung |
+| linked rings | hai vòng móc vào nhau | ห่วงที่คล้องกัน | つながった輪 | 서로 걸린 고리 | 套在一起的圈 | lingkaran saling mengait | magkakabit na singsing | आपस में फँसे छल्ले | gelung bersangkut | sczepione pętle | verkettete Ringe |

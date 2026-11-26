@@ -77,3 +77,71 @@ Notes:
 ## 2026-11-26 (daily learning, vidIQ only, evening)
 
 [vidIQ channel_videos, Shorts] views at the call: eps 45–52 (Public 11-25 03:29): floating finger 1,612 · nose hum 1,527 · blue banana 1,298 · ice thread 1,263 · spaghetti 1,229 · flicker 1,107; plane windows 1,202 · apple 1,086 (11-25 17:06); today: cat eyes 1,020 · pen cap 1,023 · wooden spoon 1,037 (09:00–11:00 UTC), clock 419, falling cat 933, brain freeze 640, ep 61 two noses 6 (just Public 17:00). Avg view, stayed % and subs are missing (channel_analytics lags days). [vidIQ channel_analytics audience_geography, 28 d] unchanged top rows VN 7,163 · PH 1,378 · US 1,221 · ID 656 · IN 604 · GB 360 · MY 255 · AU 167 · BD 141 · PL 122 · DE 106. Nothing is 48 h old except the 11-25 03:29 batch (~38 h), so no readout.
+
+## 2026-11-27 (run step 1 Measure, vidIQ only, no browser)
+
+Sources: [vidIQ balance] 50 of 150 credits left before this run (renews 2026-12-26). [vidIQ channel_analytics video, filter creatorContentType==shorts, 28 d 2026-10-29 to 2026-11-26] = 28-day views, average view duration (s), average % viewed, likes, subs gained. [vidIQ channel_videos short] = lifetime views at call time. Episode numbers not mapped here (docs/episodes.md not read for this step); batches are given by publish date. Missing = not in the analytics report yet (lag of about 1 day or more); not estimated.
+
+Shorts with analytics (35), sorted by 28-day views:
+
+| video id | title (short) | published | 28 d views | avg view s | avg % viewed | likes | subs | lifetime views (channel_videos) |
+|---|---|---|---|---|---|---|---|---|
+| x9TG6EeIw6k | Never seen your own eyes move | 11-13 | 1318 | 21 | 81.13 | 6 | 1 | 1321 |
+| LacxsCy1bD4 | Wheels spin backwards on camera | 11-04 | 1233 | 19 | 44.75 | 15 | 0 | 1237 |
+| oCMnmIV865w | Only your fingers wrinkle | 11-06 | 1125 | 21 | 42.12 | 23 | 2 | 1126 |
+| 68ujuWT-S38 | Toast lands butter-side down | 11-13 | 1092 | 22 | 55.46 | 13 | 0 | 1093 |
+| 2BMXXYMflqo | No blue pigment in blue eyes | 11-13 | 1042 | 12 | 47.84 | 5 | 0 | 1045 |
+| EPwNRqBfxmQ | Why bubbles are round | 11-06 | 1038 | 16 | 39.39 | 15 | 0 | 1041 |
+| 4rVE9CZWvp0 | Spoon looks broken in water | 11-11 | 972 | 17 | 40.73 | 3 | 1 | 973 |
+| X1yAwU4o-IY | Water drops dance on hot pan | 11-02 | 968 | 14 | 25.84 | 4 | 0 | 968 |
+| U5rGtP0ecLc | Phone sees TV remote light | 11-17 | 900 | 13 | 49.99 | 4 | 0 | 903 |
+| BUfHtg1alZk | Spinning coin speeds up | 11-11 | 747 | 19 | 45.68 | 9 | 1 | 751 |
+| Cvag-o12Y_0 | Why ice floats | 11-04 | 712 | 18 | 36.87 | 16 | 1 | 713 |
+| MECxNamPXm0 | Soda bubbles, same spots | 11-11 | 682 | 22 | 50.10 | 3 | 1 | 684 |
+| IoEhYfSo1L0 | Can't reach a rainbow | 11-06 | 676 | 23 | 46.78 | 2 | 0 | 678 |
+| zzZN7ROpzIw | Middle still cold (microwave) | 11-04 | 507 | 20 | 52.35 | 12 | 0 | 508 |
+| QkXspjB1slk | Noise cancels noise | 11-06 | 456 | 15 | 32.06 | 1 | 0 | 457 |
+| spWxRpOGi-c | Traffic jams from nowhere | 11-04 | 407 | 24 | 51.33 | 6 | 1 | 408 |
+| iClyKDBr2t4 | Voice sounds weird on recordings | 11-06 | 362 | 54 | 110.70 | 1 | 0 | 365 |
+| 4K_FW6LOnH8 | Earth closest to Sun in January | 11-13 | 356 | 16 | 56.42 | 1 | 0 | 359 |
+| jO-X1uK-_ng | Phone dark through sunglasses | 11-13 | 191 | 15 | 39.45 | 0 | 0 | 193 |
+| z52GJoO77VQ | Why mint feels cold | 11-13 | 162 | 25 | 59.60 | 2 | 0 | 164 |
+| iFLH3_OMWpw | Popcorn kernel pressure cooker | 11-16 | 158 | 15 | 68.30 | 1 | 0 | 160 |
+| 9vzy6nn_b2o | Moon looks huge on horizon | 11-04 | 155 | 21 | 50.59 | 5 | 1 | 156 |
+| cm_Eakuq2hg | Banana is radioactive | 11-16 | 140 | 14 | 53.72 | 1 | 0 | 143 |
+| FEyj6Q8DPNk | Ice cloudy in the middle | 11-17 | 115 | 8 | 27.97 | 0 | 0 | 119 |
+| 2H3JKpaoU9c | Cold can sweats | 11-09 | 109 | 16 | 36.76 | 0 | 0 | 111 |
+| zHdmdV43ZBc | Cloud water weighs 500 t | 11-16 | 104 | 12 | 50.20 | 1 | 0 | 105 |
+| OOFm9DL05Lo | Can't tickle yourself | 11-16 | 90 | 15 | 68.12 | 1 | 0 | 92 |
+| 83oD6LoDdqw | Hole in what you see | 11-16 | 89 | 14 | 68.95 | 1 | 0 | 90 |
+| O5MZe1QmebQ | Sky blue, sunsets red | 11-09 | 80 | 18 | 39.33 | 0 | 0 | 81 |
+| 2S26Rfn2dic | Taller in the morning | 11-16 | 55 | 24 | 105.59 | 1 | 0 | 57 |
+| cepu9ZvZs2E | Metal isn't colder than wood | 11-16 | 48 | 14 | 55.18 | 0 | 0 | 51 |
+| F8jZQfNaTRc | Old windows aren't melting | 11-16 | 47 | 26 | 106.61 | 0 | 0 | 49 |
+| FEYNFX6RTtM | Not the ocean in a seashell | 11-16 | 47 | 23 | 113.99 | 0 | 0 | 50 |
+| ljbGJokxkBs | Why onions make you cry | 11-09 | 45 | 20 | 41.96 | 0 | 0 | 46 |
+| 4UJBaVeyAyk | Sausage works touchscreen | 11-16 | 37 | 15 | 69.16 | 0 | 0 | 38 |
+
+Shorts published 11-25 and 11-26 (vidIQ lifetime views only; analytics rows missing, so avg view, avg % and subs stay missing):
+
+| batch | video id | title (short) | lifetime views |
+|---|---|---|---|
+| 11-25 03:29 | naMxN3RhNsI | Floating finger | 1612 |
+| 11-25 03:29 | vIcsvxcAPjo | Pinch nose and hum | 1527 |
+| 11-25 03:29 | LyOw8UnK4hw | Blue banana | 1298 |
+| 11-25 03:29 | X-WCbBQgG-o | Ice cube with thread | 1274 |
+| 11-25 03:29 | 87bY1d5qLyg | Spaghetti never snaps | 1229 |
+| 11-25 03:29 | bkFole10bRs | Film lights in slow motion | 1107 |
+| 11-25 17:06 | ly6j5FGA5nI | Plane windows no corners | 1202 |
+| 11-25 17:06 | txhUyxA7h50 | Apple half goes brown | 1086 |
+| 11-26 09:00 | 34IL-pABBsg | Cats' eyes glow | 1020 |
+| 11-26 10:00 | 3fVd4kAmDUo | Pen caps have a hole | 1023 |
+| 11-26 11:00 | 0BKTGLfYHbc | Wooden spoon, boil over | 1037 |
+| 11-26 12:00 | _MwAVcEh1e0 | First second on a clock | 419 |
+| 11-26 13:00 | jt534EcP0bc | Falling cat flips | 933 |
+| 11-26 14:00 | dRTEC3p_sJc | Ice cream brain freeze | 640 |
+| 11-26 17:00 | av2Gxw-DZGA | Two noses (cross fingers) | 6 |
+
+Totals and notes: 35 analytics Shorts sum to 16,265 views in the 28-day window; 9 subs gained from Shorts in the same window. Median average view duration across the 35 is 18 s (range 8 to 54 s; the 54 s outlier is the voice-recordings Short at 110.7 % viewed, probably a loop, not verified). The channel-level 9 s average view in the 2026-11-18 block is from an older window and is not comparable to these per-video numbers. Stayed % and retention curves: not read (Studio step not run).
+
+Audience geography (vidIQ channel_analytics audience_geography, 28 d, Shorts views by country, average view seconds in brackets): VN 7,163 (17 s) · PH 1,378 (19) · US 1,221 (22) · ID 656 (18) · IN 604 (18) · GB 360 (19) · MY 255 (25) · AU 167 (19) · BD 141 (20) · PL 122 (17) · DE 106 (18) · CA 99 (19) · ZA 89 (16). Top 3 countries hold about 76 % of the country-tagged views (VN, PH, US combined 9,762 of 12,779 across the 25 country rows returned; the country total is below the 16,265 video total, so some views carry no country tag).

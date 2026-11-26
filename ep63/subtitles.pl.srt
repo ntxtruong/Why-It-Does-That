@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:01,707
+Czemu to jajko nie chce stać?
+
+2
+00:00:03,007 --> 00:00:04,365
+To nie wina niedbałego zatrzymania.
+
+3
+00:00:04,365 --> 00:00:07,199
+Jajko na twardo, zatrzymane tak samo, stoi.
+
+4
+00:00:07,699 --> 00:00:08,367
+Zajrzyj do środka.
+
+5
+00:00:08,367 --> 00:00:10,316
+Palec zatrzymał tylko skorupkę.
+
+6
+00:00:10,816 --> 00:00:15,509
+Płyn w środku dalej wiruje, a gdy puścisz, znowu rozkręca skorupkę.
+
+7
+00:00:16,009 --> 00:00:18,789
+Jajko na twardo jest stałe, więc staje od razu całe.
+
+8
+00:00:19,289 --> 00:00:19,794
+Surowe?

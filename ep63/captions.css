@@ -1,0 +1,4 @@
+      /* ep63 (v5, Kitchen Science, warm walnut variant; no mascot): kara captions span x 90–990, top of the lower band. */
+      .kara { position: absolute; left: 90px; top: 262px; width: 900px; text-align: center; font-size: 64px; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; color: #FFF8EE; padding: 12px 20px 16px; background: rgba(40, 16, 8, 0.9); border-radius: 22px; transform-origin: center center; }
+      .kara b { color: #FFC23D; font-weight: 900; }
+      html, body { background: #22100a !important; }
