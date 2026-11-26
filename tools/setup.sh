@@ -6,7 +6,9 @@ cd "$(dirname "$0")/.."
 
 echo "== Python packages (voice, speech check)"
 pip install --break-system-packages -q kokoro-onnx soundfile sherpa-onnx numpy
-pip install --break-system-packages -q "misaki[ja,zh]"   # dubbed ja / zh tracks (tools/dub.py), 2026-11-26
+# dubbed ja / zh tracks (tools/dub.py). jieba / unidic-lite fail to build with the legacy setup.py path
+# on Debian ("install_layout" error, seen 2026-11-26), so use PEP 517 builds; fall back to the plain call.
+pip install --break-system-packages -q --use-pep517 "misaki[ja,zh]" || pip install --break-system-packages -q "misaki[ja,zh]"
 
 echo "== Kokoro voice model (tts/, about 350 MB, git-ignored)"
 mkdir -p tts asr
@@ -25,7 +27,7 @@ if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install 
 
 echo "== Checks"
 if [ "$(fc-list : family | grep -ci '^Inter' || true)" -gt 0 ]; then echo "Inter font: ok"; else echo "WARNING: Inter font missing (apt package fonts-inter)"; fi
-. tools/env.sh
+set +e; . tools/env.sh; set -e   # env.sh globs may find nothing; do not abort the checks
 [ -x "$HYPERFRAMES_BROWSER_PATH" ] && echo "headless shell: $HYPERFRAMES_BROWSER_PATH" || echo "WARNING: no Chromium headless shell under /opt/pw-browsers"
 ffmpeg -version | head -1
 npx hyperframes --version 2>/dev/null | head -1 || true

@@ -1,0 +1,16 @@
+◆  Capturing 6 frames at [18.9s, 19.3s, 19.8s, 20.1s, 20.2s, 20.24s] from ep61
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to /root/.cache/hyperframes/fonts/inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+
+   Fonts: 1 loaded, 4 unused
+
+◇  6 snapshots saved to snapshots/
+   snapshots/frame-00-at-18.9s.png
+   snapshots/frame-01-at-19.3s.png
+   snapshots/frame-02-at-19.8s.png
+   snapshots/frame-03-at-20.1s.png
+   snapshots/frame-04-at-20.2s.png
+   snapshots/frame-05-at-20.24s.png
+   contact-sheet.jpg (grid view for AI review)
+   --describe: GEMINI_API_KEY not set, skipping

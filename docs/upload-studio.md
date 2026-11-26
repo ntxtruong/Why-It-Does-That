@@ -95,3 +95,10 @@ Editor: `https://studio.youtube.com/video/<video ID>/editor` → "Âm thanh". Ta
 - End screen in the upload dialog: template card 1 at about (346,235) in a 1362-wide viewport; type start times into the first field; the editor remembered the video-element position from the previous video.
 - Music: filters reset on every editor load; "Không cần ghi công" then "Tìm kiếm" with the track name works with real clicks. `#add-track-button` adds for the whole video; "⋮" at the right end of the chip, slider to 15, Lưu twice, tick, "Xác nhận thay đổi".
 - Trường's Chrome window shrank mid-run (614 px wide); `resize_window` 1024×720 was accepted, 1280+ refused.
+
+## Lessons from the 2026-11-26 Chrome upload of ep 61 (fresh browser profile, no localStorage helpers)
+
+- Order matters: add music in the editor BEFORE the dubbed audio. After the ja / zh-Hant audio is published ("Đang xử lý..."), the editor's "Âm thanh" row is disabled with a tooltip until processing ends.
+- Dub dialog: `#language-details-text-button-audio` → `ytcp-button#upload-button` ("Chọn tệp"; capture the file input with the `HTMLInputElement.prototype.click` override) → set `files` (File type `audio/mpeg`) + `change` → `ytcp-button#publish-button`. Closing the language dialog then shows "Lưu và tiếp tục?": real click on "Lưu nội dung thay đổi".
+- The Filipino row is "Tiếng Philippines"; the language picker holds 238 `tp-yt-paper-item`s in the DOM, find by exact text.
+- Upload defaults already add 5 tag chips; add the episode's tags after them.
