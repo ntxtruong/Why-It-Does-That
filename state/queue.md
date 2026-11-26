@@ -8,7 +8,7 @@ Open work carried between runs. The coordinator reads this first and updates it 
 
 ## Waiting for browser finishing (step 10 of docs/runbook.md)
 
-- [ ] ep61 https://youtube.com/shorts/av2Gxw-DZGA (id av2Gxw-DZGA, Unlisted). Done: details, EN subs, 7 translations + subs, ja/zh dubs published, music "Spring In My Step" (YouTube Audio Library, no attribution, bright, mix 15) saved ~15:35 UTC, hi/ms/pl trial subtitles+titles uploaded (check table). Still to check next run: after the editor's music processing ends, the Âm thanh column of the translations table must show ja and zh-Hant dubs again (it showed "Không đủ điều kiện" while editing; Studio said manual dubs are auto-adjusted to the new main audio). Not possible: end screen (disabled for Shorts in the editor). Thumbnail: left on the automatic frame 0 ("Try this right now").
+- [x] ep61 https://youtube.com/shorts/av2Gxw-DZGA (Unlisted): details, EN subs, 10 subtitle languages (7 standing + hi/ms/pl trial), ja + zh-Hant dubs (re-checked 2026-11-26 ~15:30 UTC in the built-in browser: both show "Đã xuất bản" again after the music edit), music "Spring In My Step" mix 15. Not possible: end screen on a Short. Thumbnail left on automatic frame 0. Delete this line next run.
 - [ ] Windsor `upload_video` retry: it was rate-limited 3 times on 2026-11-26 ~15:00 UTC. Retry once in the next run (commit-SHA raw URL) with a fresh small Short; if it still fails, keep Chrome as the upload path and note the time and error text.
 (eps 55–60 were uploaded and finished in Claude in Chrome on 2026-11-26)
 

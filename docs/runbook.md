@@ -107,7 +107,7 @@ Title, description WITHOUT any mention of AI, Claude, TTS or how it was made (so
 5. Write the video URL into `docs/episodes.md` and add a "browser finishing" item per video to `state/queue.md`.
 6. If Windsor fails twice: leave the whole upload to step 10 (the v18 Chrome upload in `docs/upload-studio.md`) and note it in the queue.
 
-## 10. Browser finishing (Sonnet agent, Claude in Chrome on Trường's computer)
+## 10. Browser finishing (Sonnet agent, Trường's built-in browser `mcp__remote-devices__Claude_Browser__*`; Claude in Chrome is no longer the default, Trường 2026-11-26)
 
 Only if Claude in Chrome is reachable. Confirm channel ID first; one foreground tab. For each queue item: **in this order**: altered content = No, Related video, EN subtitles, 7 translations (re-read the table after), then **music** by mood with licence "Không cần ghi công" confirmed before saving, mix 15, Save (wait until the video is processed), and only after that the **dubbed audio** on the Japanese and Chinese (Phồn Thể) rows. Dubs must come last: while the ja / zh audio shows "Đang xử lý..." the Studio Editor's Âm thanh tool is locked (found 2026-11-26, ep 61). Create a missing pillar playlist Unlisted. All fetches in the browser use commit-SHA raw URLs, never the branch name. Follow `docs/upload-studio.md` and its helpers (`__wid_up`, `__wid_full`, `__wid_h`, `__wid_music` in localStorage). Tick the item in `state/queue.md`. When the page is open anyway, read impressions and the swipe-away share for the Shorts in the experiment scoreboard (page text only).
 

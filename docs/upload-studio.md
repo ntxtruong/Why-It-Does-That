@@ -102,3 +102,6 @@ Editor: `https://studio.youtube.com/video/<video ID>/editor` → "Âm thanh". Ta
 - Dub dialog: `#language-details-text-button-audio` → `ytcp-button#upload-button` ("Chọn tệp"; capture the file input with the `HTMLInputElement.prototype.click` override) → set `files` (File type `audio/mpeg`) + `change` → `ytcp-button#publish-button`. Closing the language dialog then shows "Lưu và tiếp tục?": real click on "Lưu nội dung thay đổi".
 - The Filipino row is "Tiếng Philippines"; the language picker holds 238 `tp-yt-paper-item`s in the DOM, find by exact text.
 - Upload defaults already add 5 tag chips; add the episode's tags after them.
+
+- After saving music with dubs already published, the Audio column shows "Không đủ điều kiện" for a few minutes, then both dubs return to "Đã xuất bản" (ep 61, 2026-11-26). Either order of music and dubs works; music first is still the safer order.
+- Trường (2026-11-26): use the built-in browser (`mcp__remote-devices__Claude_Browser__*`) for Studio work from now on, not Claude in Chrome. It is signed in to the same channel; same JS helpers work (`javascript_tool`).
