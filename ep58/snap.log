@@ -1,12 +1,25 @@
-◆  Capturing 3 frames at [13.2s, 14.6s, 16.2s] from ep58
+◆  Capturing 16 frames at [0s, 1.4s, 2.2s, 3.5s, 4.6s, 5.5s, 7.2s, 9s, 10s, 13.5s, 15s, 18.5s, 21s, 24s, 27s, 29.3s] from ep58
 [INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
 [hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, Vulkan 1.4.335 (llvmpipe (LLVM 20.1.2 256 bits) (0x00000000)), llvmpipe)")
 
    Fonts: 1 loaded, 2 unused
 
-◇  3 snapshots saved to snapshots/
-   snapshots/frame-00-at-13.2s.png
-   snapshots/frame-01-at-14.6s.png
-   snapshots/frame-02-at-16.2s.png
-   contact-sheet.jpg (grid view for AI review)
+◇  16 snapshots saved to snapshots/
+   snapshots/frame-00-at-0s.png
+   snapshots/frame-01-at-1.4s.png
+   snapshots/frame-02-at-2.2s.png
+   snapshots/frame-03-at-3.5s.png
+   snapshots/frame-04-at-4.6s.png
+   snapshots/frame-05-at-5.5s.png
+   snapshots/frame-06-at-7.2s.png
+   snapshots/frame-07-at-9s.png
+   snapshots/frame-08-at-10s.png
+   snapshots/frame-09-at-13.5s.png
+   snapshots/frame-10-at-15s.png
+   snapshots/frame-11-at-18.5s.png
+   snapshots/frame-12-at-21s.png
+   snapshots/frame-13-at-24s.png
+   snapshots/frame-14-at-27s.png
+   snapshots/frame-15-at-29.3s.png
+   contact-sheet-1..2.jpg (grid view for AI review)
    --describe: GEMINI_API_KEY not set, skipping

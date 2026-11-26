@@ -28,11 +28,11 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="28.879" data-width="1080" data-height="1920">
-      <canvas id="sim" width="1080" height="1920" class="clip" data-start="0" data-duration="28.879" data-track-index="0" data-layout-allow-overflow></canvas>
-      <audio id="narration" class="clip" src="./mix.wav" data-start="0" data-duration="28.879" data-track-index="1" data-volume="1"></audio>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="28.668" data-width="1080" data-height="1920">
+      <canvas id="sim" width="1080" height="1920" class="clip" data-start="0" data-duration="28.668" data-track-index="0" data-layout-allow-overflow></canvas>
+      <audio id="narration" class="clip" src="./mix.wav" data-start="0" data-duration="28.668" data-track-index="1" data-volume="1"></audio>
       <div id="c0" class="clip q" data-start="0" data-duration="3.661" data-track-index="2">Upside down. Nothing to push on.</div>
-      <div id="c1" class="clip q" data-start="25.1" data-duration="3.779" data-track-index="14">Cat person or dog person?</div>
+      <div id="c1" class="clip q" data-start="25.1" data-duration="3.568" data-track-index="14">Seen your cat do this?</div>
       <div id="k0" class="clip kara" data-start="0.15" data-duration="1.109" data-track-index="40">This cat is falling</div>
       <div id="k1" class="clip kara" data-start="1.259" data-duration="0.701" data-track-index="41"><b>upside</b> down,</div>
       <div id="k2" class="clip kara" data-start="1.96" data-duration="1.901" data-track-index="40">with <b>nothing</b> to push on.</div>
@@ -78,7 +78,7 @@
       window.renderFrame = renderFrame;
       const clock = { t: 0 };
       const tl = gsap.timeline({ paused: true });
-      tl.to(clock, { t: 28.879, duration: 28.879, ease: "none", onUpdate: () => renderFrame(clock.t) }, 0);
+      tl.to(clock, { t: 28.668, duration: 28.668, ease: "none", onUpdate: () => renderFrame(clock.t) }, 0);
       tl.fromTo("#c0",{scale:0.94},{scale:1,duration:0.6,ease:"power3.out"},0);tl.to("#c0",{opacity:0,duration:0.25,ease:"power1.in"},3.411);
       tl.fromTo("#c1",{opacity:0,y:26},{opacity:1,y:0,duration:0.4,ease:"power3.out"},25.1);
       tl.fromTo("#k0",{opacity:0,scale:0.92},{opacity:1,scale:1,duration:0.16,ease:"power2.out"},0.15);

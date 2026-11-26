@@ -43,7 +43,7 @@ const kword = w => { const bare = w.toLowerCase().replace(/[^a-z0-9%°-]/g, "");
 
 const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const kclips = K.map((k, i) => `      <div id="k${i}" class="clip kara" data-start="${k.from}" data-duration="${(k.to - k.from).toFixed(3)}" data-track-index="${40 + (i % 2)}">${k.words.map(w => kword(esc(w))).join(" ")}</div>`).join("\n");
-const kanims = K.map((k, i) => `tl.fromTo("#k${i}",{opacity:0,scale:0.92},{opacity:1,scale:1,duration:0.16,ease:"power2.out"},${k.from});`).join("\n      ");
+const kanims = K.map((k, i) => `tl.fromTo("#k${i}",{opacity:0.6,scale:0.96},{opacity:1,scale:1,duration:0.06,ease:"power2.out"},${k.from});`).join("\n      ");
 const clips = L.map((l, i) => `      <div id="c${i}" class="clip ${l.cls}" data-start="${l.from}" data-duration="${(l.to - l.from).toFixed(3)}" data-track-index="${2 + TL.scenes.findIndex(s => l.from < s.start + s.dur) * 2 + (l.cls === "cap" || l.cls === "q" ? 0 : 1)}"${l.style ? ` style="${l.style}"` : ""}>${esc(l.text)}</div>`).join("\n");
 const anims = L.map((l, i) => {
   const end = l.to >= TL.total ? "" : `tl.to("#c${i}",{opacity:0,duration:0.25,ease:"power1.in"},${(l.to - 0.25).toFixed(3)});`;

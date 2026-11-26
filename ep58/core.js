@@ -145,5 +145,5 @@ function MASR(T, t, o = {}) {
     if (mo && u < 1.8) mouth = mo;
   });
   mascot3(x, y - hop, s, T, { ...o, mouth, rot: (o.rot || 0) + lean });
-  if (mark) popMark(x + 230 * s, y - 1010 * s - hop, mark, mk, ma);
+  if (mark && !o.nomark) popMark(x + 230 * s, y - 1010 * s - hop, mark, mk, ma);
 }

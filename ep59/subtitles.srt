@@ -31,5 +31,5 @@ Feet down.
 But from very low, it runs out of time to turn.
 
 9
-00:00:25,100 --> 00:00:26,929
-Cat person or dog person?
+00:00:25,100 --> 00:00:26,718
+Ever seen your cat do this?

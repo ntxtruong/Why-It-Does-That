@@ -13,12 +13,12 @@ const AMBER = [255, 181, 71], NOPE = [255, 110, 100], COOLC = [150, 236, 180], S
 function warmbg() { const gr = g.createRadialGradient(W / 2, 820, 60, W / 2, 900, 1250); gr.addColorStop(0, "rgb(96,40,70)"); gr.addColorStop(1, "rgb(34,12,30)"); g.fillStyle = gr; g.fillRect(0, 0, W, H); }
 function cam(s, cx, cy, sx = W / 2, sy = 820) { g.setTransform(s, 0, 0, s, sx - cx * s, sy - cy * s); }
 function camReset() { g.setTransform(1, 0, 0, 1, 0, 0); }
-const MAS = (T, t, ev, o = {}) => MASR(T, t, { x: 150, y: 1585, s: 0.6, ev, ...o });
+const MAS = (T, t, ev, o = {}) => MASR(T, t, { x: 150, y: 1585, s: 0.6, markX: 66, markY: 1080, ev, ...o });   // pop marks in a fixed slot left of the head
 // falling: speed streaks and wall marks that slide upward (fall speed v px/s)
 function fallBg(T, v = 900, a = 1) {
   warmbg();
   for (let i = 0; i < 26; i++) { const x = 60 + hash(i, 1) * 960, y = ((hash(i, 2) * 2200 - T * v * (0.7 + 0.6 * hash(i, 3))) % 2200 + 2200) % 2200 - 140, L = 60 + 160 * hash(i, 4);
-    line(x, y, x, y + L, [255, 220, 236], 0.16 * a, 5); }
+    line(x, y, x, y + L, [255, 220, 236], 0.32 * a, 9); }
   for (let i = 0; i < 4; i++) { const y = ((i * 560 - T * v * 0.5) % 2240 + 2240) % 2240 - 160; rrect(900, y, 150, 220, 18, [120, 56, 92], 0.5 * a, [160, 86, 126], 6); }   // window frames on the wall
 }
 // one half of the cat, drawn in a frame whose origin is the waist; side +1 front (head), -1 back (tail).
@@ -47,7 +47,8 @@ function catHalf(side, len, rad, ph, leg, T, o = {}) {
     dot(hx, 0, hr, col, 1); g.lineWidth = 6; g.strokeStyle = css(cold); g.beginPath(); g.arc(hx, 0, hr, 0, TAU2); g.stroke();
     // muzzle and face turn with the roll
     dot(hx + hr * 0.55, hr * 0.28 * c, hr * 0.42, bel, 1); dot(hx + hr * 0.9, hr * 0.12 * c, hr * 0.12, NOSE, 1);
-    const eo = o.eyes ?? 1; dot(hx + hr * 0.3, -hr * 0.18 * c, hr * 0.17, [40, 120, 60], eo); dot(hx + hr * 0.34, -hr * 0.18 * c, hr * 0.08, [10, 10, 14], eo);
+    const eo = o.eyes ?? 1; dot(hx + hr * 0.3, -hr * 0.2 * c, hr * 0.27, [255, 255, 250], eo); dot(hx + hr * 0.33, -hr * 0.2 * c, hr * 0.18, [60, 170, 80], eo); dot(hx + hr * 0.36, -hr * 0.2 * c, hr * 0.09, [10, 10, 14], eo); dot(hx + hr * 0.4, -hr * 0.27 * c, hr * 0.05, [255, 255, 255], eo);
+    dot(hx + hr * 0.72, hr * 0.5 * c, hr * 0.13, [90, 30, 40], 1);
     [-1, 1].forEach(k => { const ex = hx + k * hr * 0.42 * (0.4 + 0.6 * Math.abs(c)), ey = -hr * 0.78 * c; if (k * s <= 0.2) return;
       g.fillStyle = css(col); g.beginPath(); g.moveTo(ex - hr * 0.3, -hr * 0.35 * c); g.lineTo(ex, ey - hr * 0.55 * c); g.lineTo(ex + hr * 0.3, -hr * 0.35 * c); g.closePath(); g.fill(); });
   } else { // tail: curls on the back side
@@ -61,7 +62,7 @@ function catHalf(side, len, rad, ph, leg, T, o = {}) {
 // whole cat: waist at (x, y), bend b (rad, V with the waist low), roll of front and back halves, leg lengths
 function cat(x, y, sc, st, T, o = {}) {
   const len = 300, rad = 92;
-  g.save(); g.translate(x, y); g.scale(sc, sc);
+  g.save(); g.translate(x, y); g.rotate(st.rot || 0); g.scale(sc, sc);
   g.save(); g.rotate(st.b); catHalf(-1, len, rad, st.pb, st.lb, T, o); g.restore();
   g.save(); g.rotate(-st.b); catHalf(1, len, rad, st.pf, st.lf, T, o); g.restore();
   g.restore();
@@ -79,12 +80,20 @@ const ringB = (b, a, col = COOLC) => rollArrow(CX - 150 * Math.cos(b), CY - 150 
 const CX = 560, CY = 770;
 const UP = { b: 0, pf: Math.PI, pb: Math.PI, lf: 150, lb: 150 };
 const SCENES = {};
-// 1 — hook: a cat falls upside down past the wall; from 1.6 s its front half flips over (the weird result first)
-SCENES.hook = (t, T, B, E, dur) => {
-  fallBg(T); cam(lerp(1.0, 1.08, t / dur), CX, CY);
-  const k = eio((t - 1.6) / 1.6), b = 0.32 * eio((t - 1.1) / 0.6) * (1 - 0.3 * k);
-  cat(CX, CY + 10 * Math.sin(T * 2), 1.0, { b, pf: Math.PI * (1 - 0.95 * k), pb: Math.PI * (1 + 0.12 * k), lf: lerp(150, 70, eio((t - 1.1) / 0.5)), lb: 150 }, T);
+// the hook picture: a window ledge the cat fell from (scrolling up), motion streaks above the cat, cat tilted and startled
+function hookPic(T, t, k, ledge) {
+  fallBg(T, 900); cam(1.0, CX, CY);
+  const ly = 470 - ledge;
+  if (ly > -200) { rrect(560, ly - 260, 520, 260, 0, [120, 62, 96], 1, [170, 96, 134], 8); rrect(520, ly, 600, 44, 12, [214, 170, 130], 1, [150, 110, 80], 6);
+    line(820, ly + 50, 760, CY - 170, [255, 220, 236], 0.85, 9, [22, 20]); }
+  for (let i = 0; i < 7; i++) { const x = CX - 300 + i * 100 + 20 * Math.sin(i * 3.1), L = 120 + 60 * hash(i, 9); line(x, CY - 150 - L, x, CY - 140, [255, 236, 244], 0.7, 10); }
+  const b = 0.32 * eio((t - 1.1) / 0.6) * (1 - 0.3 * k);
+  cat(CX, CY + 10 * Math.sin(T * 2), 1.0, { rot: -0.22 * (1 - k), b, pf: Math.PI * (1 - 0.95 * k), pb: Math.PI * (1 + 0.12 * k), lf: lerp(150, 70, eio((t - 1.1) / 0.5)), lb: 150 }, T);
   camReset();
+}
+// 1 — hook: a cat falls upside down off a ledge; from 1.6 s its front half flips over (the weird result first)
+SCENES.hook = (t, T, B, E, dur) => {
+  hookPic(T, t, eio((t - 1.6) / 1.6), t * 260);
   MAS(T, t, [[0.3, "?"], [2.2, "!"]]);
 };
 // small stylised hand that lets go (screen space)
@@ -95,23 +104,21 @@ function hand(x, y, open, sep) {
   [-45, -15, 15, 45].forEach((dx, i) => { g.save(); g.translate(dx, -40); g.rotate((i < 2 ? -1 : 1) * 0.5 * open); g.beginPath(); g.roundRect(-13, 0, 26, 70, 13); g.fill(); g.stroke(); g.restore(); });
   g.restore();
 }
-// 2 — guess: 1894 sepia photo strip; a hand lets go; frames show the cat turning; "pushed off the hand?"
+// 2 — guess: 1894 photos as a flip-book (one big photo); then back to frame 1 with the hand, and a big red "?"
 SCENES.guess = (t, T, B, E, dur) => {
-  warmbg(); const zf = eio((t - 3.9) / 0.8); cam(lerp(lerp(1.06, 1.0, eout(t / 0.5)), 2.3, zf), lerp(540, 390, zf), lerp(840, 540, zf), W / 2, lerp(840, 800, zf));
-  const fw = 260, fh = 300, xs = [390, 660, 930], ys = [540, 860];
-  for (let i = 0; i < 6; i++) {
-    const x = xs[i % 3], y = ys[Math.floor(i / 3)], ap = seg(t, 0.3 + i * 0.5, 0.55 + i * 0.5);
-    rrect(x - fw / 2, y - fh / 2, fw, fh, 10, [62, 46, 32], 1, [30, 20, 14], 8);
-    if (ap > 0.01) { g.save(); g.globalAlpha = ap; g.beginPath(); g.rect(x - fw / 2 + 12, y - fh / 2 + 12, fw - 24, fh - 24); g.fillStyle = "rgb(196,170,128)"; g.fill(); g.clip();
-      const u = i / 5; cat(x, y + 30 + i * 4, 0.32, { b: 0.35 * Math.sin(Math.PI * u), pf: Math.PI * (1 - Math.min(1, u * 1.6)), pb: Math.PI * (1 + 0.1 * Math.min(1, u * 2)) - Math.PI * Math.max(0, (u - 0.5) * 2), lf: 120, lb: 120 }, T, { sep: true, eyes: 0.6 });
-      if (i === 0) hand(x - 40, y - 40 - 30 * seg(t, 4.6, 5.4), seg(t, 0.4, 0.8), true);
-      g.restore(); }
-    text(String(i + 1), x - fw / 2 + 26, y + fh / 2 - 30, 34, [230, 210, 170], "left", 800, 1);
-  }
+  warmbg(); const zf = eio((t - 3.9) / 0.8); cam(lerp(1.0, 1.35, zf), lerp(690, 640, zf), lerp(790, 700, zf), 690, 790);
+  const x0 = 385, y0 = 400, w = 655, h = 780, i = t < 3.85 ? clamp(Math.floor((t - 0.15) / 0.6), 0, 5) : 0, u = i / 5;
+  rrect(x0 - 14, y0 - 14, w + 28, h + 28, 16, [62, 46, 32], 1, [30, 20, 14], 10);
+  g.save(); g.beginPath(); g.rect(x0, y0, w, h); g.fillStyle = "rgb(200,174,132)"; g.fill(); g.clip();
+  for (let k = 0; k < 6; k++) line(x0, y0 + 60 + k * 130, x0 + w, y0 + 60 + k * 130, [180, 152, 110], 0.5, 3);
+  cat(x0 + w / 2 + 20, y0 + 430 + i * 30, 0.62, { b: 0.35 * Math.sin(Math.PI * u), pf: Math.PI * (1 - Math.min(1, u * 1.6)), pb: Math.PI * (1 + 0.1 * Math.min(1, u * 2)) - Math.PI * Math.max(0, (u - 0.5) * 2), lf: 120, lb: 120 }, T, { sep: true, eyes: 0.7 });
+  if (i === 0) hand(x0 + w / 2 - 20, y0 + 300 - 30 * seg(t, 4.6, 5.4), i === 0 && t < 3.85 ? seg(t, 0.4, 0.8) : 0.2, true);
+  g.restore();
+  text("frame " + (i + 1) + " / 6", x0 + 24, y0 + h - 40, 48, [90, 64, 40], "left", 900, 1);
   camReset();
-  plate("1894: photos of a falling cat", 560, 290, 52, INKW, "center", seg(t, 0.05, 0.3), 900);
-  plate("it pushed off the hand?", 650, 1250, 52, NOPE, "center", seg(t, 2.2, 2.5), 900);
-  if (t > 4.0) { const k = spring(t, 4.0, 12, 0.5); g.save(); g.translate(820, 700); g.scale(k, k); text("?", 0, 0, 260, NOPE, "center", 900, 0.95); g.restore(); }
+  plate("1894: photos of a falling cat", 560, 290, 56, INKW, "center", seg(t, 0.05, 0.3), 900);
+  plate("cheating?", 650, 1260, 60, NOPE, "center", seg(t, 2.2, 2.5), 900);
+  if (t > 4.0) { const k = spring(t, 4.0, 12, 0.5); g.save(); g.translate(880, 640); g.scale(k, k); text("?", 0, 0, 280, NOPE, "center", 900, 0.95); g.restore(); }
   MAS(T, t, [[0.5, "?"], [2.3, "?"], [4.6, "!"]]);
 };
 // 3 — bend (reveal): big cat, upside down; it bends at the waist; each half gets its own spin axis
@@ -121,10 +128,11 @@ SCENES.bend = (t, T, B, E, dur) => {
   cat(CX, CY, 1.0, { b, pf: Math.PI, pb: Math.PI, lf: 150, lb: 150 }, T);
   // axis lines through each half
   const ax = seg(t, 1.3, 1.7);
-  if (ax > 0.01) { [[-1, b], [1, -b]].forEach(([sd, r]) => { const ex = CX + sd * Math.cos(r) * 420, ey = CY + Math.sin(r) * 420 * sd; line(CX, CY, ex, ey, INKW, 0.75 * ax, 6, [16, 14]); }); }
+  if (ax > 0.01) { [[-1, b], [1, -b]].forEach(([sd, r]) => { const ex = CX + sd * Math.cos(r) * 420, ey = CY + Math.sin(r) * 420 * sd; line(CX, CY, ex, ey, [255, 240, 200], 0.95 * ax, 10, [20, 16]); }); }
   ringF(b, seg(t, 2.0, 2.3)); ringB(b, seg(t, 2.3, 2.6));
   camReset();
-  plate("it bends in the middle", 560, 300, 60, AMBER, "center", seg(t, 0.25, 0.5) * (1 - seg(t, 1.9, 2.1)), 900);
+  plate("the photos proved them wrong", 560, 300, 56, COOLC, "center", seg(t, 0.02, 0.15) * (1 - seg(t, 0.85, 1.0)), 900);
+  plate("bend at the waist", 560, 300, 60, AMBER, "center", seg(t, 1.05, 1.25) * (1 - seg(t, 1.9, 2.1)), 900);
   plate("two halves, two spins", 560, 300, 60, INKW, "center", seg(t, 2.15, 2.4), 900);
   MAS(T, t, [[0.3, "!"], [2.1, "idea"]]);
 };
@@ -135,8 +143,8 @@ SCENES.front = (t, T, B, E, dur) => {
   cat(CX, CY, 1.0, { b, pf: Math.PI * (1 - k), pb: Math.PI * (1 + 0.14 * k), lf: lerp(150, 60, eio((t - 0.2) / 0.5)), lb: lerp(150, 200, eio((t - 0.2) / 0.5)) }, T);
   ringF(b, seg(t, 0.9, 1.1) * (1 - seg(t, 3.4, 3.7)));
   camReset();
-  plate("front legs in: spins fast", 560, 300, 54, AMBER, "center", seg(t, 0.2, 0.5), 900);
-  plate("back legs out: barely turns", 650, 1250, 46, COOLC, "center", seg(t, 2.4, 2.7), 900);
+  plate("legs tucked = fast spin", 560, 300, 56, AMBER, "center", seg(t, 0.2, 0.5), 900);
+  plate("legs out = slow", 650, 1250, 56, COOLC, "center", seg(t, 2.4, 2.7), 900);
   MAS(T, t, [[0.4, "?"], [2.0, "!"], [3.8, "idea"]]);
 };
 // 5 — back: swap; the back half catches up; unbend; feet down onto the floor
@@ -150,8 +158,8 @@ SCENES.back = (t, T, B, E, dur) => {
   // the floor comes up to meet the feet
   if (land > 0.01) { g.fillStyle = "rgb(84,46,40)"; g.fillRect(-200, floorY, 1500, 900); g.fillStyle = "rgb(120,70,58)"; g.fillRect(-200, floorY, 1500, 16); }
   camReset();
-  plate("swap: the back half catches up", 560, 300, 52, COOLC, "center", seg(t, 0.2, 0.5) * (1 - seg(t, 2.4, 2.6)), 900);
-  plate("feet down", 560, 300, 70, AMBER, "center", seg(t, 2.6, 2.8), 900);
+  plate("now swap the legs", 560, 300, 56, COOLC, "center", seg(t, 0.2, 0.5) * (1 - seg(t, 2.4, 2.6)), 900);
+  plate("landed!", 560, 300, 70, AMBER, "center", seg(t, 2.6, 2.8), 900);
   MAS(T, t, [[0.4, "?"], [2.9, "ok", "smile"]]);
 };
 // 6 — low: dropped from very low, the floor arrives before the turn is done; a timer bar runs out
@@ -163,19 +171,18 @@ SCENES.low = (t, T, B, E, dur) => {
   rrect(80, 420, 300, 40, 10, [150, 96, 70], 1);
   const k = eio(fall / 1.0) * 0.5;   // only half way round when the floor arrives
   const sit = seg(t, 1.6, 2.0);
-  cat(CX + 40, y + 30 * sit, 0.8, { b: 0.35 * (1 - sit), pf: Math.PI * (1 - k), pb: Math.PI * (1 + 0.1 * k), lf: 70, lb: 160 }, T);
-  if (t > 1.6) soft(CX + 40, floorY - 10, 260, NOPE, 0.35 * (1 - seg(t, 1.8, 2.6)));
+  cat(CX + 110, y + 30 * sit, 0.8, { b: 0.35 * (1 - sit), pf: Math.PI * (1 - k), pb: Math.PI * (1 + 0.1 * k), lf: 70, lb: 160 }, T);
+  if (t > 1.6) soft(CX + 110, floorY - 10, 260, NOPE, 0.35 * (1 - seg(t, 1.8, 2.6)));
   // time bar
   const tb = 1 - fall; rrect(260, 300, 560, 44, 22, [60, 26, 50], 1, [255, 220, 236], 4); rrect(264, 304, 552 * tb, 36, 18, tb > 0.3 ? AMBER : NOPE, 1);
-  text("time to turn", 540, 250, 48, INKW, "center", 900, 1);
+  text("time to turn", 540, 250, 52, INKW, "center", 900, 1);
   camReset();
-  plate("too low: no time to turn", 600, 1240, 52, NOPE, "center", seg(t, 1.6, 1.9), 900);
+  plate("not enough time!", 640, 1240, 56, NOPE, "center", seg(t, 1.6, 1.9), 900);
+  if (t > 1.6) { const k = spring(t, 1.6, 12, 0.5); g.save(); g.translate(CX + 300, 640); g.scale(k, k); text("oof!", 0, 0, 70, AMBER, "center", 900, 1 - seg(t, 2.6, 3.0)); g.restore(); }
   MAS(T, t, [[0.5, "?"], [1.7, "!", "wince"]]);
 };
-// end: back to the hook picture: upside-down cat falling; the last 0.7 s match frame one
+// end: back to the hook picture; the last 0.7 s match frame one (ledge back in place)
 SCENES.end = (t, T, B, E, dur) => {
-  fallBg(T); cam(1.0, CX, CY);
-  cat(CX, CY + 10 * Math.sin(T * 2), 1.0, UP, T);
-  camReset();
+  hookPic(T, 0, 0, lerp(400, 0, eio((t - (dur - 0.9)) / 0.8)));
   MAS(T, t, [[0.3, "?", "grin"]]);
 };

@@ -1,35 +1,35 @@
 1
-00:00:00,150 --> 00:00:01,918
+00:00:00,150 --> 00:00:02,504
 Panci ini hampir meluap.
 
 2
-00:00:01,918 --> 00:00:04,941
+00:00:02,504 --> 00:00:05,624
 Taruh sendok kayu melintang, dan busanya mundur.
 
 3
-00:00:05,441 --> 00:00:07,133
+00:00:06,124 --> 00:00:07,816
 Sendok itu tidak menekan busanya.
 
 4
-00:00:07,133 --> 00:00:08,879
+00:00:07,816 --> 00:00:09,561
 Lihat di mana gelembung menyentuhnya.
 
 5
-00:00:09,379 --> 00:00:12,227
+00:00:10,061 --> 00:00:12,910
 Setiap gelembung yang kena kayu kering yang lebih dingin langsung pecah.
 
 6
-00:00:12,727 --> 00:00:18,114
-Pati pasta melapisi tiap gelembung dengan lapisan lengket, jadi gelembung menumpuk jadi menara, bukan pecah.
+00:00:13,410 --> 00:00:17,914
+Pati dari pasta bikin tiap gelembung lengket, jadi gelembung menumpuk, bukan pecah.
 
 7
-00:00:18,614 --> 00:00:22,476
+00:00:18,414 --> 00:00:22,275
 Sendok memecahkan gelembung paling atas, dan tiap gelembung pecah ikut memecahkan tetangganya.
 
 8
-00:00:22,976 --> 00:00:27,937
+00:00:22,775 --> 00:00:27,411
 Tapi begitu sendok panas dan basah, triknya berhenti, dan busa naik melewatinya.
 
 9
-00:00:28,437 --> 00:00:29,328
-Kamu pernah coba?
+00:00:27,911 --> 00:00:29,554
+Sendok kayu atau sendok logam?

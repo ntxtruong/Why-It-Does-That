@@ -31,5 +31,5 @@ Kaki di bawah.
 Tapi kalau terlalu rendah, waktunya tidak cukup untuk berbalik.
 
 9
-00:00:25,100 --> 00:00:26,929
-Pencinta kucing atau anjing?
+00:00:25,100 --> 00:00:26,718
+Pernah lihat kucingmu melakukan ini?

@@ -9,7 +9,7 @@ window.NODIP = ["hook", "guess", "pop", "starch", "chain", "fail", "end"];
 const K_BG1 = [64, 34, 24], K_BG2 = [30, 15, 11], CREAM = [255, 244, 222], GOLDK = [255, 200, 87], ORANGE = [238, 132, 52];
 const STEEL1 = [196, 204, 214], STEEL2 = [120, 128, 140], STEEL3 = [78, 84, 96], WOOD = [206, 150, 90], WOODD = [150, 98, 54], WOODW = [120, 76, 42];
 const FOAM = [255, 250, 236], FOAMS = [214, 192, 150], HOT = [255, 96, 70], COOL = [130, 196, 255], FLAME = [110, 170, 255];
-const SAFE_MASCOT = (T, t, ev, o = {}) => MASR(T, t, { x: 150, y: 1585, s: 0.6, ev, ...o });
+const SAFE_MASCOT = (T, t, ev, o = {}) => MASR(T, t, { x: 150, y: 1585, s: 0.6, mx: 62, my: 1290, ev, ...o });
 function cam(s, cx, cy, sx = W / 2, sy = 820) { g.setTransform(s, 0, 0, s, sx - cx * s, sy - cy * s); }
 function camReset() { g.setTransform(1, 0, 0, 1, 0, 0); }
 function kbg() {
@@ -47,12 +47,13 @@ function bubble(x, y, r, a = 1, skin = 0) {
   g.strokeStyle = "rgba(255,255,255,0.95)"; g.lineWidth = Math.max(2, r * 0.12); g.beginPath(); g.arc(x - r * 0.2, y - r * 0.2, r * 0.55, 3.5, 4.5); g.stroke();
   g.restore();
 }
-function burst(x, y, r, age, a = 1) { // ring + four droplets; age 0..1
+function burst(x, y, r, age, a = 1) { // bold pop: white flash (first ~3 frames), thick ring, gold rays, droplets; age 0..1
   if (age <= 0 || age >= 1) return; const u = eout(age), f = (1 - age) * a;
-  g.save(); g.globalAlpha = f; g.strokeStyle = css(CREAM); g.lineWidth = 8; g.beginPath(); g.arc(x, y, r * (0.8 + 0.9 * u), 0, TAU2); g.stroke();
-  g.strokeStyle = css(GOLDK); g.lineWidth = 7; g.lineCap = "round"; for (let k = 0; k < 8; k++) { const an = k * Math.PI / 4 + 0.3, r0 = r * (0.5 + 0.9 * u), r1 = r * (0.9 + 1.3 * u); g.beginPath(); g.moveTo(x + Math.cos(an) * r0, y + Math.sin(an) * r0); g.lineTo(x + Math.cos(an) * r1, y + Math.sin(an) * r1); g.stroke(); }
+  if (age < 0.25) { soft(x, y, r * 2.2, [255, 255, 255], 0.9 * (1 - age / 0.25) * a); dot(x, y, r * 0.9 * (1 - age / 0.25), [255, 255, 255], a); }
+  g.save(); g.globalAlpha = f; g.strokeStyle = css(CREAM); g.lineWidth = 12; g.beginPath(); g.arc(x, y, r * (0.8 + 1.0 * u), 0, TAU2); g.stroke();
+  g.strokeStyle = css(GOLDK); g.lineWidth = 10; g.lineCap = "round"; for (let k = 0; k < 8; k++) { const an = k * Math.PI / 4 + 0.3, r0 = r * (0.6 + 1.0 * u), r1 = r * (1.1 + 1.5 * u); g.beginPath(); g.moveTo(x + Math.cos(an) * r0, y + Math.sin(an) * r0); g.lineTo(x + Math.cos(an) * r1, y + Math.sin(an) * r1); g.stroke(); }
   g.restore();
-  for (let k = 0; k < 5; k++) { const an = -Math.PI / 2 + (k - 2) * 0.7; dot(x + Math.cos(an) * r * 1.7 * u, y + Math.sin(an) * r * 1.7 * u + 40 * u * u, 6, CREAM, f); }
+  for (let k = 0; k < 6; k++) { const an = -Math.PI / 2 + (k - 2.5) * 0.6; dot(x + Math.cos(an) * r * 2 * u, y + Math.sin(an) * r * 2 * u + 50 * u * u, 10, CREAM, f); }
 }
 function foamDome(t, L, cap = -1e9, popT = null) {
   if (L <= -10) return;
@@ -106,36 +107,41 @@ function popsAlong(t, t0, t1, n, y, seed = 1, scale = 1) {
 }
 const SCENES = {};
 const HOVER = 380; // spoon height in frame one / last frame (underside y)
-// 1 — hook: foam already spilling; the spoon drops onto the rim; the foam backs off
+// 1 — hook: foam at the rim and rising (spills at ~1 s); the spoon drops on at 3.0 s; the foam backs off and the camera
+// pushes in on the spoon from 3.6 s so bubbles visibly burst on the wood (no still stretch before the 10 s wall)
+const popCycle = (t, b, rate = 0.55) => { const a = (t * rate + hash(b.i, 6)) % 1; return a < 0.7 ? 0 : (a - 0.7) / 0.3; };
 SCENES.hook = (t, T, B, E, dur) => {
   const land = 3.0, drop = eio((t - 2.65) / 0.35);
   const sy = lerp(HOVER + Math.sin(t * 2.2) * 8, RIM - 34, drop);
-  const L = t < land ? lerp(150, 178, t / land) : lerp(178, 22, eout((t - land) / 1.9));
-  const sp = t < land ? lerp(0.78, 0.9, t / land) : 0.9 * (1 - eout((t - land) / 1.2));
-  const s = t < land ? lerp(1.0, 1.04, t / land) : lerp(1.04, 1.12, eout((t - land) / 2.2)); cam(s, PX, RIM, W / 2, 780);
+  const L = t < land ? lerp(60, 178, eio(t / 2.4)) : lerp(178, 62, eout((t - land) / 1.2)) + 14 * Math.sin((t - land) * 2.6) * seg(t, land + 0.8, land + 1.4);
+  const sp = t < land ? 0.6 * seg(t, 2.0, 2.8) : 0.9 * (1 - eout((t - land) / 1.2));
+  const zi = eio((t - 3.6) / 0.9);
+  cam(lerp(1.0, 2.2, zi), lerp(PX, PX - 120, zi), lerp(RIM, RIM - 20, zi), W / 2, lerp(780, 720, zi));
   const cap = t < land ? -1e9 : RIM - 34;
-  sideScene(t, L, sy, { spill: sp, cap, popT: b => clamp((t - land - b.x * b.x * 0.4 - hash(b.i, 5) * 1.2) / 0.35, 0, 1) });
-  popsAlong(t, land, land + 1.9, 16, RIM - 34, 3);
+  sideScene(t, L, sy, { spill: sp, cap, popT: b => t < land + 1.2 ? clamp((t - land - b.x * b.x * 0.4 - hash(b.i, 5) * 1.2) / 0.35, 0, 1) : popCycle(t, b) });
+  popsAlong(t, land, land + 1.9, 12, RIM - 34, 3);
+  popsAlong(t, 4.4, dur, 5, RIM - 34, 13, 0.9);
   camReset();
   SAFE_MASCOT(T, t, [[0.4, "!", "wince"], [land + 0.1, "!"], [4.6, "?"]]);
 };
-// 2 — guess: "pressing it down?" crossed out; then a fast push-in on the spoon/foam contact: bubbles pop on touch
+// 2 — guess: same close-up on the spoon (continuity); "pressing it down?" crossed out over it; bubbles keep bursting
 SCENES.guess = (t, T, B, E, dur) => {
-  const zi = eio((t - 1.85) / 0.35), s = lerp(1.12, 2.2, zi);
-  cam(s, PX - 120, RIM - 20, W / 2, lerp(780, 720, zi));
-  const L = lerp(26, 75, zi) + 14 * Math.sin(t * 2.6), cap = RIM - 34;
-  sideScene(t, L, RIM - 34, { cap, popT: b => { const a = (t * 0.55 + hash(b.i, 6)) % 1; return a < 0.72 ? 0 : (a - 0.72) / 0.28; } });
-  popsAlong(t, 1.9, dur, 7, RIM - 34, 9, 0.8);
+  if (t >= MACRO0) { macro(t - MACRO0);
+    plate("the wood's underside", 540, 300, 58, CREAM, "center", seg(t, MACRO0 + 0.2, MACRO0 + 0.4), 900);
+    SAFE_MASCOT(T, t, [[MACRO0 + 0.2, "!"]]); return; }
+  cam(lerp(2.2, 2.6, t / dur), lerp(PX - 120, PX + 40, eio(t / dur)), RIM - 20, W / 2, 720);
+  const L = 62 + 14 * Math.sin((t + 3) * 2.6), cap = RIM - 34;
+  sideScene(t, L, RIM - 34, { cap, popT: b => popCycle(t + 6, b, 0.6) });
+  popsAlong(t, 0, dur, 9, RIM - 34, 9, 0.9);
   camReset();
-  const a1 = seg(t, 0.2, 0.45) * (1 - seg(t, 1.7, 1.9));
-  plate("pressing it down?", 540, 420, 66, CREAM, "center", a1, 900);
-  if (t > 0.9) { const u = eout((t - 0.9) / 0.25), f = 1 - seg(t, 1.7, 1.9); line(250, 380, lerp(250, 830, u), lerp(380, 460, u), [255, 90, 80], f, 14); line(830, 380, lerp(830, 250, u), lerp(380, 460, u), [255, 90, 80], f, 14); }
-  plate("touch the wood → pop", 540, 420, 62, GOLDK, "center", seg(t, 2.3, 2.55), 900);
-  SAFE_MASCOT(T, t, [[0.9, "?"], [2.3, "!"]]);
+  const a1 = seg(t, 0.1, 0.3) * (1 - seg(t, 1.6, 1.8));
+  plate("pressing it down?", 540, 330, 66, CREAM, "center", a1, 900);
+  if (t > 0.8) { const u = eout((t - 0.8) / 0.25), f = 1 - seg(t, 1.6, 1.8); line(250, 290, lerp(250, 830, u), lerp(290, 370, u), [255, 90, 80], f, 14); line(830, 290, lerp(830, 250, u), lerp(290, 370, u), [255, 90, 80], f, 14); }
+    SAFE_MASCOT(T, t, [[0.9, "?"], [2.0, "!"]]);
 };
 // 3 — macro: the spoon's underside as a big porous beam; bubbles rise and burst on it
 const BEAMY = 640; // underside of the beam
-const RB = []; for (let i = 0; i < 20; i++) RB.push({ x: 140 + hash(i, 11) * 800, r: 70 + 60 * hash(i, 12), t0: -0.5 + i * 0.18 + hash(i, 13) * 0.15 });
+const RB = []; for (let i = 0; i < 30; i++) RB.push({ x: 360 + hash(i, 11) * 620, r: 70 + 60 * hash(i, 12), t0: -0.4 + i * 0.18 + hash(i, 13) * 0.15 });
 function beam(t, wet = 0) {
   const col = mix(WOOD, WOODW, wet);
   g.fillStyle = css(col); g.fillRect(0, 360, W, BEAMY - 360);
@@ -144,32 +150,38 @@ function beam(t, wet = 0) {
   for (let i = 0; i < 26; i++) { g.fillStyle = css([92, 56, 30], 0.85); g.beginPath(); g.ellipse(30 + hash(i, 21) * 1020, 380 + hash(i, 22) * 240, 10 + 6 * hash(i, 23), 4, 0, 0, TAU2); g.fill(); }
   g.fillStyle = css(WOODD); g.fillRect(0, BEAMY - 10, W, 10);
 }
-SCENES.pop = (t, T, B, E, dur) => {
+// macro under the spoon; tm = time since the cut to the macro (starts on the word "Watch" in the guess scene)
+const MACRO0 = 1.85; // guess-scene time of the cut
+function macro(tm) {
   clear(K_BG2);
-  // starchy water haze below
   const gr = g.createLinearGradient(0, BEAMY, 0, 1400); gr.addColorStop(0, "rgba(255,240,210,0.08)"); gr.addColorStop(1, "rgba(255,240,210,0.22)"); g.fillStyle = gr; g.fillRect(0, BEAMY, W, 800);
-  cam(lerp(1.15, 1.0, eout(t / 0.4)), W / 2, 820, W / 2, 820);
-  beam(t);
-  RB.forEach((b, i) => { const rise = 0.9, tt = t - b.t0; if (tt < 0) return;
+  cam(lerp(1.12, 1.0, eout(tm / 0.5)), W / 2, 820, W / 2, 820);
+  beam(tm);
+  // the first, big bubble: already pressed on the wood at the cut, bursts at tm 0.15 (centre frame)
+  if (tm < 0.15) bubble(600, BEAMY + 150, 150, 1, 0.6); else burst(600, BEAMY + 90, 150, (tm - 0.15) / 0.6);
+  RB.forEach((b, i) => { const rise = 0.9, tt = tm - b.t0; if (tt < 0) return;
     const y = lerp(1300, BEAMY + b.r, eio(tt / rise)); if (tt < rise) bubble(b.x + Math.sin(tt * 4 + i) * 10, y, b.r, 1, 0.6); else burst(b.x, BEAMY + b.r * 0.5, b.r * 0.8, (tt - rise) / 0.45); });
   camReset();
+}
+SCENES.pop = (t, T, B, E, dur) => {
+  const tm = t + (TL.scenes.find(s => s.id === "guess").dur - MACRO0);
+  macro(tm);
   plate("DRY", 300, 300, 66, GOLDK, "center", seg(t, 1.0, 1.25), 900);
   plate("COOLER", 760, 300, 66, COOL, "center", seg(t, 1.45, 1.7), 900);
-  plate("wood (underside)", 540, 500, 46, CREAM, "center", seg(t, 0.1, 0.35) * (1 - seg(t, 2.2, 2.5)), 800);
   SAFE_MASCOT(T, t, [[0.5, "!"], [1.6, "idea"]]);
 };
 // 4 — starch: one huge bubble gets a gold starch skin; then cut to the cutaway pot where coated bubbles stack into a tower
 const CX = 540, CY = 820, CR = 300;
 function bigBubble(t, coat) {
-  soft(CX, CY, CR * 1.3, [255, 230, 180], 0.12);
-  g.save(); const bg2 = g.createRadialGradient(CX - 80, CY - 80, 20, CX, CY, CR); bg2.addColorStop(0, "rgba(255,250,240,0.55)"); bg2.addColorStop(1, "rgba(255,236,200,0.25)"); g.fillStyle = bg2; g.beginPath(); g.arc(CX, CY, CR, 0, TAU2); g.fill();
-  g.strokeStyle = css(FOAM, 0.9); g.lineWidth = 8; g.stroke(); g.restore();
-  g.strokeStyle = "rgba(255,255,255,0.9)"; g.lineWidth = 16; g.lineCap = "round"; g.beginPath(); g.arc(CX - 70, CY - 70, CR * 0.6, 3.5, 4.4); g.stroke();
-  // starch chains along the wall
-  const n = Math.floor(44 * coat);
-  for (let i = 0; i < n; i++) { const a0 = hash(i, 31) * TAU2, k = clamp(coat * 44 - i);
-    const pts = []; for (let j = 0; j < 6; j++) { const a = a0 + j * 0.05, rr = CR + 10 + Math.sin(j * 1.9 + i) * 10; pts.push([CX + Math.cos(a) * rr, CY + Math.sin(a) * rr]); }
-    poly(pts, GOLDK, k, 9); pts.forEach(([x, y]) => dot(x, y, 7, GOLDK, k)); }
+  // a translucent bubble: see-through body, bright rim, white highlight; the starch skin wraps around it as coat grows
+  g.save(); g.fillStyle = "rgba(255,255,255,0.18)"; g.beginPath(); g.arc(CX, CY, CR, 0, TAU2); g.fill();
+  g.strokeStyle = "rgba(255,255,255,0.95)"; g.lineWidth = 10; g.stroke(); g.restore();
+  g.strokeStyle = "rgba(255,255,255,0.95)"; g.lineWidth = 22; g.lineCap = "round"; g.beginPath(); g.arc(CX - 60, CY - 60, CR * 0.62, 3.5, 4.4); g.stroke();
+  dot(CX + 150, CY + 140, 18, [255, 255, 255], 0.8);
+  if (coat > 0.01) { const sweep = TAU2 * coat; g.save(); g.lineCap = "round"; g.strokeStyle = "rgba(255,196,60,0.85)"; g.lineWidth = 34; g.beginPath(); g.arc(CX, CY, CR + 6, -Math.PI / 2, -Math.PI / 2 + sweep); g.stroke();
+    g.strokeStyle = "rgba(255,236,150,0.9)"; g.lineWidth = 8; g.beginPath(); g.arc(CX, CY, CR + 14, -Math.PI / 2, -Math.PI / 2 + sweep); g.stroke();
+    for (let k = 0; k < 18 * coat; k++) { const a = -Math.PI / 2 + (k + 0.5) / 18 * TAU2; dot(CX + Math.cos(a) * (CR + 6), CY + Math.sin(a) * (CR + 6), 11, [214, 150, 30], 0.9); }
+    g.restore(); }
 }
 function pasta(t, a) { // a few penne/strands drifting at the bottom, shedding starch dots
   for (let i = 0; i < 3; i++) { const x = 220 + i * 320, y = 1220 + Math.sin(t * 1.5 + i) * 10;
@@ -194,15 +206,17 @@ function tower(t, top, coat = 1, popAt = null) {
     if (pa >= 1) return; if (pa > 0) { burst(b.x, yy, b.r * 0.7, pa); return; } bubble(b.x, yy, b.r, 1, coat); });
 }
 SCENES.starch = (t, T, B, E, dur) => {
-  const cut = 3.35;
+  const cut = 2.6;
   if (t < cut) {
-    clear(K_BG2); vignette(0.4);
+    const wg = g.createLinearGradient(0, 300, 0, 1500); wg.addColorStop(0, "rgb(214,186,140)"); wg.addColorStop(1, "rgb(150,112,74)"); g.fillStyle = wg; g.fillRect(0, 0, W, H);
     cam(lerp(1.0, 1.1, t / cut), CX, CY, CX, 820);
-    pasta(t, 1); bigBubble(t, seg(t, 0.3, 2.8));
+    for (let i = 0; i < 10; i++) { const u = ((t * 0.6 + hash(i, 61)) % 1); bubble(80 + hash(i, 62) * 920, lerp(1300, 420, u), 16 + 10 * hash(i, 63), 0.7); }
+    pasta(t, 1); bigBubble(t, seg(t, 0.2, 2.2));
+    g.fillStyle = css(WOODD); g.beginPath(); g.roundRect(-40, 330, W + 80, 46, 20); g.fill(); g.fillStyle = css(WOOD); g.beginPath(); g.roundRect(-40, 326, W + 80, 38, 18); g.fill();
     camReset();
-    plate("starch", 270, 360, 62, GOLDK, "center", seg(t, 0.4, 0.65), 900);
-    plate("sticky skin", 790, 360, 62, CREAM, "center", seg(t, 2.2, 2.45), 900);
-    SAFE_MASCOT(T, t, [[0.5, "!"], [2.3, "idea"]]);
+    plate("starch", 270, 450, 62, GOLDK, "center", seg(t, 0.3, 0.55), 900);
+    plate("sticky skin", 790, 450, 62, CREAM, "center", seg(t, 1.3, 1.55), 900);
+    SAFE_MASCOT(T, t, [[0.5, "!"], [1.4, "idea"]]);
   } else {
     const u = t - cut, top = lerp(WS - 20, CRIM - 20, eio(u / 2.6));
     cam(lerp(1.0, 1.06, u / 3), W / 2, 860, W / 2, 860);
@@ -220,7 +234,8 @@ SCENES.chain = (t, T, B, E, dur) => {
   const hitX = 540, hitY = CRIM;
   tower(t, CRIM - 20, 1, b => {
     if (b.y - b.r < CRIM + 30 && t > 0.35) return clamp((t - 0.35 - hash(b.k, 3) * 0.5) / 0.35, 0, 1);  // top row hits the spoon
-    const d = Math.hypot(b.x - hitX, b.y - hitY); return clamp((t - t1 - d * sp) / 0.3, 0, 1) || -1;
+    if (b.y > CRIM + 190) return -1;   // the spoon only keeps the foam below itself: the lower foam stays
+    const d = Math.hypot(b.x - hitX, b.y - hitY); return clamp((t - t1 - d * sp * 2.2) / 0.3, 0, 1) || -1;
   });
   // the spoon on the rim, seen end-on across the cut
   g.fillStyle = css(WOODD); g.beginPath(); g.roundRect(CL - 60, CRIM - 46, CRt - CL + 120, 40, 18); g.fill();
@@ -230,6 +245,7 @@ SCENES.chain = (t, T, B, E, dur) => {
   camReset();
   plate("spoon breaks the top", 540, 330, 56, CREAM, "center", seg(t, 0.3, 0.55) * (1 - seg(t, t1 - 0.35, t1 - 0.1)), 900);
   plate("chain reaction", 540, 330, 66, GOLDK, "center", seg(t, t1 + 0.1, t1 + 0.35), 900);
+  plate("foam stays below the spoon", 640, 1312, 46, CREAM, "center", seg(t, t1 + 1.2, t1 + 1.45), 900);
   SAFE_MASCOT(T, t, [[0.4, "!"], [t1 + 0.3, "ok", "grin"]]);
 };
 // 6 — fail: the spoon gets hot and soaked (darkens, steams, thermometer climbs), then the foam climbs over it and spills
@@ -250,9 +266,9 @@ SCENES.fail = (t, T, B, E, dur) => {
 };
 // 7 — end: the question; the soaked spoon lifts off and dries into frame one's hovering spoon, foam spilling (loops)
 SCENES.end = (t, T, B, E, dur) => {
-  const up = eio((t - 0.4) / 1.6), L = lerp(205, 150, eio(t / dur));
+  const up = eio((t - 0.4) / 1.6), L = lerp(205, 60, eio(t / dur));
   const s = lerp(1.0, 1.0, up); cam(s, PX, RIM, W / 2, 780);
-  sideScene(t, L, lerp(RIM - 34, HOVER + Math.sin((t - dur) * 2.2) * 8, up), { wet: 1 - up, foamFront: true, spill: lerp(0.95, 0.78, eio(t / dur)) });
+  sideScene(t, L, lerp(RIM - 34, HOVER + Math.sin((t - dur) * 2.2) * 8, up), { wet: 1 - up, foamFront: true, spill: 0.95 * (1 - eio((t - 0.6) / (dur - 0.7))) });
   camReset();
   SAFE_MASCOT(T, t, [[0.3, "?", "grin"]]);
 };

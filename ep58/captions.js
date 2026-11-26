@@ -1,8 +1,6 @@
-// On-screen text for ep58 (v5, Your Brain Is Tricking You): the dare in frame one, the one-word question at the end,
-// and the frame-one text again for the last 0.5 s so the loop seam matches.
+// On-screen text for ep58 (round 3): no HTML title cards at all. The hook text, "Now: the clock!" and the end question
+// are drawn on the canvas (scenes.js) so they can change exactly on the spoken word and stay off the clock;
+// the hook beat has no burned-in caption, so the 3 s after the jump are clean (only the second hand moves).
 module.exports = ({ TL, SC, at, frac, cap, run }) => {
-  cap("Stare at the pink dot.", 0, at("guess", "start", -0.05), "q");
-  cap("Did your clock freeze?", at("end", 0), +(TL.total - 0.5).toFixed(3), "q");
-  cap("Stare at the pink dot.", +(TL.total - 0.5).toFixed(3), TL.total, "q");
-  return { keys: ["dot.", "jump", "clock.", "hang.", "lag.", "switches", "off", "blurry", "fills", "gap", "borrowed", "first", "half", "three"], skip: ["end:0"] };
+  return { keys: ["dot.", "jump", "clock.", "hang.", "lag.", "switches", "off", "blurry", "fills", "gap", "borrowed", "first", "half", "three"], skip: ["hook:0", "end:0"] };
 };

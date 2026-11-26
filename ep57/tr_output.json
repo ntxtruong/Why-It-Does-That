@@ -8,10 +8,10 @@
    "Nó không hề đè bọt xuống.",
    "Hãy nhìn chỗ bọt chạm vào thìa.",
    "Bọt nào chạm vào gỗ khô, mát hơn là vỡ.",
-   "Tinh bột từ mì bọc mỗi bọt trong một lớp màng dính, nên chúng chồng thành tháp thay vì vỡ.",
+   "Tinh bột từ mì làm mỗi bọt khí dính hơn, nên chúng chồng lên nhau thay vì vỡ.",
    "Chiếc thìa làm vỡ các bọt trên cùng, và mỗi bọt vỡ kéo theo các bọt bên cạnh.",
    "Nhưng khi thìa đã nóng và ngấm nước, nó hết tác dụng, và bọt trào qua luôn.",
-   "Bạn đã thử chưa?"
+   "Thìa gỗ hay thìa kim loại?"
   ]
  },
  "th": {
@@ -23,10 +23,10 @@
    "มันไม่ได้กดฟองลง",
    "ดูตรงที่ฟองแตะทัพพีสิ",
    "ฟองที่แตะไม้ที่แห้งและเย็นกว่าจะแตก",
-   "แป้งจากพาสต้าเคลือบฟองแต่ละลูกด้วยชั้นเหนียว ฟองจึงซ้อนกันเป็นกองแทนที่จะแตก",
+   "แป้งจากพาสต้าทำให้ฟองแต่ละลูกเหนียว ฟองจึงซ้อนกันขึ้นไปแทนที่จะแตก",
    "ทัพพีทำให้ฟองด้านบนแตก และฟองที่แตกแต่ละลูกก็ทำให้ฟองข้างๆ แตกตาม",
    "แต่พอทัพพีร้อนและชุ่มน้ำ มันก็ไม่ได้ผล และฟองก็ล้นข้ามไป",
-   "คุณเคยลองไหม?"
+   "ทัพพีไม้หรือทัพพีโลหะ?"
   ]
  },
  "ja": {
@@ -38,10 +38,10 @@
    "泡を押さえつけているわけじゃない。",
    "泡が木べらに触れるところを見て。",
    "乾いた、温度の低い木に触れた泡は割れる。",
-   "パスタのデンプンが泡をねばる膜で包むので、泡は割れずに塔のように積み重なる。",
+   "パスタのデンプンが泡をねばつかせるので、泡は割れずに積み重なる。",
    "木べらが一番上の泡を割り、割れた泡がとなりの泡も割っていく。",
    "でも木べらが熱くなって水を吸うと効かなくなり、泡は乗り越えてあふれる。",
-   "やったことある？"
+   "木べら？それとも金属のスプーン？"
   ]
  },
  "ko": {
@@ -53,10 +53,10 @@
    "거품을 누르는 게 아니에요.",
    "거품이 주걱에 닿는 곳을 보세요.",
    "마르고 더 차가운 나무에 닿은 거품은 터져요.",
-   "파스타 녹말이 거품을 끈적한 막으로 감싸서, 거품이 터지지 않고 탑처럼 쌓여요.",
+   "파스타 녹말이 거품을 끈적하게 만들어서, 거품이 터지지 않고 쌓여요.",
    "주걱이 맨 위 거품을 터뜨리고, 터진 거품이 옆 거품까지 터뜨려요.",
    "하지만 주걱이 뜨거워지고 물을 먹으면 효과가 없어지고, 거품이 넘어가요.",
-   "해 본 적 있나요?"
+   "나무 주걱이에요, 금속 숟가락이에요?"
   ]
  },
  "zh-Hant": {
@@ -68,10 +68,10 @@
    "它不是把泡沫壓下去。",
    "看泡泡碰到湯匙的地方。",
    "碰到乾燥、較涼木頭的泡泡都會破。",
-   "麵條的澱粉替每個泡泡包上黏膜，所以泡泡不破，反而堆成一座塔。",
+   "麵條的澱粉讓每個泡泡變黏，所以泡泡不破，反而一層層堆起來。",
    "湯匙弄破最上面的泡泡，每個破掉的泡泡又弄破旁邊的。",
    "但湯匙一旦變燙又吸飽水，就沒用了，泡沫直接越過去。",
-   "你試過嗎？"
+   "木湯匙還是金屬湯匙？"
   ]
  },
  "id": {
@@ -83,10 +83,10 @@
    "Sendok itu tidak menekan busanya.",
    "Lihat di mana gelembung menyentuhnya.",
    "Setiap gelembung yang kena kayu kering yang lebih dingin langsung pecah.",
-   "Pati pasta melapisi tiap gelembung dengan lapisan lengket, jadi gelembung menumpuk jadi menara, bukan pecah.",
+   "Pati dari pasta bikin tiap gelembung lengket, jadi gelembung menumpuk, bukan pecah.",
    "Sendok memecahkan gelembung paling atas, dan tiap gelembung pecah ikut memecahkan tetangganya.",
    "Tapi begitu sendok panas dan basah, triknya berhenti, dan busa naik melewatinya.",
-   "Kamu pernah coba?"
+   "Sendok kayu atau sendok logam?"
   ]
  },
  "fil": {
@@ -98,10 +98,10 @@
    "Hindi nito dinidiinan ang bula.",
    "Tingnan kung saan dumidikit ang mga bula.",
    "Pumuputok ang bawat bulang tumama sa tuyo at mas malamig na kahoy.",
-   "Binabalot ng starch ng pasta ang bawat bula ng malagkit na balat, kaya nagpapatong-patong sila imbes na pumutok.",
+   "Pinalalagkit ng starch ng pasta ang bawat bula, kaya nagpapatong-patong sila imbes na pumutok.",
    "Pinapuputok ng sandok ang mga nasa itaas, at dinadamay ng bawat putok ang mga katabi.",
    "Pero kapag mainit at basang-basa na ang sandok, hindi na ito gumagana, at aapaw pa rin ang bula.",
-   "Nasubukan mo na ba?"
+   "Kahoy na sandok o metal na sandok?"
   ]
  }
 }

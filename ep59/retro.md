@@ -7,3 +7,12 @@
 - Still weak: lit area 12-17 % (plum night palette, median-based metric); 1894 frames are small at phone size until the zoom; low-drop scene is the weakest beat.
 - Do better next time: build a reusable rig for the subject first and test 5 poses in one snapshot before writing scenes; check every 2.5 s window of the guess scene, not just scene starts.
 - Prediction: stayed 55-60 %, avg view 12-14 s. Reason: an upside-down cat flipping mid-air at 0 s is a strong WEIRD visual with a pet everyone knows, plus a "cheating cat" story beat; risk: the mechanism (two spins) is abstract.
+
+## Round 2 (cold review 6/10 -> self-score 7.5/10 on the review checklist)
+- Changed: frame 0 reads as falling. The cat is tilted with startled, wide eyes and an open mouth, there are motion streaks above it, a window ledge it fell from with a dashed drop line, and brighter, thicker speed lines. The end matches it for the loop. The 1894 grid of tiny photos became one large flip-book photo (655×780, "frame n / 6" at 48 px) that cycles every 0.6 s, then returns to frame 1 with the hand plus a big "?". "The photos proved them wrong" now sits on "It did not." Axes are 10 px and labels 50 px or more. The low drop got a soft "oof!" (pop, not thud). The ending question is "Seen your cat do this?": narration, TTS and ASR (0/85 differences), the last subtitle in all 7 languages, and the pinned comment were updated.
+- Checklist: frame 0 at 120 px shows a falling cat ✓; the cat (or its photo) is on screen in every frame 0-15 s ✓; it moves every 2 s ✓; text and lines meet the size rules ✓; the question is on topic ✓. Still weak: everything is drawn, so there is no real footage, and the mascot pop mark sits near the subject in the front scene.
+- Lesson: "the hook object stays on screen 7-15 s" also means a picture of the object must be big enough to read. Tiny thumbnails of the subject count as an abstract diagram.
+
+## Round 3 (second review 8/10; polish)
+- Pop marks moved to the same fixed slot left of the mascot's head, off the cat and the photo. Labels no longer repeat the captions: "bend at the waist", "legs tucked = fast spin", "legs out = slow", "now swap the legs", "landed!", "not enough time!", "cheating?".
+- Lesson: write labels as the picture's own short words (a formula, a verdict) and never as a copy of the narration. The caption already carries the sentence.

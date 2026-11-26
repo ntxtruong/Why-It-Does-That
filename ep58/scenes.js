@@ -30,127 +30,92 @@ function wallClock(x, y, r, sec, o = {}) {
   g.restore();
 }
 const secAt = T => { const n = Math.floor(T), u = T - n; return n + 0.12 * Math.exp(-u * 18) * Math.sin(u * 40); };
-const CX = 665, CY = 850, CR = 340, DX = 190, DY = 480;
-function targetDot(x, y, t, a = 1) { const p = 0.5 + 0.5 * Math.sin(t * 6); soft(x, y, 110, PINK, 0.45 * a); dot(x, y, 40 + 6 * p, PINK, a); dot(x, y, 16, [255, 255, 255], a);
-  g.save(); g.globalAlpha = a * (1 - (t * 1.2 % 1)); g.strokeStyle = css(PINK); g.lineWidth = 6; g.beginPath(); g.arc(x, y, 50 + 70 * (t * 1.2 % 1), 0, TAU2); g.stroke(); g.restore(); }
-function hookPic(t, T) { vbg(); targetDot(DX, DY, t, 1 - 0.6 * seg(t, 1.6, 2.0)); wallClock(CX, CY, CR, secAt(T)); }
+const CX = 720, CY = 470, CR = 300, DX = 150, DY = 1600;   // round 3: eye jump ≈ 1,260 px (review 2: ≥ 1,000 px)
+// big target dot (review 2026-11-26: >= 100 px, far corner, the brightest thing on screen)
+function targetDot(x, y, t, a = 1) { if (a <= 0.01) return; const p = 0.5 + 0.5 * Math.sin(t * 6); soft(x, y, 170, PINK, 0.55 * a); dot(x, y, 64 + 8 * p, PINK, a); dot(x, y, 24, [255, 255, 255], a);
+  g.save(); g.globalAlpha = a * (1 - (t * 1.2 % 1)); g.strokeStyle = css(PINK); g.lineWidth = 10; g.beginPath(); g.arc(x, y, 76 + 90 * (t * 1.2 % 1), 0, TAU2); g.stroke(); g.restore(); }
+function handGlow(sec, a) { if (a <= 0.01) return; const an = TAU2 * sec / 60; g.save(); g.globalCompositeOperation = "lighter"; g.globalAlpha = a; g.strokeStyle = css(PINK, 0.5); g.lineWidth = 34; g.lineCap = "round";
+  g.beginPath(); g.moveTo(CX, CY); g.lineTo(CX + Math.sin(an) * CR * 0.86, CY - Math.cos(an) * CR * 0.86); g.stroke(); g.restore(); }
+function chip(s, x, y, size, a, col = [30, 12, 50], bg = [246, 240, 255]) { if (a <= 0.01) return; g.save(); g.font = `900 ${size}px ${FONT}`; const w = g.measureText(s).width, px = size * 0.45, h = size * 1.5;
+  g.globalAlpha = a; g.fillStyle = css(bg); g.beginPath(); g.roundRect(x - w / 2 - px, y - h / 2, w + 2 * px, h, h * 0.3); g.fill(); g.restore(); text(s, x, y + size * 0.03, size, col, "center", 900, a); }
+const PINKBG = [255, 214, 232], CYANBG = [200, 248, 244];
+function clockPic(T, o = {}) { vbg(); targetDot(DX, DY, T, o.dot ?? 0.25); wallClock(CX, CY, CR, o.sec ?? secAt(T)); handGlow(o.sec ?? secAt(T), o.glow ?? 0); }
+function hookPic(t, T) { clockPic(T, { dot: 1, glow: 0.6 }); }
+const MASB = () => {};   // no mascot in ep58 (it sat on the dot)
 
 const SCENES = {};
-// 1 — hook: look at the pulsing dot; at "Now" an arrow sends the eyes to the ticking clock
+const BAND = 880;   // the one label slot, between the clock (bottom ≈ 794) and the strips below
+function frame0Text(a) { chip("Stare at the dot.", 470, 1460, 64, a, [80, 10, 40], PINKBG); }
+// 1 — hook: stare at the big dot (bottom left). On "Now" the title swaps to "Now: the clock!", an arrow points up, then the dot,
+// arrow and title all fade out by 1.8 s: from 1.8 s to the next caption (4.86 s) only the second hand moves.
 SCENES.hook = (t, T, B, E, dur) => {
-  hookPic(t, T);
-  PL("1. look here", 430, DY, 52, PINK, seg(t, 0.05, 0.2) * (1 - seg(t, 1.25, 1.4)), 900);
-  PL("2. jump!", 400, DY, 60, CYAN, seg(t, 1.3, 1.45), 900);
-  arrow(250, 520, 400, 640, CYAN, seg(t, 1.3, 1.5), 12, 40);
-  MAS(T, t, [[0.3, "?"], [1.4, "!"], [2.6, "?"]]);
+  const out = 1 - seg(t, 1.45, 1.8);
+  vbg(); targetDot(DX, DY, T, t < 1.3 ? 1 : out); wallClock(CX, CY, CR, secAt(T)); handGlow(secAt(T), 0.6 * (t < 1.3 ? 1 : out));
+  frame0Text(1 - seg(t, 1.25, 1.35));
+  chip("Now: the clock!", CX, BAND, 64, seg(t, 1.3, 1.4) * (1 - seg(t, 1.6, 1.8)), [10, 60, 60], CYANBG);
+  const k = eout((t - 1.3) / 0.3); if (t > 1.3) arrow(DX + 50, DY - 70, lerp(DX + 50, CX - 160, k), lerp(DY - 70, CY + 280, k), CYAN, out, 16, 56);
 };
-// 2 — guess: same clock. "First tick felt longer?" then a ruler of equal one-second blocks: the video did not lag
+// 2 — guess: "first tick felt longer?", then the 1-s tick ruler proves the video did not lag
 SCENES.guess = (t, T, B, E, dur) => {
-  vbg(); targetDot(DX, DY, t + 4.4, 0.25); wallClock(CX, CY, CR, secAt(T));
-  PL("first tick felt longer?", 560, 360, 58, PINK, seg(t, 0.1, 0.3) * (1 - seg(t, 1.8, 1.95)), 900);
-  PL("the video didn't lag", 560, 360, 60, CYAN, seg(t, 2.0, 2.2), 900);
-  PL("every tick = 1 s", 680, 1245, 48, CREAM, seg(t, 2.3, 2.5), 900);
-  for (let i = 0; i < 8; i++) { const on = seg(T, i + 0.98, i + 1.05); rrect(380 + i * 80, 1180, 70, 20, 8, on > 0.5 ? CYAN : [90, 70, 130], 0.4 + 0.6 * seg(t, 2.3, 2.5)); }
-  MAS(T, t, [[0.3, "?"], [2.1, "!"]]);
+  vbg(); wallClock(CX, CY, CR, secAt(T)); targetDot(DX, DY, T, 0.2);
+  chip("first tick felt longer?", CX - 120, BAND, 58, seg(t, 0.3, 0.45) * (1 - seg(t, 1.8, 1.95)), [80, 10, 40], PINKBG);
+  chip("the video didn't lag", CX - 120, BAND, 60, seg(t, 2.0, 2.15), [10, 60, 60], CYANBG);
+  for (let i = 0; i < 9; i++) { const on = seg(T, i + 0.98, i + 1.05); rrect(300 + i * 78, 990, 68, 40, 10, on > 0.5 ? CYAN : [90, 70, 130], seg(t, 0.35, 0.55)); }
+  chip("every tick = 1.00 s", 640, 1090, 50, seg(t, 0.5, 0.7));
 };
-// 3 — blind (reveal): a big eye jumps; your view pans: first as a blur, then switched OFF (black) during each jump
-function bigEye(x, y, w, gx) { // gx -1..1 gaze
-  g.save(); g.beginPath(); g.moveTo(x - w / 2, y); g.quadraticCurveTo(x, y - w * 0.42, x + w / 2, y); g.quadraticCurveTo(x, y + w * 0.42, x - w / 2, y); g.closePath();
-  g.fillStyle = "rgb(250,248,246)"; g.fill(); g.clip();
-  const ix = x + gx * w * 0.26; g.fillStyle = "rgb(70,120,200)"; g.beginPath(); g.arc(ix, y, w * 0.17, 0, TAU2); g.fill();
-  g.fillStyle = "rgb(110,170,230)"; g.beginPath(); g.arc(ix, y, w * 0.12, 0, TAU2); g.fill();
-  g.fillStyle = "rgb(12,8,20)"; g.beginPath(); g.arc(ix, y, w * 0.075, 0, TAU2); g.fill(); dot(ix + w * 0.04, y - w * 0.05, w * 0.025, [255, 255, 255], 0.9);
-  g.restore();
-  g.strokeStyle = "rgb(40,20,60)"; g.lineWidth = 12; g.beginPath(); g.moveTo(x - w / 2, y); g.quadraticCurveTo(x, y - w * 0.42, x + w / 2, y); g.quadraticCurveTo(x, y + w * 0.42, x - w / 2, y); g.stroke();
-  for (let i = 0; i < 7; i++) { const u = (i + 0.5) / 7, lx = lerp(x - w * 0.36, x + w * 0.36, u), ly = y - w * 0.21 * (1 - Math.pow(2 * u - 1, 2)) * 1.0 - 4; line(lx, ly, lx + (u - 0.5) * 30, ly - 46, [40, 20, 60], 1, 9); }
-}
-const JUMPS = [[0.3, 1], [1.5, -1], [2.7, 1], [3.6, -1]];   // [start, direction] each jump lasts 0.18 s
-function gazeAt(t) { let g0 = -1; for (const [s, d] of JUMPS) { if (t >= s + 0.18) g0 = d; else if (t >= s) return lerp(-d, d, eio((t - s) / 0.18)); } return g0; }
+// 3 — blind (reveal): the eyes jump dot → clock again; first a smear, then OFF mid-jump
+const JUMPS = [0.3, 1.5, 2.7];
 SCENES.blind = (t, T, B, E, dur) => {
-  vbg(); const gx = gazeAt(t);
-  bigEye(600, 600, 760, gx);
-  // "your view" panel: the scene seen through the eye; pans with the gaze
-  const px = 380, py = 880, pw = 640, ph = 380; g.save(); rrect(px - 10, py - 10, pw + 20, ph + 20, 30, [120, 84, 200], 1); g.beginPath(); g.roundRect(px, py, pw, ph, 24); g.clip();
-  g.fillStyle = "rgb(44,22,74)"; g.fillRect(px, py, pw, ph);
-  const off = (gx + 1) / 2, sh = -off * 520; let moving = false, mi = -1; JUMPS.forEach(([s], i) => { if (t >= s && t < s + 0.18) { moving = true; mi = i; } });
-  const drawScene = dx => { targetDot(px + 200 + dx, py + ph / 2, T, 1); wallClock(px + 720 + dx, py + ph / 2, 150, secAt(T)); };
-  if (moving && mi === 0) { g.globalAlpha = 0.25; for (let k = -4; k <= 4; k++) drawScene(sh + k * 40); g.globalAlpha = 1; }
-  else drawScene(sh);
-  // vision OFF: from the second jump on, the panel goes black for the jump plus a short margin
-  const offA = JUMPS.slice(1).reduce((m, [s]) => Math.max(m, win(t, s - 0.04, s + 0.34, 0.03)), 0);
-  if (offA > 0.01) { g.globalAlpha = offA; g.fillStyle = "rgb(6,4,10)"; g.fillRect(px, py, pw, ph); g.globalAlpha = 1; text("OFF", px + pw / 2, py + ph / 2, 120, PINK, "center", 900, offA); }
-  g.restore();
-  PL("your view", px + pw / 2, py - 50, 46, CREAM, seg(t, 0.1, 0.3), 900);
-  PL(t < 1.35 ? "eye jump = a blur" : "brain: vision OFF mid-jump", 560, 330, 54, t < 1.35 ? CREAM : PINK, seg(t, 0.35, 0.5) * (t < 1.35 ? 1 - seg(t, 1.2, 1.35) : 1) + (t >= 1.35 ? seg(t, 1.4, 1.55) : 0), 900);
-  MAS(T, t, [[0.4, "?"], [1.6, "!"], [3.0, "idea"]]);
+  let dotA = 0.2; JUMPS.forEach(s => { dotA = Math.max(dotA, win(t, s - 0.7, s + 0.05, 0.15)); });
+  vbg(); targetDot(DX, DY, T, dotA); wallClock(CX, CY, CR, secAt(T));
+  JUMPS.forEach((s, i) => { const u = (t - s) / 0.22; if (u < 0 || u > 1) return;
+    if (i === 0) { g.save(); g.strokeStyle = "rgba(230,220,255,0.35)"; g.lineWidth = 200; g.lineCap = "round"; g.beginPath(); g.moveTo(DX, DY); g.lineTo(lerp(DX, CX, u), lerp(DY, CY, u)); g.stroke(); g.restore(); }
+    else { g.fillStyle = "rgba(6,3,12,0.94)"; g.fillRect(0, 0, W, H); text("OFF", CX, CY, 170, PINK, "center", 900, 1); } });
+  chip("eye jump = a blur", CX - 120, BAND, 58, seg(t, 0.35, 0.5) * (1 - seg(t, 1.3, 1.45)));
+  chip("brain: vision OFF mid-jump", 540, BAND, 56, seg(t, 1.45, 1.6), [80, 10, 40], PINKBG);
 };
-// 4 — fill: a film strip of what you "saw": dot, dot, GAP, clock, clock; the clock frame is copied back into the gap
-const FW5 = 180, FG = 12, FX0 = 72, FY = 450, FH5 = 430;
-function frameBox(i, kind, a, t, T, glow = 0) {
-  if (a <= 0.01) return; const x = FX0 + i * (FW5 + FG);
-  g.save(); g.globalAlpha = a; rrect(x, FY, FW5, FH5, 18, kind === "gap" ? [8, 4, 12] : [44, 22, 74], 1, kind === "gap" ? PINK : [120, 84, 200], 6);
-  if (kind === "dot") { dot(x + FW5 / 2, FY + FH5 / 2, 40, PINK, 1); dot(x + FW5 / 2, FY + FH5 / 2, 15, [255, 255, 255], 1); }
-  if (kind === "clock") wallClock(x + FW5 / 2, FY + FH5 / 2, 62, secAt(T));
-  if (kind === "gap") text("?", x + FW5 / 2, FY + FH5 / 2, 120, PINK, "center", 900, 1);
-  if (glow > 0.01) { g.globalCompositeOperation = "lighter"; soft(x + FW5 / 2, FY + FH5 / 2, 170, CYAN, 0.5 * glow); }
-  g.restore();
-}
+// 4 — fill: dot | gap | clock strip under the clock; the clock segment slides back over the gap and the clock face flashes
 SCENES.fill = (t, T, B, E, dur) => {
-  vbg();
-  const kinds = ["dot", "dot", "gap", "clock", "clock"];
-  kinds.forEach((k, i) => { if (i === 2 && t > 1.9) return; frameBox(i, k, seg(t, 0.1 + i * 0.2, 0.25 + i * 0.2), t, T); });
-  // copy slides from frame 3 into the gap
-  const mv = eio((t - 1.6) / 0.4); if (t > 1.6) { const x = lerp(3, 2, mv); g.save(); g.translate((x - 2) * (FW5 + FG), 0); frameBox(2, "clock", 1, t, T, t > 2.0 ? Math.exp(-(t - 2.0) * 1.5) + 0.25 : 0); g.restore(); }
-  arrow(FX0 + 3.5 * (FW5 + FG) - 20, FY - 40, FX0 + 2.5 * (FW5 + FG) + 20, FY - 40, CYAN, seg(t, 1.6, 1.8), 10, 34);
-  text("time →", 880, FY + FH5 + 50, 42, CREAM, "center", 800, 0.8 * seg(t, 0.2, 0.4));
-  PL("what you saw", 560, 330, 56, CREAM, seg(t, 0.1, 0.3) * (1 - seg(t, 1.0, 1.15)), 900);
-  PL("a gap, during the jump", 560, 330, 54, PINK, seg(t, 1.05, 1.2) * (1 - seg(t, 2.1, 2.25)), 900);
-  PL("brain fills it with the clock", 560, 330, 54, CYAN, seg(t, 2.2, 2.35), 900);
-  PL("as if you'd been looking all along", 665, 1112, 42, CREAM, seg(t, 2.6, 2.8), 900);
-  MAS(T, t, [[0.3, "?"], [1.2, "!"], [2.1, "idea"]]);
+  const fl = t > 1.6 ? Math.exp(-(t - 1.6) * 1.4) : 0;
+  vbg(); targetDot(DX, DY, T, 0.2); wallClock(CX, CY, CR, secAt(T)); handGlow(secAt(T), 0.4 * fl);
+  if (fl > 0.01) { g.save(); g.globalCompositeOperation = "lighter"; g.strokeStyle = css(CYAN, 0.9 * fl); g.lineWidth = 30; g.beginPath(); g.arc(CX, CY, CR + 40, 0, TAU2); g.stroke(); g.restore(); }
+  const y = 970, h = 100, X0 = 300, wd = 170, wg = 190, wc = 320, fillK = eio((t - 1.4) / 0.6);
+  g.save(); g.globalAlpha = seg(t, 0.1, 0.3); rrect(X0, y, wd, h, 16, PINK, 1); text("dot", X0 + wd / 2, y + h / 2, 48, [40, 10, 30], "center", 900, 1); g.restore();
+  g.save(); g.globalAlpha = seg(t, 0.35, 0.55); rrect(X0 + wd + 8, y, wg, h, 16, [8, 4, 14], 1, PINK, 8); text("?", X0 + wd + 8 + wg / 2, y + h / 2, 68, PINK, "center", 900, 1 - fillK); g.restore();
+  const cx0 = X0 + wd + wg + 16, cl = lerp(cx0, X0 + wd + 8, fillK);
+  g.save(); g.globalAlpha = seg(t, 0.6, 0.8); rrect(cl, y, cx0 + wc - cl, h, 16, CREAM, 1, fillK > 0.02 ? CYAN : null, 8); text("clock", cx0 + wc / 2, y + h / 2, 48, [40, 26, 60], "center", 900, 1); g.restore();
+  if (t > 1.4) arrow(cx0 + 60, y + h + 50, X0 + wd + 40, y + h + 50, CYAN, 1 - seg(t, 2.6, 2.9), 12, 40);
+  text("time →", 900, y + h + 60, 50, CREAM, "center", 800, 0.85 * seg(t, 0.2, 0.4) * (1 - seg(t, 1.3, 1.4)));
+  chip("the gap: you saw nothing", 540, BAND, 56, seg(t, 0.4, 0.55) * (1 - seg(t, 1.35, 1.5)), [80, 10, 40], PINKBG);
+  chip("brain pastes the clock in", 540, BAND, 58, seg(t, 1.5, 1.65), [10, 60, 60], CYANBG);
+  chip("as if you'd been looking all along", 620, 1235, 44, seg(t, 2.5, 2.7));
 };
-// 5 — stretch: tick bars of one second each; the borrowed piece is added to the first tick (up to about half a second)
-const BX = 120, BS = 520, RH = 130;
-function bar(y, len, label, a, col = [120, 84, 200]) { if (a <= 0.01) return; rrect(BX, y - RH / 2, len, RH, 22, col, a); text(label, BX + 30, y, 46, CREAM, "left", 800, a); }
+// 5 — stretch: REAL 1.0 s vs FELT rolling to 1.5 s, the borrowed piece flies into FELT, the hand glows
 SCENES.stretch = (t, T, B, E, dur) => {
-  vbg(); const rows = [520, 690, 860];
-  const grow = eio((t - 1.3) / 0.7) * 0.5 * BS;
-  // borrowed piece flies in from the gap (top right) and docks at the end of tick 1
-  bar(rows[0], BS, "tick 1", seg(t, 0.1, 0.25)); bar(rows[1], BS, "tick 2", seg(t, 0.3, 0.45)); bar(rows[2], BS, "tick 3", seg(t, 0.5, 0.65));
-  if (t > 1.0) { const u = eio((t - 1.0) / 0.8), x = lerp(1100, BX + BS + 6, u), y = rows[0], w = 0.5 * BS - 6;
-    g.save(); g.globalAlpha = seg(t, 1.0, 1.15); g.fillStyle = css(PINK); g.beginPath(); g.roundRect(x, y - RH / 2, w, RH, 22); g.fill();
-    g.strokeStyle = "rgba(255,255,255,0.35)"; g.lineWidth = 10; g.save(); g.beginPath(); g.roundRect(x, y - RH / 2, w, RH, 22); g.clip(); for (let k = -6; k < 14; k++) { g.beginPath(); g.moveTo(x + k * 40, y + RH); g.lineTo(x + k * 40 + 110, y - RH); g.stroke(); } g.restore();
-    text("borrowed", x + w / 2, y, 40, [255, 255, 255], "center", 900, 1); g.restore(); }
-  // brackets: real 1 s and felt up to 1.5 s
-  const bA = seg(t, 2.9, 3.1); line(BX, rows[0] - 90, BX + BS, rows[0] - 90, CREAM, bA, 5); text("real: 1 s", BX + BS / 2, rows[0] - 120, 40, CREAM, "center", 800, bA);
-  const fA = seg(t, 3.6, 3.8); line(BX, rows[2] + 100, BX + 1.5 * BS, rows[2] + 100, PINK, fA, 5); text("felt: up to 1.5 s", BX + 0.75 * BS + 120, rows[2] + 140, 44, PINK, "center", 900, fA);
-  if (fA > 0.01) { line(BX + 1.5 * BS, rows[0], BX + 1.5 * BS, rows[2] + 100, PINK, fA * 0.6, 4, [12, 12]); }
-  PL("that borrowed time…", 560, 330, 56, CREAM, seg(t, 0.15, 0.35) * (1 - seg(t, 2.4, 2.55)), 900);
-  PL("…up to ½ second longer", 560, 330, 60, PINK, seg(t, 2.6, 2.8), 900);
-  MAS(T, t, [[0.4, "?"], [1.8, "!"], [3.7, "!", "wince"]]);
+  const roll = eio((t - 2.8) / 0.9), felt = 1.0 + 0.5 * roll, gl = seg(t, 2.7, 3.0) * (0.6 + 0.4 * Math.sin(T * 6));
+  vbg(); targetDot(DX, DY, T, 0.2); wallClock(CX, CY, CR, secAt(T)); handGlow(secAt(T), gl);
+  const a1 = seg(t, 0.15, 0.35), a2 = seg(t, 0.5, 0.7);
+  rrect(300, 960, 330, 180, 26, [40, 26, 70], a1, CREAM, 8); text("REAL", 465, 1005, 48, CREAM, "center", 900, a1); text("1.0 s", 465, 1085, 72, CREAM, "center", 900, a1);
+  rrect(670, 960, 330, 180, 26, [70, 20, 50], a2, PINK, 8); text("FELT", 835, 1005, 48, PINK, "center", 900, a2); text(felt.toFixed(1) + " s", 835, 1085, 72, PINK, "center", 900, a2);
+  if (t > 1.0 && t < 2.9) { const u = eio((t - 1.0) / 0.9); chip("+ borrowed", lerp(540, 835, u), lerp(BAND, 1180, u), 52, 1 - seg(t, 2.6, 2.9), [80, 10, 40], PINKBG); }
+  chip("borrowed time → tick 1", 540, BAND, 56, seg(t, 0.15, 0.3) * (1 - seg(t, 0.95, 1.05)));
+  chip("up to ½ second longer", 540, BAND, 62, seg(t, 2.65, 2.8), [80, 10, 40], PINKBG);
 };
-// 6 — every: a gaze point hops around a desk scene about three times a second; a counter runs
-const SPOTS = [[300, 560], [820, 520], [560, 860], [900, 1040], [420, 1180], [760, 760], [980, 620], [520, 600], [850, 1180], [640, 1000]];
+// 6 — every: the gaze ring hops round the clock (12, 3, 6, 9, the dot) about 3 times a second, with a counter
+const SPOTS = [[CX, CY - CR * 0.68], [CX + CR * 0.68, CY], [CX, CY + CR * 0.68], [CX - CR * 0.68, CY], [DX, DY], [CX + CR * 0.5, CY - CR * 0.5], [CX, CY], [CX - CR * 0.5, CY + CR * 0.5], [CX + CR * 0.68, CY], [CX, CY - CR * 0.68]];
 SCENES.every = (t, T, B, E, dur) => {
-  vbg();
-  // desk scene: the clock, a phone, a mug, a window
-  wallClock(820, 520, 150, secAt(T)); rrect(330, 470, 200, 170, 16, [120, 190, 240], 1, [200, 220, 255], 8); text("window", 430, 680, 36, CREAM, "center", 700, 0.7);
-  rrect(800, 940, 160, 280, 26, [30, 20, 44], 1, [180, 160, 220], 8); rrect(818, 966, 124, 228, 14, [94, 230, 224], 0.5);
-  rrect(380, 1080, 150, 150, 24, [255, 180, 80], 1); g.strokeStyle = "rgb(255,180,80)"; g.lineWidth = 22; g.beginPath(); g.arc(540, 1155, 44, -1.2, 1.2); g.stroke();
-  rrect(470, 780, 220, 140, 20, [255, 95, 162], 0.85); text("book", 580, 850, 40, [255, 255, 255], "center", 900, 1);
-  // gaze path
+  vbg(); targetDot(DX, DY, T, 0.6); wallClock(CX, CY, CR, secAt(T));
   const n = Math.min(SPOTS.length - 1, Math.floor(Math.max(0, t - 0.2) * 3)), u = clamp(((t - 0.2) * 3) % 1 / 0.25);
-  for (let i = 1; i <= n; i++) line(SPOTS[i - 1][0], SPOTS[i - 1][1], SPOTS[i][0], SPOTS[i][1], CYAN, 0.35, 6);
   const p0 = SPOTS[Math.max(0, n - 1)], p1 = SPOTS[n], gp = t < 0.2 ? SPOTS[0] : [lerp(p0[0], p1[0], n ? u : 1), lerp(p0[1], p1[1], n ? u : 1)];
-  g.save(); g.strokeStyle = css(CYAN); g.lineWidth = 12; g.beginPath(); g.arc(gp[0], gp[1], 54, 0, TAU2); g.stroke(); g.restore(); dot(gp[0], gp[1], 12, CYAN, 1);
-  plate("eye jumps: " + (n + 1), 560, 330, 60, CYAN, 1, 900);
-  PL("about 3 every second", 640, 1290, 48, CREAM, seg(t, 1.0, 1.2), 900);
-  MAS(T, t, [[0.4, "!"], [1.8, "idea"]]);
+  for (let i = 1; i <= n; i++) line(SPOTS[i - 1][0], SPOTS[i - 1][1], SPOTS[i][0], SPOTS[i][1], CYAN, 0.35, 8);
+  g.save(); g.strokeStyle = css(CYAN); g.lineWidth = 14; g.beginPath(); g.arc(gp[0], gp[1], 62, 0, TAU2); g.stroke(); g.restore(); dot(gp[0], gp[1], 14, CYAN, 1);
+  chip("eye jumps: " + (n + 1), CX - 80, BAND, 64, 1, [10, 60, 60], CYANBG);
+  chip("about 3 every second", 640, 1180, 52, seg(t, 1.0, 1.2));
 };
-// end: the hook picture again with the question; the last 0.5 s are frame one exactly (loop)
+// end: the question drawn on the canvas under the clock; the last 0.5 s are frame one exactly (loop)
 SCENES.end = (t, T, B, E, dur) => {
-  if (t > dur - 0.5) { vbg(); targetDot(DX, DY, 0, 1); wallClock(CX, CY, CR, 0); MAS(T, t, [[dur - 0.45, "?"]]); return; }
-  vbg(); targetDot(DX, DY, t, 0.5); wallClock(CX, CY, CR, secAt(T));
-  PL("yes or no?", 640, 1245, 52, CYAN, seg(t, 0.4, 0.6), 900);
-  MAS(T, t, [[0.3, "?", "grin"], [1.6, "!"]]);
+  if (t > dur - 0.5) { vbg(); targetDot(DX, DY, 0, 1); wallClock(CX, CY, CR, 0); handGlow(0, 0.6); frame0Text(1); return; }
+  vbg(); targetDot(DX, DY, T, 0.6); wallClock(CX, CY, CR, secAt(T)); handGlow(secAt(T), 0.6);
+  chip("Did your clock freeze?", 540, BAND + 20, 72, seg(t, 0.05, 0.2), [30, 12, 50], [246, 240, 255]);
+  chip("yes or no?", 540, BAND + 140, 60, seg(t, 0.4, 0.6), [10, 60, 60], CYANBG);
 };

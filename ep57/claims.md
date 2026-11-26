@@ -6,4 +6,5 @@
 | Wood conducts heat poorly, so it stays cooler than the foam | Mental Floss (Dickinson) |
 | One burst makes touching bubbles burst too, so the foam does not build up | Mental Floss ("the bubbles touching them tend to burst too") |
 | It only buys time: once the spoon is as hot as the liquid and water-logged it stops working | The Conversation / ScienceAlert ("will soon become the same temperature as the liquid"); Mental Floss ("so warm and water-logged") |
+| Wood keeps foam at bay longer than a metal spoon (metal is less absorbent and heats faster); used only in the description and the ending question "Wood or metal?" | Mental Floss ("will help keep foam at bay for longer than a metal utensil would") |
 | NOT claimed: "wood is hydrophobic" (no source supports it); no times or temperatures are stated | — |

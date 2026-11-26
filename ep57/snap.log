@@ -1,29 +1,22 @@
-◆  Capturing 20 frames at [0s, 1s, 3.2s, 4.5s, 7s, 8.2s, 9.5s, 11s, 12.5s, 14.5s, 16.5s, 18s, 20s, 21.5s, 23s, 25s, 27s, 28.5s, 30s, 32s] from ep57
+◆  Capturing 13 frames at [0s, 1s, 2.5s, 5s, 7.5s, 7.9s, 8.1s, 8.8s, 9.6s, 10.5s, 21.5s, 29s, 31.4s] from ep57
 [INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
 [hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, Vulkan 1.4.335 (llvmpipe (LLVM 20.1.2 256 bits) (0x00000000)), llvmpipe)")
 
    Fonts: 1 loaded, 2 unused
 
-◇  20 snapshots saved to snapshots/
+◇  13 snapshots saved to snapshots/
    snapshots/frame-00-at-0s.png
    snapshots/frame-01-at-1s.png
-   snapshots/frame-02-at-3.2s.png
-   snapshots/frame-03-at-4.5s.png
-   snapshots/frame-04-at-7s.png
-   snapshots/frame-05-at-8.2s.png
-   snapshots/frame-06-at-9.5s.png
-   snapshots/frame-07-at-11s.png
-   snapshots/frame-08-at-12.5s.png
-   snapshots/frame-09-at-14.5s.png
-   snapshots/frame-10-at-16.5s.png
-   snapshots/frame-11-at-18s.png
-   snapshots/frame-12-at-20s.png
-   snapshots/frame-13-at-21.5s.png
-   snapshots/frame-14-at-23s.png
-   snapshots/frame-15-at-25s.png
-   snapshots/frame-16-at-27s.png
-   snapshots/frame-17-at-28.5s.png
-   snapshots/frame-18-at-30s.png
-   snapshots/frame-19-at-32s.png
-   contact-sheet-1..3.jpg (grid view for AI review)
+   snapshots/frame-02-at-2.5s.png
+   snapshots/frame-03-at-5s.png
+   snapshots/frame-04-at-7.5s.png
+   snapshots/frame-05-at-7.9s.png
+   snapshots/frame-06-at-8.1s.png
+   snapshots/frame-07-at-8.8s.png
+   snapshots/frame-08-at-9.6s.png
+   snapshots/frame-09-at-10.5s.png
+   snapshots/frame-10-at-21.5s.png
+   snapshots/frame-11-at-29s.png
+   snapshots/frame-12-at-31.4s.png
+   contact-sheet-1..2.jpg (grid view for AI review)
    --describe: GEMINI_API_KEY not set, skipping
