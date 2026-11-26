@@ -3,7 +3,7 @@
 Times are UTC from `date` (the session clock) and are partly reconstructed from subagent reports: marked (guess) where so. Run start 14:37:18, last step about 15:05.
 
 ## Result
-Short built and reviewed (7.0 then 7.8, gate 7.5, no P0). Pushed. **Windsor upload failed twice with "YouTube rate-limited the upload"**, so the video is NOT on YouTube. Verdict: not passed yet, because step 9 did not complete; steps 0-8 work.
+Short built and reviewed (7.0 then 7.8, gate 7.5, no P0). Pushed. **Windsor upload failed twice with "YouTube rate-limited the upload"**, so the video is NOT on YouTube. Verdict: Windsor step 9 did not pass; steps 0-8 work. After Trường asked for Chrome, ep 61 was uploaded through Claude in Chrome (Unlisted, https://youtube.com/shorts/av2Gxw-DZGA, channel UC9sC_yvLVzT19dxs39Q22fg confirmed by vidIQ: privacyStatus unlisted, uploadStatus processed). Music, end screen and thumbnail are still open.
 
 ## Tools available in this session
 | Tool | Result |
@@ -62,3 +62,13 @@ Self-reported by builder: ASR once heard "two" as "too" (round 1).
 4. Add a video-id column to `docs/episodes.md` so the measure agent can map episodes to videos.
 5. Decide whether fact-check and metadata/translation must be separate agents (runbook table) or can stay in the builder (faster, the dry run did it in the builder).
 6. Meta file should carry tags + playlist (`meta_en.json`) so upload needs no copy from `youtube-metadata.md`.
+
+## Addendum: Chrome upload of ep 61 (2026-11-26, ~15:04-15:22 UTC, ~15 min)
+Source: Trường asked in chat to switch to Chrome. Browser: Windows Chrome, one connected browser, Studio signed in (UI in Vietnamese). The `__wid_*` helper scripts from the run book were NOT in localStorage on this browser (different profile), so the helpers were rewritten (about 6 JS calls).
+- Upload: `fetch()` of the commit-SHA raw URL (3,641,418 bytes) into `input[name=Filedata]` on `/videos/upload?d=ud` worked. Video id av2Gxw-DZGA. Title and description by `execCommand('insertText')`, 1,283 chars. Tags: the channel defaults already add 5 chips (science, explained, why, animation, everyday science); I added the 10 ep 61 tags with Enter. Altered content = No (radio click). Playlist "Your Brain Is Tricking You" ticked. Related video = "Make a Floating Finger..." (JS click on the card). EN subtitles from `subtitles.srt` through the captured `captions-file-loader` input then `#publish-button`. Visibility step showed "Không công khai" (Unlisted); saved with the real "Lưu" click. "Đã kiểm tra xong, không phát hiện vấn đề" came before saving.
+- Translations: all 7 (vi, th, ja, ko, zh-Hant, id, fil) in one background job, about 25 s each (~3 min total); the table shows 1 subtitle and "Đã xuất bản" title for every row. Language labels: Tiếng Việt, Thái, Nhật, Hàn, Indonesia, Philippines (for fil), Trung (Phồn thể).
+- Dubbed audio: "Âm thanh → Thêm → Chọn tệp" with `dub.ja.mp3` and `dub.zh-Hant.mp3` (both 498,861 bytes, different md5) then "Xuất bản" worked; both rows show "Đang xử lý..." (still processing at the end of the run). Closing a language dialog asks "Lưu và tiếp tục?": answer "Lưu nội dung thay đổi".
+- **Music: not done.** The Editor's "Âm thanh" tool is disabled while multi-language audio is processing (Studio tooltip: cannot add audio while multi-language audio is being processed; remove pending tracks first). So the run book order should be: music first, dubs after (guess: the old runs added dubs only later or on different videos).
+- Not done: end screen, thumbnail (the video has an auto thumbnail), A/B test.
+- Wall time (Chrome): upload+details ~6 min, subtitles ~1 min, translations ~4 min, dubs ~3 min; no popups or login prompts. The Windsor error text did not recur because Windsor was not retried (per Trường's instruction).
+- Fix list additions: (7) music before dubs; (8) keep the helper code in the repo (tools/studio/*.js) instead of in localStorage, so a fresh browser profile works.

@@ -98,6 +98,8 @@ Title, description WITHOUT any mention of AI, Claude, TTS or how it was made (so
 
 ## 9. Upload (Windsor, no browser needed)
 
+> **2026-11-26 (Trường: "đổi qua chrome đi upload"): until Windsor's rate limit is understood, Chrome (step 10's Studio upload, `docs/upload-studio.md`, plus the ep 61 notes in `state/dryrun-v19.md`) is the primary upload path. Windsor `upload_video` returned "YouTube rate-limited the upload" 3 times in a row on 2026-11-26; use Windsor only as a fallback or for metadata.** Use the commit-SHA raw URL for any fetch, never probe the branch URL before the push (404 is cached).
+
 1. Push episode folders (with `dub.ja.mp3`, `dub.zh-Hant.mp3`, `subtitles.srt`) and `media/` files; verify with `git ls-remote`. No push → no public URL → stop the upload and report.
 2. Duplicate guard: if `docs/episodes.md` already has a video URL for the episode, or the channel's video list (vidIQ) has the same title, skip.
 3. Windsor `execute_action`, connector `youtube`, action `upload_video`: `video_url` = `https://raw.githubusercontent.com/ntxtruong/Why-It-Does-That/<branch>/media/<file>.mp4`, `title`, `description`, `tags`, `category_id` "27" (Education), `made_for_kids` false, `privacy_status` **"unlisted"**, no `publish_at`. File must be ≤ 100 MB (a 30 s Short is far below; if not, re-encode at a lower bitrate).
