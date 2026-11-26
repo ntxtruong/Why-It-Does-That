@@ -20,3 +20,4 @@ Open work carried between runs. The coordinator reads this first and updates it 
 
 - 2026-11-26: scheduled task v19 `trig_011GCsUutw8UMVbC7F6ePJeT` (Wed + Fri 07:47 Asia/Ho_Chi_Minh, new thread per run) replaces v18 `trig_01Ti3QYFc7qP7UeRiEBBHsnP`, which is DISABLED (not deleted). Prompt copy: `/mnt/project-files/reports/schedule-v19-prompt.md` in the project. Open risks: unverified that a scheduled run can reach the built-in browser (needs Trường's computer on, app open); Windsor rate limit; no audio listening; translations unreviewed.
 - 2026-11-26 (Trường): any computer with the Claude app open can serve the built-in browser; it need not be the same machine as this session. In a run, use whatever device `list_devices`/browser tools show; only report "no browser" if none is reachable.
+- 2026-11-26 (Trường): run time moved to 01:05 Asia/Ho_Chi_Minh and runs now schedule publication (runbook step 11). Task v20 replaces v19 trig_011GCsUutw8UMVbC7F6ePJeT (disabled).

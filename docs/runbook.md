@@ -2,7 +2,7 @@
 
 Approved by Trường on 2026-11-26 ("Duyệt, làm và chạy thử"). The scheduled task prompt stays short and points here, so change the routine by editing this file, not the task. CLAUDE.md (core) still wins over this file on any conflict; say so in one line.
 
-Goal of every run: 3 Shorts (or the number the prompt names), each with an independent review score ≥ 7.5 and no P0, on YouTube as **Unlisted**, with EN subtitles, 7 translations (plus the trial languages in `docs/languages.md`) and ja/zh dubbed audio, and a short Vietnamese report. Never Public, never scheduled, never deleted unless Trường asks in chat.
+Goal of every run: 3 Shorts (or the number the prompt names), each with an independent review score ≥ 7.5 and no P0, on YouTube as **Unlisted** until finished, then **scheduled** (step 11), with EN subtitles, 7 translations (plus the trial languages in `docs/languages.md`) and ja/zh dubbed audio, and a short Vietnamese report. Never Public, never scheduled, never deleted unless Trường asks in chat.
 
 ## Token rules (read first)
 
@@ -126,7 +126,15 @@ Details, audience table, trial plan and log: `docs/languages.md`. Each run: read
 
 ## Hard rules
 
-- Never make a video Public or schedule it unless Trường asks in chat; never delete a video; never sign in, type passwords or switch accounts; confirm the channel before any Studio action; never post comments.
+- Never make a video Public immediately; scheduling is allowed only as step 11 (Trường, 2026-11-26); never delete a video; never sign in, type passwords or switch accounts; confirm the channel before any Studio action; never post comments.
 - Never present an unverified number as fact.
 - Vietnamese, Thai, Indonesian and Korean dubs are on hold until Trường decides. Hindi dub is a trial on one Short only (see `docs/languages.md`).
 - If Trường writes during a run, his message comes first.
+
+## Step 11: schedule publication (Trường, 2026-11-26)
+
+Run time is 01:05 Asia/Ho_Chi_Minh (Wed + Fri). After every item of a video is done (details, EN subs, translations, music, dubs verified) and its review score is ≥ 7.5:
+1. T = time the last video of the run finished (Asia/Ho_Chi_Minh). Video 1 publishes at T + 3 h, video 2 at T + 4 h, video 3 at T + 5 h (order: strongest hook first). Example: finished 04:00 → 07:00, 08:00, 09:00. Round to the next full 5 minutes.
+2. In Studio, per video: Visibility → "Lên lịch" (Schedule) → date + time → Lên lịch. Check the Studio time zone shown in the dialog is GMT+7; if not, say so and stop. Re-read the video row afterwards: it must show "Đã lên lịch" with the date and time.
+3. Never schedule a video with an open item or review below 7.5; leave it Unlisted and report why. Browser not reachable: leave Unlisted, put "schedule at <time>" in `state/queue.md`.
+4. Report each video with its scheduled time. Record them in `docs/episodes.md`.
