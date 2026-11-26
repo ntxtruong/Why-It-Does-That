@@ -73,3 +73,7 @@ Notes:
 - None of these are 48 h old, so none is an experiment readout. Experiment scoreboard not updated.
 - Views and likes are as of the vidIQ call on 2026-11-26; vph is the value vidIQ returned (null for the newest upload, which had no hour count).
 - Not run: vidiq_video_stats (no per-video history was needed for this step), Windsor fallback (not needed, vidIQ returned views and likes), YouTube Studio retention (browser step 10 only).
+
+## 2026-11-26 (daily learning, vidIQ only, evening)
+
+[vidIQ channel_videos, Shorts] views at the call: eps 45–52 (Public 11-25 03:29): floating finger 1,612 · nose hum 1,527 · blue banana 1,298 · ice thread 1,263 · spaghetti 1,229 · flicker 1,107; plane windows 1,202 · apple 1,086 (11-25 17:06); today: cat eyes 1,020 · pen cap 1,023 · wooden spoon 1,037 (09:00–11:00 UTC), clock 419, falling cat 933, brain freeze 640, ep 61 two noses 6 (just Public 17:00). Avg view, stayed % and subs are missing (channel_analytics lags days). [vidIQ channel_analytics audience_geography, 28 d] unchanged top rows VN 7,163 · PH 1,378 · US 1,221 · ID 656 · IN 604 · GB 360 · MY 255 · AU 167 · BD 141 · PL 122 · DE 106. Nothing is 48 h old except the 11-25 03:29 batch (~38 h), so no readout.
