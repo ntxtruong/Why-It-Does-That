@@ -6,6 +6,7 @@ cd "$(dirname "$0")/.."
 
 echo "== Python packages (voice, speech check)"
 pip install --break-system-packages -q kokoro-onnx soundfile sherpa-onnx numpy
+pip install --break-system-packages -q "misaki[ja,zh]"   # dubbed ja / zh tracks (tools/dub.py), 2026-11-26
 
 echo "== Kokoro voice model (tts/, about 350 MB, git-ignored)"
 mkdir -p tts asr
