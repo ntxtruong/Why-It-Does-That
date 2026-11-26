@@ -15,3 +15,7 @@ Open work carried between runs. The coordinator reads this first and updates it 
 ## Other
 
 (none)
+
+## Schedule
+
+- 2026-11-26: scheduled task v19 `trig_011GCsUutw8UMVbC7F6ePJeT` (Wed + Fri 07:47 Asia/Ho_Chi_Minh, new thread per run) replaces v18 `trig_01Ti3QYFc7qP7UeRiEBBHsnP`, which is DISABLED (not deleted). Prompt copy: `/mnt/project-files/reports/schedule-v19-prompt.md` in the project. Open risks: unverified that a scheduled run can reach the built-in browser (needs Trường's computer on, app open); Windsor rate limit; no audio listening; translations unreviewed.
