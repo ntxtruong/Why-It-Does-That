@@ -138,3 +138,4 @@ Run time is 01:05 Asia/Ho_Chi_Minh (Wed + Fri). After every item of a video is d
 2. In Studio, per video: Visibility → "Lên lịch" (Schedule) → date + time → Lên lịch. Check the Studio time zone shown in the dialog is GMT+7; if not, say so and stop. Re-read the video row afterwards: it must show "Đã lên lịch" with the date and time.
 3. Never schedule a video with an open item or review below 7.5; leave it Unlisted and report why. Browser not reachable: leave Unlisted, put "schedule at <time>" in `state/queue.md`.
 4. Report each video with its scheduled time. Record them in `docs/episodes.md`.
+5. Run days (Wed + Fri) were chosen from vidIQ data on 2026-11-26 (hypothesis H13, thin evidence). Re-check the best publish day/hour after 2 weeks (~2026-12-10) and change the days or the +3 h offset only with numbers.
