@@ -250,3 +250,30 @@ Terms from episodes 19–21 (2026-11-07), with the two new languages (machine-dr
 - floating finger illusion: ảo ảnh ngón tay lơ lửng / ภาพลวงนิ้วลอย / 浮かぶ指の錯視 / 떠다니는 손가락 착시 / 漂浮手指錯覺 / ilusi jari melayang / floating finger illusion
 - double images (physiological diplopia): ảnh đôi (song thị sinh lý) / ภาพซ้อน / 生理的複視 / 생리적 복시 / 生理性複視 / diplopia fisiologis / physiological diplopia
 - binocular vision: thị giác hai mắt / การมองเห็นด้วยสองตา / 両眼視 / 양안시 / 雙眼視覺 / penglihatan binokular / binocular vision
+
+## Glossary additions, hi (ep 61 trial, 2026-11-26; machine-drafted, native-speaker check pending)
+
+| English | hi |
+| --- | --- |
+| Aristotle's illusion | अरस्तू का भ्रम |
+| crossed fingers | क्रॉस की गई उंगलियाँ |
+| illusion | भ्रम |
+| brain | दिमाग़ |
+
+## Glossary additions, ms (ep 61 trial, 2026-11-26; machine-drafted, native-speaker check pending)
+
+| English | ms |
+| --- | --- |
+| Aristotle's illusion | ilusi Aristotle |
+| crossed fingers | jari bersilang |
+| illusion | ilusi |
+| brain | otak |
+
+## Glossary additions, pl (ep 61 trial, 2026-11-26; machine-drafted, native-speaker check pending)
+
+| English | pl |
+| --- | --- |
+| Aristotle's illusion | iluzja Arystotelesa |
+| crossed fingers | skrzyżowane palce |
+| illusion | iluzja |
+| brain | mózg |
