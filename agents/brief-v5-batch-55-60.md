@@ -26,7 +26,7 @@ Facts: verify the mechanism and every number with web search before voicing; wri
 
 ## Hard rules (v5)
 - Hook at 0 s is a DO or WEIRD visual, 3–6 words of on-screen text, never a flat claim. Wrong guess killed early, reveal at 7–10 s, a visible change every ≤ 2.5 s, 20–32 s total, no recap, last frame loops to the first, ends on a one-word question.
-- Subject ≥ 60 % of the frame, own camera `cam()`, hard cuts (NOPUSH/NODIP), mascot via MASR at x 150 y 1585 s 0.6 reacting each beat, kara captions at left 330 width 640 top 1352, nothing important below ~1536 px or under the mascot. Pillar palette (Animals: a new warm palette you define; Designed: reuse ep54 teal; Kitchen: ep53's; Brain / Body: define one each, not navy).
+- Subject ≥ 60 % of the frame, own camera `cam()`, hard cuts (NOPUSH/NODIP), mascot OPTIONAL from ep 61 (start and/or end only, or none; see CLAUDE.md 'Character and body model'); if shown, MASR at x 150 y 1585 s 0.6, kara captions at left 330 width 640 top 1352, nothing important below ~1536 px or under the mascot. Pillar palette (Animals: a new warm palette you define; Designed: reuse ep54 teal; Kitchen: ep53's; Brain / Body: define one each, not navy).
 - SFX via `tools/sfx.py` on every visible event, loud events ≤ −7 dB; list the SFX timings in your report.
 - Descriptions: no mention of AI, Claude, TTS, Kokoro, or how it was made. Metadata in `meta_en.json` + `youtube-metadata.md` (title, description, tags, pinned-comment question, playlist, Related ep), translations for vi, th, ja, ko, zh-Hant, id, fil in `tr_output.json` (title, description, subtitles) and run compose_tr.py.
 - Do NOT commit or push, do NOT edit CLAUDE.md, do NOT touch YouTube/Chrome. The lead merges and uploads.
