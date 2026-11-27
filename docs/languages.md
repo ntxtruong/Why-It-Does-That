@@ -25,7 +25,8 @@ Views are counted from the first frame since 2026-08-27, and a country is not pr
 |---|---|---|
 | Subtitles and translated titles/descriptions | vi, th, ja, ko, zh-Hant, id, fil | standing |
 | Subtitles and translated titles/descriptions, **trial** | hi, ms, pl | start with the first run after 2026-11-26; keep to subtitles, title and description |
-| Later candidate | de | add when its audience passes the rule below |
+| Subtitles and translated titles/descriptions, **trial** (added 2026-11-27) | de | DE 158 views in 28 days passes the rule; machine translation, glossary table to be started by the translation agent |
+| Watch | cs (CZ 100), ro (RO 100) | at the threshold on 2026-11-27; add if still >= 100 next week |
 | Dubbed audio | ja (jf_alpha), zh-Hant (zf_xiaobei) | standing from ep 61 |
 | Dubbed audio, **trial** | hi (Kokoro, lang_code `h`) | one Unlisted Short only, see below |
 | Dubbed audio on hold | vi, th, id, ko | until Trường decides |
@@ -52,3 +53,4 @@ Views are counted from the first frame since 2026-08-27, and a country is not pr
 | Date | Decision |
 |---|---|
 | 2026-11-26 | Added hi, ms, pl to the subtitle/metadata list (trial) and a hi dub trial; de listed as next candidate. Reason: IN 604, MY 255, PL 122 views in 28 days. |
+| 2026-11-27 | Added de to the subtitle/metadata trial list (DE 158 views in 28 days; US 2,780, PH 2,289, ID 1,065, IN 802, GB 486, MY 422, BD 227 unchanged). cs (CZ 100) and ro (RO 100) on watch. No dub added. |
